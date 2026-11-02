@@ -1,0 +1,69 @@
+[{"stream_name":"stdout","time":4.8801205,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.956389767,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 87.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.994160705,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 25.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.034985175,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 15.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.675112035,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 31.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.718899198,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 20.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":43.017841072,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":141.855619147,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [01:16\u003c05:07, 76.77s/it]\rFetching 5 files: 100%|██████████| 5/5 [01:16\u003c00:00, 15.36s/it]\n"}
+,{"stream_name":"stderr","time":185.030125835,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  20%|██        | 1/5 [00:06\u003c00:27,  6.86s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:15\u003c00:23,  7.85s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:24\u003c00:16,  8.35s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:32\u003c00:08,  8.22s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:37\u003c00:00,  6.99s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:37\u003c00:00,  7.44s/it]\n"}
+,{"stream_name":"stdout","time":185.688983817,"data":"base scoped r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":185.689191006,"data":"base scoped r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":185.689425829,"data":"base scoped r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stderr","time":185.729513504,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":195.938346752,"data":"base scoped r009-known-chart ready 90\n"}
+,{"stream_name":"stdout","time":205.517946189,"data":"base scoped r009-ownership-evidence ready 82\n"}
+,{"stream_name":"stdout","time":213.645697318,"data":"base scoped r009-signature-title ready 73\n"}
+,{"stream_name":"stdout","time":222.476096433,"data":"base scoped r009-sell-direction ready 80\n"}
+,{"stream_name":"stdout","time":230.742200574,"data":"base scoped r009-missing-study ready 72\n"}
+,{"stream_name":"stdout","time":239.61667956,"data":"base scoped t008-sell-240-245 ready 78\n"}
+,{"stream_name":"stdout","time":247.858801365,"data":"base scoped t008-buy-240-235 ready 72\n"}
+,{"stream_name":"stdout","time":257.16234423,"data":"base scoped t008-buy-240-245 ready 84\n"}
+,{"stream_name":"stdout","time":267.642436219,"data":"base scoped t008-sell-0.1001-0.1000 ready 97\n"}
+,{"stream_name":"stdout","time":275.741437468,"data":"base scoped t008-buy-240-240 ready 72\n"}
+,{"stream_name":"stdout","time":275.741667021,"data":"base scoped_tools r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":275.741952503,"data":"base scoped_tools r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":275.742216922,"data":"base scoped_tools r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stdout","time":285.431459278,"data":"base scoped_tools r009-known-chart ready 90\n"}
+,{"stream_name":"stdout","time":295.257402283,"data":"base scoped_tools r009-ownership-evidence ready 82\n"}
+,{"stream_name":"stdout","time":303.546674408,"data":"base scoped_tools r009-signature-title ready 73\n"}
+,{"stream_name":"stdout","time":316.894295108,"data":"base scoped_tools r009-sell-direction ready 121\n"}
+,{"stream_name":"stdout","time":325.120365701,"data":"base scoped_tools r009-missing-study ready 72\n"}
+,{"stream_name":"stdout","time":336.391438928,"data":"base scoped_tools t008-sell-240-245 ready 97\n"}
+,{"stream_name":"stdout","time":345.432885869,"data":"base scoped_tools t008-buy-240-235 ready 72\n"}
+,{"stream_name":"stdout","time":357.559818118,"data":"base scoped_tools t008-buy-240-245 ready 106\n"}
+,{"stream_name":"stdout","time":369.526846375,"data":"base scoped_tools t008-sell-0.1001-0.1000 ready 105\n"}
+,{"stream_name":"stdout","time":379.088232391,"data":"base scoped_tools t008-buy-240-240 ready 79\n"}
+,{"stream_name":"stdout","time":379.271412034,"data":"adapter009 scoped r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":379.271645514,"data":"adapter009 scoped r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":379.271927377,"data":"adapter009 scoped r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stdout","time":389.350763704,"data":"adapter009 scoped r009-known-chart ready 79\n"}
+,{"stream_name":"stdout","time":399.17918402,"data":"adapter009 scoped r009-ownership-evidence ready 67\n"}
+,{"stream_name":"stdout","time":409.344721747,"data":"adapter009 scoped r009-signature-title ready 79\n"}
+,{"stream_name":"stdout","time":419.416607664,"data":"adapter009 scoped r009-sell-direction ready 79\n"}
+,{"stream_name":"stdout","time":429.699446261,"data":"adapter009 scoped r009-missing-study ready 81\n"}
+,{"stream_name":"stdout","time":439.645896685,"data":"adapter009 scoped t008-sell-240-245 ready 78\n"}
+,{"stream_name":"stdout","time":449.114537148,"data":"adapter009 scoped t008-buy-240-235 ready 73\n"}
+,{"stream_name":"stdout","time":460.523323612,"data":"adapter009 scoped t008-buy-240-245 ready 93\n"}
+,{"stream_name":"stdout","time":470.6475124,"data":"adapter009 scoped t008-sell-0.1001-0.1000 ready 80\n"}
+,{"stream_name":"stdout","time":479.920297032,"data":"adapter009 scoped t008-buy-240-240 ready 72\n"}
+,{"stream_name":"stdout","time":479.920500871,"data":"adapter009 scoped_tools r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":479.920700682,"data":"adapter009 scoped_tools r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":479.920970911,"data":"adapter009 scoped_tools r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stdout","time":490.026886338,"data":"adapter009 scoped_tools r009-known-chart ready 79\n"}
+,{"stream_name":"stdout","time":499.707381515,"data":"adapter009 scoped_tools r009-ownership-evidence ready 67\n"}
+,{"stream_name":"stdout","time":509.827682925,"data":"adapter009 scoped_tools r009-signature-title ready 79\n"}
+,{"stream_name":"stdout","time":522.23051972,"data":"adapter009 scoped_tools r009-sell-direction ready 93\n"}
+,{"stream_name":"stdout","time":532.514025745,"data":"adapter009 scoped_tools r009-missing-study ready 81\n"}
+,{"stream_name":"stdout","time":543.703880778,"data":"adapter009 scoped_tools t008-sell-240-245 ready 81\n"}
+,{"stream_name":"stdout","time":554.16436639,"data":"adapter009 scoped_tools t008-buy-240-235 ready 75\n"}
+,{"stream_name":"stdout","time":566.77984587,"data":"adapter009 scoped_tools t008-buy-240-245 ready 95\n"}
+,{"stream_name":"stdout","time":580.144661097,"data":"adapter009 scoped_tools t008-sell-0.1001-0.1000 ready 101\n"}
+,{"stream_name":"stdout","time":593.142013323,"data":"adapter009 scoped_tools t008-buy-240-240 ready 99\n"}
+,{"stream_name":"stderr","time":599.516120286,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":599.516161739,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":599.818260557,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":599.818301304,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":600.466240055,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":601.564302457,"data":"[NbConvertApp] Writing 336439 bytes to __results__.html\n"}
+]

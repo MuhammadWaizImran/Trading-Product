@@ -1,0 +1,7 @@
+{
+  "training_executed": false,
+  "cases": 12,
+  "generations": 24,
+  "comparison": "Same six exposed failures, multi-passage versus manually selected relevant passage, both base and adapter015. Oracle selection diagnostic; not automatic retrieval or independent acceptance.",
+  "adapter_sha256": "5f1a07e15ebf046e8c6300c8cedc779deaf15a975668326e9e0e41a6d13fe6ef"
+}

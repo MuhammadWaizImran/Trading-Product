@@ -1,0 +1,16 @@
+{
+  "base": {
+    "records": 100,
+    "model_invocations": 50,
+    "truncations": 0,
+    "sha256": "a913cb0dea09caff572888b7aa88a77b80978fc5aa275bb17022701dde1a7917",
+    "deterministic_routes_verified": 50
+  },
+  "adapter010": {
+    "records": 100,
+    "model_invocations": 50,
+    "truncations": 0,
+    "sha256": "ea04b0059c5dca9f8974b90df6d10a15009f7772aff318613a683600a12c12ae",
+    "deterministic_routes_verified": 50
+  }
+}

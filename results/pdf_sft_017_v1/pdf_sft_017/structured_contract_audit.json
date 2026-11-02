@@ -1,0 +1,27 @@
+{
+  "baseline": {
+    "records": 50,
+    "contract_passes": 48,
+    "errors": [
+      {
+        "id": "dp01-retry-test-layer-capacity",
+        "error": "insufficient with citation"
+      },
+      {
+        "id": "dp04-test-chart-current",
+        "error": "insufficient with citation"
+      }
+    ]
+  },
+  "adapted": {
+    "records": 50,
+    "contract_passes": 50,
+    "errors": []
+  },
+  "reloaded": {
+    "records": 50,
+    "contract_passes": 50,
+    "errors": []
+  },
+  "semantic_review": "Still required: valid JSON and existing IDs do not prove support, correct status or correct calculations."
+}

@@ -1,0 +1,1546 @@
+[
+  {
+    "id": "DP01",
+    "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+    "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+    "duplicate_of": null,
+    "pages": 114,
+    "words": 59626,
+    "image_only_pages": [
+      2,
+      8,
+      12,
+      14,
+      16,
+      66,
+      113
+    ],
+    "sparse_pages": [
+      1,
+      2,
+      3,
+      8,
+      12,
+      14,
+      15,
+      16,
+      65,
+      66,
+      113
+    ],
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "Pdftools SDK",
+      "creationDate": "",
+      "modDate": "D:20241014180648Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "cb6811e0d869eba6775c76005684cb8f2ee70d3d7d6123426dc413501bd34d1d"
+  },
+  {
+    "id": "DP02",
+    "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group.pdf",
+    "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+    "duplicate_of": "DP01",
+    "pages": 114,
+    "words": 59626,
+    "text_hash": "cb6811e0d869eba6775c76005684cb8f2ee70d3d7d6123426dc413501bd34d1d"
+  },
+  {
+    "id": "DP03",
+    "file": "03.-Crypto-currencies-and-the-Future-oF-Money-Author-IE-University.pdf",
+    "sha256": "d552d0c55596004465bcd8ba7a4a343add807ca331af842ea6f1bd17c7c30883",
+    "duplicate_of": null,
+    "pages": 116,
+    "words": 33314,
+    "image_only_pages": [],
+    "sparse_pages": [
+      1,
+      7,
+      14,
+      17,
+      35,
+      45,
+      69,
+      79,
+      84,
+      86,
+      94,
+      104,
+      114,
+      116
+    ],
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "Pdftools SDK",
+      "creationDate": "",
+      "modDate": "D:20241014180641Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "46e60ef0e82ab055811e7111fb0e94894efd19f098a737c0e45f942efcc54a7b"
+  },
+  {
+    "id": "DP04",
+    "file": "06.-The-Future-of-Exchanging-Value-Cryptocurrencies-and-the-trust-economy-Author-Nicholas-Gruen.pdf",
+    "sha256": "474696eac91761b2f96c5ca3c4d899e3ca768c72ca836631800312c8471607dc",
+    "duplicate_of": null,
+    "pages": 68,
+    "words": 21595,
+    "image_only_pages": [
+      2
+    ],
+    "sparse_pages": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      10,
+      11,
+      18,
+      19,
+      25,
+      26,
+      27,
+      33,
+      34,
+      35,
+      42,
+      44,
+      45,
+      53,
+      54,
+      55
+    ],
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "Pdftools SDK",
+      "creationDate": "",
+      "modDate": "D:20241014180646Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "564bd3e9844d10b8fc38dbf7a7b2748daca88f63c7a74e3bee87f71ad9b90dc3"
+  },
+  {
+    "id": "DP05",
+    "file": "585511457-Crypto-for-Beginners-Technical-Analysis-Course.pdf",
+    "sha256": "7a1dad19f2705ade1a6208360ae92fd41dc2264a1a1a65c8d1a4448eb9ba6b09",
+    "duplicate_of": null,
+    "pages": 49,
+    "words": 7011,
+    "image_only_pages": [],
+    "sparse_pages": [
+      1,
+      4,
+      6,
+      10,
+      16,
+      17,
+      20,
+      27,
+      30,
+      36,
+      41,
+      43,
+      47,
+      48,
+      49
+    ],
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "Microsoft Word - Ebook CWA.docx",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Word",
+      "producer": "Mac OS X 10.11.3 Quartz PDFContext",
+      "creationDate": "D:20220804103710Z00'00'",
+      "modDate": "D:20220804103710Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "8c189fea9343c02a2341732cf3aa0999f2b8c8ff6591e3864062cfacd8ecbcfc"
+  },
+  {
+    "id": "DP06",
+    "file": "593280526-Risk-Management.pdf",
+    "sha256": "8a8ce394328e1ad7e7c1acfbac6338ebdb92b006075243d323f5a2f128a05e2d",
+    "duplicate_of": null,
+    "pages": 11,
+    "words": 1974,
+    "image_only_pages": [],
+    "sparse_pages": [
+      1,
+      2
+    ],
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign CC 13.0 (Windows)",
+      "producer": "Adobe PDF Library 15.0",
+      "creationDate": "D:20200130025212+08'00'",
+      "modDate": "D:20200130025214+08'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [
+      [
+        1,
+        "Welcome",
+        3
+      ],
+      [
+        1,
+        "RISK:REWARD",
+        4
+      ],
+      [
+        1,
+        "R Calculation",
+        5
+      ],
+      [
+        1,
+        "posItion size",
+        6
+      ],
+      [
+        1,
+        "preparation",
+        7
+      ],
+      [
+        1,
+        "WIN RATES",
+        8
+      ],
+      [
+        1,
+        "comparing trades",
+        9
+      ],
+      [
+        1,
+        "portfolio growth",
+        10
+      ]
+    ],
+    "text_hash": "560d46ae33ab0c940022fd96255a8a0771067b2e863d8bcba01e5e4a3de8e566"
+  },
+  {
+    "id": "DP07",
+    "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+    "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+    "duplicate_of": null,
+    "pages": 31,
+    "words": 4503,
+    "image_only_pages": [],
+    "sparse_pages": [
+      1,
+      15
+    ],
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "Introduction to On-Chain Analysis",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "Skia/PDF m116 Google Docs Renderer",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "e5919989656ce3dac9a5da4cc96095dd40174e217fc46fac040c7e3b7b078693"
+  },
+  {
+    "id": "DP08",
+    "file": "705667332-Binary-Options-Trading-Bible.pdf",
+    "sha256": "dc5cbd39345eab1eee8344c02fc6bf2c692f534fd999f3a010a3ec69b151a96a",
+    "duplicate_of": null,
+    "pages": 119,
+    "words": 11429,
+    "image_only_pages": [
+      1,
+      2
+    ],
+    "sparse_pages": [
+      1,
+      2,
+      22,
+      33,
+      35,
+      38,
+      39,
+      42,
+      43,
+      66,
+      73,
+      78,
+      79,
+      85,
+      87,
+      95,
+      101,
+      102,
+      112,
+      114,
+      116
+    ],
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "",
+      "author": "ADMIN",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® Word 2013",
+      "producer": "Microsoft® Word 2013",
+      "creationDate": "D:20231106205327+05'30'",
+      "modDate": "D:20231106205327+05'30'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "975fe69408ab73161fde0defc769cc7022fbd320f184bdda47d84e85ee870e4c"
+  },
+  {
+    "id": "DP09",
+    "file": "739808043-SAMI-MALIK-SIR-SURESHOTS.pdf",
+    "sha256": "be44d359b15f189c772995c48d11044f375b0fe6fe92b5ad2e7f9a173ded85a8",
+    "duplicate_of": null,
+    "pages": 8,
+    "words": 0,
+    "image_only_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sparse_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+  },
+  {
+    "id": "DP10",
+    "file": "820809429-Mastering-Crypto-Day-Trading-From-Blockchain-Basics-to-Profits.pdf",
+    "sha256": "d94ec2b89f70cd07de729d5798258303ccd6171cbf149919e1f225ed3ae7b807",
+    "duplicate_of": null,
+    "pages": 306,
+    "words": 38192,
+    "image_only_pages": [],
+    "sparse_pages": [
+      1,
+      249
+    ],
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "White and Brown Modern Money to Life Book Cover",
+      "author": "Joshua Chinni",
+      "subject": "",
+      "keywords": "DAGc2JDa9Iw,BAGcnkrff1A",
+      "creator": "Canva",
+      "producer": "Canva",
+      "creationDate": "D:20250125010352+00'00'",
+      "modDate": "D:20250125010338+00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "139a3b2967b6634aaa027e70c1499a553a6d44260bc597380a1fd70c517f232f"
+  },
+  {
+    "id": "DP11",
+    "file": "837468574-Waqar-Zaka-Priate-Group-Lectures.pdf",
+    "sha256": "a2f6ca36c74aee1bc63fe05948e722ba1d7012d070d5a7286eaf47de5d5227ec",
+    "duplicate_of": null,
+    "pages": 44,
+    "words": 9919,
+    "image_only_pages": [
+      27
+    ],
+    "sparse_pages": [
+      27,
+      44
+    ],
+    "metadata": {
+      "format": "PDF 1.6",
+      "title": "",
+      "author": "Mudassar Ali",
+      "subject": "",
+      "keywords": "",
+      "creator": "Writer",
+      "producer": "LibreOffice 7.5",
+      "creationDate": "D:20250310093615Z'",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [
+      [
+        1,
+        "FOr New comers | Kaise Spot Trading Ke Liye Coin Select Karein?",
+        1
+      ],
+      [
+        1,
+        "LECTURE 01",
+        2
+      ],
+      [
+        1,
+        "LECTURE 02",
+        5
+      ],
+      [
+        1,
+        "FOr New comers | Kaise Spot Trading Ke Liye Coin Select Karein?",
+        5
+      ],
+      [
+        2,
+        "STEP 1: Coin Hunting for Spot Trading",
+        5
+      ],
+      [
+        2,
+        "Steps:",
+        5
+      ],
+      [
+        2,
+        "STEP 2: Spot Trading Analysis on TradingView",
+        5
+      ],
+      [
+        2,
+        "Support Aur Resistance Kya Hai?",
+        5
+      ],
+      [
+        2,
+        "Kaise Use Karein?",
+        5
+      ],
+      [
+        2,
+        "Indicators for Spot Trading:",
+        6
+      ],
+      [
+        2,
+        "STEP 3: Volume Aur Price Ka Rishta Samajhna",
+        6
+      ],
+      [
+        2,
+        "Volume Kya Hai?",
+        6
+      ],
+      [
+        2,
+        "Volume Aur Candles Ka Rishta:",
+        6
+      ],
+      [
+        2,
+        "Logic:",
+        6
+      ],
+      [
+        2,
+        "STEP 4: New Coins Ke Liye Analysis Kaise Karein?",
+        6
+      ],
+      [
+        2,
+        "Conclusion:",
+        7
+      ],
+      [
+        1,
+        "LECTURE 03",
+        8
+      ],
+      [
+        2,
+        "Ultimate Futures Trading Guide: Why It Can Be Halal if Done Responsibly (Roman Urdu)",
+        13
+      ],
+      [
+        2,
+        "Warning: Seek Knowledge First!",
+        13
+      ],
+      [
+        2,
+        "Futures Trading Ka Concept (Simplified)",
+        13
+      ],
+      [
+        2,
+        "Islamic Perspective: Halal Ya Haram?",
+        14
+      ],
+      [
+        2,
+        "Quranic Justification of Contracts",
+        14
+      ],
+      [
+        2,
+        "Hadith on Gharar",
+        14
+      ],
+      [
+        2,
+        "Exchange Leverage System Explained",
+        14
+      ],
+      [
+        2,
+        "Exchange Paisa Kahan Se Laati Hai?",
+        15
+      ],
+      [
+        2,
+        "Liquidation Ke Baad Exchange Aapke Peechay Kyon Nahi Aati?",
+        15
+      ],
+      [
+        2,
+        "Funding Rate Halal Hai Ya Haram?",
+        15
+      ],
+      [
+        2,
+        "Betting Ka Shuba: Futures Gambling Hai Ya Nahi?",
+        15
+      ],
+      [
+        2,
+        "Logic Against Gambling",
+        15
+      ],
+      [
+        2,
+        "Physical Possession Ka Masla",
+        16
+      ],
+      [
+        2,
+        "Halal Justification of Futures Trading",
+        16
+      ],
+      [
+        2,
+        "Examples of Halal Businesses Where Others Lose",
+        17
+      ],
+      [
+        2,
+        "Checklist for Halal Futures Trading",
+        17
+      ],
+      [
+        2,
+        "Ending Note",
+        17
+      ],
+      [
+        2,
+        "You said:",
+        17
+      ],
+      [
+        2,
+        "ChatGPT said:",
+        17
+      ],
+      [
+        2,
+        "Ultimate Futures Trading Guide: Why It Can Be Halal if Done Responsibly (Roman Urdu)",
+        17
+      ],
+      [
+        2,
+        "Warning: Seek Knowledge First!",
+        18
+      ],
+      [
+        2,
+        "Futures Trading Ka Concept (Simplified)",
+        18
+      ],
+      [
+        2,
+        "Islamic Perspective: Halal Ya Haram?",
+        18
+      ],
+      [
+        2,
+        "Quranic Justification of Contracts",
+        18
+      ],
+      [
+        2,
+        "Hadith on Gharar",
+        19
+      ],
+      [
+        2,
+        "Funding Rate Explained with Local Example",
+        19
+      ],
+      [
+        2,
+        "Funding Rate Kya Hai?",
+        19
+      ],
+      [
+        2,
+        "Positive Funding Rate",
+        19
+      ],
+      [
+        2,
+        "Negative Funding Rate",
+        19
+      ],
+      [
+        2,
+        "Local Pakistani Example",
+        19
+      ],
+      [
+        2,
+        "Funding Rate Ka Impact on Market",
+        20
+      ],
+      [
+        2,
+        "Leverage Aur Exchange Ka System",
+        20
+      ],
+      [
+        2,
+        "Exchange Paisa Kahan Se Laati Hai?",
+        20
+      ],
+      [
+        2,
+        "Betting Ka Shuba: Futures Gambling Hai Ya Nahi?",
+        21
+      ],
+      [
+        2,
+        "Logic Against Gambling",
+        21
+      ],
+      [
+        2,
+        "Physical Possession Ka Masla",
+        21
+      ],
+      [
+        2,
+        "Checklist for Halal Futures Trading",
+        22
+      ],
+      [
+        2,
+        "Ending Note",
+        22
+      ],
+      [
+        1,
+        "LECTURE 04",
+        23
+      ],
+      [
+        1,
+        "LECTURE 05",
+        28
+      ],
+      [
+        2,
+        " Trade Logic aur Indicators:",
+        28
+      ],
+      [
+        2,
+        " Total Investment:",
+        29
+      ],
+      [
+        2,
+        " Trade Investment:",
+        29
+      ],
+      [
+        2,
+        " Leverage:",
+        29
+      ],
+      [
+        2,
+        " Entry Price:",
+        29
+      ],
+      [
+        2,
+        " Liquidation Price:",
+        29
+      ],
+      [
+        2,
+        " Stop Loss:",
+        29
+      ],
+      [
+        2,
+        " Profit/Loss Calculation:",
+        30
+      ],
+      [
+        1,
+        "LECTURE 06",
+        30
+      ],
+      [
+        1,
+        "LECTURE 07",
+        37
+      ],
+      [
+        2,
+        "5 Minutes per Trade: Spot ya Future Trading Sirf RSI ke Sath",
+        37
+      ],
+      [
+        2,
+        "RSI Hota Kya Hai?",
+        37
+      ],
+      [
+        2,
+        "Bitcoin per RSI Use Karke Sirf 5-Minute Trades",
+        38
+      ],
+      [
+        2,
+        "1. TradingView Settings:",
+        38
+      ],
+      [
+        2,
+        "2. Spot Trading Strategy (Scalping):",
+        38
+      ],
+      [
+        2,
+        "3. Futures Trading Strategy:",
+        38
+      ],
+      [
+        2,
+        "Tricks & Pro Tips:",
+        38
+      ],
+      [
+        2,
+        "Galat Signals Kab Milte Hain?",
+        39
+      ],
+      [
+        2,
+        "Practice Karo aur Pro Bano",
+        39
+      ],
+      [
+        2,
+        "1. Trade Exit Kab Karni Hai?",
+        39
+      ],
+      [
+        2,
+        "(a) Jab Profit Target Pura Ho Jaye:",
+        39
+      ],
+      [
+        2,
+        "(b) Jab Market Reversal Ho:",
+        39
+      ],
+      [
+        2,
+        "(c) Time-Based Exit:",
+        39
+      ],
+      [
+        2,
+        "(d) Jab Stop-Loss Hit Ho:",
+        40
+      ],
+      [
+        2,
+        "2. Risk-to-Reward Ratio (R:R)",
+        40
+      ],
+      [
+        2,
+        "Best Ratios for Scalping:",
+        40
+      ],
+      [
+        2,
+        "Example:",
+        40
+      ],
+      [
+        2,
+        "3. Risk-to-Reward Ratio Kyon Zaroori Hai?",
+        40
+      ],
+      [
+        2,
+        "4. Quick Tips for Exit & Risk Management:",
+        40
+      ],
+      [
+        2,
+        "Problem Samajhna:",
+        41
+      ],
+      [
+        2,
+        "2. Iska Solution: Practical Steps",
+        41
+      ],
+      [
+        2,
+        "(a) Confirm RSI Divergence Ke Baad Price Action:",
+        41
+      ],
+      [
+        2,
+        "(b) RSI Mid-Zone Ko Avoid Karo:",
+        41
+      ],
+      [
+        2,
+        "(c) Confluence Strategy Use Karo:",
+        42
+      ],
+      [
+        2,
+        "(d) Higher Timeframe Check Karo:",
+        42
+      ],
+      [
+        2,
+        "(e) Stop-Loss Aur Targets Define Karo:",
+        42
+      ],
+      [
+        2,
+        "3. Practical Example:",
+        42
+      ],
+      [
+        2,
+        "Scenario:",
+        42
+      ],
+      [
+        2,
+        "Steps:",
+        42
+      ],
+      [
+        2,
+        "4. Important Rules:",
+        43
+      ]
+    ],
+    "text_hash": "48f0504746b39b49731d9c614cb84c92dd6eb19d95e638a4c347c7b0c1deeae0"
+  },
+  {
+    "id": "DP12",
+    "file": "845233889-Advance-Liquidity-Trading-Concept-49.pdf",
+    "sha256": "756c4585bd2f4e5ddc0fd1f80f911e82ff740e40c9b4e5917b7b8a4380d66d81",
+    "duplicate_of": null,
+    "pages": 49,
+    "words": 5659,
+    "image_only_pages": [
+      1
+    ],
+    "sparse_pages": [
+      1,
+      2,
+      8,
+      35,
+      45,
+      46
+    ],
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "LIQUIDITY TRADING: The Ultimate Liquidity concept, Liquidity pools, Mitigation, Imbalances, Stop Hunts and Manipulation, Price Action, Supply and Demand, Order Block Trading Guide",
+      "author": "Daniel Stones",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® Word 2019",
+      "producer": "Microsoft® Word 2019",
+      "creationDate": "D:20230629180730+07'00'",
+      "modDate": "D:20230722131024+07'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [
+      [
+        1,
+        "Blank Page",
+        1
+      ]
+    ],
+    "text_hash": "4495dd4319c43694274be27e4795ec84476a0121047c9db7ae320d2e67eb0f18"
+  },
+  {
+    "id": "DP13",
+    "file": "860990854-E-Book-Binary-sun-7-2023.pdf",
+    "sha256": "a0299d14d49317e1ba177ec835bb5d6cfddeed325329b79f11fcd60d70398590",
+    "duplicate_of": null,
+    "pages": 70,
+    "words": 3847,
+    "image_only_pages": [
+      5,
+      10,
+      36,
+      47,
+      49,
+      67,
+      70
+    ],
+    "sparse_pages": [
+      5,
+      10,
+      14,
+      15,
+      22,
+      23,
+      24,
+      25,
+      28,
+      30,
+      33,
+      34,
+      35,
+      36,
+      37,
+      42,
+      43,
+      44,
+      46,
+      47,
+      49,
+      53,
+      54,
+      55,
+      56,
+      59,
+      61,
+      62,
+      66,
+      67,
+      69,
+      70
+    ],
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "iLovePDF",
+      "creationDate": "",
+      "modDate": "D:20230429133118Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "04a459a723e2e67b1317dd7168a5ee03725eeded8472f539402251747b487455"
+  },
+  {
+    "id": "DP14",
+    "file": "874145645-Chart-Pattern-Urdu.pdf",
+    "sha256": "43534fdf87bfa6fb2b8ddeeca83add9d101934c028d2aa5e9e1a63c420634559",
+    "duplicate_of": null,
+    "pages": 18,
+    "words": 0,
+    "image_only_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "sparse_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "iText® 5.5.10 ©2000-2015 iText Group NV (AGPL-version)",
+      "creationDate": "D:20230821095208+05'00'",
+      "modDate": "D:20230821095208+05'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068"
+  },
+  {
+    "id": "DP15",
+    "file": "bitcoin-and-beyond-malcolm-campbell-verduyn-8300.pdf",
+    "sha256": "4d47b43d51d183947ae6879bb96a740b23dba8ea49191ee1f99e7408d9c5be70",
+    "duplicate_of": null,
+    "pages": 224,
+    "words": 96052,
+    "image_only_pages": [
+      16,
+      224
+    ],
+    "sparse_pages": [
+      1,
+      2,
+      5,
+      10,
+      16,
+      224
+    ],
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Bitcoin and Beyond",
+      "author": "Malcolm Campbell-Verduyn",
+      "subject": "Descarga libros gratis de manera legal en InfoLibros.org. El mejor sitio para leer y descargar libros gratis en PDF.",
+      "keywords": "InfoLibros",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "5f464362e9fbf004442d423900bdfee8ed6c183b76450e92b1f4b986abec015e"
+  },
+  {
+    "id": "DP16",
+    "file": "bitcoin-and-cryptocurrency-technologies-arvind-narayanan-joseph-bonneau-edward-felten-andrew-miller-steven-goldfeder-8297.pdf",
+    "sha256": "fe0b465006e15681d1ea11fb653580193cea56f7f58de136955c11574fa66fc2",
+    "duplicate_of": null,
+    "pages": 309,
+    "words": 138946,
+    "image_only_pages": [],
+    "sparse_pages": [
+      1,
+      157
+    ],
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "Bitcoin and Cryptocurrency Technologies",
+      "author": "Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, Steven Goldfeder",
+      "subject": "Descarga libros gratis de manera legal en InfoLibros.org. El mejor sitio para leer y descargar libros gratis en PDF.",
+      "keywords": "InfoLibros",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "69af48ad03630a2abf67dc2b7a9ed1f468621c5b56aec4e12f11893dfa1c5e52"
+  },
+  {
+    "id": "DP17",
+    "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+    "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+    "duplicate_of": null,
+    "pages": 67,
+    "words": 12397,
+    "image_only_pages": [
+      1
+    ],
+    "sparse_pages": [
+      1
+    ],
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "Cryptocurrency Trading eBook",
+      "author": "Binance Academy",
+      "subject": "Descarga libros gratis de manera legal en InfoLibros.org. El mejor sitio para leer y descargar libros gratis en PDF.",
+      "keywords": "InfoLibros",
+      "creator": "",
+      "producer": "GPL Ghostscript 9.26",
+      "creationDate": "D:20210222142724Z00'00'",
+      "modDate": "D:20210222142724Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "04f3e0bdfd7524411d43a65681fbfef7bf555c7e597fbf10f6a2f823d8063f0d"
+  },
+  {
+    "id": "DP18",
+    "file": "mastering-bitcoin-andreas-m-antonopoulos-8298.pdf",
+    "sha256": "25b2ef0ceeae6e78e707b20376f040907fe95901249a993bdffc3b675d6440ad",
+    "duplicate_of": null,
+    "pages": 299,
+    "words": 86960,
+    "image_only_pages": [
+      5,
+      13,
+      21,
+      25,
+      39,
+      55,
+      85,
+      133,
+      197,
+      239,
+      255,
+      267,
+      281,
+      287
+    ],
+    "sparse_pages": [
+      1,
+      2,
+      5,
+      6,
+      13,
+      21,
+      24,
+      25,
+      39,
+      44,
+      55,
+      85,
+      133,
+      150,
+      165,
+      166,
+      190,
+      197,
+      239,
+      255,
+      267,
+      281,
+      287
+    ],
+    "metadata": {
+      "format": "PDF 1.6",
+      "title": "Mastering Bitcoin",
+      "author": "Andreas M. Antonopoulos",
+      "subject": "Descarga libros gratis de manera legal en InfoLibros.org. El mejor sitio para leer y descargar libros gratis en PDF.",
+      "keywords": "InfoLibros",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "b7dafa34fbaad2eb205cd93bfa0fe8dbd9ea0e0484c229ce765c337c02776696"
+  },
+  {
+    "id": "DP19",
+    "file": "Order_Book_Liquidity_on_Crypto_Exchanges (1).pdf",
+    "sha256": "7190740df68bbb7c0cc97537df07ec9f8164bafb94a5f83d0c0cd43d795785ed",
+    "duplicate_of": null,
+    "pages": 29,
+    "words": 14981,
+    "image_only_pages": [],
+    "sparse_pages": [],
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Order Book Liquidity on Crypto Exchanges",
+      "author": "Martin Angerer, Marius Gramlich and Michael Hanke",
+      "subject": "We analyze intraday liquidity for a range of cryptocurrencies across different exchanges. Among the liquidity measures used, order book variation is most interesting for crypto traders, as it directly impacts their profit/loss. We find evidence that order book variation can be explained by liquidity measures indicating that trades are timed. We report various liquidity patterns that allow traders to increase their profits by minimizing liquidity-dependent trading costs. We further find indications that crypto exchanges can control liquidity by the number of offered currency pairs.",
+      "keywords": "cryptocurrencies; liquidity; market microstructure",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.25",
+      "creationDate": "D:20250227201840+08'00'",
+      "modDate": "D:20250227135731+01'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [
+      [
+        1,
+        "Introduction",
+        1
+      ],
+      [
+        1,
+        "Literature",
+        2
+      ],
+      [
+        2,
+        "Liquidity in Order Books",
+        2
+      ],
+      [
+        2,
+        "Liquidity Measures in Order Books",
+        3
+      ],
+      [
+        1,
+        "Data",
+        5
+      ],
+      [
+        2,
+        "Raw Data",
+        5
+      ],
+      [
+        2,
+        "Data Processing",
+        5
+      ],
+      [
+        2,
+        "Descriptive Statistics",
+        6
+      ],
+      [
+        1,
+        "Methodology",
+        9
+      ],
+      [
+        2,
+        "Order Book Spread",
+        9
+      ],
+      [
+        2,
+        "Order Book Depth",
+        10
+      ],
+      [
+        2,
+        "Order Book Variation",
+        11
+      ],
+      [
+        2,
+        "Order Book Imbalance",
+        12
+      ],
+      [
+        1,
+        "Results",
+        13
+      ],
+      [
+        2,
+        "Spreads",
+        13
+      ],
+      [
+        2,
+        "Depth",
+        15
+      ],
+      [
+        2,
+        "Order Book Variation",
+        18
+      ],
+      [
+        2,
+        "Order Book Imbalance",
+        20
+      ],
+      [
+        2,
+        "Regression Results for Order Book Variation",
+        22
+      ],
+      [
+        1,
+        "Conclusions",
+        25
+      ],
+      [
+        1,
+        "References",
+        27
+      ]
+    ],
+    "text_hash": "2c06917bee42a176e4a2a838580c7eb4f26df701c1dcdcee094d2a503d952991"
+  },
+  {
+    "id": "DP20",
+    "file": "Order_Book_Liquidity_on_Crypto_Exchanges.pdf",
+    "sha256": "674862ca29feb530a949b30c60369878b9dd1e5215fbed56ce249de0800d783c",
+    "duplicate_of": null,
+    "pages": 29,
+    "words": 14984,
+    "image_only_pages": [],
+    "sparse_pages": [],
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Order Book Liquidity on Crypto Exchanges",
+      "author": "Martin Angerer, Marius Gramlich and Michael Hanke",
+      "subject": "We analyze intraday liquidity for a range of cryptocurrencies across different exchanges. Among the liquidity measures used, order book variation is most interesting for crypto traders, as it directly impacts their profit/loss. We find evidence that order book variation can be explained by liquidity measures indicating that trades are timed. We report various liquidity patterns that allow traders to increase their profits by minimizing liquidity-dependent trading costs. We further find indications that crypto exchanges can control liquidity by the number of offered currency pairs.",
+      "keywords": "cryptocurrencies; liquidity; market microstructure",
+      "creator": "LaTeX with hyperref",
+      "producer": "pdfTeX-1.40.25",
+      "creationDate": "D:20250325170847+08'00'",
+      "modDate": "D:20250325103025+01'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [
+      [
+        1,
+        "Introduction",
+        1
+      ],
+      [
+        1,
+        "Literature",
+        2
+      ],
+      [
+        2,
+        "Liquidity in Order Books",
+        2
+      ],
+      [
+        2,
+        "Liquidity Measures in Order Books",
+        3
+      ],
+      [
+        1,
+        "Data",
+        5
+      ],
+      [
+        2,
+        "Raw Data",
+        5
+      ],
+      [
+        2,
+        "Data Processing",
+        5
+      ],
+      [
+        2,
+        "Descriptive Statistics",
+        6
+      ],
+      [
+        1,
+        "Methodology",
+        9
+      ],
+      [
+        2,
+        "Order Book Spread",
+        9
+      ],
+      [
+        2,
+        "Order Book Depth",
+        10
+      ],
+      [
+        2,
+        "Order Book Variation",
+        11
+      ],
+      [
+        2,
+        "Order Book Imbalance",
+        12
+      ],
+      [
+        1,
+        "Results",
+        13
+      ],
+      [
+        2,
+        "Spreads",
+        13
+      ],
+      [
+        2,
+        "Depth",
+        15
+      ],
+      [
+        2,
+        "Order Book Variation",
+        18
+      ],
+      [
+        2,
+        "Order Book Imbalance",
+        20
+      ],
+      [
+        2,
+        "Regression Results for Order Book Variation",
+        22
+      ],
+      [
+        1,
+        "Conclusions",
+        25
+      ],
+      [
+        1,
+        "References",
+        27
+      ]
+    ],
+    "text_hash": "f06bd709870512b52046f4e1c212e7acdbf48f9541c2bbf2e0ce09bc92ccae15"
+  },
+  {
+    "id": "DP21",
+    "file": "the-economics-of-cryptocurrencies-bitcoin-and-beyond-jonathan-chiu-thorsten-v-koeppl-8301 (1).pdf",
+    "sha256": "6c90164ec5cb84be4e7445ea6ab470e14207aa4f4735748125bf8c225a3765e3",
+    "duplicate_of": null,
+    "pages": 60,
+    "words": 16709,
+    "image_only_pages": [],
+    "sparse_pages": [
+      1,
+      7,
+      10,
+      12
+    ],
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "The Economics of Cryptocurrencies: Bitcoin and Beyond",
+      "author": "Jonathan Chiu, Thorsten V. Koeppl",
+      "subject": "Descarga libros gratis de manera legal en InfoLibros.org. El mejor sitio para leer y descargar libros gratis en PDF.",
+      "keywords": "InfoLibros",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "toc": [],
+    "text_hash": "9736957eddde0a77b431127f4259c1d6d423113cbd82075ce2293653c8875983"
+  },
+  {
+    "id": "DP22",
+    "file": "the-economics-of-cryptocurrencies-bitcoin-and-beyond-jonathan-chiu-thorsten-v-koeppl-8301.pdf",
+    "sha256": "6c90164ec5cb84be4e7445ea6ab470e14207aa4f4735748125bf8c225a3765e3",
+    "duplicate_of": "DP21",
+    "pages": 60,
+    "words": 16709,
+    "text_hash": "9736957eddde0a77b431127f4259c1d6d423113cbd82075ce2293653c8875983"
+  }
+]

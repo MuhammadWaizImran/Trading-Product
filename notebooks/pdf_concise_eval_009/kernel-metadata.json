@@ -1,0 +1,15 @@
+{
+  "id": "waizimran/crypto-qwen3-pdf-concise-check-009",
+  "title": "Crypto Qwen3 PDF Concise Check 009",
+  "code_file": "evaluate.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "waizimran/crypto-qwen3-pdf-sft-009"
+  ]
+}

@@ -1,0 +1,58 @@
+import { useState, useCallback } from "react"
+import { Route, Switch } from "wouter"
+import Home from "@/pages/home"
+import NotFound from "@/pages/not-found"
+import AuthPage from "@/pages/auth"
+import JarvisPage from "@/pages/jarvis"
+import GuestLimitNotif from "@/components/GuestLimitNotif"
+import { IntroScreen } from "@/components/IntroScreen"
+import { AuthProvider, useAuth } from "@/context/AuthContext"
+import CompanyDashboard from "@/pages/company/index"
+import EmployeesPage from "@/pages/company/employees"
+import ATSPage from "@/pages/company/ats"
+import EmailPage from "@/pages/company/email"
+import JobsPage from "@/pages/company/jobs"
+import InterviewsPage from "@/pages/company/interviews"
+import AttendancePage from "@/pages/company/attendance"
+import CallsPage from "@/pages/company/calls"
+
+function AppInner() {
+  const { authState, showAuthModal } = useAuth()
+  const [introDone, setIntroDone] = useState(false)
+  const handleIntroDone = useCallback(() => setIntroDone(true), [])
+
+  if (!introDone) {
+    return <IntroScreen onDone={handleIntroDone} />
+  }
+
+  if (authState.status === "unauthenticated" || showAuthModal) {
+    return <AuthPage />
+  }
+
+  return (
+    <>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/jarvis" component={JarvisPage} />
+        <Route path="/company" component={CompanyDashboard} />
+        <Route path="/company/employees" component={EmployeesPage} />
+        <Route path="/company/ats" component={ATSPage} />
+        <Route path="/company/email" component={EmailPage} />
+        <Route path="/company/jobs" component={JobsPage} />
+        <Route path="/company/interviews" component={InterviewsPage} />
+        <Route path="/company/attendance" component={AttendancePage} />
+        <Route path="/company/calls" component={CallsPage} />
+        <Route component={NotFound} />
+      </Switch>
+      <GuestLimitNotif />
+    </>
+  )
+}
+
+export default function App() {
+  return (
+    <AuthProvider>
+      <AppInner />
+    </AuthProvider>
+  )
+}

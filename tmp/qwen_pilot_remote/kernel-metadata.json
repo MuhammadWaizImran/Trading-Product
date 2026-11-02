@@ -1,0 +1,17 @@
+{
+  "id": "waizimran/crypto-qwen3-8b-pilot-001",
+  "id_no": 135200908,
+  "title": "Crypto Qwen3 8B Pilot 001",
+  "code_file": "crypto-qwen3-8b-pilot-001.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

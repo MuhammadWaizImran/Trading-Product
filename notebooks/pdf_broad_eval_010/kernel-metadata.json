@@ -1,0 +1,15 @@
+{
+  "id": "waizimran/crypto-qwen3-pdf-broad-check-010",
+  "title": "Crypto Qwen3 PDF Broad Check 010",
+  "code_file": "evaluate.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "waizimran/crypto-qwen3-pdf-sft-009"
+  ]
+}

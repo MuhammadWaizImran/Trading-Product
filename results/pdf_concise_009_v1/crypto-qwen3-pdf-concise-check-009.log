@@ -1,0 +1,69 @@
+[{"stream_name":"stdout","time":4.271239913,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.3992736,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 82.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.439746951,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 23.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.48162197,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 17.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.516602679,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 24.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.5593289519999995,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 22.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":41.722752297,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":131.043919402,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [01:07\u003c04:31, 67.98s/it]\rFetching 5 files:  40%|████      | 2/5 [01:08\u003c01:24, 28.10s/it]\rFetching 5 files: 100%|██████████| 5/5 [01:08\u003c00:00, 13.63s/it]\n"}
+,{"stream_name":"stderr","time":186.090315195,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  20%|██        | 1/5 [00:07\u003c00:29,  7.25s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:15\u003c00:23,  7.80s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:24\u003c00:16,  8.39s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:33\u003c00:08,  8.77s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:38\u003c00:00,  7.34s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:38\u003c00:00,  7.73s/it]\n"}
+,{"stream_name":"stdout","time":187.190799437,"data":"base original_tools r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":187.191101877,"data":"base original_tools r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":187.191396237,"data":"base original_tools r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stderr","time":187.238048685,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":198.120896401,"data":"base original_tools r009-known-chart ready 90\n"}
+,{"stream_name":"stdout","time":208.330782008,"data":"base original_tools r009-ownership-evidence ready 82\n"}
+,{"stream_name":"stdout","time":216.993801106,"data":"base original_tools r009-signature-title ready 73\n"}
+,{"stream_name":"stdout","time":231.169169081,"data":"base original_tools r009-sell-direction ready 121\n"}
+,{"stream_name":"stdout","time":239.929088733,"data":"base original_tools r009-missing-study ready 72\n"}
+,{"stream_name":"stdout","time":252.046261585,"data":"base original_tools t008-sell-240-245 ready 97\n"}
+,{"stream_name":"stdout","time":261.682361484,"data":"base original_tools t008-buy-240-235 ready 72\n"}
+,{"stream_name":"stdout","time":274.643404048,"data":"base original_tools t008-buy-240-245 ready 106\n"}
+,{"stream_name":"stdout","time":287.443065049,"data":"base original_tools t008-sell-0.1001-0.1000 ready 105\n"}
+,{"stream_name":"stdout","time":297.644304679,"data":"base original_tools t008-buy-240-240 ready 79\n"}
+,{"stream_name":"stdout","time":297.644550493,"data":"base concise_tools r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":297.644752417,"data":"base concise_tools r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":297.6450084,"data":"base concise_tools r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stdout","time":303.804324787,"data":"base concise_tools r009-known-chart ready 46\n"}
+,{"stream_name":"stdout","time":311.480977087,"data":"base concise_tools r009-ownership-evidence ready 53\n"}
+,{"stream_name":"stdout","time":319.245916097,"data":"base concise_tools r009-signature-title ready 62\n"}
+,{"stream_name":"stdout","time":328.319234766,"data":"base concise_tools r009-sell-direction ready 68\n"}
+,{"stream_name":"stdout","time":337.28380194,"data":"base concise_tools r009-missing-study ready 71\n"}
+,{"stream_name":"stdout","time":344.100868061,"data":"base concise_tools t008-sell-240-245 ready 43\n"}
+,{"stream_name":"stdout","time":350.643377864,"data":"base concise_tools t008-buy-240-235 ready 41\n"}
+,{"stream_name":"stdout","time":356.585492518,"data":"base concise_tools t008-buy-240-245 ready 35\n"}
+,{"stream_name":"stdout","time":363.122380362,"data":"base concise_tools t008-sell-0.1001-0.1000 ready 41\n"}
+,{"stream_name":"stdout","time":370.958465529,"data":"base concise_tools t008-buy-240-240 ready 55\n"}
+,{"stream_name":"stdout","time":371.187240206,"data":"adapter009 original_tools r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":371.18733396,"data":"adapter009 original_tools r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":371.187635353,"data":"adapter009 original_tools r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stdout","time":381.754381833,"data":"adapter009 original_tools r009-known-chart ready 79\n"}
+,{"stream_name":"stdout","time":391.78028841,"data":"adapter009 original_tools r009-ownership-evidence ready 67\n"}
+,{"stream_name":"stdout","time":402.212926161,"data":"adapter009 original_tools r009-signature-title ready 79\n"}
+,{"stream_name":"stdout","time":415.122707733,"data":"adapter009 original_tools r009-sell-direction ready 93\n"}
+,{"stream_name":"stdout","time":425.935281412,"data":"adapter009 original_tools r009-missing-study ready 81\n"}
+,{"stream_name":"stdout","time":437.614053561,"data":"adapter009 original_tools t008-sell-240-245 ready 81\n"}
+,{"stream_name":"stdout","time":448.580653291,"data":"adapter009 original_tools t008-buy-240-235 ready 75\n"}
+,{"stream_name":"stdout","time":461.800456523,"data":"adapter009 original_tools t008-buy-240-245 ready 95\n"}
+,{"stream_name":"stdout","time":475.514366461,"data":"adapter009 original_tools t008-sell-0.1001-0.1000 ready 101\n"}
+,{"stream_name":"stdout","time":489.150091198,"data":"adapter009 original_tools t008-buy-240-240 ready 99\n"}
+,{"stream_name":"stdout","time":489.150413999,"data":"adapter009 concise_tools r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":489.150546633,"data":"adapter009 concise_tools r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":489.150858521,"data":"adapter009 concise_tools r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stdout","time":495.848172045,"data":"adapter009 concise_tools r009-known-chart ready 44\n"}
+,{"stream_name":"stdout","time":504.380149521,"data":"adapter009 concise_tools r009-ownership-evidence ready 53\n"}
+,{"stream_name":"stdout","time":512.407660434,"data":"adapter009 concise_tools r009-signature-title ready 57\n"}
+,{"stream_name":"stdout","time":522.137096053,"data":"adapter009 concise_tools r009-sell-direction ready 65\n"}
+,{"stream_name":"stdout","time":531.637267676,"data":"adapter009 concise_tools r009-missing-study ready 67\n"}
+,{"stream_name":"stdout","time":539.111065323,"data":"adapter009 concise_tools t008-sell-240-245 ready 44\n"}
+,{"stream_name":"stdout","time":545.353274422,"data":"adapter009 concise_tools t008-buy-240-235 ready 33\n"}
+,{"stream_name":"stdout","time":551.878924212,"data":"adapter009 concise_tools t008-buy-240-245 ready 35\n"}
+,{"stream_name":"stdout","time":559.054201573,"data":"adapter009 concise_tools t008-sell-0.1001-0.1000 ready 41\n"}
+,{"stream_name":"stdout","time":565.034060082,"data":"adapter009 concise_tools t008-buy-240-240 ready 30\n"}
+,{"stream_name":"stderr","time":571.453383816,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":571.453429492,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":571.742601096,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":571.742634875,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":572.486517309,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":573.51806008,"data":"[NbConvertApp] Writing 337390 bytes to __results__.html\n"}
+]

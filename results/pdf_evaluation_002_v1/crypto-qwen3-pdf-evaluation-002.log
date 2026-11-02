@@ -1,0 +1,90 @@
+[{"stream_name":"stdout","time":4.603815888,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 2.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.650957468,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 90.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.680776185,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 35.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.710195855,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 26.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.320820753,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 31.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.352989151,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 33.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":60.682488079,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":212.69488748,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [02:29\u003c09:59, 149.78s/it]\rFetching 5 files: 100%|██████████| 5/5 [02:29\u003c00:00, 29.96s/it] \n"}
+,{"stream_name":"stderr","time":248.05911343,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  20%|██        | 1/5 [00:06\u003c00:25,  6.38s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:14\u003c00:22,  7.35s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:23\u003c00:16,  8.02s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:30\u003c00:07,  7.59s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:35\u003c00:00,  6.63s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:35\u003c00:00,  7.02s/it]\n"}
+,{"stream_name":"stderr","time":248.297130216,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":255.714104029,"data":"base_original depth tokens 65 ended True\n"}
+,{"stream_name":"stdout","time":262.410262133,"data":"base_original unknown-paper tokens 65 ended True\n"}
+,{"stream_name":"stdout","time":269.775599463,"data":"base_original provided-convention tokens 73 ended True\n"}
+,{"stream_name":"stdout","time":279.64134323,"data":"base_original payoff tokens 99 ended True\n"}
+,{"stream_name":"stdout","time":286.508871245,"data":"base_original rsi tokens 66 ended True\n"}
+,{"stream_name":"stdout","time":299.036529428,"data":"base_original sizing tokens 128 ended True\n"}
+,{"stream_name":"stdout","time":307.219687431,"data":"base_original no-stop tokens 80 ended True\n"}
+,{"stream_name":"stdout","time":315.248858219,"data":"base_original pdf-profit tokens 78 ended True\n"}
+,{"stream_name":"stdout","time":321.849572301,"data":"base_original correlation-no-number tokens 61 ended True\n"}
+,{"stream_name":"stdout","time":328.588073445,"data":"base_original backup-versus-key tokens 64 ended True\n"}
+,{"stream_name":"stdout","time":335.044681128,"data":"base_original permission-properties tokens 60 ended True\n"}
+,{"stream_name":"stdout","time":342.266442948,"data":"base_original trust-dependencies tokens 69 ended True\n"}
+,{"stream_name":"stdout","time":350.223012207,"data":"base_neutral depth tokens 77 ended True\n"}
+,{"stream_name":"stdout","time":358.805897236,"data":"base_neutral unknown-paper tokens 85 ended True\n"}
+,{"stream_name":"stdout","time":364.643876391,"data":"base_neutral provided-convention tokens 50 ended True\n"}
+,{"stream_name":"stdout","time":372.699398651,"data":"base_neutral payoff tokens 79 ended True\n"}
+,{"stream_name":"stdout","time":378.999690912,"data":"base_neutral rsi tokens 59 ended True\n"}
+,{"stream_name":"stdout","time":390.378517092,"data":"base_neutral sizing tokens 112 ended True\n"}
+,{"stream_name":"stdout","time":398.402478828,"data":"base_neutral no-stop tokens 79 ended True\n"}
+,{"stream_name":"stdout","time":406.285715153,"data":"base_neutral pdf-profit tokens 77 ended True\n"}
+,{"stream_name":"stdout","time":413.213716397,"data":"base_neutral correlation-no-number tokens 65 ended True\n"}
+,{"stream_name":"stdout","time":420.415241585,"data":"base_neutral backup-versus-key tokens 69 ended True\n"}
+,{"stream_name":"stdout","time":426.684672447,"data":"base_neutral permission-properties tokens 59 ended True\n"}
+,{"stream_name":"stdout","time":433.358119055,"data":"base_neutral trust-dependencies tokens 63 ended True\n"}
+,{"stream_name":"stdout","time":444.053187851,"data":"run004_original depth tokens 84 ended True\n"}
+,{"stream_name":"stdout","time":454.24421543,"data":"run004_original unknown-paper tokens 88 ended True\n"}
+,{"stream_name":"stdout","time":460.435456495,"data":"run004_original provided-convention tokens 50 ended True\n"}
+,{"stream_name":"stdout","time":471.072228422,"data":"run004_original payoff tokens 92 ended True\n"}
+,{"stream_name":"stdout","time":478.852630019,"data":"run004_original rsi tokens 65 ended True\n"}
+,{"stream_name":"stdout","time":488.24040061,"data":"run004_original sizing tokens 80 ended True\n"}
+,{"stream_name":"stdout","time":499.389837082,"data":"run004_original no-stop tokens 97 ended True\n"}
+,{"stream_name":"stdout","time":507.297327113,"data":"run004_original pdf-profit tokens 65 ended True\n"}
+,{"stream_name":"stdout","time":513.536137161,"data":"run004_original correlation-no-number tokens 50 ended True\n"}
+,{"stream_name":"stdout","time":523.238890069,"data":"run004_original backup-versus-key tokens 83 ended True\n"}
+,{"stream_name":"stdout","time":529.506921133,"data":"run004_original permission-properties tokens 51 ended True\n"}
+,{"stream_name":"stdout","time":540.174857041,"data":"run004_original trust-dependencies tokens 92 ended True\n"}
+,{"stream_name":"stdout","time":553.352009682,"data":"run004_neutral depth tokens 117 ended True\n"}
+,{"stream_name":"stdout","time":561.054613165,"data":"run004_neutral unknown-paper tokens 64 ended True\n"}
+,{"stream_name":"stdout","time":567.819909027,"data":"run004_neutral provided-convention tokens 50 ended True\n"}
+,{"stream_name":"stdout","time":574.662640053,"data":"run004_neutral payoff tokens 55 ended True\n"}
+,{"stream_name":"stdout","time":583.023213488,"data":"run004_neutral rsi tokens 70 ended True\n"}
+,{"stream_name":"stdout","time":590.749295858,"data":"run004_neutral sizing tokens 61 ended True\n"}
+,{"stream_name":"stdout","time":598.818312287,"data":"run004_neutral no-stop tokens 67 ended True\n"}
+,{"stream_name":"stdout","time":607.532669675,"data":"run004_neutral pdf-profit tokens 73 ended True\n"}
+,{"stream_name":"stdout","time":615.568308429,"data":"run004_neutral correlation-no-number tokens 67 ended True\n"}
+,{"stream_name":"stdout","time":622.741614836,"data":"run004_neutral backup-versus-key tokens 59 ended True\n"}
+,{"stream_name":"stdout","time":629.183844909,"data":"run004_neutral permission-properties tokens 53 ended True\n"}
+,{"stream_name":"stdout","time":637.850077485,"data":"run004_neutral trust-dependencies tokens 72 ended True\n"}
+,{"stream_name":"stdout","time":647.458878176,"data":"run006_original depth tokens 81 ended True\n"}
+,{"stream_name":"stdout","time":657.627062961,"data":"run006_original unknown-paper tokens 88 ended True\n"}
+,{"stream_name":"stdout","time":663.876958728,"data":"run006_original provided-convention tokens 50 ended True\n"}
+,{"stream_name":"stdout","time":671.450275418,"data":"run006_original payoff tokens 63 ended True\n"}
+,{"stream_name":"stdout","time":680.208836288,"data":"run006_original rsi tokens 75 ended True\n"}
+,{"stream_name":"stdout","time":690.013659275,"data":"run006_original sizing tokens 84 ended True\n"}
+,{"stream_name":"stdout","time":700.555216709,"data":"run006_original no-stop tokens 91 ended True\n"}
+,{"stream_name":"stdout","time":709.573070984,"data":"run006_original pdf-profit tokens 76 ended True\n"}
+,{"stream_name":"stdout","time":716.530453173,"data":"run006_original correlation-no-number tokens 57 ended True\n"}
+,{"stream_name":"stdout","time":720.592040268,"data":"run006_original backup-versus-key tokens 30 ended True\n"}
+,{"stream_name":"stdout","time":727.04889822,"data":"run006_original permission-properties tokens 53 ended True\n"}
+,{"stream_name":"stdout","time":735.241461501,"data":"run006_original trust-dependencies tokens 69 ended True\n"}
+,{"stream_name":"stdout","time":745.040169057,"data":"run006_neutral depth tokens 83 ended True\n"}
+,{"stream_name":"stdout","time":752.384356159,"data":"run006_neutral unknown-paper tokens 60 ended True\n"}
+,{"stream_name":"stdout","time":758.157185106,"data":"run006_neutral provided-convention tokens 42 ended True\n"}
+,{"stream_name":"stdout","time":761.486571752,"data":"run006_neutral payoff tokens 22 ended True\n"}
+,{"stream_name":"stdout","time":765.079723306,"data":"run006_neutral rsi tokens 25 ended True\n"}
+,{"stream_name":"stdout","time":773.829452323,"data":"run006_neutral sizing tokens 69 ended True\n"}
+,{"stream_name":"stdout","time":784.569474265,"data":"run006_neutral no-stop tokens 93 ended True\n"}
+,{"stream_name":"stdout","time":792.112922842,"data":"run006_neutral pdf-profit tokens 62 ended True\n"}
+,{"stream_name":"stdout","time":799.640029649,"data":"run006_neutral correlation-no-number tokens 62 ended True\n"}
+,{"stream_name":"stdout","time":805.430635359,"data":"run006_neutral backup-versus-key tokens 45 ended True\n"}
+,{"stream_name":"stdout","time":810.072202897,"data":"run006_neutral permission-properties tokens 35 ended True\n"}
+,{"stream_name":"stdout","time":816.006559886,"data":"run006_neutral trust-dependencies tokens 47 ended True\n"}
+,{"stream_name":"stdout","time":816.006723755,"data":"DIAGNOSTIC_COMPLETE\n"}
+,{"stream_name":"stderr","time":822.389300608,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":822.389357487,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":822.680592472,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":822.680620641,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":823.343099837,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":824.352090641,"data":"[NbConvertApp] Writing 306092 bytes to __results__.html\n"}
+]

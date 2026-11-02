@@ -1,0 +1,153 @@
+[
+  {
+    "id": "dp07-test-price-coverage",
+    "question": "An address has $900 in directly held tokens and a separate $600 protocol deposit. A tool displays only direct tokens. Is $900 necessarily the complete portfolio?",
+    "reference": "No. Under the stated nonoverlapping values, the described assets total $1,500. The $900 display omits the $600 protocol position; additional liabilities or unobserved assets would require separate information.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        5,
+        22,
+        25
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "No, the $900 in directly held tokens does not necessarily represent the complete portfolio, as it excludes the $600 in protocol deposits. Protocol deposits are not directly held but are still part of the total portfolio. The tool only displays direct tokens, so it does not account for the protocol deposits. Therefore, the complete portfolio includes both the directly held tokens and the protocol deposits.",
+    "generated_tokens": 80,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp07-test-holders",
+    "question": "An exchange address holds a token for 400 customers, and another person uses five addresses. Can address counts alone recover the number of investors?",
+    "reference": "No. One custodial address can represent many people and one person can control several addresses. Investor counts require attribution and customer information that address counts alone do not provide.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "Address counts alone cannot reliably recover the number of investors, as multiple addresses can be controlled by a single entity and some investors may use fewer addresses.",
+    "generated_tokens": 30,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp07-test-counterparty",
+    "question": "An investigator observes that a fund sent tokens to a service's address. Does that single observation prove the service owns the fund's remaining wallets?",
+    "reference": "No. The transfer establishes an observed counterparty interaction, not ownership of other wallets. Attribution requires independent evidence, and the transfer's purpose may also be unknown.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        20,
+        26
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "No, a single observation of token transfers does not prove ownership. Token transfers alone do not establish legal or cryptographic ownership. Ownership requires additional evidence, such as wallet control, transaction history, and intent.",
+    "generated_tokens": 41,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp07-test-prices",
+    "question": "A fund acquired 200 tokens for $0.50 each; the public price is now $5. Does buying the same number now reproduce its acquisition cost?",
+    "reference": "No. The fund's stated cost was $100, whereas 200 tokens at $5 cost $1,000 before costs. Matching token quantity does not reproduce the fund's entry price or other investment terms.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        19
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "No, buying the same number of tokens now does not reproduce the acquisition cost. The cost per token has increased from $0.50 to $5. The total cost now would be 200 tokens × $5 = $1,000, not the original $100. The acquisition cost is based on the price at the time of purchase, not the current price.",
+    "generated_tokens": 82,
+    "hit_token_limit": false
+  },
+  {
+    "id": "test-depth-impact",
+    "question": "Two venues show the same best ask. Does that imply the same cost for a large buy?",
+    "reference": "No. Quantities available at the best ask and higher levels can differ. The larger order's average execution price can therefore differ even when the initial best ask is identical.",
+    "provenance": {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": [
+        35,
+        36,
+        37
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out application of depth and slippage; not a measured market result."
+    },
+    "response": "When two venues show the **same best ask** price, it does **not necessarily imply** that the **cost for a large buy** will be the same. Here's a breakdown of the key concepts and assumptions:\n\n---\n\n### **1. Best Ask Price**\n- The **best ask** is the **lowest price at which a seller is willing to sell** a security at a given moment.\n- It reflects the **current market price** from the **buy side** (i.e., the price at which a buyer can purchase the asset).\n- If two venues (e.g., exchanges, dark pools, or market makers) show the **same best ask**, it suggests that the **lowest available price** is the same across both venues.\n\n---\n\n### **2. Large Buy and Market Impact**\n- A **large buy** (i.e., a large order) will **impact the market** in the following ways:\n  - It may **push the price up** due to **supply and demand dynamics**.\n  - It may **trigger slippage**, where the **execution price** is **higher than the best ask**.\n  - It may **trigger hidden orders** or **market impact** in the venue with the best ask.\n\n---\n\n### **3. Why the Same Best Ask Does Not Guarantee the Same Cost**\n- **Venue Differences**:\n  - Even if the **best ask** is the same, the **liquidity** (i.e., the amount of shares available at that price) may differ between venues.\n  - One venue may have **more liquidity** at the best ask, allowing for a **larger buy** at that price.\n  - Another venue may have **less liquidity**, requiring the **buy to go above the best ask**.\n\n- **Order Types and Execution Rules**:\n  - Some venues may **execute orders at the best ask** (e",
+    "generated_tokens": 384,
+    "hit_token_limit": true
+  },
+  {
+    "id": "test-imbalance-sign",
+    "question": "Using the paper's convention, what does NOBI = -0.2 indicate?",
+    "reference": "Bid-side depth exceeds ask-side depth at the specified levels because the numerator is ask depth minus bid depth. The number alone is not a guaranteed price forecast.",
+    "provenance": {
+      "source_id": "DP19",
+      "file": "Order_Book_Liquidity_on_Crypto_Exchanges (1).pdf",
+      "sha256": "7190740df68bbb7c0cc97537df07ec9f8164bafb94a5f83d0c0cd43d795785ed",
+      "pdf_pages": [
+        13
+      ],
+      "permission": "CC BY 4.0; copyright 2025 Martin Angerer, Marius Gramlich and Michael Hanke; https://doi.org/10.3390/jrfm18030124; https://creativecommons.org/licenses/by/4.0/; paraphrased and clarified; no endorsement",
+      "adaptation": "Held-out application of source equation."
+    },
+    "response": "The notation **NOBI = -0.2** is not a standard or universally recognized term in the field of cryptocurrency or financial research. Without the specific context of the paper you are referring to, it is difficult to provide an exact interpretation. However, I can offer a general framework for understanding such a notation:\n\n---\n\n### 1. **Possible Interpretations of \"NOBI\"**\n- **NOBI** could be an acronym. In the context of cryptocurrency or financial research, it might stand for:\n  - **Non-Ordinary Behavior Index**\n  - **Non-Ordinary Behavior Indicator**\n  - **Non-Ordinary Behavior Score**\n  - **Non-Ordinary Behavior Factor**\n  - **Non-Ordinary Behavior Metric**\n\n- The exact meaning of **NOBI** would depend on the paper's methodology, variables, and definitions.\n\n---\n\n### 2. **Interpreting the Value: -0.2**\n- The value **-0.2** suggests a **negative deviation** or **negative score**.\n- In many contexts, especially in financial or behavioral metrics, a **negative value** could indicate:\n  - **Lower levels of a certain behavior or characteristic**\n  - **Reduced intensity or frequency of a behavior**\n  - **A deviation from a baseline or expected value**\n\n- The **magnitude of -0.2** (i.e., 0.2) suggests a **moderate deviation**, not extreme.\n\n---\n\n### 3. **Assumptions and Missing Information**\n- **Assumption 1:** The paper defines **NOBI** as a metric or index that measures a specific behavior or characteristic.\n- **Assumption 2:** The value of **NOBI** is interpreted as a **deviation from a baseline or expected value**.\n- **Missing Information:** The paper likely defines **NOBI** in detail, including its",
+    "generated_tokens": 384,
+    "hit_token_limit": true
+  },
+  {
+    "id": "test-reward-probability",
+    "question": "A setup offers 4R potential reward for 1R risk. Does that tell us its actual success probability?",
+    "reference": "No. It describes the planned payoff. With fixed +4R wins and -1R losses, the cost-free break-even probability is 20%, but the actual success probability needs evidence from outcomes.",
+    "provenance": {
+      "source_id": "DP06",
+      "file": "593280526-Risk-Management.pdf",
+      "sha256": "8a8ce394328e1ad7e7c1acfbac6338ebdb92b006075243d323f5a2f128a05e2d",
+      "pdf_pages": [
+        5,
+        8
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out distinction between payoff and probability."
+    },
+    "response": "The statement that a setup offers **4R potential reward for 1R risk** is a **risk-reward ratio** (RRR) of **4:1**, which is a **ratio of potential profit to potential loss**. However, this **does not directly translate to the actual success probability** of the setup. Here's why:\n\n---\n\n### 🔢 **What the 4:1 Risk-Reward Ratio Means**\n- **Risk (1R):** The maximum amount you could lose if the trade goes against you.\n- **Reward (4R):** The maximum amount you could gain if the trade goes in your favor.\n- **RRR = Reward / Risk = 4 / 1 = 4:1**\n\nThis ratio is **not a guarantee of success**, but rather a **measure of the potential profitability relative to the risk**.\n\n---\n\n### 📊 **Does a 4:1 RRR Mean a 25% Success Probability?**\nThis is a **common misconception**. The **risk-reward ratio does not directly indicate the probability of success**. Instead, it tells you **how much you can make per trade if you are right**, and **how much you can lose if you are wrong**.\n\nTo estimate the **probability of success**, you would need to know:\n\n1. **Expected Value (EV)** of the trade.\n2. **Probability of success (P)**.\n3. **Risk (R)**.\n4. **Reward (R)**.\n\nThe formula for **Expected Value (EV)** is:\n\n$$\nEV = (P \\times R) - ((1 - P) \\times R)\n$$\n\nSimplifying:\n\n$$\nEV = R \\times (2P - 1)\n$$\n\nIf you assume that the **EV is zero** (i.e., the trade is fair), then:\n\n$$\n0 =",
+    "generated_tokens": 384,
+    "hit_token_limit": true
+  },
+  {
+    "id": "test-overbought",
+    "question": "RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?",
+    "reference": "No. RSI can remain extreme during a continuing trend. An overbought reading does not impose an immediate reversal.",
+    "provenance": {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": [
+        54
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out application of the source caution."
+    },
+    "response": "The **Relative Strength Index (RSI)** is a momentum oscillator that measures the speed and change of price movements. It is typically used to identify overbought or oversold conditions in an asset. The RSI is calculated using the formula:\n\n$$\n\\text{RSI} = 100 - \\frac{100}{1 + \\frac{\\text{Average Gain}}{\\text{Average Loss}}}\n$$\n\nThe RSI ranges from 0 to 100. A common interpretation is that:\n\n- **Overbought conditions** are typically when RSI is above **70**, suggesting that the asset may be overbought and due for a pullback.\n- **Oversold conditions** are typically when RSI is below **30**, suggesting that the asset may be oversold and due for a rebound.\n\n---\n\n### **Your Question: RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?**\n\n#### **Answer: Not necessarily.**\n\nWhile an RSI of **82** is considered **overbought**, it **does not always mean the price will reverse**. Here's why:\n\n---\n\n### **1. RSI is a Momentum Indicator, Not a Price Predictor**\n\n- **RSI measures momentum**, not price direction.\n- A high RSI (e.g., 82) suggests that the **price has been rising strongly**, but it **does not guarantee** that the price will fall.\n- In **strong uptrends**, especially in **bullish markets**, RSI can remain in overbought territory for extended periods.\n\n---\n\n### **2. Context Matters**\n\n- **Market Conditions**: In a **bull market**, RSI can stay above 70 for a long time because the price is trending upward.\n- **Timeframe**: RSI is sensitive to the **timeframe",
+    "generated_tokens": 384,
+    "hit_token_limit": true
+  }
+]

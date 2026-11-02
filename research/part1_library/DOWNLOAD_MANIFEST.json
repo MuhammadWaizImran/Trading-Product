@@ -1,0 +1,81 @@
+[
+  {
+    "source_id": "R01",
+    "url": "https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf",
+    "file": "reading_only/princeton_bitcoin_book.pdf",
+    "checked": "2026-09-20",
+    "use": "Private human reading only; not a training or retrieval corpus",
+    "status": "downloaded",
+    "bytes": 18894056,
+    "sha256": "4371b745c56c9c71e6876234c0d37881204507465ac0fed0da35a753150bbcc7"
+  },
+  {
+    "source_id": "R08",
+    "url": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/Getting-Started-Tech-Analysis.pdf",
+    "file": "reading_only/fidelity_getting_started.pdf",
+    "checked": "2026-09-20",
+    "use": "Private human reading only; not a training or retrieval corpus",
+    "status": "downloaded",
+    "bytes": 1606069,
+    "sha256": "c7f4e1f81737f295fae331786c3864ca68ca85100009aa6f6fe033569d54a56b"
+  },
+  {
+    "source_id": "R09",
+    "url": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/Understanding-Indicators-TA.pdf",
+    "file": "reading_only/fidelity_indicators.pdf",
+    "checked": "2026-09-20",
+    "use": "Private human reading only; not a training or retrieval corpus",
+    "status": "downloaded",
+    "bytes": 2236789,
+    "sha256": "7534f4e5a31d238c5fa28e20966ed7dd02bbe6d738cb4cb839c74be29781ff30"
+  },
+  {
+    "source_id": "R12",
+    "url": "https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2017/rf-v2017-n1-full.pdf",
+    "file": "reading_only/cfa_technical_analysis.pdf",
+    "checked": "2026-09-20",
+    "use": "Private human reading only; not a training or retrieval corpus",
+    "status": "downloaded",
+    "bytes": 1962909,
+    "sha256": "b73e1ecc186603a2b1fd9f01ef16224b6b14f9b0e410e215f0bb74010ac91e5b"
+  },
+  {
+    "source_id": "R23",
+    "url": "https://www.nber.org/system/files/working_papers/w7613/w7613.pdf",
+    "file": "reading_only/lo_technical_analysis.pdf",
+    "checked": "2026-09-20",
+    "use": "Private human reading only; not a training or retrieval corpus",
+    "status": "downloaded",
+    "bytes": 679336,
+    "sha256": "9d77565a9eecebc63075dd445062e85e7e215ecbbdbd1cbb34a8553d8cb8d3f2"
+  },
+  {
+    "source_id": "R25",
+    "url": "https://files.stlouisfed.org/files/htdocs/publications/review/2021/04/15/decentralized-finance-on-blockchain-and-smart-contract-based-financial-markets.pdf",
+    "file": "reading_only/schar_defi.pdf",
+    "checked": "2026-09-20",
+    "use": "Private human reading only; not a training or retrieval corpus",
+    "status": "failed",
+    "error": "Response is not a PDF; no access-control workaround attempted"
+  },
+  {
+    "source_id": "E13",
+    "url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+    "file": "reading_only/backtest_overfitting.pdf",
+    "checked": "2026-09-20",
+    "use": "Private human reading only; not a training or retrieval corpus",
+    "status": "downloaded",
+    "bytes": 1145522,
+    "sha256": "d8bfbadaaedb430d9dec929646d92f3580fdf18238f34121ae7738fa1c69a63d"
+  },
+  {
+    "source_id": "R05",
+    "url": "https://bitcoin.org/bitcoin.pdf",
+    "file": "reading_only/bitcoin_whitepaper.pdf",
+    "checked": "2026-09-20",
+    "use": "Private human reading only; not a training or retrieval corpus",
+    "status": "downloaded",
+    "bytes": 184292,
+    "sha256": "b1674191a88ec5cdd733e4240a81803105dc412d6c6708d53ab94fc248f4f553"
+  }
+]

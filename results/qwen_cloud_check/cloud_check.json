@@ -1,0 +1,28 @@
+{
+  "python": "3.12.13",
+  "runtime": "Batch",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "transformers": "5.0.0",
+    "peft": "0.19.1",
+    "accelerate": "1.13.0",
+    "bitsandbytes": null
+  },
+  "gpu": {
+    "error": "[Errno 2] No such file or directory: 'nvidia-smi'"
+  },
+  "network": [
+    {
+      "url": "https://pypi.org/simple/transformers/",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-8B",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "url": "https://www.kaggle.com",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  ]
+}

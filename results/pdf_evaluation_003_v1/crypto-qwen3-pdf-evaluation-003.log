@@ -1,0 +1,50 @@
+[{"stream_name":"stdout","time":3.549563714,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 2.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.476565416,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 87.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.500786031,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 35.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.522517391,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 26.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.138709147,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 30.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.163237774,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 33.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":53.001051322,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":128.552565835,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [01:13\u003c04:52, 73.07s/it]\rFetching 5 files:  40%|████      | 2/5 [01:13\u003c01:30, 30.32s/it]\rFetching 5 files: 100%|██████████| 5/5 [01:13\u003c00:00, 14.70s/it]\n"}
+,{"stream_name":"stderr","time":165.081363659,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  20%|██        | 1/5 [00:06\u003c00:27,  6.77s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:14\u003c00:22,  7.49s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:23\u003c00:15,  7.94s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:31\u003c00:08,  8.04s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:36\u003c00:00,  6.89s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:36\u003c00:00,  7.25s/it]\n"}
+,{"stream_name":"stderr","time":165.21476064,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":173.659919985,"data":"base_closed depth tokens 77 ended True\n"}
+,{"stream_name":"stdout","time":182.082065294,"data":"base_closed unknown-paper tokens 85 ended True\n"}
+,{"stream_name":"stdout","time":187.681167129,"data":"base_closed provided-convention tokens 50 ended True\n"}
+,{"stream_name":"stdout","time":195.695416166,"data":"base_closed payoff tokens 79 ended True\n"}
+,{"stream_name":"stdout","time":207.14683115,"data":"base_closed sizing tokens 112 ended True\n"}
+,{"stream_name":"stdout","time":215.23998705,"data":"base_closed no-stop tokens 79 ended True\n"}
+,{"stream_name":"stdout","time":222.293027605,"data":"base_closed backup-versus-key tokens 69 ended True\n"}
+,{"stream_name":"stdout","time":228.471717516,"data":"base_closed permission-properties tokens 59 ended True\n"}
+,{"stream_name":"stdout","time":237.289767272,"data":"base_provided_evidence depth tokens 81 ended True\n"}
+,{"stream_name":"stdout","time":244.551221461,"data":"base_provided_evidence unknown-paper tokens 64 ended True\n"}
+,{"stream_name":"stdout","time":251.407707854,"data":"base_provided_evidence provided-convention tokens 55 ended True\n"}
+,{"stream_name":"stdout","time":257.71609992,"data":"base_provided_evidence payoff tokens 53 ended True\n"}
+,{"stream_name":"stdout","time":265.069370545,"data":"base_provided_evidence sizing tokens 58 ended True\n"}
+,{"stream_name":"stdout","time":272.107327795,"data":"base_provided_evidence no-stop tokens 56 ended True\n"}
+,{"stream_name":"stdout","time":277.27011958,"data":"base_provided_evidence backup-versus-key tokens 40 ended True\n"}
+,{"stream_name":"stdout","time":285.330943081,"data":"base_provided_evidence permission-properties tokens 71 ended True\n"}
+,{"stream_name":"stdout","time":295.989386672,"data":"run006_closed depth tokens 83 ended True\n"}
+,{"stream_name":"stdout","time":303.528166098,"data":"run006_closed unknown-paper tokens 60 ended True\n"}
+,{"stream_name":"stdout","time":309.425995254,"data":"run006_closed provided-convention tokens 42 ended True\n"}
+,{"stream_name":"stdout","time":312.849599296,"data":"run006_closed payoff tokens 22 ended True\n"}
+,{"stream_name":"stdout","time":321.639897851,"data":"run006_closed sizing tokens 69 ended True\n"}
+,{"stream_name":"stdout","time":332.636234658,"data":"run006_closed no-stop tokens 93 ended True\n"}
+,{"stream_name":"stdout","time":338.452756032,"data":"run006_closed backup-versus-key tokens 45 ended True\n"}
+,{"stream_name":"stdout","time":343.211082176,"data":"run006_closed permission-properties tokens 35 ended True\n"}
+,{"stream_name":"stdout","time":350.733257969,"data":"run006_provided_evidence depth tokens 57 ended True\n"}
+,{"stream_name":"stdout","time":357.627153198,"data":"run006_provided_evidence unknown-paper tokens 51 ended True\n"}
+,{"stream_name":"stdout","time":363.974169959,"data":"run006_provided_evidence provided-convention tokens 41 ended True\n"}
+,{"stream_name":"stdout","time":370.005591647,"data":"run006_provided_evidence payoff tokens 42 ended True\n"}
+,{"stream_name":"stdout","time":376.869154534,"data":"run006_provided_evidence sizing tokens 45 ended True\n"}
+,{"stream_name":"stdout","time":386.491735866,"data":"run006_provided_evidence no-stop tokens 71 ended True\n"}
+,{"stream_name":"stdout","time":392.747007161,"data":"run006_provided_evidence backup-versus-key tokens 44 ended True\n"}
+,{"stream_name":"stdout","time":401.592498988,"data":"run006_provided_evidence permission-properties tokens 68 ended True\n"}
+,{"stream_name":"stdout","time":401.592767755,"data":"DIAGNOSTIC_COMPLETE\n"}
+,{"stream_name":"stderr","time":407.230935515,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":407.230966633,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":407.471208947,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":407.471235047,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":408.073999437,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":409.032987561,"data":"[NbConvertApp] Writing 309325 bytes to __results__.html\n"}
+]

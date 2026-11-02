@@ -1,0 +1,408 @@
+{
+  "baseline_thinking": {
+    "expected_cases": 16,
+    "received_cases": 16,
+    "missing_ids": [],
+    "structurally_valid": 16,
+    "status_and_citation_matches": 16,
+    "semantic_accuracy": null,
+    "promotion_allowed": false,
+    "cases": [
+      {
+        "id": "transfer021-leverage-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "Total exposure is $128 and leverage is 4x, not 3x.",
+        "response": "{\n  \"status\": \"supported\",\n  \"answer\": \"Total exposure is $128 and leverage is 4.\",\n  \"evidence_id\": \"dp10-leverage-definition\"\n}"
+      },
+      {
+        "id": "transfer021-leverage-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\n  \"status\": \"insufficient\",\n  \"answer\": \"The question cannot be answered with the provided evidence.\",\n  \"evidence_id\": null\n}"
+      },
+      {
+        "id": "transfer021-vwap-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "VWAP is (3*7+1*11)/4 = $8.",
+        "response": "{\"status\": \"supported\", \"answer\": \"The trade-level VWAP is $8.\", \"evidence_id\": \"dp17-vwap-convention\"}"
+      },
+      {
+        "id": "transfer021-vwap-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The provided evidence does not include a rule or data for calculating trade-level VWAP.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-rsi-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "RSI is 75; it does not guarantee a reversal.",
+        "response": "{\"status\": \"supported\", \"answer\": \"RSI is 75, calculated as 100 - (100 / (1 + 6/2)) = 75. This value does not guarantee a reversal.\", \"evidence_id\": \"dp05-rsi-definition\"}"
+      },
+      {
+        "id": "transfer021-rsi-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The RSI calculation requires the formula 100 - (100 / (1 + (Average Gain / Average Loss))). With average gain 6 and loss 2, RSI would be 75. However, the supplied evidence does not discuss RSI, financial indicators, or reversal guarantees. The provided text relates to payment network mechanics, not technical analysis.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-depth-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No; 2 units fill at $20 and 2 at $21, averaging $20.50.",
+        "response": "{\n  \"status\": \"supported\",\n  \"answer\": \"No, only 2 units fill at $20. The average is $20.50.\",\n  \"evidence_id\": \"dp17-spread-depth\"\n}"
+      },
+      {
+        "id": "transfer021-depth-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\n  \"status\": \"insufficient\",\n  \"answer\": \"No, not all four units can fill at $20. The first 2 units fill at $20, and the remaining 2 units fill at $21. The average price is $20.50.\",\n  \"evidence_id\": null\n}"
+      },
+      {
+        "id": "transfer021-custody-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No; the address may hold customer assets or support operational transfers. Attribution and intent are not established.",
+        "response": "{\n  \"status\": \"supported\",\n  \"answer\": \"No, the evidence shows that an exchange address's balance does not necessarily reflect one individual's conviction.\",\n  \"evidence_id\": \"dp07-exchange-holder\"\n}"
+      },
+      {
+        "id": "transfer021-custody-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The evidence does not establish that receiving tokens at a labelled custodial exchange address indicates an individual investor's personal conviction. The provided text explains network mechanics for payments to valid addresses but does not link address activity to investor intent.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-offline-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No. Broadcasting to a known valid address does not require the receiving signing device online; confirmation and spending are separate.",
+        "response": "{\n  \"status\": \"supported\",\n  \"answer\": \"No, the sender can still broadcast the payment as the receiving device's online status does not affect the broadcast capability.\",\n  \"evidence_id\": \"dp16-receive-offline\"\n}"
+      },
+      {
+        "id": "transfer021-offline-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The provided evidence does not address payment broadcasting conditions related to recipient device status or receiving address validity.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-report-unidentified",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "Ask for the source; do not attribute the supplied passage to the unidentified document.",
+        "response": "{\n  \"status\": \"insufficient\",\n  \"answer\": \"The report's content contradicts the proposition, but since the report's title/text cannot be identified, its claims cannot be confirmed or denied.\",\n  \"evidence_id\": null\n}"
+      },
+      {
+        "id": "transfer021-report-identified",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No; exchange addresses can custody assets for many customers.",
+        "response": "{\n  \"status\": \"supported\",\n  \"answer\": \"No, an exchange address can custody assets for many customers, not just one individual investor.\",\n  \"evidence_id\": \"dp07-exchange-holder\"\n}"
+      },
+      {
+        "id": "transfer021-survey-unidentified",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "Ask for the source; do not attribute the supplied passage to the unidentified document.",
+        "response": "{\n  \"status\": \"insufficient\",\n  \"answer\": \"The provided evidence does not support the proposition, as it explicitly states exchange addresses can custody assets for multiple customers. However, the question refers to an unnamed survey, which cannot be verified against the supplied evidence.\",\n  \"evidence_id\": null\n}"
+      },
+      {
+        "id": "transfer021-survey-identified",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No; exchange addresses can custody assets for many customers.",
+        "response": "{\n  \"status\": \"supported\",\n  \"answer\": \"No, the balance of an exchange address is not sufficient evidence of one investor's conviction as it may represent multiple customers.\",\n  \"evidence_id\": \"dp07-exchange-holder\"\n}"
+      }
+    ]
+  },
+  "adapted_thinking": {
+    "expected_cases": 16,
+    "received_cases": 16,
+    "missing_ids": [],
+    "structurally_valid": 16,
+    "status_and_citation_matches": 15,
+    "semantic_accuracy": null,
+    "promotion_allowed": false,
+    "cases": [
+      {
+        "id": "transfer021-leverage-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "Total exposure is $128 and leverage is 4x, not 3x.",
+        "response": "{\"status\": \"supported\", \"answer\": \"Total exposure is $128 and leverage is 4.\", \"evidence_id\": \"dp10-leverage-definition\"}"
+      },
+      {
+        "id": "transfer021-leverage-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"Total exposure is calculated as equity plus borrowed funds, which is $32 + $96 = $128. Leverage is total exposure divided by equity, so $128 / $32 = 4. However, the supplied evidence does not address financial calculations like exposure or leverage.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-vwap-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "VWAP is (3*7+1*11)/4 = $8.",
+        "response": "{\n  \"status\": \"supported\",\n  \"answer\": \"The trade-level VWAP is $8.\",\n  \"evidence_id\": \"dp17-vwap-convention\"\n}"
+      },
+      {
+        "id": "transfer021-vwap-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"Cannot calculate trade-level VWAP without a supplied rule for volume-weighted average price calculation.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-rsi-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "RSI is 75; it does not guarantee a reversal.",
+        "response": "{\"status\": \"supported\", \"answer\": \"RSI is 75, but this number does not guarantee a reversal.\", \"evidence_id\": \"dp05-rsi-definition\"}"
+      },
+      {
+        "id": "transfer021-rsi-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The provided evidence does not cover RSI calculations or financial reversal indicators.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-depth-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No; 2 units fill at $20 and 2 at $21, averaging $20.50.",
+        "response": "{\"status\": \"supported\", \"answer\": \"No, not all four units can fill at $20. The average price is $20.50.\", \"evidence_id\": \"dp17-spread-depth\"}"
+      },
+      {
+        "id": "transfer021-depth-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The provided evidence is unrelated to market order book mechanics or pricing calculations. The question requires analyzing order book depth, which is not addressed in the supplied text.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-custody-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No; the address may hold customer assets or support operational transfers. Attribution and intent are not established.",
+        "response": "{\"status\": \"supported\", \"answer\": \"No, the evidence indicates the balance of an exchange address is not necessarily linked to one individual's conviction.\", \"evidence_id\": \"dp07-exchange-holder\"}"
+      },
+      {
+        "id": "transfer021-custody-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The evidence does not establish that receiving tokens at a custodial exchange address indicates an individual investor's personal conviction.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-offline-relevant",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No. Broadcasting to a known valid address does not require the receiving signing device online; confirmation and spending are separate.",
+        "response": "{\"status\": \"supported\", \"answer\": \"No, the sender can still broadcast the payment as the recipient's offline status does not block the transaction.\", \"evidence_id\": \"dp16-receive-offline\"}"
+      },
+      {
+        "id": "transfer021-offline-missing",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "The supplied passage does not support the requested rule or conclusion; request relevant evidence.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The provided evidence does not address payment broadcasting mechanics, recipient device status, or address validation protocols. The referenced passage discusses financial leverage definitions, which are unrelated to the question's premises.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-report-unidentified",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": false,
+        "semantic_review": "pending",
+        "reference": "Ask for the source; do not attribute the supplied passage to the unidentified document.",
+        "response": "{\"status\": \"supported\", \"answer\": \"No, the report indicates exchange addresses can custody assets for many customers, not just one person.\", \"evidence_id\": \"dp07-exchange-holder\"}"
+      },
+      {
+        "id": "transfer021-report-identified",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No; exchange addresses can custody assets for many customers.",
+        "response": "{\"status\": \"supported\", \"answer\": \"No, an exchange address can custody assets for many customers, not just one individual investor.\", \"evidence_id\": \"dp07-exchange-holder\"}"
+      },
+      {
+        "id": "transfer021-survey-unidentified",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "Ask for the source; do not attribute the supplied passage to the unidentified document.",
+        "response": "{\"status\": \"insufficient\", \"answer\": \"The survey's title or text is not provided, so its contents cannot be verified.\", \"evidence_id\": null}"
+      },
+      {
+        "id": "transfer021-survey-identified",
+        "structural_review": {
+          "status": "needs_semantic_review",
+          "errors": [],
+          "publishable": false
+        },
+        "expected_status_and_citation_match": true,
+        "semantic_review": "pending",
+        "reference": "No; exchange addresses can custody assets for many customers.",
+        "response": "{\"status\": \"supported\", \"answer\": \"No, the balance of an exchange address is not sufficient evidence of one investor's conviction.\", \"evidence_id\": \"dp07-exchange-holder\"}"
+      }
+    ]
+  }
+}

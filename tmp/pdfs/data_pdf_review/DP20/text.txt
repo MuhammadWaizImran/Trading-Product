@@ -1,0 +1,1810 @@
+=== PDF PAGE 1 ===
+Article
+Order Book Liquidity on Crypto Exchanges
+
+Martin Angerer *    , Marius Gramlich  and Michael Hanke
+
+
+
+                               Department Finance & Economics, University of Liechtenstein, Fürst-Franz-Josef-Strasse,
+                                 9490 Vaduz, Liechtenstein; marius.gramlich@uni.li (M.G.); michael.hanke@uni.li (M.H.)
+                                     * Correspondence: martin.angerer@uni.li
+
+
+                            Abstract: We analyze intraday liquidity for a range of cryptocurrencies across different
+                           exchanges. Among the liquidity measures used, order book variation is most interesting
+                              for crypto traders, as it directly impacts their profit/loss. We find evidence that order
+                        book variation can be explained by liquidity measures indicating that trades are timed. We
+                             report various liquidity patterns that allow traders to increase their profits by minimizing
+                            liquidity-dependent trading costs. We further find indications that crypto exchanges can
+                              control liquidity by the number of offered currency pairs.
+
+
+                        Keywords: cryptocurrencies; liquidity; market microstructure
+
+
+
+                             1. Introduction
+
+                                 In recent years, cryptocurrencies have grown significantly in prominence. An
+                              increasing number of investors now recognize cryptocurrencies as a distinct asset class. This
+                             recognition has been fueled by the emergence of altcoins, many of which have outperformed
+                             Bitcoin in recent years, thereby expanding the investment opportunities within this new
+                              asset class. These developments have spurred considerable research on cryptocurrencies,
+                            as evidenced by a rapidly growing body of literature. However, much of this research
+                          remains centered on Bitcoin and focuses primarily on data derived from price series or
+                             trades data, such as returns and volatilities. Liquidity, despite being of critical importance
+                              to cryptocurrency investors, has received comparatively less attention. A key reason for
+                                this is the limited availability of data; while price data are readily accessible and trade
+Academic Editor: Kirill Shakhnov
+                           data rather easy to obtain, order book data are more challenging to come by. Most current
+Received: 13 November 2024        papers focus on liquidity measures on the trades level, neglecting to a large degree that
+Revised: 18 February 2025
+                           cryptocurrency markets are mostly still not mature enough to provide the necessary deep
+Accepted: 24 February 2025
+Published: 27 February 2025        and developed order books on lower levels than best-bid and best-ask that is needed for
+                             professional traders.
+Citation: Angerer, M., Gramlich, M., &
+Hanke, M. (2025). Order Book           From an academic perspective, liquidity and its evolution over time serve as important
+Liquidity on Crypto Exchanges.       indicators of, and prerequisites for, market efficiency. From an investor’s perspective,
+Journal of Risk and Financial           liquidity directly affects transaction costs, which in turn influence the profitability of
+Management, 18(3), 124. https://      trading activities. An attractive trading platform provides the infrastructure necessary to
+doi.org/10.3390/jrfm18030124        trade (in our case, crypto) assets with high reliability and at low costs. This operational
+Copyright: © 2025 by the authors.      efficiency is a necessary, though not sufficient, condition for achieving higher forms of
+Licensee MDPI, Basel, Switzerland.    market efficiency.
+This article is an open access article      A critical component in this context is the total transaction cost, which can be divided
+distributed under the terms and
+                              into explicit and implicit costs.  Explicit costs include, but are not limited to, trading,
+conditions of the Creative Commons
+Attribution (CC BY) license           clearing and settlement fees for exchanges, as well as service and commission fees for
+(https://creativecommons.org/      market intermediaries. These costs are typically straightforward to measure and compare
+licenses/by/4.0/).             due to their transparency. Implicit costs and risks, on the other hand, such as those arising
+
+
+
+J. Risk Financial Manag. 2025, 18, 124                                                                    https://doi.org/10.3390/jrfm18030124
+
+=== PDF PAGE 2 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                              2 of 29
+
+
+
+                        from order book (il)liquidity, are not as transparent and are often significantly harder
+                             to quantify. While the intuitive notion of a negative relationship between liquidity and
+                               implicit trading costs holds, it remains somewhat vague as it does not pertain to a specific
+                          concept or aspect of liquidity. Different facets of liquidity give rise to various liquidity
+                           measures. Simple proxies, such as trading volume, may offer a rough indication of liquidity
+                           but fail to capture its more nuanced and specific aspects.
+                                 In this paper, we examine multiple dimensions of order book liquidity of crypto-
+                               currencies. Specifically, we explore variations in liquidity across a large set of very diverse
+                           currency pairs, different exchanges and over time. The insights derived from this analysis
+                          hold value for academics, investors, trading venues and regulators.
+                              For investors, comparing the liquidity and associated transaction costs of currency
+                             pairs and trading venues provides valuable insights to inform decisions about what to
+                            buy, where to buy it and when to execute trades. Trading platforms can leverage these
+                               results to reassess their trading systems, market design and listings. For instance, they
+                        might consider introducing designated sponsors for liquidity provision, transitioning
+                        from a purely order-driven market to a hybrid market. These liquidity providers play a
+                               crucial role in order book markets, particularly when liquidity for certain trading pairs is
+                         weak—e.g., when spreads are excessively large or volumes at the best levels of the order
+                        book are insufficient.
+                            The concept of 24/7 continuous trading might also warrant reevaluation. For currency
+                             pairs with low liquidity, auction models or continuous trading interrupted by auctions
+                          could be more effective in bringing together a larger pool of traders. Increased liquidity
+                                attracts more participants, ultimately boosting trading volume and the market share of
+                            the exchange.
+                                     Finally, our findings are also pertinent for regulators.  Market competition is a
+                    common concern for regulators. In a consolidated (fragmented) market, there is low
+                             (high) competition among exchanges but high (low) competition among traders, resulting
+                               in low (high) liquidity costs and high (low) explicit transaction costs. Achieving the optimal
+                           degree of market fragmentation is critical to safeguarding investor protection. In the crypto
+                          world, fragmentation occurs not only across exchanges but also within a single trading
+                           venue, as these typically offer numerous trading pairs with different base currencies.
+                           The remainder of the paper is organized as follows. Section 2 reviews the related
+                                 literature. Section 3 describes the data. Section 4 outlines the methodology and discusses
+                            the liquidity measures employed. Section 5 presents the results and Section 6 concludes.
+
+                             2. Literature
+
+                                   2.1. Liquidity in Order Books
+
+                              Research on market liquidity began in the late 1960s with Demsetz (1968), who
+                        examined bid-ask spreads in dealer markets. The subsequent literature has produced
+                                influential contributions across theoretical (e.g., Akerlof, 1970 for markets with information
+                          asymmetries; Kyle, 1985 for the strategic behavior of insiders), empirical (e.g., Huang &
+                                   Stoll, 1996 on transaction costs in auction and dealer markets; Christie & Schultz, 1994 on
+                              collusion in the NASDAQ dealer market), and experimental domains (e.g., Plott & Sunder,
+                          1982 on information dissemination in experimental auction markets; Friedman, 1993 on
+                           experimental comparisons of auction and dealer markets).
+                           The present paper relates to several strands of the literature. Research on crypto-
+                            currencies in finance and economics is still at an early stage. The majority of papers in
+                                 this area focus on the potential real effects of cryptocurrencies as payment and transaction
+                         mechanisms. Ciaian et al. (2016), Harvey (2016), Böhme et al. (2015) and Raskin and
+                        Yermack (2018) provide broad perspectives on the economics of cryptocurrencies and the
+
+=== PDF PAGE 3 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                              3 of 29
+
+
+
+                           underlying blockchain technology. Pagnotta and Buraschi (2018) propose valuation models
+                                for digital currencies. Easley et al. (2019) and Huberman et al. (2021) analyze bitcoin mining
+                               fees and the incentives of miners in equilibrium.
+                           The literature examining cryptocurrency market liquidity has focused on centralized
+                          exchanges (CEX) or decentralized exchanges (DEX). While CEX employ limit order book
+                           markets, DEX usually use Automated Market Maker (AMM) protocols since limit order
+                        books are not feasable on-chain due to limited throughput and gas fees. Barbon and
+                         Ranaldo (2021) conducted a comparative study between the liquidity on centralized and
+                            decentralized exchanges and outline the rising competition of decentralized exchanges
+                                different concept of liquidity. Lehar and Parlour (2025) compare transaction-based liquidity
+                         measures between Uniswap v2 (DEX) and Binance (CEX). For CEXs, Brauneis et al. (2021)
+                        compare low-frequency and high-frequency liquidity measures for Bitcoin and Ethereum.
+                               Brauneis et al. (2021) note that few studies utilize full order book data to examine
+                            the liquidity of cryptocurrency markets. Dyhrberg et al. (2018) investigate the trading
+                        dynamics of Bitcoin on US-based crypto exchanges, while Makarov and Schoar (2020)
+                            explore arbitrage opportunities across exchanges. In most cases, low-frequency measures
+                         have been employed without comparative frameworks. Brauneis and Mestel (2018) test the
+                               predictability of cryptocurrency returns, and Al-Yahyaee et al. (2020) study the efficiency of
+                           cryptocurrency markets, finding that inefficiencies are primarily driven by illiquidity and
+                                 volatility in cryptocurrencies.
+                        Anand et al. (2005), Back and Baruch (2007) and Ranaldo (2004) highlight the
+                           advantages of limit order books, which include, but are not limited to, low transaction costs
+                                     (e.g., brokerage, commissions, spreads and fees), pre- and post-trade transparency, efficient
+                             price discovery through comprehensive information aggregation, reduced information
+                        asymmetry and a more competitive market microstructure.
+                           The nature of liquidity provisioning in limit order book (LOB) markets differs
+                               significantly from that in quote-driven markets in one critical aspect.  Limit order
+                              suppliers—i.e., the de facto market makers—face very low entry and exit barriers. They
+                         can freely provide or withdraw liquidity from the market based on prevailing market
+                             conditions. This contrasts with the designated market makers in quote-driven markets,
+                    who are obligated to provide liquidity. This key feature of liquidity provisioning in LOB
+                          markets is encapsulated by the “free-entry and free-exit” hypothesis proposed by Brockman
+                       and Chung (2002).
+                               Previous literature has extensively documented the informativeness of limit order
+                        books and their role in reducing information asymmetry. Cao et al. (2009) examined
+                            the informational content of order book levels beyond the best bid and ask. Similarly,
+                               L. E. Harris and Panchapagesan (2005) find that limit order books provide valuable insights
+                             into future price movements. The state of the order book—characterized by tightness,
+                         depth and imbalance—can be assessed using various measures, such as spread, volume
+                       and impact costs.
+
+                                   2.2. Liquidity Measures in Order Books
+
+                                 Liquidity in limit order book (LOB) markets is a dynamic interplay between market
+                              orders, which consume liquidity, and limit orders, which supply it. Traders actively monitor
+                             the market and engage in competitive behaviors to optimize their trade execution by either
+                       demanding or supplying liquidity (S.-L. Chung et al., 2012; Foucault, 1999; L. Harris, 1998;
+                             Parlour, 1998). This endogeneity in traders’ decisions reflects their attempts to adapt to
+                             prevailing market conditions. For instance, traders frequently undercut existing quotes to
+                        improve upon the best bid-ask prices, showcasing the competitive dynamics of liquidity
+                          supply and demand (Biais et al., 1998).
+
+=== PDF PAGE 4 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                              4 of 29
+
+
+
+                                Impatient traders typically employ market orders to consume liquidity, while patient
+                             traders place limit orders, thereby supplying liquidity. These limit order traders are
+                        compensated for their patience and for providing the service of liquidity; however, they
+                              also bear execution risk and pick-off risk from informed traders (Baruch, 2005; Seppi, 1997).
+                       The LOB structure efficiently matches liquidity suppliers with demanders, maintaining a
+                           balance that is critical for market operations.
+                           The relationship between liquidity supply and demand is influenced by market
+                             conditions. Research has shown that limit orders increase significantly during periods of
+                        low liquidity, as indicated by widened spreads and other liquidity metrics (K. Chung et al.,
+                            1999; Griffiths et al., 2000; L. Harris & Hasbrouck, 1996; Hollifield et al., 2004; Ranaldo,
+                              2004). Conversely, during periods of high liquidity, the proportion of market orders rises.
+                           This dynamic creates a mean-reverting behavior in bid-ask spreads and contributes to the
+                             ecological equilibrium in liquidity supply and demand within the market (Handa et al.,
+                             2003, 1998; Handa & Schwartz, 1996).
+                           The nature of liquidity provisioning in LOB markets contrasts sharply with that in
+                           quote-driven markets. In LOBs, liquidity suppliers face minimal entry and exit barriers,
+                          allowing them to adapt quickly to market conditions. This “free-entry and free-exit”
+                                characteristic, as described by Brockman and Chung (2002), is a defining feature of LOB
+                            markets. However, its implications for market resilience and reliability, particularly during
+                                  crises, remain underexplored (Anand & Venkataraman, 2016; Tripathi et al., 2021).
+                               Recent studies have highlighted asymmetric behavior between the bid and ask sides
+                              of LOBs, particularly during crisis periods. For instance, (Cenesizoglu & Grass, 2018) found
+                               that the ask side deteriorates more significantly than the bid side during crises, contributing
+                            disproportionately to market instability. (Sensoy, 2019) also noted these asymmetries,
+                         emphasizing the need for separate analyses of the bid and ask dimensions of liquidity.
+                           Most liquidity studies in LOBs focus on spread and depth, derived from price and
+                       volume information at the best bid-ask levels (Chordia et al., 2000, 2002, 2008). However,
+                           evidence from developed markets suggests that the best bid-ask orders may be noisy and
+                                 less informative (Amaya et al., 2018; Cao et al., 2009; Cenesizoglu & Grass, 2018; Deuskar &
+                            Johnson, 2011). Deeper levels of the order book often provide a more accurate assessment of
+                                  liquidity, but accessing such data is challenging, particularly in emerging markets (Bekaert
+                                 et al., 2007; Lesmond, 2005).
+                           The components of the bid-ask spread also differ significantly between dealer and
+                    LOB markets. In dealer markets, spreads primarily compensate designated market makers
+                              for inventory holding, information asymmetry and order processing costs (Amihud &
+                          Mendelson, 1986; Glosten & Milgrom, 1985, Ho & Stoll, 1983). In contrast, in LOBs, spreads
+                                 reflect transaction costs, adverse selection costs and waiting costs borne by limit order
+                             suppliers (Brockman & Chung, 1999; Chan, 2000; de Jong et al., 1996).
+                           The shape of the LOB, characterized by parameters such as depth, height, slope,
+                               resilience and elasticity, significantly impacts price formation, liquidity provisioning
+                       and volatility (Cao et al., 2009; Næs & Skjeltorp, 2006). A thick order book with depth
+                           concentrated around the best quotes reflects a consensus on the true price and promotes
+                                 stability (Goettler et al., 2005; Valenzuela et al., 2015). Conversely, thin order books with
+                           dispersed depth indicate mispricing and increased short-term volatility (Obizhaeva &
+                       Wang, 2013; Ro¸su, 2009, 2020). Asymmetries in the order book shape can signal higher
+                            trading costs and potential inefficiencies (Biais et al., 1995).
+                           The resilience of the order book—its ability to recover from order flow shocks—is a
+                                  critical yet underexplored aspect of market efficiency (Degryse et al., 2005; Large, 2007).
+                           Recent advancements in high-frequency data availability provide opportunities to examine
+                                this property more closely, particularly during crisis events.
+
+=== PDF PAGE 5 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                              5 of 29
+
+
+
+                              Future research could explore the resilience of LOBs in greater detail, particularly
+                         examining how free-entry and free-exit dynamics affect liquidity provisioning during
+                         market stress. Additionally, asymmetries between the bid and ask sides warrant further
+                             investigation to understand their implications for market stability. Finally, expanding the
+                          study of liquidity measures to emerging markets, where data limitations persist, could
+                          provide valuable insights into the global dynamics of liquidity.
+                               This paper contributes to the literature in several ways. First, we focus on liquidity,
+                        whereas most prior studies on cryptocurrencies have analyzed other aspects. Second,
+                             instead of limiting our analysis to Bitcoin, we examine a broad set of altcoins. Additionally,
+                    we contribute to the sparse body of research that incorporates deeper levels of order
+                         books—considering prices and quantities beyond the best bid and ask—when assessing
+                                limit order book liquidity. Third, unlike order books from other markets, the full limit order
+                         books of cryptocurrency exchanges are unique in providing 24/7 trading data.
+
+                             3. Data
+
+                                   3.1. Raw Data
+
+                             Order book data from the exchanges Binance, Kraken, Huobi and OKEx were obtained
+                         through CryptoTick (https://www.cryptotick.com/, accessed on 6 August 2021). The
+                         sample period spans 1 January 2019, to 30 September 2019, covering 273 days. The data are
+                         provided as individual files for each currency pair, exchange and trading day, with dates
+                       and times standardized to Coordinated Universal Time (UTC).
+                           The dataset includes all levels from both sides of the order book as made available to
+                          CryptoTick by the exchanges. While some exchanges report the full set of orders, others
+                        impose limitations. For instance, Binance reported only the top 20 bids and asks until
+                          mid-June 2019.
+                           The time frame of the sample captures numerous new listings and delistings on the
+                           exchanges, with some currency pairs appearing or disappearing between January and
+                         September 2019. Additionally, certain trading days are missing from the dataset, likely due
+                              to suspended trading or unavailability of data for unknown reasons.
+                             These 24/7 limit order book data enable the reconstruction of (parts of) the order
+                        books for evaluating the liquidity of currency pairs. Unlike traditional markets, where
+                            trading hours are limited, the continuous trading nature of cryptocurrency markets may
+                                  shift or concentrate liquidity at specific times of the day. Notably, trading activity captured
+                              in our limit order books is uninterrupted by auctions, in contrast to systems like XETRA,
+                        which employs opening, intraday and closing auctions for German stocks.
+
+                                   3.2. Data Processing
+
+                             Each file begins with an order book snapshot that lists all available price levels on both
+                              sides of the order book at the start of the day. Subsequent entries document updates to the
+                            current order book status. To facilitate analysis, we created 5-min order book snapshots
+                            containing up to 20 levels on each side (if available), resulting in 288 order book snapshots
+                          per day. The use of 5-min intervals is widely accepted in the literature as it represents
+                          a balanced compromise between computational efficiency and the retention of essential
+                            informational content.
+                            To ensure data quality, we applied several filters. First, we excluded all days with
+                           order books reporting negative or zero bid-ask spreads at five-minute intervals. Such
+                             instances should have triggered the matching and removal of the corresponding orders
+                        from the order book. Second, we omitted all days with order books reporting negative
+                              quantities for any order, as this is economically nonsensical.
+
+=== PDF PAGE 6 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                              6 of 29
+
+
+
+                              These issues indicate inaccuracies in the raw data. Since we could not identify where
+                            the errors in the raw data occurs, we omitted the entire day’s observations for that pair.
+                        Such omissions are rare in our sample and are unlikely to significantly impact our results.
+                            This filter applies to 2543 dates across 453 trading pairs (1392 on OKeX, 767 on Binance, 324
+                        on Huobi and 60 on Kraken), less than 2% of the raw data, resulting in 254,728 observations
+                             across 1086 trading pairs.
+
+                                   3.3. Descriptive Statistics
+
+                           The crypto exchanges in our sample offer a variety of cryptocurrency trading pairs.
+                          For this paper, we define the cryptocurrency reported as the quantity in the order book
+                            as the “target currency,” and the cryptocurrency or fiat currency reported as the price in
+                            the order book as the “base currency.” Each combination of a target currency with a base
+                           currency constitutes a currency pair (or trading pair).
+                                Table 1 presents, for each exchange, the number of base currencies, target currencies
+                       and trading pairs traded between January 2019 and September 2019. While the number of
+                          base currencies across exchanges is relatively modest, ranging between four and twelve,
+                             there are significant differences in the number of target currencies and trading pairs.
+                           Binance and OKEx offer a broader selection, with 162 and 160 target currencies, resulting in
+                           515 and 436 trading pairs, respectively. In contrast, Huobi and Kraken adopt a more focused
+                           approach, offering 22 and 21 target currencies (57 and 79 trading pairs, respectively).
+
+
+                            Table 1. Number of base currencies, target currencies and trading pairs by exchange. This table
+                                 reports the number of base currencies (column 2), the number of target currencies (column 3) and the
+                         number of trading pairs (column 4) by the four exchanges (column 1).
+
+                         Exchange         # of Base Currencies  # of Target Currencies  # of Trading Pairs
+
+                    BINANCE                11                   161                 514
+
+                     HUOBI                   4                    22                  57
+
+                   KRAKEN                 7                    21                  79
+
+                    OKEX                    5                    160                 436
+
+
+                             These differences highlight varied business policies or strategies among crypto
+                           exchanges: Binance and OKEx prioritize a wider selection of trading pairs, while Huobi
+                       and Kraken focus on specialization within a more limited set of currency pairs.
+                                Next, we categorize the base currencies into three types: fiat currencies (e.g., US dollar,
+                              Euro), stablecoins (e.g., Tether and other US dollar-pegged coins) and other cryptocurrencies
+                                     (e.g., Bitcoin, Ether).
+                                 Table 2 presents the number of target currencies and trading pairs by exchange and by
+                         our selected base currency types. Among the exchanges, Huobi is the only one to offer all
+                             three base currency types. In contrast, Binance and OKEx do not support fiat currencies,
+                          while Kraken does not offer any stablecoins.
+                               Huobi’s four fiat trading pairs involve the US dollar paired with Tether, Bitcoin, Ether
+                       and Ripple. These four currencies are widely used and serve as base currencies, making
+                             these pairs convenient entry and exit points between the fiat and cryptocurrency markets.
+                       The other three exchanges focus on providing either stablecoins or fiat currencies as base
+                           currency options.
+
+=== PDF PAGE 7 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                              7 of 29
+
+
+
+                              Table 2. Number of target currencies and trading pairs by exchange and base type. This table reports
+                               the number of target currencies (column 3) and the number of trading pairs (column 4) by the four
+                             exchanges (column 1) and the base currency type (column 2).
+
+                         Exchange          Base Type          # of Target Currencies  # of Trading Pairs
+
+                    BINANCE          cryptocurrency              157                 377
+                    BINANCE           stablecoin                   57                  137
+
+                     HUOBI             cryptocurrency               20                  33
+                     HUOBI                 fiat currency                 4                   4
+                     HUOBI              stablecoin                   20                  20
+
+                   KRAKEN           cryptocurrency               20                  29
+                   KRAKEN              fiat currency                 19                  50
+
+                    OKEX              cryptocurrency              140                 276
+                    OKEX               stablecoin                   143                 160
+
+
+                                Since the exchanges differ in the types of base currencies offered, we now examine
+                       which base currencies are available on each exchange and highlight the most notable
+                              findings. Table 3 summarizes this information, with the first column listing the exchanges,
+                            the second column showing the base currencies associated with each exchange, the third
+                       column indicating the type of the base currency and the fourth column reporting the
+                       number of target currencies for each base currency. The total number of currencies traded
+                          during our sample period (including new listings and delistings) is also presented.
+
+
+                             Table 3. Number of target currencies by exchange and base currency. This table reports the number
+                                 of target currencies (column 4) by the four exchanges (column 1) and the base currencies (column 2).
+                        Column 3 defines the type of the corresponding base currency in column 2.
+
+                            Exchange               Base Currency             Base Type     # of Target Currencies
+
+                       BINANCE            BBTC                    cryptocurrency            1
+                       BINANCE           BNB                     cryptocurrency            92
+                       BINANCE            BTC                     cryptocurrency           150
+                       BINANCE           ETH                     cryptocurrency           131
+                       BINANCE            TRX                     cryptocurrency            1
+                       BINANCE            XRP                     cryptocurrency            2
+                       BINANCE            PAX                          stablecoin              29
+                       BINANCE           TUSD                        stablecoin              24
+                       BINANCE           USDC                        stablecoin              27
+                       BINANCE            USDS                        stablecoin              2
+                       BINANCE           USDT                        stablecoin              55
+
+                       HUOBI              BTC                     cryptocurrency            20
+                       HUOBI             ETH                     cryptocurrency            13
+                       HUOBI             USD                              fiat currency             4
+                       HUOBI             USDT                        stablecoin              20
+
+                     KRAKEN            BTC                     cryptocurrency            20
+                     KRAKEN           ETH                     cryptocurrency            9
+                     KRAKEN          CAD                             fiat currency             7
+                     KRAKEN           EUR                              fiat currency             18
+                     KRAKEN            GBP                              fiat currency             2
+                     KRAKEN               JPY                               fiat currency             4
+                     KRAKEN           USD                              fiat currency             19
+
+                      OKEX               BTC                     cryptocurrency           127
+                      OKEX              ETH                     cryptocurrency           118
+                      OKEX             OKB                     cryptocurrency            31
+                      OKEX             USDK                        stablecoin              18
+                      OKEX              USDT                        stablecoin             142
+
+=== PDF PAGE 8 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                              8 of 29
+
+
+
+                                   Bitcoin and Ether emerge as the cryptocurrencies associated with the largest number
+                              of trading pairs, particularly on Binance and OKEx, where they are part of over 100 trading
+                               pairs. Tether, as a base currency, is used for 142 target currencies on OKEx, compared
+                             to 55 on Binance and 20 on Huobi. Binance additionally offers other stablecoins and
+                             cryptocurrencies, such as Baby Bitcoin (BBTC), Tron (TRX), Ripple (XRP) and USD Coin
+                          (USDS), though these are of limited significance and will not be considered further in this
+                             paper. Both Binance and OKEx have introduced their own coins—Binance Coin (BNB) with
+                          92 target currencies and OKB with 31 target currencies—adding to the extensive range of
+                           investment options. This variety, while beneficial, can be challenging for investors to fully
+                       comprehend and evaluate.
+                            Kraken stands out as the only exchange in our sample that offers fiat currencies in
+                           addition to the US dollar (or USD-pegged stablecoins). The fiat currencies provided by
+                        Kraken include the euro (EUR), Canadian dollar (CAD), Japanese yen (JPY) and Pound
+                               Sterling (GBP). These offerings may appeal to investors from corresponding regions, as they
+                           allow target currencies to be valued directly in their home fiat currency, thereby eliminating
+                           currency risk and transaction costs associated with converting to and from the US dollar.
+                              Overall, US dollar-based investors benefit from the wider range of opportunities offered by
+                                     fiat trading pairs and USD-pegged stablecoins.
+                                Table 4 shows the distribution of trading pairs and target currencies across the four
+                         exchanges in our sample. Approximately 72% of the target currencies and 82% of the
+                            trading pairs are traded on only one exchange. Conversely, only eleven target currencies
+                            (4.26%) and twelve trading pairs (1.37%) are available on all four exchanges. This limited
+                            overlap may be inconvenient for investors, as it requires them to maintain multiple wallets
+                              to trade across a variety of crypto assets.
+
+
+                             Table 4. Number of trading pairs and target currencies traded parallel. This table summarizes the
+                         number of target currencies (panel (a)) and trading pairs (panel (b)) that are traded simultaneously
+                                across the four exchanges in our sample. The first row in each panel provides the absolute numbers,
+                              while the second row shows the corresponding relative frequencies (percentages). Columns 1 through
+                             4 indicate the number of exchanges on which the target currencies or trading pairs are available,
+                             ranging from one exchange (column 1) to all four exchanges (column 4).
+
+                                               (a) Target Currencies                           (b) Trading Pairs
+
+                                         1       2      3      4                  1       2      3      4
+
+                           Frequency   182     54     10     11   Frequency   714     117     30     12
+                                 Rel. Freq.  70.8%  21.0%  3.9%  4.3%    Rel. Freq.  81.8%  13.4%  3.4%  1.4%
+
+
+                                  Restricting the comparative evaluation of exchanges to trading pairs shared by all
+                          exchanges could introduce bias into the results. For instance, Binance and OKEx, with their
+                           broader range of trading pairs, likely have their total liquidity distributed across a greater
+                       number of pairs. This could make an individual trading pair from Binance or OKEx appear
+                                less liquid compared to the corresponding pair on Huobi or Kraken, which offer fewer
+                            trading pairs.
+                          From an investor’s perspective, this issue is only significant for those who exclusively
+                            trade these overlapping pairs. To better understand the overall market and appeal to a
+                         wider audience, our approach evaluates liquidity by analyzing all trading pairs available
+                       on the exchanges and applying appropriate liquidity measures, irrespective of the target
+                             currency, base currency or specific trading pairs.
+
+=== PDF PAGE 9 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                              9 of 29
+
+
+                             4. Methodology
+
+                   A significant challenge in analyzing data from cryptocurrency exchanges lies in the
+                            sheer number and diversity of trading pairs, as discussed in Section 3.3. These trading pairs
+                          vary widely across several dimensions, such as price level, transaction volume, exchange
+                               rate risk and other characteristics. This heterogeneity complicates the selection of liquidity
+                         measures that can be meaningfully compared across such a broad set of trading pairs.
+                             To address this challenge, we select liquidity measures that can be applied universally
+                              across trading pairs and ensure their comparability, regardless of the target or base currency.
+                         Measures that inherently depend on the units of either the target or base currencies—such
+                            as those based on trading volume—are excluded. Trading volume, for example, can be
+                           expressed either as the quantity of target currency units traded or as the transaction size,
+                             calculated by multiplying the trade volume by the average trade price. These approaches
+                            are problematic for our analysis because they are not easily comparable over time or
+                         between heterogeneous assets.
+                                  Additionally, measures for ex-ante trading costs are not suitable for our methodology.
+                         Approaches like those proposed by Gomber et al. (2015) and Brauneis et al. (2021) require
+                                     all trading pairs to share the same base currency. Given that our sample includes a variety
+                             of target and base currencies across multiple exchanges, implementing such methods is
+                                infeasible. Furthermore, the varying levels of interest in different target currencies lead
+                             to significant disparities in trading volumes. As a result, liquidity measures based on
+                             trading volumes of a single base currency across exchanges would disproportionately favor
+                         popular currencies, making unpopular coins appear less liquid in most cases. Limiting
+                          comparisons to identical trading pairs across exchanges would yield minimal insights into
+                            the overall liquidity of cryptocurrency exchanges.
+                                 Since cryptocurrency markets operate 24/7 and our data are sampled at five-minute
+                                 intervals, the resulting liquidity measures at this frequency would be prone to high levels of
+                               noise. To mitigate this, we compute daily averages of the liquidity measures, which provide
+                       more stable and reliable insights compared to measures derived from single, high-frequency
+                           order book snapshots.
+                         Our analysis begins by comparing liquidity across trading pairs based on their base
+                            currency types—fiat currencies, stablecoins or other cryptocurrencies. We group the results
+                                for our selected liquidity measures by base currency types, as presented in Table 2, and also
+                         examine specific base currencies, as shown in Table 3. We exclude less relevant currencies,
+                          such as BBTC, TRX, XRP and USDS on Binance, as they account for only a small fraction of
+                            the target currencies for their respective base currency types.
+                           The following subsection presents and discusses the liquidity measures used in this
+                             study. All selected measures are derived solely from order book data, particularly from
+                              prices and quantities across various order book levels, which reflect liquidity provision by
+                         market participants.
+
+                                   4.1. Order Book Spread
+
+                             Order book spread measures the liquidity implied by the prices of orders at the best
+                            bid and ask levels. The lowest-priced sell limit order represents the best ask price, while the
+                             highest-priced buy limit order represents the best bid price. The difference between these
+                        two prices is known as the quoted spread. K. H. Chung et al. (2004) highlight that investors
+                         submit limit orders to the order book based on the expected profitability of their orders.
+                         Given the high volatility inherent in cryptocurrencies, wider spreads can be anticipated to
+                           account for this price volatility.
+
+=== PDF PAGE 10 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             10 of 29
+
+
+
+                                 In general, the bid-ask spread reflects both explicit costs, such as transaction and
+                           order processing costs, and implicit costs, including adverse selection and waiting costs.
+                       Brockman and Chung (1999), Chan (2000) and de Jong et al. (1996) find that a significant
+                            portion of the spread is persistent and attributable to adverse selection costs. Furthermore,
+                           Brauneis et al. (2021) emphasize that order book data at the best bid and ask levels provide
+                                  reliable, real-time estimates of liquidity in cryptocurrency markets.
+                            Quoted spreads are expressed in terms of prices and, in our dataset, are denominated
+                               in the base currency. To ensure comparability across currencies and exchanges, we compute
+                            the relative spread by dividing the quoted spread by the mid-quote. This normalization
+                        removes the base currency denomination, making the results uniform and comparable
+                             across the diverse trading pairs in our sample.
+
+                                                                             Pbest ask −Pbest bid   Quoted Spread                                              Relative Spread =           =                                   (1)
+                                                                    Pmid               Pmid
+
+                          with
+                                                                                  Pbest ask + Pbest bid
+                                                          Pmid =                                                       (2)
+                                                                     2
+
+                          Gomber et al. (2015) interpret the relative spread as a liquidity premium that investors
+                       must pay to execute an order immediately. Investors face a trade-off between paying this
+                               liquidity premium and incurring the waiting costs associated with delayed execution.
+                       Up to this point, we have focused exclusively on the best bid and ask prices. However,
+                             the literature, including Cao et al. (2009), provides evidence that deeper levels in the order
+                       book are less affected by noise and often contain more meaningful information about
+                               liquidity in limit order books. To incorporate the impact of prices and volumes beyond the
+                             best bid and ask levels, volume-weighted average prices (VWAP) can be employed. The
+                 VWAP for the bid and ask sides are calculated as follows:
+
+                                                    ∑Ll=1 Pl ∗Ql                                                PVWAPL   =                       ,                                   (3)
+                                                      ∑Ll=1 Ql
+
+                        where l represents the levels of the corresponding bid and ask sides, Ql equals the quantity
+                                at level l and Pl equals the price at level l.
+                            The VWAP spread and the VWAP relative spread at level L are calculated analogously
+                              to the (best) bid-ask spread:
+
+                                                SpreadVWAPL   = PVWAPask,L −PVWAPbid,L                                (4)
+
+                                                           PVWAPask,L −PVWAPbid,L
+                                                     Relative SpreadVWAPL   =                                             (5)
+                                                                               Pmid
+
+                                Besides level one, the best bid and ask level, we calculate the VWAP spreads for the
+                                levels 5, 10, 15 and 20, i.e., incorporating up to the best 20 orders on both sides of the order
+                        book if available.
+
+                                   4.2. Order Book Depth
+
+                           The liquidity impact of orders at the best prices is greater and more persistent when
+                            these orders carry substantial volume. Cao et al. (2009) point out that orders at the best
+                              prices are often noisy and less informationally efficient than prices at deeper levels of the
+                           order book. This inefficiency arises because these orders are matched first and disappear
+                      when market orders with larger volumes surpass the best orders, or when new limit orders
+                         with smaller volumes undercut the existing best orders. As a result, the best prices and
+                              quantities tend to be more volatile and less stable over time.
+
+=== PDF PAGE 11 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             11 of 29
+
+
+
+                             To mitigate the impact of this noise, we rely on five-minute order book snapshots and
+                               calculate daily averages. This approach allows us to smooth out transient fluctuations and
+                            obtain an unbiased representation of the liquidity state of the order book.
+                                  Goettler et al. (2005) and Valenzuela et al. (2015) argue that greater depth around the
+                             best price levels reflects a stronger consensus on the true price, while a concentration of
+                        volume at price levels further away from the mid-price indicates greater uncertainty about
+                            the price.
+                      We define depth as the sum of the product of the price and quantity from the best
+                              price level to a specified depth level. To analyze differences between buy and sell liquidity,
+                    we calculate depth separately for both sides of the order book as follows:
+
+
+                                                                             L
+                                                         Depthask,L = ∑ (Pask,l ∗Qask,l)                              (6)
+                                                                            l=1
+
+                                                                             L
+                                                          Depthbid,L = ∑ (Pbid,l ∗Qbid,l)                               (7)
+                                                                            l=1
+
+                                 This depth measure captures the accumulated volume present in the order book across
+                                different price levels. By taking the product of quantity and price, we normalize the results
+                              to the base currency, effectively canceling out the target currency. This approach enables a
+                              consistent comparison of depth across exchanges for a given base currency.
+                      We avoid comparing results in terms of the target currency, as the sheer number of
+                               target currencies and their limited overlap across exchanges—most being traded exclusively
+                       on a single exchange—would make such comparisons impractical and less meaningful.
+
+                                   4.3. Order Book Variation
+
+                               Next, we propose a new measure to capture order book variation. The underlying
+                            idea is that one characteristic of liquid markets is their stability over time: order books in
+                         such markets typically do not change rapidly because they can absorb trading demand
+                          without significant disruptions. While periods of rapid changes in prices and order books
+                          can occur, we argue that, on average, the order books of liquid markets should exhibit less
+                             variation than those of illiquid markets.
+                         As outlined in Section 3, we reconstruct the order book at five-minute intervals,
+                             resulting in 288 snapshots per day. To derive a comparable and non-price-dependent
+                          measure, we count the number of order book levels by which the mid-price moves from
+                        one snapshot to the next. Specifically, we identify the level l that minimizes the absolute
+                              difference between the bid price at level l at time t and the mid-price at time t −1.
+
+               lbid = arg min (|Pbid,1,t −Pmid,t−1|, |Pbid,2,t −Pmid,t−1|, ..., |Pbid,l,t −Pmid,t−1|, ..., |Pbid,L,t −Pmid,t−1|)           (8)
+                                                  l
+
+                                Next, we proceed analogously for the ask side of the order book:
+
+               lask = arg min (|Pask,1,t −Pmid,t−1|, |Pask,2,t −Pmid,t−1|, ..., |Pask,l,t −Pmid,t−1|, ..., |Pask,L,t −Pmid,t−1|)           (9)
+                                                  l
+
+                      We combine the results from Equations (8) and (9) by taking the maximum of
+                                their results:
+                                                                                                        l = max(lbid, lask)                                  (10)
+
+                          By construction, at least one of the two values must be greater than or equal to
+                            one. Lower values of l indicate lower variation and hence higher relative liquidity in the
+                           order book.
+
+=== PDF PAGE 12 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             12 of 29
+
+
+
+                              For each trading day, we calculate 288 values of l (one value for each five-minute
+                                interval). To facilitate further analysis, we aggregate these values in two ways.  First,
+                    we compute the simple average of l across all observations for each trading day. This
+                          average filters out short-term fluctuations and provides a measure of the average level of
+                           order book variation for a currency pair on a given trading day. Second, we calculate the
+                    maximum five-minute variation, which represents the worst-case variation recorded for a
+                           currency pair on a given trading day. The difference between these two metrics serves as a
+                            straightforward measure of variation risk.
+                                 This variation measure captures two key factors that consume liquidity simultaneously.
+                   On one hand, best bid and ask orders may be canceled and removed from the order book.
+                      From a narrow order book liquidity perspective, this constitutes a removal of liquidity.
+                        However, we expect the impact of cancellations on mid-price changes to be minimal, as
+                             there is no evidence in the literature, to the best of our knowledge, suggesting that order
+                              cancellations significantly drive mid-price variation.
+                      On the other hand, liquidity can be consumed through trades, as matched orders
+                           disappear from the order book. The impact of a trade depends on its size and the liquidity
+                              available in the order book at the time. Larger trades and smaller order sizes at levels close
+                              to the mid-price are likely to result in higher values for our variation measure. Trades are
+                           thus expected to be the primary driver of significant order book variation.
+                        One advantage of this measure is its ability to capture the dynamics of order book
+                              liquidity without overly emphasizing exact price values. By abstracting from prices and
+                           reducing the information to price levels, this measure facilitates comparisons across trading
+                             pairs with different base currencies. From an investor’s perspective, variation is highly
+                              relevant, as it can help identify trading pairs with low liquidity. Investors can use this
+                           information to adjust their order submission strategies, minimizing variation, execution
+                       and pick-off risk.
+                                Closely related to our measure of order book variation is the volatility since level
+                      movements in the order book leads to returns.  This allows us to compare if order
+                       book variations and return volatility actually measure the same aspect of liquidity
+                           or yield to different results.  Moreover, our data allows to calculate return volatility
+                        from a five-minute interval compared to volatility based on daily returns from public
+                            sources (e.g., coinmarketcap.com) We measure volatility as the five-minute annualized log
+                            return volatility.
+
+                           s                                                                                      Pt
+                                            σ =   Variance(ln(     )) ∗288 ∗365                        (11)
+                                                                          Pt−1
+
+                         with Pt is the price at time t and Pt−1 is the price 5 min before time t. To annualize the
+                                  volatility, we need to use the factor 288 since we have 288 five-minute intervals during a
+                        day and the factor 365 since trading in crypto is possible during 365 days in a year. For each
+                            trading pair and date, we receive the annualized return volatility based on the intraday
+                            five-minute returns.
+
+                                   4.4. Order Book Imbalance
+
+                             While depth itself captures an important aspect of liquidity, the difference between bid
+                       and ask depth—referred to as order imbalance—provides additional valuable information.
+                                Biais et al. (1995) present evidence that a higher order imbalance is associated with increased
+                            trading costs. Similarly, Bonart and Gould (2017) argue that order book imbalance is a
+                           strong predictor of order flow, as traders may cancel their limit orders and replace them
+                          with market orders in response to imbalances.
+
+=== PDF PAGE 13 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             13 of 29
+
+
+
+                      We calculate order imbalance by subtracting the bid depth from the ask depth at the
+                              selected levels of the order book.
+
+
+                                                    L
+                                 OBIL = ∑ (Pask,l ∗Qask,l −Pbid,l ∗Qbid,l) = Depthask,L −Depthbid,L        (12)
+                                                   l=1
+
+                                 Similar to the spread, normalization is necessary to ensure that the order imbalance
+                         measure is comparable across different base currencies. To achieve this, we divide the order
+                          imbalance—calculated as the difference between ask and bid depths—by the sum of the
+                           ask and bid depth measures at the same order book levels.
+
+
+                                   ∑Ll=1 (Pask,l ∗Qask,l −Pbid,l ∗Qbid,l)          OBIL                            NOBIL =                    =                               (13)
+                                   ∑Ll=1 (Pask,l ∗Qask,l + Pbid,l ∗Qbid,l)    Depthask,L + Depthbid,L
+
+                                 This measure addresses several limitations of order book depth. First, it eliminates the
+                              influence of target and base currencies, enabling comparisons across all base currencies and
+                           exchanges. Second, the order book imbalance measure is standardized to values between
+                    −1 and 1, making it straightforward to interpret. A value of −1 represents the extreme case
+                       where the order book contains only bid orders, while 1 represents the opposite extreme
+                         with only ask orders. A value of 0 indicates a balanced order book, with equal depth at
+                               level L for both sides.
+                                 Accordingly, a negative normalized order book imbalance (NOBI) reflects a dominance
+                             of bid orders in terms of the base currency’s value, whereas a positive NOBI indicates a
+                         predominance of ask orders.
+                             To measure the effect of order book imbalance in general, we take the absolute value
+                              of NOBI for the absolute normalized order book imbalance (ANOBI):
+
+                                             ANOBIL = |NOBIL|                                 (14)
+
+                             5. Results
+
+                                 In this section, we present the results of our analysis, focusing on the liquidity
+                               characteristics of cryptocurrency markets across different exchanges and base currencies.
+                       The results are organized into subsections that examine key liquidity measures, including
+                             spreads, order book depth, imbalance and variation. Additionally, we explore the interplay
+                        between these measures and how they vary across trading pairs, exchanges and time.
+                      Our findings provide insights into the unique features of cryptocurrency markets, the
+                              factors driving liquidity differences and the implications for market participants. The
+                          subsequent subsections detail these results, highlighting both aggregate trends and
+                             exchange-specific observations.
+
+                                   5.1. Spreads
+
+                                 Table 5 presents the average relative spreads at various order book levels—best level,
+                               level 5, level 10, level 15 and level 20—grouped by exchange and base currency type.
+                            Several notable differences emerge between the exchanges and base currency types.
+                              For cryptocurrencies other than stablecoins, the average spreads are approximately
+                          0.55% on Binance, Huobi and Kraken, but significantly higher at 1.9% on OKEx. Substantial
+                             differences are also observed for stablecoins, with average spreads of 0.59% on Binance,
+                         0.23% on Huobi and 1.26% on OKEx. For fiat currencies, the spreads vary considerably
+                        between Huobi (0.12%) and Kraken (1.25%), with the differences primarily driven by
+                            higher spreads for GBP, JPY and CAD on Kraken. Even for USD, the average spread at the
+
+=== PDF PAGE 14 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             14 of 29
+
+
+
+                             best level on Kraken (0.38%) remains significantly higher than the corresponding spread
+                       on Huobi.
+
+                            Table 5. Spread measures by exchange and base currency. This table reports the average relative
+                             spreads in percent (%) for the best level (column 3), level 5 (column 4), level 10 (column 5), level
+                            15 (column 6) and level 20 (column 7) by the four exchanges (column 1) and base currency types
+                           (column 2). The numbers in the brackets report the standard errors of the corresponding average
+                                   relative spreads.
+
+                                                  L1 Rel.    L5 Rel.   L10 Rel.   L15 Rel.   L20 Rel.
+                         Exchange   Base Type
+                                                    Spread    Spread    Spread    Spread    Spread
+
+                                                               0.552       1.53        2.78        4.21        5.92
+                    BINANCE  cryptocurrency
+                                                                   (0.003)     (0.012)     (0.023)     (0.037)     (0.0558)
+                                                               0.589       1.14        2.62         4.9        7.37
+                    BINANCE   stablecoin
+                                                                   (0.018)     (0.031)     (0.0832)     (0.153)     (0.226)
+
+                                                               0.539       1.17        1.99        3.38        4.76
+                     HUOBI     cryptocurrency
+                                                                   (0.008)     (0.019)     (0.0358)    (0.0886)     (0.126)
+                                                                 0.12       0.283      0.622       1.04        1.44
+                     HUOBI       fiat currency
+                                                                   (0.004)     (0.010)     (0.0268)    (0.0426)    (0.0575)
+                                                               0.231      0.459      0.769       1.12        1.52
+                     HUOBI      stablecoin
+                                                                   (0.005)     (0.010)     (0.0163)    (0.0254)    (0.0367)
+
+                                                               0.576       1.19        2.18         3.3        4.44
+                   KRAKEN   cryptocurrency
+                                                                 (0.0112)     (0.024)     (0.0426)    (0.0644)    (0.0875)
+                                                                 1.25        2.05                   7.15        12.4
+                   KRAKEN    fiat currency                         4 (0.122)
+                                                                   (0.044)     (0.057)                  (0.202)     (0.434)
+
+                                                                     1.9        4.76        11.3        17.1        21.2
+                    OKEX      cryptocurrency
+                                                                   (0.052)     (0.094)     (0.513)     (0.698)      (0.75)
+                                                                 1.26        3.12        6.73        9.29        11.9
+                    OKEX       stablecoin
+                                                                   (0.053)     (0.105)     (0.585)     (0.295)     (0.383)
+
+
+                           The results indicate that specialization in selected trading pairs enhances overall
+                         exchange liquidity. Binance and OKEx offer 514 and 436 trading pairs, respectively, while
+                       Huobi and Kraken provide only 57 and 79 trading pairs. Despite Kraken’s larger best
+                                relative spread for cryptocurrencies (other than stablecoins) compared to Binance, Kraken
+                       and Huobi show higher liquidity for these cryptocurrencies at deeper levels, such as level
+                                   5, as indicated by lower relative spreads compared to Binance and OKEx.
+                             Given that Binance supports 377 trading pairs for cryptocurrencies, compared to only
+                           33 for Huobi and 29 for Kraken, the liquidity of Binance in terms of spreads is surprisingly
+                           competitive for other cryptocurrencies. This is particularly evident when considering the
+                           higher concentration of liquidity on Huobi.
+                           The contrast becomes even more apparent when comparing the relative spreads
+                             of stablecoins across exchanges. Huobi’s stablecoins exhibit significantly lower relative
+                          spreads compared to those on Binance and OKEx, highlighting a more concentrated
+                                 liquidity. Although Binance and OKEx adopt similar strategies by offering a large number
+                              of trading pairs in cryptocurrencies and stablecoins, their liquidity, as measured by relative
+                             spreads, varies substantially.
+                            The spreads increase with higher levels of the order book, and the steeper the increase
+                               in spreads, the higher the spreads at the best level. Among the exchanges and base currency
+                              types, Huobi stands out with a notably flat increase in spreads across order book levels for
+                                     fiat currencies and stablecoins.
+                   A strong relationship between relative spreads across order book levels is observed,
+                        which is partly expected due to the nested structure of the spread measures (higher levels
+
+=== PDF PAGE 15 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             15 of 29
+
+
+
+                             inherently include lower levels). Table 6 presents the correlations among spreads at different
+                           order book levels, providing further support for these findings.
+
+
+                              Table 6. Correlation between spread measures. This table reports the correlation matrix between level
+                             1 relative spread, level 5 relative spread, level 10 relative spread, level 15 relative spread and level 20
+                                   relative spread. All correlations are significantly different from zero at the 1%-significance level.
+
+                                            L1 Rel. Spread    L5 Rel. Spread   L10 Rel. Spread   L15 Rel. Spread
+
+                             L1 Rel. Spread
+                             L5 Rel. Spread        0.81 ***
+                             L10 Rel. Spread        0.57 ***             0.61 ***
+                             L15 Rel. Spread        0.50 ***             0.64 ***             0.86 ***
+                             L20 Rel. Spread        0.56 ***             0.67 ***             0.77 ***             0.86 ***
+
+                                          *** indicates 0.01 significance level for a two-tailed test.
+
+
+                                Table 7 presents the correlations between spread measures and order book variation
+                          measures. All correlations are negative and statistically significant: higher spreads are
+                             associated with greater (average and maximum) order book variation, with the strongest
+                              correlation observed between level 5 relative spreads and variation measures.
+
+
+                            Table 7. Correlation between spreads and order book variation. This table reports the correlation
+                           between the mean variation (first column) as well as the maximum variation (second column) and
+                               the level 1 relative spread (first row), the level 5 relative spread (second row), the level 10 relative
+                              spread (third row), the level 15 relative spread (forth row), as well as the level 20 relative spread (fifth
+                               row). All correlations are significantly different from zero at the 1%-significance level.
+
+                                             Mean Variation             Max Variation
+
+                          L1 Rel. Spread                    −0.17 ***                       −0.20 ***
+                          L5 Rel. Spread                    −0.22 ***                       −0.26 ***
+                          L10 Rel. Spread                    −0.11 ***                       −0.14 ***
+                          L15 Rel. Spread                    −0.15 ***                       −0.18 ***
+                          L20 Rel. Spread                    −0.17 ***                       −0.20 ***
+
+                                          *** indicates 0.01 significance level for a two-tailed test.
+
+
+                               This result is intuitive.  Larger spreads reflect higher trading costs, which deter
+                              investors from placing market orders and paying the associated liquidity premium. Instead,
+                             investors are more likely to submit limit orders in the face of limited liquidity. Conversely,
+                              tighter spreads increase the likelihood of order book variation, as consuming liquidity
+                        becomes cheaper, encouraging traders to use market orders more frequently.
+                              These findings are consistent with related literature on equity markets, such as Ranaldo
+                                (2004), and align with the equilibrium model of liquidity supply and demand in limit order
+                         books proposed by Handa and Schwartz (1996).
+
+                                   5.2. Depth
+
+                                  Tables 8 and 9 present the results for ask depth and bid depth, respectively, across order
+                       book levels 1 to 20. By construction, depth is measured in units of the base currency. For
+                              instance, the level 1 ask depth in Table 8 for BTC on Binance is 0.329 BTC. Base currencies
+                               that are only available on a single exchange are excluded from the analysis, as they cannot
+                         be compared across exchanges.
+                           The remaining base currencies are categorized into four groups: Bitcoin, Ether, US
+                             dollar and USD-pegged stablecoins. On average, Bitcoin and Ether exhibit greater depth
+                       on the bid side, while the US dollar and USD-pegged stablecoins show greater depth on
+                            the ask side.
+
+=== PDF PAGE 16 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             16 of 29
+
+
+
+                               For Bitcoin as the base currency, Binance and Kraken demonstrate higher depth across
+                                    all order book levels compared to Huobi and OKEx. Although Binance and Kraken have
+                             similar depth values for the first and fifth price levels, Kraken exhibits greater depth
+                               at deeper levels of the order book. Kraken also shows high depth for Ether, whereas
+                          Binance has the lowest depth among the exchanges for Ether as the base currency. This
+                             indicates that Binance consolidates more liquidity in terms of depth for Bitcoin than for
+                               Ether. Interestingly, the large number of BTC trading pairs on Binance does not appear to
+                            negatively impact its depth.
+
+
+                              Table 8. Ask side depth. This table reports the average level 1 ask depth (column 3), the average level
+                             5 ask depth (column 4), the average level 10 ask depth (column 5), the average level 15 ask depth
+                            (column 6) and the average level 20 ask depth (column 7) in terms of the corresponding base currency
+                           (column 2) by the four exchanges (column 1) and the base currency. The numbers in the brackets
+                                report the standard errors of the corresponding averages.
+
+                                       Base     L1 Ask    L5 Ask    L10 Ask    L15 Ask    L20 Ask
+                         Exchange
+                                     Currency    Depth     Depth     Depth     Depth     Depth
+
+                                                          0.329         2.1         4.46         6.77         8.97
+                    BINANCE    BTC
+                                                            (0.0103)     (0.0548)      (0.111)      (0.166)      (0.212)
+                                                          0.145        1.19         2.33         3.37         4.41
+                     HUOBI      BTC
+                                                            (0.0025)     (0.0322)     (0.0591)     (0.0762)     (0.0898)
+                                                          0.306        2.08         5.39         9.39         13.1
+                   KRAKEN    BTC
+                                                            (0.0064)     (0.0405)      (0.122)      (0.218)      (0.341)
+                                                         0.0631       0.459       0.917        1.42         1.99
+                    OKEX       BTC
+                                                              (0.002)      (0.0196)     (0.0439)     (0.0681)      (0.092)
+
+                                                          0.879        5.76        12          17.7         23.8
+                    BINANCE   ETH
+                                                            (0.0076)     (0.0547)      (0.127)      (0.207)      (0.302)
+                                                             2.35        12          20.8         30.5         39.3
+                     HUOBI     ETH
+                                                            (0.0537)      (0.329)      (0.485)      (0.757)      (0.969)
+                                                             3.55         20.3         57.5         96.8        128
+                   KRAKEN    ETH
+                                                            (0.0816)      (0.706)       (2.02)        (3.53)        (4.65)
+                                                             0.91         7.23         15.5         24.1         32.8
+                    OKEX      ETH
+                                                            (0.0244)      (0.379)      (0.858)       (1.35)        (1.88)
+
+                                                     4706      156,991     419,948     539,540     668,694
+                     HUOBI     USD
+                                                             (522)       (28,672)     (71,680)     (78,370)     (84,430)
+                                                     2307       15,743      45,004      82,555      118,909
+                   KRAKEN    USD
+                                                                 (54.4)        (370)       (1142)       (2344)       (3596)
+
+                                                     1114       9014       21,551      35,861      50,158
+                    BINANCE    PAX
+                                                                 (23.2)        (300)        (804)       (1486)       (2155)
+                                                     2129       15,411      38,206      54,017      63,632
+                    BINANCE   TUSD
+                                                                 (69.2)        (583)       (1365)       (1925)       (2139)
+                                                     1156       8338       18,984      31,411      43,418
+                    BINANCE   USDC
+                                                                 (40.7)        (204)        (417)        (720)       (1101)
+                                                     686        5157       10,707      16,443      22,657
+                    OKEX      USDK
+                                                                 (84.8)        (754)       (1331)       (1681)       (2217)
+                                                     1041       6818       14,958      23,130      31,490
+                    BINANCE   USDT
+                                                                 (16.3)        (89.4)        (177)        (262)        (347)
+                                                     963        6391       14,866      24,192      33,922
+                     HUOBI     USDT
+                                                                 (24.6)        (175)        (406)        (623)        (802)
+                                                     332        2629       5645       8594       11,477
+                    OKEX      USDT
+                                                                 (9.23)        (95.6)        (225)        (339)        (430)
+
+
+                            The comparison for USD as the base currency reveals patterns similar to those observed
+                              for spread measures. Huobi provides greater liquidity in terms of depth than Kraken on
+                          both the bid and ask sides. While Kraken shows similar depth on both sides of the book,
+
+=== PDF PAGE 17 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             17 of 29
+
+
+
+                           Huobi’s ask side exhibits greater depth for the first and fifth price levels. The divergence in
+                         accumulated depth becomes more pronounced at deeper levels of the order book.
+
+
+                              Table 9. Bid side depth. This table reports the average level 1 bid depth (column 3), the average level
+                             5 bid depth (column 4), the average level 10 bid depth (column 5), the average level 15 bid depth
+                            (column 6) and the average level 20 bid depth (column 7) in terms of the corresponding base currency
+                           (column 2) by the four exchanges (column 1) and the base currency. The numbers in the brackets
+                                report the standard errors of the corresponding averages.
+
+                                       Base     L1 Bid     L5 Bid    L10 Bid    L15 Bid    L20 Bid
+                         Exchange
+                                     Currency    Depth     Depth     Depth     Depth     Depth
+
+                                                          0.392        2.67         5.15         7.02         8.47
+                    BINANCE    BTC
+                                                            (0.0151)     (0.0684)      (0.103)      (0.124)      (0.135)
+                                                          0.146        1.38         2.74         3.96         5.11
+                     HUOBI      BTC
+                                                            (0.0025)     (0.0352)     (0.0622)      (0.079)      (0.0916)
+                                                             0.38         2.49         5.88         10.1         14.4
+                   KRAKEN    BTC
+                                                            (0.0089)     (0.0532)      (0.102)      (0.176)       (0.29)
+                                                         0.0869       0.733        1.31         1.92          2.6
+                    OKEX       BTC
+                                                            (0.0027)     (0.0274)      (0.044)      (0.0631)     (0.0878)
+
+                                                             1.22         6.75         16.5         26.1        35
+                    BINANCE   ETH
+                                                              (0.007)      (0.054)      (0.129)      (0.206)      (0.289)
+                                                             2.59         18.4         29.9         40.9         50.7
+                     HUOBI     ETH
+                                                            (0.0546)      (0.541)      (0.664)      (0.809)      (0.998)
+                                                             4.65         24.7         63.5        103        133
+                   KRAKEN    ETH
+                                                              (0.118)      (0.652)       (1.95)        (3.28)        (4.22)
+                                                             1.15         11.5         57.5         34.9         44.9
+                    OKEX      ETH
+                                                            (0.0335)      (0.485)       (20.2)        (1.55)         (2.1)
+
+                                                     3751       97,143      442,571     608,334     743,027
+                     HUOBI     USD
+                                                             (717)       (17,995)     (73,177)     (87,762)     (97,323)
+                                                     2428       15,532      40,661      72,862      108,608
+                   KRAKEN    USD
+                                                                 (61.6)        (350)        (852)       (1473)       (2326)
+
+                                                     1013       8190       19,226      31,993      46,400
+                    BINANCE    PAX
+                                                                 (27.2)        (485)        (927)       (1500)       (2083)
+                                                     2067       14,601      35,812      48,294      56,376
+                    BINANCE   TUSD
+                                                                 (74.5)        (514)       (1216)       (1662)       (1930)
+                                                     1380       8789       18,369      29,597      42,319
+                    BINANCE   USDC
+                                                                 (50.5)        (246)        (440)        (696)       (1134)
+                                                     680        4422       10,286      15,643      21,753
+                    OKEX      USDK
+                                                                 (82.9)        (461)        (901)       (1331)       (1541)
+                                                     995        7049       16,041      25,397      34,975
+                    BINANCE   USDT
+                                                                 (13.4)        (89.2)        (191)        (286)        (375)
+                                                     897        6145       14,595      23,742      32,837
+                     HUOBI     USDT
+                                                                 (21.8)        (165)        (389)        (597)        (766)
+                                                     397        3644       7654       11,266      14,535
+                    OKEX      USDT
+                                                                 (10.1)        (169)        (299)        (416)        (508)
+
+
+                                  Stablecoins generally exhibit lower depth compared to their fiat currency counterpart,
+                            the USD. This result is intuitive, as investors may prefer trading in actual USD over
+                                     its stablecoin alternatives.  However,  fiat trading pairs are relatively limited, and
+                             investors focusing exclusively on fiat as the base currency exclude a significant portion
+                             of cryptocurrencies from their investment options. For stablecoins, there is a negative
+                              relationship between the number of trading pairs and depth.
+                    A comparison of these results with the spread measures suggests a positive relationship
+                        between depth and spread. Lower spreads are typically associated with higher depth
+                              across all order book levels in our sample. Additionally, we observe a negative relationship
+
+=== PDF PAGE 18 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             18 of 29
+
+
+
+                        between order book variation and depth for each base currency, with the exception of
+                          Huobi’s USD trading pairs. Higher depth is generally associated with lower order book
+                               variation, a result that aligns with intuitive expectations.
+
+                                   5.3. Order Book Variation
+
+                                Table 10 summarizes the results for order book variation, grouped by exchange and
+                          base currency type. The third column reports the daily average of the mean variation
+                             calculated over the 288 intraday observations, while the fourth column presents the daily
+                           average of the maximum variation experienced by an order book within a day. The values
+                              in parentheses represent the standard errors of the corresponding measures.
+
+
+                            Table 10. Order book variation and return volatility by base type. This table reports the average
+                       mean variation (column 3), the average maximum variation (column 4) and the annualized return
+                                     volatility by the four exchanges (column 1) and the base currency types (column 2). The numbers in
+                                the brackets report the standard errors of the corresponding averages.
+
+                         Exchange   Base Type     Mean Variation  Max Variation   Return Volatility
+
+                    BINANCE  cryptocurrency     1.97 (0.011)        12.5 (0.079)      132% (2.14%)
+                    BINANCE   stablecoin           3.24 (0.034)        15.5 (0.203)      101% (2.61%)
+
+                     HUOBI     cryptocurrency     2.95 (0.055)        19.3 (0.358)      147% (1.5%)
+                     HUOBI       fiat currency        2.71 (0.055)        15.7 (0.409)      75% (3.3%)
+                     HUOBI      stablecoin           6.86 (0.148)        39.4 (0.724)      103% (1.6%)
+
+                   KRAKEN   cryptocurrency     1.63 (0.016)        10.5 (0.136)      84% (1.0%)
+                   KRAKEN    fiat currency        2.32 (0.023)        14.3 (0.180)      114% (6.6%)
+
+                    OKEX      cryptocurrency     1.48 (0.023)        8.04 (0.185)      145% (2.7%)
+                    OKEX       stablecoin           2.02 (0.065)        13.0 (0.451)      138% (14.9%)
+
+
+                            The mean (maximum) variation ranges from 1.48 (8.04) for OKEx’s cryptocurrencies to
+                              6.86 (39.4) for Huobi’s stablecoins. The significant differences between the average means
+                       and maximums of intraday variation indicate high liquidity risk: the liquidity available at
+                        any given moment can vary substantially depending on the timing of an order submission.
+                            Periodic sharp drops in liquidity during a trading day pose risks for investors. Investors
+                           submitting new orders without up-to-date information on the state of the order book face
+                          heightened uncertainty, while existing limit orders are exposed to pick-off risk, which can
+                         be exploited by informed and fast traders.
+                              Focusing on exchanges that offer currency pairs with stablecoins as base currencies
+                            (Binance, Huobi and OKEx), both the mean and maximum variation are higher for
+                             stablecoins compared to fiat currencies or cryptocurrencies. Among these exchanges,
+                       Huobi exhibits the highest variation for trades involving stablecoins. Kraken’s data reveal
+                           higher variation for currency pairs with fiat currencies as base currencies compared to
+                           those with cryptocurrencies as base currencies. This suggests that, for Binance, Kraken
+                        and OKEx, investors provide more liquidity to cryptocurrencies than to fiat currencies and
+                          stablecoins—a surprising finding given the higher price volatility associated with base
+                             cryptocurrencies.
+                               For Huobi, which offers all three types of base currencies, fiat currencies demonstrate
+                            the lowest variation among the base types. In contrast, OKEx and Binance, which do not
+                               offer fiat currencies, show lower variation for stablecoins and cryptocurrencies than the
+                          corresponding base types on Huobi. This suggests that, from an exchange’s perspective,
+                          providing fiat currencies as base currencies may detract liquidity from stablecoins and
+                            other cryptocurrencies.
+
+=== PDF PAGE 19 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             19 of 29
+
+
+
+                      We further observe high return volatilities across exchanges and base types which are
+                               typical for cryptos. The volatilities range from 75% for fiat currencies as the base currency
+                       on Huobi to 145% for cryptocurrencies on OKEx. Comparing the results of order book
+                             variation and return volatility, we find that these two measures do not yield the same
+                                results across exchanges and base currencies, so order book variations and return volatility
+                         measure different aspects of liquidity.
+                                 Figure 1 shows the average mean variation and the average maximum variation on an
+                            intraday level. We aggregated the results on an hourly level instead of a daily level to study
+                         whether there are any intraday patterns. We can observe for all exchanges that the mean
+                       and maximum variation peak at hour 17 of the Coordinated Universal Time (UTC). This
+                                    is best visible for the Huobi order books which exhibits the highest order book variation.
+                       Even though we find statistically significant differences between hour 17 and hour 16 as
+                           well as between hour 17 and hour 18, economical significance is rather small since the
+                              differences are between 0.3 and 1.4 order book ranks on average.
+
+
+
+                                                     6
+
+
+
+
+
+                                                     4                                                                                   exchange
+                                                                                                                                         BINANCE                                                                                                                                                   Variation                                                                                            HUOBI
+                                                                 Mean                                                                                     KRAKENOKEX
+
+
+
+
+
+                                                     2
+
+
+
+
+
+                                                       0                  5                 10                 15                 20                 25
+                                                                                 Hour (UTC)
+
+
+
+
+
+                                                     10
+
+                                                                                                                                 exchange
+                                                                                                                                         BINANCE
+                                                                                                                                                   Variation                                                                                            HUOBI
+                                                 Max                                                                                     KRAKEN
+                                                                                                                              OKEX
+
+
+                                                      5
+
+
+
+
+
+                                                        0                 5                 10                15                20                25
+                                                                                 Hour (UTC)
+
+                              Figure 1. Intraday order book variation. These figures visualize the average mean variation (top) and
+                             average maximum variation (bottom) on the y-axis for each exchange indicated by the colors. The
+                                  x-axis shows the hour during the day in Coordinated Universal Time (UTC).
+
+=== PDF PAGE 20 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             20 of 29
+
+
+
+                                   5.4. Order Book Imbalance
+
+                                Table 11 presents the normalized order book imbalances (NOBI), grouped by
+                           cryptocurrency exchanges and base currencies. The results show that the average NOBI
+                                    is negative across all levels and base currencies for Binance, Kraken and OKEx. With
+                            the exception of Huobi’s fiat currency, all exchanges and base currency types exhibit
+                          a preponderance of buying orders starting from level 10. This indicates that investors
+                             generally prefer to exchange their base currencies for target currencies.
+
+
+                              Table 11. Normalized order book imbalance (NOBI) by exchange and base currency. This table reports
+                                the average normalized order book imbalance (NOBI) for level 1 (column 3), level 5 (column 4), level
+                            10 (column 5), level 15 (column 6) and level 20 (column 7) by the exchanges (column 1) and base
+                              currency types (column 2). The numbers in the brackets are the standard errors of the corresponding
+                             average NOBIs.
+
+                                                    L1       L5       L10       L15       L20
+                         Exchange   Base Type
+                                         NOBI    NOBI    NOBI    NOBI    NOBI
+
+                                                      −0.0742   −0.1460   −0.2120   −0.2300   −0.2250
+                    BINANCE  cryptocurrency
+                                                                 (0.0010)    (0.0014)    (0.0016)    (0.0017)    (0.0017)
+                                                      −0.0197   −0.0008   −0.0055   −0.0070   −0.0135
+                    BINANCE   stablecoin
+                                                                 (0.0022)    (0.0022)    (0.0026)    (0.0027)    (0.0028)
+
+                                                             0.0022    −0.0955   −0.1490   −0.1660   −0.1580
+                     HUOBI     cryptocurrency
+                                                                 (0.0022)    (0.0032)    (0.0034)    (0.0035)    (0.0035)
+                                                             0.0624     0.0353     0.0162     0.0058     0.0081
+                     HUOBI       fiat currency
+                                                                 (0.0063)    (0.0078)    (0.0099)    (0.0096)    (0.0094)
+                                                             0.0368     0.0153    −0.0080   −0.0247   −0.0276
+                     HUOBI      stablecoin
+                                                                 (0.0021)    (0.0020)    (0.0026)    (0.0031)    (0.0035)
+
+                                                      −0.0578   −0.0771   −0.0691   −0.0685   −0.0760
+                   KRAKEN   cryptocurrency
+                                                                 (0.0033)    (0.0037)    (0.0044)    (0.0047)    (0.0049)
+                                                      −0.0267   −0.0264   −0.0086   −0.0046   −0.0163
+                   KRAKEN    fiat currency
+                                                                 (0.0025)    (0.0034)    (0.0035)    (0.0034)    (0.0034)
+
+                                                      −0.0128   −0.2080   −0.2760   −0.2790   −0.2580
+                    OKEX      cryptocurrency
+                                                                 (0.0037)    (0.0044)    (0.0048)    (0.0053)    (0.0058)
+                                                      −0.0353   −0.1140   −0.1490   −0.1510   −0.1400
+                    OKEX       stablecoin
+                                                                 (0.0051)    (0.0055)    (0.0058)    (0.0061)    (0.0063)
+
+
+                              Huobi’s fiat currency (USD) is the only base currency with a positive average order
+                       book imbalance across all levels, reflecting a preponderance of selling orders. However,
+                        beyond level 10, the imbalance is not significantly different from zero, suggesting that the
+                           order book becomes balanced at deeper levels. This aligns with our assumption that fiat
+                           currency pairs, such as USD, serve as entry and exit points to the cryptocurrency market.
+                                 In general, the best levels of the order book do not accurately represent the state of
+                            the entire order book. For Huobi, the level 1 NOBI is not significantly different from zero,
+                             indicating a balanced order book at the best level. However, for cryptocurrencies and
+                             stablecoins on Huobi, the NOBI turns negative starting at levels 5 and 10, respectively.
+                              Significant shifts in NOBI are also observed for other exchanges and base types. For
+                               instance, Binance’s cryptocurrencies and both base currency types on OKEx show a sharp
+                             decline in NOBI at deeper levels. Additionally, Binance’s stablecoins exhibit an insignificant
+                               level 5 NOBI.
+                             These findings support previous literature and our results, highlighting that deeper
+                               levels of the order book provide more robust and reliable information compared to the
+                             best levels.
+
+=== PDF PAGE 21 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             21 of 29
+
+
+
+                            To compare order book imbalance with our variation measure, Table 12 reports the
+                             absolute normalized order book imbalance (ANOBI), grouped by cryptocurrency exchanges
+                       and base currencies. The results show that level 1 ANOBI values vary only slightly across
+                           base currency types and exchanges, ranging from 0.08 to 0.19. However, differences become
+                       more pronounced at deeper levels of the order book. ANOBI values increase significantly
+                      up to levels 10 and 15, stabilizing thereafter with no substantial changes by level 20, except
+                              for Huobi’s stablecoins. These findings align with those in Table 12, confirming that
+                          deeper levels of the order book provide more reliable information about overall order book
+                           imbalance. This also supports the literature’s assertion that the best levels are noisy and
+                                less informative.
+                            Comparing the variation results in Table 10 with the level 15 ANOBI results in Table 12,
+                    we observe an overall negative relationship between the two variables. Higher order book
+                           imbalances are associated with lower variation risk. Notably, OKEx’s stablecoins and other
+                             cryptocurrencies, as well as Binance’s other cryptocurrencies, exhibit the three highest
+                           average ANOBIs and correspondingly account for three of the four lowest variation results.
+                            Conversely, Huobi’s stablecoins and fiat currency, along with Binance’s stablecoins, show
+                            the lowest average ANOBIs and rank among the four highest variation results.
+
+
+                             Table 12. Absolute normalized order book imbalance (ANOBI) by exchange and base currency. This
+                                  table reports the average absolute normalized order book imbalance (ANOBI) for level 1 (column 3),
+                                   level 5 (column 4), level 10 (column 5), level 15 (column 6) and level 20 (column 7) by the exchanges
+                            (column 1) and base currency types (column 2). The numbers in the brackets are the standard errors
+                                 of the corresponding average ANOBIs.
+
+                                                    L1       L5       L10       L15       L20
+                         Exchange   Base Type
+                                        ANOBI  ANOBI  ANOBI  ANOBI  ANOBI
+
+                                                               0.119      0.187      0.249      0.271      0.275
+                    BINANCE  cryptocurrency
+                                                                 (0.0008)    (0.0012)    (0.0014)    (0.0014)    (0.0013)
+                                                                 0.12       0.121      0.143      0.155       0.16
+                    BINANCE   stablecoin
+                                                                 (0.0016)    (0.0016)    (0.0019)    (0.0019)    (0.0019)
+
+                                                             0.0988      0.148      0.185      0.202      0.203
+                     HUOBI     cryptocurrency
+                                                                 (0.0015)    (0.0027)    (0.0030)    (0.0030)    (0.0029)
+                                                               0.104      0.112      0.142      0.141      0.136
+                     HUOBI       fiat currency
+                                                                 (0.0047)    (0.0056)    (0.0067)    (0.0064)    (0.0065)
+                                                               0.082      0.0721     0.0882      0.104      0.118
+                     HUOBI      stablecoin
+                                                                 (0.0015)    (0.0014)    (0.0019)    (0.0023)    (0.0025)
+
+                                                               0.132      0.151      0.171       0.18       0.186
+                   KRAKEN   cryptocurrency
+                                                                 (0.0022)    (0.0025)    (0.0030)    (0.0033)    (0.0034)
+                                                               0.128      0.168      0.175      0.166       0.16
+                   KRAKEN    fiat currency
+                                                                 (0.0017)    (0.0023)    (0.0024)    (0.0023)    (0.0023)
+
+                                                               0.187      0.286      0.346      0.358      0.354
+                    OKEX      cryptocurrency
+                                                                 (0.0025)    (0.0032)    (0.0036)    (0.0038)    (0.0040)
+                                                               0.171      0.216      0.241      0.255      0.254
+                    OKEX       stablecoin
+                                                                 (0.0037)    (0.0038)    (0.0041)    (0.0042)    (0.0043)
+
+
+                           The only exceptions are Huobi’s and Kraken’s other cryptocurrencies. Since higher
+                           order book imbalance is typically associated with higher transaction costs and lower
+                                 liquidity, these results are both intuitive and consistent with theoretical expectations.
+                               Next, we evaluate whether the bid and ask sides of the order book contribute
+                                differently to order book variation. Table 13 reports the correlations between the imbalance
+                         measures and the mean variation in the second column, as well as the maximum variation
+                              in the third column.
+
+=== PDF PAGE 22 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             22 of 29
+
+
+
+                              Panel (a) presents the results for the absolute normalized order book imbalance
+                        (ANOBI). The correlations are significantly negative across all order book levels. A
+                             noticeable jump in correlation occurs between the best level and the fifth level, with
+                          a decrease of –0.08 for both mean and maximum variation. Another smaller jump is
+                          observed from the fifth to the tenth level, with a decrease of –0.04 for mean variation only.
+                         These jumps suggest that the best levels are noisy and less informative. Beyond the tenth
+                                  level, the results stabilize at approximately –0.3, indicating no substantial differences in the
+                              relationship between ANOBI and the two variation measures. This aligns with expectations:
+                           higher imbalance is associated with lower liquidity and higher trading costs, leading to
+                          fewer market order submissions. These findings are consistent with the overall results.
+                              Panel (b) in Table 13 shows the correlations between the normalized order book
+                          imbalance (NOBI) and the variation measures. The correlations are significantly positive,
+                           ranging from 0.19 to 0.24 for levels 5 through 20. Similar to ANOBI, a large jump is observed
+                         from the first to the fifth level.
+
+                            Table 13. Correlation of order book variation and imbalance. This table reports the correlation
+                            between the mean variation as well as the maximum variation average and the absolute normalized
+                              order book imbalance (ANOBI) in Panel (a) as well as the normalized order book imbalance (NOBI)
+                                  in Panel (b) for the order book levels 1, 5, 10, 15 and 20 each. All correlations are significantly different
+                           from zero at the 1%-significance level.
+
+                                               (a) Absolute Normalized Order Book Imbalance             (b) Normalized Order Book Imbalance
+
+                                       Mean Variation  Max Variation               Mean Variation  Max Variation
+
+                                  L1 ANOBI      −0.19 ***        −0.21 ***          L1 NOBI        0.15 ***            0.13 ***
+                                  L5 ANOBI      −0.27 ***        −0.29 ***          L5 NOBI        0.21 ***            0.22 ***
+                                  L10 ANOBI      −0.31 ***        −0.31 ***         L10 NOBI        0.24 ***            0.23 ***
+                                  L15 ANOBI      −0.32 ***        −0.31 ***         L15 NOBI        0.24 ***            0.22 ***
+                                  L20 ANOBI      −0.32 ***        −0.30 ***         L20 NOBI        0.22 ***            0.19 ***
+
+                                          *** indicates 0.01 significance level for a two-tailed test.
+
+
+                               Considering that order book imbalance is calculated as the accumulated ask volume
+                        minus the accumulated bid volume, there is strong evidence that greater depth on the bid
+                             side contributes more strongly to reduced variation. This is an intriguing result. As long
+                            as the order book provides sufficient depth on the bid side, enabling investors to sell their
+                               target currencies, the risk of variation tends to decrease. Conversely, lower bid-side depth
+                                     is associated with higher variation risk. This relationship may help explain significant price
+                        drawdowns, as investors are more likely to sell their target currencies when they observe a
+                             decline in the volume of buy orders.
+
+                                   5.5. Regression Results for Order Book Variation
+
+                           The results of the spread measures and order book imbalance suggest that variation
+                                    is endogenous. We have outlined the negative relationship between variation and both
+                           spreads and imbalances, which is intuitive at first glance.
+                            However, it is also plausible that higher variation could be associated with higher
+                          spreads and greater order book imbalance. Significant variation in the order book could
+                            lead to wider spreads, as larger gaps must be filled by new orders submitted to the order
+                           book. This process may take considerable time, causing the order book to maintain a large
+                            spread. Additionally, if order book variation were exogenous—that is, caused by factors
+                            outside the order book—it would occur independently of the current spread in the market.
+                            Nevertheless, the strong negative relationship we observe suggests a causal relationship
+                         from spreads to variation.
+
+=== PDF PAGE 23 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             23 of 29
+
+
+
+                                     Similarly, variation could also drive order book imbalance. A large trade, for instance,
+                    may consume liquidity on one side of the order book, leading to imbalance. However, if
+                             variation were exogenous, it would occur independently of order book imbalance. The
+                                significantly negative relationship we observe implies a causal relationship from imbalance
+                              to variation.
+                      We study the effects of spread, imbalance and their interaction on variation using
+                          panel regression models. We have an unbalanced panel since new listing and de-listings
+                       happened during the observed time horizon and some observations had to be ommitted
+                        due to inconsistencies as described in Section 3.2. Besides the pooled OLS model, we control
+                               for variables that are constant among the time but vary across trading pairs by including
+                            trading pair dummies (D1i, ..., DNi) and for variables that are constant across entities but
+                          vary over time can be done by including time dummies (B1t, ..., BTt). These models allows
+                              to eliminate bias from unobservables that change over time but are constant over trading
+                             pairs and vice versa. Trading pair fixed effects include, among others, the exchange they
+                             are traded on and the type of base currency. Time dummies account for, inter alia, the total
+                         market capitalization of the crypto market as well as crypto fear, greed and uncertainty.
+
+                                  Variationi,t = β1Spreadi,t + β2ANOBIi,t + γ1D1i + ... + γnDNi + δ1B1t + ... + δTBTt (15)
+
+                                This regression equation can be simplified to the following equation:
+
+                                      Variationi,t = β1Spreadi,t + β2ANOBIi,t + PairFixedE f f ects + TimeDummies     (16)
+
+                              Based on the high correlations with variation reported in Tables 7 and 13, we select the
+                               level 5 VWAP relative spread and the level 10 ANOBI as key predictors. However, similar
+                               results are observed for other combinations of spread and imbalance levels. Some trading
+                             pairs did not have 10 limit orders outstanding during a day, 3386 observations (trading
+                           days) were excluded from the regression.
+                                 Table 14 presents the regression results for four types of models: pooled OLS, a trading
+                              pair fixed effects model, an OLS model with time dummies and a trading pair fixed effects
+                        model with time dummies. The coefficient signs align with expectations across all models,
+                        though the magnitudes vary. Higher spreads and order book imbalances are associated
+                         with lower variation risk. An interaction term is included to account for the collinearity
+                        between the level 5 VWAP relative spread and the level 10 ANOBI. While the interaction
+                         term is not significant in the pooled OLS model, it is significantly negative in the fixed
+                                 effects models.
+                             To determine the appropriate model, we perform an F-test for trading pair fixed effects
+                        and/or time dummies. The test results confirm the presence of significant individual and
+                           time effects, leading us to select the fixed effects model with both currency pair individual
+                       and time effects.
+                            The regression results indicate that a one-percent increase in the level 5 VWAP relative
+                           spread decreases variation by 0.53% to 0.41%, depending on the level of the level 10 ANOBI.
+                                Similarly, a one-percent increase in the level 10 ANOBI leads to a variation change ranging
+                         from a decrease of 0.08% to an increase of 0.02%, depending on the level of the level 5 VWAP
+                               relative spread. Including the interaction term is essential to account for the correlation
+                         between spread and imbalance, as it significantly affects the results.
+                                Economically, the effect of spread appears to be stronger than that of imbalance. The
+                               results provide robust evidence that variation can be explained by the selected liquidity
+                          measures. We hypothesize that large trades causing variation are strategically timed to
+                            coincide with periods of high liquidity in the currency pairs.
+
+=== PDF PAGE 24 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             24 of 29
+
+
+
+                             Table 14. Regression results: OLS vs fixed effects. This table reports regression results, the estimated
+                                    coefficients with their corresponding standard errors in brackets and significance levels by stars, for
+                              four log-log models. Maximum variation (dependent variable) is regressed on the level 5 VWAP
+                                    relative spread (row 1), the level 10 absolute normalized order book imbalance (ANOBI) (row 2) and
+                               the interaction term of the two explanatory variables (row 3). The models are a pooled OLS model
+                            (column 2), a trading pair fixed effects model (column 2), a model with time dummies (column 3), a
+                                trading pair fixed effects model with time dummies (column 4) and a trading pair fixed effects model
+                            with exchange and time dummies (column 5). In the bottom row, the results for a F test for trading
+                                 pair fixed effects and/or timed dummies are presented in the last two rows.
+
+                                                           Dependent Variable:
+
+                                                          log(Max Variation)
+                                                        (1)              (2)              (3)              (4)              (5)
+
+ log(L5 VWAP Spread)                   −0.566 ***    −0.452 ***    −0.592 ***    −0.535 ***    −0.573 ***
+                                                  (0.005)         (0.007)         (0.004)         (0.007)         (0.008)
+ log(L10 ANOBI)                        −0.035 ***    −0.069 ***    −0.050 ***    −0.061 ***    −0.067 ***
+                                                  (0.009)         (0.010)         (0.008)         (0.009)         (0.010)
+ log(L5 VWAP Spread): log(L10 ANOBI)      0.002       −0.009 ***     −0.003 **     −0.009 ***    −0.009 ***
+                                                  (0.002)         (0.002)         (0.002)         (0.003)         (0.003)
+ Binance                                                                                                2.311 ***
+                                                                                                                  (0.103)
+ Huobi                                                                                                  2.547 ***
+                                                                                                                  (0.104)
+ Kraken                                                                                                 1.926 ***
+                                                                                                                  (0.132)
+ OKEx                                                                                                  1.736 ***
+                                                                                                                  (0.152)
+ Constant                              −0.422 ***
+                                                  (0.020)
+
+ Trading Pair Fixed Effects (1081)        NO       YES ***     NO       YES ***      YES ***
+ Time Dummies (279)              NO      NO       YES ***      YES ***      YES ***
+ Observations                              251,342        251,342        251,342        251,342        251,342
+ R²                                             0.14           0.02           0.02           0.02           0.02
+ Adj. R²                                        0.14           0.02           0.01           0.02           0.02
+ F Statistic                               4474 ***       35.36 ***       32.87 ***       38.52 ***       42.87 ***
+
+                                          ** and *** indicate 0.05, and 0.01 significance levels, respectively, for a two-tailed test.
+
+
+                               Next, we investigate whether the results differ between negatively and positively
+                         imbalanced order books, as indicated in Section 5.4. We run two fixed effects regressions,
+                           including both individual and time effects, separately for negatively and positively
+                         imbalanced order books. The results are presented in Table 15, with column (1) reporting
+                            the results for negative imbalances and column (2) for positive imbalances.
+                           The findings reveal that the effects of spreads and imbalances are stronger for
+                            negatively imbalanced order books than for positively imbalanced ones. These results
+                          support our hypothesis that higher depth on the bid side has a stronger contribution to
+                           reducing variation compared to higher depth on the ask side.
+                              For order books with a preponderance of selling orders, the coefficient of the spread
+                                    is smaller than that for negative imbalance. In contrast, the effect of imbalance itself does
+                           not differ significantly between negative and positive imbalances. This suggests that the
+                         observed differences in order book variation between negative and positive imbalances
+                             are primarily driven by spreads. The results further indicate that traders are willing to pay
+                           higher spreads to sell their currencies than to buy new ones.
+
+=== PDF PAGE 25 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             25 of 29
+
+
+
+                            Table 15. Regression results: negative imbalance vs positive imbalance. This table reports the
+                                  results of two individual and time fixed effect models. Model (1) reports the regression results for
+                               observations with negative order book imbalances and model (2) reports the regression results for
+                                observations with positive order book imbalances. The estimated coefficients are presented with their
+                             corresponding standard errors in brackets and significance levels by stars.
+
+                                                                        Dependent Variable:
+
+                                                                      log(Max Variation)
+                                                                                              (1)                        (2)
+
+                             log(L5 VWAP Spread)                      −0.537 ***           −0.487 ***
+                                                                                     (0.010)                  (0.013)
+                             log(L10 ANOBI)                           −0.060 ***           −0.048 ***
+                                                                                     (0.012)                  (0.014)
+                             log(L5 VWAP Spread): log(L10 ANOBI)       −0.009 ***            −0.006 **
+                                                                                     (0.003)                  (0.003)
+
+                                          ** and *** indicate 0.05 and 0.01 significance levels, respectively, for a two-tailed test.
+
+                             6. Conclusions
+
+                               This paper has examined liquidity in cryptocurrency markets, focusing on order
+                       book data across four major exchanges: Binance, Kraken, Huobi and OKEx. Through an
+                             analysis of multiple liquidity measures, including spreads, order book depth, imbalance
+                       and variation, we offer new insights into the functioning and efficiency of these markets.
+                         Our findings underscore the importance of spread and depth as liquidity measures.
+                   We observe that lower spreads are associated with higher depth across order book levels,
+                               reflecting greater liquidity. However, these relationships vary by base currency type and
+                          exchange. For example, fiat currencies on Huobi demonstrate remarkably flat spreads
+                            across order book levels compared to stablecoins or other cryptocurrencies. Similarly,
+                         depth measures reveal that Binance consolidates liquidity more effectively for Bitcoin
+                            trading pairs, while Kraken provides deeper order books for Ether and fiat-based trading
+                               pairs. These results highlight the distinct market structures and strategies employed by
+                               different exchanges.
+                      We also introduce a novel measure of order book variation, capturing the stability
+                             of order books over time. Our analysis reveals a strong negative relationship between
+                           order book variation and both spreads and imbalances. These findings suggest that liquid
+                         markets exhibit greater stability, as trades are executed with minimal disruption to the
+                           order book. The variation measure further indicates that higher depth on the bid side
+                          reduces variation risk, emphasizing the role of buy-side liquidity in maintaining market
+                                    stability. Conversely, significant variation often coincides with higher spreads, particularly
+                          during periods of low liquidity or sharp market movements.
+                            Order book imbalance, another critical liquidity metric, provides valuable insights
+                              into the dynamics of buy and sell pressures. Our results indicate that imbalances tend to
+                         be more pronounced for certain base currency types and exchanges, with bid-side depth
+                           playing a pivotal role in mitigating variation risk. Notably, fiat currency trading pairs on
+                       Huobi demonstrate a unique imbalance pattern, suggesting their role as entry and exit
+                            points in cryptocurrency markets.
+                         Our regression analysis supports the endogeneity of order book variation, with
+                          spreads and imbalances as key explanatory variables. Higher spreads and imbalances
+                            are consistently associated with lower variation risk, and the interaction between these
+                              factors further refines the explanatory power of our models. These findings align with
+                                theoretical expectations and contribute to the broader understanding of liquidity dynamics
+                              in cryptocurrency markets.
+
+=== PDF PAGE 26 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             26 of 29
+
+
+
+                         From a practical perspective, our findings have implications for various market
+                              participants. Investors can use these insights to optimize trading strategies by selecting
+                          exchanges and trading pairs with lower spreads and greater depth. Exchanges, in turn, can
+                          enhance liquidity by refining market design, such as through the introduction of designated
+                              liquidity providers or the adjustment of trading pair offerings. Finally, regulators can
+                            leverage these results to evaluate market efficiency and assess the impact of fragmentation
+                           within the crypto ecosystem.
+                            While this analysis provides robust insights into cryptocurrency market liquidity, it
+                              also has limitations. The study relies on data from a limited timeframe and focuses on four
+                         major exchanges, which may not capture the full diversity of the cryptocurrency market.
+                             Additionally, the measures and models used, though comprehensive, do not account for
+                             external factors such as macroeconomic events or regulatory changes that may influence
+                                liquidity. The use of order book data, while detailed, may also introduce biases due to
+                             differences in reporting standards across exchanges. Borri and Shakhnov (2022) further
+                             outline the issue of fake volume and/or noneconomic wash trading on crypto exchanges.
+                       Even though we solely used order book data and did not rely on any trading data, we
+                            nevertheless do not know if the practices at the times also had an impact on our results.
+                           Future studies could address these limitations by incorporating longer time horizons, more
+                          exchanges and broader market conditions.
+                                  In conclusion, this study demonstrates that liquidity measures derived from order book
+                           data provide a comprehensive understanding of market dynamics in the cryptocurrency
+                             space. The unique 24/7 trading nature of these markets, combined with their diverse
+                            trading pair structures, presents both challenges and opportunities for liquidity analysis.
+                           Future research could extend these findings by exploring alternative liquidity measures or
+                             investigating the impact of external events on order book dynamics. Our results lay the
+                       groundwork for such inquiries, contributing to the ongoing development of efficient and
+                            transparent cryptocurrency markets.
+
+
+                          Author Contributions: Conceptualization, M.A., M.G. and M.H.; methodology, M.A., M.G. and
+                            M.H.; software, M.G.; validation, M.A., M.G. and M.H.; formal analysis, M.G.; investigation, M.G.;
+                                 resources, M.A. and M.G.; data curation, M.G.; writing—original draft preparation, M.A., M.G. and
+                             M.H.; writing—review and editing, M.A. and M.G.; visualization, M.G.; supervision, M.G.; project
+                                administration, M.G. All authors have read and agreed to the published version of the manuscript.
+
+                            Funding: This research received no external funding.
+
+                                 Institutional Review Board Statement: Not applicable.
+
+                           Informed Consent Statement: Not applicable.
+
+                          Data Availability Statement: The data that support the findings of this study are proprietary and
+                                  confidential. As such, they are not publicly available. However, these data can be purchased from
+                               CryptoTick.
+
+                          Acknowledgments: The authors would like to thank Fabian Schär and Patrick Weiss as well as
+                                participants at 2021 AWG conference, 2021 CAL Conference and 2022 World Finance Conference
+                                  for their helpful and insightful comments and suggestions. We would also like to thank the two
+                         anonymous referees who aided us in making significant improvements to our research.
+
+                                Conflicts of Interest: The authors declare no conflict of interest.
+
+=== PDF PAGE 27 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             27 of 29
+
+
+References
+
+Akerlof, G. A. (1970). The market for “lemons”: Quality uncertainty and the market mechanism. The Quarterly Journal of Economics,
+      84(3), 488–500 .
+Al-Yahyaee, K. H., Mensi, W., Ko, H.-U., Yoon, S.-M., & Kang, S. H. (2020). Why cryptocurrency markets are inefficient: The impact of
+      liquidity and volatility. The North American Journal of Economics and Finance, 52, 101168.
+Amaya, D., Filbien, J.-Y., Okou, C., & Roch, A. F. (2018). Distilling liquidity costs from limit order books. Journal of Banking & Finance,
+      94, 16–34.
+Amihud, Y., & Mendelson, H. (1986). Asset pricing and the bid-ask spread. Journal of Financial Economics, 17(2), 223–249.
+Anand, A., Chakravarty, S., & Martell, T. (2005). Empirical evidence on the evolution of liquidity: Choice of market versus limit orders
+    by informed and uninformed traders. Journal of Financial Markets, 8(3), 288–308.
+Anand, A., & Venkataraman, K. (2016). Market conditions, fragility, and the economics of market making. Journal of Financial Economics,
+      121(2), 327–349.
+Back, K., & Baruch, S. (2007). Working orders in limit order markets and floor exchanges. The Journal of Finance, 62(4), 1589–1621.
+Barbon, A., & Ranaldo, A. (2021). On the quality of cryptocurrency markets: Centralized versus decentralized exchanges. arXiv,
+     arXiv:2112.07386. [CrossRef]
+Baruch, S. (2005). Who benefits from an open limit-order book? The Journal of Business, 78(4), 1267–1306.
+Bekaert, G., Harvey, C. R., & Lundblad, C. (2007). Liquidity and expected returns: Lessons from emerging markets. The Review of
+      Financial Studies, 20(6), 1783–1831.
+Biais, B., Foucault, T., & Salanié, F. (1998). Floors, dealer markets and limit order markets. Journal of Financial Markets, 1(3), 253–284.
+Biais, B., Hillion, P., & Spatt, C. (1995). An empirical analysis of the limit order book and the order flow in the Paris bourse. The Journal
+       of Finance, 50(5), 1655–1689.
+Bonart, J., & Gould, M. D. (2017). Latency and liquidity provision in a limit order book. Quantitative Finance, 17(10), 1601–1616.
+Borri, N., & Shakhnov, K. (2022). The cross-section of cryptocurrency returns. The Review of Asset Pricing Studies, 12(3), 667–705.
+     [CrossRef]
+Brauneis, A., & Mestel, R. (2018). Price discovery of cryptocurrencies: Bitcoin and beyond. Economics Letters, 165, 58–61.
+Brauneis, A., Mestel, R., Riordan, R., & Theissen, E. (2021). How to measure the liquidity of cryptocurrency markets? Journal of Banking
+   & Finance, 124, 106041.
+Brockman, P., & Chung, D. Y. (1999). Bid-ask spread components in an order-driven environment. Journal of Financial Research, 22(2),
+     227–246.
+Brockman, P., & Chung, D. Y. (2002). Commonality in liquidity: Evidence from an order-driven market structure. Journal of Financial
+      Research, 25(4), 521–539.
+Böhme, R., Christin, N., Edelman, B., & Moore, T. (2015).  Bitcoin: Economics, technology, and governance.  Journal of Economic
+      Perspectives, 29(2), 213–238.
+Cao, C., Hansch, O., & Wang, X. (2009). The information content of an open limit-order book. Journal of Futures Markets, 29(1), 16–41.
+Cenesizoglu, T., & Grass, G. (2018). Bid- and ask-side liquidity in the NYSE limit order book. Journal of Financial Markets, 38, 14–38.
+Chan, Y.-C. (2000). The price impact of trading on the stock exchange of Hong Kong. Journal of Financial Markets, 3(1), 1–16.
+Chordia, T., Roll, R., & Subrahmanyam, A. (2000). Commonality in liquidity. Journal of Financial Economics, 56(1), 3–28.
+Chordia, T., Roll, R., & Subrahmanyam, A. (2002). Order imbalance, liquidity, and market returns. Journal of Financial Economics, 65(1),
+     111–130.
+Chordia, T., Roll, R., & Subrahmanyam, A. (2008). Liquidity and market efficiency. Journal of Financial Economics, 87(2), 249–268.
+Christie, W. G., & Schultz, P. H. (1994). Why do NASDAQ market makers avoid odd-eighth quotes? The Journal of Finance, 49(5),
+     1813–1840.
+Chung, K., Van Ness, B., & Van Ness, R. (1999). Limit orders and the bid–ask spread. Journal of Financial Economics, 53(2), 255–287.
+Chung, K. H., Van Ness, B. F., & Van Ness, R. A. (2004). Specialists, limit-order traders, and the components of the bid-ask spread.
+      Financial Review, 39(2), 255–270.
+Chung, S.-L., Hung, C.-H., & Yeh, C.-Y. (2012). When does investor sentiment predict stock returns? Journal of Empirical Finance, 19(2),
+     217–240.
+Ciaian, P., Rajcaniova, M., & Kancs, d.  (2016). The economics of BitCoin price formation.  Applied Economics, 48(19), 1799–1815.
+     [CrossRef]
+Degryse, H., Jong, F. D., Ravenswaaij, M. V., & Wuyts, G. (2005). Aggressive orders and the resiliency of a limit order market. Review of
+      Finance, 9(2), 201–242.
+de Jong, F., Nijman, T., & Röell, A. (1996). Price effects of trading and components of the bid-ask spread on the Paris Bourse. Journal of
+     Empirical Finance, 3(2), 193–213.
+Demsetz, H. (1968). The cost of transacting. The Quarterly Journal of Economics, 82(1), 33–53.
+Deuskar, P., & Johnson, T. C. (2011). Market liquidity and flow-driven risk. Review of Financial Studies, 24(3), 721–753.
+
+=== PDF PAGE 28 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             28 of 29
+
+
+
+Dyhrberg, A. H., Foley, S., & Svec, J. (2018). How investible is Bitcoin? Analyzing the liquidity and transaction costs of Bitcoin markets.
+     Economics Letters, 171, 140–143.
+Easley, D., O’Hara, M., & Basu, S. (2019). From mining to markets: The evolution of bitcoin transaction fees. Journal of Financial
+     Economics, 134. [CrossRef]
+Foucault, T. (1999). Order flow composition and trading costs in a dynamic limit order market. Journal of Financial Markets, 2(2), 99–134.
+Friedman, D. (1993). How trading institutions affect financial market performance: Some laboratory evidence. Economic Inquiry, 31(3),
+     410–435.
+Glosten, L. R., & Milgrom, P. R. (1985). Bid, ask and transaction prices in a specialist market with heterogeneously informed traders.
+      Journal of Financial Economics, 14(1), 71–100.
+Goettler, R. L., Parlour, C. A., & Rajan, U. (2005). Equilibrium in a dynamic limit order market. The Journal of Finance, 60(5), 2149–2192.
+     [CrossRef]
+Gomber, P., Scheickert, U., & Theissen, E. (2015). Liquidity dynamics in an electronic open limit order book: An event study approach.
+     European Financial Management, 21, 52–78. [CrossRef]
+Griffiths, M. D., Smith, B. F., Turnbull, D. A. S., & White, R. W. (2000). The costs and determinants of order aggressiveness. Journal of
+      Financial Economics, 56(1), 65–88.
+Handa, P., Schwartz, R., & Tiwari, A. (2003). Quote setting and price formation in an order driven market. Journal of Financial Markets,
+      6(4), 461–489.
+Handa, P., & Schwartz, R. A. (1996). Limit order trading. The Journal of Finance, 51(5), 1835–1861.
+Handa, P., Schwartz, R. A., & Tiwari, A. (1998). The ecology of an order-driven market. The Journal of Portfolio Management, 24(2), 47–55.
+Harris, L. (1998). Optimal dynamic order submission strategies in some stylized trading problems. Financial Markets, Institutions &
+      Instruments, 7(2), 1–76.
+Harris, L., & Hasbrouck, J. (1996). Market vs. limit orders: The SuperDOT evidence on order submission strategy. The Journal of
+      Financial and Quantitative Analysis, 31(2), 213–231.
+Harris, L. E., & Panchapagesan, V. (2005). The information content of the limit order book: Evidence from NYSE specialist trading
+      decisions. Journal of Financial Markets, 8(1), 25–67.
+Harvey, C. R. (2016). Cryptofinance (SSRN scholarly paper no. ID 2438299). Social Science Research Network.
+Ho, T. S. Y., & Stoll, H. R. (1983). The dynamics of dealer markets under competition. The Journal of Finance, 38(4), 1053–1074.
+Hollifield, B., Miller, R. A., & Sandås, P. (2004). Empirical analysis of limit order markets. The Review of Economic Studies, 71(4),
+     1027–1063.
+Huang, R. D., & Stoll, H. R. (1996). Dealer versus auction markets: A paired comparison of execution costs on NASDAQ and the NYSE.
+      Journal of Financial Economics, 41(3), 313–357.
+Huberman, G., Leshno, J. D., & Moallemi, C. (2021). Monopoly without a monopolist: An economic analysis of the Bitcoin payment
+     system. The Review of Economic Studies, 88(6), 3011–3040.
+Kyle, A. S. (1985). Continuous auctions and insider trading. Econometrica, 53(6), 1315–1335.
+Large, J. (2007). Measuring the resiliency of an electronic limit order book. Journal of Financial Markets, 10(1), 1–25.
+Lehar, A., & Parlour, C. (2025). Decentralized exchange: The uniswap automated market maker. The Journal of Finance, 80(1), 321–374.
+     [CrossRef]
+Lesmond, D. (2005). Liquidity of emerging markets. Journal of Financial Economics, 77(2), 411–452.
+Makarov, I., & Schoar, A. (2020). Trading and arbitrage in cryptocurrency markets. Journal of Financial Economics, 135(2), 293–319.
+Næs, R., & Skjeltorp, J. A. (2006). Order book characteristics and the volume–volatility relation: Empirical evidence from a limit order
+     market. Journal of Financial Markets, 9(4), 408–432.
+Obizhaeva, A. A., & Wang, J. (2013). Optimal trading strategy and supply/demand dynamics. Journal of Financial Markets, 16(1), 1–32.
+Pagnotta, E., & Buraschi, A. (2018). An equilibrium valuation of Bitcoin and decentralized network assets an equilibrium valuation of Bitcoin
+     and decentralized network assets (SSRN Scholarly Paper No. ID 3142022). Social Science Research Network.
+Parlour, C. A. (1998). Price dynamics in limit order markets. Review of Financial Studies, 11(4), 789–816.
+Plott, C. R., & Sunder, S.  (1982).   Efficiency of experimental security markets with insider information: An application of
+      rational-expectations models. Journal of Political Economy, 90(4), 663–698. [CrossRef]
+Ranaldo, A. (2004). Order aggressiveness in limit order book markets. Journal of Financial Markets, 7(1), 53–74.
+Raskin, M., & Yermack, D. (2018). Digital currencies, decentralized ledgers and the future of central banking. In P. Conti-Brown & R.
+    M. Lastra (Eds.), Research Handbook on Central Banking. Edward Elgar Publishing.
+Ro¸su, I. (2009). A dynamic model of the limit order book. Review of Financial Studies, 22(11), 4601–4641.
+Ro¸su, I. (2020). Liquidity and information in limit order markets. Journal of Financial and Quantitative Analysis, 55(6), 1792–1839.
+Sensoy, A. (2019). Commonality in ask-side vs. bid-side liquidity. Finance Research Letters, 28, 198–207.
+Seppi, D. J. (1997). Liquidity provision with limit orders and a strategic specialist. Review of Financial Studies, 10(1), 103–150.
+
+=== PDF PAGE 29 ===
+J. Risk Financial Manag. 2025, 18, 124                                                                                             29 of 29
+
+
+
+Tripathi, A., Dixit, A., & Vipul. (2021). Liquidity commonality in extreme quantiles: Indian evidence. Finance Research Letters, 38,
+     101448.
+Valenzuela, M., Zer, I., Fryzlewicz, P., & Rheinländer, T. (2015). Relative liquidity and future volatility. Journal of Financial Markets, 24,
+     25–48.
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

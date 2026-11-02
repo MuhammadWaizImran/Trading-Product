@@ -1,0 +1,1174 @@
+[
+  {
+    "id": "b010-01-supported",
+    "category": "ta-candle",
+    "condition": "supported",
+    "expected": "Body 16 to18; wicks extend to15 and21; no next-direction guarantee.",
+    "required_citation": "ta-candle",
+    "source": "DP05",
+    "pages": [
+      8
+    ]
+  },
+  {
+    "id": "b010-01-irrelevant",
+    "category": "ta-candle",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      8
+    ]
+  },
+  {
+    "id": "b010-01-missing",
+    "category": "ta-candle",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      8
+    ]
+  },
+  {
+    "id": "b010-01-unidentified",
+    "category": "ta-candle",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      8
+    ]
+  },
+  {
+    "id": "b010-02-supported",
+    "category": "dp05-adx-direction",
+    "condition": "supported",
+    "expected": "No; strength and direction are separate.",
+    "required_citation": "dp05-adx-direction",
+    "source": "DP05",
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-02-irrelevant",
+    "category": "dp05-adx-direction",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-02-missing",
+    "category": "dp05-adx-direction",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-02-unidentified",
+    "category": "dp05-adx-direction",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-03-supported",
+    "category": "ta-range",
+    "condition": "supported",
+    "expected": "No direction established.",
+    "required_citation": "ta-range",
+    "source": "DP05",
+    "pages": [
+      12
+    ]
+  },
+  {
+    "id": "b010-03-irrelevant",
+    "category": "ta-range",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      12
+    ]
+  },
+  {
+    "id": "b010-03-missing",
+    "category": "ta-range",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      12
+    ]
+  },
+  {
+    "id": "b010-03-unidentified",
+    "category": "ta-range",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      12
+    ]
+  },
+  {
+    "id": "b010-04-supported",
+    "category": "dp05-upper-wick-context",
+    "condition": "supported",
+    "expected": "No; shooting-star versus inverted-hammer contexts differ; no forecast certainty.",
+    "required_citation": "dp05-upper-wick-context",
+    "source": "DP05",
+    "pages": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "id": "b010-04-irrelevant",
+    "category": "dp05-upper-wick-context",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "id": "b010-04-missing",
+    "category": "dp05-upper-wick-context",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "id": "b010-04-unidentified",
+    "category": "dp05-upper-wick-context",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "id": "b010-05-supported",
+    "category": "dp17-bollinger-squeeze",
+    "condition": "supported",
+    "expected": "No; dispersion is reduced, direction/timing unknown.",
+    "required_citation": "dp17-bollinger-squeeze",
+    "source": "DP17",
+    "pages": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "id": "b010-05-irrelevant",
+    "category": "dp17-bollinger-squeeze",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "id": "b010-05-missing",
+    "category": "dp17-bollinger-squeeze",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "id": "b010-05-unidentified",
+    "category": "dp17-bollinger-squeeze",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "id": "b010-06-supported",
+    "category": "risk-budget",
+    "condition": "supported",
+    "expected": "No; notional and planned loss differ; costs/execution matter.",
+    "required_citation": "risk-budget",
+    "source": "DP06",
+    "pages": [
+      4
+    ]
+  },
+  {
+    "id": "b010-06-irrelevant",
+    "category": "risk-budget",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP06",
+    "pages": [
+      4
+    ]
+  },
+  {
+    "id": "b010-06-missing",
+    "category": "risk-budget",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP06",
+    "pages": [
+      4
+    ]
+  },
+  {
+    "id": "b010-06-unidentified",
+    "category": "risk-budget",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP06",
+    "pages": [
+      4
+    ]
+  },
+  {
+    "id": "b010-07-supported",
+    "category": "risk-invalidation",
+    "condition": "supported",
+    "expected": "No; changing stop changes setup and stop-hit likelihood, not proof of improvement.",
+    "required_citation": "risk-invalidation",
+    "source": "DP06",
+    "pages": [
+      7
+    ]
+  },
+  {
+    "id": "b010-07-irrelevant",
+    "category": "risk-invalidation",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP06",
+    "pages": [
+      7
+    ]
+  },
+  {
+    "id": "b010-07-missing",
+    "category": "risk-invalidation",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP06",
+    "pages": [
+      7
+    ]
+  },
+  {
+    "id": "b010-07-unidentified",
+    "category": "risk-invalidation",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP06",
+    "pages": [
+      7
+    ]
+  },
+  {
+    "id": "b010-08-supported",
+    "category": "paper-costs",
+    "condition": "supported",
+    "expected": "No; net performance requires execution costs and assumptions.",
+    "required_citation": "paper-costs",
+    "source": "DP17",
+    "pages": [
+      32
+    ]
+  },
+  {
+    "id": "b010-08-irrelevant",
+    "category": "paper-costs",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      32
+    ]
+  },
+  {
+    "id": "b010-08-missing",
+    "category": "paper-costs",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      32
+    ]
+  },
+  {
+    "id": "b010-08-unidentified",
+    "category": "paper-costs",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      32
+    ]
+  },
+  {
+    "id": "b010-09-supported",
+    "category": "dp05-relative-volume",
+    "condition": "supported",
+    "expected": "No; activity needs units/window/venue; not investor counts or intent.",
+    "required_citation": "dp05-relative-volume",
+    "source": "DP05",
+    "pages": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": "b010-09-irrelevant",
+    "category": "dp05-relative-volume",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": "b010-09-missing",
+    "category": "dp05-relative-volume",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": "b010-09-unidentified",
+    "category": "dp05-relative-volume",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": "b010-10-supported",
+    "category": "dp17-maker-taker",
+    "condition": "supported",
+    "expected": "No; immediate execution can take liquidity; fees depend on venue rules.",
+    "required_citation": "dp17-maker-taker",
+    "source": "DP17",
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-10-irrelevant",
+    "category": "dp17-maker-taker",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-10-missing",
+    "category": "dp17-maker-taker",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-10-unidentified",
+    "category": "dp17-maker-taker",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-11-supported",
+    "category": "dp17-stop-no-guarantee",
+    "condition": "supported",
+    "expected": "No; outages/liquidity/venue rules can prevent timely fill.",
+    "required_citation": "dp17-stop-no-guarantee",
+    "source": "DP17",
+    "pages": [
+      39
+    ]
+  },
+  {
+    "id": "b010-11-irrelevant",
+    "category": "dp17-stop-no-guarantee",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      39
+    ]
+  },
+  {
+    "id": "b010-11-missing",
+    "category": "dp17-stop-no-guarantee",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      39
+    ]
+  },
+  {
+    "id": "b010-11-unidentified",
+    "category": "dp17-stop-no-guarantee",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      39
+    ]
+  },
+  {
+    "id": "b010-12-supported",
+    "category": "dp17-spread-depth",
+    "condition": "supported",
+    "expected": "No; spread alone does not capture depth or price impact.",
+    "required_citation": "dp17-spread-depth",
+    "source": "DP17",
+    "pages": [
+      40,
+      41
+    ]
+  },
+  {
+    "id": "b010-12-irrelevant",
+    "category": "dp17-spread-depth",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      40,
+      41
+    ]
+  },
+  {
+    "id": "b010-12-missing",
+    "category": "dp17-spread-depth",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      40,
+      41
+    ]
+  },
+  {
+    "id": "b010-12-unidentified",
+    "category": "dp17-spread-depth",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      40,
+      41
+    ]
+  },
+  {
+    "id": "b010-13-supported",
+    "category": "book-definition",
+    "condition": "supported",
+    "expected": "No; resting orders can change or cancel.",
+    "required_citation": "book-definition",
+    "source": "DP17",
+    "pages": [
+      35
+    ]
+  },
+  {
+    "id": "b010-13-irrelevant",
+    "category": "book-definition",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      35
+    ]
+  },
+  {
+    "id": "b010-13-missing",
+    "category": "book-definition",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      35
+    ]
+  },
+  {
+    "id": "b010-13-unidentified",
+    "category": "book-definition",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      35
+    ]
+  },
+  {
+    "id": "b010-14-supported",
+    "category": "book-absolute",
+    "condition": "supported",
+    "expected": "No; absolute value removes sign, both become0.6.",
+    "required_citation": "book-absolute",
+    "source": "DP19",
+    "pages": [
+      13
+    ]
+  },
+  {
+    "id": "b010-14-irrelevant",
+    "category": "book-absolute",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP19",
+    "pages": [
+      13
+    ]
+  },
+  {
+    "id": "b010-14-missing",
+    "category": "book-absolute",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP19",
+    "pages": [
+      13
+    ]
+  },
+  {
+    "id": "b010-14-unidentified",
+    "category": "book-absolute",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP19",
+    "pages": [
+      13
+    ]
+  },
+  {
+    "id": "b010-15-supported",
+    "category": "dp17-vwap-convention",
+    "condition": "supported",
+    "expected": "No; anchor, inputs, units and method must match.",
+    "required_citation": "dp17-vwap-convention",
+    "source": "DP17",
+    "pages": [
+      62,
+      63
+    ]
+  },
+  {
+    "id": "b010-15-irrelevant",
+    "category": "dp17-vwap-convention",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      62,
+      63
+    ]
+  },
+  {
+    "id": "b010-15-missing",
+    "category": "dp17-vwap-convention",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      62,
+      63
+    ]
+  },
+  {
+    "id": "b010-15-unidentified",
+    "category": "dp17-vwap-convention",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      62,
+      63
+    ]
+  },
+  {
+    "id": "b010-16-supported",
+    "category": "dp05-rsi-definition",
+    "condition": "supported",
+    "expected": "No; series/timeframe/averaging/initialization and edge cases matter.",
+    "required_citation": "dp05-rsi-definition",
+    "source": "DP05",
+    "pages": [
+      38,
+      39
+    ]
+  },
+  {
+    "id": "b010-16-irrelevant",
+    "category": "dp05-rsi-definition",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      38,
+      39
+    ]
+  },
+  {
+    "id": "b010-16-missing",
+    "category": "dp05-rsi-definition",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      38,
+      39
+    ]
+  },
+  {
+    "id": "b010-16-unidentified",
+    "category": "dp05-rsi-definition",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP05",
+    "pages": [
+      38,
+      39
+    ]
+  },
+  {
+    "id": "b010-17-supported",
+    "category": "rsi-extreme",
+    "condition": "supported",
+    "expected": "No; extremes can persist.",
+    "required_citation": "rsi-extreme",
+    "source": "DP17",
+    "pages": [
+      54
+    ]
+  },
+  {
+    "id": "b010-17-irrelevant",
+    "category": "rsi-extreme",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      54
+    ]
+  },
+  {
+    "id": "b010-17-missing",
+    "category": "rsi-extreme",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      54
+    ]
+  },
+  {
+    "id": "b010-17-unidentified",
+    "category": "rsi-extreme",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      54
+    ]
+  },
+  {
+    "id": "b010-18-supported",
+    "category": "dp07-exchange-holder",
+    "condition": "supported",
+    "expected": "No; custodial aggregation and operational flows differ from investor conviction.",
+    "required_citation": "dp07-exchange-holder",
+    "source": "DP07",
+    "pages": [
+      12
+    ]
+  },
+  {
+    "id": "b010-18-irrelevant",
+    "category": "dp07-exchange-holder",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      12
+    ]
+  },
+  {
+    "id": "b010-18-missing",
+    "category": "dp07-exchange-holder",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      12
+    ]
+  },
+  {
+    "id": "b010-18-unidentified",
+    "category": "dp07-exchange-holder",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      12
+    ]
+  },
+  {
+    "id": "b010-19-supported",
+    "category": "dp07-receipt",
+    "condition": "supported",
+    "expected": "No; it represents the protocol position; accounting depends on protocol.",
+    "required_citation": "dp07-receipt",
+    "source": "DP07",
+    "pages": [
+      10
+    ]
+  },
+  {
+    "id": "b010-19-irrelevant",
+    "category": "dp07-receipt",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      10
+    ]
+  },
+  {
+    "id": "b010-19-missing",
+    "category": "dp07-receipt",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      10
+    ]
+  },
+  {
+    "id": "b010-19-unidentified",
+    "category": "dp07-receipt",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      10
+    ]
+  },
+  {
+    "id": "b010-20-supported",
+    "category": "dp07-transaction-actions",
+    "condition": "supported",
+    "expected": "No; one transaction can contain multiple operations/events.",
+    "required_citation": "dp07-transaction-actions",
+    "source": "DP07",
+    "pages": [
+      9,
+      10
+    ]
+  },
+  {
+    "id": "b010-20-irrelevant",
+    "category": "dp07-transaction-actions",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      9,
+      10
+    ]
+  },
+  {
+    "id": "b010-20-missing",
+    "category": "dp07-transaction-actions",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      9,
+      10
+    ]
+  },
+  {
+    "id": "b010-20-unidentified",
+    "category": "dp07-transaction-actions",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP07",
+    "pages": [
+      9,
+      10
+    ]
+  },
+  {
+    "id": "b010-21-supported",
+    "category": "dp03-stablecoin-backing",
+    "condition": "supported",
+    "expected": "No; reserves/custody/liabilities/redemption/liquidity evidence needed.",
+    "required_citation": "dp03-stablecoin-backing",
+    "source": "DP03",
+    "pages": [
+      33,
+      34
+    ]
+  },
+  {
+    "id": "b010-21-irrelevant",
+    "category": "dp03-stablecoin-backing",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP03",
+    "pages": [
+      33,
+      34
+    ]
+  },
+  {
+    "id": "b010-21-missing",
+    "category": "dp03-stablecoin-backing",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP03",
+    "pages": [
+      33,
+      34
+    ]
+  },
+  {
+    "id": "b010-21-unidentified",
+    "category": "dp03-stablecoin-backing",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP03",
+    "pages": [
+      33,
+      34
+    ]
+  },
+  {
+    "id": "b010-22-supported",
+    "category": "dp03-permission-models",
+    "condition": "supported",
+    "expected": "No; read access and validation authority are distinct.",
+    "required_citation": "dp03-permission-models",
+    "source": "DP03",
+    "pages": [
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "id": "b010-22-irrelevant",
+    "category": "dp03-permission-models",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP03",
+    "pages": [
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "id": "b010-22-missing",
+    "category": "dp03-permission-models",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP03",
+    "pages": [
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "id": "b010-22-unidentified",
+    "category": "dp03-permission-models",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP03",
+    "pages": [
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  {
+    "id": "b010-23-supported",
+    "category": "dp16-signature-binding",
+    "condition": "supported",
+    "expected": "No; verification binds the specific message and key.",
+    "required_citation": "dp16-signature-binding",
+    "source": "DP16",
+    "pages": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-23-irrelevant",
+    "category": "dp16-signature-binding",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP16",
+    "pages": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-23-missing",
+    "category": "dp16-signature-binding",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP16",
+    "pages": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-23-unidentified",
+    "category": "dp16-signature-binding",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP16",
+    "pages": [
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "id": "b010-24-supported",
+    "category": "dp16-receive-offline",
+    "condition": "supported",
+    "expected": "Yes; receiving broadcast does not require signing device online; confirmation/spending separate.",
+    "required_citation": "dp16-receive-offline",
+    "source": "DP16",
+    "pages": [
+      105
+    ]
+  },
+  {
+    "id": "b010-24-irrelevant",
+    "category": "dp16-receive-offline",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP16",
+    "pages": [
+      105
+    ]
+  },
+  {
+    "id": "b010-24-missing",
+    "category": "dp16-receive-offline",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP16",
+    "pages": [
+      105
+    ]
+  },
+  {
+    "id": "b010-24-unidentified",
+    "category": "dp16-receive-offline",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP16",
+    "pages": [
+      105
+    ]
+  },
+  {
+    "id": "b010-25-supported",
+    "category": "dp17-selection-bias",
+    "condition": "supported",
+    "expected": "No; multiple testing and correlated inputs; frozen unseen evaluation with costs needed.",
+    "required_citation": "dp17-selection-bias",
+    "source": "DP17",
+    "pages": [
+      60,
+      66
+    ]
+  },
+  {
+    "id": "b010-25-irrelevant",
+    "category": "dp17-selection-bias",
+    "condition": "irrelevant",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      60,
+      66
+    ]
+  },
+  {
+    "id": "b010-25-missing",
+    "category": "dp17-selection-bias",
+    "condition": "missing",
+    "expected": "Do not infer or cite the answer from unrelated/absent evidence. Request the relevant passage.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      60,
+      66
+    ]
+  },
+  {
+    "id": "b010-25-unidentified",
+    "category": "dp17-selection-bias",
+    "condition": "unidentified",
+    "expected": "Request document identity; do not attribute the supplied passage to the unnamed report.",
+    "required_citation": null,
+    "source": "DP17",
+    "pages": [
+      60,
+      66
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "generations": 32,
+  "cases": 8,
+  "training_executed": false,
+  "independent_acceptance": false,
+  "source_sha256": "31a2c41aaa9ed542474c4233f074d7e9a4b91f17745d35d008ca5feac546149b",
+  "review": "Compare same question across all four conditions. Check final JSON, entailment, arithmetic, false source attribution, contradictory polarity, missing final answer and truncation. No model promotion on format alone."
+}

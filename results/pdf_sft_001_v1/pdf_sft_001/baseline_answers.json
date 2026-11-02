@@ -1,0 +1,69 @@
+[
+  {
+    "id": "test-depth-impact",
+    "question": "Two venues show the same best ask. Does that imply the same cost for a large buy?",
+    "reference": "No. Quantities available at the best ask and higher levels can differ. The larger order's average execution price can therefore differ even when the initial best ask is identical.",
+    "provenance": {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": [
+        35,
+        36,
+        37
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out application of depth and slippage; not a measured market result."
+    },
+    "response": "When two venues (such as exchanges or order books) show the **same best ask price**, it does **not necessarily imply** that the **cost for a large buy** will be the **same**. Here's a breakdown of the key concepts and assumptions:\n\n---\n\n### 🔍 **1. What is the \"Best Ask\"?**\n- The **best ask** is the **lowest price at which a seller is willing to sell** a particular asset at a given moment.\n- It represents the **shortest possible selling price** available in the order book.\n- It is the **price at which a market order would execute immediately** if placed at that moment.\n\n---\n\n### 🧠 **2. Why Two Venues Might Show the Same Best Ask**\n- **Market Price Convergence**: If two exchanges are tightly integrated (e.g., through dark pools, cross-margining, or shared liquidity), they may show similar prices due to **market forces**.\n- **Price Discovery**: In a well-connected market, the best ask across exchanges may converge due to **arbitrage** or"
+  },
+  {
+    "id": "test-imbalance-sign",
+    "question": "Using the paper's convention, what does NOBI = -0.2 indicate?",
+    "reference": "Bid-side depth exceeds ask-side depth at the specified levels because the numerator is ask depth minus bid depth. The number alone is not a guaranteed price forecast.",
+    "provenance": {
+      "source_id": "DP19",
+      "file": "Order_Book_Liquidity_on_Crypto_Exchanges (1).pdf",
+      "sha256": "7190740df68bbb7c0cc97537df07ec9f8164bafb94a5f83d0c0cd43d795785ed",
+      "pdf_pages": [
+        13
+      ],
+      "permission": "CC BY 4.0; copyright 2025 Martin Angerer, Marius Gramlich and Michael Hanke; https://doi.org/10.3390/jrfm18030124; https://creativecommons.org/licenses/by/4.0/; paraphrased and clarified; no endorsement",
+      "adaptation": "Held-out application of source equation."
+    },
+    "response": "To interpret what **NOBI = -0.2** indicates, we need to understand the context and convention used in the specific paper you're referring to. Since you haven't provided the paper or its methodology, I'll explain the general meaning of **NOBI** and what a negative value like **-0.2** might imply, based on common usage in financial and behavioral economics literature.\n\n---\n\n### **What is NOBI?**\n\n**NOBI** stands for **\"Non-Ordinary Behavior Index\"** or **\"Non-Ordinary Behavior Indicator\"**, depending on the paper. It is often used in behavioral finance to measure deviations from rational or \"ordinary\" behavior in financial markets. The exact definition can vary, but it typically captures:\n\n- **Anomalies** in investor behavior\n- **Market inefficiencies**\n- **Emotional or irrational decision-making**\n- **Predictive signals** for future market movements\n\n---\n\n### **Interpretation of NOBI = -0.2**\n\nIf the paper defines **NOBI** as a **normalized score** or **"
+  },
+  {
+    "id": "test-reward-probability",
+    "question": "A setup offers 4R potential reward for 1R risk. Does that tell us its actual success probability?",
+    "reference": "No. It describes the planned payoff. With fixed +4R wins and -1R losses, the cost-free break-even probability is 20%, but the actual success probability needs evidence from outcomes.",
+    "provenance": {
+      "source_id": "DP06",
+      "file": "593280526-Risk-Management.pdf",
+      "sha256": "8a8ce394328e1ad7e7c1acfbac6338ebdb92b006075243d323f5a2f128a05e2d",
+      "pdf_pages": [
+        5,
+        8
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out distinction between payoff and probability."
+    },
+    "response": "The statement that a setup offers **4R potential reward for 1R risk** refers to the **risk-reward ratio**, which is a common metric used in trading and investing to evaluate the potential profitability relative to the risk involved.\n\n### Definition: Risk-Reward Ratio (RRR)\nThe **risk-reward ratio** is calculated as:\n\n$$\n\\text{Risk-Reward Ratio} = \\frac{\\text{Potential Reward}}{\\text{Potential Risk}}\n$$\n\nIn your example:\n- **Potential Reward** = 4R\n- **Potential Risk** = 1R\n- **Risk-Reward Ratio** = 4:1\n\nThis means that for every 1 unit of risk (e.g., $1), the potential reward is 4 units (e.g., $4).\n\n---\n\n### Does This Tell Us the Actual Success Probability?\n\n**No**, the risk-reward ratio **does not directly indicate the probability of success**. Here's why:\n\n1. **Risk-Reward Ratio ≠ Probability of Success**  \n   The ratio only tells you the **potential"
+  },
+  {
+    "id": "test-overbought",
+    "question": "RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?",
+    "reference": "No. RSI can remain extreme during a continuing trend. An overbought reading does not impose an immediate reversal.",
+    "provenance": {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": [
+        54
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out application of the source caution."
+    },
+    "response": "The **Relative Strength Index (RSI)** is a momentum oscillator that measures the speed and change of price movements. It is typically used to identify overbought or oversold conditions in an asset. The RSI ranges from 0 to 100, with values above 70 often considered overbought and values below 30 considered oversold.\n\n### Key Points:\n- **RSI = 82** indicates that the asset is in **overbought territory**, suggesting that the price may be due for a pullback or correction.\n- However, **RSI is not a perfect indicator** and **does not always predict future price movements**. It is a **lagging indicator** and can sometimes give false signals in trending markets.\n\n### Is an RSI of 82 while a coin keeps rising logically inconsistent with the indicator?\n\n**No, it is not logically inconsistent.** Here's why:\n\n1. **RSI is a momentum indicator**, not a price trend indicator. It measures the **rate of price change**, not the **direction** of the"
+  }
+]

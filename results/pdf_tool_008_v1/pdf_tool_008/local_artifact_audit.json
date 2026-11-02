@@ -1,0 +1,22 @@
+{
+  "adapter009_scoped.json": {
+    "records": 13,
+    "routed_without_model": 3,
+    "truncated": 0
+  },
+  "adapter009_scoped_tools.json": {
+    "records": 13,
+    "routed_without_model": 3,
+    "truncated": 0
+  },
+  "base_scoped.json": {
+    "records": 13,
+    "routed_without_model": 3,
+    "truncated": 0
+  },
+  "base_scoped_tools.json": {
+    "records": 13,
+    "routed_without_model": 3,
+    "truncated": 0
+  }
+}

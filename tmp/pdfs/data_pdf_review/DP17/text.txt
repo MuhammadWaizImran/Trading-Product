@@ -1,0 +1,2235 @@
+=== PDF PAGE 1 ===
+
+
+=== PDF PAGE 2 ===
+Preface
+
+Hi! We're Binance Academy. We're on a mission to build the best platform
+for cryptocurrency education. Whether you want to understand the basic
+mechanics of Bitcoin or brush up on the strongest technical analysis
+metrics, we've got you covered.
+
+The purpose of this eBook is to gently introduce you to a range of trading
+topics. If you're a total novice, this is the guide for you. But even if you
+know what you're doing already, think of this eBook as a reliable handbook
+for sharpening your skills.
+
+We’re going to cover a lot of content in the coming chapters. Where
+relevant, we’ve provided some handy links to additional material on the
+Binance Academy website (​academy.binance.com​). If you want to discuss
+crypto with our community, head over to the Binance Academy Chat on
+Telegram (​t.me/BinanceAcademyChat​).
+Alright, enough of the pleasantries. Let's get right into it.
+
+
+
+
+
+2
+
+=== PDF PAGE 3 ===
+Table of Contents
+
+   Preface                                                   2
+I. Trading Basics                                              5
+  What is trading?                                             5
+  What is investing?                                           5
+   Fundamental analysis (FA)                                     6
+   Technical analysis (TA)                                        7
+     Which one is better?                                       9
+  What drives financial markets?                                  9
+  What is a market trend?                                      10
+  What is a market cycle?                                      11
+II. Financial Instruments                                                         1​4
+  What are financial instruments?                                                1​4
+   Spot and derivatives markets                                                   1​5
+III. Trading and Investing Strategies                             19
+   Portfolio and risk management                                                 1​9
+  Day trading                                               21
+   Swing trading                                                                    2​2
+   Trend trading                                                                    2​3
+   Scalping                                                                          2​4
+   Asset allocation and diversification                                            2​5
+  The Dow Theory                                                                 2​6
+  The Elliott Wave Theory                                                         2​7
+  The Wyckoff Method                                                             2​9
+  Buy and hold                                              30
+   Paper trading                                              31
+IV. Getting Practical                                                               3​3
+   Long position                                                                     3​3
+   Short position                                                                    3​4
+   Order book                                                                       3​5
+
+
+3
+
+=== PDF PAGE 4 ===
+   Order book depth                                                                3​5
+   Market order                                                                     3​6
+   Slippage                                                                          3​6
+   Limit order                                                                       3​7
+   Stop-loss order                                                                  3​8
+   Makers and takers                                                               3​9
+   Bid-ask spread                                             40
+V. Technical Analysis Basics                                    43
+   Candlestick charts                                          43
+   Candlestick chart patterns                                                      4​5
+   Trend lines                                                                       4​6
+   Support and resistance                                      47
+VI. Technical Analysis Indicators                                50
+   Leading and lagging indicators                                 51
+  Momentum indicators                                       52
+   Trading volume                                            52
+   Relative Strength Index (RSI)                                  53
+   Moving Average (MA)                                                            5​5
+   Moving Average Convergence Divergence (MACD)                            5​6
+   Fibonacci Retracement                                                          5​7
+   Stochastic RSI (StochRSI)                                                      5​9
+   Bollinger Bands (BB)                                        60
+   Volume-Weighted Average Price (VWAP)                         62
+   Parabolic SAR                                             63
+   Ichimoku Cloud                                                                  6​5
+   Final thoughts                                                                    6​7
+
+
+
+
+
+4
+
+=== PDF PAGE 5 ===
+I. Trading Basics
+What is trading?
+
+It's probably wise to kick
+things off with a
+definition of the topic
+we'll be discussing. A
+staple of economics,
+trading simply refers to
+the buying and selling of
+assets. When you buy
+your groceries at the
+local shop, that's a trade. When you exchange your old PC for a new game
+console, that's a trade. We could go on forever here. To cut a long story
+short, any activity where you give something to someone in return for
+something else is a trade.
+This principle really extends to the financial markets. You trade ​financial
+assets​like stocks, bonds, Forex pairs, options, cryptocurrencies, etc. Don't
+worry if you don't know what any of those are yet. By the end of this book,
+you'll be an expert!
+
+
+What is investing?
+
+You might hear people talking about trading financial instruments, but you
+might also hear them talking about ​investing​in them. The aim in both of
+these activities is similar (​let's make some monaaay!​), but they're
+somewhat different in their methodologies.
+
+When you invest in something, you're hoping to get a return on that
+investment – the goal is to get back the money you put in, plus some
+more. For example, you could buy a run-down fast food restaurant for
+$100,000, fix it up, and try to resell it for $500,000 in a few years. You
+
+5
+
+=== PDF PAGE 6 ===
+could also buy a stake in a small startup, believing that the stake will be
+worth a lot more when the business grows.
+But wait​, we hear you ask, ​isn't that what traders do?​Not quite. Yes, a
+trader might buy shares in a business, but they're playing on a shorter time
+frame. Traders frequently enter and exit positions to generate smaller
+returns over a number of trades. Investors, on the other hand, generally
+take a more passive approach – they invest capital into ventures or assets
+that are likely to generate a larger profit on a longer time frame.
+
+But how do you decide what to buy and sell? You might get lucky randomly
+picking stocks and flipping a coin to decide whether to buy or sell them,
+but it won't net you consistent returns. Most traders instead conduct some
+form of analysis to decide what moves to make next. Broadly, the types of
+frameworks used can be broken down into two categories – ​fundamental
+analysis​ and ​technical analysis​. Let's talk about those.
+
+Fundamental analysis (FA)
+
+Fundamental analysis is a
+framework that aims to
+identify the "true" value of an
+asset. Fundamental analysts
+study economic and financial
+factors to figure out if the
+market's valuation of an asset
+is fair. Those factors could be
+macroeconomic factors like
+the state of the global
+economy, the overall industry condition, or businesses connected to the
+asset (if there are any).
+Again, the goal here is to establish whether an asset is ​undervalued ​or
+overvalued​. Suppose that Alice rigorously studies a cryptocurrency –
+6
+
+=== PDF PAGE 7 ===
+Bobcoin – which trades for $10. But Alice's findings indicate that the asset
+should actually be worth $20. In this case, she might decide to buy lots of
+Bobcoins as she believes that the market will eventually value them at
+$20.
+
+On the topic of cryptocurrency-specific fundamental analysis, it's worth
+noting that some consider​ on-chain metrics​ when conducting their
+research. On-chain metrics is an emerging field of data science. It is
+concerned with data that can be read from public blockchains: network
+hash rate, distribution of funds, the number of active addresses, etc. By
+taking this abundance of public information, analysts can create
+sophisticated indicators that measure the network's health.
+
+Fundamental analysis is popular in the stock markets, but it's perhaps not
+very suitable for cryptocurrencies in their current state. The asset class is
+so new that there simply isn't a standardized, comprehensive framework
+for determining market valuations.
+
+What's more, much of the market is driven by speculation and narratives.
+As such, fundamental factors will typically have negligible effects on the
+price of a cryptocurrency. However, more accurate ways to think about
+crypto asset valuation may be developed as the market matures.
+
+  Want the ​low-down on fundamental analysis?
+  Check out the Binance Academy article:
+    ⬥ ​What is Fundamental Analysis (FA)? ​➤​ ​bit.ly/AcademyEBook1
+
+
+
+Technical analysis (TA)
+To put it simply, technical analysts believe that ​past price movement can
+dictate future price movement​.
+
+
+7
+
+=== PDF PAGE 8 ===
+Technical analysts don't try to find
+out the intrinsic value of an asset
+as fundamental analysts do.
+Instead, they look at the historical
+trading activity and try to identify
+opportunities based on that.
+
+This can include analysis of price
+action and volume, chart patterns, the use of technical indicators, and
+many other charting tools. The goal of this analysis is to evaluate a given
+market's strength or weakness.
+With that said, technical analysis isn't ​only​a tool for predicting the
+probabilities of future price movements. It can also be a useful framework
+for risk management. Since technical analysis provides a model for
+analyzing market structure, it makes managing trades more defined and
+measurable.
+
+In this context, measuring risk is the first step to managing it. This is why
+some technical analysts may not be considered strictly traders. They may
+use technical analysis purely as a framework for risk management.
+
+The practice of technical analysis can be applied to any financial market,
+and it's widely used among cryptocurrency traders. But does technical
+analysis work?
+
+Well, as we've mentioned earlier, the valuation of the cryptocurrency
+markets is largely driven by speculation. This makes them an ideal playing
+field for technical analysts, as they can thrive by only considering technical
+factors.
+
+   Interested in reading more? Check out:
+    ⬥ ​What is Technical Analysis? ​➤ ​bit.ly/AcademyEBook2
+
+
+
+
+8
+
+=== PDF PAGE 9 ===
+Which one is better?
+We see your question and raise you a better one: ​why not use both?​It's
+clear that each methodology takes a different approach, so a combination
+of both can give you better insights than a single one can in isolation.
+Additionally, this has the benefit of minimizing any bias in your
+decision-making process.
+This principle is sometimes referred to as ​confluence​. Confluence traders
+combine multiple strategies into one that harnesses benefits from all of
+them. The idea is that the trading opportunities presented by the
+combined strategies may be stronger than the ones provided by only one
+strategy.
+
+Ultimately, how much you lean on one or the other is entirely down to your
+own trading style.
+
+
+What drives financial markets?
+
+The price of an asset is simply determined by the balance of supply and
+demand. In other words, it's decided by the buyers and sellers. Where
+supply meets demand, there's a market. But what else can drive the value
+of a financial asset?
+
+As we've discussed earlier, there can be fundamental factors, such as
+market sentiment, the industry's health or the overall state of the
+economy. There can also be technical factors like the market capitalization
+of a cryptocurrency or its circulating supply.
+
+However, these are just that – factors to consider. What really determines
+the price of an asset in a given moment is simply the balance of supply and
+demand.
+
+
+
+
+
+9
+
+=== PDF PAGE 10 ===
+What is a market trend?
+
+A market trend is the overall
+direction where the price of an
+asset is going. In technical
+analysis, market trends are
+typically identified using price
+action, trend lines, or even
+key moving averages.
+
+There are two main types of market trends: bull and bear market. A bull
+market consists of a sustained uptrend, where prices are continually going
+up. A bear market consists of a sustained downtrend, where prices are
+continually going down. In addition, you could identify consolidating (or
+sideways​) markets where there isn't a clear directional trend.
+
+
+
+
+
+ 💡      Did you know?
+   The market trends' animal names echo the methods used by each
+    creature to attack. Bulls typically charge and thrust their horns
+   upwards, while bears tend to swipe their paws downwards.
+
+
+
+It's worth noting that a market trend doesn't mean that the price is ​always
+going in the direction of the trend. A prolonged bull market will have
+smaller bear trends contained with it, and vice versa. This is just the
+nature of market trends. It's a matter of perspective, as it all depends on
+the time frame you're looking at. Market trends on higher time frames will
+always be more significant than market trends on lower time frames.
+
+
+
+
+10
+
+=== PDF PAGE 11 ===
+A peculiar thing about trends is that they can only be determined with
+absolute certainty in hindsight. You may have heard about the concept of
+hindsight bias, which refers to people's tendency to convince themselves
+that they accurately predicted an event ​before it happened​. As you can
+imagine, hindsight bias can have a significant impact on the process of
+identifying market trends and making trading decisions.
+
+
+What is a market cycle?
+
+You may have heard that "the market moves in cycles." A cycle is a pattern
+or trend that repeats itself over time.
+
+
+
+
+
+Typically, long-term market cycles are more reliable than short-term
+market cycles. Even so, you can observe market cycles on an hourly chart
+just as you can when you zoom out to look at decades of data.
+
+Markets are cyclical in nature. Cycles can result in certain asset classes
+outperforming others. In other segments of the same market cycle, those
+same asset classes may underperform against other types of assets due to
+the different market conditions.
+
+
+
+
+
+11
+
+=== PDF PAGE 12 ===
+It's worth noting that it's very difficult to precisely determine where we
+currently are in a market cycle. This analysis can be done with high
+accuracy only after​ ​that part of the cycle has concluded.
+Also, market cycles rarely have concrete start and end points. As it turns
+out, being in the present moment is an exceptionally biased viewpoint in
+the financial markets.
+
+     If you'd like to read more about market cycles, check out:
+     ⬥ ​The Psychology of Market Cycles ​➤ ​bit.ly/AcademyEBook3
+
+
+
+
+
+12
+
+=== PDF PAGE 13 ===
+                    A QUICK RECAP!
+      Hopefully, by now, you've got a decent grasp on the basics of
+     markets and trading:
+        ⬥ ​Markets exist where supply meets demand – people want to
+     buy an asset, while others want to sell it.
+        ⬥ The markets move in cycles, in which upwards, downwards,
+      or sideways trends can be identified.
+        ⬥ ​Technical analysis and fundamental analysis
+     are used to try and predict the future price of
+     an asset.
+        ⬥ ​Traders try to anticipate market movements
+      to try and make a profit.
+
+
+
+
+
+13
+
+=== PDF PAGE 14 ===
+II. Financial Instruments
+There is a ​lot​that you can trade. If you have something that someone else
+wants to buy, then there's a market for that thing. We could call any
+tradeable asset a ​financial instrument​.
+Practically, though, we're not going to place tennis balls in the same
+category as stocks.
+
+
+What are financial instruments?
+
+Generally, financial
+instruments refer to
+things like cash,
+precious metals (gold,
+silver, etc.), documents
+that confirm ownership
+over something (e.g.,
+businesses or
+resources), or rights to
+deliver or receive cash.
+
+
+Financial instruments can be really complex, but the basic idea is that
+whatever they are or whatever they represent, they can be traded.
+
+They can be classified depending on their type. One of the classifications
+is based on whether they are ​cash instruments​ or ​derivative
+instruments​. As the name would suggest, derivative instruments ​derive
+their value from something else (like a barrel of oil). Financial instruments
+may also be classified as ​debt-based​ or ​equity-based​.
+But where do cryptocurrencies fall? We could think of them in multiple
+ways, and they could fit into more than one category. The simplest
+
+14
+
+=== PDF PAGE 15 ===
+classification is that they are ​digital assets​. However, the potential of
+cryptocurrencies lies in building an entirely new financial and economic
+system.
+
+In this sense, cryptocurrencies form a completely new category of digital
+assets. What's more, as the ecosystem evolves, many new categories may
+be established that wouldn't otherwise be possible. Early examples of this
+can already be seen in the Decentralized Finance (DeFi) space.
+
+
+Spot and derivatives markets
+
+Spot markets
+
+In spot markets, financial
+instruments are traded
+for "immediate delivery."
+In this context, "delivery"
+simply refers to the
+exchange of cash for the
+instrument. It might
+seem like a trivial
+distinction, but some
+markets aren't settled in
+cash instantly. For example, when we're talking about the futures markets,
+the assets are delivered at a later date (when the futures contract expires).
+
+In simple terms, you could think of a spot market as the place where
+trades are made "on the spot." Since the trades are settled immediately,
+the current market price of an asset is often referred to as the spot price.
+
+In cryptocurrency, you can observe this market on most exchanges.
+Suppose that you wanted to buy BTC using BUSD. You'd log into your
+account, navigate to the BUSD/BTC pair, and place an order. Et voila! As
+soon as it's filled, you'll receive the BTC instantly.
+
+
+15
+
+=== PDF PAGE 16 ===
+A note on margin trading
+
+Margin trading is a method of trading using borrowed funds from a third
+party. In effect, trading on margin amplifies results – both to the upside
+and the downside. A margin account gives you more access to capital (you
+can trade with more funds than you have). A margin account can also
+eliminate some counterparty risk. How so? Well, you can trade the same
+position size but keep less capital on the cryptocurrency exchange.
+
+Suppose that Alice has $1,000, but she's confident that BTC will increase
+by 10%. With such a small amount of capital, she's unlikely to make any
+significant gains. Instead, she might opt to increase her position with
+leverage​.
+She puts up her own $1,000 (referred to as ​margin​) and borrows money
+from the exchange. If Alice had ​2x leverage, ​she would be trading with
+double her margin (i.e., $2,000). What if Alice had ​5x leverage​? She'd be
+trading with $5,000.
+
+What could go wrong? If Bitcoin price goes up and Alice has 5x leverage,
+she'll make five times the profit. However, if it goes down, she'll incur five
+times the losses. Indeed, the higher the leverage used, the closer the
+liquidation​ price is to your entry. This is the point when the exchange
+closes your position and takes all of your margin.
+
+   Want to learn more about ​margin trading​? We've got you:
+     ⬥ ​What is Margin Trading? ​➤ ​bit.ly/AcademyEBook4
+     ⬥ ​The Binance Margin Trading Guide ​➤ ​bit.ly/AcademyEBook5
+
+
+
+
+
+16
+
+=== PDF PAGE 17 ===
+Derivatives markets
+
+Remember how we made the distinction that assets are getting "instantly
+delivered" in spot markets? That will hopefully start to make more sense
+as we talk about derivatives. These instruments can have a plethora of
+different forms, delivery methods, settlement assets, and probably more
+complexity than us mere mortals can even imagine.
+
+So, what are they? Derivatives are financial assets that base their value on
+something else. This can be an underlying asset or basket of assets. The
+most common types are stocks, bonds, commodities, market indexes, or
+cryptocurrencies.
+
+The derivative product itself is
+essentially a contract between
+multiple parties. It gets its price
+from the underlying asset that's
+used as the benchmark. Whatever
+asset is used as this reference
+point, the core concept is that the
+derivative product derives its value
+from it. Some common examples
+of derivatives products are futures
+contracts, options contracts, and
+swaps.
+
+According to some estimates, the derivatives market is one of the biggest
+markets out there. Derivatives can exist for virtually any financial product
+– even derivatives themselves. Yes, derivatives can be created from
+derivatives. And then, derivatives can be created from those derivatives,
+and so on.
+
+Does this sound like a shaky house of cards ready to come crashing down?
+Well, this may not be so far from the truth. Some argue that the derivatives
+market played a major part in the 2008 Financial Crisis.
+
+
+17
+
+=== PDF PAGE 18 ===
+Derivatives play a significant role in the cryptocurrency markets as well,
+but they can be tricky to navigate. Good thing we've prepared some further
+reading for you then!
+
+     ⬥ ​What Are Forward and Futures Contracts? ​➤
+   bit.ly/AcademyEBook6
+     ⬥ ​What Are Perpetual Futures Contracts? ​➤
+   bit.ly/AcademyEBook7
+     ⬥ ​What Are Options Contracts? ​➤ ​bit.ly/AcademyEBook8
+
+
+
+
+
+18
+
+=== PDF PAGE 19 ===
+III. Trading and Investing Strategies
+
+There's no single playbook that everyone turns to transform $10 into
+$10,000. If everyone used the same strategy, nobody would have much
+success. Participants in the markets range from teenagers with six screens
+watching things unfold minute-by-minute to elderly investors that bought
+a stock ten years ago and don't plan on checking in on it for another ten.
+
+In this chapter, we'll talk about a wide range of trading and investment
+strategies. As with technical and fundamental analysis, many choose to
+mix and match their approach for the best results.
+
+But first, we'd better define what we're talking about! A trading strategy is
+simply a plan you follow when executing trades. Regardless of your
+approach, establishing a plan is crucial – it outlines clear goals and can
+prevent you from going off course due to emotion. Typically, you'll want to
+decide ​what ​you're trading, how you're going to trade it, and the points at
+which you'll enter and exit.
+
+
+Portfolio and risk management
+
+With any investing or
+trading strategy,
+portfolio and risk
+management are a
+must. Not sure what
+these are? Let's find
+out!
+
+
+
+
+
+19
+
+=== PDF PAGE 20 ===
+Portfolio management
+
+Portfolio management concerns itself with the creation and handling of a
+collection of investments. The portfolio itself is a grouping of assets – it
+could contain anything from Beanie Babies to real estate. If you're
+exclusively trading cryptocurrencies, then it will probably be made up of
+some combination of Bitcoin and other digital coins and tokens.
+
+Your first step is to consider your expectations for the portfolio. Are you
+looking for a basket of investments that will remain relatively protected
+from volatility, or something riskier that might bring higher returns in the
+short term?
+
+Putting some thought into how you want to manage your portfolio is highly
+beneficial. Some might prefer a ​passive ​strategy – one where you leave
+your investments alone after you set them up. Others could take an ​active
+approach, where they continuously buy and sell assets to make profits.
+
+
+Risk management
+
+Managing risk is vital to success in trading. This begins with the
+identification of the types of risk you may encounter:
+ Market          potential losses you could experience if the asset loses⬥            risk:​ ​the
+value.
+⬥Liquidity risk:​ ​the potential losses arising from illiquid markets, where
+you cannot easily find buyers for your assets.
+⬥Operational risk:​ ​the potential losses that stem from operational
+failures. These may be due to human error, hardware/software failure, or
+intentional fraudulent conduct by employees.
+⬥Systemic risk:​ ​the potential losses caused by the failure of players in the
+industry you operate in, which impacts all businesses in that sector. As
+
+
+
+20
+
+=== PDF PAGE 21 ===
+was the case in 2008, the collapse of the Lehman Brothers had a
+cascading effect on worldwide financial systems.
+
+As you can see, risk identification begins with the assets in your portfolio,
+but it should take into account both internal and external factors to be
+effective. Next, you'll want to assess these risks. How often are you likely
+to encounter them? How severe are they?
+
+By weighing up the risks and figuring out their possible impact on your
+portfolio, you can rank them and develop appropriate strategies and
+responses.
+
+Systemic risk, for example, can be mitigated with diversification into
+different investments, and market risk can be lessened with the use of
+stop-losses.
+
+   Be sure to check out:
+    ⬥​Financial Risk Explained ​➤ ​bit.ly/AcademyEBook9
+     ⬥​A Beginner's Guide to Understanding Risk Management ​➤
+   bit.ly/AcademyEBook10
+
+
+
+Day trading
+
+Day trading is what you see in pretty
+much every movie involving Wall
+Street.
+
+Nowadays, though, fervently
+shouting over other traders as you
+furiously swap bits of paper on the
+trading floor isn't the only way to day trade.
+
+
+
+21
+
+=== PDF PAGE 22 ===
+The day trading strategy involves entering and exiting positions within –
+you guessed it! – the same day. As you may know, in legacy markets,
+trading takes place inside of a fixed window. Outside of these hours, day
+traders are not expected to keep their positions open.
+
+Cryptocurrency markets, as you probably noticed, are not subject to
+opening or closing times. You can trade around the clock every day of the
+year. Still, ​day trading ​in the context of cryptocurrency tends to refer to a
+trading style where the trader enters and exits positions within 24 hours.
+In day trading, you'll often rely on ​technical analysis​ to determine which
+assets to trade. Because profits in such a short period can be minimal, you
+may opt to trade across a wide range of assets to try and maximize your
+returns. That said, some might exclusively trade the same pair for years.
+
+This style is obviously a very active trading strategy. It can be highly
+profitable, but it carries with it a significant amount of risk. As such, day
+trading is generally better suited to experienced traders.
+
+
+Swing trading
+
+Swing traders work with larger
+time horizons – positions are
+usually held anywhere from a
+couple of days to a couple of
+months. Fittingly, the goal is to
+profit from larger "swings" in
+price.
+
+Often, your goal as a swing trader is to identify an asset that looks
+undervalued and is likely to increase in value. You would purchase this
+asset, then sell it when the price rises to generate a profit. Or, you can also
+try finding overvalued assets that are likely to decrease in value. Then, you
+
+
+
+22
+
+=== PDF PAGE 23 ===
+could sell some of them at a high price, to buy them back later for a lower
+price.
+
+Similarly to how it is with day trading, many swing traders will use
+technical analysis. However, as their strategy plays out across a longer
+period, fundamental analysis can also be a valuable tool for swing traders.
+
+As it doesn't come with the stress and adrenaline of fast-paced day
+trading​, ​swing trading can be an ideal strategy for beginners. Where the
+former is characterized by rapid decision-making and a lot of screen time,
+swing trading allows you to take your time with your trades.
+
+
+Trend trading
+
+Trend (or position) trading is a
+long-term strategy. Trend
+traders buy assets to hold for
+extended periods (generally
+measured in months) and then
+make a profit by selling at a
+higher price in the future.
+
+So what's the difference between a trend trader and a swing trader then?
+Well, what distinguishes position trades from long-term swing trades is
+the rationale behind placing the trade. Position traders are concerned with
+trends that can be observed over extended periods – they'll try to profit
+from the overall market direction. Swing traders, on the other hand,
+typically seek to predict swings in the market that don't necessarily
+correlate with the broader trend.
+
+It's not uncommon to see position traders favor fundamental analysis,
+purely because their time preference allows them to watch fundamental
+events materialize. That's not to say technical analysis isn't used. While
+position traders work on the assumption that the trend will continue, the
+
+
+23
+
+=== PDF PAGE 24 ===
+use of technical indicators can alert them to the possibility of a trend
+reversal.
+
+Like swing trading, position trading is an ideal strategy for beginners. Once
+again, the long time horizon gives them ample opportunity to deliberate on
+their decisions.
+
+
+Scalping
+
+Of all of the strategies discussed,
+scalping takes place across the
+smallest time frames.
+
+Scalpers attempt to game small
+fluctuations in price, often entering
+and exiting positions within
+minutes (or even seconds).
+
+In most cases, they'll use technical analysis to try and predict price
+movements and exploit the bid-ask spread and other inefficiencies to
+make a profit.
+
+Due to the short time frames, scalp trades often target only a small
+percentage of profit – usually less than 1%. But scalping is a numbers
+game, so repeated small profits can add up over time.
+
+Scalping is by no means a beginner's strategy. An in-depth understanding
+of the markets, the platforms you're trading on, and technical analysis are
+vital to success.
+
+That said, for traders that know what they're doing, identifying the right
+patterns and taking advantage of short-term fluctuations can be highly
+profitable.
+
+
+
+
+
+24
+
+=== PDF PAGE 25 ===
+Asset allocation and diversification
+
+Asset allocation and
+diversification are terms that
+tend to be used interchangeably.
+
+You might know the principles as
+don't keep all your eggs in one
+basket​. Keeping all of your eggs
+in one basket creates a central
+point of failure – drop the basket,
+and all of them break.
+
+The same holds true for your wealth. Investing your life savings into one
+asset exposes you to the same kind of risk. If the asset in question was the
+stock of a particular company and that company then imploded, you'd lose
+all of your money in one swift movement.
+
+This isn't just true of single assets but of asset classes. In the case of a
+financial crisis, you'd expect all of the stock you hold to lose value. This is
+because they're heavily correlated, meaning that all tend to follow the
+same trend.
+
+Good diversification isn't simply filling your portfolio with hundreds of
+different digital currencies. Consider an event where the world
+governments ban cryptocurrencies, or quantum computers break the
+public-key cryptography schemes we use in them. Either of these
+occurrences would have a profound impact on ​all ​digital assets. Like
+stocks, they make up a single asset class.
+
+Ideally, you want to spread your wealth across multiple classes. That way,
+if one is performing poorly, it has no knock-on effect on the rest of your
+portfolio.
+
+Nobel Prize winner Harry Markowitz introduced this idea with the Modern
+Portfolio Theory (MPT). In essence, the theory makes a case for reducing
+
+
+25
+
+=== PDF PAGE 26 ===
+the volatility and risk associated with investments in a portfolio by
+combining uncorrelated assets.
+
+   For more on the topic, check out:
+       ⬥​ ​Asset Allocation and Diversification ​➤ ​bit.ly/AcademyEBook11
+    ⬥ ​Exploring the Diversification Benefits with Bitcoin ​➤
+   bit.ly/AcademyEBook12
+
+
+
+The Dow Theory
+
+The Dow Theory is a financial
+framework modeled on the
+ideas of Charles Dow. Dow
+founded the Wall Street
+Journal and helped create the
+first US stock indices, known as
+the Dow Jones Transportation
+Average (DJTA) and Dow Jones
+Industrial Average (DJIA).
+
+Though the Dow Theory was never formalized by Dow himself, it can be
+seen as an aggregation of the market principles presented in his writings.
+Here are some of the key takeaways:
+  ➔Everything is priced in​ – Dow was a proponent of the efficient
+     market hypothesis (EMH), the idea that markets reflect all of the
+      available information on the price of their assets.
+  ➔Market trends ​– Dow is often credited with the very notion of market
+     trends as we know them today, distinguishing between ​primary​,
+     secondary,​ and ​tertiary​ trends.
+
+
+26
+
+=== PDF PAGE 27 ===
+  ➔The phases of a primary trend ​– in primary trends, Dow identifies
+     three phases: ​accumulation​, ​public participation,​ and ​excess &
+      distribution​.
+  ➔Cross-index correlation ​– Dow believed that a trend in one index
+      couldn't be confirmed unless it was observable in another index.
+  ➔The importance of volume​ – a trend must also be confirmed by high
+      trading volume.
+  ➔Trends are valid until reversal ​– if a trend is confirmed, it continues
+      until a definite reversal occurs.
+
+It's worth remembering that this isn't an exact science – it's a theory, and
+it might not hold true. Still, it's a theory that remains hugely influential, and
+many traders and investors consider it an integral part of their
+methodology.
+
+   For more information, check out:
+      ⬥​ ​An Introduction to The Dow Theory ​➤ ​bit.ly/AcademyEBook13
+
+
+
+The Elliott Wave Theory
+
+Elliott Wave Theory (EWT) is a principle positing that market movements
+follow the psychology of market participants. While it's used in many
+technical analysis strategies, it isn't an indicator or specific trading
+technique. Rather, it's a way to analyze the market structure.
+
+The Elliott Wave pattern can typically be identified in a series of eight
+waves, each of which is either a ​Motive Wave ​or a ​Corrective Wave​. You
+would have five Motive Waves that follow the general trend, and three
+Corrective Waves that move against it.
+
+
+27
+
+=== PDF PAGE 28 ===
+     An Elliot Wave Cycle with Motive Waves and Corrective Waves.
+
+
+The patterns also have a fractal property, meaning that you could zoom
+into a single wave to see another Elliot Wave pattern. Alternatively, you
+could zoom out to find that the pattern you've been examining is also a
+single wave of a bigger Elliot Wave cycle.
+
+Elliott Wave Theory has been a topic of controversy over the years
+amongst traders. Some argue that the methodology is too subjective
+because traders can identify waves in various ways without violating the
+rules.
+
+Like the Dow Theory, the Elliott Wave Theory isn't foolproof, so it should
+not be viewed as an exact science. That said, many traders have had great
+success by combining EWT with other technical analysis tools.
+
+  A more comprehensive introduction to the topic can be read at
+   Binance Academy:
+      ⬥​ ​An Introduction to the Elliott Wave Theory ​➤ ​bit.ly/AcademyEBook14
+
+
+
+
+
+28
+
+=== PDF PAGE 29 ===
+The Wyckoff Method
+
+The Wyckoff Method is an
+extensive trading and
+investing strategy that was
+developed by Charles
+Wyckoff in the 1930s. His
+work is widely regarded as a
+cornerstone of modern
+technical analysis
+techniques across
+numerous financial markets.
+
+Wyckoff proposed three fundamental laws – the law of supply and
+demand, the Law of Cause and Effect, and the Law of Effort vs. Result. He
+also formulated the Composite Man theory, which has significant overlap
+with Charles Dow's breakdown of primary trends. His work in this area is
+particularly valuable to cryptocurrency traders.
+
+On the practical side of things, the Wyckoff Method itself is a five-step
+approach to trading. It can be broken down as follows:
+⬥​ Determine the trend:​ what's it like now, and where is it headed?
+⬥​ Identify strong assets: ​are they moving with the market or in the
+opposite direction?
+⬥​ Find assets with sufficient Cause: ​is there enough reason to enter the
+position? Do the risks make the potential reward worth it?
+⬥​ Assess the likelihood of the movement: ​do things like Wyckoff's
+Buying and Selling Tests point to a possible movement? What do the price
+and volume suggest? Is this asset ready to move?
+⬥​ Time your entry: ​how are the assets looking in relation to the general
+market? When is the best time to enter a position?
+
+
+
+29
+
+=== PDF PAGE 30 ===
+The Wyckoff Method was introduced almost a century ago, but it remains
+highly relevant to this day. The scope of Wyckoff's research was vast, and
+therefore the above should only be seen as a very condensed overview.
+It's recommended that you explore his work in more depth, as it provides
+indispensable technical analysis knowledge.
+
+  More on the topic here:
+      ⬥​ ​The Wyckoff Method Explained ​➤ ​bit.ly/AcademyEBook15
+
+
+
+Buy and hold
+
+The "buy and hold"
+strategy, perhaps
+unsurprisingly, involves
+buying and holding an
+asset. It's a long-term
+passive play where
+investors purchase an
+asset and then leave it
+alone, regardless of market
+conditions.
+
+A good example of this in the crypto space is "HODLing," which typically
+refers to investors that prefer to buy and hold for years instead of actively
+trading.
+
+This can be an advantageous approach for those that prefer "hands-off"
+investing as they don't need to worry about short-term fluctuations or
+capital gains taxes.
+
+
+
+
+30
+
+=== PDF PAGE 31 ===
+On the other hand, it requires patience on the investor's part and assumes
+that the asset won't end up totally worthless.
+
+    If you'd like an easy way to apply this strategy to Bitcoin and other
+   cryptoassets, check out:
+      ⬥​ ​Dollar-Cost Averaging (DCA) Explained ​➤ ​bit.ly/AcademyEBook16
+
+
+
+Paper trading
+
+Do all these different strategies seem daunting? We hear you. Instead of
+risking real money, you could first try paper trading – trading with fake
+money. This is something you might consider as a beginner (or even as an
+experienced trader) to test your skills and strategies without putting your
+money at stake.
+
+You may think, for instance, that you've discovered a good strategy for
+timing Bitcoin dips, and want to try profiting from those drops before they
+occur. But before you risk all of your funds, you might opt to paper trade.
+This can be as simple as writing down the price at the time you "open"
+your short, and again when you close it. You could equally use some kind
+of simulator that mimics popular trading interfaces.
+
+The main benefit of paper trading is that you can test out strategies
+without losing your money if things go wrong. You can get an idea of how
+your moves would have performed with zero risk.
+
+Of course, you need to be aware that paper trading only gives you a limited
+understanding of a real environment. It's hard to replicate the real
+emotions you experience when your money is involved.
+
+
+
+
+
+31
+
+=== PDF PAGE 32 ===
+Paper trading without a real-life simulator may also give you a false sense
+of associated costs and fees, unless you factor them in for specific
+platforms.
+
+Binance offers a couple of options for paper trading. For instance, the
+Binance Futures Testnet provides a full-fledged interface. If you're
+building trading bots or programs yourself, then the spot exchange testnet
+can be accessed via API.
+
+
+
+                    Which one's for me?
+    Whew! That's quite a variety of strategies, isn't it?
+     The best advice we can offer here is to study each method
+      rigorously. Check out the articles we've linked, take a dive into
+     the theory, and experiment to figure out which styles work
+     best for you. Developing a strategy that consistently delivers
+      profit is no easy task, so patience is a must.
+
+
+
+
+
+32
+
+=== PDF PAGE 33 ===
+IV. Getting Practical
+
+We've discussed a lot so far. We now know the basics of financial markets,
+what types of instruments exist, and what strategies investors and traders
+use to make money. But what do you need to know if you just want to dive
+in?
+
+You'll need to know how to navigate a trading interface, choose between
+different order types, and what to look out for when doing all that. Good
+news, this is exactly what we explain in this chapter for you! Here we'll
+discuss some of the practical aspects of getting into the world of
+cryptocurrency.
+
+
+Long position
+
+A long position (or simply long) means buying an asset with the
+expectation that its value will rise. Long positions are often used in the
+context of derivatives products, but they apply to basically any asset class
+or market type. Buying an asset on the spot market in the hopes that its
+price will increase also constitutes a long position.
+
+Going long on a financial product is the most common way of investing,
+especially for those just starting out. Long-term trading strategies like buy
+and hold are based on the assumption that the underlying asset will
+increase in value. In this sense, buy and hold is simply going long for an
+extended period of time.
+
+However, being long doesn't necessarily mean that the trader expects to
+gain from an upward movement in price. There are derivatives products
+that are inversely correlated with the price of the underlying asset.
+
+For example, a token called iBTC is inversely correlated with the price of
+BTC. If the price of BTC goes down, the price of iBTC goes up, and vice
+
+
+
+33
+
+=== PDF PAGE 34 ===
+versa. So, if you're in an iBTC long position, that effectively means that you
+expect the price of BTC to go down.
+
+
+Short position
+
+Now this is a term you've probably heard when hanging out with friends
+who've dabbled with trading! A short position (or short) means selling an
+asset with the intention of rebuying it later at a lower price. Shorting is
+closely related to margin trading, as it may happen with borrowed assets.
+However, it's also widely used in the derivatives market and can be done
+with a simple spot position. How does it work, you ask? Let's see, shall
+we?
+
+When it comes to shorting on the spot markets, it's quite simple. Let's say
+you already have Bitcoin and you expect the price to go down. You sell
+your BTC for USD, as you plan to rebuy it later at a lower price. In this
+case, you're essentially entering a short position on Bitcoin since you're
+selling high to rebuy lower. Easy enough. But what about shorting with
+borrowed funds?
+
+This is a bit more complicated. You borrow an asset that you think will
+decrease in value. You immediately sell it. If the trade goes your way and
+the asset price decreases, you buy back the same amount of the asset that
+you've borrowed. You repay the assets that you've borrowed (along with
+interest) and profit from the difference between the price you initially sold
+and the price you rebought.
+
+Still a bit confused? Let's see a practical example. We put up the required
+collateral to borrow 1 BTC, then immediately sell it for $10,000. Now
+we've got $10,000. Let's say the price goes down to $8,000. We buy 1 BTC
+and repay our debt of 1 BTC along with interest. Since we initially sold
+Bitcoin for $10,000 and now rebought at $8,000, our profit is $2,000
+
+
+
+
+34
+
+=== PDF PAGE 35 ===
+(minus the interest payment and trading fees). Boom, that's how you profit
+from the price going down!
+
+
+Order book
+
+If you go to an exchange like Binance, you'll see a lot of numbers flashing
+on the screen in what seems like an intriguing digital dance. Those are
+other traders' orders. The order book is a collection of the currently open
+orders for an asset, organized by price. When you post an order that isn't
+filled immediately, it gets added to the order book. It will sit there until it
+gets filled by another order or canceled.
+
+Order books will differ with each platform, but generally, they'll contain
+roughly the same information. You'll see the number of orders at specific
+price levels.
+
+When it comes to crypto exchanges and online trading, orders in the order
+book are matched by a system called the matching engine. This system is
+what ensures that trades are executed – you could think of it as the brain
+of the exchange. This system, along with the order book, is core to the
+concept of electronic exchange.
+
+
+Order book depth
+
+The order book depth (or market depth) is a visualization of the currently
+open orders in the order book. It usually puts buy orders on one side, and
+sell orders on the other and displays them cumulatively on a chart.
+
+In more general terms, the depth of the order book may also refer to the
+amount of liquidity that the order book can absorb. The "deeper" the
+market is, the more liquidity there is in the order book. In other words, a
+market with more liquidity can absorb larger orders without a considerable
+
+
+
+35
+
+=== PDF PAGE 36 ===
+effect on the price. However, if the market is illiquid, large orders may
+have a significant impact on the price.
+
+
+Market order
+
+A market order is an order to buy or sell at the best currently available
+market price. It's basically the fastest way to get in or out of a market.
+When you're setting a market order, you're basically saying: "​I'd like to
+execute this order right now at the best price I can get.​"
+Your market order will keep filling orders from the order book until the
+entire order is fully filled. This is why large traders (or whales) can have a
+significant impact on the price when they use market orders. A large
+market order can effectively siphon liquidity from the order book. How so?
+Let's go through it when discussing slippage.
+
+  A more comprehensive overview of this subject can be found here:
+      ⬥​ ​What Is a Market Order? ​➤ ​bit.ly/AcademyEBook17
+
+
+
+Slippage
+
+There is something you need to be aware of when it comes to market
+orders – ​slippage​. When we say that market orders fill at the best
+available price, that means that they keep filling orders from the order
+book until the entire order is executed.
+
+However, what if there isn't enough liquidity around the desired price to fill
+a large market order? There could be a big difference between the price
+
+
+
+
+36
+
+=== PDF PAGE 37 ===
+that you expect your order to fill and the price that it fills at. This
+difference is called slippage.
+
+Let's say you'd like to open a long position worth 10 BTC in an altcoin.
+However, this altcoin has a relatively small market cap and is being traded
+on a low-liquidity market. If you use a market order, it will keep filling
+orders from the order book until the entire 10 BTC order is filled. On a
+liquid market, you would be able to fill your 10 BTC order without
+impacting the price significantly. But, in this case, the lack of liquidity
+means that there may not be enough sell orders in the order book for the
+current price range.
+
+So, by the time the entire 10 BTC order is filled, you may find out that the
+average price paid was much higher than expected. In other words, the
+lack of sell orders caused your market order to move up the order book,
+matching orders that were significantly more expensive than the initial
+price.
+
+Be aware of slippage when trading altcoins, as some trading pairs may not
+have enough liquidity to fill your market orders.
+
+
+Limit order
+
+A limit order is an order to buy or sell an asset at a specific price or better.
+This price is called the ​limit price​. Limit buy orders will execute at the limit
+price or lower, while limit sell orders will execute at the limit price or
+higher.
+When you're setting a limit order, you're basically saying: "​I'd like to
+execute this order at this specific price or better, but never worse.​"
+Using a limit order allows you to have more control over your entry or exit
+for a given market. In fact, it guarantees that your order will never fill at a
+worse price than your desired price. However, that also comes with a
+downside. The market may never reach your price, leaving your order
+
+37
+
+=== PDF PAGE 38 ===
+unfilled. In many cases, this can mean losing out on a potential trade
+opportunity.
+
+Deciding when to use a limit order or market order can vary with each
+trader. Some traders may use only one or the other, while other traders
+will use both – depending on the circumstances. The important thing is to
+understand how they work so you can decide for yourself.
+
+   Eager to learn more? Check out:
+      ⬥​ ​What Is a Limit Order? ​➤ ​bit.ly/AcademyEBook18
+
+
+
+Stop-loss order
+
+Now that we know what market and limit orders are, let's talk about
+stop-loss orders. A stop-loss order is a type of limit or market order that's
+only activated when a certain price is reached. This price is called the ​stop
+price​.
+The purpose of a stop-loss order is mainly to limit losses. Every trade
+needs to have an invalidation point, which is a price level that you should
+define in advance. This is the level where you say that your initial idea was
+wrong, meaning that you should exit the market to prevent further losses.
+So, the invalidation point is where you would typically put your stop-loss
+order.
+
+How does a stop-loss order work? As we've mentioned, the stop-loss can
+be both a limit or a market order. This is why these variants may also be
+referred to as stop-limit and stop-market orders.
+
+The key thing to understand is that the stop-loss only activates when a
+certain price is reached (the stop price). When the stop price is reached, it
+
+
+
+38
+
+=== PDF PAGE 39 ===
+activates either a market or a limit order. You basically set the stop price
+as the trigger for your market or limit order.
+
+However, there is one thing you should keep in mind. We know that limit
+orders only fill at the limit price or better, but never worse. If you're using
+a stop-limit order as your stop-loss and the market crashes violently, it
+may instantly move away from your limit price, leaving your order unfilled.
+
+In other words, the stop price would trigger your stop-limit order, but the
+limit order would remain unfilled due to the sharp price drop. This is why
+stop-market orders are considered safer than stop-limit orders. They
+ensure that even under extreme market conditions, you'll be guaranteed
+to exit the market once your invalidation point is reached.
+
+  Want to know more?
+      ⬥​ ​What Is a Stop-Limit Order? ​➤ ​bit.ly/AcademyEBook19
+
+
+
+Makers and takers
+You become a ​maker​ when you place an order that doesn't immediately
+get filled but gets added to the order book. Since your order is adding
+liquidity to the order book, you're a "maker" of liquidity.
+
+Limit orders will typically execute as maker orders, but not in all cases. For
+example, let's say you place a limit buy order with a limit price that's
+considerably higher than the current market price. Since you're saying
+your order can execute at the limit price or better, your order will execute
+against the market price (as it's lower than your limit price).
+You become a ​taker​ when you place an order that gets immediately filled.
+Your order doesn't get added to the order book, but is immediately
+matched with an existing order in the order book. Since you're taking
+
+
+39
+
+=== PDF PAGE 40 ===
+liquidity from the order book, you're a taker. Market orders will always be
+taker orders, as you're executing your order at the best currently available
+market price.
+
+Some exchanges adopt a multi-tier fee model to incentivize traders to
+provide liquidity. After all, it's in their interest to attract high volume
+traders to their exchange – liquidity attracts more liquidity.
+
+In such systems, makers tend to pay lower fees than takers, since they're
+the ones adding liquidity to the exchange. In some cases, they may even
+offer fee rebates to makers.
+
+     If you'd like to read more, check out:
+       ⬥​ ​Market Makers and Market Takers Explained ​➤
+   bit.ly/AcademyEBook20
+
+
+
+Bid-ask spread
+
+The bid-ask spread is the difference between the highest buy order (bid)
+and the lowest sell order (ask) for a given market.
+
+It's essentially the gap between the highest price where a seller is willing
+to sell and the lowest price where a buyer is willing to buy.
+
+The bid-ask spread is a way to measure a market's liquidity. The smaller
+the bid-ask spread is, the more liquid the market is.
+
+
+
+
+
+40
+
+=== PDF PAGE 41 ===
+      A depth chart of BNB/USDC, with a bid-ask spread of 0.2%.
+
+
+The bid-ask spread can also be considered as a measure of supply and
+demand for a given asset. In this sense, the supply is represented by the
+ask side while the demand by the bid side.
+
+When you're placing a market buy order, it will fill at the lowest available
+ask price. Conversely, when you place a market sell order, it will fill at the
+highest available bid.
+
+
+
+
+
+41
+
+=== PDF PAGE 42 ===
+                 NOW YOU KNOW!
+
+     Hopefully by now you've got a decent grasp on the basics of
+      trading:
+        ⬥  ​What positions you can take based on the direction of your
+     bet (long vs. short).
+        ⬥  ​What order types exist and which scenarios they are at
+      their best.
+        ⬥  ​What you should keep in mind when setting
+     your orders.
+        ⬥  ​The bid-ask spread is the difference
+     between the highest bid and the lowest ask.
+
+
+
+
+
+42
+
+=== PDF PAGE 43 ===
+V. Technical Analysis Basics
+
+Technical analysis is a
+holistic framework for
+trading. It's not an exact
+science by any means, but
+many people find it useful to
+evaluate the markets,
+manage their trading
+activities, and monitor their
+performance.
+
+While some cryptocurrencies like Bitcoin undoubtedly have a strong
+fundamental thesis behind them, fundamentals play a lesser part in
+pricing the crypto markets.
+
+In all honesty, much of the action is driven by speculation. Technical
+analysis can help you keep up with that action in a way that's dictated by
+market data.
+
+In this chapter, we'll cover some of the key concepts and terms related to
+the art (and not science) of TA. Even if you don't plan to use TA in your
+trading, this can help you with keeping up with what's happening in the
+markets.
+
+
+Candlestick charts
+
+A candlestick chart is a graphical representation of the price of an asset for
+a given timeframe. It's made up of candlesticks, each representing the
+same amount of time.
+
+For example, a 1-hour chart shows candlesticks that each represent a
+period of one hour. A 1-day chart shows candlesticks that each represent
+a period of one day, and so on.
+
+
+43
+
+=== PDF PAGE 44 ===
+   Daily chart of Bitcoin. Each candlestick represents one day of trading.
+
+
+A candlestick is made up of four data points: the Open, High, Low, and
+Close (also referred to as the OHLC values). The Open and Close are the
+first and last recorded price for the given timeframe, while the Low and
+High are the lowest and highest recorded price, respectively.
+
+Candlestick charts are one of the most important tools for analyzing
+financial data. Candlesticks date back to the 17th century Japan but have
+been refined in the early 20th century by trading pioneers such as Charles
+Dow.
+
+Candlestick chart analysis is one of the most common ways to look at the
+Bitcoin market using technical analysis.
+
+   Want to learn how to read candlestick charts? Check out:
+       ⬥​ ​A Beginner's Guide to Candlestick Charts ​➤
+   bit.ly/AcademyEBook21
+
+
+
+44
+
+=== PDF PAGE 45 ===
+Candlestick chart patterns
+
+Technical analysis is largely based on the assumption that previous price
+movements may indicate future price action.
+
+So, how can candlesticks be useful in this context? The idea is to identify
+candlestick chart patterns and create trade ideas based on them.
+
+Candlestick charts help traders analyze market structure and determine
+whether we're in a bullish or bearish market environment.
+
+They may also be used to identify areas of interest on a chart, like support
+or resistance levels or potential points of reversal. These are the places on
+the chart that usually have increased trading activity.
+
+Candlestick patterns are also a great way to manage risk, as they can
+present trade setups that are defined and exact. How so?
+
+Well, candlestick patterns can define clear price targets and invalidation
+points. This allows traders to come up with very precise and controlled
+trade setups.
+
+As such, candlestick patterns are widely used by Forex and cryptocurrency
+traders alike. Some of the most common candlestick patterns include
+flags, triangles, wedges, hammers, stars, and Doji formations.
+
+     If you'd like to learn how to read candlestick patterns, check out:
+       ⬥​ ​12 Popular Candlestick Patterns used in Technical Analysis ​➤
+   bit.ly/AcademyEBook22
+       ⬥​  ​A Beginner's Guide to Classical Chart Patterns ​➤
+   bit.ly/AcademyEBook23
+
+
+
+
+
+45
+
+=== PDF PAGE 46 ===
+Trend lines
+
+Trend lines are a widely used tool by both traders and technical analysts.
+They are lines that connect certain data points on a chart. Typically, this
+data is the price, but not in all cases. Some traders may also draw trend
+lines on technical indicators and oscillators.
+
+The main idea behind drawing trend lines is to visualize certain aspects of
+the price action. This way, traders can identify the overall trend and
+market structure.
+
+
+
+
+
+     Bitcoin touching a trend line multiple times, indicating an uptrend.
+
+
+Some traders may only use trend lines to get a better understanding of the
+market structure. Others may use them to create actionable trade ideas
+based on how the trend lines interact with the price.
+
+Trend lines can be applied to a chart showing virtually any time frame.
+However, as with any other market analysis tool, trend lines on higher time
+frames tend to be more reliable than trend lines on lower time frames.
+
+
+
+
+46
+
+=== PDF PAGE 47 ===
+Another aspect to consider here is the strength of a trend line. The
+conventional definition of a trend line defines that it has to touch the price
+at least two or three times to become valid. Typically, the more times the
+price has touched (​tested​) a trend line, the more reliable it may be
+considered.
+
+    If you'd like to read more about how to draw trend lines, check out:
+      ⬥​ ​Trend Lines Explained ​➤ ​bit.ly/AcademyEBook24
+
+
+
+Support and resistance
+
+Support and resistance are
+some of the most basic
+concepts related to trading
+and technical analysis.
+Support​ means a level
+where the price finds a
+"floor." In other words, a
+support level is an area of significant demand, where buyers step in and
+push the price up.
+Resistance​ means a level where the price finds a "ceiling." A resistance
+level is an area of significant supply, where sellers step in and push the
+price down.
+
+
+
+
+
+47
+
+=== PDF PAGE 48 ===
+     Support level (red) is tested and broken, turning into resistance.
+
+
+Now you know that support and resistance are levels of increased demand
+and supply, respectively. However, many other factors can be at play
+when thinking about support and resistance.
+
+Technical indicators can also suggest potential support and resistance
+levels. In fact, even aspects of human psychology are used. This is why
+traders and investors may incorporate support and resistance very
+differently in their individual trading strategy.
+
+   Want to learn how to draw support and resistance levels on a chart?
+   Check out:
+    ⬥​The Basics of Support and Resistance Explained ​➤
+   bit.ly/AcademyEBook25
+
+
+
+
+
+48
+
+=== PDF PAGE 49 ===
+              What have we learned here again?
+
+        ⬥  ​How to read candlestick charts and patterns.
+        ⬥  ​How drawing lines on them can help us get a
+    more accurate picture of the market.
+        ⬥  ​How price may find a floor or a ceiling
+     (support and resistance).
+
+
+
+
+
+49
+
+=== PDF PAGE 50 ===
+VI. Technical Analysis Indicators
+
+We're getting there. You
+know all the jargon now,
+so we can move into the
+fancy metrics that traders
+use to feel the markets'
+pulse.
+
+Technical indicators
+calculate metrics related
+to a financial instrument.
+This calculation can be based on price, volume, on-chain data, open
+interest, social metrics, or even another indicator.
+
+As we discussed earlier, technical analysts base their methods on the
+assumption that historical price patterns may dictate future price
+movements. As such, traders who use technical analysis may use an array
+of technical indicators to identify potential entry and exit points on a chart.
+
+Technical indicators may be categorized in numerous ways. For instance,
+they could point towards future trends (​leading indicators​), confirm a
+pattern that's already underway (​lagging indicators​), or clarify real-time
+events (​coincident indicators​).
+Some other categorization may concern itself with how these indicators
+present the information. In this sense, there are ​overlay​ indicators that
+overlay data over price, and there are ​oscillators​ that oscillate between a
+minimum and a maximum value.
+
+There are also types of indicators that aim to measure a specific aspect of
+the market, such as ​momentum​ indicators. As the name would suggest,
+they aim to measure and display market momentum.
+
+So, which is the best technical analysis indicator out there? There isn't a
+simple answer to this question. Traders may use many different types of
+
+50
+
+=== PDF PAGE 51 ===
+technical indicators, and their choice is largely based on their individual
+trading strategy.
+
+However, to be able to make that choice, they needed to learn about them
+first – and that's what we're going to do in this chapter.
+
+
+Leading and lagging indicators
+
+As mentioned previously, different indicators will have distinct qualities
+and should be used for specific purposes. Leading indicators point
+towards future events. Lagging indicators are used to confirm something
+that has already happened. So, when should you use each?
+
+Leading indicators are typically useful for short- and mid-term analysis.
+They are used when analysts anticipate a trend and are looking for
+statistical tools to back up their hypothesis. In economics, leading
+indicators can be particularly useful to predict periods of recession.
+
+When it comes to trading and technical analysis, leading indicators can
+also be used for their predictive qualities. However, no special indicator
+can predict the future, so these forecasts should always be taken with a
+grain of salt.
+
+Lagging indicators are used to confirm events and trends that have already
+happened, or are already underway. This may seem redundant, but it can
+be very useful. They can bring certain aspects of the market to the
+spotlight that otherwise would remain hidden. As such, lagging indicators
+are typically used for longer-term chart analysis.
+
+     Still eager to learn more? Check out:
+                     ➤       ⬥​ ​Leading and Lagging Indicators Explained​
+   bit.ly/AcademyEBook26
+
+
+
+
+51
+
+=== PDF PAGE 52 ===
+Momentum indicators
+
+Momentum indicators aim to measure and show market momentum. But
+what does market momentum actually mean? In simple terms, it's the
+measure of the speed of price changes. Momentum indicators aim to
+measure the rate at which prices rise or fall. They're typically used for
+short-term analysis by traders who are looking to profit from bursts of high
+volatility.
+
+The goal of a momentum trader is to enter trades when momentum is
+high, and exit when market momentum starts to fade. Typically, if volatility
+is low, the price tends to squeeze into a small range. As the tension builds
+up, the price often makes a big impulse move as it eventually breaks out of
+the range. This is when momentum traders thrive.
+
+After the move has concluded and traders have exited their position, they
+move on to another asset with high momentum and try to repeat the same
+game plan. This is why momentum indicators are widely used by day
+traders, scalpers, and short-term traders who are looking for quick trading
+opportunities.
+
+Alright, so we've covered the main types of indicators. Now let's go
+through some of the most popular ones one-by-one.
+
+
+Trading volume
+
+Trading volume may be considered the quintessential indicator. It shows
+the number of individual units traded for an asset in a given time. It
+basically shows how much of that asset changed hands during the
+measured time.
+
+Some consider the trading volume to be the most important indicator out
+there. "Volume precedes price" is a famous saying in the trading world. It
+
+
+
+
+52
+
+=== PDF PAGE 53 ===
+suggests that large trading volume can be a leading indicator before a big
+price move (regardless of the direction).
+
+Traders can measure the strength of the underlying trend with volume. If
+high volatility is accompanied by high trading volume, that may be
+considered a validation of the move. This makes sense because high
+trading activity should equal a significant volume since many traders and
+investors are active at that particular price level. However, if volatility isn't
+accompanied by high volume, the underlying trend may be considered
+weak.
+
+Price levels with historically high volume may also give a good potential
+trade entry or exit points. Since history tends to repeat itself, these levels
+may be where increased trading activity is more likely to happen. Ideally,
+support and resistance levels should also be accompanied by an uptick in
+volume, confirming the strength of the level.
+
+
+Relative Strength Index (RSI)
+
+The Relative Strength Index
+(RSI) is an indicator that
+illustrates whether an asset is
+overbought or oversold. It's a
+momentum oscillator that
+shows the rate at which price
+changes happen. This oscillator
+varies between 0 and 100, and
+the data is usually displayed on
+a line chart.
+
+
+
+
+
+53
+
+=== PDF PAGE 54 ===
+                 The RSI applied to a Bitcoin chart.
+
+
+What's the idea behind measuring market momentum? Well, if momentum
+is increasing while the price is going up, the uptrend may be considered
+strong. Conversely, if momentum is diminishing in an uptrend, the uptrend
+may be considered weak. In this case, a reversal may be coming.
+
+Let's see how the traditional interpretation of the RSI works. When the RSI
+value is under 30, the asset may be considered oversold. In contrast, it
+may be considered overbought when it's above 70.
+
+Still, RSI readings should be taken with a degree of skepticism. The RSI
+can reach extreme values during extraordinary market conditions – and
+even then, the market trend may still continue for a while.
+
+   The RSI is one of the easiest indicators to understand. Eager to learn
+   more? Check out:
+              ➤       ⬥​ ​What is the RSI Indicator?​                                ​bit.ly/AcademyEBook27
+
+
+
+
+
+54
+
+=== PDF PAGE 55 ===
+Moving Average (MA)
+
+Moving averages smooth out
+price action and make it easier to
+spot market trends. As they're
+based on previous price data,
+they lack predictive qualities. In
+other words, they are lagging
+indicators.
+
+Moving averages have various types – the two most common one is the
+simple moving average​ (SMA or MA) and the​ exponential moving
+average​ (EMA). What's the difference between them?
+The simple moving average is calculated by taking price data from the
+previous ​n​periods and producing an average. For example, the 10-day
+SMA takes the average price of the last 10 days and plots the results on a
+graph. The 200-week SMA takes the average price of the last 200 weeks,
+and so on.
+
+
+
+
+
+        200-week moving average based on the price of Bitcoin.
+
+
+
+
+55
+
+=== PDF PAGE 56 ===
+The exponential moving average is a bit trickier. It uses a different formula
+that puts a bigger emphasis on more recent price data. As a result, the
+EMA reacts more quickly to recent events in price action, while the SMA
+may take more time to catch up.
+
+As we've mentioned, moving averages are lagging indicators. The longer
+the period they plot, the greater the lag. As such, a 200-day moving
+average will react slower to unfolding price action than a 100-day moving
+average.
+
+   Moving averages can help you easily identify market trends. Eager to
+    learn more about them? Check out:
+               ➤       ⬥​ ​Moving Averages Explained​                                 ​bit.ly/AcademyE-Book28
+
+
+
+Moving Average Convergence Divergence (MACD)
+
+The MACD is an oscillator that
+uses two moving averages to
+show the momentum of a market.
+As it tracks price action that has
+already occurred, it's a lagging
+indicator.
+
+The MACD is made up of two lines
+– the MACD line and the signal
+line. How do you calculate them? Well, you get the MACD line by
+subtracting the 26 EMA from the 12 EMA. Simple enough. Then, you plot
+this over the MACD line's 9 EMA – the signal line.
+
+In addition, many charting tools will also show a histogram that illustrates
+the distance between the MACD line and the signal line.
+
+
+56
+
+=== PDF PAGE 57 ===
+                The MACD applied to a Bitcoin chart.
+
+
+Traders may use the MACD by observing the relationship between the
+MACD line and the signal line. For example, a crossover between the two
+lines is usually a notable event. If the MACD line crosses above the signal
+line, that may be interpreted as a bullish signal. In contrast, if the MACD
+line crosses below the signal, that may be interpreted as a bearish signal.
+
+   Want to learn more? Check out:
+              ➤       ⬥​ ​MACD Indicator Explained​                                ​bit.ly/AcademyE-Book29
+
+
+
+Fibonacci Retracement
+
+The Fibonacci Retracement (or Fib Retracement) tool is a popular
+indicator based on a string of numbers called the Fibonacci sequence.
+These numbers were identified in the 13th century by an Italian
+mathematician called Leonardo Fibonacci.
+
+
+
+
+57
+
+=== PDF PAGE 58 ===
+These numbers are now part of many technical analysis indicators, and
+the Fib Retracement is among the most popular ones. It uses ratios
+derived from the Fibonacci numbers as percentages. These percentages
+are then plotted over a chart, and traders can use them to identify
+potential ​support and resistance levels​.
+These Fibonacci ratios are:
+ ➔0%
+  ➔23.6%
+  ➔38.2%
+  ➔61.8%
+  ➔78.6%
+  ➔100%
+
+While 50% is technically not a Fibonacci ratio, many traders also consider
+it when using the tool. In addition, Fibonacci ratios outside of the 0-100%
+range may also be used. Some of the most common ones are 161.8%,
+261.8%, and 423.6%.
+
+
+
+
+
+                   Fibonacci levels on a Bitcoin chart.
+
+
+
+
+
+58
+
+=== PDF PAGE 59 ===
+So, how can traders use these levels in their strategy? The main idea
+behind plotting percentage ratios on a chart is to find areas of interest.
+Typically, traders will pick two significant price points on a chart, and pin
+the 0 and 100 values of the Fib Retracement tool to those points. The
+range outlined between these points may highlight potential entry and exit
+points, and help determine ​stop-loss​ placement.
+The Fibonacci Retracement tool is a versatile indicator that can be used in
+a wide range of trading strategies.
+
+     If you'd like to read more, check out:
+                      ➤       ⬥​  ​A Guide to Mastering Fibonacci Retrace​ment​
+   bit.ly/AcademyEBook30
+
+
+
+Stochastic RSI (StochRSI)
+
+The Stochastic RSI (or
+StochRSI) is a derivative of
+the RSI.
+
+Similarly to the RSI, it's main
+goal is to determine whether
+an asset is overbought or
+oversold.
+
+In contrast to the RSI,
+however, the StochRSI isn't generated from price data, but RSI values. On
+most charting tools, the values of the StochRSI will range between 0 and 1
+(or 0 and 100).
+
+The StochRSI tends to be the most useful when it's near the upper or
+lower extremes of its range. Nevertheless, it's worth keeping in mind that
+
+
+59
+
+=== PDF PAGE 60 ===
+due to its greater speed and higher sensitivity, it may produce a lot of false
+signals that can be challenging to interpret.
+
+The traditional interpretation of the StochRSI is somewhat similar to that
+of the RSI. When it's over 0.8, the asset may be considered overbought.
+When it's below 0.2, the asset may be considered oversold.
+
+With that said, these shouldn't be viewed as direct signals to enter or exit
+trades. While this information is certainly telling a story, there may be
+other sides to the story as well. This is why most technical analysis tools
+are best used in combination with other market analysis techniques. If
+multiple tools are giving you the same conclusions, the signals produced
+tend to be more reliable.
+
+   Eager to learn more about the StochRSI? Check out:
+              ➤       ⬥​ ​Stochastic RSI Explained​                               ​bit.ly/AcademyEBook31
+
+
+
+Bollinger Bands (BB)
+
+Named after John Bollinger, Bollinger Bands measure market volatility,
+and are often used to spot overbought and oversold conditions.
+
+
+
+
+
+This indicator is made up of three lines, or "bands" – an SMA (the middle
+band), and an upper and lower band. These bands are then overlaid on a
+
+60
+
+=== PDF PAGE 61 ===
+chart, along with the price action. The idea is that as volatility increases or
+decreases, the distance between these bands changes (they expand or
+contract).
+
+
+
+
+
+                     Bollinger Bands on a Bitcoin chart.
+
+
+So what can you read from Bollinger Bands? The closer the price is to the
+upper band, the closer the asset may be to overbought conditions.
+Similarly, the closer it is to the lower band, the closer it may be to oversold
+conditions.
+
+One thing to note is that the price will generally be contained within the
+range of the bands, but it may break above or below them at times. Does
+this mean that it's an immediate signal to buy or sell? No. It just tells us
+that the market is moving away from the middle band SMA, reaching
+extreme conditions.
+
+Traders may also use Bollinger Bands to try and predict a market squeeze,
+also known as the Bollinger Bands Squeeze. This refers to a period of low
+volatility when the bands come really close to each other and "squeeze"
+the price into a small range. As the "pressure" builds up in that small
+
+
+
+
+61
+
+=== PDF PAGE 62 ===
+range, the market eventually pops out of it, leading to a period of
+increased volatility. Since the market can move up or down, the squeeze
+strategy is considered neutral (neither bearish or bullish).
+
+   Would you like to master your understanding of Bollinger Bands?
+   Check out:
+              ➤       ⬥​ ​Bollinger Bands Explained​                                ​bit.ly/AcademyEBook32
+
+
+
+Volume-Weighted Average Price (VWAP)
+
+As we've discussed earlier, many traders consider the trading volume to
+be the most important indicator out there. So, are there any indicators
+based on volume?
+
+The volume-weighted average price, or VWAP, combines the power of
+volume with price action. In more practical terms, it's the average price of
+an asset for a given period weighted by volume. This makes it more useful
+than simply calculating the average price, as the VWAP also takes into
+account which price levels had the most trading volume.
+
+The VWAP is typically used as a benchmark for the current outlook on the
+market. In this sense, when the market is above the VWAP line, it may be
+considered bullish. At the same time, if the market is below the VWAP line,
+it may be considered bearish.
+
+Have you noticed how this is similar to the interpretation of moving
+averages? The VWAP may indeed be compared to moving averages, at
+least in the way it's used. As we've seen, the main difference is that the
+VWAP considers the trading volume as well.
+
+The VWAP can also be used to identify areas of higher liquidity. Many
+traders will use the price breaking above or below the VWAP line as a
+
+
+62
+
+=== PDF PAGE 63 ===
+trade signal. At the same time, they'll typically also incorporate other
+metrics into their strategy to reduce risks.
+
+   Would you like to learn more about how you can use the VWAP?
+   Check out
+                         ➤       ⬥​ ​Volume-Weighted Average Price (VWAP) Explained​
+   bit.ly/AcademyEBook33
+
+
+
+Parabolic SAR
+
+The Parabolic SAR is used to determine the direction of the trend and
+potential reversals. "SAR" stands for ​Stop and Reverse​. This refers to the
+point where a long position should be closed and a short position opened,
+or vice versa.
+
+The Parabolic SAR appears as a series of dots on a chart, either above or
+below the price. Generally, if the dots are below the price, it means the
+price is in an uptrend. In contrast, if the dots are above the price, it means
+the price is in a downtrend. A reversal occurs when the dots flip to the
+"other side" of the price.
+
+
+
+
+
+63
+
+=== PDF PAGE 64 ===
+                The Parabolic SAR on a Bitcoin chart.
+
+
+The Parabolic SAR can provide insights into the direction of the underlying
+market trend. It's also handy for identifying points of a potential reversal.
+Some traders may also use it as a basis for their trailing stop-loss. This
+special order type moves along with the market and makes sure that
+investors can protect their profits during a strong uptrend.
+
+The Parabolic SAR is at its best during strong market trends. During
+periods of consolidation, it may provide a lot of false signals for potential
+reversals.
+
+   Eager to learn more about it? Check out:
+                      ➤       ⬥​  ​A Brief Guide to the Parabolic SAR Indicator​
+   bit.ly/AcademyEBook34
+
+
+
+
+
+64
+
+=== PDF PAGE 65 ===
+Ichimoku Cloud
+
+The Ichimoku Cloud combines many indicators in a single chart. Among
+the TA tools we're discussing here, the Ichimoku is certainly one of the
+most complicated.
+
+At first glance, it may be hard to understand its formulas and working
+mechanisms. But in practice, the Ichimoku Cloud is not as hard to use as it
+seems, and many traders use it because it can produce very distinct,
+well-defined trading signals.
+
+As mentioned, the Ichimoku Cloud isn't just an indicator. It's a collection
+of indicators. They provide insights into market momentum, support and
+resistance levels, and the direction of the trend. The indicator achieves
+this by calculating five averages and plotting them on a chart. It also
+produces a "cloud" from these averages, which may forecast potential
+support and resistance areas.
+
+
+
+
+
+ The Ichimoku Cloud on a Bitcoin chart, acting as support, then resistance.
+
+
+While the averages play an important role, the cloud itself is a key part of
+the indicator. Generally, if the price is above the cloud, the market may be
+
+
+
+65
+
+=== PDF PAGE 66 ===
+considered to be in an uptrend. Conversely, if the price is below the cloud,
+it may be considered to be in a downtrend.
+
+   The Ichimoku Cloud is difficult to master, but once you get your
+   head around how it works, it can produce great results.
+                    ➤    ⬥ Check out ​Ichimoku Clouds Explained​
+   bit.ly/AcademyEBook35
+
+
+
+
+
+              Which indicator is the best for me?
+
+      Well, we can't just tell you that. You need to decide for
+      yourself!
+     The best advice we can offer is to try them all out and see
+     which produces the best results for you.
+    Each trader will have their own toolkit​, and they may even     keep changing it based on what the market is telling them.
+      You'll need to develop your own strategies and carefully
+     choose your own trading tools.
+
+
+
+
+
+66
+
+=== PDF PAGE 67 ===
+Final thoughts
+
+Phew, we've covered a lot here! In all honesty, we're still barely scratching
+the surface. As you can probably see by now, cryptocurrency trading takes
+a lot of time and practice to master – like any skill or craft. But what it
+promises at the end of the tunnel can also be enticing for many. Never
+have we seen such an open financial system that anyone can participate
+in.
+
+The real barrier to entry may just be knowledge and time. Thankfully,
+we've got an abundance of topics covered at Binance Academy!
+
+If you're interested in trading, the technology behind cryptocurrencies,
+cybersecurity, economics, and all the other fields that this exciting space
+touches on, visit our website for more:​ ​https://academy.binance.com​. If
+you have any questions, you can reach us directly in our ​Telegram group​,
+or give us a shout on Twitter (​@BinanceAcademy​).
+
+
+Thank you for reading!
+Follow​ Binance Academy​ on
+https://www.facebook.com/BinanceAcademy/
+https://twitter.com/binanceacademy
+https://t.me/binanceacademy
+
+
+
+
+
+67

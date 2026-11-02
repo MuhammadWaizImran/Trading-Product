@@ -1,0 +1,7 @@
+{
+  "cases": 50,
+  "generations": 100,
+  "training_executed": false,
+  "source_sha256": "49779efa4e0d7df2b91cd2abd096afbc97e33cd5e4684d24aea924604e22eb32",
+  "review": "Review all final answers for arithmetic, polarity, evidence entailment, abstention, unidentified source attribution, JSON and truncation. Both models get identical prompts. Do not promote from exposed development results."
+}

@@ -1,0 +1,474 @@
+[
+  {
+    "id": "dp03-money-functions-framework",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      9,
+      10,
+      35,
+      36
+    ],
+    "question": "Does the report present one uncontested definition of money that every economist must accept?",
+    "answer": "No. It uses a theoretical framework built around functions such as a means of payment, unit of account, and store of liquid value. Those functions are useful analytical criteria, but the report also discusses competing monetary theories and institutional arrangements.",
+    "adaptation": "Qualified synthesis; avoids presenting the report's framework as the only accepted definition."
+  },
+  {
+    "id": "dp03-payment-system-vs-money",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      37,
+      52
+    ],
+    "question": "Why should a payment instrument or settlement technology not automatically be classified as a new form of money?",
+    "answer": "A payment instrument can transfer an existing monetary claim, while a settlement technology records or finalizes transfers. Whether the underlying asset is money depends on its issuer, redemption rights, acceptability, unit-of-account role, and other institutional features. Technical novelty alone does not settle that classification.",
+    "adaptation": "Reconstructs the source's distinction while correcting an overly broad taxonomy."
+  },
+  {
+    "id": "dp03-money-taxonomy",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      39,
+      40
+    ],
+    "question": "What dimensions does the report's digital-money taxonomy use to distinguish monetary forms?",
+    "answer": "The figure distinguishes whether the instrument is a claim or an object, whether redemption is at fixed or variable value, whether any backstop is public or private, and whether the technology is centralized or decentralized. The examples are a 2019-era taxonomy, so a current instrument should be classified from its actual design rather than its label.",
+    "adaptation": "Visual reading of Figure 5 with a temporal and design-specific qualification."
+  },
+  {
+    "id": "dp03-cash-tradeoffs",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "question": "Does evidence that cash can facilitate tax evasion or carry contaminants prove that eliminating cash has only benefits?",
+    "answer": "No. Those are arguments for limiting some uses of cash, but cash also provides privacy, accessibility, resilience, and a liquid asset outside commercial-bank liabilities. A policy assessment must consider distributional effects, alternatives, enforcement evidence, and the costs of exclusion or surveillance.",
+    "adaptation": "Balanced synthesis of the report's cash discussion; rejects one-sided inference."
+  },
+  {
+    "id": "dp03-permission-models",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      46,
+      47,
+      48,
+      49
+    ],
+    "question": "What is the practical difference between a permissionless and a permissioned distributed ledger?",
+    "answer": "A permissionless system generally lets participants join validation under public protocol rules, while a permissioned system restricts validation or access to approved parties. Openness of source code, read access, transaction submission, and validation authority are separate properties and should be stated explicitly.",
+    "adaptation": "Clarifies the source diagram and avoids collapsing public/private, open/closed, and permission status."
+  },
+  {
+    "id": "dp03-ledger-consensus",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      48,
+      49
+    ],
+    "question": "What does consensus in a distributed ledger establish, and what does it not establish?",
+    "answer": "Consensus establishes agreement under protocol rules about the ledger state or ordering of accepted transactions. It does not prove that an off-chain statement is true, that every participant is honest, or that the recorded asset has stable value. Those claims require separate evidence and assumptions.",
+    "adaptation": "Corrective explanation based on the report's ledger discussion."
+  },
+  {
+    "id": "dp03-remove-all-trust",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      46,
+      50,
+      51,
+      52
+    ],
+    "question": "Does Bitcoin eliminate every form of trust from a payment system?",
+    "answer": "No. It can reduce reliance on one transaction-clearing intermediary by replacing that role with protocol, cryptographic, network, and economic assumptions. Users may still rely on software, key custody, exchanges, miners or validators, governance, and external information. The relevant question is which trust is shifted or reduced.",
+    "adaptation": "Corrects broad 'trustless' language while preserving the source's settlement insight."
+  },
+  {
+    "id": "dp03-pseudonymity",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      50,
+      64,
+      65,
+      66
+    ],
+    "question": "Why is a public-chain transaction better described as pseudonymous than anonymous?",
+    "answer": "The ledger exposes addresses and transaction relationships even when it does not display legal names. Address reuse, exchange records, network data, and transaction-graph analysis can sometimes link activity to an entity. Privacy therefore depends on the system and user behavior, not merely the absence of names on-chain.",
+    "adaptation": "Corrects the report's occasional broad anonymity wording using its later qualifications."
+  },
+  {
+    "id": "dp03-governance-not-inherent",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      56,
+      57,
+      58,
+      67,
+      68
+    ],
+    "question": "Is distributed-ledger governance inherently democratic?",
+    "answer": "No. Participation rules, token or hash-power concentration, delegation, software maintainers, upgrade procedures, and off-chain institutions determine who has influence. A public protocol may broaden access, but that property alone does not prove equal voice or democratic outcomes.",
+    "adaptation": "Corrects the report's absolute governance claim."
+  },
+  {
+    "id": "dp03-pow-pos-tradeoffs",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      57,
+      58
+    ],
+    "question": "How should proof of work and proof of stake be compared without relying on the report's dated examples?",
+    "answer": "Compare their security assumptions, resource costs, concentration risks, incentives, finality, participation requirements, and implementation details. Proof of work ties block production to computational work; proof of stake ties it to staked value and protocol rules. Network names and consensus mechanisms in a 2019 report must be verified before being described as current.",
+    "adaptation": "Retains the conceptual comparison and removes outdated network-status claims."
+  },
+  {
+    "id": "dp03-fixed-supply-demand",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      61,
+      62
+    ],
+    "question": "Can a fixed or predictable token-supply path by itself stabilize the token's price?",
+    "answer": "No. Price also depends on demand, liquidity, market structure, leverage, expectations, and shocks. A predictable supply rule removes one source of discretion but does not supply a price-stabilization mechanism.",
+    "adaptation": "Qualified synthesis of the token-supply and volatility discussion."
+  },
+  {
+    "id": "dp03-historical-market-numbers",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      59,
+      60,
+      61,
+      62
+    ],
+    "question": "May the coin counts, prices, market capitalizations, and merchant-acceptance figures in this report be quoted as current?",
+    "answer": "No. They describe observations or third-party estimates available around 2018–2019, often with differing measurement windows. Any present-day statement requires a current source, timestamp, definition, and methodology; the report's numbers remain historical evidence only.",
+    "adaptation": "Temporal-validity lesson spanning the report's market statistics."
+  },
+  {
+    "id": "dp03-addresses-not-users",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      59,
+      60
+    ],
+    "question": "Why can the number of blockchain addresses overstate or understate the number of active users?",
+    "answer": "One user can control many addresses, while an exchange or custodian can use addresses for many customers. Some addresses are inactive or have trivial balances, and activity thresholds vary. Address counts are therefore protocol observations, not unique-person counts.",
+    "adaptation": "Paraphrase of the report's explicit user-measurement limitation with the custody converse added."
+  },
+  {
+    "id": "dp03-incomparable-averages",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      59,
+      60
+    ],
+    "question": "What is wrong with ranking coins by lifetime-average activity when their available histories cover very different lengths?",
+    "answer": "The averages may mix different market regimes, launch phases, and sample lengths, so differences can reflect the measurement window rather than durable usage. Use a common point-in-time universe and comparable windows, disclose missing data, and define each activity metric before ranking assets.",
+    "adaptation": "Methodological correction prompted by Figure 19's windows ranging from 438 to 3,903 days."
+  },
+  {
+    "id": "dp03-mining-pool-concentration",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      62,
+      63,
+      67
+    ],
+    "question": "Does the existence of multiple mining pools prove that block production is decentralized?",
+    "answer": "No. Decentralization depends on the distribution and coordination of effective control, not the mere count of named pools. Pool shares are time-varying snapshots, miners may switch pools, and ownership or operational dependencies may overlap. State the date and metric used.",
+    "adaptation": "Qualified synthesis of the source's centralization concern."
+  },
+  {
+    "id": "dp03-security-not-value",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      31,
+      33,
+      34,
+      50,
+      58
+    ],
+    "question": "If a blockchain validates transactions correctly, does that ensure the token or stablecoin keeps its market value?",
+    "answer": "No. Transaction validity is different from reserve quality, redemption enforceability, issuer solvency, oracle accuracy, liquidity, and market demand. Consensus can protect ledger rules under stated assumptions without guaranteeing a financial asset's value.",
+    "adaptation": "Explicit correction of security-implies-value passages and questionable balance-sheet diagrams."
+  },
+  {
+    "id": "dp03-stablecoin-backing",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      33,
+      34
+    ],
+    "question": "Why does asset backing for a stablecoin still require due diligence?",
+    "answer": "Users need evidence about the reserve assets, custody, liabilities, redemption terms, legal priority, audits or attestations, and liquidity under stress. A claim of backing does not by itself prove that reserves are sufficient, unencumbered, or accessible at par.",
+    "adaptation": "Corrects the source's statement that backing removes the need for trust; avoids encoding internally inconsistent figure amounts."
+  },
+  {
+    "id": "dp03-cbdc-definition",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      69,
+      70,
+      71,
+      72
+    ],
+    "question": "Why is a central-bank digital currency not simply another permissionless cryptocurrency?",
+    "answer": "A CBDC is a digital liability of a central bank governed by public institutional and legal arrangements. Its access, ledger, privacy, distribution, and settlement design can vary, but issuance and ultimate responsibility remain centralized. A permissionless cryptocurrency generally lacks that central-bank liability and governance structure.",
+    "adaptation": "Conceptual distinction from the report's CBDC chapter."
+  },
+  {
+    "id": "dp03-retail-wholesale-cbdc",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      71,
+      72,
+      73,
+      74
+    ],
+    "question": "What is the difference between retail and wholesale CBDC?",
+    "answer": "Retail CBDC is designed for access by the general public or a broad set of firms, while wholesale CBDC is designed mainly for eligible financial institutions and settlement between them. Either category can have different technical and access designs, so the label does not determine whether it is token-based, account-based, centralized, or distributed.",
+    "adaptation": "Paraphrase with a design-space qualification."
+  },
+  {
+    "id": "dp03-cbdc-survey-date",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      73,
+      74
+    ],
+    "question": "What can the report's central-bank CBDC charts tell us today?",
+    "answer": "They document responses to a Bank for International Settlements survey reported for 2017–2018, including research, experiments, and then-stated issuance likelihood. They do not establish current plans or deployments. A current claim must use a newer central-bank or BIS source.",
+    "adaptation": "Visual review of Figures 23 and 24; treats them as dated survey evidence."
+  },
+  {
+    "id": "dp03-cbdc-bank-run-risk",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      76,
+      77,
+      78
+    ],
+    "question": "How could a broadly accessible CBDC affect bank funding during stress?",
+    "answer": "If people can rapidly move commercial-bank deposits into a perceived safer central-bank liability, outflows could become faster or larger. That could weaken deposit funding and alter bank balance sheets. The outcome depends on design choices such as access, remuneration, limits, intermediaries, and the surrounding financial system.",
+    "adaptation": "Qualified scenario analysis from the financial-stability section, not a forecast."
+  },
+  {
+    "id": "dp03-survey-snapshot",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "question": "Can the report's eight-country survey establish permanent global attitudes toward cryptocurrency?",
+    "answer": "No. It is a 2019-era cross-country survey with 1,000 respondents in each sampled country. It can describe responses under its questionnaire and sampling method, but attitudes can change, the selected countries are not the world, and wording or survey mode can affect results.",
+    "adaptation": "Preserves the stated sample while adding scope and temporal limits."
+  },
+  {
+    "id": "dp03-conjoint-design",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      92,
+      93,
+      94
+    ],
+    "question": "What attributes were varied in the report's hypothetical-money conjoint experiment?",
+    "answer": "The experiment varied issuer or backer, seller acceptability, transaction cost, monthly inflation or deflation, and digital versus physical form. Each of 1,000 respondents per sampled country received ten choice frames with three hypothetical currencies, producing choices under the study's specified levels rather than observations of real purchases.",
+    "adaptation": "Method summary from the conjoint section; distinguishes stated choices from market behavior."
+  },
+  {
+    "id": "dp03-conjoint-interpretation",
+    "split": "train",
+    "source": "DP03",
+    "pages": [
+      93,
+      94,
+      95
+    ],
+    "question": "How should a coefficient in the report's conjoint chart be interpreted?",
+    "answer": "It is an estimated preference effect for an attribute level relative to the omitted baseline within that survey design. Its sign and magnitude are not a coin-return forecast, universal utility score, or causal effect of launching a real currency. Interpretation must retain the country, sample, uncertainty, coding, and baseline.",
+    "adaptation": "Methodological interpretation of visually checked Figure 38."
+  },
+  {
+    "id": "dp03-val-trust-shift",
+    "split": "validation",
+    "source": "DP03",
+    "pages": [
+      46,
+      50,
+      51,
+      52
+    ],
+    "question": "A protocol removes a bank from transaction clearing. Can its users now assume that no trust assumptions remain?",
+    "answer": "No. The protocol changes the trust model, but users still rely on cryptography, software, network incentives, key management, governance, and sometimes custodians or exchanges. Identify the specific intermediary removed and the dependencies that replace it.",
+    "adaptation": "Held-out application of the trust-shift distinction."
+  },
+  {
+    "id": "dp03-val-cbdc-status",
+    "split": "validation",
+    "source": "DP03",
+    "pages": [
+      73,
+      74
+    ],
+    "question": "A 2018 survey says a central bank was researching CBDC. Does that prove it operates a retail CBDC now?",
+    "answer": "No. Research activity and stated likelihood are dated survey responses, not evidence of a later launch. Verify current status with a recent primary source from the central bank or an authoritative tracker.",
+    "adaptation": "Held-out temporal and evidence-status check."
+  },
+  {
+    "id": "dp03-val-stablecoin",
+    "split": "validation",
+    "source": "DP03",
+    "pages": [
+      33,
+      34
+    ],
+    "question": "An issuer says every token is backed one-for-one. Is that statement alone enough to treat redemption at par as risk-free?",
+    "answer": "No. Check what the reserves are, who holds them, liabilities and encumbrances, verification quality, legal redemption rights, liquidity, and operational access. Backing is a claim that needs evidence and does not eliminate all risk.",
+    "adaptation": "Held-out application correcting the report's absolute trust language."
+  },
+  {
+    "id": "dp03-val-survey-generalization",
+    "split": "validation",
+    "source": "DP03",
+    "pages": [
+      80,
+      81,
+      92,
+      93
+    ],
+    "question": "Eight countries each supplied 1,000 survey responses. Can we infer that 8,000 responses represent every crypto user worldwide?",
+    "answer": "No. Sample size alone does not make the selected countries, population frame, question wording, or survey period globally representative. Report the sampled populations and methodology, and avoid generalizing beyond them without supporting design weights and evidence.",
+    "adaptation": "Held-out external-validity check."
+  },
+  {
+    "id": "corr-nobi-exact",
+    "split": "train",
+    "source": "DP19",
+    "pages": [
+      13
+    ],
+    "question": "The paper defines normalized order-book imbalance as (ask depth minus bid depth) divided by their sum. What does a negative value such as -0.2 mean?",
+    "answer": "Bid-side depth exceeds ask-side depth at the specified levels because the numerator is ask depth minus bid depth. The value is an imbalance measure under this paper's convention, not a regression coefficient, significance result, or guaranteed price forecast.",
+    "adaptation": "Explicit corrective example for repeated invented NOBI definitions."
+  },
+  {
+    "id": "corr-reward-ev",
+    "split": "train",
+    "source": "DP06",
+    "pages": [
+      5,
+      8
+    ],
+    "question": "With fixed outcomes of plus 4R on a win and minus 1R on a loss, what is expected value and the cost-free break-even win rate?",
+    "answer": "If p is the win probability, expected value is p(4R) minus (1-p)(1R). Setting that to zero gives p = 1/5, or 20%, before costs. The payoff ratio does not reveal the actual win probability.",
+    "adaptation": "Explicit correction for repeated invalid expected-value equations."
+  },
+  {
+    "id": "corr-address-entity-two-way",
+    "split": "train",
+    "source": "DP07",
+    "pages": [
+      11,
+      12,
+      26
+    ],
+    "question": "Why is adding customers and addresses together an invalid way to count crypto investors?",
+    "answer": "Customers are people or accounts, while blockchain addresses are identifiers, so they are different units and should not be added. One person can control several addresses, and one custodial address can represent many customers. Investor counts require separate attribution and customer data.",
+    "adaptation": "Explicit correction for the recurring 400-plus-5 holder-count error."
+  },
+  {
+    "id": "corr-no-invented-number",
+    "split": "train",
+    "source": "DP01",
+    "pages": [
+      53
+    ],
+    "question": "A question says a chart shows correlation but gives no coefficient or significance level. What numerical results may you report?",
+    "answer": "None. You may explain that association does not prove causation and identify possible confounding or reverse causality, but you must not invent a coefficient, p-value, or significance threshold that the question does not provide.",
+    "adaptation": "Corrective anti-fabrication example prompted by runs 004 and 005."
+  },
+  {
+    "id": "dp03-retry-test-permission-properties",
+    "split": "test",
+    "source": "DP03",
+    "pages": [
+      46,
+      47,
+      48,
+      49
+    ],
+    "question": "A ledger publishes its source code but allows only approved institutions to validate transactions. Does open-source code alone make validation permissionless?",
+    "answer": "No. Source-code access and validator admission are separate properties. Validation remains permissioned if only approved institutions can perform it, even when anyone can inspect or copy the code.",
+    "adaptation": "Fresh held-out property-separation test; written after run 005 and never used for fitting."
+  },
+  {
+    "id": "dp03-retry-test-trust-model",
+    "split": "test",
+    "source": "DP03",
+    "pages": [
+      46,
+      50,
+      51,
+      52
+    ],
+    "question": "A payment protocol has no central clearing bank. Does that fact alone prove users rely on nobody and nothing?",
+    "answer": "No. Reliance may shift to protocol rules, cryptography, software, network incentives, governance, key custody, and service providers. The analysis must identify which intermediary was removed and which dependencies remain.",
+    "adaptation": "Fresh held-out trust-model test; written after run 005 and never used for fitting."
+  },
+  {
+    "id": "dp03-retry-test-dated-usage",
+    "split": "test",
+    "source": "DP03",
+    "pages": [
+      59,
+      60,
+      61
+    ],
+    "question": "The report lists coin prices, address counts, and merchant acceptance around 2018?2019. May those numbers be used as current market facts without verification?",
+    "answer": "No. They are historical observations with particular sources, dates, definitions, and measurement windows. Current use requires new authoritative data and must preserve the old figures only as dated evidence.",
+    "adaptation": "Fresh held-out temporal-validity test; written after run 005 and never used for fitting."
+  },
+  {
+    "id": "dp03-retry-test-cbdc-architecture",
+    "split": "test",
+    "source": "DP03",
+    "pages": [
+      71,
+      72,
+      73,
+      74
+    ],
+    "question": "If a project is called a retail CBDC, does that label tell us it must use a public blockchain and anonymous token accounts?",
+    "answer": "No. Retail describes the intended user group, not the required ledger, access, identity, or account architecture. Those properties must be specified separately by the issuing central bank and system design.",
+    "adaptation": "Fresh held-out CBDC design-space test; written after run 005 and never used for fitting."
+  }
+]

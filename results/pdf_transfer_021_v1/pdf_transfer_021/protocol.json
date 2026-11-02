@@ -1,0 +1,8 @@
+{
+  "training_executed": false,
+  "cases": 16,
+  "generations": 32,
+  "comparison": "New author-reviewed paired evidence-transfer diagnostic, same known passages and same020 prompt; not independent acceptance or trading accuracy.",
+  "acceptance": "Diagnostic only. No promotion from this suite. Report exact schema, status/citation, truncation and separately reviewed semantic correctness for both models; inspect every contrast pair.",
+  "adapter_sha256": "98a59cc00ae482e751915af12fee3d6d8fa942755319d91c37567e1e1fb6fd42"
+}

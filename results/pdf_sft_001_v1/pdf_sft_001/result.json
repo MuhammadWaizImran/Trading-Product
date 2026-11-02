@@ -1,0 +1,91 @@
+{
+  "before_validation": {
+    "eval_loss": 5.502261638641357,
+    "eval_model_preparation_time": 0.0031,
+    "eval_runtime": 4.5816,
+    "eval_samples_per_second": 0.873,
+    "eval_steps_per_second": 0.873
+  },
+  "after_validation": {
+    "eval_loss": 5.117696285247803,
+    "eval_model_preparation_time": 0.0031,
+    "eval_runtime": 4.5842,
+    "eval_samples_per_second": 0.873,
+    "eval_steps_per_second": 0.873,
+    "epoch": 1.0
+  },
+  "train_metrics": {
+    "train_runtime": 81.1434,
+    "train_samples_per_second": 0.296,
+    "train_steps_per_second": 0.074,
+    "total_flos": 121534441728000.0,
+    "train_loss": 4.0587590138117475,
+    "epoch": 1.0
+  },
+  "training_log": [
+    {
+      "loss": 4.1249,
+      "grad_norm": 2.896338939666748,
+      "learning_rate": 0.0,
+      "epoch": 0.16666666666666666,
+      "step": 1
+    },
+    {
+      "loss": 4.5973,
+      "grad_norm": 3.364957571029663,
+      "learning_rate": 0.0001,
+      "epoch": 0.3333333333333333,
+      "step": 2
+    },
+    {
+      "loss": 4.044,
+      "grad_norm": 2.3806381225585938,
+      "learning_rate": 8e-05,
+      "epoch": 0.5,
+      "step": 3
+    },
+    {
+      "loss": 3.6375,
+      "grad_norm": 2.4127793312072754,
+      "learning_rate": 6e-05,
+      "epoch": 0.6666666666666666,
+      "step": 4
+    },
+    {
+      "loss": 4.047,
+      "grad_norm": 3.2580459117889404,
+      "learning_rate": 4e-05,
+      "epoch": 0.8333333333333334,
+      "step": 5
+    },
+    {
+      "loss": 3.9018,
+      "grad_norm": 2.8562419414520264,
+      "learning_rate": 2e-05,
+      "epoch": 1.0,
+      "step": 6
+    },
+    {
+      "train_runtime": 81.1434,
+      "train_samples_per_second": 0.296,
+      "train_steps_per_second": 0.074,
+      "total_flos": 121534441728000.0,
+      "train_loss": 4.0587590138117475,
+      "epoch": 1.0,
+      "step": 6
+    },
+    {
+      "eval_loss": 5.117696285247803,
+      "eval_model_preparation_time": 0.0031,
+      "eval_runtime": 4.5842,
+      "eval_samples_per_second": 0.873,
+      "eval_steps_per_second": 0.873,
+      "epoch": 1.0,
+      "step": 6
+    }
+  ],
+  "factuality_review": "pending human review of baseline/adapted/reloaded responses",
+  "production_approved": false,
+  "profitability_evaluated": false,
+  "coverage": "Only the PDF-derived examples recorded in dataset_manifest.json"
+}

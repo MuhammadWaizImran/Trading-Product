@@ -1,0 +1,548 @@
+{
+  "artifact_checks": "PASS",
+  "semantic_review": "pending; citation existence is not support",
+  "production_approved": false,
+  "batch": "007",
+  "gpu": "Tesla T4",
+  "counts": {
+    "train": 136,
+    "validation": 20,
+    "test": 20
+  },
+  "adapter_sha256": "98fd7f25a9f2dc9b3518e7a742bd805ccbc79d67a14d8abe872d07559a304f99",
+  "adapter_bytes": 15354512,
+  "adapted_reload_equal": true,
+  "cases": [
+    {
+      "id": "dp07-test-price-coverage",
+      "question": "An address has $900 in directly held tokens and a separate $600 protocol deposit. A tool displays only direct tokens. Is $900 necessarily the complete portfolio?",
+      "evidence_ids": [
+        "dp03-ledger-consensus",
+        "dp07-balance-coverage",
+        "dp07-entity-view",
+        "dp07-transfer-type"
+      ],
+      "baseline": {
+        "response": "No, $900 is not necessarily the complete portfolio. The tool displaying only direct tokens omits protocol deposits like the $600 in smart contracts [dp07-balance-coverage]. Different coverage can explain varying totals; neither number should be assumed complete. The protocol deposit represents assets held in external smart contracts, which are not reflected in direct token balances. Thus, the full portfolio includes both direct tokens and protocol deposits.",
+        "citation_ids": [
+          "dp07-balance-coverage"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No, $900 is not necessarily the complete portfolio. The tool displaying only direct tokens omits protocol deposits like the $600 in smart contracts [dp07-balance-coverage]. Different coverage can explain varying totals; neither number should be assumed complete. The protocol deposit represents assets held in external smart contracts, which are not reflected in direct token balances. Thus, the full portfolio includes both direct tokens and protocol deposits.",
+        "citation_ids": [
+          "dp07-balance-coverage"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp07-test-holders",
+      "question": "An exchange address holds a token for 400 customers, and another person uses five addresses. Can address counts alone recover the number of investors?",
+      "evidence_ids": [
+        "corr-address-entity-two-way",
+        "dp03-addresses-not-users",
+        "dp07-exchange-holder",
+        "dp07-holder-count"
+      ],
+      "baseline": {
+        "response": "Address counts alone cannot recover the number of investors. One person can control multiple addresses, and exchanges can use addresses to represent many customers [dp03-addresses-not-users]. Adding addresses and customers together is invalid because they are different units [corr-address-entity-two-way]. A token with 10,000 holder addresses does not necessarily have 10,000 independent investors, as addresses may be controlled by a single entity or represent multiple users [dp07-holder-count]. Thus, address counts are protocol observations, not unique-person counts.",
+        "citation_ids": [
+          "dp03-addresses-not-users",
+          "corr-address-entity-two-way",
+          "dp07-holder-count"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Address counts alone cannot recover the number of investors. One person can control multiple addresses, and exchanges can use addresses to represent many customers [dp03-addresses-not-users]. Adding addresses and customers together is invalid because they are different units [corr-address-entity-two-way]. A token with 10,000 holder addresses does not necessarily have 10,000 independent investors, as one entity can control several addresses [dp07-holder-count]. Thus, address counts overstate or understate investor numbers without additional attribution data.",
+        "citation_ids": [
+          "dp03-addresses-not-users",
+          "corr-address-entity-two-way",
+          "dp07-holder-count"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp07-test-counterparty",
+      "question": "An investigator observes that a fund sent tokens to a service's address. Does that single observation prove the service owns the fund's remaining wallets?",
+      "evidence_ids": [
+        "dp01-hot-cold",
+        "dp04-network-effects",
+        "dp07-hindsight",
+        "dp07-seed-price"
+      ],
+      "baseline": {
+        "response": "The observation that a fund sent tokens to a service's address does not prove the service owns the fund's remaining wallets. This action could reflect various intentions, such as a strategic investment, partnership, or liquidity provision. Ownership of remaining wallets cannot be inferred solely from this transaction, as it may involve third-party custodians or other arrangements. The evidence does not establish a direct link between the transaction and wallet ownership [dp01-hot-cold].",
+        "citation_ids": [
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The observation that a fund sent tokens to a service's address does not prove the service owns the fund's remaining wallets. This action could reflect various intentions, such as a strategic investment, partnership, or liquidity provision. Ownership of remaining wallets cannot be inferred solely from this transaction, as it may involve third-party custodians or other arrangements. The evidence does not establish a direct link between the transaction and wallet ownership [dp01-hot-cold].",
+        "citation_ids": [
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp07-test-prices",
+      "question": "A fund acquired 200 tokens for $0.50 each; the public price is now $5. Does buying the same number now reproduce its acquisition cost?",
+      "evidence_ids": [
+        "corr-reward-ev",
+        "dp07-copying",
+        "dp07-seed-price",
+        "risk-sizing"
+      ],
+      "baseline": {
+        "response": "No, buying the same number of tokens now does not reproduce the fund's acquisition cost. The fund may have acquired tokens at a private-round price, which is not available to later buyers [dp07-seed-price]. Additionally, the current price does not account for the fund's specific acquisition conditions, timing, or other factors that influenced its cost [dp07-copying]. The current price of $5 does not reflect the original $0.50 entry price, and buying at the current price does not guarantee the same exposure or return.",
+        "citation_ids": [
+          "dp07-seed-price",
+          "dp07-copying"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No, buying the same number of tokens now does not reproduce the fund's acquisition cost. The fund may have acquired tokens at a private-round price, which is not available to later buyers [dp07-seed-price]. Additionally, the current price does not account for the fund's specific acquisition conditions, timing, or other factors that influenced its cost [dp07-copying]. The current price of $5 does not reflect the original $0.50 entry price, and the same number of tokens purchased now would have a different notional value based on the current price [risk-sizing].",
+        "citation_ids": [
+          "dp07-seed-price",
+          "dp07-copying",
+          "risk-sizing"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "test-depth-impact",
+      "question": "Two venues show the same best ask. Does that imply the same cost for a large buy?",
+      "evidence_ids": [
+        "dp07-balance-coverage",
+        "dp07-copying",
+        "market-order",
+        "relative-spread"
+      ],
+      "baseline": {
+        "response": "If two venues show the same best ask, it does not necessarily imply the same cost for a large buy. The execution price for a large market buy can exceed the initial best ask if there is insufficient liquidity at that price, leading to the order consuming liquidity at successively higher prices [market-order]. Thus, the cost depends on order size and available liquidity, not just the displayed best ask.",
+        "citation_ids": [
+          "market-order"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "If two venues show the same best ask, it does not necessarily imply the same cost for a large buy. The execution price for a large market buy can exceed the initially displayed best ask if there is insufficient liquidity at that price, leading to the order consuming liquidity at successively higher ask prices [market-order]. Therefore, the cost for a large buy depends on order size and available liquidity, not just the displayed best ask.",
+        "citation_ids": [
+          "market-order"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "test-imbalance-sign",
+      "question": "Using the paper's convention, what does NOBI = -0.2 indicate?",
+      "evidence_ids": [
+        "book-absolute",
+        "book-imbalance",
+        "corr-nobi-exact",
+        "risk-sizing"
+      ],
+      "baseline": {
+        "response": "Under the paper's convention, NOBI = -0.2 indicates that bid-side depth exceeds ask-side depth at the specified levels. The normalized order-book imbalance (NOBI) is calculated as (ask depth minus bid depth) divided by their sum. A negative value, such as -0.2, means there is more bid-side depth than ask-side depth [corr-nobi-exact].",
+        "citation_ids": [
+          "corr-nobi-exact"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Under the paper's convention, NOBI = -0.2 indicates that bid-side depth exceeds ask-side depth at the specified levels. The negative value reflects the imbalance measure, where a negative sign means more bid-side depth, as defined by the formula: NOBI = (ask depth - bid depth) / (ask depth + bid depth) [book-imbalance].",
+        "citation_ids": [
+          "book-imbalance"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "test-reward-probability",
+      "question": "A setup offers 4R potential reward for 1R risk. Does that tell us its actual success probability?",
+      "evidence_ids": [
+        "corr-reward-ev",
+        "dp07-seed-price",
+        "risk-invalidation",
+        "risk-multiple"
+      ],
+      "baseline": {
+        "response": "The 4R reward-to-1R risk ratio does not indicate the actual success probability. The expected value calculation shows that a 20% win rate is break-even, but this ratio alone does not reveal the true win probability [corr-reward-ev]. The ratio reflects planned payoffs, not the likelihood of success, and should not be interpreted as proof of a trade's quality [risk-invalidation].",
+        "citation_ids": [
+          "corr-reward-ev",
+          "risk-invalidation"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The 4R reward-to-1R risk ratio does not indicate the actual success probability. The expected value calculation shows that a 20% win rate is break-even, but this ratio alone does not reveal the true win probability [corr-reward-ev]. The ratio reflects planned payoffs, not the likelihood of success, and should not be interpreted as proof of a trade's quality [risk-invalidation].",
+        "citation_ids": [
+          "corr-reward-ev",
+          "risk-invalidation"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "test-overbought",
+      "question": "RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?",
+      "evidence_ids": [
+        "dp07-honeypot",
+        "risk-sizing",
+        "rsi-extreme",
+        "ta-line"
+      ],
+      "baseline": {
+        "response": "An RSI of 82 indicates overbought conditions, but it does not logically contradict a rising price. The RSI is one analytical tool and should not be treated as a definitive signal [rsi-extreme]. A rising price can persist even with high RSI values if the trend remains strong. Therefore, the indicator does not inherently create a contradiction with the price movement.",
+        "citation_ids": [
+          "rsi-extreme"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "An RSI of 82 indicates overbought conditions, but it does not logically contradict a rising price. The RSI is one analytical tool and should not be treated as a definitive signal [rsi-extreme]. A rising price can persist even with high RSI values if the trend remains strong. Therefore, the indicator does not inherently create a contradiction with the price movement.",
+        "citation_ids": [
+          "rsi-extreme"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp01-retry-test-layer-capacity",
+      "question": "A report gives a Bitcoin throughput number without stating transaction size, batching, protocol version, or whether it means the base layer. Is that enough for a current capacity comparison?",
+      "evidence_ids": [
+        "dp01-capacity-date",
+        "dp01-pow-consensus",
+        "dp03-remove-all-trust",
+        "dp04-renminbi-timeline"
+      ],
+      "baseline": {
+        "response": "No, a Bitcoin throughput number without specifying transaction size, batching, protocol version, or layer is insufficient for a current capacity comparison. The report's transactions-per-second statement is context-dependent and based on a 2018 configuration [dp01-capacity-date]. Protocol changes, batching, and higher-layer systems significantly impact capacity measurements. To make a valid comparison, one must know the layer, date, and calculation method used.",
+        "citation_ids": [
+          "dp01-capacity-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No, a Bitcoin throughput number without specifying transaction size, batching, protocol version, or layer is insufficient for a current capacity comparison. The report's transactions-per-second statement is context-dependent and based on a 2018 configuration [dp01-capacity-date]. Protocol changes, batching, transaction sizes, and higher-layer systems affect capacity measurements over time. To make a valid comparison, one must specify the layer, date, and calculation method.",
+        "citation_ids": [
+          "dp01-capacity-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp01-retry-test-cold-storage",
+      "question": "Keys are kept offline, but the only backup is destroyed. Did cold storage eliminate the risk of permanent loss?",
+      "evidence_ids": [
+        "dp01-hot-cold",
+        "dp03-survey-snapshot",
+        "dp07-scanner",
+        "risk-budget"
+      ],
+      "baseline": {
+        "response": "Cold storage reduces some risks but does not eliminate all risks of permanent loss. The evidence shows that cold storage only reduces exposure to online compromise, not backup loss, user error, or other factors [dp01-hot-cold]. Since the only backup is destroyed, there is still a risk of permanent loss due to factors like user error or physical destruction of the cold storage medium. The evidence does not establish whether this specific scenario eliminates all risks.",
+        "citation_ids": [
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Cold storage reduces some risks but does not eliminate all risks of permanent loss. The evidence shows that cold storage only reduces exposure to online compromise, not backup loss, user error, or other risks [dp01-hot-cold]. Since the only backup is destroyed, there is still a risk of permanent loss due to factors like user error or hardware failure. The evidence does not establish whether this specific scenario eliminates all risks.",
+        "citation_ids": [
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp01-retry-test-token-rights",
+      "question": "A project token trades on an exchange and helped finance development. Does that alone prove its holder has the legal rights of a shareholder?",
+      "evidence_ids": [
+        "dp01-token-share",
+        "dp03-governance-not-inherent",
+        "dp03-payment-system-vs-money",
+        "dp07-governance"
+      ],
+      "baseline": {
+        "response": "No, a token that trades on an exchange and helps finance development does not alone prove its holder has the legal rights of a shareholder. Legal rights depend on the token's contract, governance rules, and applicable law, which may not confer ownership or voting rights like traditional shares [dp01-token-share]. Trading behavior and fundraising use do not establish identical legal claims.",
+        "citation_ids": [
+          "dp01-token-share"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No, a token that trades on an exchange and helps finance development does not alone prove its holder has the legal rights of a shareholder. Legal rights depend on the token's contract, governance rules, and applicable law, which may not confer ownership or voting rights like traditional shares [dp01-token-share]. Trading behavior and fundraising roles do not inherently establish equivalent legal claims.",
+        "citation_ids": [
+          "dp01-token-share"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp01-retry-test-correlation",
+      "question": "Countries with stronger institutions show more exchange activity in a cross-sectional chart. Can that chart alone prove institutions caused the activity?",
+      "evidence_ids": [
+        "dp01-correlation",
+        "dp03-governance-not-inherent",
+        "dp03-survey-snapshot",
+        "dp04-reserve-chart-date"
+      ],
+      "baseline": {
+        "response": "No, a cross-sectional chart showing a correlation between institutional strength and exchange activity does not alone prove causation. Correlation does not imply causation, and other factors could explain the association [dp01-correlation]. The chart may suggest a hypothesis, but it does not establish that institutions caused the exchange activity. To prove causation, further analysis, such as controlled experiments or longitudinal studies, would be required.",
+        "citation_ids": [
+          "dp01-correlation"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No, a cross-sectional chart showing a correlation between institutional strength and exchange activity does not alone prove causation. Correlation does not imply causation, and other factors could explain the association [dp01-correlation]. The chart may suggest a hypothesis, but it does not establish that institutions caused the exchange activity. To prove causation, further analysis, such as controlled experiments or longitudinal studies, would be required.",
+        "citation_ids": [
+          "dp01-correlation"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp03-retry-test-permission-properties",
+      "question": "A ledger publishes its source code but allows only approved institutions to validate transactions. Does open-source code alone make validation permissionless?",
+      "evidence_ids": [
+        "dp01-cbdc-difference",
+        "dp03-governance-not-inherent",
+        "dp03-permission-models",
+        "dp04-miner-incentives"
+      ],
+      "baseline": {
+        "response": "Open-source code alone does not make validation permissionless. The evidence states that openness of source code is a separate property from validation permissions [dp03-permission-models]. A ledger can publish its source code but still restrict transaction validation to approved institutions, as seen in permissioned systems. Thus, open-source code does not inherently imply permissionless validation; explicit rules about who can validate transactions are required.",
+        "citation_ids": [
+          "dp03-permission-models"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Open-source code alone does not make validation permissionless. The evidence states that openness of source code, read access, transaction submission, and validation authority are separate properties [dp03-permission-models]. A ledger publishing its source code but restricting validation to approved institutions is permissioned, as validation authority is controlled. Thus, open-source code does not inherently imply permissionless validation.",
+        "citation_ids": [
+          "dp03-permission-models"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp03-retry-test-trust-model",
+      "question": "A payment protocol has no central clearing bank. Does that fact alone prove users rely on nobody and nothing?",
+      "evidence_ids": [
+        "dp03-cash-tradeoffs",
+        "dp03-governance-not-inherent",
+        "dp03-remove-all-trust",
+        "dp04-network-effects"
+      ],
+      "baseline": {
+        "response": "No, a payment protocol lacking a central clearing bank does not alone prove users rely on nobody and nothing. While it reduces reliance on a single intermediary, users may still depend on software, key management, exchanges, miners, or governance structures [dp03-remove-all-trust]. Trust can be shifted but not entirely eliminated. The absence of a central clearing bank does not inherently guarantee reduced reliance on other forms of trust or institutions.",
+        "citation_ids": [
+          "dp03-remove-all-trust"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No, a payment protocol lacking a central clearing bank does not alone prove users rely on nobody and nothing. While it reduces reliance on one intermediary, users may still depend on software, key custody, exchanges, miners, or governance structures [dp03-remove-all-trust]. Trust can be shifted but not entirely eliminated. The absence of a central clearing bank does not guarantee the elimination of all forms of trust or dependency.",
+        "citation_ids": [
+          "dp03-remove-all-trust"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp03-retry-test-dated-usage",
+      "question": "The report lists coin prices, address counts, and merchant acceptance around 2018?2019. May those numbers be used as current market facts without verification?",
+      "evidence_ids": [
+        "dp01-mining-location",
+        "dp03-historical-market-numbers",
+        "dp03-pow-pos-tradeoffs",
+        "dp04-report-claims-dated"
+      ],
+      "baseline": {
+        "response": "The numbers in the report are historical and cannot be used as current market facts without verification. The report describes observations or third-party estimates available around 2018\u20132019, often with differing measurement windows [dp03-historical-market-numbers]. Therefore, any present-day statement requires a current source, timestamp, definition, and methodology. The report's numbers remain historical evidence only.",
+        "citation_ids": [
+          "dp03-historical-market-numbers"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The numbers in the report are historical and cannot be used as current market facts without verification. The report describes observations or third-party estimates available around 2018\u20132019, often with differing measurement windows [dp03-historical-market-numbers]. Therefore, any present-day statement requires a current source, timestamp, definition, and methodology. The report's numbers remain historical evidence only.",
+        "citation_ids": [
+          "dp03-historical-market-numbers"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp03-retry-test-cbdc-architecture",
+      "question": "If a project is called a retail CBDC, does that label tell us it must use a public blockchain and anonymous token accounts?",
+      "evidence_ids": [
+        "dp01-token-share",
+        "dp03-cbdc-survey-date",
+        "dp03-money-taxonomy",
+        "dp03-retail-wholesale-cbdc"
+      ],
+      "baseline": {
+        "response": "The label \"retail CBDC\" does not necessarily imply the use of a public blockchain or anonymous token accounts. According to the report, the distinction between retail and wholesale CBDC lies in access and user base, not in technical design [dp03-retail-wholesale-cbdc]. The report also notes that the technology can be centralized or decentralized, and the label alone does not determine these features [dp03-money-taxonomy]. Therefore, the label \"retail CBDC\" does not mandate the use of a public blockchain or anonymous token accounts.",
+        "citation_ids": [
+          "dp03-retail-wholesale-cbdc",
+          "dp03-money-taxonomy"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The label \"retail CBDC\" does not necessarily imply the use of a public blockchain or anonymous token accounts. According to the report, the distinction between retail and wholesale CBDC lies in access and user base, not in technical design [dp03-retail-wholesale-cbdc]. The report also notes that the technology can be centralized or decentralized, and the label alone does not determine these features [dp03-money-taxonomy]. Therefore, the label \"retail CBDC\" does not mandate the use of a public blockchain or anonymous token accounts.",
+        "citation_ids": [
+          "dp03-retail-wholesale-cbdc",
+          "dp03-money-taxonomy"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp04-test-chart-current",
+      "question": "A reserve-composition chart ends in 2014. Can it answer which currency has the second-largest reserve share in 2026?",
+      "evidence_ids": [
+        "dp01-capacity-date",
+        "dp03-conjoint-interpretation",
+        "dp04-network-effects",
+        "dp04-reserve-chart-date"
+      ],
+      "baseline": {
+        "response": "The reserve-composition chart ending in 2014 cannot answer which currency has the second-largest reserve share in 2026. The chart provides historical data up to 2014 and does not include future projections or updated figures. To determine the reserve share in 2026, one would need a recent dataset from an authoritative source like the IMF, which is not provided in the evidence. The available information does not establish the answer.",
+        "citation_ids": [],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The reserve-composition chart ending in 2014 cannot answer which currency has the second-largest reserve share in 2026. The chart provides historical data up to 2014 and does not reflect current or future reserve compositions. To determine the second-largest reserve currency in 2026, one would need a recent and authoritative dataset, such as from the IMF, with matching definitions and currency categories [dp04-reserve-chart-date].",
+        "citation_ids": [
+          "dp04-reserve-chart-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp04-test-signing",
+      "question": "Who normally creates the digital signature authorizing a Bitcoin spend: the miner or the spender controlling the relevant key?",
+      "evidence_ids": [
+        "dp03-governance-not-inherent",
+        "dp03-remove-all-trust",
+        "dp04-miner-incentives",
+        "dp04-mining-not-signing"
+      ],
+      "baseline": {
+        "response": "The digital signature authorizing a Bitcoin spend is created by the spender controlling the relevant private key, not the miner. Users authorize spends with digital signatures, while miners select and validate transactions but do not sign them [dp04-mining-not-signing]. This distinction is fundamental to Bitcoin's design, where transaction authorization rests with the key holder, not the network participants like miners.",
+        "citation_ids": [
+          "dp04-mining-not-signing"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The digital signature authorizing a Bitcoin spend is created by the spender controlling the relevant private key, not the miner. Users authorize spends with digital signatures, while miners select valid transactions, construct blocks, and search for proof of work [dp04-mining-not-signing]. The role of miners is to validate and relay transactions, not to sign them. Thus, the spender, not the miner, is responsible for creating the digital signature that authorizes a Bitcoin spend.",
+        "citation_ids": [
+          "dp04-mining-not-signing"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp04-test-adoption",
+      "question": "A payment app is faster in a laboratory demonstration. Does that prove nationwide adoption?",
+      "evidence_ids": [
+        "dp03-cbdc-bank-run-risk",
+        "dp04-disruption-definition",
+        "dp04-network-effects",
+        "dp04-volatility-adoption-loop"
+      ],
+      "baseline": {
+        "response": "A laboratory demonstration of a faster payment app does not prove nationwide adoption. Laboratory results show technical performance but do not account for real-world factors like user behavior, regulatory hurdles, network effects, and incumbent resistance [dp04-network-effects]. Adoption requires sustained usage, merchant acceptance, and systemic integration, which are not guaranteed by speed alone. Evidence of adoption would need to include user data, market penetration, and long-term viability [dp04-disruption-definition].",
+        "citation_ids": [
+          "dp04-network-effects",
+          "dp04-disruption-definition"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "A laboratory demonstration of a faster payment app does not prove nationwide adoption. The evidence shows that technical advantages alone do not guarantee market success [dp04-disruption-definition]. Network effects, regulatory acceptance, user behavior, and incumbent responses are critical factors that influence adoption [dp04-network-effects]. Without tracking real-world usage, costs, and market dynamics over time, a lab test cannot confirm nationwide adoption.",
+        "citation_ids": [
+          "dp04-disruption-definition",
+          "dp04-network-effects"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp04-test-trust",
+      "question": "A transaction settles without a commercial bank. Does that prove the exchange contains no trust or governance assumptions?",
+      "evidence_ids": [
+        "dp03-cash-tradeoffs",
+        "dp03-remove-all-trust",
+        "dp03-security-not-value",
+        "dp04-trust-not-removed"
+      ],
+      "baseline": {
+        "response": "A transaction settling without a commercial bank does not prove the exchange contains no trust or governance assumptions. The evidence shows that while a blockchain can reduce reliance on traditional intermediaries, it introduces other forms of trust, such as in software, cryptography, governance, and the community or issuer of the asset [dp03-remove-all-trust]. Trust is shifted, not entirely eliminated. Therefore, the presence or absence of trust depends on which assumptions are considered.",
+        "citation_ids": [
+          "dp03-remove-all-trust"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "A transaction settling without a commercial bank does not prove the exchange contains no trust or governance assumptions. The evidence shows that while a blockchain can reduce reliance on traditional intermediaries, it introduces other forms of trust, such as in software, cryptography, governance, and the community or issuer of the asset [dp03-remove-all-trust]. Trust is simply shifted, not eliminated. Therefore, the presence or absence of trust depends on which assumptions are considered.",
+        "citation_ids": [
+          "dp03-remove-all-trust"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    }
+  ]
+}

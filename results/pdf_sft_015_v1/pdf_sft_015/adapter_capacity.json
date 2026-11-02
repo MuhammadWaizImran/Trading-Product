@@ -1,0 +1,5 @@
+{
+  "trainable_parameters": 21823488,
+  "target_modules": "all-linear",
+  "rank": 8
+}

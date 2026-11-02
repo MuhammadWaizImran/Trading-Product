@@ -1,0 +1,13 @@
+{
+  "purpose": "Check unresolved source identity and sell-limit errors; compare all 16 existing diagnostic cases",
+  "conditions": [
+    "base",
+    "adapter007"
+  ],
+  "answers": 32,
+  "training": false,
+  "independent_test": false,
+  "packet_sha256": "12b78fff442ee71829e02de87ee761a8ffea9f103169787006688383b934a682",
+  "code_sha256": "5c10bcaa808df2c4321674a2dcf979486f1c550fe930ab8c6145e202be34b6b5",
+  "decision": "Do not promote if unidentified-source attribution, sell-limit direction, missing-data fabrication, unsupported citations or truncation remain. Require clear supported-answer improvement over identically prompted base before continuing this adapter. Even a pass requires independent assessment."
+}

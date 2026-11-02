@@ -1,0 +1,346 @@
+=== PDF PAGE 1 ===
+  RISK MANAGEMENT
+
+
+
+
+
+               AUTHOR: ELISA CRYPTO
+
+
+
+                                                   Follow - https://twitter.com/elisa_cryptoSubscribe - https://t.me/Elisas_Premium_Bot                                                               https://t.me/elisascharts
+
+=== PDF PAGE 2 ===
+                                  Risk Management
+
+CONTENTS
+        Risk Management                                                                                                            
+
+  3 WELCOME
+
+  4 RISK:REWARD
+
+  5 R CALCULATION
+
+  6 POSITION SIZE
+
+  7 PREPARATION
+
+  8 WIN RATES
+
+  9 COMPARING TRADES
+
+  10 PORTFOLIO GROWTH
+
+
+
+                             2
+
+                                                     Follow - https://twitter.com/elisa_crypto   Subscribe - https://t.me/Elisas_Premium_Bot                                                                  https://t.me/elisascharts
+
+=== PDF PAGE 3 ===
+                                 Risk Management
+
+WELCOME
+                                                                                                                                                        
+
+    his guide will prov ide you with information you need to know to
+   manage your risk so you can grow your portfolio effectively and safely.T
+ Understanding risk management is critical to becoming a successful long-
+ term trader, protecting your capital is the single most important thing to
+ consider, and every trade should be managed such that a maximum pre-
+ defined amount is at risk for each trade.
+ A successful trader takes profits when they are available and cuts their losses
+ when their analysis is invalidated.
+
+
+
+
+
+             ubsc ribe for Direct Acc ess to Tec hnical    S Analysis Experts.
+
+          Sample free content here:
+                                https://t.me/elisascharts
+                               https://t.me/elisasTAchat
+
+
+
+                            3
+
+                                                    Follow - https://twitter.com/elisa_crypto Subscribe - https://t.me/Elisas_Premium_Bot                                                                https://t.me/elisascharts
+
+=== PDF PAGE 4 ===
+                                 Risk Management
+
+RISK:REWARD
+                                                                                                                                                        
+
+ RISK (R)            REWARD
+    he amount you are risking on each      or the money you are risking  it is
+    trade is referred to as R. It is usual      important to ensure that any tradesT              F to risk 1% of your capital on a trade.   you take are worthwhile. There is little
+ This does not mean you only buy 1%   point risking $100 for only $50 back
+ of the coin, as many people think. It is   should you win the trade, a ratio of  1
+ the amount you would lose if your stop   risked to 0.5 potential gain.
+ loss order is hit.
+                                Many traders focus on their percentage
+ Example:                                    gains; however, this is irrelevant – what
+                                                           is important  is that your successful Your capital is $10,000. If you risk 1%                                         trades achieve a high reward relative per trade, this would be $100.                                            to what you are risking.
+ Therefore R = $100                  The above example shows  if you hit
+                                      your profit target you are rewarded Keeping risk to 1% allows you to lose                                          with only half of what you risked, 0.5R. more than 100 trades before you lose
+  all your capital. Less dramatically, you                                               Ideally as a new trader, you want to be could lose 5 consecutive trades and                                        searching for trades which return 2R  still quickly recover your 5% capital                                          or higher. That is, if you risk $100, you loss.                                       win more than $200 for a successful
+                                            trade, a ratio of 1:2 minimum.
+ Obviously, the 1% risk can be reduced
+ for less experienced traders, or if you   This is referred to as the
+ are on a losing streak. More experienced
+ traders may be able to assess the  RISK TO REWARD
+ probability of a trade succeeding and  RATIO. could increase their risk for higher
+ probability trades through pyramiding.
+
+                           4
+
+                                                    Follow - https://twitter.com/elisa_crypto Subscribe - https://t.me/Elisas_Premium_Bot                                                                https://t.me/elisascharts
+
+=== PDF PAGE 5 ===
+                                 Risk Management
+
+R CALCULATION
+                                                                                                                                                        
+
+    o calculate your trade’s reward, you divide the distance from your entry to
+    your profit target, by the distance from entry to your stop loss:T
+        R = (PROFIT TARGET - ENTRY) / (ENTRY – STOP)
+ Example:
+  If your profit target is 4% above entry, and your stop loss is 2% below entry,
+ then 4% ÷ 2% = 2, or 2R.
+
+ TRADING VIEW
+ Luckily Trading View offers a tool which does the calculation for you. You can
+ find the tool in the drawing menus on the left, the values  it provides are
+ illustrated below for a 3R trade (the lower number in the green box).
+
+
+
+
+
+                            5
+
+                                                    Follow - https://twitter.com/elisa_crypto Subscribe - https://t.me/Elisas_Premium_Bot                                                                https://t.me/elisascharts
+
+=== PDF PAGE 6 ===
+                                 Risk Management
+
+POSITION SIZE
+                                                                                                                                                        
+
+    o ensure your risk remains at the level you have pre-defined when your
+    stop loss is hit, you will need to calculate your position size, as follows:T
+  POSITION SIZE = (RISK % X TRADING CAPITAL) / STOP LOSS %
+
+ Example:
+ You have a $10,000 portfolio and want to risk 1% per trade. You select a 3R
+ trade with a stop loss that is 4% away from your entry. You calculate your
+ position size using the above formula.
+
+ Position Size = 1% x $10,000 / 4% = $2,500
+ Therefore, you will be investing $2,500 of your $10,000 capital on this trade.
+  If your stop loss is hit, you will lose $2500 x 4% = $100 as you originally planned.
+  If you reach your target you will gain $300 (3R).
+
+  If you trade against BTC, you can substitute the above dollar values with BTC
+ values for the same outcome.
+
+ Chris, one of our group members, has kindly developed a telegram bot to help
+ you calculate position size:
+
+
+             cc ess the calculator here:      A
+                             https://t.me/PositionCalcBot
+
+
+                            6
+
+                                                    Follow - https://twitter.com/elisa_crypto Subscribe - https://t.me/Elisas_Premium_Bot                                                                https://t.me/elisascharts
+
+=== PDF PAGE 7 ===
+                                 Risk Management
+
+PREPARATION
+                                                                                                                                                        
+      hen you are preparing to take a trade the following risk management
+      items should be considered:W
+ 1. What is the trade?
+     »» What are the entry, stop and take profit levels?
+     »» Are the stop and take profit levels based on technical analysis?
+     »» Are you clear about when your trade would be invalidated and you should exit?
+ 2. What is the R:R for this trade?
+     »»   Is it 2R or better? Never alter the stop or profit levels to manipulate this - the
+         trade is the trade, and the analysis is the analysis!
+     »»   If you are splitting targets you may have to weight the formula which becomes
+       more complex. The other option is to consider only the first take profit target
+        which gives you the minimum R. reward.
+
+ 3. What is my position size if  I want to risk 1% of my portfolio on this trade?
+     »» Use the position size calculator to help you calculate position size. Again, do not
+           alter the stop so you can take a larger position.
+     »» Use leverage as necessary if your capital is not enough to take the trade.
+
+
+     emember it is important you do not manipulate your stop loss
+       to artificially increase your R, the trade should be based on R   technical analysis with your stop below the relevant support. If the
+   R is insufficient you simply search for another trade.
+
+      ecord how many R you are making per week/month etc. Not what
+      percentage profit. This is what will grow your portfolio long term, R   and using these techniques makes a successful long-term trader.
+                              7
+
+                                                    Follow - https://twitter.com/elisa_crypto Subscribe - https://t.me/Elisas_Premium_Bot                                                                https://t.me/elisascharts
+
+=== PDF PAGE 8 ===
+                                 Risk Management
+
+WIN RATES
+                                                                                                                                                        
+    he below chart and table show what percentage of trades you need to win
+     in order to break even based on various risk to reward ratios.T
+                                                                Break Even    Win Rate                                               Risk:Reward      70.0%                                                          Win Rate
+                                                                               0.5          66.7%      60.0%
+                                                                   1          50.0%
+      50.0%                                                             2          33.3%
+      40.0%                                                             3          25.0%
+                                                                   4          20.0%
+      30.0%
+                                                                   5          16.7%
+      20.0%                                                             6          14.3%
+      10.0%                                                             7          12.5%
+                                                                   8          11.1%
+       0.0%                                                             9          10.0%            0         2         4         6         8         10        12        14        16
+                                            Risk:Reward Ratio                               10          9.1%
+                                                                   15          6.3%
+
+ Examples:
+
+ For 0.5R trades – you risk $100 to gain $50 – you must win two-thirds to break even.
+
+ For 1R trades – you risk $100 to gain $100 – you must win half to break even.
+
+ For 2R trades – you risk $100 to gain $200 – you must win one-third to break even.
+
+ For 4R trades – you risk $100 to gain $400 – you must win only 20% to break even.
+
+ For 10R trades – you risk $100 to gain $1000 – you must win only 9% to break even.
+ If you took 10 trades at only 0.5R you would need to win 7 or more to make any
+ profit. 7 trades would make $50 each, and 3 trades would lose $100 each, leaving
+ you with $50 profit.
+
+ In contrast,  if you took 10 trades at 4R, you only need to win 3 or more to make
+ profit. 3 trades would make $400 each, and 7 trades would lose $100 each, leaving
+ you with $500 profit.
+
+ (Not compounded for simplicity.)                             8
+
+                                                    Follow - https://twitter.com/elisa_crypto Subscribe - https://t.me/Elisas_Premium_Bot                                                                https://t.me/elisascharts
+
+=== PDF PAGE 9 ===
+                                 Risk Management
+
+COMPARING TRADES
+                                                                                                                                                        
+
+    sing R we can effectively compare trades to each other because the risk is the same
+    for each. By now you should understand why you are not aiming for the highestUpercentage gain for a trade but the highest R. Below we compare three trades with
+5%, 4% and 9% gains to each other:
+»»  The first trade example shows an entry close to support with a tight stop immediately below
+    support – the point where the trade is invalidated. A strong 5R trade with a 5.2% target.
+»»  The second example shows a late entry, the stop is in the same place as the first trade therefore the
+    return is reduced to only 2R.
+»»  The third example shows the same entry as the first trade also with the same 5R reward. The stop
+       is deeper and the profit target is higher. Clearly, the higher profit target has a greater risk of not
+    being achieved than the first trade, therefore this is a lower probability trade although it has the
+   same reward.
+               Do you understand why the first trade is the best trade?
+The comparison shows the importance to your portfolio of entering as close to support
+as you can, allowing a tight stop, as well as showing there is no real need to aim for
+massive percentage gains if your trades are setup effectively.
+
+
+
+
+
+                            9
+
+                                                    Follow - https://twitter.com/elisa_crypto Subscribe - https://t.me/Elisas_Premium_Bot                                                                https://t.me/elisascharts
+
+=== PDF PAGE 10 ===
+                                 Risk Management
+
+PORTFOLIO GROWTH
+                                                                                                                                                          
+Conservatively, let’s say you take a trade every couple of days and you exit at
+the first target with an average 3R, and your average win rate is 60%.
+
+For 30 days a month there will be 15 trades taken.
+60% won → 9 trades → 3R per trade = 27R
+40% lost → 6 trades →  -1R per trade = -6R
+Total = 21R in the month.
+If you risk 1% of your portfolio per trade, i.e.
+-1R = -1% of portfolio
++3R = +3% of portfolio
+Then your portfolio is up 21% in the month.
+
+
+   LEVERAGE
+       If you select trades with tight stop losses you will be limited in the number you can afford to take
+     with your capital. For example, if your risk 1% per trade, and take a trade with a stop loss of 1%, you
+      will use 100% of your capital to take the position. This is when you can use leverage to allow you to
+      artificially increase your capital, taking more trades while maintaining the same risk per trade.
+     Increasing the leverage of your trade does NOT change your risk* or your profit, changing your
+     position size, or the number of contracts does.
+   No other trader can tell you what leverage to use, since this is a function of your personal portfolio
+      size, risk appetite and the trades you are taking.
+
+    Example:
+    You long 10,000 contracts at 1x leverage. Your margin - the cost to hold your position - is 1.2XBT. If
+     price rises by 1% you will gain 10,000 x 1% = $100.
+    You long 10,000 contracts at 10x leverage. Your margin - the cost to hold your position - is 0.12XBT.
+       If price rises by 1% you will gain 10,000 x 1% = $100.
+
+
+   *presuming your stop loss remains closer to current price than your liquidation price.
+                                                    1 0
+
+                                                    Follow - https://twitter.com/elisa_crypto Subscribe - https://t.me/Elisas_Premium_Bot                                                                 https://t.me/elisascharts
+
+=== PDF PAGE 11 ===
+                                Risk Management
+
+
+
+
+
+           This material  is for informational and educational purposes and  its
+         accuracy cannot be guaranteed. We do not accept any responsibility or
+             liability for the use or misuse of this information, nor for any errors or
+          omissions.
+
+        Any action you take based on this information is at your own risk; it is not
+         designed to meet your personal situation – we are not financial advisors
+         nor do we give personalised advice. Decisions should be made only after
+          consulting with your financial advisor and no be based solely on what you
+         read here.
+
+
+
+
+
+             oin TeamTA for Direct Acc ess to Tec hnical       J Analysis Experts.
+
+          Sample our free content here:
+                                https://t.me/elisascharts
+                               https://t.me/elisasTAchat
+
+
+
+
+
+                                                   Follow - https://twitter.com/elisa_cryptoSubscribe - https://t.me/Elisas_Premium_Bot                                                               https://t.me/elisascharts

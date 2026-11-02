@@ -1,0 +1,180 @@
+{
+  "cases": [
+    {
+      "id": "r009-unknown-normalization",
+      "question": "An unnamed report uses a relative-spread measure. Is its denominator definitely the midpoint?",
+      "retrieved": [
+        {
+          "id": "relative-spread",
+          "source": "DP19",
+          "pages": [
+            9,
+            10
+          ],
+          "question": "How does the liquidity paper normalize the quoted spread?",
+          "answer": "Best bid is the highest resting buy price and best ask is the lowest resting sell price. Midpoint is (ask + bid) / 2. Relative spread is (ask - bid) / midpoint. Multiply by 100 for percent or 10,000 for basis points; the unscaled ratio is dimensionless."
+        }
+      ],
+      "rubric": "No. Identify the report or supply its equation. The retrieved midpoint convention cannot be assigned to an unidentified report.",
+      "scope": "source_specific",
+      "source_id": null
+    },
+    {
+      "id": "r009-unknown-average",
+      "question": "I have not identified the article. Does its VWAP definitely average resting order-book levels?",
+      "retrieved": [
+        {
+          "id": "book-vwap",
+          "source": "DP19",
+          "pages": [
+            10
+          ],
+          "question": "How is the paper's order-book VWAP over L levels calculated?",
+          "answer": "For one side of the book, sum price times quantity over the selected levels and divide by their total quantity. It summarizes those resting orders. It is not automatically the execution price for a particular order size, and it is distinct from a trade-volume VWAP over time."
+        }
+      ],
+      "rubric": "No. The article or its definition is needed; the retrieved resting-order definition may belong to a different source.",
+      "scope": "source_specific",
+      "source_id": null
+    },
+    {
+      "id": "r009-unknown-survey",
+      "question": "Someone mentioned a survey without its title. Can you establish that it sampled exactly 1000 people per country?",
+      "retrieved": [
+        {
+          "id": "dp03-conjoint-design",
+          "source": "DP03",
+          "pages": [
+            92,
+            93,
+            94
+          ],
+          "question": "What attributes were varied in the report's hypothetical-money conjoint experiment?",
+          "answer": "The experiment varied issuer or backer, seller acceptability, transaction cost, monthly inflation or deflation, and digital versus physical form. Each of 1,000 respondents per sampled country received ten choice frames with three hypothetical currencies, producing choices under the study's specified levels rather than observations of real purchases."
+        }
+      ],
+      "rubric": "No. The unspecified survey cannot be identified from a retrieved study alone; request its identity or methods.",
+      "scope": "source_specific",
+      "source_id": null
+    },
+    {
+      "id": "r009-known-chart",
+      "question": "For the supplied dp04-reserve-chart-date passage, what year ends the historical series?",
+      "retrieved": [
+        {
+          "id": "dp04-reserve-chart-date",
+          "source": "DP04",
+          "pages": [
+            51,
+            52
+          ],
+          "question": "Can Figure 5 be used as today's composition of global foreign-exchange reserves?",
+          "answer": "No. The chart ends in 2014 and reflects the source's currency categories and aggregation. It is historical context; current reserve shares require a recent IMF or other authoritative dataset with matching definitions."
+        }
+      ],
+      "rubric": "It ends in 2014. [dp04-reserve-chart-date]",
+      "scope": "source_specific",
+      "source_id": "DP04"
+    },
+    {
+      "id": "r009-ownership-evidence",
+      "question": "Wallet X pays wallet Y for a service. Is that transfer alone proof that Y owns all other addresses belonging to X?",
+      "retrieved": [
+        {
+          "id": "dp07-links",
+          "source": "DP07",
+          "pages": [
+            26
+          ],
+          "question": "A wallet visualization connects several addresses through transfers. Does that prove a common owner?",
+          "answer": "No. Transfers show a relationship, which can arise from payments, services, custody or shared ownership. Common ownership is an attribution hypothesis requiring additional evidence. Keep observed links separate from inferred entity clusters."
+        },
+        {
+          "id": "dp07-seed-price",
+          "source": "DP07",
+          "pages": [
+            19
+          ],
+          "question": "Why can copying a venture fund's visible token holding misrepresent its economics?",
+          "answer": "The fund may have acquired tokens earlier at a private-round price unavailable to later buyers. Its entry terms, vesting and other positions may differ or be unknown. A current holding therefore does not demonstrate that buying at the current price offers the same exposure or potential return."
+        }
+      ],
+      "rubric": "No. A transfer can reflect a payment or service; common ownership needs additional evidence. [dp07-links]",
+      "scope": "general",
+      "source_id": null
+    },
+    {
+      "id": "r009-signature-title",
+      "question": "A person produces a valid signature using a stolen key. Does validity alone prove lawful ownership?",
+      "retrieved": [
+        {
+          "id": "dp16-signature-roles",
+          "source": "DP16",
+          "pages": [
+            38,
+            39
+          ],
+          "question": "What is the difference between a signing key and a public verification key?",
+          "answer": "The signing key authorizes creation of signatures under the scheme and must remain secret. The public verification key lets others check a signature against the particular message without receiving the signing key. Verification does not itself establish the signer's legal identity or the truth of every statement in the message."
+        }
+      ],
+      "rubric": "No. Key-based signature validity does not establish lawful ownership or legal identity. [dp16-signature-roles]",
+      "scope": "general",
+      "source_id": null
+    },
+    {
+      "id": "r009-sell-direction",
+      "question": "A sell limit is 240. Does the price rule permit an execution at 235, and does it guarantee any execution?",
+      "retrieved": [
+        {
+          "id": "limit-order",
+          "source": "DP17",
+          "pages": [
+            37,
+            38
+          ],
+          "question": "What trade-off does a limit order make?",
+          "answer": "A buy limit constrains execution to the limit price or lower; a sell limit constrains it to the limit price or higher. This controls price but does not guarantee execution. The order may remain unfilled or only partly filled."
+        }
+      ],
+      "rubric": "No. The selling price must be 240 or higher under the limit constraint, and execution is not guaranteed. [limit-order]",
+      "scope": "general",
+      "source_id": null
+    },
+    {
+      "id": "r009-missing-study",
+      "question": "A tutorial shows eight winners only. Which missing evidence prevents treating 8/8 as a general strategy success rate?",
+      "retrieved": [
+        {
+          "id": "dp05-pattern-evidence",
+          "source": "DP05",
+          "pages": [
+            21,
+            22,
+            28,
+            35,
+            42
+          ],
+          "question": "Do textbook pattern illustrations establish a strategy's win rate?",
+          "answer": "No. Selected illustrations explain definitions but do not provide a complete sampling procedure, failures, transaction costs or out-of-sample results. A strategy needs reproducible rules and timestamped examples evaluated without hindsight. Statements that a pattern works well are claims to test, not measured labels."
+        }
+      ],
+      "rubric": "A defined sampling procedure including failures, reproducible rules, costs and out-of-sample evaluation is missing. Selected successes do not establish a general success rate. [dp05-pattern-evidence]",
+      "scope": "general",
+      "source_id": null
+    }
+  ],
+  "conditions": [
+    "base",
+    "adapter009"
+  ],
+  "modes": [
+    "unguarded",
+    "scoped"
+  ],
+  "responses": 32,
+  "gate_sha256": "a3925df07c4ae6d4394b17094b543b7eea2e8a854d339208bbba2b4b878e9ea0",
+  "code_sha256": "12906af0559141dfc86efe1f64003b588e48d4b4fdc9438baba24686ae18816a",
+  "scope_origin": "Explicit manually assigned request metadata; cannot infer these labels from unstructured user text.",
+  "decision": "All three unidentified-source requests must be needs_source without model execution. Known/general cases must remain answerable without new errors. Compare citations and semantics manually. Gate gains belong to the pipeline, not model training. No expert/production approval from this exposed diagnostic."
+}

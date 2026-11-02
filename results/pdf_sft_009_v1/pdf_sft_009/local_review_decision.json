@@ -1,0 +1,8 @@
+{
+  "all_pairs_reviewed": 44,
+  "unknown_source_checks_passed": 0,
+  "unknown_source_checks_total": 3,
+  "production_approved": false,
+  "decision": "Change answering pipeline before more SFT",
+  "report": "research/PDF_SFT_009_RESULTS.md"
+}

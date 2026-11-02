@@ -1,0 +1,317 @@
+{
+  "artifact_checks": "PASS",
+  "semantic_review": "pending; citation existence is not support",
+  "production_approved": false,
+  "batch": "010",
+  "gpu": "Tesla T4",
+  "counts": {
+    "train": 278,
+    "validation": 42,
+    "test": 50
+  },
+  "adapter_sha256": "48d2664db5b46246ee98bfd688318b2d28a6f14be0a10892117c6303ca5fc8bf",
+  "adapter_bytes": 15354512,
+  "adapted_reload_equal": true
+}
+
+CASE dp07-test-price-coverage An address has $900 in directly held tokens and a separate $600 protocol deposit. A tool displays only direct tokens. Is $900 necessarily the complete portfolio?
+baseline unrecognized_citations= [] limit= False
+No. The tool displaying only direct tokens does not account for protocol deposits, which are separate from directly held tokens [dp07-balance-coverage]. Therefore, $900 is not necessarily the complete portfolio. The protocol deposit of $600 is not included in the direct token balance [dp07-balance-coverage].
+adapted unrecognized_citations= [] limit= False
+No. The tool only displays direct tokens, omitting protocol deposits. A complete portfolio would include both direct tokens and protocol deposits. The evidence shows that different tools can report different values for the same wallet due to varying coverage [dp07-balance-coverage].
+
+CASE dp07-test-holders An exchange address holds a token for 400 customers, and another person uses five addresses. Can address counts alone recover the number of investors?
+baseline unrecognized_citations= [] limit= False
+No. Address counts alone cannot recover the number of investors because one person can control multiple addresses, and exchange addresses can represent many customers [corr-address-entity-two-way]. Additionally, token holder addresses do not necessarily correspond to independent investors [dp07-holder-count]. Address counts are protocol observations, not unique-person counts [dp03-addresses-not-users].
+adapted unrecognized_citations= [] limit= False
+No. Address counts alone cannot recover the number of investors because one person can control multiple addresses, and exchange addresses can represent many customers [corr-address-entity-two-way]. Additionally, token holder addresses do not necessarily correspond to independent investors, as one entity can control several addresses [dp07-holder-count]. Therefore, address counts are not a direct measure of unique investors.
+
+CASE dp07-test-counterparty An investigator observes that a fund sent tokens to a service's address. Does that single observation prove the service owns the fund's remaining wallets?
+baseline unrecognized_citations= [] limit= False
+No. The observation that a fund sent tokens to a service's address does not prove the service owns the fund's remaining wallets. This is because sending tokens to a service's address does not necessarily indicate ownership of other wallets, as there may be other reasons for the transfer [dp01-hot-cold].
+adapted unrecognized_citations= [] limit= False
+No. The observation that a fund sent tokens to a service's address does not prove the service owns the fund's remaining wallets. The fund may have sent tokens for various reasons, such as a transaction, a partnership, or a strategic move, and this single action does not necessarily indicate ownership of the fund's remaining wallets [dp01-hot-cold].
+
+CASE dp07-test-prices A fund acquired 200 tokens for $0.50 each; the public price is now $5. Does buying the same number now reproduce its acquisition cost?
+baseline unrecognized_citations= [] limit= False
+No. Buying the same number of tokens now does not reproduce its acquisition cost, as the current price ($5) is higher than the original purchase price ($0.50) [dp07-seed-price]. The fund's acquisition terms, including private-round prices, may differ from the public price [dp07-copying]. Therefore, the current purchase does not reflect the original cost basis.
+adapted unrecognized_citations= [] limit= False
+No. Buying the same number of tokens now does not reproduce its acquisition cost, as the current price is higher than the original purchase price. The fund's acquisition cost was based on a private-round price, which may not be available to later buyers [dp07-seed-price]. The current price does not reflect the original cost or the potential return from the acquisition period.
+
+CASE test-depth-impact Two venues show the same best ask. Does that imply the same cost for a large buy?
+baseline unrecognized_citations= ['DP17', 'DP17', 'DP17'] limit= False
+No. The best ask being the same between venues does not necessarily imply the same cost for a large buy, as execution depends on available quantities, deeper price levels, fees, and book changes [DP17]. A large order can consume multiple levels, and quote quality and depth must be considered for the intended size [DP17]. The spread alone does not establish cheap execution for a large order [DP17].
+adapted unrecognized_citations= ['DP17', 'DP17', 'DP17'] limit= False
+No. The best ask being the same between venues does not guarantee the same cost for a large buy, as execution depends on available quantities, deeper price levels, fees, and book changes [DP17]. A large order can consume multiple levels, and the spread alone does not establish cheap execution [DP17]. Quote quality and depth must be considered for the intended size [DP17].
+
+CASE test-imbalance-sign Using the paper's convention, what does NOBI = -0.2 indicate?
+baseline unrecognized_citations= [] limit= False
+Yes, NOBI = -0.2 indicates that the bid-side depth exceeds the ask-side depth at the specified levels under the paper's convention [corr-nobi-exact]. This is because the normalized order-book imbalance (NOBI) is defined as (ask depth - bid depth) divided by their sum, and a negative value means more bid-side depth [book-imbalance].
+adapted unrecognized_citations= [] limit= False
+Yes, NOBI = -0.2 indicates that the bid-side depth exceeds the ask-side depth at the specified levels under the paper's convention. This is because the normalized order-book imbalance (NOBI) is defined as (ask depth - bid depth) divided by their sum, and a negative value means more bid-side depth. The paper explicitly states that negative values mean more bid-side depth [book-imbalance].
+
+CASE test-reward-probability A setup offers 4R potential reward for 1R risk. Does that tell us its actual success probability?
+baseline unrecognized_citations= [] limit= False
+No. The reward-to-risk ratio does not reveal the actual win probability [corr-reward-ev]. The expected value and win rate are separate concepts, and the payoff ratio alone cannot determine the success probability [risk-multiple]. The setup's success probability depends on other factors not captured by the reward-to-risk ratio [risk-invalidation].
+adapted unrecognized_citations= [] limit= False
+No, the 4R reward-to-1R risk ratio does not reveal the actual success probability. The expected value calculation shows that a 20% win rate is break-even, but the payoff ratio alone does not determine the win probability [corr-reward-ev]. The reward-to-risk ratio is a planned metric, not a guarantee of success [risk-multiple].
+
+CASE test-overbought RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?
+baseline unrecognized_citations= [] limit= False
+Yes, it is not logically inconsistent with the indicator. RSI above 70 is considered overbought, but it does not guarantee an immediate reversal [rsi-extreme]. The indicator is one piece of evidence, not a certain signal [rsi-extreme]. A rising price with high RSI can still continue if the trend is strong [ta-line].
+adapted unrecognized_citations= [] limit= False
+Yes, it is not logically inconsistent with the indicator. RSI above 70 is considered overbought, but it does not guarantee an immediate reversal [rsi-extreme]. The indicator is one piece of evidence, not a certain signal [rsi-extreme]. A rising price with high RSI can still continue if the trend is strong [ta-line].
+
+CASE dp01-retry-test-layer-capacity A report gives a Bitcoin throughput number without stating transaction size, batching, protocol version, or whether it means the base layer. Is that enough for a current capacity comparison?
+baseline unrecognized_citations= [] limit= False
+No. The report's Bitcoin throughput number lacks critical details such as transaction size, batching, protocol version, and whether it refers to the base layer, which are necessary for a current capacity comparison [dp01-capacity-date]. Without this information, the figure cannot be reliably used for comparative analysis. The context and assumptions behind the number are also important for accurate interpretation.
+adapted unrecognized_citations= [] limit= False
+No. The report's Bitcoin throughput number lacks critical details such as transaction size, batching, protocol version, and whether it refers to the base layer, which are necessary for a current capacity comparison [dp01-capacity-date].
+
+CASE dp01-retry-test-cold-storage Keys are kept offline, but the only backup is destroyed. Did cold storage eliminate the risk of permanent loss?
+baseline unrecognized_citations= [] limit= False
+No. Cold storage does not eliminate the risk of permanent loss. The evidence shows that losing the only backup destroys the recovery path, and if all usable keys and recovery methods are gone, access may be unrecoverable [dp10-backup-versus-original]. Cold storage reduces some risks but does not remove backup loss or other factors like user error or physical compromise [dp10-cold-not-immune].
+adapted unrecognized_citations= [] limit= False
+No. Cold storage does not eliminate the risk of permanent loss. The evidence shows that losing the only backup destroys the recovery path, and if all usable keys and recovery methods are gone, access may be unrecoverable [dp10-backup-versus-original]. Cold storage reduces some online risks but does not remove backup loss or other risks like user error or physical compromise [dp10-cold-not-immune].
+
+CASE dp01-retry-test-token-rights A project token trades on an exchange and helped finance development. Does that alone prove its holder has the legal rights of a shareholder?
+baseline unrecognized_citations= [] limit= False
+No. The fact that a project token trades on an exchange and helped finance development does not alone prove its holder has the legal rights of a shareholder. Rights come from the token's contract, governing documents, and applicable law, which may not grant the same legal claims as a traditional share [dp01-token-share].
+adapted unrecognized_citations= [] limit= False
+No. The evidence does not support that a project token's role in financing development alone proves its holder has the legal rights of a shareholder. Legal rights depend on the token's contract, governance rules, and applicable law, which may not align with traditional shareholder rights [dp01-token-share].
+
+CASE dp01-retry-test-correlation Countries with stronger institutions show more exchange activity in a cross-sectional chart. Can that chart alone prove institutions caused the activity?
+baseline unrecognized_citations= [] limit= False
+No. The chart alone cannot prove that institutions caused the exchange activity. A cross-country correlation can describe association, but other factors, measurement choices, reverse causality, and selection can explain it [dp01-correlation].
+adapted unrecognized_citations= [] limit= False
+No. A cross-country correlation can describe association, but other factors, measurement choices, reverse causality, and selection can explain it. The report labels its broader evidence anecdotal, so the plot should generate hypotheses rather than a causal trading rule [dp01-correlation].
+
+CASE dp03-retry-test-permission-properties A ledger publishes its source code but allows only approved institutions to validate transactions. Does open-source code alone make validation permissionless?
+baseline unrecognized_citations= [] limit= False
+No. Open-source code alone does not make validation permissionless. The evidence states that openness of source code, read access, transaction submission, and validation authority are separate properties and should be stated explicitly [dp03-permission-models]. A permissioned system can still restrict validation to approved parties regardless of whether the source code is open [dp03-permission-models].
+adapted unrecognized_citations= [] limit= False
+No. Open-source code alone does not make validation permissionless. The evidence states that openness of source code, read access, transaction submission, and validation authority are separate properties and should be stated explicitly [dp03-permission-models]. A permissioned system can still restrict validation to approved parties regardless of whether the source code is open [dp03-permission-models].
+
+CASE dp03-retry-test-trust-model A payment protocol has no central clearing bank. Does that fact alone prove users rely on nobody and nothing?
+baseline unrecognized_citations= [] limit= False
+No. The absence of a central clearing bank does not prove users rely on nobody and nothing. The evidence shows that while a payment protocol may reduce reliance on one intermediary, users may still rely on software, key custody, exchanges, miners, or governance structures [dp03-remove-all-trust]. Trust can be shifted but not entirely eliminated.
+adapted unrecognized_citations= [] limit= False
+No. A payment protocol without a central clearing bank does not necessarily mean users rely on nobody and nothing. Users may still rely on software, key custody, exchanges, miners, or validators [dp03-remove-all-trust]. The absence of a central clearing bank reduces reliance on one intermediary but does not eliminate all forms of trust [dp03-remove-all-trust].
+
+CASE dp03-retry-test-dated-usage The report lists coin prices, address counts, and merchant acceptance around 2018?2019. May those numbers be used as current market facts without verification?
+baseline unrecognized_citations= [] limit= False
+No. The report's numbers describe observations or third-party estimates available around 2018–2019 and are not current market facts. They require verification against current sources to be used as present-day information [dp03-historical-market-numbers].
+adapted unrecognized_citations= [] limit= False
+No. The report's numbers are historical evidence only and describe observations or third-party estimates available around 2018–2019. They require current verification to be used as present-day facts [dp03-historical-market-numbers].
+
+CASE dp03-retry-test-cbdc-architecture If a project is called a retail CBDC, does that label tell us it must use a public blockchain and anonymous token accounts?
+baseline unrecognized_citations= [] limit= False
+No. The label "retail CBDC" does not necessarily indicate that it must use a public blockchain or anonymous token accounts. The evidence states that the label does not determine technical designs such as whether it is token-based, account-based, centralized, or distributed [dp03-retail-wholesale-cbdc].
+adapted unrecognized_citations= [] limit= False
+No. The label "retail CBDC" does not determine whether it is token-based, account-based, centralized, or distributed [dp03-retail-wholesale-cbdc]. The label only indicates the target audience, not the technical design [dp03-retail-wholesale-cbdc].
+
+CASE dp04-test-chart-current A reserve-composition chart ends in 2014. Can it answer which currency has the second-largest reserve share in 2026?
+baseline unrecognized_citations= [] limit= False
+No. The reserve-composition chart ends in 2014 and does not provide data for 2026 [dp04-reserve-chart-date]. Without a recent dataset, it cannot determine the currency with the second-largest reserve share in 2026.
+adapted unrecognized_citations= [] limit= False
+No. The chart ends in 2014 and reflects historical context; current reserve shares require a recent IMF or other authoritative dataset with matching definitions [dp04-reserve-chart-date].
+
+CASE dp04-test-signing Who normally creates the digital signature authorizing a Bitcoin spend: the miner or the spender controlling the relevant key?
+baseline unrecognized_citations= ['DP16-signature-roles', 'DP04-miner-incentives'] limit= False
+No. The spender controlling the relevant key normally creates the digital signature authorizing a Bitcoin spend. The signing key, which is used to create signatures, must remain secret and is controlled by the spender [DP16-signature-roles]. The miner does not create the signature but may broadcast or validate it [DP04-miner-incentives].
+adapted unrecognized_citations= ['DP16-signature-roles', 'DP04-miner-incentives'] limit= False
+The spender controlling the relevant key normally creates the digital signature authorizing a Bitcoin spend. This is because the signing key, which is required to create a valid signature, must remain secret and is controlled by the spender [DP16-signature-roles]. The miner's role is to validate and relay transactions, not to create signatures [DP04-miner-incentives].
+
+CASE dp04-test-adoption A payment app is faster in a laboratory demonstration. Does that prove nationwide adoption?
+baseline unrecognized_citations= [] limit= False
+No. A faster payment app in a laboratory demonstration does not prove nationwide adoption. Laboratory performance does not account for real-world factors like user adoption, regulatory hurdles, and market competition [dp04-network-effects]. Evidence of nationwide adoption would require tracking user numbers, merchant support, and long-term market outcomes [dp04-disruption-definition].
+adapted unrecognized_citations= [] limit= False
+No. A faster payment app in a laboratory demonstration does not prove nationwide adoption. Laboratory results do not account for real-world factors like user behavior, regulation, and market competition [dp04-network-effects]. Evidence of adoption would require tracking user numbers, merchant support, and regulatory acceptance over time [dp04-disruption-definition].
+
+CASE dp04-test-trust A transaction settles without a commercial bank. Does that prove the exchange contains no trust or governance assumptions?
+baseline unrecognized_citations= [] limit= False
+No. A transaction settling without a commercial bank does not prove the exchange contains no trust or governance assumptions. The evidence shows that trust can be shifted to other elements like protocol rules, cryptography, and governance, rather than being entirely eliminated [dp03-remove-all-trust]. Trust and governance assumptions may still exist in different forms within the system [dp04-trust-not-removed].
+adapted unrecognized_citations= [] limit= False
+No. A transaction settling without a commercial bank does not prove the exchange contains no trust or governance assumptions. The evidence indicates that trust is shifted rather than eliminated, with new assumptions about protocol, cryptography, and governance coming into play [dp04-trust-not-removed].
+
+CASE dp05-expanded-test-sma The last three completed closes are 12, 15 and 18. What is their three-period SMA, and may tomorrow's unknown close be included?
+baseline unrecognized_citations= [] limit= False
+The three-period SMA of the last three closes (12, 15, and 18) is calculated by summing these values and dividing by 3, resulting in $ \frac{12 + 15 + 18}{3} = 15 $. The evidence confirms that the SMA is computed using only completed closes at or before the observation time and does not include future bars [dp05-sma-definition]. Tomorrow's unknown close cannot be included in the SMA calculation as it is not a completed close [dp05-sma-definition].
+adapted unrecognized_citations= [] limit= False
+The three-period simple moving average (SMA) is calculated by summing the last three completed closes and dividing by 3. The closes are 12, 15, and 18, so the SMA is (12 + 15 + 18) / 3 = 15. Tomorrow's unknown close may not be included because the SMA is computed using completed closes only, and future data is not considered [dp05-sma-definition].
+
+CASE dp05-expanded-test-triangle A consolidation has nearly flat highs and rising lows. What triangle geometry does that resemble, and is the next breakout direction certain?
+baseline unrecognized_citations= [] limit= False
+The described consolidation with nearly flat highs and rising lows resembles an ascending triangle [dp05-triangles]. The next breakout direction is not certain, as the text explicitly states that these geometries "do not establish the direction, timing or size of the next move" [dp05-triangles].
+adapted unrecognized_citations= [] limit= False
+The described consolidation with nearly flat highs and rising lows resembles an ascending triangle. The next breakout direction is not certain, as the evidence states that these geometries describe consolidation but do not guarantee breakout direction [dp05-triangles].
+
+CASE dp05-expanded-test-doji A candle opens at 100 and closes at 100. Can this alone justify a 90% reversal probability?
+baseline unrecognized_citations= [] limit= False
+No. The evidence does not support a 90% reversal probability based on a candle opening and closing at the same price. The context and additional factors, such as body and wick proportions, are necessary to determine pattern names and their outcomes [dp05-hammer-context]. The reversal probability cannot be determined solely from the opening and closing prices [dp05-hammer-context].
+adapted unrecognized_citations= [] limit= False
+No. The evidence does not support a 90% reversal probability based solely on a candle opening and closing at the same price. The context and additional factors, such as the candle's position within a larger trend, volume, and other technical indicators, are necessary to determine reversal probability [dp05-hammer-context].
+
+CASE dp05-expanded-test-sample A tutorial displays five successful chart patterns and no failures. Is five out of five a valid general estimate of the strategy's success rate?
+baseline unrecognized_citations= [] limit= False
+No. The evidence shows that a strategy's success rate cannot be estimated from only successful examples, as it requires a complete sampling procedure, including failures, transaction costs, and out-of-sample results [dp05-pattern-evidence]. The success of a pattern or strategy must be evaluated without hindsight and with defined rules [dp05-reversal-continuation]. Labeling a pattern as successful based on future prices is not a valid method [dp05-role-reversal].
+adapted unrecognized_citations= [] limit= False
+No. The evidence shows that a strategy's success rate cannot be estimated from only successful examples, as it lacks failures, transaction costs, and out-of-sample results [dp05-pattern-evidence]. The success of a pattern is not a guaranteed outcome but an interpretation that depends on context and must be tested without hindsight [dp05-reversal-continuation]. A valid estimate requires a complete sampling procedure, including both successes and failures, and must be evaluated without using future information [dp07-hindsight].
+
+CASE dp10-test-payoff With fixed +3R wins and -1R losses, what is cost-free break-even and can actual win probability be inferred from that ratio?
+baseline unrecognized_citations= [] limit= False
+Yes, with fixed +3R wins and -1R losses, the cost-free break-even win rate is 1 / (1 + 3) = 25% [risk-breakeven]. However, the actual win probability cannot be inferred from this ratio alone, as the payoff ratio does not establish an achievable win rate [corr-reward-ev].
+adapted unrecognized_citations= [] limit= False
+The cost-free break-even with fixed +3R wins and -1R losses is 1 / (1 + 3) = 25% [risk-breakeven]. The payoff ratio does not reveal the actual win probability [corr-reward-ev]. Yes, the break-even can be calculated, but the actual win probability cannot be inferred from the ratio.
+
+CASE dp10-test-stop A long enters at 70 and later exits exactly at 70 after a trailing stop triggers. Is this a positive gross price return?
+baseline unrecognized_citations= [] limit= False
+No. The evidence indicates that an exact exit at the entry price after a trailing stop triggers results in break-even before costs and a loss after positive fees or other costs [dp10-trailing-breakeven]. The trailing stop does not guarantee execution at the exact price, and the return is not positive [dp17-sar-qualification].
+adapted unrecognized_citations= [] limit= False
+No. The evidence indicates that an exact exit at the entry price results in break-even before costs and a loss after positive fees or other costs [dp10-trailing-breakeven]. A trailing stop that triggers an exit at the entry price does not guarantee a positive gross price return. The exact exit at 70 would lock in break-even before costs, not a positive return.
+
+CASE dp10-test-leverage In a simplified financed purchase, equity is USD 250 and borrowing is USD 750. What is total exposure divided by equity?
+baseline unrecognized_citations= [] limit= False
+Yes, the total exposure divided by equity is 10. In a simplified financed purchase, own capital plus borrowed funds equals total exposure, so borrowing nine times equity gives ten times total exposure [dp10-leverage-definition].
+adapted unrecognized_citations= [] limit= False
+The total exposure is the sum of equity and borrowing, which is USD 250 + USD 750 = USD 1000. The total exposure divided by equity is USD 1000 / USD 250 = 4. This is supported by the evidence that in a simplified financed purchase, own capital plus borrowed funds equals total exposure, and borrowing nine times equity gives ten times total exposure [dp10-leverage-definition]. Yes.
+
+CASE dp10-test-wallet-scope An offline key remains available, but one backup was damaged. Does that evidence establish both permanent inaccessibility and zero future risk?
+baseline unrecognized_citations= [] limit= False
+No. The evidence does not establish both permanent inaccessibility and zero future risk. The loss of a backup does not necessarily mean permanent inaccessibility, as the original key may still be available [dp10-backup-versus-original]. Additionally, the scenario does not confirm zero future risk, as other risks such as user error or protocol changes could still affect access [dp01-hot-cold].
+adapted unrecognized_citations= [] limit= False
+No. The evidence does not establish both permanent inaccessibility and zero future risk. The loss of a backup does not necessarily mean permanent inaccessibility, as the original key may still be available [dp10-backup-versus-original]. Additionally, the scenario does not confirm zero future risk, as other risks such as user error or protocol changes could still affect access [dp01-hot-cold].
+
+CASE dp17-expanded-test-spread A synchronized book has highest bid 99 and lowest ask 101. What is the quoted spread, and does it reveal depth?
+baseline unrecognized_citations= [] limit= False
+The quoted spread is calculated as the lowest available ask minus the highest available bid. In this case, the spread is $101 - 99 = 2$. This does not reveal depth, as the spread alone does not indicate the availability of quantities at deeper price levels [dp17-spread-depth].
+adapted unrecognized_citations= [] limit= False
+The quoted spread is calculated as the lowest available ask minus the highest available bid. In this case, the spread is $101 - 99 = 2$. The quoted spread does not reveal depth, as the spread describes the best quotes, while execution depends on available quantities and deeper price levels [dp17-spread-depth].
+
+CASE dp17-expanded-test-vwap Two included trades execute 2 units at price 10 and 1 unit at price 16. What is their trade-volume VWAP?
+baseline unrecognized_citations= [] limit= False
+The trade-volume VWAP is calculated by summing the price-times-volume for each trade and dividing by the total volume. In this case, the calculation would be (10*2 + 16*1) / (2+1) = 36 / 3 = 12. This is supported by the definition of trade-volume VWAP in [dp17-vwap-convention]. Yes.
+adapted unrecognized_citations= [] limit= False
+The trade-volume VWAP is calculated by summing the price times volume for each trade and dividing by the total volume. In this case, the calculation would be (10*2 + 16*1) / (2+1) = 36 / 3 = 12. The evidence supports this calculation as it describes the method for calculating trade-volume VWAP as "summed price-times-volume by total included volume" [dp17-vwap-convention].
+
+CASE dp17-expanded-test-stochscale Two charts display StochRSI as 0.85 and 85. Must they disagree?
+baseline unrecognized_citations= [] limit= False
+No. The evidence does not support that the charts must disagree. The explanation for StochRSI in [dp17-stochrsi] indicates that its scale (0 to 1 or 0 to 100) can vary depending on the chart's configuration, which may explain the discrepancy. The evidence does not confirm or deny whether the two values are from the same scale or context.
+adapted unrecognized_citations= [] limit= False
+No, the charts do not necessarily disagree. The StochRSI values of 0.85 and 85 could represent different scaling conventions, as the evidence notes that some charts display StochRSI on a 0 to 1 scale and others on a 0 to 100 scale [dp17-stochrsi]. This scaling difference does not imply a disagreement but rather a variation in how the indicator is presented.
+
+CASE dp17-expanded-test-overfit After testing 200 indicator variants, one wins on the same historical period used to choose it. Is that period an untouched final test?
+baseline unrecognized_citations= [] limit= False
+No. The period used to select the winning indicator is not an untouched final test because choosing the best of many indicators on the same historical sample can select noise and does not guarantee a trading edge [dp17-selection-bias]. The evidence suggests that the same historical period should not be used for final testing without being genuinely unseen observations [dp17-selection-bias].
+adapted unrecognized_citations= [] limit= False
+No. The period used to select the winning indicator is not an untouched final test because selecting the best of many indicators on the same historical sample can result in overfitting and selecting noise [dp17-selection-bias]. The evidence suggests that the same historical period used for selection is not a genuine test and should be treated as part of the development data [dp17-selection-bias]. Therefore, the period is not an untouched final test.
+
+CASE dp16-test-message-change A signature verifies for message A. Does that alone prove it verifies for a different message B?
+baseline unrecognized_citations= [] limit= False
+No. A signature on one message does not inherently verify for a different message. A signature scheme binds verification to the specific message and public key [dp16-signature-binding]. The validity of a signature for one message does not imply authorization for another [dp16-signature-binding].
+adapted unrecognized_citations= [] limit= False
+No. A signature on one message does not inherently verify for a different message. A signature scheme binds verification to the specific message and public key [dp16-signature-binding]. The verification process is tied to the exact content of the message, so a signature for one message does not imply approval or verification for another [dp16-signature-binding].
+
+CASE dp16-test-availability A storage system prevents outsiders from signing but also leaves its owner unable to access any keys. Has it met all three custody goals?
+baseline unrecognized_citations= [] limit= False
+No. The storage system described does not meet all three custody goals. It prevents outsiders from signing (security) but leaves the owner unable to access any keys (availability), which suggests a failure in availability. The evidence does not confirm whether convenience is addressed [dp16-key-management-goals].
+adapted unrecognized_citations= [] limit= False
+The storage system described prevents outsiders from signing but leaves its owner unable to access any keys. This suggests a failure in availability, as the owner cannot access the keys when needed. The evidence does not explicitly confirm whether security or convenience is also compromised. Therefore, it is uncertain whether all three custody goals (availability, security, and convenience) have been met. 
+
+Answer: No, the evidence does not confirm that all three custody goals have been met. The system fails in availability, but the status of security and convenience is unclear [dp16-key-management-goals].
+
+CASE dp16-test-offline-receipt A valid receiving address is known and its signing device is powered off. Must the sender wait for that device before broadcasting a payment?
+baseline unrecognized_citations= [] limit= False
+No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline]. The receiving device's power state does not affect the ability to broadcast the payment [dp16-receive-offline].
+adapted unrecognized_citations= [] limit= False
+No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline].
+
+CASE dp16-test-example-secret Is a phrase printed as a textbook wallet example suitable as a secret just because it looks random?
+baseline unrecognized_citations= [] limit= False
+No. A phrase printed as a textbook wallet example is not automatically a secure secret, even if it looks random. Memorability does not ensure unpredictability, and such examples are not intended as personal wallet setup recommendations [dp16-guessable-passphrases].
+adapted unrecognized_citations= [] limit= False
+No. A phrase printed as a textbook wallet example is not automatically secure simply because it looks random. Memorability does not establish unpredictability, and textbook examples are not recommendations for personal wallet setup [dp16-guessable-passphrases].
+
+CASE r009-unknown-normalization An unnamed report uses a relative-spread measure. Is its denominator definitely the midpoint?
+baseline unrecognized_citations= [] limit= False
+Yes, the denominator is definitely the midpoint. The relative spread is defined as (ask - bid) divided by the midpoint, where the midpoint is calculated as (ask + bid) / 2 [relative-spread].
+adapted unrecognized_citations= [] limit= False
+Yes, the denominator is definitely the midpoint. The relative spread is defined as (ask - bid) divided by the midpoint, which is calculated as (ask + bid) / 2 [relative-spread].
+
+CASE r009-unknown-average I have not identified the article. Does its VWAP definitely average resting order-book levels?
+baseline unrecognized_citations= [] limit= False
+No. The evidence does not confirm that the VWAP definitely averages resting order-book levels. It explains how the order-book VWAP is calculated but does not assert it "definitely" averages resting order-book levels [book-vwap].
+adapted unrecognized_citations= [] limit= False
+No, the article does not definitively state that the VWAP averages resting order-book levels. The evidence indicates that the VWAP is calculated by summing price times quantity over selected levels and dividing by total quantity, which summarizes resting orders [book-vwap]. However, it does not confirm that this VWAP definitely averages resting order-book levels.
+
+CASE r009-unknown-survey Someone mentioned a survey without its title. Can you establish that it sampled exactly 1000 people per country?
+baseline unrecognized_citations= [] limit= False
+No. The evidence does not confirm that the survey sampled exactly 1000 people per country. It only mentions that "each of 1,000 respondents per sampled country" participated in the experiment [dp03-conjoint-design]. This suggests a sample size of 1,000 per country, but the phrasing does not definitively establish this as the exact number sampled.
+adapted unrecognized_citations= [] limit= False
+No. The evidence does not confirm that the survey sampled exactly 1000 people per country. It only states that "each of 1,000 respondents per sampled country" participated in the experiment, which could mean that the total sample size across all countries was 1,000, not 1,000 per country [dp03-conjoint-design].
+
+CASE r009-known-chart For the supplied dp04-reserve-chart-date passage, what year ends the historical series?
+baseline unrecognized_citations= [] limit= False
+The historical series ends in the year 2014, as indicated by the chart ending in that year [dp04-reserve-chart-date].
+adapted unrecognized_citations= [] limit= False
+The historical series ends in the year 2014, as indicated by the chart's end date. This is supported by the evidence provided in the passage. Yes, the historical series ends in 2014. [dp04-reserve-chart-date]
+
+CASE r009-ownership-evidence Wallet X pays wallet Y for a service. Is that transfer alone proof that Y owns all other addresses belonging to X?
+baseline unrecognized_citations= [] limit= False
+No. The transfer from Wallet X to Wallet Y does not alone prove that Y owns all other addresses belonging to X. The evidence shows that transfers indicate a relationship but do not confirm common ownership, which requires additional evidence [dp07-links].
+adapted unrecognized_citations= [] limit= False
+No. The transfer from Wallet X to Wallet Y shows a relationship, which can arise from payments, services, custody, or shared ownership. Common ownership is an attribution hypothesis requiring additional evidence. The observed link between the wallets does not prove that Y owns all other addresses belonging to X.
+
+CASE r009-signature-title A person produces a valid signature using a stolen key. Does validity alone prove lawful ownership?
+baseline unrecognized_citations= [] limit= False
+No. Validity alone does not prove lawful ownership. The evidence explains that a valid signature only confirms the message was signed with the correct signing key, not that the signer is legally authorized or owns the key lawfully [dp16-signature-roles]. Legal ownership requires additional verification beyond signature validity.
+adapted unrecognized_citations= [] limit= False
+No, validity alone does not prove lawful ownership. The evidence states that verification of a signature does not establish the signer's legal identity [dp16-signature-roles]. Validity of a signature only confirms the cryptographic correctness, not the legal ownership or identity of the signer.
+
+CASE r009-sell-direction A sell limit is 240. Does the price rule permit an execution at 235, and does it guarantee any execution?
+baseline unrecognized_citations= [] limit= False
+Yes, a sell limit of 240 permits an execution at 235, but it does not guarantee any execution. A sell limit constrains execution to the limit price or higher [limit-order]. Therefore, a price of 235, which is lower than the limit price of 240, would not meet the condition for execution.
+adapted unrecognized_citations= [] limit= False
+A sell limit of 240 means the order will only execute at 240 or higher. Since 235 is lower than 240, the price rule does not permit an execution at 235. The order may remain unfilled or only partly filled, so it does not guarantee any execution.
+
+CASE r009-missing-study A tutorial shows eight winners only. Which missing evidence prevents treating 8/8 as a general strategy success rate?
+baseline unrecognized_citations= [] limit= False
+No. The evidence shows that the textbook pattern illustrations do not provide a complete sampling procedure, failures, transaction costs, or out-of-sample results [dp05-pattern-evidence]. Without this information, treating 8/8 as a general strategy success rate is not supported. The missing evidence includes failures, transaction costs, and out-of-sample performance.
+adapted unrecognized_citations= [] limit= False
+The evidence indicates that the textbook pattern illustrations do not provide a complete sampling procedure, failures, transaction costs, or out-of-sample results. This means that the 8/8 success rate from the tutorial cannot be treated as a general strategy success rate without additional evidence. The missing evidence includes failures, transaction costs, and out-of-sample results.
+
+CASE r010-probe-2-supported A recipient keeps its signing hardware in storage. May a sender broadcast to the recipient's verified existing address without turning that hardware on?
+baseline unrecognized_citations= [] limit= False
+Yes. The evidence states that a sender can broadcast a payment to a known valid address without the receiving signing device being online [dp16-receive-offline]. This implies that the signing hardware does not need to be turned on for the broadcast to occur. The verification and authorization steps are separate from the broadcast [dp16-receive-offline].
+adapted unrecognized_citations= [] limit= False
+Yes, a sender can broadcast to the recipient's verified existing address without turning on the signing hardware. The evidence states that a sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline]. This confirms that the signing hardware does not need to be on for the broadcast to occur.
+
+CASE r010-probe-2-irrelevant A recipient keeps its signing hardware in storage. May a sender broadcast to the recipient's verified existing address without turning that hardware on?
+baseline unrecognized_citations= [] limit= False
+No. The evidence does not support the idea that a sender can broadcast to the recipient's verified existing address without turning on the signing hardware. The provided evidence discusses the treatment of exchange addresses and does not address the operational requirements of signing hardware for broadcasting transactions [dp07-exchange-holder].
+adapted unrecognized_citations= [] limit= False
+No. The evidence does not support the conclusion. The provided evidence discusses the treatment of exchange addresses and does not address the scenario of broadcasting to a recipient's verified existing address without turning on signing hardware.
+
+CASE r010-probe-4-supported A dashboard omits its VWAP anchor and included observations. Is its calculation fully specified?
+baseline unrecognized_citations= [] limit= False
+No. The dashboard omits its VWAP anchor and included observations, which are required specifications according to the evidence [dp17-vwap-convention]. Therefore, the calculation is not fully specified.
+adapted unrecognized_citations= [] limit= False
+The calculation is not fully specified. The dashboard omits its VWAP anchor and included observations, which are essential components for a fully specified VWAP calculation [dp17-vwap-convention]. Therefore, the answer is No.
+
+CASE r010-probe-4-irrelevant A dashboard omits its VWAP anchor and included observations. Is its calculation fully specified?
+baseline unrecognized_citations= [] limit= False
+No. The evidence does not address the calculation specification of a dashboard omitting its VWAP anchor and included observations. The provided evidence discusses exchange addresses and their treatment, which is unrelated to the calculation specification of a dashboard.
+adapted unrecognized_citations= [] limit= False
+The evidence does not support the requested conclusion. The provided evidence discusses exchange addresses and their treatment in the context of blockchain analysis, but it does not address the calculation of a dashboard's VWAP anchor or the inclusion of observations. Therefore, the calculation's full specification cannot be determined from the given evidence.
+
+CASE r010-probe-6-supported An analyst treats ADX as a direct label for upward versus downward movement. Is that the distinction measured by ADX?
+baseline unrecognized_citations= [] limit= False
+No. ADX measures trend strength, not direction. The evidence states that ADX describes trend strength rather than its upward or downward direction [dp05-adx-direction]. Directional indicators such as +DI and -DI provide separate information about direction.
+adapted unrecognized_citations= [] limit= False
+No. ADX measures trend strength, not direction. The evidence states that ADX describes trend strength rather than its upward or downward direction [dp05-adx-direction]. Directional indicators such as +DI and -DI provide separate information about direction.
+
+CASE r010-probe-6-irrelevant An analyst treats ADX as a direct label for upward versus downward movement. Is that the distinction measured by ADX?
+baseline unrecognized_citations= [] limit= False
+No. The evidence does not support the conclusion. The provided evidence discusses exchange addresses and wallet activity, not ADX or its measurement of upward versus downward movement. Therefore, the distinction measured by ADX is not addressed in the supplied evidence.
+adapted unrecognized_citations= [] limit= False
+No, the distinction measured by ADX is not whether a labeled exchange address should be treated differently from an individual whale. The provided evidence does not discuss ADX or its measurement of upward versus downward movement.

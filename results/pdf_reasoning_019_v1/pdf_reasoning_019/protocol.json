@@ -1,0 +1,7 @@
+{
+  "training_executed": false,
+  "cases": 50,
+  "generations": 100,
+  "comparison": "All50 exposed development questions, base versus adapter017, thinking enabled for both. Identical seed217 sampling settings and2048 output cap. Single-seed development evaluation, NOT independent acceptance. Missing final answers and truncation must be reported.",
+  "adapter_sha256": "98a59cc00ae482e751915af12fee3d6d8fa942755319d91c37567e1e1fb6fd42"
+}

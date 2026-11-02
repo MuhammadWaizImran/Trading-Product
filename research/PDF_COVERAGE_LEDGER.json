@@ -1,0 +1,293 @@
+{
+  "structural_validation": "PASS",
+  "semantic_validation": "Manual review required; this script does not establish truth or complete semantic split isolation.",
+  "completed_batch": "009",
+  "active_batch": "none",
+  "staged_counts": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "staged_files": [
+    {
+      "file": "pdf_training_dp05_expanded.json",
+      "sha256": "1a2bf49d1e275b42b2b708d637db0699e05b892208dcb2d9d58295157858c613",
+      "counts": {
+        "train": 24,
+        "validation": 4,
+        "test": 4
+      }
+    },
+    {
+      "file": "pdf_training_dp10_corrected.json",
+      "sha256": "37149cba457a9d44de43ad656b6b3864c37885dfe2a2547b50571ffa4e2f5e5d",
+      "counts": {
+        "train": 12,
+        "validation": 4,
+        "test": 4
+      }
+    },
+    {
+      "file": "pdf_training_dp17_expanded.json",
+      "sha256": "287d3f126856215e22f0455ee5331dc9e16890aca6bfe3361ddd14b1d8148268",
+      "counts": {
+        "train": 16,
+        "validation": 4,
+        "test": 4
+      }
+    },
+    {
+      "file": "pdf_training_dp16_foundations.json",
+      "sha256": "b4d1d3a08a4ee9bc4c7907999199dd8855decaa59c28381f6232c501cd385a13",
+      "counts": {
+        "train": 8,
+        "validation": 4,
+        "test": 4
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": 114,
+      "duplicate_of": null,
+      "completed_records": 27,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP02",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group.pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": 114,
+      "duplicate_of": "DP01",
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Duplicate/near-duplicate of DP01"
+    },
+    {
+      "id": "DP03",
+      "file": "03.-Crypto-currencies-and-the-Future-oF-Money-Author-IE-University.pdf",
+      "sha256": "d552d0c55596004465bcd8ba7a4a343add807ca331af842ea6f1bd17c7c30883",
+      "pdf_pages": 116,
+      "duplicate_of": null,
+      "completed_records": 30,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP04",
+      "file": "06.-The-Future-of-Exchanging-Value-Cryptocurrencies-and-the-trust-economy-Author-Nicholas-Gruen.pdf",
+      "sha256": "474696eac91761b2f96c5ca3c4d899e3ca768c72ca836631800312c8471607dc",
+      "pdf_pages": 68,
+      "duplicate_of": null,
+      "completed_records": 30,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP05",
+      "file": "585511457-Crypto-for-Beginners-Technical-Analysis-Course.pdf",
+      "sha256": "7a1dad19f2705ade1a6208360ae92fd41dc2264a1a1a65c8d1a4448eb9ba6b09",
+      "pdf_pages": 49,
+      "duplicate_of": null,
+      "completed_records": 31,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP06",
+      "file": "593280526-Risk-Management.pdf",
+      "sha256": "8a8ce394328e1ad7e7c1acfbac6338ebdb92b006075243d323f5a2f128a05e2d",
+      "pdf_pages": 11,
+      "duplicate_of": null,
+      "completed_records": 8,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": 31,
+      "duplicate_of": null,
+      "completed_records": 30,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP08",
+      "file": "705667332-Binary-Options-Trading-Bible.pdf",
+      "sha256": "dc5cbd39345eab1eee8344c02fc6bf2c692f534fd999f3a010a3ec69b151a96a",
+      "pdf_pages": 119,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP09",
+      "file": "739808043-SAMI-MALIK-SIR-SURESHOTS.pdf",
+      "sha256": "be44d359b15f189c772995c48d11044f375b0fe6fe92b5ad2e7f9a173ded85a8",
+      "pdf_pages": 8,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP10",
+      "file": "820809429-Mastering-Crypto-Day-Trading-From-Blockchain-Basics-to-Profits.pdf",
+      "sha256": "d94ec2b89f70cd07de729d5798258303ccd6171cbf149919e1f225ed3ae7b807",
+      "pdf_pages": 306,
+      "duplicate_of": null,
+      "completed_records": 20,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP11",
+      "file": "837468574-Waqar-Zaka-Priate-Group-Lectures.pdf",
+      "sha256": "a2f6ca36c74aee1bc63fe05948e722ba1d7012d070d5a7286eaf47de5d5227ec",
+      "pdf_pages": 44,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP12",
+      "file": "845233889-Advance-Liquidity-Trading-Concept-49.pdf",
+      "sha256": "756c4585bd2f4e5ddc0fd1f80f911e82ff740e40c9b4e5917b7b8a4380d66d81",
+      "pdf_pages": 49,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP13",
+      "file": "860990854-E-Book-Binary-sun-7-2023.pdf",
+      "sha256": "a0299d14d49317e1ba177ec835bb5d6cfddeed325329b79f11fcd60d70398590",
+      "pdf_pages": 70,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP14",
+      "file": "874145645-Chart-Pattern-Urdu.pdf",
+      "sha256": "43534fdf87bfa6fb2b8ddeeca83add9d101934c028d2aa5e9e1a63c420634559",
+      "pdf_pages": 18,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP15",
+      "file": "bitcoin-and-beyond-malcolm-campbell-verduyn-8300.pdf",
+      "sha256": "4d47b43d51d183947ae6879bb96a740b23dba8ea49191ee1f99e7408d9c5be70",
+      "pdf_pages": 224,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP16",
+      "file": "bitcoin-and-cryptocurrency-technologies-arvind-narayanan-joseph-bonneau-edward-felten-andrew-miller-steven-goldfeder-8297.pdf",
+      "sha256": "fe0b465006e15681d1ea11fb653580193cea56f7f58de136955c11574fa66fc2",
+      "pdf_pages": 309,
+      "duplicate_of": null,
+      "completed_records": 11,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": 67,
+      "duplicate_of": null,
+      "completed_records": 27,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP18",
+      "file": "mastering-bitcoin-andreas-m-antonopoulos-8298.pdf",
+      "sha256": "25b2ef0ceeae6e78e707b20376f040907fe95901249a993bdffc3b675d6440ad",
+      "pdf_pages": 299,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP19",
+      "file": "Order_Book_Liquidity_on_Crypto_Exchanges (1).pdf",
+      "sha256": "7190740df68bbb7c0cc97537df07ec9f8164bafb94a5f83d0c0cd43d795785ed",
+      "pdf_pages": 29,
+      "duplicate_of": null,
+      "completed_records": 16,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Selected material only; full coverage not certified"
+    },
+    {
+      "id": "DP20",
+      "file": "Order_Book_Liquidity_on_Crypto_Exchanges.pdf",
+      "sha256": "674862ca29feb530a949b30c60369878b9dd1e5215fbed56ce249de0800d783c",
+      "pdf_pages": 29,
+      "duplicate_of": "DP19",
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Duplicate/near-duplicate of DP19"
+    },
+    {
+      "id": "DP21",
+      "file": "the-economics-of-cryptocurrencies-bitcoin-and-beyond-jonathan-chiu-thorsten-v-koeppl-8301 (1).pdf",
+      "sha256": "6c90164ec5cb84be4e7445ea6ab470e14207aa4f4735748125bf8c225a3765e3",
+      "pdf_pages": 60,
+      "duplicate_of": null,
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Not in current datasets; further review/preparation required"
+    },
+    {
+      "id": "DP22",
+      "file": "the-economics-of-cryptocurrencies-bitcoin-and-beyond-jonathan-chiu-thorsten-v-koeppl-8301.pdf",
+      "sha256": "6c90164ec5cb84be4e7445ea6ab470e14207aa4f4735748125bf8c225a3765e3",
+      "pdf_pages": 60,
+      "duplicate_of": "DP21",
+      "completed_records": 0,
+      "active_records": 0,
+      "staged_training_records": 0,
+      "scope": "Duplicate/near-duplicate of DP21"
+    }
+  ]
+}

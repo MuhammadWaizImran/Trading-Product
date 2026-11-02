@@ -1,0 +1,2384 @@
+=== PDF PAGE 1 ===
+The Future of
+Exchanging Value
+Cryptocurrencies and
+the trust economy
+
+=== PDF PAGE 2 ===
+
+
+=== PDF PAGE 3 ===
+Contents
+
+
+
+
+
+                        Foreword                                                      5
+
+
+                         Exchanging value                                                6
+
+
+                          Technology-driven change                                         10
+                         Payment trends                                                     12
+                                          It’s the system                                                      16
+
+
+                       The nature of disruption                                          18
+                            Short-term vs. long-term change, and the bullwhip effect                     20
+                         Competing futures                                                  21
+
+
+                      Consumer preference                                            26
+                    A more secure wallet                                                 28
+                                Potential sources of disruption                                          30
+
+
+                      Moving payments away from the till                                 34
+                        Showrooming                                                      36
+                               Loyalty                                                           38
+                            Disconnecting payment from product                                    39
+                         The end of cash                                                    40
+
+
+                          Breakout: Digital disruption and exchanging value                      43
+
+
+                   Rum and cigarettes                                              44
+                    A store of value                                                     46
+                    A means of exchange                                                48
+
+
+                          Conclusions                                                    54
+                          Near and far future                                                  58
+                             Considerations                                                     59
+                        Managing disruption                                                 61
+
+
+                        Endnotes                                                      62
+
+=== PDF PAGE 4 ===
+4
+
+=== PDF PAGE 5 ===
+Foreword
+
+
+
+
+
+                    Ice becomes water when warmed. Only familiarity prevents us from marvelling at the mysteriousness of
+                     this ‘phase change’, as physicists call it. Nevertheless, we’ve witnessed a similar phase change as the physical
+                hardware that delivered the phone network was repurposed to also deliver a new network – the Internet.
+
+             And where the phone network depended on point-to-point connections, the Internet connects people via
+                 packets of information that travel through cyberspace until they arrive at their address.
+
+                         Initially, the old ‘connect first’ phone network was monopolistically competitive. The upshot of that market
+                   structure has produced all manner of frustrations and complexities, such as incomprehensible pricing structures
+               and prices way above cost for peripheral services such as texting and international roaming. However, all this is
+                   different online because of the different market structure produced when each node in the network helps
+                out – redirecting digital packets in return for reciprocal help from other nodes.
+
+                 Thus, all the transaction costs of the old network melt away. If you have a great product – such as Google,
+                 Wikipedia, Salesforce or Xero – you can just put it on the net and it’s there for everyone. And we’ve watched
+              on as this miracle has unfolded, just as astounded as if we were watching ice melt for the first time.
+
+                   This analogy helps us understand the potential costs of a financial system that looks like the phone system
+               – with complex terms, price gouging, etc. For me to exchange value with, say, an American airline, I’ll pay
+                about 2 per cent commission to a bank to facilitate the cross-currency transaction. That amount vastly exceeds
+                 the bank’s cost. Large corporates get the same service for a 20th of that margin!
+
+               So the hunt is on for the ‘internet of money’ – a technology and overarching architecture to displace the
+                    oligopolistic position of the too-big-to-fail banks.
+
+                          It’s a reflection of these exciting times that less than four years after the first instalment The future of
+                exchanging value: uncovering new ways of spending, Deloitte is up for a sequel. Exchanging value 2 explores
+                     this world pregnant with possibility ranging from the edges of the payments system to its centre and it shows
+                  that the architecture of the system is up for grabs.
+
+               Read it and try to keep up with our runaway world.
+
+
+
+
+                Nicholas Gruen
+               CEO, Lateral Economics
+                    Chair, The Australian Centre for Social Innovation,
+             Open Knowledge Foundation (Australia)
+
+
+
+
+
+                                                                             The Future of Exchanging Value Cryptocurrencies and the trust economy  5
+
+=== PDF PAGE 6 ===
+        Exchanging value1
+
+
+
+
+
+6
+
+=== PDF PAGE 7 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  7
+
+=== PDF PAGE 8 ===
+                                In 2012, we published a report entitled The future of       whether they were interacting with an established
+                          exchanging value – uncovering new ways of spending1     merchant or simply standing on the kerb splitting a
+                         which broadly examined how money is used rather              bill with friends after an evening meal. The solutions
+                           than focusing on individual elements such as payments,    needed to be ubiquitous, allowing customer and
+                               currency, and so on. Our view was that only by looking     merchant to transact at the far end of the store or deep
+                               at the whole system could we understand how the           in the aisles just as easily as if they were both standing
+                                 financial system might evolve.                             next to the till. And finally, these solutions needed to be
+                                                                               open, both in their implementation and governance, so
+                        Our findings in that report centred on the realisation       consumers could understand and develop trust in these
+                              that we were reaching the end of the initial build-out     new ways of exchanging value. The next generation of
+                             of a digital payments infrastructure. The task of             finance solutions should be seen as tools to improve
+                              provisioning the infrastructure merchants require to        engagement with customers rather than as service
+                            accept real-time digital payments, or for two individuals     delivery platforms.
+                             to settle a debt, was largely complete. Consequently,
+                           our focus had shifted to streamlining the buying journey    As it turns out, the first report was published at
+                         – from the pieces and parts to the whole.                  the leading edge of an explosion in the use of new
+                                                                            payments technologies and complementary currencies.
+                         The rush to implement near-field communication (NFC)    Many of the predictions we made in the first report
+                           technology such as payWave and PayPass and the then    came true.
+                             recent emergence of Bitcoin and other complementary
+                                  digital currencies were part of this shift. The business     We saw NFC as an interesting technology but the
+                            case for NFC has been built around streamlining the         business case was not as strong as the technology’s
+                           checkout experience and reducing fraud rather than        proponents claimed. Most of the wasted time and
+                             providing a distinctly new capability. Bitcoin was              effort in the buying journey was in taking the goods
+                          proposed as a cheaper, more efficient mechanism           to the till and tallying them, not in the final transaction,
+                                for peer-to-peer payments and currency transfers.         which would lead many merchants to view NFC as an
+                                                                                  excuse for the card providers to increase fees at the
+                                In the first report, we reasoned that the future of          expense of the merchant’s margins. Since then, some
+                          exchanging value would stem from how consumer            retailers in the US have banded together to create
+                            behaviour changed. Like many areas of society,           an alternative payments platform, called CurrenC™,
+                          consumers rather than businesses or governments are      intended as a lower-cost alternative to the solutions
+                                setting the technological ground rules. We suggested      from the entrenched payments providers. There is
+                              that organisations needed to look beyond traditional        also anecdotal evidence of many merchants adding
+                        payment platforms, narrowly defined in terms of          a surcharge for using a card, or providing incentives
+                              features and functions, and consider their customers       such as prize draws for customers who pay cash.
+                          a broader ‘job to be done’.                             Apple also introduced Apple Pay, which showed the
+                                                                                            industry how to build a payments solution using existing
+                      What was needed was a customer-centric approach        standards and deliver a much higher-quality and more
+                         – one focused on simplifying the buying journey by         compelling user experience.
+                            ensuring the right payment solution was available in the
+                                 right place at the right time. Payment solutions needed
+                             to be perceived as instantaneous by their users, allowing
+                              users to exchange value and move on with their day,
+
+
+
+
+
+8
+
+=== PDF PAGE 9 ===
+We considered Bitcoin and other cryptocurrencies          Operational risk is disconnected from a physical
+(which use cryptography for security and anti-             presence and established governance. More, and
+counterfeiting measures) in the context of the long         often small firms, are also coming under the eye of
+history of complementary currencies – from recent         anti-money laundering/counter-terrorism financing
+schemes such as Bartercard through the demurrage        (AML/CTF) regulators in the online marketplace.
+currency from the Austrian town of Wörgl in the 1930s,     Online businesses are finding their services used for
+and back into history. We viewed with scepticism claims     laundering money. Examples range from the prosaic,
+that cryptocurrencies were unique and unprecedented      such as fraudsters washing money from stolen credit
+and would result in a huge shift of value from traditional    cards though myki (the Victorian transit pass) and eBay2
+state-sponsored commodity and fiat currencies to                 , through to more innovative solutions such as thieves
+stateless cryptocurrencies. We expected cryptocurrencies    crowdfunding themselves3. Even pubs and clubs with
+to have a role, as the idea of a virtual, digital currency       pokie machines and ATMs are coming under the wary
+is a good one, but we saw nothing inherently different     eye of the regulator. An extreme example of this is
+from the more traditional complementary currencies.        Bitcoin mixers4, which were developed to industrialise
+All complementary currencies have since been              the process of mingling legitimate and illegitimate
+brought into existing regulatory frameworks once they       transactions, rendering illegitimate transactions
+threatened the tax base. The same is true for Bitcoin        untraceable and facilitating money laundering on a
+and the other recent cryptocurrencies, which are being      large scale at a fairly low cost. Participating in the
+pulled gradually into established regulatory frameworks.      digital economy means being exposed to new and
+                                                             unfamiliar risks.
+We also highlighted how moving the exchange of
+value from the physical to the digital – and the creation      In this report, we explore the pros and cons of the
+of virtual (borderless) currencies – would create new         proliferation of new payments solutions, technologies
+opportunities for fraud and crime. Digital networks        and currencies, and how they are shaping the way we
+have fundamentally different threat and risk profiles        exchange value.
+than the physical environment, and organisations that
+choose to transact via digital technology can easily be
+caught unawares. The root of this difference is that
+in the physical world – the defender has a significant
+advantage, while in the virtual world, the attacker has
+the upper hand. In the physical world, the attacker must
+struggle with the challenge of marshalling the necessary
+resources to attack the defender’s heavily fortified castle.
+In the virtual world, this is no longer true, attackers can
+co-opt resources and marshal them to attack from the
+dark corners of the Internet.
+
+
+
+
+
+                                                  The Future of Exchanging Value Cryptocurrencies and the trust economy  9
+
+=== PDF PAGE 10 ===
+        Technology-driven change2
+
+
+
+
+
+10
+
+=== PDF PAGE 11 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  11
+
+=== PDF PAGE 12 ===
+                   How we pay for goods and services and exchange value is clearly changing. Cheap and ubiquitous digital
+                         communication is moving payments from the physical to the digital world. Actions that would have seemed bizarre
+                             only a few years ago – such as buying clothes or renting a movie using our phones – are now common practice.
+                  We are organising our lives differently, storing our savings in our mortgage or investments then using credit to
+                       manage our daily cash flow. We have the convenience of debit and credit cards to pay for even quite cheap items.
+
+                         The introduction of the consumer Internet – and the smartphone in particular – has resulted in a raft of new
+                         payments solutions and financial products, each designed to erase one of life’s little annoyances or provide access
+                             to a financial product. New technologies and the new payments solutions that use them are shaping how we
+                              think about and pay for the products and services we consume. We are choosing to pay with the tap or wave of a
+                               card, click of a mouse or the tap of a finger, rather than handing over the folding currency that has been used for
+                              generations.
+
+                       Payment trends
+                           There is plenty of anecdotal evidence that how we exchange value is changing, the most obvious being the rapid
+                         growth of the FinTech (financial technology) start-up community. Consumers must be using at least some of the
+                               solutions coming out of this area for the sector to be growing so strongly. There’s a lot of noise, but is this noise
+                          borne out by data?
+
+                         The most recent Reserve Bank of Australia’s (RBA) Trends in Retail Payments5 survey (the third in a series) found
+                              that the use of cash and cheques – the two main physical mechanisms for exchanging value – had both declined
+                              noticeably over the previous three years, while the main electronic forms of payment (debit and credit) increased.
+                         The hurried trip to the bank late on a Friday afternoon to obtain enough cash to last the weekend is a
+                               distant memory.
+
+
+
+                           Figure 1. Percentage of each payment type
+
+
+
+
+
+                            2007
+
+
+
+
+
+                            2010
+
+
+
+
+
+                            2013
+
+
+
+
+
+                           0%                  25%                  50%                  75%                  100%
+
+
+                                   Cash          Debit          Credit           Internet or phone banking          PayPal        Cheque         Other
+
+
+                                   Source: RBA6
+
+
+12
+
+=== PDF PAGE 13 ===
+The use of electronic funds transfer is increasing at the expense of cash and cheques due to a number of factors.
+Cards are being used in preference to cash and to buy more expensive things; transaction value and volume are
+increasing across all digital mechanisms. Point-of-sale technologies have streamlined the buying experience, the
+most recent of which is NFC-based contactless cards. The convenience of contactless cards is leading consumers
+to use them even for quite minor purchases and was one of the drivers of Apple Pay in the U.S. At the same time,
+the increasing importance of remote transactions (particularly to support online commerce) is moving many
+transactions from the physical to the digital world. The number of electronic transactions7 averaged about 353
+per person per year in Australia in 2013, an increase of about 48 per cent from 2007.8 In 2013 cash payments
+accounted for only 18 per cent of the value and 47 per cent of the number of transactions.9
+
+Despite all this technological innovation, and the fact that the use of cash is in decline, cash is still the most
+frequently used form of payment. Consumers use it for most of their low-value transactions – about two-thirds of all
+payments under $20. Cheques, in contrast, are retreating to the high ground. While their use is also in decline – with
+an average of eight cheques written per person in Australia in 2013–14, down from 28 cheques per person 10 years
+earlier – the average value of a cheque rose by 19 per cent to roughly $6,800 in 2013–14.10 Cheques are mostly used
+for high-value payments where there is currently no suitable digital alternative. This shift to digital payments suggests
+that the future of payments is online.
+
+
+
+Figure 2: Cheques per capita
+
+
+
+10.0
+
+
+
+
+
+7.5
+
+
+
+
+
+5.0
+
+
+
+
+
+2.5
+
+
+
+
+
+0.0
+
+      2002    2003    2004    2005    2006    2007    2008    2009    2010    2011    2012    2013    2014
+
+              Cheques per capita
+
+       Source: RBA11, ABS12
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  13
+
+=== PDF PAGE 14 ===
+                           Figure 3: Average cheque value
+
+
+
+                            $9000
+
+
+
+
+
+                            $6750
+
+
+
+
+
+                            $4500
+
+
+
+
+
+                            $2250
+
+
+
+
+
+                                  0.0
+
+                                  2002    2003    2004    2005    2006    2007    2008    2009    2010    2011    2012    2013    2014
+
+                                               Average cheque value                   CPI Adjusted
+
+                                          Source: RBA13, ABS14
+
+
+
+                         As more payments move online, many are now being processed in real time. New platforms are being developed
+                              that enable instant transfers of value – of even quite low amounts – between institutions, between individuals and
+                                  institutions, and even between individuals by supporting new ‘split the bill’ functions. Start-ups such as Stripe15
+                        and Square16 are the architects of some of these platforms, as are industry groups and government bodies such as
+                            the Australian Payments Clearing Association’s (APCA) with its New Payments Platform and the Property Exchange
+                                 Australia, which has launched an electronic conveyancing platform.
+
+                           Support is building to eliminate physical money. This would improve in-store security and reduce cash-handling
+                              costs for businesses. Many governments have a favourable view of a cashless society as it would reduce tax revenue
+                            leakage and remove an important tool from organised crime (which is why many governments have been retiring
+                            the highest denomination bank notes). Denmark has started down this road by proposing that by January 201617,
+                              selected retailers (such as clothing stores, restaurants and petrol stations) be no longer obliged to accept cash,
+                         though there are some fears this might increase the risk of fraud. Essential services – such as post offices, hospital
+                                 cafeterias, dentists and chiropractors – would still have to accept Danish krone.
+
+
+
+
+
+14
+
+=== PDF PAGE 15 ===
+The prospect of a cashless society raises important         The increasing use of complementary currencies
+questions as the less fortunate members of society,         extends beyond loyalty schemes. One example is the
+who often can be unbanked, could find themselves         small but growing movement to create local currencies.
+further marginalised if a bank card of some kind               Cities as far apart as Brixton20 and Bristol21 in the UK,
+was required to access many products and services.        Langenegg22 in Austria, Nantes23 in western France,
+Western populations, with their extremely high banking     Ithaca24 in New York, and Berkshire25 in Massachusetts
+penetration and ubiquitous payments infrastructure, can    have issued their own currencies, pegged to the national
+address this by ensuring that even the poorest segments    sovereign currency. Technically these currencies are not
+of society have access to bank cards. Some governments    legal tender, and are commonly treated as vouchers.
+are even starting to pay benefits electronically, using the
+savings from electronic payments to offset the cost of      The intention is to try to keep money circulating in the
+issuing cards to the individuals receiving benefits.             local economy rather than having it sucked up by the
+                                                            national economy. Local businesses accept local money
+Merchants are also turning to loyalty cards, using the         in payment for food, arts and crafts created locally.
+value held in the customer’s loyalty account to manage     The co-founder of the Bristol Pound, Ciaran Mundy,
+the relationship. Research shows that consumers             said: “The practical vision was to get something that
+choose brands that offer loyalty rewards – and spend      would connect local communities with their businesses
+more with them – over brands without, preferring store      in a way that kept money building up in their local
+credit over other rewards. “Basic monetary rewards         communities. What happens is that if you spend it at a
+give retailers a ‘ticket to play’ in the loyalty game but        large supermarket chain, 80 per cent of that will exit the
+the real opportunity lies in building deeper engagement      [local] economy very quickly.”26 Some communities also
+with members through more personally relevant,           allow local taxes and rates to be paid in local currency,
+unexpected and emotional rewards,” said Adam Posner,    keep purchasing power in the region. The mayor of
+CEO of Directivity, a loyalty and retention consultancy.        Bristol, George Ferguson, even takes his entire salary
+“This plays out in the research, which shows surprise         in Bristol Pounds.27
+rewards such as a gift on your birthday, exclusive offers
+or special experiences go a long way to overcoming the     There has also been a large increase in the number
+belief that programs don’t offer any real value.”18           of cryptocurrencies in the past few years, starting
+                                                       with Bitcoin. Cryptocurrencies are promoted as the
+These loyalty programs, for all practical purposes,            future of money, with their low transaction fees and
+often use complementary currencies with an exchange     independence from government or central bank
+rate is tied to the local sovereign currency. Nowhere         control. Distributed cryptocurrencies are often seen
+is this more apparent than with airline frequent flyer        as the natural solution for exchanging value in an
+programs where members leverage the program’s           increasingly networked, interconnected and digitised
+relationship with other (sovereign) currencies to create      global environment.
+value from nothing, such as by buying dollar coins from
+the US Mint with a credit card and paying off the charge
+immediately, a practice called ‘manufacturing spend’.19
+The European Central Bank has classified airline miles
+in the same category as Bitcoin, while The Economist
+magazine valued the global stock of frequent flyer miles
+at more than US$700 billion in 2005. Airlines should be
+considered the central bankers for these complementary
+currencies, as they can unilaterally set the exchange rate
+(and devalue the points) or close accounts.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  15
+
+=== PDF PAGE 16 ===
+                                      It’s the system                                                                    If we are to understand the possible futures the rapidly
+                         The adoption of new technology is rarely                 expanding world of FinTech is presenting, we need
+                              straightforward. While technology can change              to expand our view to consider the social systems
+                                 society, society can also change technology.                as well as the technological systems. Nintendo’s Wii
+                                                                        and Apple’s iPhone were able to sweep aside more
+                              Past predictions of technology-driven futures have         complex and technically sophisticated rivals by paying
+                           always proven to be far from the mark. For instance,        attention to the social systems. Both products were
+                        few of us have a flying car or a landing pad on the          widely considered under-powered, under-featured and
+                                 roof. We forget that our overflowing optimism for a         technologically inferior to their competitors at their
+                     new technology ignores many of society’s constraints,       launch, but they were successful because their creators
+                        and the technology’s limitations, or unfortunate side        paid close attention to how consumers related to the
+                                 effects. The invention of the nuclear reactor, with its        products and how the product fitted into
+                           promise of an unlimited power source, did not result in     consumers’ lives.
+                          a nuclear reactor in every home, nor was the nuclear-
+                        powered Ford Nucleon28 ever developed beyond a        What is true for ‘hard’ technology is also true for money.
+                           concept car. It’s also unlikely that recent developments
+                                  in artificial intelligence will put us all out of work or         Indeed, money is a technology. What we think of as
+                                  result in the creation of some analogue to either          modern money emerged as a solution for streamlining
+                         The Terminator or The Avengers’ Ultron.                  commercial exchanges between two parties who know
+                                                                                                                                 little of each other. Money is a technique – a way of
+                        Our enthusiasm for a new piece of technology leads         carrying out a particular task, especially the execution or
+                            us to consider only the technological possibilities it         performance of an artistic work or a scientific procedure
+                         seems to present – the world of the possible. We don’t     – for resolving the problem of the double coincidence
+                             consider the social aspects – what society will allow or      of wants29 in barter exchanges.
+                             accept. History has shown repeatedly that the social
+                             aspects are as important, if not more important, than     Money is a formalisation of the technique of using
+                            the technological aspects. The reductionist approach of     a third commodity with a stable value – such as gold
+                              technological determinism, which presumes technology    – to facilitate the exchange of goods. Money initially
+                                drives the development of social structure and cultural     was the testing of a commodity’s quality and weight,
+                               values, often has proven to be wrong. Even if we         and stamping a seal on it meant you knew it was good.
+                          can find a way to miniaturise a nuclear reactor, social      Bank notes were created from the realisation that a
+                              pressures will shape how and where it can be used,        deed granting ownership of a valuable commodity
+                             or even if it is appropriate to use the technology at all.      stored in a safe place could be exchanged instead of the
+                                                                        commodity itself. This raised the interesting question: is
+                         As this example suggests, technological and social        money founded on debt (an IOU), or is it a commodity
+                            systems shape each other. The same is true on a larger        itself? The obvious answer is that it’s both.
+                                 scale. Technologies – such as gunpowder, the printing
+                                press, the railroad, the telegraph and the Internet – have
+                         shaped society in profound ways. On the other hand,
+                                 social systems – governments, the courts, formal and
+                             informal organisations, social movements, professional
+                            networks, local communities, market institutions and so
+                               forth – shape, moderate and redirect the raw power
+                             of technologies.
+
+
+
+
+
+16
+
+=== PDF PAGE 17 ===
+Before barter and the double coincidence of wants,       Commodity money’s value stems from the commodity
+there was debt and obligation. Communities were small    from which it is made. Typically, that underlying
+(by today’s standards), few people travelled more than     commodity has value only because as a society we have
+a day’s walk from home and most commerce was done     agreed that it is valuable. Take gold, for example, which
+with someone who was part of the same social tribe.           is chemically uninteresting as it barely reacts with any
+‘Money’ was used primarily to pay taxes to a distant        other elements and has few industrial uses. It is because
+ruler or to quantify criminal damages. The need to pay      gold is chemically uninteresting, rare (but not too rare,
+taxes in a sovereign currency drove many communities        like many other noble metals) and fairly easy to refine
+to adopt money even though they found it largely         and reshape, that makes it useful as a currency, even
+unnecessary otherwise.                               though it has little practical value elsewhere. Gold is
+                                                           valuable simply because it is attractive and its chemical
+The key point is that barter and money developed in       and mechanical properties make it a good choice for
+response to the need to resolve obligations between        creating physical money.
+individuals who don’t know, or don’t trust, each other.
+Neighbours had little need for formal money as they      A fiat currency derives its value from government
+had little reason to engage in barter. Most debts were       regulations or laws and is pushed into circulation by
+accounted for informally and were grounded in the        a government issuing debt and/or demanding taxes
+individual’s shared trust or their trust in the community       in the fiat currency. In the first instance, it is our trust
+to enforce the debt.                                         that the government will honour its debts – primarily
+                                                          as a government can compel the governed to pay
+The degree of trust between two parties is one of           taxes – that makes the currency valuable. In the second
+the strongest factors shaping how money and the           instance, the need to obtain fiat currency to pay taxes
+technologies around it are considered, adopted and             is what makes the currency valuable.
+used. English shops issued their own wood or leather
+money tokens for many centuries, providing customers     Even Bitcoin is based on trust, as Bitcoin is only valuable
+with small change in the form of IOUs redeemable at            if everyone in the community using it agrees that it has
+their own stores. Often these IOUs were accepted at        value. You must trust that someone will be willing to
+other stores in the local area, though merchants           exchange the currency for the goods and services you
+would demand that larger debts be settled in money       want. There is nothing preventing society from deciding
+accepted anywhere, typically a sovereign currency.          that Bitcoins are worthless and abandoning them.
+This token money was unlikely to travel far from its          This would be a bad outcome for all cryptocurrencies,
+source and typically never circulated more than a few       as it would imply that a loose community of otherwise
+blocks. This practice, while technically illegal, continued     unrelated entities is not a suitable foundation on which
+until quite recently. The development of local currencies     to build a currency, casting doubt on the suitability of
+(mentioned earlier) is a continuation of this.                other cryptocurrencies.
+
+Trust underpins what we think of as money.
+
+This reliance on trust means that, fundamentally, money
+is a social construct. Money – any form of it – has value
+only when we all, as a society, agree that is has value.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  17
+
+=== PDF PAGE 18 ===
+       The nature of disruption3
+
+
+
+
+
+18
+
+=== PDF PAGE 19 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  19
+
+=== PDF PAGE 20 ===
+                                ‘Disruption’ seemed to become part of the business             It’s best to think of each rapid shift in a punctuated
+                               lexicon midway through the 1980s. It was then that         equilibrium in terms of three factors: enablers, drivers
+                                  digital technology finally reached the point that           and barriers. Enablers are the technologies that spark
+                             business best practice could be reconsidered en masse.      rapid change. Drivers are what motivates us to push
+                                In the eighties, Rolls-Royce formalised TotalCare® (the       through the rapid change. Barriers are the regulations,
+                                         first ‘power by the hour’ service that enabled airlines        laws and social mores that prevent the change.
+                             to buy aircraft engine operating hours rather than the       Incremental development of the enabling technologies
+                            engines themselves) which is credited with being a key     happens in the long periods of stability, but the larger
+                             enabler of the low-cost airline industry. The eighties           shift is held back by the barriers. Rapid change is
+                       was also when Walmart invented the data warehouse       triggered when all the enabling technologies are in
+                        and used it to provide consumers with the ‘everyday        place and the drivers overcome the resistance from the
+                         low prices’ that enabled it to become the largest              barriers, with regulators and laws changed to enable
+                                    retailer in the world.                                          society to capture the value latent in the drivers.
+
+                         The pace of change now seems to be so rapid that        Our financial system runs with very little tolerance
+                              disruption is somewhere near the top of every firm’s         for change. It sits at the centre of the economy and
+                          agenda. Disrupt or be disrupted.                            therefore is highly regulated. Experience has shown that
+                                                                             a failing or untrustworthy financial core has knock-on
+                          Short-term vs. long-term change, and the                 effects that hold the rest of the economy back.
+                          bullwhip effect
+                  We can thank Bill Gates for the aphorism:                  Regulators take a justifiably cautious approach to
+                                                                                change, as any negative consequences have the
+                     “We always overestimate the change that will occur in
+                                                                                             potential to destroy the savings and retirement plans
+                            the next two years and underestimate the change that
+                                                                                        of many individuals, or broad swathes of government
+                                    will occur in the next.”10
+                                                                                                services used by our more vulnerable citizens. If FinTech
+                                                                                              start-ups take market share on either the supply or
+                         As individuals dealing with the current moment,
+                                                                   demand side, the system runs the risk of a whiplash
+                                  typically we focus on incremental change – the slow
+                                                                                                effect that could take a year or so to work its way
+                          burn of technological development where each new
+                                                                                    through, as regulators and consumers react to market
+                             idea is stacked on top of the previous one. For example,
+                                                                             changes and societal preferences.
+                          both Apple and Nintendo experimented with various
+                              ideas and technologies before arriving at the iPhone
+                                                                                   Over-exuberant investment in new technologies can
+                        and Wii respectively.
+                                                                                             also result in a technology-driven over-shoot before
+                                                                                             society pulls the technology back into line (or before
+                             Progress is rarely so linear. Often there are long periods
+                                                                                             large financial institutions and governments manage
+                             of relative calm interrupted by sudden bursts of change.
+                                                                                       to pull it into existing regulatory frameworks). This can
+                               This is called a ‘punctuated equilibrium’ in evolutionary
+                                                                                         leave some firms and individuals with nasty hangovers
+                             biology theory. While the unpublicised development of
+                                                                 when they find they have invested in a possible future
+                            the iPhone involved a long period of relative calm, its
+                                                                                           that society has ruled out. We can see this in action
+                              introduction induced a sudden burst of change as Apple
+                                                                                  with the emergence of high-speed algorithmic trading
+                          updated the device in response to consumer reactions
+                                                                                                resulting in the flash crash of 2010, a trillion-dollar
+                        and added significant features such as the App Store in
+                                                                                        stock market crash in the United States, which started
+                              short order.
+                                                                                             at 2:32pm and lasted for approximately 36 minutes.
+
+
+
+
+
+20
+
+=== PDF PAGE 21 ===
+Firms that use technology to disrupt markets rather       Competing futures
+than simply providing compelling solutions can create       Ever since William Gibson’s novel Neuromancer gave
+significant systemic problems. Many regulations are          birth to the cyberpunk movement, a digital future in
+enacted for social rather than economic reasons. For       which we’re jacked into the global network has been
+example, many governments provide pensioners with       the popular image. It’s a libertarian ideal in which nation
+taxi vouchers that regulations compel taxis to accept.        states have little meaning as technology evolves to the
+These help the elderly stay mobile and retain their           point that we can more or less do without them.
+independence without the need to continue driving.
+There are good reasons to rethink the foundations          Less time has been invested in trying to understand
+on which our industries are based, but we need to be     how society might also shape the future of money. We
+careful that the new foundations are as equitable as       must accept that some of the short-term but large shifts
+the old and that they can act as the pillars of the            predicted will become true. However, no technology has
+new society.                                                survived contact with society unscathed. While elements
+                                                           of a technology-driven vision may really happen,
+Many new FinTech solutions expose consumers         we need to explore alternative scenarios.
+and businesses to risks they have no experience in
+quantifying or managing. There’s also the chance of     We need to consider both social and technological
+collateral damage as firms and individuals experiment       change. To do this, we explore four possible scenarios
+outside the light of the regulator or established products    that cover the big and small changes for both the
+and services. Projects funded through platforms such         social and technological factors.
+as KickStarter, and which subsequently fail, foreshadow
+problems with crowdfunded equity, while Bitcoin’s high
+volatility creates currency risks that few are equipped
+to manage. The stakes are higher when people’s
+retirement savings are in the mix.
+
+There is more than enough opportunity for all,
+but disruption in the finance sector is something that
+needs to be managed carefully. Banking disruption over
+the decades – from sub-prime loans through to credit
+default swaps – has caused big problems for those
+least able to cope. As this is a social change, it will have
+winners and losers. However, we can make navigating
+between the various possible futures that technology
+enables an active process, working to shape the one
+we want rather than simply being victims of change.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  21
+
+=== PDF PAGE 22 ===
+                           Figure 4: Four scenarios for the future
+
+
+
+                               Paradigm
+                              change
+                                    New equilibrium                                      Transformation
+                                                The system reaches a balance                           The system is discarded in
+                                          among competing forces that is                             favour of a new one with a
+                                                                  significantly different from the                       new set of rules.
+                                                           current balance. There can be
+                                                                 significant change, but it is                       New technology
+                                                         within the framework of the                      New system
+                                                           current system.
+
+                                                        Incremental technology
+                                      New system
+
+
+
+                    Social
+               change
+                                                    Current trends continue                                 Collapse
+                                                The system moves forward along                        The system falls apart under
+                                                                                 its current trajectory. It is ‘present                           the weight of ‘negative’ driving
+                                                         trends and continued’, usually                                 forces and typically reverts back
+                                                       considered most likely to happen.                            to an earlier form.
+
+                                                        Incremental technology                         New technology
+                                                        Incremental system                                         Incremental system
+
+
+
+
+
+                                   Incremental
+                              change
+
+                                   Incremental change                                                                                          Paradigm change
+
+
+
+                                                                                             Technological change
+
+
+
+
+
+22
+
+=== PDF PAGE 23 ===
+The first scenario is the simple continuation of the           This second scenario represents an update to
+current trends. While new technologies are developed      Neuromancer, one in which Bitcoin replaces fiat
+and society continues to evolve, the nature of the           currencies and the role of nation states diminishes.
+change in both of these dimensions is incremental.        The existing payments systems collapse as both
+                                                              large and small payments are conducted via global,
+Payments will continue to move from the                    distributed payment networks based on Bitcoin or
+physical to the virtual world (or, more accurately, from     one of its descendants, with each payment being
+physical places to mobile devices). The use of cash will      instantaneous and (in effect) free. The banking system
+continue to decline and cheques will retreat further to      fragments as the government guarantees for deposit-
+the higher ground until regulatory and social change        taking institutions mean little, and individuals and firms
+allow individuals to make all large and small payments     move their capital into the exploding number of fintech
+electronically. Bitcoin and the other cryptocurrencies         start-ups. The trend for shared infrastructure – from
+will continue to be developed but will remain a niche       roads to hospitals – to move from government funded
+interest, though the best ideas from the                    to user-pays accelerates as the shift of currency to the
+cryptocurrency community will be co-opted by the            virtual world erodes the government’s ability to tax
+established financial sector and integrated into the              its population.
+status quo. Most importantly, the relationships between
+the finance sector and government, business community    This future is quite unlike today. It is also a future that
+and the public will remain the same, with the               looks increasingly improbable. Many of the ambitious
+established banking and payments providers retaining       predictions made for cryptocurrencies are being set
+their roles.                                                 aside as it becomes clear that mass adoption
+                                                                                     is unlikely.
+This future would be like today but more digital
+and online, providing governments of the world with      The third scenario is the transformation to a new
+complete visibility into how we transact, reducing tax      paradigm – high technological change and social
+revenue leakage, financial crime and tax evasion.           change. Cryptocurrencies and FinTech redefine the
+                                                               relationships between the existing participants in the
+The second scenario is a future in which a new             finance sector and accelerate the trend for products
+technology paradigm disrupts the existing social system.    to be transformed into value-added services (called
+This scenario represents the technology determinist           ‘servitisation’) where the payment occurs at a time and
+view of the world, where technologies such as Bitcoin       place separate from where the goods are exchanged or
+disrupt the finance sector and accelerate the trend,         the service provided. An example is Uber, a smartphone-
+driven by the Internet, for society to move from           based driver dispatch service. You book a car using a
+centralised, geographically based systems to distributed     smartphone, jump in when the car arrives and are taken
+systems. This may be seen as collapse, as the social and     to your destination, at which point you get out without
+governance systems revert to a state similar to what           (explicitly) paying.
+came before the current global institutions.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  23
+
+=== PDF PAGE 24 ===
+                         The exchange of value can happen somewhere else,         In this world, an established sovereign currency
+                               at another time, possibly in a different geography and      remains the major tool for governments to manage
+                                  in a virtual non-sovereign currency beyond the reach         their economies. People are paid and taxed in the
+                             of the government. The payment and finance sector         country’s sovereign currency and most individual
+                        becomes consumer-centred (the consumer chooses        wealth is measured against assets in the same currency.
+                          where, when and how to pay, and the currency),          While the relationship between state and citizen
+                               rather than the current government- and finance           remains largely the same, ubiquitous digital technology
+                              sector-centred approach.                                 enables consumers to redefine their relationships with
+                                                                                  merchants. The value a business creates moves
+                               This future is quite unlike today. The relationships             (or has moved) from the simple provision of a product
+                        between the participants have been redefined,              or service into the space between the business and
+                            ushering in a new social paradigm. Governments will           its customers. Loyalty programs expand from simple
+                               also struggle with the leakage of tax revenue. Firms        reward schemes to provide businesses with finer
+                        and individuals will store and exchange value in virtual       control of the shared value between firm and consumer,
+                          networks and cryptocurrencies that live on the network    becoming complementary currencies in the process.
+                        and beyond the purview of regulators.                        This, coupled with the growth of in-game currencies for
+                                                                                         online games, results in a rapid increase in the number
+                         The final scenario is the establishment of a new             of complementary currencies alongside sovereign
+                               equilibrium. The accumulation of incremental                currencies, with all the attendant benefits and problems
+                              technological change results in a social shift that            of being a currency for their owners. Settlement moves
+                              redefines the relationships between consumers,             to low-cost, instantaneous transfers via the ‘block chain’
+                          merchants and the finance sector. This creates a            technology that underpins Bitcoin, transferring value
+                                 significant change in how we exchange value, but the        directly between entities. FinTech start-ups mature and
+                                 social framework in which it happens – the relationship      their innovative services – from new value transmission
+                        between government and citizen – remains largely           services through to crowd-funding and crowd equity
+                            the same.                                         – are absorbed by the mainstream regulatory
+                                                                                   environment.
+
+                                                                          The future is quite recognisable from where we stand
+                                                                                          today, but there are key differences. The long-term
+                                                                                           decline in the cost of communications technology
+                                                                                                     results in a fundamental change in the relationship
+                                                                         between firm and consumer. Banks’ deposit-taking
+                                                                                                 role continues but the context in which they operate
+                                                                                 has changed, potentially disintermediating existing
+                                                                            payments networks in the process through the
+                                                                                 adoption of peer-to-peer technologies.
+
+
+
+
+
+24
+
+=== PDF PAGE 25 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  25
+
+=== PDF PAGE 26 ===
+       Consumer preference4
+
+
+
+
+
+26
+
+=== PDF PAGE 27 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  27
+
+=== PDF PAGE 28 ===
+                                          It’s widely accepted that digital technology is          A more secure wallet
+                            reshaping the business and social landscapes through      Incumbents and FinTech start-ups are now focusing
+                            what’s commonly referred to as ‘digital disruption’.          heavily on the challenge of creating a more secure
+                          Monopolies and even entire industries are being          and convenient payment experience using digital
+                             toppled, creating new winners and losers. By far the        technology. The desire is to create a smartphone-hosted
+                        most obvious winners so far have been consumers.           virtual wallet to move transactions from the physical
+                                                                                       to the virtual world by replacing plastic cards with
+                                       First, the emergence of the consumer Internet has          cryptography.
+                             reversed the historical information asymmetry that
+                           allowed firms to assume they were more informed         Technology has streamlined the checkout experience
+                           than consumers. The firms were able to use their            incrementally. The first mechanical cash register – the
+                              superior knowledge of prices and sources of products        Ritty Model I, called Ritty’s Incorruptible Cashier – was
+                             to shape customer behaviour, guiding the consumer       developed in 1879 and patented in 1883 by James Ritty
+                             to products the merchant favoured at the expense of      and John Birch. Designed to stop employee theft, the
+                            the customer’s preferences. However, consumers are         Ritty Model I was little more than an adding machine
+                    now better informed and can find either the cheapest      and cash drawer, with a bell to be rung to mark a sale
+                             or best products (at the best prices) from a global pool     and alert the business owner (with prices set slightly
+                             of merchants. One fairly immediate result has been          off whole values so staff were forced to use the cash
+                            the death of many mid-market products and firms as         register to provide change). Computing technology has
+                          consumers are no longer forced to compromise.          been chipping away further at the processes, making
+                                                                                                 sales more secure and convenient.
+                           Second, smartphones and social media have enabled
+                          consumers to rely on peer recommendations rather        The cash register became digital in the early 1970s
+                           than brand promises. The information consumers use       with the IBM 3650 and 3660 store systems, which
+                             to shape their decisions now comes from the opinions      could control up to 128 IBM 3653/3663 point of sale
+                             of peers – the other individuals in their social graph          (PoS) registers, electronically tying the tills (the clients)
+                         – rather than from communications from firms.             to the store accounting systems (the server). William
+                         Companies are finding that any unsavoury practices        Brobeck and Associates introduced microprocessors at
+                                  in their supply chain are soon uncovered and revealed      McDonald’s Restaurants in 1974, where each station
+                             to the world. It is also no longer possible to crowd            in the restaurant had its own device displaying the
+                           out smaller organisations and prevent them from             entire order for a customer, which streamlined the
+                         communicating with customers, or to prevent customers    ordering process.
+                              discovering competing products and services. This puts
+                          a small deli or café on an equal footing with a
+                              multinational franchise.
+
+                        However you expect the world to evolve, and whichever
+                             of these scenarios you think is the most likely, it is clear
+                              that consumer preference will be a significant factor in
+                           shaping this future.
+
+
+
+
+
+28
+
+=== PDF PAGE 29 ===
+More recently, NFC technology has enabled tap-and-go     APCA’s New Payments Platform aims to address this
+systems to replace the need to swipe cards or plug them     deficiency. APCA is building infrastructure that can
+into a reader and type in a PIN, slicing a few seconds off    support multiple ‘applications’ for exchanging value,
+the transaction. This has proved hugely convenient for      the first of which is a traditional payment process.
+both merchants and consumers. The rapid acceptance     The new platform will support real-time, low-value
+and use of contactless cards has resulted in this method    payments, initially between deposit-taking institutions,
+becoming almost ubiquitous in the Australian payments     but eventually between any two ‘suitably accredited’
+system. Visa’s statistics show that in January 2015,           institutions (institutions that easily could include new,
+contactless payments accounted for more than 60 per       alternative payment providers).
+cent of all face-to-face Visa transactions in Australia.30
+                                           Many pundits envisage end-to-end digitisation of
+A new generation of payment solutions is also             the process of exchanging value. Credit cards will be
+emerging. One example is Square, a payments and           virtualised, with transactions flowing directly from a
+PoS provider with a solution built on consumer-grade         digital wallet hosted on your smartphone through
+computer tablets and the public internet. This slashes        real-time payments infrastructure into the waiting
+the investment required from merchants to accept           wallet of an individual, or the trading account of a
+credit card payments digitally, enabling even quite           firm or institution.
+small merchants to move from cash- and paper-based
+processes to digital ones. Indeed, Square’s early growth     Ubiquitous digital infrastructure coupled with cheap
+stemmed from the craft markets, boutiques and artisan    and effective real-time payments processing solutions
+stores that couldn’t afford a traditional merchant              will enable anyone – individual or institution – to accept
+account.                                                  or issue payments wherever, and whenever, needed.
+                                                          Apple’s recent development of Apple Pay may be a
+Part of the growth of digital payments is due to             sign that technology, regulation and social mores have
+consumers using upgraded PoS systems in stores to pay     developed to the point that the digital wallet may finally
+with a wave or via tap-and-go. The growth is also due     be coming of age. Apple Pay, which uses NFC and card
+to this new breed of payment solutions, bringing more      information stored on an Apple device, was developed
+merchants into the digital payments infrastructure and      within the constraints of the existing payments
+the possibility of a cashless society one step closer.          standards and infrastructure, making it an impressive
+                                                   example of what is possible within established
+While shiny, new consumer technology may be getting     technology and industry norms.
+the lion’s share of media attention, the government is
+quite aware that our ageing inter-institution payments
+infrastructure is holding back the development of many
+new real-time solutions. While two individuals may be
+able to exchange value instantly if they use the same
+bank, peer-to-peer payments between individuals who
+use different banks still take days to process and are
+comparatively expensive.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  29
+
+=== PDF PAGE 30 ===
+                             Potential sources of disruption                        Apple Pay’s early success in the US was not surprising
+                            Clayton Christensen coined the term ‘disruptive             given its slick design and Apple’s commercial weight.
+                              innovation’ in his book Innovator’s Dilemma31 for         The US had poor chip-and-pin penetration and many
+                              ideas that help create a new market and value             banks saw Apple Pay as a tool to improve adoption.
+                           network, eventually disrupting an existing market and       This triggered intense competition between US banks
+                             value network (possibly over a few years or decades)        to be the first account registered in Apple Pay as the
+                        and displacing an earlier technology in the process.           typical user registers only one card with the service.
+                               ‘Sustaining innovations’, in contrast, do not create        Few cardholder details are required beyond basic credit
+                     new markets or value networks because they focus         card information in an attempt to streamline the process
+                       on improving existing solutions to create more value,        for adding new cards to the system, and make it as
+                             allowing established firms to compete against                  ‘frictionless’ as possible. Information such as phone
+                          each other.                                        numbers and addresses that might help banks detect
+                                                                                                 early fraud were left out. The processes for dealing
+                         The Wii and iPhone are both examples of disruptive        with potential fraud via Apple Pay were also flawed,
+                              innovations. The Wii disrupted the video game market      with affected card holders directed to customer care
+                          by encouraging casual gaming, while the iPhone was        rather than fraud prevention, where the customer
+                                   really a pocket-sized computer that enabled many road      representative would help the caller to use their cards,
+                              warriors to set aside their comparatively bulky laptops       leading to more fraudulent cards approved for use.
+                        and cameras, disrupting the mobile phone, stand-alone    The fraud rate for Apple Pay was estimated at 6 per
+                         camera and laptop markets in the process. In contrast,      cent, which is low compared with traditional credit card
+                             hybrid cars such as the Toyota Prius are sustaining           fraud in the US, but higher than expected with Apple’s
+                              innovations; they work within the existing industry          tokenisation technology.32
+                               structures to sustain them.
+                                                      We should consider Apple Pay a qualified success,
+                                Will the new low-cost payment solutions work their        with high early adoption rates. But the drivers for
+                      way up through the market to disrupt established          adoption appear to be tightly bound to the US
+                               players? Could Stripe’s solution, based on consumer-        regulatory and commercial environment. The story
+                           grade technology and focused on usability and            might not be the same in Australia or New Zealand
+                            convenience, be a more compelling solution than the      where high chip-and-pin penetration rates mean banks
+                              established payments networks? Or could Bitcoin (or          will not see Apple Pay as a tool to facilitate the adoption
+                           another cryptocurrency) completely replace the current      of these technologies. Australia’s regulated interchange
+                           paradigm, one based on intermediaries to manage the       fees, which are roughly half the level in the US, mean
+                              transaction flow, with a paradigm based on direct and      there is less room for Apple’s estimated 15¢ on every
+                            low-cost peer-to-peer transactions?                    $100 of transactions.33
+
+
+
+
+
+30
+
+=== PDF PAGE 31 ===
+Apple Pay’s usability advantage is not as dramatic in       names and email, the Internet’s killer app, were built
+Australia as it is in the US and the tighter regulatory           this way. So was HTTP, the technology that underpins
+environment weakens the commercial proposition.         the world wide web, as well as BitTorrent, which is
+However, it clearly demonstrates that new ideas,          used for peer-to-peer file transfers. However, since
+approaches and technology can eliminate the friction      HTTP was developed, the creation of new platform
+in the traditional payment process. The questions we        applications has become rarer. Most modern solutions
+should ask are: Have we entered an era of diminishing      simply use (and abuse) HTTP rather than creating a new
+returns, and does the future of payments rest                application-level protocol. The wealth of innovative
+somewhere other than shaving another second or            IP network applications anticipated by the telcos –
+two off the existing process in an attempt to make it        platform-level applications that could be managed,
+as frictionless as possible?                             measured and metered by the platform operator –
+                                                        never appeared. Instead, the telcos have voice, the
+We must ask similar questions of APCA’s New                traditional IP applications such as email and a lot of
+Payments Platform. While the short-term benefits of      web traffic. The expected bonanza from approving
+providing cheap and effective low-value transactions       and metering high-value IP platform applications
+are clear, the longer-term strategy of creating a platform    never arrived.
+that enables new payments ‘applications’ is an
+approach that has a less than impressive track record.      The same story is likely to emerge from the New
+                                                   Payments Platform. After the initial low-value, real-time
+Telcos adopted a similar approach when they             payment application – a push payment, where the
+shifted to Internet protocol (IP) networks – moving         sender pushes the payment to the receiver – some of
+from proprietary technologies to the ‘open’ technologies    the effort behind the upwelling of FinTech start-ups can
+used by the Internet. The thought was that voice was      be expected to result in a simple but effective solution
+simply one application that would run over the new         to support pull payments in which the receiver pulls the
+IP networks and that the future would be filled with       payment from the sender. Other types of payments may
+a wealth of innovative new applications that would        be built into the basic push and pull payments system.
+sit beside voice and use the platform’s capabilities in       Examples include ‘mutual’ (or ‘third-party’) transactions
+new and interesting ways that we couldn’t predict.        – in which the payment is pushed to a third party by the
+This is similar to how the Internet developed, with the      sender before being pulled from the third party by the
+networking technology split into layers. The lowest          receiver – or ‘deported’ or ‘complex’ transactions that
+layers define the platform and the higher layers take        blend the other three types of payments to create more
+the raw functionality provided by the platform and          sophisticated services such as those provided by PayPal.
+repackage it to create useful applications. The core
+services the network needs, such as managing domain
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  31
+
+=== PDF PAGE 32 ===
+                         The telcos’ IP networks now support a special-purpose     The convenience of being able to pay via a tap or a
+                              voice service and a general-purpose data service, with     wave is clear, but the wisdom of having the service
+                        most of the innovation at the edge of their networks,       provided by an intermediary is being questioned. At
+                           not in the core platform. The innovators have found it      the small end of town, restaurants, pubs and clubs are
+                                easier to work with established platform services and       encouraging customers to pay in cash or by debit card
+                            innovate at the edges where they have the freedom to      to avoid paying interchange fees. They do this by either
+                       do what they thought necessary, rather than attempting    providing a discount for cash, or by some other means,
+                             to design, implement and seek approval for a new         such as entering cash-paying customers in a monthly
+                               platform-level application controlled and metered by         prize draw. At the other end of town, larger retailers
+                            the platform provider. Can we expect payments to go       are funding the development of alternative payments
+                            the same way, with retailers and consumer applications      solutions. The industry solution with the highest
+                              innovating, and the New Payments Platform simply           profile is CurrentC™34 being developed by US-based
+                          used as a cheap and efficient transport?                     industry group Merchant Customer Exchange (MXC),
+                                                                                           led by Walmart. CurrentC™ provides consumers with
+                           While the finance sector has been investing heavily         a smartphone-hosted mobile wallet that can interact
+                                  in upgrading the established payments infrastructure,       with merchant terminals to enable direct bank-to-bank
+                      many users are starting to question its value.                transactions and cut out payments intermediaries.
+                         Many, if not all, firms are finding that the pressure
+                       on their margins is rising. Consumers are using their          Financial institutions should be worried about new
+                          smartphones and ubiquitous access to the internet to      payments paths that remove them from the process,
+                                find either the cheapest or the best (and cheapest) items    as most of their interactions with customers are based
+                          from a global pool of merchants. The same consumers     on customers’ need to pay for products and services.
+                             are using their smartphones to browse reviews and
+                         recommendations and share their experiences. The
+                            balance of power is firmly in the hands of consumers
+                        and they are using it to push prices down. Coupled
+                           with the shift from physical to virtual (digital) payments,
+                          merchants are finding that the transaction fees charged
+                          by the major processing networks are becoming a
+                                 significant expense.
+
+
+
+
+
+32
+
+=== PDF PAGE 33 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  33
+
+=== PDF PAGE 34 ===
+       Moving payments5       away from the till
+
+
+
+
+
+34
+
+=== PDF PAGE 35 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  35
+
+=== PDF PAGE 36 ===
+                                              If the future of payments rests in finding technological     Showrooming
+                               solutions that streamline existing processes and make      Consumers, rather than merchants, now decide
+                       them more secure, this assumes the only forces shaping    when and where they pay. Thanks to the emergence
+                         payments – how we exchange value – are technological.    of ubiquitous mobile digital communications.
+                          However, as we have already shown, social forces         Consumers also seem to prefer to pay somewhere
+                               also shape technology. Technology has streamlined         other than at the till.
+                            the payment process and is enabling us to find new
+                          approaches to paying for and consuming the things        Technology that enables someone to browse a web
+                    we want.                                                    store from the comfort of the couch also enables
+                                                                      them to browse the same web store from the aisles of
+                                    Ritty’s Incorruptible Cashier enshrined in technology        a bricks-and-mortar competitor. A consumer can just
+                            the idea that payments would happen at a point of sale,    as easily research a product and compare prices on a
+                        somewhere secure where merchant and customer could    competitor’s website as they can inspect the physical
+                         exchange value, swapping goods for currency. The NFC     merchandise on the shelf in front of them. This trend
+                          tap-and-wave point of sale is the best current expression      is called ‘showrooming’, as the customer is using the
+                             of this paradigm, removing nearly all the friction from       bricks-and-mortar store as a showroom for the
+                            the transaction other than the need to tally the goods     web competitor.
+                        and acknowledge the exchange of value.
+                                                                       Showrooming is putting pressure on the margins
+                         Smartphones and ubiquitous networks create               of traditional retailers as they struggle to compete
+                               solutions that shift the payment away from the place       with online retailers that inherently have lower costs.
+                        where the goods are handed over by allowing us to       Consumers are still researching their purchases – from
+                            transform products into value-added services. Purchases    books through to clothing and expensive bikes – which
+                               at the point of sale are converted to subscriptions          can include wanting to hold the product, try it on, or
+                                  billed separately on a regular schedule. They also allow      kick its tyres (should there be any). However, customers
+                          commercial interactions with customers at a time or         are making the purchase online from web-only
+                             place away from the conventional point of sale.             businesses that charge less.
+
+                                                                                  Cost is not the only driver of these purchasing decisions.
+                                                                                                 In some instances, a mobile purchase may be more
+                                                                                      convenient, even if the consumer is standing in the
+                                                                                 middle of the bricks-and-mortar store.
+
+
+
+
+
+36
+
+=== PDF PAGE 37 ===
+Amazon introduced a mobile app some time ago          While NFC and new payments infrastructure may make
+that enables users to scan the barcode on a product       payments nearly instantaneous, a much more preferable
+and have the app take them directly to the product’s        solution for the consumer would be to avoid the point
+information in Amazon’s online store. All Amazon           of sale altogether. The idea would be to use their mobile
+needs to ship the product directly to the customer’s       phone to buy the products in hand – moving the till to
+home and bill them is one click or tap. The positive        them, rather than them to the till – and walk directly
+use-case has someone at a dinner party discussing         from the store.
+a book, then scanning the barcode on their friend’s
+copy rather than taking a note of the title, author and       This is something Apple has done with the Apple Store
+publisher. It’s not a large stretch to envisage a consumer    app (as opposed to the App Store or iTunes apps). The
+using the same feature in a busy store. Consumers may     Apple Store app provides the typical mobile shopping
+find it more convenient to buy the product online using     experience. You can browse the catalogue, purchase
+a smartphone while standing in the aisle (and having      and have your selection shipped directly to your front
+it shipped directly to their door) than to pick it up and       door. The app also attempts to bridge the gap between
+take it to the point of sale at the front of the store if it is    the physical and virtual by providing a store locator
+bulky and awkward, or if it won’t be used immediately.     should you want the product immediately. You can also
+This becomes even more attractive up against long         use the app to make appointments at the Genius Bar
+queues at the till, a paucity of merchandise on the          support service for Apple products. Once you’re in a
+shelves, or simply the challenge of finding products that     store you can use the app to find out the waiting time
+haven’t been mishandled, especially for mass-produced      for appointments. You can also pluck a product from a
+goods where one instance of the product is as good as       shelf, scan the barcode with the camera on your iPhone
+another in the consumer’s eyes.                       and pay for it from your iTunes account. You can then
+                                                    walk out with your purchase without having interacted
+In our previous paper on the future of exchanging          with any staff.
+value35, we also talked about how mobile payments
+may be even more convenient when consumers want       This ability to empower customers to manage their own
+to leave the store with products. We used the idea of      payments may be seen as a straight-forward extension
+a trip to the hardware store for some odds and ends        to the self-checkout trend. While it requires new risk
+to fix some things around the house. With four screws,     models and deeper integration into the retailer’s supply
+two bits of wood and leaf blower in hand, we’re ready      chain, it provides a more convenient solution for the
+to head home and start, apart from the fact the goods      customer, with the side effect of reduced staff numbers.
+need to be taken to the point of sale. There we have to
+stand in line and then wait for the goods to be tallied
+so we can pay with a wave of our credit card.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  37
+
+=== PDF PAGE 38 ===
+                            Loyalty                                                  Starbucks needs to demonstrate that the scheme
+                      Some retailers have responded to showrooming by          gives consumers enough value for them to be willing
+                             focusing on loyalty programs that offer store credits         to commit funds. The benefits for Starbucks might not
+                        and bonuses. While there isn’t any evidence existing        apply when members have insufficient funds as they are
+                          programs have improved loyalty per se, they do             forced to add funds rather than simply make a purchase.
+                              increase a consumer’s spending with the store.
+                                                          My Starbucks Rewards can best be thought of as
+                      Some are experimenting with moving the loyalty            bringing future purchases into the present to
+                        scheme to the centre of their relationship with               foster loyalty.
+                           consumers. They do this by enabling the loyalty scheme
+                             to be used for daily transactions rather than having it as    Another option is to use a loyalty scheme to delay
+                         an afterthought post-transaction (“do you have our         purchases. This has the effect of pushing the payment
+                                 loyalty card?”).                                               into the future, moving from a pre-pay to a post-pay
+                                                                               model, making it easier for consumers to commit to
+                             Starbucks shifted its loyalty scheme, My Starbucks          the purchase. Consumers need only to decide that they
+                           Rewards, to a stored-value card. As well as accruing       want (and can afford) the product without concerning
+                               points, members can load funds onto the card and use      themselves over the details of the transaction.
+                                               it to make purchases, enabling Starbucks to connect
+                            the customer’s preferences and loyalty scheme with      A good example of this is Skip36, a mobile app that
+                            the payment. The act of paying now triggers both the      enables consumers to ‘skip’ the queue at their local
+                              accrual of points and the harvesting of transaction data.     café. The app uses your location to provide a list of
+                                                                                                   local cafés. Selecting any café takes you to a menu
+                         The stored value on the card also creates a               from which you can select what you want. Alternatively,
+                          problem for consumers as they have committed funds,     you can choose what you want – a flat white with one
+                                called a ‘sunk-cost’ that takes some effort to recover.        sugar, perhaps – then pick from a list of nearby cafés
+                         The stored value should lead them to prefer Starbucks       that can fulfil the order. When you arrive at the café,
+                            over competing coffee shops even if there is a small       you make yourself known and the coffee is handed to
+                               price difference against Starbucks. However, the scheme    you when it is ready. Skip accumulates the transactions
+                          does require the consumer to pre-purchase, as there       and bills weekly. It’s not much of a stretch to imagine
+                         must be funds on the card before it can be used,          an integrated loyalty scheme, where the act of ordering
+                          adding an initial step to some transactions.                   triggers both the accrual of points and the harvesting of
+                                                                                           transaction data.
+
+                                                                                          Skip is underpinned by the assumption that people
+                                                                                     don’t like to queue for coffee and wait for it to be
+                                                                         made. Streamlining this process by enabling customers
+                                                                                       to order via their smartphones before they arrive
+                                                                                           eliminates a couple of pain points, creating a little
+                                                                                                          bit of value Skip can share with the café.
+
+
+
+
+
+38
+
+=== PDF PAGE 39 ===
+Nevertheless, a survey of the app’s users found that       Most airlines have moved their purchasing of
+the ability to skip the queue wasn’t its most attractive       engine operating hours to TotalCare® or a similar
+feature. Instead, it was the elimination of the need         model, where a flat cost per hour provides them
+to pay at the point of sale, with customers ranking         with the engine, services, monitoring, spare parts
+payment convenience as either the biggest benefit        and a guarantee of on-time performance, with Rolls-
+or equal to the benefit of skipping the queue. Some        Royce managing the risk just as much as the revenue
+customers see queuing and waiting for their coffee as       opportunity. This shift from selling jet engines to hot
+a social occasion rather than a burden and take the            air from the back of planes was a significant factor in
+opportunity to chat with other regulars or the staff.          creating a low-cost airline industry by shifting the large
+The payment, however, is seen as an unnecessary            capital expense of jet engines (often about US$50
+burden. This may tie into a deeply held bias in many          million) and the complexity of managing the engines
+cultures that handling money is somewhat dirty.          and their maintenance from the consumer to provider.
+Historical examples include the Christian Church’s
+probation against charging interest in the Middle Ages,     The same trend is occurring in consumer products,
+or the Qur an forbidding Muslims to charge interest        with a shift to consumers paying for what they use
+on a loan, through to the modern usage of the phrase       rather than needing to own a product. Music streaming
+‘filthy rich’ to mean very rich, possibly having become        services such as Pandora37 and Spotify38 allow consumers
+so by unfair means, which originated in the 1920s in        to create personalised radio stations that can stream
+the United States.                                        the world’s music directly to their devices for a monthly
+                                                                 fee. Flexicar39, ZipCar40, and GoGet41 provide cars by the
+Disconnecting payment from product                  hour so their customers don’t need to own a second car
+Many of the emerging ‘digitally native’ services                 (or, in some cases, a first car) that is rarely used. Instead,
+are taking this trend a step further and explicitly            they get access to cars parked at convenient locations
+disconnecting the payment from the provision of the       around them, with their account settled automatically
+product or service.                                           at the end of the month.
+
+Products are increasingly transforming into value        A new generation of digital services is – as a design
+-added services – servitisation. This has the effect of        choice – moving the transaction to the edge of the
+shifting payments from a transaction at the point of         relationship between merchant and customer. As with
+sale to an ongoing subscription. TotalCare®, Rolls-            Skip, mentioned before, consumers prefer not to deal
+Royce’s ‘power by the hour’ service for jet engines         with payment at the point of purchase. Uber builds on
+mentioned earlier, is seen as the first and best example       this insight by moving the payment beyond the flow of
+of this trend. Jet engines used to be sold at competitive      service delivery to provide a better customer experience.
+prices with margins made from the spare parts business.    The app enables customers to order a car, track the car
+TotalCare®, first conceived in the 1960s but formalised      as it arrives, hop out at their destination, then rate the
+in the mid-1980s, shifted the relationship with the            driver. The only visual acknowledgement of the payment
+customer from products and spare parts to a long-term        is the fare quoted when the car is ordered. The trip is
+contract (often spanning multiple decades) to keep the       billed to the customer’s credit card automatically at
+engines running.                                         the end of the trip.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  39
+
+=== PDF PAGE 40 ===
+                       The end of cash                                                     Finally, products are being transformed into value
+                               Predictions about the end of physical cash typically         -added services – servitisation – converting a payment
+                         assume it will be replaced by something new, a              for products or services into an account settled at the
+                                functionally equivalent technology that is more           end of the month.
+                             convenient, cheaper and easier to use. This may be
+                      NFC and the existing payments networks or it may        The shared value created between a merchant
+                        be something more radical, such as Bitcoin or another     and customer is increasing being captured in a
+                                 stateless cryptocurrency. The shift to electronic             shared account, either a stored value card or loyalty
+                         payments has been a significant driver in the decline       scheme, that is settled periodically. The merchant and
+                             of cash. New digital technology is replacing the old        consumer use this shared account to build trust. If the
+                               physical technology, enabling us to buy online from        customer needs to commit funds to the account before
+                                far-flung merchants. The assumption is that while            transacting, the customer must trust the merchant.
+                           cash may disappear, the manner in which we pay will           If the merchant allows the customer to go into credit
+                           remain largely the same, with customers and merchants     before reconciling, the merchant must trust
+                          exchanging value at the point of sale.                     the customer.
+
+                                             It may be wise, however, to think of this as a shift       We assume that digitisation implies swapping
+                          from the merchant’s PoS system to the customer’s           physical tools – cash and cheques stored in a leather
+                          smartphone. Payments are not just moving online,           wallet or purse – for digital tools such as credentials
+                               they’re going mobile, and increasingly the PoS is            stored in an e-wallet on a smartphone. The new
+                            accessed via the smartphone. While most ‘card not         technology replacing the old. Digital technology,
+                              present’ transactions are from an online store, a           however, enables us to do more than remove pain
+                          growing proportion may be customers using mobile         points and streamline existing practices.
+                              devices to buy products while standing in physical
+                                 stores. These may be purchases from the store, such       Hard currency’s utility rests on its ability to streamline
+                             as using the Apple Store app on a smartphone to buy       transactions between two parties who have little
+                         goods within an Apple Store or the purchase may be       knowledge of, or trust in, each other. Today this trust
+                          from a competitor, with the customer using a third-        can be built with the wealth of communication tools
+                              party app (such as the one provided by Amazon), with     and data that the Internet and smartphones provide,
+                            the physical store being little more than a showroom.       enabling some of the more prominent loyalty schemes
+                        Moving the point of sale from the merchant’s premises       (particularly those managed by airlines) to take on
+                             to the customer’s smartphone eliminates the need            similar functions to the leather money tokens issued by
+                                for cash.                                       some shops, mentioned earlier. These shared accounts,
+                                                                                                     in effect, are denominated by complementary currencies
+                                  Digital technology is also enabling the payment to be        that can expose the firms that create them to all the
+                      moved in time. Starbucks Rewards brings the payment       benefits and risks of managing a currency.
+                            forward, creating a sunk-cost to foster consumer
+                                    loyalty. Skip, on the other hand, allows the payments       While digital transactions are replacing physical
+                             to be pushed into the future, removing one decision         transactions, the bigger threat to cash in the longer
+                        (“How will I pay?”) from the buying process. Clearance     term may be use of shared accounts – complementary
+                            occurs when the customer orders via the Skip app. In        currencies – to reduce the need for traditional
+                          both cases, the merchant can aggregate transactions       payments.
+                             to reduce interchange fees, or even avoid them entirely
+                          by using a direct bank-to-bank transfer to route
+                             settlement through conventional debit mechanisms or
+                                 via an alternative low-cost service such as CurrentC™.
+                          Payments are moving in time away from the point
+                             of sale.
+
+
+
+
+
+40
+
+=== PDF PAGE 41 ===
+This raises the interesting question of how to support      Cash also has an important role in bringing many of
+peer-to-peer payments, such as when friends split a bill.     the disadvantaged in society into the economy. Any
+Typically, these debts are settled with cash, or via the         effort to create a cashless society must ensure that
+time-honoured ritual of friends taking it in turns to pay     people who are unbanked or unable to obtain credit
+on subsequent outings, or simply refusing to accept        can access the services they need.
+settlement of small debts. Solutions are emerging that
+allow individuals to transfer money directly between        There is clear evidence that the use of cash will
+accounts, both from established financial institutions        decline in the long term. There is also government
+(a good example is goMoney42 from ANZ) and start-ups     impetus to eliminate cash, partly as a cost saving and
+(where Venmo43 and Snapcash44 are experiencing some      partly to hamper organised crime. However, the future
+success on university campuses).                           of payments may not simply be to replace physical
+                                             money and payment solutions with more secure
+The trend for the payment to be embedded in the value    and streamlined digital equivalents. We also need
+-added service between merchant and customer is being    to consider how the changing relationship between
+replicated by peer-to-peer payments as firms integrate      merchants and consumers is removing the need to
+payments into social media platforms. Facebook is           transact at the point of sale.
+integrating payments into Messenger, its messaging
+app. The intention is to capture messages that imply         Increasingly, we are choosing to transact with
+payments, such as telling a friend “the movie ticket was    merchants and peers with whom we have a relationship,
+$10”, and to convert the dollar amount into a hyperlink     often mediated by social media. We are managing these
+to make a payment to the initiating party. The intention      relationships via a shared store of value that behaves
+is that a debt organised via Facebook (such as when a       as a complementary currency. We’re using this to move
+group of friends organise to go to the cinema together)     purchases away from the point of sale, both in time and
+is also settled via Facebook.                                     in space, so we can focus on our relationship and the
+                                                          value created rather than the need to transact with an
+These informal arrangements become more difficult         individual or organisation we don’t trust. We are not
+to organise as transactions move away from the point        just replacing physical payments with digital – swapping
+of sale. The cinema outing, for example, may result in      our leather wallet for an e-wallet – but we are also
+each individual in a group wanting to buy their tickets      moving the payment from the centre of the relationship
+separately so the purchase is associated with their own      to the edge.
+loyalty account (and any bonuses and discounts) rather
+than that of the organiser. Peers will need to choose       However, if electronic payments are to replace physical
+between exchanging value via their transactional           ones, all use cases need to be covered, including various
+payments app (provided either by their bank or a start      permutations of peer-to-peer payments and support for
+-up), via a shared social network, or potentially via a        the disadvantaged and unbanked in society. While cash
+common loyalty scheme.                          may be low-tech, it is very flexible and inclusive and we
+                                                   can expect it to be part of the payments landscape for
+We can expect cash to have a continued (though         some time.
+diminished) presence in peer-to-peer transactions.
+Even though it is low-tech, it is flexible and can be used
+in circumstances in which two individuals who want to
+split a bill don’t share the same bank, social network,
+or loyalty program.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  41
+
+=== PDF PAGE 42 ===
+42
+
+=== PDF PAGE 43 ===
+Digital Disruption
+and Exchanging Value
+
+
+
+
+
+                    Deloitte’s 2012 report, Building the Lucky Country #2: Digital disruption – Short fuse, big bang?45
+                  outlined how new digital technologies are disrupting customer transactions, currency and payments:
+
+              •  Mobile payments are gaining prominence, with many transactions moving to mobile phones,
+                       tablets and other portable devices because of their convenience
+
+              •  NFC-technology is enabling faster and more efficient transactions through platforms
+                   such as the tap-and-pay feature of payWave and PayPass
+
+              • New mobile applications and products such as virtual wallets with integrated payment options
+                     are streamlining payments processes
+
+              •  Online and mobile payments are enabling companies to develop web applications and e-commerce
+                      platforms, providing new and integrated ways for businesses to reach customers.
+
+               The report found that customers were driving many
+                  of these trends as they sought ways to make payments more efficient and to reduce the time taken for
+                    financial transactions. The report highlighted the need for businesses to provide a better customer experience
+                by offering the more efficient payment methods now available using these new technologies. It also noted
+                  that more efficient new payment technologies could
+                  cut costs for businesses.
+
+              Work conducted in 2015 by the World Economic Forum in collaboration with Deloitte suggests the digital
+                  disruption of transactions and payments may have significant implications for financial institutions and
+               payment providers. As businesses seek to provide their customers with more streamlined and integrated
+               payment methods, financial institutions and payment providers may have less control over the elements of a
+                   transaction. This reduced visibility means that becoming the default option for businesses and customers will
+              become critical – for example, being the payment platform linked to specific services (such as PayPal) or the
+               payment instrument that is pre-selected when a user ‘taps’ their virtual wallet. On the other hand, institutions
+                  that are able to capture large market segments will have access to huge amounts of information on spending
+                   patterns, allowing them to build a more holistic understanding of users’ preferences and subsequently create
+              more competitive offerings.
+
+
+
+
+
+                                                                            The Future of Exchanging Value Cryptocurrencies and the trust economy  43
+
+=== PDF PAGE 44 ===
+      Rum and cigarettes6
+
+
+
+
+
+44
+
+=== PDF PAGE 45 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  45
+
+=== PDF PAGE 46 ===
+                                          It’s clear that how we pay is changing. What we use to    One line of thought is that while Bitcoin is a
+                          pay – the currency, the unit of account and the medium    compelling technology, there is no sign of the ‘killer
+                             of exchange – is also changing. New stateless digitally      app’ – the combination of end-user functionality
+                              native currencies (Bitcoin being the most prominent       and currency attributes – that will get most of the
+                           example) threaten to supplant sovereign currencies. If       population on board, similar to how email was the
+                            the future of society is virtual and stateless – a world           killer app that attracted the general population to the
+                                  in which we identify more strongly with a global tribe        Internet. This belief in the need for a killer app has
+                               knitted together by social media than the geographically    resulted in many new FinTech solutions and start-ups as
+                            defined nation we happen to live in – then the future        financial institutions and entrepreneurs search for that
+                             of exchanging value must also be virtual and stateless.      combination of functionality and business model that
+                                                                                                            will take Bitcoin, or some other cryptocurrency, into
+                   A store of value                                          general use. New solutions are emerging every day
+                         The libertarians, techno-utopians and gold bugs             that enable people to save, trade or spend Bitcoins,
+                          have seized on Bitcoin as the solution to many of          from new e-wallets and exchanges through to services
+                            the problems they see in the current economic system.      that anonymise payments by passing them through
+                                Libertarians see Bitcoin as the tool that will enable            ‘Bitcoin mixers’46. These mixers combine unrelated
+                       them to move the world economy out of the hands of     payments in a single bitcoin transaction to hide each
+                              national governments and fiat currencies and into the      payment’s origin, industrialising money laundering
+                         hands of individuals. The technology boosters argue          in the process. There’s also a proliferation of new
+                              that Bitcoin’s low-cost, peer-to-peer approach will           cryptocurrencies, each intended to tweak a previous
+                           enable us to bring the unbanked into the digital system     cryptocurrency or create a new one that takes a
+                        and create a truly global currency. Others see Bitcoin         different spin on the same basic ideas.
+                             as a tool to avoid government-created inflation (and
+                            the devaluing of savings) by moving to a deflationary       As we have already discussed, currency is woven
+                               currency, as the number of Bitcoins that can be created      into the relationship between two parties, and the
+                                           is finite. Demand rises, the value of the currency can       needs of this relationship have significant influence
+                             only go up, making the prices of goods and services fall.    on what currency will be used. One example is the
+                         The gold bugs see Bitcoin as a more achievable goal         leather money tokens issued by English shopkeepers,
+                           than (to them) the desirable return to the gold standard,    mentioned earlier, that provided a way to exchange
+                           with similar benefits.                                       value but had little value outside the local area,
+                                                                                 so that merchants demanded a more universally
+                         As a currency and a technology, Bitcoin has many          accepted sovereign currency to settle larger debts.
+                             supporters who are betting on a future in which        We see a similar dynamic with the development of local
+                              national fiat currencies are much less important than         currencies, such as the Brixton Pound, also mentioned
+                            they are today. This is our ‘new paradigm’ scenario,           earlier. One of the most successful examples of a local
+                        where a shiny new bitcoin paradigm replaces the           currency was the demurrage currency used in the
+                              current financial infrastructure. (‘Bitcoin’, with an            Austrian town of Wörgl between 1932 and 1934.
+                           uppercase ‘B’, refers to the currency, whereas            The parish printed paper notes called ‘labour certificates’
+                                   ‘bitcoin’, with a lowercase ‘b’, refers to the                    in the midst of the Great Depression when the number
+                             underlying technology platform.)                           of unemployed people in the parish had risen to 350
+                                                                                 out of a population of more than 4,000 at a time when
+                           While some early adopters are using Bitcoin                  federal tax revenue was dropping. The nominal value
+                                 preferentially to store their wealth or pay for their daily      of notes depreciated by 1 per cent a month unless the
+                          needs (where possible), it has not been broadly adopted    owner affixed a stamp covering the full extent of the
+                          by the public. Bitcoin and other cryptocurrencies, for all     devaluation to the note before the end of the month.
+                                  their media attention, remain a niche interest.             These stamps were sold at the parish hall, providing
+                                                                           Wörgl with much-needed tax revenue to support works
+                                                                             programs to benefit the unemployed. The currency was
+                                                                            withdrawn in 1933 after repeated demands from the
+                                                                                        Austrian government.
+
+
+46
+
+=== PDF PAGE 47 ===
+Indeed, the most significant factor affecting                         It is quite possible for complementary currencies to
+widespread adoption is government intervention.           achieve widespread adoption within these constraints.
+Governments can use the rule of law (backed by the        Indeed, loyalty programs finally found their stride with
+threat of violence) to force currencies into circulation.       the development of frequent flyer miles. Cross-border
+National governments of developed countries issue          (cross-currency) transactions may play a similar role for
+debt in a sovereign currency and require it to be used        cryptocurrencies.
+as legal tender. Colonial currencies typically were
+brought into circulation when a coloniser compelled       The role cryptocurrencies now play is similar to the role
+subsistence communities to pay land taxes in the         rum played during Australia’s colonial days or cigarettes
+sovereign currency, forcing them into the coloniser’s        played in the prisoner of war camps of World War II.
+economy and monetary system. Governments can also     The Australian colonies found English currency in short
+use the rule of law to prevent widespread adoption of      supply as the colonial power was at the far end of the
+non-sovereign currencies. In some instances, such as        world, forcing them to improvise, while prisoners of
+happened in Wörgl, the currency is simply banned once    war turned to cigarettes when they needed a means of
+it is considered a threat to the tax base. At other times,      settling debts. Valuable commodities such as rum and
+the legal status of the complementary currency              cigarettes became a means of exchanging value when
+is refined so that the currency is treated as a voucher,       there was a shortage of sovereign currency.
+as with the case of the Bristol Pound. In other instances,
+the currency is legally considered an ‘intangible asset’,      Cryptocurrencies may be adopted in a similar way to
+a commodity rather than a currency, forcing it to be        a loyalty scheme or shop-issued tokens until a national
+taxed as such, which is what happened with Bartercard     government agrees to accept taxes or issue debt in a
+in the early 1990s.                                          cryptocurrency. Complementary currencies such as rum,
+                                                                 cigarettes, local currencies and even loyalty schemes
+It is clear that the single most significant driver-of or        can play an important role by providing alternative
+barrier, to widespread adoption of a currency is the       means of exchange and stores of value for times
+national government’s attitude to it. The government     when a sovereign currency is not the most appropriate
+can choose to ban a currency, preventing its circulation.     tool for managing the relationship between two
+Classifying the currency as a commodity for legal             parties. This role will wax and wane depending on the
+purposes hinders adoption by ensuring that all              circumstances. For instance, it may be more important
+exchanges of value denominated in the currency              in troubled economies, such as in Argentina with its
+attract additional taxes. The government can also take a     volatile national currency and dysfunctional banks,
+neutral stance by treating the complementary currency     where less than half the population uses banks, credit
+as a foreign currency, neither hindering its use nor           cards. Cryptocurrencies may play a smaller role
+encouraging its adoption. Finally, the government can        in mature, stable economies such as Australia’s.
+promote, or even compel, the adoption of a currency
+by considering it legal tender or, more strongly, by        Few individuals, however, will accept the risk of being
+requiring citizens to use it to settle tax debts.               paid in a stateless cryptocurrency when they are taxed
+                                                                   in a sovereign currency. Similarly, few governments
+The single most powerful driver for the adoption of           will choose to have tax receipts or national debt at the
+a currency is a government’s demand that taxes or         mercy of exchange rates with a stateless cryptocurrency
+debts be paid in the currency as this encourages (or        beyond their control.
+forces) firms and individuals to use it. Similarly, the
+most powerful inhibitor is the classification of the
+complementary currency as a commodity (forcing all
+exchanges to be taxed as if they are an exchange of
+goods), or the outright banning of the currency.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  47
+
+=== PDF PAGE 48 ===
+                   A means of exchange                                       Bitcoin is built around the idea of Bitcoin mining.
+                         As we have just discussed, it is unlikely that Bitcoin will     Miners assemble Bitcoin transactions into blocks
+                        be adopted across an economy. Even its many fans will     and then ‘sign’ these blocks, where each transaction
+                                readily admit that a wholesale shift to Bitcoin is unlikely.     specifies how a Bitcoin (or fraction of a Bitcoin) is
+                               This has resulted in a growing view that it is the block       to be split into one or more parts, with each part
+                            chain – the public ledger technology that underpins         distributed to a new owner. Signing is the process of
+                            the currency – that is the important part of Bitcoin, not     computing a hash – a complex mathematical process
+                            the currency itself. There is significant hope that the         that creates a number associated with the block – then
+                             block chain technology can create cheap and effective       distributing the hash and its accompanying block of
+                               solutions for international, inter-currency transfers and       transactions to other miners. This series of signed blocks
+                                for transfers between major institutions. This has the        of transactions forms the block chain. A transaction is
+                               potential to disintermediate the existing clearing houses    accepted into Bitcoin’s distributed ledger when a block
+                        and exchange services, causing significant disruption to     containing the transaction is accepted by a group of
+                            the firms involved in the current payments processes,        Bitcoin miners. In the short term, the miner is rewarded
+                                                if not to the finance sector as a whole.                    with a few Bitcoins. In the longer term, when the
+                                                                                      supply of unallocated Bitcoins is exhausted, individuals
+                         The existing system of international monetary transfers       will encourage miners to add transactions from the
+                                           is awkward, slow and expensive. This is especially            individual to a block by including in the transaction a
+                              true given that ubiquitous Internet connections mean       small amount of value (denominated in Bitcoin) that
+                        commodity prices can be found, and ownership            the miners can keep.
+                                transferred, instantly. International monetary transfers
+                                currently are done via intermediaries, take days to effect    As is plain, the Bitcoin currency is a key component of
+                        and are comparatively expensive. If we can buy and sell     the bitcoin process as the value transferred to miners
+                              stocks and commodities around the world, why not         provides the incentive required for them to bundle
+                                transfer funds? Block chain is seen as a solution to this       transactions into blocks and sign them. Without this
+                          problem as it would enable the creation of a distributed,    bundling and signing, the bitcoin process won’t work.
+                             peer-to-peer solution that would remove intermediaries.     Bitcoin’s promise of near-instant transfers of value
+                         The result would be cheap and speedy transfers of funds      is possible only if there are enough miners to ensure
+                              that reduce risks by narrowing exchange spreads,            transactions are picked up promptly and bundled
+                                credit risk and collateral costs.                                into blocks.
+
+                         The challenge is that cryptocurrency and protocol are
+                           not easily separable. Put another way, it is not possible
+                             to separate the currency (Bitcoin) from the technology
+                                  (bitcoin, the block chain) as they rely on each other.
+                         As initially conceived, the currency is a key technology
+                                  in the overall Bitcoin solution.
+
+
+
+
+
+48
+
+=== PDF PAGE 49 ===
+It is quite possible to remove Bitcoin (the currency)          Ripple is another cryptography-based approach to
+from the other technologies that underpin bitcoin          exchanging value and one that makes the role of the
+(the platform). However, doing so removes the             cryptocurrency (XRP, in this instance) much plainer.
+incentive for miners to bundle and sign transactions,        Ripple replaces block mining with a distributed database
+leaving a collection of useful but otherwise unrelated        of information about all Ripple accounts. A network
+technologies. These technologies may be used to create     of independent services each maintain a copy of the
+a galaxy of ‘block chain’ solutions, though often these      database and constantly compare the transaction
+will have only an incidental relationship to a traditional      records with those of other services. New transactions
+currency. Filecoin47, for example, allows users to store       are accepted in the network only when a majority of
+files in the block chain, and rewards them with Filecoins     services agree that the transaction is valid.
+for storing blocks on their computers. Another example
+is ZeroNet48, which uses a combination of block chain      XRP is a key technology in the overall Ripple solution.
+and BitTorrent technologies to create distributed          The Ripple protocol allows any currency to be traded
+websites that don’t exist on any single server. Block         over the network, not just XRP, though all accounts
+chain technologies could even be used to exchange         are required to hold a small amount of XRP (20 XRP,
+value via a distributed ledger within a closed system,        or A$0.21 as of 15 September 201549) as the currency
+without involving a cryptocurrency and with all value       performs three important roles in the protocol. First,
+denominated in an established currency, as miners can      the requirement to hold a small amount of XRP
+be incentivised via other means.                            hinders the creation of spam accounts. The amount
+                                                                                     is insignificant for normal users but rapidly becomes
+Removing the underlying technology, on the other          expensive for malicious users with large numbers of
+hand, creates an unusable currency not backed by a        accounts. Second, each Ripple transaction destroys a
+government (and its ability to extract taxes), a private        small amount of XRP (0.00001 XRP, or A$ 0.00000105).
+institution (which is expected to honour its obligations),     This should be insignificant for normal users, but would
+a commodity (a scarce and valuable resource) or a           rapidly become expensive for malicious users trying to
+formally defined community (as Bitcoin is, since its value    spam the network with transactions. Third, XRP can
+rests on trust that the community brought together by     be used as a bridging currency to facilitate exchanges
+the mining and exchange of value process will provide     between two currencies not commonly traded, making
+stability and liquidity).                                                             it challenging to establish an accurate currency-to-
+                                                         currency exchange rate.
+Clearly, the currency is an integral technology in the
+overall Bitcoin solution to exchanging value. If Bitcoin,     One hundred billion XRP was created at Ripple’s
+or a related cryptocurrency, is used to create faster,          inception, with the protocol’s rules specifying that no
+cheaper and more efficient international money          more is allowed to be created. This makes XRP a scarce
+transfers, they would need to be triangulated through       asset, which should cause the currency to appreciate
+Bitcoin with the associated risk of passing value            over time. The company behind the protocol – Ripple
+through a highly volatile currency. Many institutions         Labs50 – has reserved 20 billion XRP for
+and individuals will find this unacceptable.                fund development.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  49
+
+=== PDF PAGE 50 ===
+                             Cryptocurrencies are caught in a Catch-22 situation.       XRP if the firm doesn’t require the anti-spam features
+                    On the one hand, the unstable nature of many of          provided by the currency in the closed environment of
+                            “the currencies hinders their widespread adoption.         the bank and its subsidiaries. Nine of the world’s biggest
+                         The highly variable exchange rates between Bitcoin        banks – including JP Morgan, State Street, UBS, Royal
+                            other stateless cryptocurrencies and sovereign currencies   Bank of Scotland, Credit Suisse, BBVA and CBA – are
+                       means prices for goods and services quoted in them         also working together to use block chain technology
+                         must be constantly maintained by merchants, while also     (bitcoin, the platform, but without the cryptocurrency)
+                         making them poor stores of value for consumers. The       to streamline the financial markets. Their focus is on
+                        most obvious solution is to foster widespread adoption      using the technologies post-trade for settlement. One
+                           so that the speculators who dominate these currencies,     possible example is the issuance of commercial paper
+                        and who create the instability, are crowded out by less     on the block chain, allowing two parties to transfer
+                                active investors, the merchants and consumers who are     ownership within minutes and with no need for a third
+                             looking for a means of exchange and store of value.         party to verify the transaction.
+                    A government could drive this adoption simply by
+                         mandating that citizens use a cryptocurrency to settle       There is also growing interest in Bitcoin, or another
+                                  their taxes. However, as we’ve already discussed, this is      stateless cryptocurrency, to replace the US dollar as the
+                               highly unlikely.                                             global reserve currency. The intention is to find a reserve
+                                                                                            asset for central banks that better reflects the global
+                                              If not a government though, then why not a sufficiently    economy as the US dollar is vulnerable to swings in the
+                               large and stable institution?                              domestic economy and policy. This shows in commodity
+                                                                                                    prices, which go up when the US dollar depreciates.
+                              Multinational firms have expressed interest in using      A stateless currency could help prevent spikes in
+                              cryptocurrencies to settle cross-border transactions         energy prices when the US dollar weakens significantly.
+                             within their organisations. Commonwealth Bank of         Indeed, there is a trend away from using the US dollar
+                                Australia (CBA) is a case in point. It announced recently     to denominate international exchanges of value, shown
+                              that it was trialling Ripple for transferring payments        by China’s agreements with various trading partners to
+                        between subsidiaries of the bank . However, it is not         settle trades in their own currencies. Stronger evidence
+                      known if CBA will participate in the global pool of XRP     can be found in the diversification of reserves held
+                           (and thereby ensure its Ripple protocol will interoperate     by many nations. Other major government-backed
+                           with other institutions using the protocol) or whether        currencies of sufficient scale – primarily the euro
+                     CBA will issue its own version of XRP (making CBA’s       – have similar problems.
+                           implementation stand-alone). CBA can even forgo
+
+
+
+
+
+50
+
+=== PDF PAGE 51 ===
+Figure 5: Composition of foreign exchange reserves
+
+
+
+110.0
+
+
+
+
+
+82.50
+
+
+
+
+
+55.00
+
+
+
+
+
+27.50
+
+
+
+
+
+ 0.0
+
+      1996       1998       2000       2002       2004       2006       2008       2010       2012       2014
+
+
+             Shares of US dollars                            Shares of Swiss francs                             Shares of other currencies
+
+
+             Shares of Pound sterling                        Shares of Japanese yen                            Shares of Euros
+
+
+             Shares of Canadian dollars                     Shares of Netherlands guilders                     Shares of ECUs
+
+
+             Shares of Deutsche mark                       Shares of French francs                            Shares of Australian dollars
+
+
+        Source: IMF52
+
+
+
+There has been talk of replacing the US dollar with special drawing rights (SDR) created by the International Monetary
+Fund (IMF) in 1969 to supplement its member countries’ official reserves. The SDR’s value is based on a basket of
+four international currencies – the US dollar, pound sterling, euro and yen – and can be exchanged for freely usable
+currencies. Typically, the funds the IMF lends to countries are denominated in SDRs. China, eager to take the yuan
+global, wants the IMF’s five-yearly review of the basket of currencies to include the yuan, which requires formal
+recognition of the yuan as a reserve currency. For many stakeholders, the SDR seems an ideal candidate for a global
+reserve, particularly once its basket of currencies contains the yuan53.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  51
+
+=== PDF PAGE 52 ===
+                         The SDR was created to support the Bretton Woods       The trust dynamics that limit the adoption of
+                                fixed exchange rate system. Bretton Woods requires         cryptocurrencies within a closed community also limit
+                                participants to hold official reserves to purchase their       adoption across communities. Money is a technology
+                           domestic currencies in foreign exchange markets to          for resolving obligations between individuals who
+                            maintain exchange rates. A new reserve asset was          don’t know, or don’t trust, each other and for whom
+                              required as the supply of two key reserve assets of the       barter is too awkward. The strongest possible driver for
+                            time – gold and the US dollar – proved inadequate for       national adoption of a cryptocurrency is for the national
+                            supporting the expansion of world trade and financial      government to mandate that taxes be paid in the
+                           development. One of the hopes for the SDR was that it      cryptocurrency. Similarly, the strongest possible driver
+                        would function as a reserve currency, though the SDR is     for global adoption of a global reserve cryptocurrency
+                              neither a currency nor a claim on the IMF. Instead, it is     would be global institutions that can force their will on
+                          a potential claim on the freely usable currencies of the     most cross-border trade, mandating its use. Otherwise,
+                             IMF’s member countries. One school of thought when       stateless cryptocurrencies will continue to play a niche
+                            the IMF was established 70 years ago was that it would      role in the global economy, just as they do in national
+                        be the custodian of a global reserve currency. However,     economies. Individuals and institutions will still find it
+                       SDR was overtaken by history when the Bretton Woods    more convenient to conduct their business in one of
+                           system collapsed and the major currencies shifted to        the currencies at either end of the transaction (which,
+                                floating exchange rates, facilitated by the growth in         as we’ve already stated, is most likely to be a national
+                               international capital markets that simplified borrowing        fiat currency), in a trusted third currency (which, by
+                          by creditworthy governments.                             sheer size, may be the global reserve currency) or in a
+                                                                              weighted basket of currencies as a risk management
+                         The opposite point of view is that adopting SDR as a        strategy to limit exposure to any single currency.
+                              reserve currency would not change the fundamentals
+                             of the current status quo as it is simply an aggregate of      International inter-currency exchanges may travel over
+                                      fiat currencies and would lose value like a fiat currency      peer-to-peer technology platforms based on (or inspired
+                                                if the nations in the basket print currency with abandon.     by) the technologies that underpin cryptocurrencies such
+                                             It could also be considered a risk management tool as it     as Bitcoin or XRP, but value will continue to be stored
+                             allows holders to spread their exposure across multiple     and exchanged in conventional sovereign currencies.
+                              reserve currencies, something many organisations may
+                          choose to do directly as it enables them to tune the
+                            weightings of the basket of currencies to more closely
+                        meet their needs.
+
+                                              If the global reserve currency is to be stateless, it
+                               also needs to be independent. This means it would
+                         need to be supported by enforceable taxation rights
+                              across participating countries, or valued against a
+                                single commodity (gold, for example) or a basket of
+                          commodities such as gold, oil, grain, etc. owned by an
+                                issuing entity. A third option, enabled by our increasingly
+                              globalised and virtual world, is to adopt a stateless
+                              cryptocurrency.
+
+
+
+
+
+52
+
+=== PDF PAGE 53 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  53
+
+=== PDF PAGE 54 ===
+        Conclusions7
+
+
+
+
+
+54
+
+=== PDF PAGE 55 ===
+The Future of Exchanging Value Cryptocurrencies and the trust economy  55
+
+=== PDF PAGE 56 ===
+                         The tools of exchanging value – the bill, (physical) credit   We noticed that consumers find the process of handing
+                             cards and even the wallet – were created to manage        over some form of money to the merchant to be
+                                  trust in a world where we had little, if any, information      annoying. It’s not that we don’t want to pay merchants
+                          about who we were dealing with. Debt and credit will       for the goods and services, but we prefer it if the
+                           always exist, but the tools to manage the relationship      payment happens at the edge of our shared relationship
+                        between two parties can change dramatically. Simply        rather than in the middle, as services as diverse as Skip
+                                  digitising our existing wallets – swapping leather for bits    and Uber have demonstrated. The focus on optimising
+                         – does not address the changing nature of trust. Digital     the existing payment process, removing pain points and
+                           technology is changing how we interact with the world,    transforming physical wallets to e-wallets represents a
+                           but it is also changing how we relate to each other,         legacy approach based on how merchants have done
+                         which is often overlooked. The disruption narrative that     things in the past, not how customers want to interact
+                         seems to dominate conversations today comes from a      with merchants in the future. This is a production-
+                               strongly technological determinist world view, though      centred mindset, in which the merchant defines the
+                       no technology has ever survived intact after contact         relationship with the customer. Digital technology has
+                           with society. We need to consider society and            changed this relationship, with the balance of power
+                           technology together to understand what the future          shifting to the consumer, who now sets the ground
+                                    will bring.                                                          rules. The consumer now defines the value, and the
+                                                                                mindset is consumption-centred. We believe this creates
+                                In our first report on exchanging value, we found that      an opportunity for merchants to use loyalty schemes to
+                         consumer preference rather than technology would       manage their relationships with customers. They can
+                        be the strongest force shaping how we measure, store      use these schemes as a shared store of value, in effect a
+                        and exchange value. We’d come to the end of the         complementary currency. This provides both merchants
+                           technology build-out phase, and our focus was shifting     and customers with much greater control over the
+                          from deploying infrastructure to streamlining the             relationship. Merchants can use the shared store of
+                           buying journey from the pieces and parts to the whole.     value to move the payment away from the exchange of
+                         The focus for many organisations was on removing        goods or provision of service both in time and in space
+                            pain points from the established processes for              to create a ‘sunk cost’ that fosters customer loyalty.
+                             clearance and settlement.                              Customers can use the shared store
+                                                                                        of value to streamline their interactions with the
+                                In this report, we’ve dug deeper to understand how        merchant and simplify access to loyalty rewards,
+                         consumer behaviour is changing. Trust has emerged as      allowing them to focus on what they care about:
+                        one of, if not the, most important factor in the future of     interacting with employees and building the
+                          exchanging value. Money is best seen as a technology       relationship, not transacting. However, expanding
+                                for resolving obligations between individuals who don’t      loyalty schemes in this way can bring merchants under
+                         know, or don’t trust, each other and for whom barter       the purview of AML/CTF regulations, which the airlines
+                                           is too awkward.                                        with their mature loyalty schemes are all too aware of.
+
+
+
+
+
+56
+
+=== PDF PAGE 57 ===
+Cryptocurrencies, with their distributed ledgers,            There is also significant interest in finding innovative
+have clearly brought something new to the table.        new uses for the technology platforms that underpin
+The technologies that underpin cryptocurrencies             cryptocurrencies. If not Bitcoin (the currency), then why
+promise to transform how value is exchanged, with        not bitcoin (the technology platform)? Cryptocurrencies
+today’s intermediaries cut out of the process in the          are not necessarily separable from their technology
+move to peer-to-peer approaches. These technologies       platforms, as the currency itself is integral to the
+are faster and more efficient than the current processes     end-to-end solution. Clearly, we can take apart the
+and will replace them as part of a Darwinian evolution       constituent technologies and reuse them to create
+of technology. Only regulation is preventing this change,    a wealth of new solutions, many of which could
+and regulation always changes when enough pressure       disrupt the financial sector by disintermediating the
+is applied. While the intermediaries may be happy           current payments process. Many will also have little
+with the current situation, the parties at either end of       resemblance to a cryptocurrency, such as a distributed
+the transaction – the merchants, financial institutions        ledger to track transactions within a firm, or a
+and consumers – are unhappy and actively looking for       distributed content management solution that enables
+alternatives. A consortium of merchants in the US,          the creation of distributed websites that don’t live in
+led by Walmart, is investing in a peer-to-peer payments     any single location. In this report, however, our interest
+solution under the banner of CurrentC™, where                  is in exchanging value, not on accounting, content
+clearance is via direct account-to-account transfers.       management, maintaining authoritative registers or
+A cryptographically based peer-to-peer approach is a        other possible uses of the core technologies. Once
+logical technological step and we expect it to be simply     the cryptocurrency is removed from the technology
+a matter of time before direct account-to-account,          platform, the platform is no longer capable of
+peer-to-peer transfers are used to settle payments.          supporting the use case we care about: measuring,
+                                                              storing and exchanging value between two entities
+The adoption of technologies on which cryptocurrencies    that do not know enough about each other to
+are based does not imply that the currencies themselves    develop mutual trust. The use of a peer-to-peer
+will be adopted. The strongest possible driver for          paradigm to address many of the deficiencies in our
+the adoption of a currency is a national government         current approaches to managing information storage
+mandating that taxes be paid in the currency or,          and transfers is a worthy topic of study and one we
+potentially, declaring the currency as legal tender and         will investigate in our next report.
+forcing merchants to accept it as payment. We also note
+that both of these events are unlikely. Consequently,
+we expect cryptocurrencies to play a niche role in the
+economy, a role similar to Bartercard or the leather debt
+tokens that merchants issued in the past. This isn’t to
+say that these cryptocurrencies won’t be successful,
+just that they won’t supplant a sovereign currency
+as the primary store of value for most people
+and institutions.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  57
+
+=== PDF PAGE 58 ===
+                                     Finally, we considered the possibility of using a        We can expect digital payments to take an
+                             cryptocurrency as a global reserve currency, a global         increasing share of transactions and the use of cash
+                               store of value and a means of exchange. Many nations     and cheques – physical money – to continue to decline.
+                        and institutions are dissatisfied with the US dollar in        However, the shift from physical payments to digital
+                            the role of reserve currency – being the most liquid        payments is better thought of as a move away from
+                        and stable currency on offer – because, as the saying       the point of sale, both in time and space. It is also
+                          goes “when the US sneezes the world catches a cold”.       clear that the peer-to-peer technologies used to create
+                           At first glance, a distributed, Internet-native currency        cryptocurrencies are more efficient and effective than
+                        would seem best suited to the role of reserve currency      the intermediary-based solutions currently in place.
+                                  in a digital and online world. Unfortunately, individuals    A future of purely incremental technological and social
+                           (and institutions) will use the most convenient currency     change – where the incumbents integrate these new
+                               at hand based on the level of trust between the two        technologies into their current solutions to improve the
+                                parties unless they are coerced by higher powers.            existing processes – also looks unlikely.
+                                In international exchanges, this usually will mean a
+                             currency from one end of the transaction,               Nor can we expect the future to bring a new paradigm
+                             or a currency from a much larger (and trusted) third          in which consumers set the terms and determine how,
+                                 party. We can expect cryptocurrencies to take on a       when and in what currency they will transact – a future
+                                  similar role as that held by SDR, as a specialist tool for        in which the current processes for exchanging value
+                          exchanging value used in specific circumstances, with       are transformed by high technological change and high
+                        most international transfers remaining in                      social change. The balance of power may have tipped
+                             sovereign currencies.                                  from merchant to customer, but the customer’s choice
+                                                                     on how, when and in what currency they transact is still
+                        Near and far future                                      constrained by the context in which they operate. While
+                           Looking back to the scenarios in which we explored        customers or merchants may prefer to store their wealth
+                             big and small change aspects for both technology and     and make all their payments in Bitcoin, they are also
+                                 society, and considering what we know about how         forced to deal with the preferences of others and the
+                           technology and society interact, we may conclude a         constraints placed on them by the government.
+                       number of things.
+                                                                          The most likely outcome is a transition to a new
+                                             It is highly unlikely that Bitcoin or other distributed           equilibrium. This future involves a significant change
+                        and online cryptocurrencies for a digital and borderless       in the relationship between merchants and consumers
+                          world will trigger a collapse of the existing system         and between institutions in the finance sector. However,
+                             as there is no indication they could ever achieve                    it is also a future in which the technology we use to
+                            the level of adoption required. The ambitious             exchange value changes incrementally.
+                              predictions for sovereign currencies being supplanted
+                          by cryptocurrencies are clearly wrong. As we have
+                           mentioned, no technology survives contact with society
+                            unscathed. Cryptocurrencies enable many possible
+                                futures, but one in which technology forces us to
+                               rethink the foundations of our financial system with high
+                              technological change but incremental social change –
+                                           is clearly not viable.
+
+
+
+
+
+58
+
+=== PDF PAGE 59 ===
+Sovereign currencies will remain and individuals will        Considerations
+continue to measure and store their wealth (and be       Money is a technology for managing the exchange of
+taxed) in the local sovereign currency, as the relationship    value when the parties involved in transactions either
+between state and citizen remains unchanged.             don’t know, or don’t trust each other well enough to
+                                                      develop the level of trust required. Consequently, the
+The customer–merchant relationship, on the other          future of exchanging value looks like it will be shaped
+hand, is changing dramatically. Value is now defined by      primarily by social pressure rather than technology.
+consumption and consumer preferences, rather than by     This is both an opportunity and a challenge.
+production and the features and functions a merchant
+chooses to make available. This means social rather than   The challenge is that it is difficult, if not impossible,
+technological forces will shape the future of payments.      to predict the outcome of a socially driven change.
+Consumers’ deep-seated dislike of handling money is     We can see this on the stock markets, where quoted
+pushing the payment – the exchange of value – from        prices represent the consensus opinion of the stock’s
+the centre to the edge of their relationship with the         value rather than the numerical result of a computation
+merchant. We expect these payments to be mediated     on the firm’s potential, based on fundamental business
+via complementary currencies and loyalty schemes           indicators. It can also be seen when active funds
+where value is defined relative to the local sovereign       managers who pick stocks struggle to perform better
+currency. The current practice of payment at the point      than passive, automated, index-tracking strategies.
+where the goods are exchanged or services consumed
+is likely to fall into decline.                            The opportunity is that the future will not be
+                                                     determined by the dispassionate logic of technology,
+Settlement between institutions will move to               enabling us to interact with the change as it unfolds
+new instantaneous payments mechanisms. These         – exploring, learning and creating opportunities and
+mechanisms may be based on exchanging value via      new roles for ourselves.
+a trusted intermediary in the short term, such as
+APCA’s New Payments Platform and the electronic         With this in mind, we’ll discuss what different
+conveyancing platform of Property Exchange Australia.      stakeholders may consider as they navigate the future
+In the mid to long term, settlement is expected to           of exchanging value.
+move to peer-to-peer solutions, possibly based on
+block chain or other technology platforms derived from
+cryptocurrencies, which are more efficient and effective
+than intermediary-based solutions.
+
+Finally, international transfers will migrate to new
+peer-to-peer cryptocurrency-based solutions where the
+solution’s native currency (such as XRP for Ripple), other
+than facilitating the payments process, is used only for
+triangulation between two currencies not
+commonly traded.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  59
+
+=== PDF PAGE 60 ===
+                          Merchants should consider the shift to virtual payments      Financial institutions should consider themselves
+                             as a move to mobile payments. The long-term trend        the platforms for the creation of payments solutions
+                    we see is for consumers to use their mobile devices to       rather than the providers of a small number of well-
+                          mediate their interactions with merchants, including        defined end-to-end payments solutions. The payments
+                           payments. This may not be via an e-wallet on a mobile      landscape is becoming an innovation battleground on
+                          phone, though. It is more likely that payments will be      which the winners will be determined by consumer
+                       embedded in the end-to-end service provided by the        preference rather than technical merit. While we can
+                           merchant. Apple’s Apple Store app is a good example,     be confident that these payments will be in sovereign
+                             as are the solutions provided by Skip and the Starbucks      currency, how and when these payments will be made
+                                 loyalty scheme. Merchants need to understand how            is not certain as we can see the cracks in the ‘buy at the
+                          customer payments are woven throughout their                      till’ model. As we noted for merchants, the shift away
+                                interactions and that customers will determine when       from the till will likely result in the growth of loyalty
+                        and how payments are made. If merchants make the      schemes that function as complementary currencies.
+                        payment inconvenient (by forcing consumers to find         Financial institutions have the expertise in AML/CTF
+                                  their way to a physical till, for example) they can expect     regulation to ensure these loyalty schemes are safe,
+                           customers to find more convenient options (using           secure and compliant.
+                         Amazon’s app from the aisle, perhaps). Merchants
+                           should experiment with payments technologies and          Financial institutions might also explore new ways of
+                               solutions to find ways to build closer relationships with      creating value for their customers. The current focus
+                           customers rather than simply upgrading to the latest      on products and transactions is a result of a historically
+                               solutions provided by the incumbents. Merchants should    product-centric relationship with customers. However,
+                               also consider how they can use their loyalty schemes to     as we’ve noted many times, value is now defined by
+                                foster customer loyalty as a shared store of value rather     consumption rather than production. It’s been often
+                           than treating them simply as a convenient tool               said that banking customers want a home, not a home
+                             to pass discounts and vouchers to customers. Caution       loan. Similarly, the customer of a super fund wants a
+                                           is required, though, as this shift may expose merchants     happy retirement, not investment products.
+                             to AML/CTF regulation.
+
+                                Financial institutions face a different challenge.
+                          Payments now represent most of their interactions with
+                            customers, typically somewhere around 80 per cent.
+                  We expect this figure to drop significantly as payments
+                      move away from the point of sale, enabling merchants
+                             to aggregate transactions. These payments will also
+                        be hidden within the merchant’s product or
+                                service portfolio.
+
+
+
+
+
+60
+
+=== PDF PAGE 61 ===
+Firms involved in the existing payments and value        Managing disruption
+exchange processes used by the finance sector should      There is more than enough opportunity for all, but
+be wary. Peer-to-peer approaches to exchanging value      disruption in the financial sector is something that needs
+are proving to be more efficient and effective than the      to be managed carefully. This is largely a social change
+historical centralised solutions, and we expect these       and any shift will have winners and losers. However, by
+to be replaced rapidly. However, disruption of the           considering this a social change we can actively navigate
+established centralised solutions does not necessarily        the various possible futures enabled by the technology,
+imply disruption of the responsible firms. Development     working to shape the future we want rather than simply
+and maintenance of the technologies these peer-to-        being victims to one we think we’re forced to accept.
+peer solutions rest on must be supported. This support
+may come from an open-source model, such as the
+one used to develop and maintain Linux and, more
+recently, Bitcoin. It could come from a consortium-
+based approach supported by a standards body, or it
+may even be provided by a firm willing to invest the
+time and effort to ensure the peer-to-peer solution is
+correct and compliant with the relevant national and
+international regulations, of which Ripple Labs may be
+a good example. Indeed, the finance sector is heavily
+regulated and the need to support this regulation (with
+its accompanying burdens of proof and penalties) will
+be a significant driver in determining how these peer-to-
+peer solutions will be integrated into the finance sector.
+This may favour a conventional firm with significant
+experience in the regulatory environment.
+
+Other stakeholders should be less concerned by the
+disruption ahead. Regulators have shown time and
+again that new ideas can be integrated successfully into
+existing regulatory frameworks. We see no reason why
+cryptocurrencies and peer-to-peer technologies will be
+any different. Consumers also have no need to worry,
+as it is their preferences that will shape the future.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  61
+
+=== PDF PAGE 62 ===
+Endnotes
+
+
+
+
+
+                               1.   Peter Williams, Ian Harper and Peter Evans-Greenwood (2012), The future of exchanging value: Uncovering
+                         new ways of spending, Deloitte Australia.
+
+                               2.   Myki scam costs Victoria $4.2 million (25 August, 2015), The Age.
+
+                               3.   Greg Thomas (6 November, 2012), Thieves Launder Money by Crowdfunding Themselves, Motherboard.
+
+                               4.   Jon Matonis (5 July 2013), The Politics of Bitcoin Mixing Services, Forbes.
+
+                               5.   Trends in Retail Payments, Payments System Board Annual Report (2014), Reserve Bank of Australia.
+
+                               6.   Crystal Ossolinski, Tai Lam and David Emery (June 2014), Research Discussion Paper, The Changing Way We Pay:
+                                 Trends in Consumer Payments, The Reserve Bank of Australia.
+
+                               7.   Electronic transactions include debit and credit cards, BPAY, transactions via Internet or phone banking, PayPal
+                            and direct debit.
+
+                               8.   Crystal Ossolinski, Tai Lam and David Emery (June 2014), Research Discussion Paper, The Changing Way We Pay:
+                                 Trends in Consumer Payments, Reserve Bank of Australia.
+
+                               9.    Ibid.
+
+                            10.  Trends in Retail Payments, Payments System Board Annual Report (2014), Reserve Bank of Australia.
+
+                            11.  Reserve Bank of Australia Payments Statistics, C6: Cheques and Direct Entry Payments (www.rba.gov.au/
+                                    payments-system/resources/statistics/index.html).
+
+                            12.  Australian Bureau of Statistics, 3105.65.100 Australian Historical Population Statistics, 2014.
+
+                            13.  Reserve Bank of Australia Payments Statistics, C6: Cheques and Direct Entry Payments (www.rba.gov.au/
+                                    payments-system/resources/statistics/index.html).
+
+                            14.  Australian Bureau of Statistics, 6401.0 Consumer Price Index, Australia.
+
+                            15.  Stripe (www.stripe.com) enables private individuals and businesses to accept payments online through an easy-
+                                    to-use, consumer-friendly interface without the need to set up a merchant account, meet minimum transaction
+                              volumes or pay monthly account maintenance fees.
+
+                            16.  Square (www.squareup.com) enables individuals and merchants to accept debit and credit card payments via
+                                       their iOS or Android smartphone or tablet computer.
+
+                            17.  Virginia Harrison (2 June 2015), This could be the first country to go cashless, CNN Money.
+
+                            18.  Campbell Phillips (20 May 2013), Loyalty Programs in Australia: Coles Flybuys Takes First Place, Power Retail.
+
+                            19.  Ben Wofford (20 July 2015), “Up in the Air: Meet the Man Who Flies Around the World for Free”, Rolling Stone.
+
+                            20.  Brixton Pound (www.brixtonpound.org).
+
+                            21.  Shane Hickey (7 June 2015), “The innovators: the Bristol pound is giving sterling a run for its money”,
+                              The Guardian.
+
+                            22.  Gernot Jochum-Müller (19 September 2012), Langenegg is Euro-free, Allmenda.
+
+
+
+
+
+62
+
+=== PDF PAGE 63 ===
+23.  Launch of the local currency SoNantes, (25 Feburary 2015), Nantes Métropole.
+
+24.  Ithacash (www.ithacash.org).
+
+25.  BerkShares (www.berkshares.org/).
+
+26.  Shane Hickey (8 June 2015), “The innovators: the Bristol pound is giving sterling a run for its money”,
+    The Guardian.
+
+27.  Steven Morris (20 November 2012), “Mayor to take salary in Bristol pounds”, The Guardian.
+
+28.  The Nucleon was a scale model of a nuclear-powered concept car developed in 1958 by Ford. The car was
+     intended to be powered by a small rear-mounted nuclear reactor rather than a conventional combustion engine.
+
+29.  The ‘coincidence of wants’ problem is an important category of transaction costs that imposes severe limita-
+     tions on economies lacking a medium of exchange, which have to rely on barter or other in-kind transactions.
+    The problem is caused by the improbability of the wants, needs or events that cause or motivate a transaction
+     occurring at the same time and the same place.
+
+30.  RFi Group & Visa (June 2015), The Visa-RFi Group Australian Payments Report: The changing payments
+     behaviour of Australian consumers and the impact on banking relationships.
+
+31.  Clayton M. Christensen (1997), The Innovator’s Dilemma: When New Technologies Cause Great Firms to Fail,
+     Harper Business.
+
+32. Andrew Ross Sorkin (16 March 2015), Pointing Fingers in Apple Pay Fraud, New York Times Deal Book.
+
+33.  Joe Rossignol (17 August 2015), Australian Banks Hold Back on Apple Pay Support Due to Fees, MacRumors.
+
+34.  Merchant Customer Exchange (www.mcx.com).
+
+35.  Peter Williams, Ian Harper and Peter Evans-Greenwood (2012), The future of exchanging value: Uncovering new
+    ways of spending, Deloitte Australia.
+
+36.  Skip (www.skip.com.au) provides mobile app that enables consumers to ‘skip’ the queue at their local café.
+
+37.  Pandora (www.pandora.com) is a music streaming and automated music recommendation service.
+
+38.  Spotify (www.spotify.com/) is a commercial music streaming, podcast and video service.
+
+39.  Flexicar (www.flexicar.com.au) is an Australian membership-based car-sharing company owned by Hertz.
+
+40.  Zipcar (www.zipcar.com) is an American car-sharing company, a subsidiary of Avis Budget Group.
+
+41. GoGet (www.goget.com.au) is a car-sharing service operating in Sydney, Melbourne, Brisbane and Adelaide,
+    and the first such program in Australia.
+
+42. goMoney (www.gomoney.anz.com) is a banking app published by ANZ Bank.
+
+43. Venmo (www.venmo.com) is a mobile payment service that enables users to transfer money using a mobile
+    phone app or web interface. Venmo is now part of PayPal.
+
+
+
+
+
+                                                The Future of Exchanging Value Cryptocurrencies and the trust economy  63
+
+=== PDF PAGE 64 ===
+                            44.  Snapcash (www.mysnapcash.com) is a partnership between Snapchat and Square that enables users to
+                                     transfer money between one another via Snapchat.
+
+                            45.  Building the Lucky Country #2: Digital disruption – Short fuse, big bang? Deloitte Australia (2012).
+
+                            46.  All Bitcoin transactions are publicly visible, enabling third parties to track account activity and trace the transfer
+                                  of funds. Bitcoin mixers take advantage of one of the quirks of bitcoin – where each transaction can draw funds
+                              from multiple accounts and then distribute funds to multiple (different) accounts – to ‘mix’ unrelated funds
+                                      transfers through a single transaction. This can make it challenging, if not impossible, to trace the transfer of
+                                funds from payer to payee.
+
+                            47.  Filecoin (www.filecoin.io) is a combined data storage network and electronic currency where participants are
+                              rewarded with a small amount of Filecoin, the native currency, for each file that they store.
+
+                            48.  ZeroNet (www.zeronet.io) uses block chain and BitTorrent technology to store and distribute websites in a peer-
+                                  to-peer network.
+
+                            49.  Exchange rates between XRP and Australian dollars provided by Coin Mill
+                                  (www.coinmill.com/XRP_calculator.html).
+
+                            50.  Ripple Labs (www.ripplelabs.com).
+
+                            51.  Paul Smith (1 June 2015), “Commonwealth Bank to embrace Bitcoin and air miles as fintech goes mainstream”,
+                                   Australian Financial Review.
+
+                            52.  International Monetary Fund, Currency Composition of Official Foreign Exchange Reserves (COFER) (http://data.
+                              imf.org/?sk=E6A5F467-C14B-4AA8-9F6D-5A09EC4E62A4).
+
+                            53.  “IMF’s Executive Board Completes Review of SDR Basket, Includes Chinese Renminbi”. IMF. November 30, 2015.
+
+
+
+
+
+64
+
+=== PDF PAGE 65 ===
+About the authors
+
+
+
+
+
+                              Peter Evans-Greenwood
+
+                                               Peter has spent his entire career working at the intersection between business and technology.
+                                          During his career he has worked in Asia, Australia, Europe and the US, lived in Silicon Valley through
+                                boom and bust, and held leadership roles in global organisations as well as start-ups and research
+                                     and development labs. These days he works as a consultant and advisor on the business and
+                                          technology sides of the fence.
+
+
+                              Ian Harper
+
+                                              Ian Harper is one of Australia’s best known economists. He chaired the Federal Government’s
+                                          Competition Policy Review, served as inaugural Chairman of the Australian Fair Pay Commission,
+                                     and was one of three panellists chosen to review Victoria’s state finances. In March 2011, Ian joined
+                                                Deloitte Access Economics as a Partner, following a 25-year academic career that included 16 years
+                                                at the Melbourne Business School and was elected Emeritus Professor of the University of Melbourne
+                                    on his departure. Ian is currently a member of the Australian Advisory Board of Bank of America
+                                                    Merrill Lynch.
+
+
+
+
+
+                                                                            The Future of Exchanging Value Cryptocurrencies and the trust economy  65
+
+=== PDF PAGE 66 ===
+                            Robert Hillard
+
+                                       As the Managing Partner of Deloitte Consulting, Robert helps clients respond to change
+                                                (technological, economic and social) through a team of more than 1,500 management consultants.
+                                        Based on his more than 25 years’ experience, Robert believes organisations can only achieve
+                                                   lasting results with a combination of transformation skills and supporting technology. Robert is the
+                                          author of Information-Driven Business (Wiley 2010) and sits on the national board of the Australian
+                                            Information Industry Association.
+
+
+                              Peter Williams
+
+                                               Peter Williams is an innovator and thought leader in the digital world.
+
+                                               Peter founded the eBusiness Consulting group in Deloitte in 1996 and was CEO of
+                                      The Eclipse Group, one of Australia’s largest web development companies, from 2003 to 2008.
+                                  He was also the founder of Deloitte Digital, a business pioneering the delivery of professional
+                                                 services online.
+
+                                               Peter is a sought-after speaker and media commentator both locally and internationally and has
+                                     worked with boards and senior executives of many companies helping them understand and adapt
+                                             to the rapidly changing digital environment.
+
+
+
+
+
+66
+
+=== PDF PAGE 67 ===
+Contacts
+
+
+
+
+
+                                                           Ian Harper
+                                                                     Partner, Deloitte Access Economics
+                                                  +61 3 9671 7536
+                                                           iaharper@deloitte.com.au
+
+
+
+
+
+                                                      Robert Hillard
+                                                   Managing Partner, Consulting
+                                                  +61 3 9671 7971
+                                                              rhillard@deloitte.com.au
+
+
+
+
+
+                                                           Peter Williams
+                                                               Chief Edge Officer, Centre for the Edge
+                                                  +61 3 9671 7629
+                                                           pewilliams@deloitte.com.au
+
+
+
+
+
+                                                      David White
+                                                              National Leader, Retail
+                                                  +61 2 9322 5228
+                                                          davidwhite@deloitte.com.au
+
+
+
+
+
+                                                                            The Future of Exchanging Value Cryptocurrencies and the trust economy  67
+
+=== PDF PAGE 68 ===
+Centre for the Edge, Deloitte
+550 Bourke Street
+Melbourne
+Victoria 3000
+
+
+
+
+This publication contains general information only, and none of Deloitte Touche Tohmatsu Limited, its member firms, or their related
+entities (collectively the ‘Deloitte Network’) is, by means of this publication, rendering professional advice or services.
+
+Before making any decision or taking any action that may affect your finances or your business, you should consult a qualified
+professional adviser. No entity in the Deloitte Network shall be responsible for any loss whatsoever sustained by any person who relies
+on this publication.
+
+About Deloitte
+Deloitte refers to one or more of Deloitte Touche Tohmatsu Limited, a UK private company limited by guarantee, and its network
+of member firms, each of which is a legally separate and independent entity. Please see www.deloitte.com/au/about for a detailed
+description of the legal structure of Deloitte Touche Tohmatsu Limited and its member firms.
+
+Deloitte provides audit, tax, consulting, and financial advisory services to public and private clients spanning multiple industries. With a
+globally connected network of member firms in more than 150 countries, Deloitte brings world-class capabilities and high-quality service
+to clients, delivering the insights they need to address their most complex business challenges. Deloitte has in the region of 200,000
+professionals, all committed to becoming the standard of excellence.
+
+About Deloitte Australia
+In Australia, the member firm is the Australian partnership of Deloitte Touche Tohmatsu. As one of Australia’s leading professional
+services firms, Deloitte Touche Tohmatsu and its affiliates provide audit, tax, consulting, and financial advisory services through
+approximately 6,000 people across the country. Focused on the creation of value and growth, and known as an employer of choice for
+innovative human resources programs, we are dedicated to helping our clients and our people excel. For more information, please visit
+Deloitte’s web site at www.deloitte.com.au.
+
+Liability limited by a scheme approved under Professional Standards Legislation.
+
+Member of Deloitte Touche Tohmatsu Limited
+
+© 2015 Deloitte Touche Tohmatsu.
+
+MCBD_HYD_12/15_52373

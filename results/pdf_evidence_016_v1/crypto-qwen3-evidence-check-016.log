@@ -1,0 +1,30 @@
+[{"stream_name":"stdout","time":0.674267731,"data":"cloud_preflight\n"}
+,{"stream_name":"stdout","time":7.575689177,"data":"installing_dependencies\n"}
+,{"stream_name":"stdout","time":9.803789644,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.567778593,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 94.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.607419404,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 22.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":11.645227807,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 17.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.239968261,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 32.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.282891415,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 21.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":12.342861499,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 75.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":32.633526237,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":32.633566481,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":32.633572171,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":69.646161865,"data":"loading_model\n"}
+,{"stream_name":"stderr","time":71.584234226,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":138.800649776,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [01:04\u003c04:18, 64.60s/it]\rFetching 5 files: 100%|██████████| 5/5 [01:04\u003c00:00, 12.92s/it]\n"}
+,{"stream_name":"stderr","time":157.177063446,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:212: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i \u003e= 0) instead.\n"}
+,{"stream_name":"stderr","time":157.177103854,"data":"  torch._check_is_size(blocksize)\n"}
+,{"stream_name":"stderr","time":201.610130129,"data":"\rLoading checkpoint shards:  20%|██        | 1/5 [00:10\u003c00:41, 10.40s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:20\u003c00:31, 10.45s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:32\u003c00:21, 10.78s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:45\u003c00:11, 11.65s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:49\u003c00:00,  9.20s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:49\u003c00:00,  9.98s/it]\n"}
+,{"stream_name":"stdout","time":201.793365271,"data":"baseline_evaluation\n"}
+,{"stream_name":"stderr","time":201.839046975,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":206.729325699,"data":"/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:464: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i \u003e= 0) instead.\n"}
+,{"stream_name":"stderr","time":206.729365752,"data":"  torch._check_is_size(blocksize)\n"}
+,{"stream_name":"stdout","time":477.160320483,"data":"completed_diagnostic_human_review_pending\n"}
+,{"stream_name":"stderr","time":484.722123567,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":484.722162764,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":485.0010444,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":485.001085669,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":485.893906188,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":486.717586831,"data":"[NbConvertApp] Writing 374980 bytes to __results__.html\n"}
+]

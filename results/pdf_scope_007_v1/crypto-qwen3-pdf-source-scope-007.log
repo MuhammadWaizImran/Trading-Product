@@ -1,0 +1,49 @@
+[{"stream_name":"stdout","time":4.615495903,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 764.5 kB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.366048574,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 35.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.4597733139999995,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 31.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":6.5524153,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 24.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.028964655,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 21.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.124292367,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 30.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":44.849951912,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":136.133788041,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [01:09\u003c04:37, 69.49s/it]\rFetching 5 files:  40%|████      | 2/5 [01:09\u003c01:26, 28.86s/it]\rFetching 5 files: 100%|██████████| 5/5 [01:09\u003c00:00, 13.98s/it]\n"}
+,{"stream_name":"stderr","time":173.079636588,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  20%|██        | 1/5 [00:07\u003c00:28,  7.05s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:15\u003c00:23,  7.82s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:23\u003c00:15,  7.99s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:31\u003c00:08,  8.04s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:36\u003c00:00,  6.92s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:36\u003c00:00,  7.33s/it]\n"}
+,{"stream_name":"stderr","time":174.117252737,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":183.527373308,"data":"base unguarded r009-unknown-normalization bypassed 76\n"}
+,{"stream_name":"stdout","time":197.694727001,"data":"base unguarded r009-unknown-average bypassed 136\n"}
+,{"stream_name":"stdout","time":205.562356672,"data":"base unguarded r009-unknown-survey bypassed 65\n"}
+,{"stream_name":"stdout","time":215.860289672,"data":"base unguarded r009-known-chart bypassed 90\n"}
+,{"stream_name":"stdout","time":226.49235525,"data":"base unguarded r009-ownership-evidence bypassed 82\n"}
+,{"stream_name":"stdout","time":235.220689071,"data":"base unguarded r009-signature-title bypassed 73\n"}
+,{"stream_name":"stdout","time":244.509519011,"data":"base unguarded r009-sell-direction bypassed 80\n"}
+,{"stream_name":"stdout","time":252.988493065,"data":"base unguarded r009-missing-study bypassed 72\n"}
+,{"stream_name":"stdout","time":252.988718211,"data":"base scoped r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":252.988991056,"data":"base scoped r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":252.989232193,"data":"base scoped r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stdout","time":263.019872975,"data":"base scoped r009-known-chart ready 90\n"}
+,{"stream_name":"stdout","time":273.115251805,"data":"base scoped r009-ownership-evidence ready 82\n"}
+,{"stream_name":"stdout","time":281.503029312,"data":"base scoped r009-signature-title ready 73\n"}
+,{"stream_name":"stdout","time":290.732811117,"data":"base scoped r009-sell-direction ready 80\n"}
+,{"stream_name":"stdout","time":299.220614281,"data":"base scoped r009-missing-study ready 72\n"}
+,{"stream_name":"stdout","time":308.306330457,"data":"adapter009 unguarded r009-unknown-normalization bypassed 64\n"}
+,{"stream_name":"stdout","time":323.555490684,"data":"adapter009 unguarded r009-unknown-average bypassed 123\n"}
+,{"stream_name":"stdout","time":332.559969758,"data":"adapter009 unguarded r009-unknown-survey bypassed 66\n"}
+,{"stream_name":"stdout","time":342.910382114,"data":"adapter009 unguarded r009-known-chart bypassed 79\n"}
+,{"stream_name":"stdout","time":353.073619386,"data":"adapter009 unguarded r009-ownership-evidence bypassed 67\n"}
+,{"stream_name":"stdout","time":363.31702513,"data":"adapter009 unguarded r009-signature-title bypassed 79\n"}
+,{"stream_name":"stdout","time":373.571044845,"data":"adapter009 unguarded r009-sell-direction bypassed 79\n"}
+,{"stream_name":"stdout","time":384.274243888,"data":"adapter009 unguarded r009-missing-study bypassed 81\n"}
+,{"stream_name":"stdout","time":384.274425448,"data":"adapter009 scoped r009-unknown-normalization needs_source 0\n"}
+,{"stream_name":"stdout","time":384.274690901,"data":"adapter009 scoped r009-unknown-average needs_source 0\n"}
+,{"stream_name":"stdout","time":384.274969117,"data":"adapter009 scoped r009-unknown-survey needs_source 0\n"}
+,{"stream_name":"stdout","time":394.734937589,"data":"adapter009 scoped r009-known-chart ready 79\n"}
+,{"stream_name":"stdout","time":404.811910706,"data":"adapter009 scoped r009-ownership-evidence ready 67\n"}
+,{"stream_name":"stdout","time":415.267722289,"data":"adapter009 scoped r009-signature-title ready 79\n"}
+,{"stream_name":"stdout","time":425.856329985,"data":"adapter009 scoped r009-sell-direction ready 79\n"}
+,{"stream_name":"stdout","time":436.398364949,"data":"adapter009 scoped r009-missing-study ready 81\n"}
+,{"stream_name":"stderr","time":442.671598621,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":442.671638521,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":443.007998728,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":443.008028106,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":443.671312175,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":444.687995979,"data":"[NbConvertApp] Writing 312013 bytes to __results__.html\n"}
+]

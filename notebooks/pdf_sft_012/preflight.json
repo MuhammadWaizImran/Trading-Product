@@ -1,0 +1,15 @@
+{
+  "structural_checks": "PASS",
+  "batch": "012",
+  "counts": {
+    "train": 72,
+    "validation": 6,
+    "test": 50
+  },
+  "source_files": 10,
+  "max_message_characters": 2707,
+  "token_check": "Cloud tokenizer must enforce 2048 tokens; character count is not token validation.",
+  "code_sha256": "1695a3f2cfd2a515775f851c31a9eee0a2320292fdfe9844cec028ad6853a965",
+  "local_model_execution": false,
+  "limitation": "No semantic correctness or independent evaluation guarantee."
+}

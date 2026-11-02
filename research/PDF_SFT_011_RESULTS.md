@@ -1,0 +1,9 @@
+# SFT011 review ? completed, not promoted (2026-09-30)
+
+Recovered download after prior connection interruption into results/pdf_sft_011_verified. Artifact audit passed; all50 baseline and50 adapted responses read;50 reload outputs verified identical to adapted. Training72 examples for one epoch took509.05 seconds (8.48 minutes),18 steps. Validation loss5.79286 to5.33171. Loss changes do not establish improved expertise.
+
+Both base and adapter still copy a10x source example instead of calculating4x for equity250 plus borrowing750; assign an unidentified report the known midpoint denominator; cite cold-storage evidence for wallet-ownership reasoning; and contradict their answer polarity on high RSI. Both correctly handle sell-limit240 versus235 with citations, so this is not an adapter-only improvement. Adapter regresses by starting Yes to the question whether an exact entry-price exit yields positive gross return, then describing zero. Both add an erroneous statement that miners do not verify signatures. Both struggle with irrelevant-evidence abstention and introduce unsupported details. No sufficient advantage over the equally formatted base. Do not promote.
+
+Next SFT012 is an explicitly different bounded repair hypothesis: train JSON status (supported/insufficient), answer, and evidence_id. Same72 reviewed correction examples, two epochs, fresh pinned base, rank8 QLoRA LR2e-5. Six structured validation probes;50 old development tests retain prose references for semantic review, not training. Output format and epoch budget change together, limiting causal attribution. No new PDF coverage. Structured parsing is necessary but not sufficient; wrong-content JSON must still fail. This is not final acceptance. User explicitly chose own-model development over alternative-model comparison on2026-09-30; no alternative models deployed.
+
+Adapter SHA256: d34fbd108a76d57cf64aa7452381754ac4f47bc66f01ce88b75058d752235592

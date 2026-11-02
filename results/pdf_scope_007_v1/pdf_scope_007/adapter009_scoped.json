@@ -1,0 +1,85 @@
+[
+  {
+    "id": "r009-unknown-normalization",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-unknown-average",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-unknown-survey",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-known-chart",
+    "response": "The historical series in the dp04-reserve-chart-date passage ends in 2014. The chart reflects historical context and does not include current data. To understand today's composition of global foreign-exchange reserves, a recent IMF or other authoritative dataset with matching definitions would be required. The chart's end year is 2014, as stated in the provided evidence.",
+    "generated_tokens": 79,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp04-reserve-chart-date"
+    ]
+  },
+  {
+    "id": "r009-ownership-evidence",
+    "response": "No, a single transfer from Wallet X to Wallet Y does not prove that Y owns all other addresses belonging to X. Transfers only show a relationship, which could arise from payments, services, or custody, not necessarily shared ownership [dp07-links]. Common ownership requires additional evidence beyond observed links [dp07-links].",
+    "generated_tokens": 67,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp07-links",
+      "dp07-seed-price"
+    ]
+  },
+  {
+    "id": "r009-signature-title",
+    "response": "No, validity alone does not prove lawful ownership. A valid signature, while mathematically correct, does not establish legal identity or ownership. The signing key's secrecy is required for authorization, but verification only confirms the signature's authenticity, not the signer's legal status. Legal ownership requires additional proof, such as registration or documentation, beyond cryptographic validity [dp16-signature-roles].",
+    "generated_tokens": 79,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-signature-roles"
+    ]
+  },
+  {
+    "id": "r009-sell-direction",
+    "response": "A sell limit order at 240 permits execution at 235 only if the price drops to 235 or lower, but it does not guarantee execution. The price rule allows execution at or below the limit price for a sell order, but the order may remain unfilled if the price does not reach the limit. This is supported by the evidence [limit-order].",
+    "generated_tokens": 79,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "r009-missing-study",
+    "response": "The missing evidence includes a reproducible strategy definition, a complete sampling procedure, failure cases, transaction costs, and out-of-sample results. The tutorial's 8/8 winners lack these elements, making it impossible to generalize the success rate. Without timestamped examples evaluated without hindsight, the 8/8 record cannot be treated as a valid strategy success rate. [dp05-pattern-evidence]",
+    "generated_tokens": 81,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-pattern-evidence"
+    ]
+  }
+]

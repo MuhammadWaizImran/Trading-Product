@@ -1,0 +1,35 @@
+[{"stream_name":"stdout","time":32.959739491,"data":"{\n"}
+,{"stream_name":"stdout","time":32.959790818,"data":"  \"python\": \"3.12.13\",\n"}
+,{"stream_name":"stdout","time":32.959797621999996,"data":"  \"runtime\": \"Batch\",\n"}
+,{"stream_name":"stdout","time":32.959812318,"data":"  \"packages\": {\n"}
+,{"stream_name":"stdout","time":32.959817472,"data":"    \"torch\": \"2.10.0+cpu\",\n"}
+,{"stream_name":"stdout","time":32.959822232,"data":"    \"transformers\": \"5.0.0\",\n"}
+,{"stream_name":"stdout","time":32.959827419,"data":"    \"peft\": \"0.19.1\",\n"}
+,{"stream_name":"stdout","time":32.959832465,"data":"    \"accelerate\": \"1.13.0\",\n"}
+,{"stream_name":"stdout","time":32.959837287,"data":"    \"bitsandbytes\": null\n"}
+,{"stream_name":"stdout","time":32.959842320999996,"data":"  },\n"}
+,{"stream_name":"stdout","time":32.959847002,"data":"  \"gpu\": {\n"}
+,{"stream_name":"stdout","time":32.959852017,"data":"    \"error\": \"[Errno 2] No such file or directory: 'nvidia-smi'\"\n"}
+,{"stream_name":"stdout","time":32.959857324,"data":"  },\n"}
+,{"stream_name":"stdout","time":32.959861927,"data":"  \"network\": [\n"}
+,{"stream_name":"stdout","time":32.959866675,"data":"    {\n"}
+,{"stream_name":"stdout","time":32.959871438,"data":"      \"url\": \"https://pypi.org/simple/transformers/\",\n"}
+,{"stream_name":"stdout","time":32.959876564,"data":"      \"error\": \"\u003curlopen error [Errno -3] Temporary failure in name resolution\u003e\"\n"}
+,{"stream_name":"stdout","time":32.959882595,"data":"    },\n"}
+,{"stream_name":"stdout","time":32.959887766,"data":"    {\n"}
+,{"stream_name":"stdout","time":32.959892483,"data":"      \"url\": \"https://huggingface.co/api/models/Qwen/Qwen3-8B\",\n"}
+,{"stream_name":"stdout","time":32.959897602,"data":"      \"error\": \"\u003curlopen error [Errno -3] Temporary failure in name resolution\u003e\"\n"}
+,{"stream_name":"stdout","time":32.959903009,"data":"    },\n"}
+,{"stream_name":"stdout","time":32.959909845,"data":"    {\n"}
+,{"stream_name":"stdout","time":32.959914409,"data":"      \"url\": \"https://www.kaggle.com\",\n"}
+,{"stream_name":"stdout","time":32.959919099,"data":"      \"error\": \"\u003curlopen error [Errno -3] Temporary failure in name resolution\u003e\"\n"}
+,{"stream_name":"stdout","time":32.959923895,"data":"    }\n"}
+,{"stream_name":"stdout","time":32.959928088,"data":"  ]\n"}
+,{"stream_name":"stdout","time":32.959932242,"data":"}\n"}
+,{"stream_name":"stderr","time":35.662278577,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":35.66293528,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":36.005778671,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":36.005808099,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":37.274346272,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":38.779014467,"data":"[NbConvertApp] Writing 281142 bytes to __results__.html\n"}
+]

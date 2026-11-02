@@ -1,0 +1,5 @@
+# Scope020 review ? 2026-10-28
+
+All100 final answers reviewed. Contract compliance: base46/50 (92%), adapter47/50 (94%); these are format/status/exact-ID checks, not semantic accuracy. Key leverage4, VWAP12 and payoff25% answers correct. Both still falsely identify three unnamed external documents, and both cite cold-storage evidence for a wallet-ownership question. Some negative conclusions mislabeled insufficient. Prompt-only intervention improved format but failed source-identity objective. No model promoted; no reliable fine-tuned superiority established.
+
+Decision: stop repetitive prompt-only reruns on the same50 exposed cases. Use existing checked-answer/source-scope workbench as the constrained foundation. Next engineering work should enforce source identity and schema at the application boundary and establish independent evaluation before enabling generated research conclusions. Product market screening/watchlist can be developed as non-decision infrastructure, but no live agents or real-order execution are approved by these results. No new cloud run launched in this review.

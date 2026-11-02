@@ -1,0 +1,160 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "batch": "002",
+  "parent_kernel": "waizimran/crypto-qwen3-pdf-sft-001",
+  "parent_adapter_sha256": "ed3b93060137da7d7aa1e30b1682d91a665988070e07bfe82f1e371cc7fffb76",
+  "splits": {
+    "train": "1231aab462173ce2cb8a4203e606cc648b9146c9ea62f098cfdef969e7aca444",
+    "validation": "11b1401caef675d8f3097d0bc8102a010444f8eba094b101e06b88d698f58d23",
+    "test": "983ae194314ccec7e989f4a563adbf37f6def76518796fbe804c180f43c80966"
+  },
+  "counts": {
+    "train": 48,
+    "validation": 8,
+    "test": 8
+  },
+  "new_pdf": "DP07",
+  "prior_training_replay": 24,
+  "new_training_examples": 24,
+  "scope": "Selected source-traceable concepts from five PDFs cumulatively, not full-library or full-page ingestion.",
+  "evaluation": "Four new constructed applications plus four previously exposed diagnostic questions; concept overlap with training is explicit. No general accuracy inference.",
+  "decision_rule": "Manual review: at least 3 of 4 new answers substantively correct, no new severe errors relative to parent on retention cases; no promotion based on loss alone. No automatic hyperparameter selection.",
+  "epochs": 2,
+  "learning_rate": 0.0001,
+  "optimizer_restart": true,
+  "ledger": [
+    {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP02",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group.pdf",
+      "duplicate_of": "DP01",
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP03",
+      "file": "03.-Crypto-currencies-and-the-Future-oF-Money-Author-IE-University.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP04",
+      "file": "06.-The-Future-of-Exchanging-Value-Cryptocurrencies-and-the-trust-economy-Author-Nicholas-Gruen.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP05",
+      "file": "585511457-Crypto-for-Beginners-Technical-Analysis-Course.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 5
+    },
+    {
+      "source_id": "DP06",
+      "file": "593280526-Risk-Management.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 5
+    },
+    {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 24
+    },
+    {
+      "source_id": "DP08",
+      "file": "705667332-Binary-Options-Trading-Bible.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP09",
+      "file": "739808043-SAMI-MALIK-SIR-SURESHOTS.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP10",
+      "file": "820809429-Mastering-Crypto-Day-Trading-From-Blockchain-Basics-to-Profits.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP11",
+      "file": "837468574-Waqar-Zaka-Priate-Group-Lectures.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP12",
+      "file": "845233889-Advance-Liquidity-Trading-Concept-49.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP13",
+      "file": "860990854-E-Book-Binary-sun-7-2023.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP14",
+      "file": "874145645-Chart-Pattern-Urdu.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP15",
+      "file": "bitcoin-and-beyond-malcolm-campbell-verduyn-8300.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP16",
+      "file": "bitcoin-and-cryptocurrency-technologies-arvind-narayanan-joseph-bonneau-edward-felten-andrew-miller-steven-goldfeder-8297.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 7
+    },
+    {
+      "source_id": "DP18",
+      "file": "mastering-bitcoin-andreas-m-antonopoulos-8298.pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP19",
+      "file": "Order_Book_Liquidity_on_Crypto_Exchanges (1).pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 7
+    },
+    {
+      "source_id": "DP20",
+      "file": "Order_Book_Liquidity_on_Crypto_Exchanges.pdf",
+      "duplicate_of": "DP19",
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP21",
+      "file": "the-economics-of-cryptocurrencies-bitcoin-and-beyond-jonathan-chiu-thorsten-v-koeppl-8301 (1).pdf",
+      "duplicate_of": null,
+      "selected_train_examples": 0
+    },
+    {
+      "source_id": "DP22",
+      "file": "the-economics-of-cryptocurrencies-bitcoin-and-beyond-jonathan-chiu-thorsten-v-koeppl-8301.pdf",
+      "duplicate_of": "DP21",
+      "selected_train_examples": 0
+    }
+  ]
+}

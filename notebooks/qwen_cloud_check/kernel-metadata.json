@@ -1,0 +1,13 @@
+{
+  "id": "waizimran/crypto-qwen-cloud-check",
+  "title": "Crypto Qwen Cloud Check",
+  "code_file": "check.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

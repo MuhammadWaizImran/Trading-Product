@@ -1,0 +1,119 @@
+{
+  "diagnostic": "development only, not untouched test",
+  "cases": [
+    {
+      "id": "candles",
+      "expected_any_ids": [
+        "ta-candle"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "trend",
+      "expected_any_ids": [
+        "ta-uptrend"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "stop-fill",
+      "expected_any_ids": [
+        "stop-order"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "rsi",
+      "expected_any_ids": [
+        "rsi-extreme"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "wallet-owners",
+      "expected_any_ids": [
+        "dp07-holder-count",
+        "corr-address-entity-two-way",
+        "dp03-addresses-not-users"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "verified-contract",
+      "expected_any_ids": [
+        "dp07-contract-verification"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "receipt-token",
+      "expected_any_ids": [
+        "dp07-receipt"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "oracle",
+      "expected_any_ids": [
+        "dp01-oracle"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "reserves",
+      "expected_any_ids": [
+        "dp03-ledger-consensus",
+        "dp03-security-not-value",
+        "dp03-stablecoin-backing"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "dated-report",
+      "expected_any_ids": [
+        "dp03-historical-market-numbers"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "data-license",
+      "expected_any_ids": [
+        "paper-data-rights"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "limit-order",
+      "expected_any_ids": [
+        "limit-order"
+      ],
+      "retrieval_hit": true
+    },
+    {
+      "id": "unknown-definition",
+      "expected_any_ids": [],
+      "retrieval_hit": null
+    },
+    {
+      "id": "current-unlock",
+      "expected_any_ids": [],
+      "retrieval_hit": null
+    },
+    {
+      "id": "missing-chart",
+      "expected_any_ids": [],
+      "retrieval_hit": null
+    },
+    {
+      "id": "guaranteed-profit",
+      "expected_any_ids": [],
+      "retrieval_hit": null
+    }
+  ],
+  "corpus": "only reviewed train.jsonl, no validation or test answers",
+  "corpus_sha256": "ce64f99563ac29d430d973fb6ef601a1ab1574d9a5ed3140bd2a453e742851b2",
+  "retriever_sha256": "f560f792b7b6e7289bab56ec911b453f29d9d38059fb5ae0345e76ea1f6c0f15",
+  "packet_sha256": "30c81102848aa7a6c2799743c8378a5ba7258feb3ad65b54bd44e35bc9e3dc0f",
+  "supported_case_hits": 12,
+  "supported_cases": 12
+}

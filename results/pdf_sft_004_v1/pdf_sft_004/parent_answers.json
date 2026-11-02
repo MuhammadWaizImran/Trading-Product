@@ -1,0 +1,238 @@
+[
+  {
+    "id": "dp07-test-price-coverage",
+    "question": "An address has $900 in directly held tokens and a separate $600 protocol deposit. A tool displays only direct tokens. Is $900 necessarily the complete portfolio?",
+    "reference": "No. Under the stated nonoverlapping values, the described assets total $1,500. The $900 display omits the $600 protocol position; additional liabilities or unobserved assets would require separate information.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        5,
+        22,
+        25
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "No, $900 is not necessarily the complete portfolio. The $600 protocol deposit is separate and not displayed by the tool. Total value would be $900 + $600 = $1,500. The tool only shows direct tokens, so the protocol deposit is missing.",
+    "generated_tokens": 65,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp07-test-holders",
+    "question": "An exchange address holds a token for 400 customers, and another person uses five addresses. Can address counts alone recover the number of investors?",
+    "reference": "No. One custodial address can represent many people and one person can control several addresses. Investor counts require attribution and customer information that address counts alone do not provide.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "Address counts alone cannot definitively recover the number of investors. If 400 customers use one address and another person uses five addresses, the total is 400 + 5 = 405 addresses. However, this does not account for shared addresses or multiple accounts per person, so the actual number of investors may be less. Without additional data, such as transaction records or account verification, the exact number of investors cannot be determined.",
+    "generated_tokens": 92,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp07-test-counterparty",
+    "question": "An investigator observes that a fund sent tokens to a service's address. Does that single observation prove the service owns the fund's remaining wallets?",
+    "reference": "No. The transfer establishes an observed counterparty interaction, not ownership of other wallets. Attribution requires independent evidence, and the transfer's purpose may also be unknown.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        20,
+        26
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "No, observing a single token transfer does not prove ownership. Ownership requires consistent control over private keys and access to all wallets. The service may have legitimate reasons for the transfer, such as fees or rewards. Without additional evidence, like wallet addresses or transaction history, ownership cannot be confirmed.",
+    "generated_tokens": 58,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp07-test-prices",
+    "question": "A fund acquired 200 tokens for $0.50 each; the public price is now $5. Does buying the same number now reproduce its acquisition cost?",
+    "reference": "No. The fund's stated cost was $100, whereas 200 tokens at $5 cost $1,000 before costs. Matching token quantity does not reproduce the fund's entry price or other investment terms.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        19
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "The fund originally spent $100 (200 tokens × $0.50). If the public price is now $5, buying 200 tokens would cost $1,000. The acquisition cost was $100, so buying the same number now does not reproduce the acquisition cost. The price has increased significantly, so the cost is much higher.",
+    "generated_tokens": 80,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "test-depth-impact",
+    "question": "Two venues show the same best ask. Does that imply the same cost for a large buy?",
+    "reference": "No. Quantities available at the best ask and higher levels can differ. The larger order's average execution price can therefore differ even when the initial best ask is identical.",
+    "provenance": {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": [
+        35,
+        36,
+        37
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out application of depth and slippage; not a measured market result."
+    },
+    "response": "No, the same best ask does not imply the same cost for a large buy. The best ask is the lowest price a seller is willing to accept, but large buys may trigger price slippage. For example, if the best ask is $100 and you buy 1,000 shares, the price might rise to $102 due to market impact. Missing information includes order book depth and liquidity.",
+    "generated_tokens": 88,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "test-imbalance-sign",
+    "question": "Using the paper's convention, what does NOBI = -0.2 indicate?",
+    "reference": "Bid-side depth exceeds ask-side depth at the specified levels because the numerator is ask depth minus bid depth. The number alone is not a guaranteed price forecast.",
+    "provenance": {
+      "source_id": "DP19",
+      "file": "Order_Book_Liquidity_on_Crypto_Exchanges (1).pdf",
+      "sha256": "7190740df68bbb7c0cc97537df07ec9f8164bafb94a5f83d0c0cd43d795785ed",
+      "pdf_pages": [
+        13
+      ],
+      "permission": "CC BY 4.0; copyright 2025 Martin Angerer, Marius Gramlich and Michael Hanke; https://doi.org/10.3390/jrfm18030124; https://creativecommons.org/licenses/by/4.0/; paraphrased and clarified; no endorsement",
+      "adaptation": "Held-out application of source equation."
+    },
+    "response": "According to the paper's convention, NOBI = -0.2 indicates a negative relationship between the variables, with a coefficient of -0.2. This suggests a moderate inverse correlation. The exact interpretation depends on the specific variables and context provided in the paper. No further details are given in the query to elaborate further.",
+    "generated_tokens": 66,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "test-reward-probability",
+    "question": "A setup offers 4R potential reward for 1R risk. Does that tell us its actual success probability?",
+    "reference": "No. It describes the planned payoff. With fixed +4R wins and -1R losses, the cost-free break-even probability is 20%, but the actual success probability needs evidence from outcomes.",
+    "provenance": {
+      "source_id": "DP06",
+      "file": "593280526-Risk-Management.pdf",
+      "sha256": "8a8ce394328e1ad7e7c1acfbac6338ebdb92b006075243d323f5a2f128a05e2d",
+      "pdf_pages": [
+        5,
+        8
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out distinction between payoff and probability."
+    },
+    "response": "The setup offers a 4:1 reward-to-risk ratio, suggesting a potential 400% return on a 100% risk. However, this does not directly indicate the actual success probability, as it depends on the likelihood of achieving the reward. If the probability of success is $ p $, then $ 4 = \\frac{p}{1-p} $, implying $ p = \\frac{4}{5} $ or 80%. This assumes a binary outcome and no additional risks, which may not be accurate in real scenarios.",
+    "generated_tokens": 116,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "test-overbought",
+    "question": "RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?",
+    "reference": "No. RSI can remain extreme during a continuing trend. An overbought reading does not impose an immediate reversal.",
+    "provenance": {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": [
+        54
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out application of the source caution."
+    },
+    "response": "The Relative Strength Index (RSI) of 82 suggests overbought conditions, typically signaling potential price reversal. However, a rising price can still occur in trending markets, making RSI less reliable in such scenarios. The indicator does not always predict price direction, especially in strong trends. Therefore, an RSI of 82 while a coin keeps rising is not logically inconsistent with the indicator.",
+    "generated_tokens": 82,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp01-retry-test-layer-capacity",
+    "question": "A report gives a Bitcoin throughput number without stating transaction size, batching, protocol version, or whether it means the base layer. Is that enough for a current capacity comparison?",
+    "reference": "No. Capacity depends on the layer, protocol configuration, transaction composition, batching, and measurement date. A current comparison must define those assumptions and verify the figure with current sources.",
+    "provenance": {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": [
+        44,
+        62
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out application of the source's dated capacity discussion; written after run 003 and never used for fitting."
+    },
+    "response": "No, the report's Bitcoin throughput number lacks critical context like transaction size, batching, protocol version, and whether it refers to the base layer. Without this, comparisons to current capacity are invalid. Essential arithmetic, such as transaction size multiplied by throughput, is missing. The report does not specify if it refers to the base layer or a layer-2 solution. Therefore, the number alone is insufficient for accurate capacity comparison.",
+    "generated_tokens": 85,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp01-retry-test-cold-storage",
+    "question": "Keys are kept offline, but the only backup is destroyed. Did cold storage eliminate the risk of permanent loss?",
+    "reference": "No. Offline storage can reduce online compromise, but it does not prevent loss of the key or backup, user error, physical damage, or market and protocol risks. The security claim must identify the threat it reduces.",
+    "provenance": {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": [
+        46
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out threat-model application; written after run 003 and never used for fitting."
+    },
+    "response": "Cold storage reduces risk but does not eliminate it. If the only backup is destroyed, recovery is impossible. The source states that \"cold storage does not guarantee permanent loss prevention\" (source: [1]). Essential arithmetic: 0% recovery if no backups exist. Missing information: specific risks and mitigation strategies.",
+    "generated_tokens": 63,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp01-retry-test-token-rights",
+    "question": "A project token trades on an exchange and helped finance development. Does that alone prove its holder has the legal rights of a shareholder?",
+    "reference": "No. Legal and contractual rights depend on the token documents and applicable law. Trading and fundraising similarities do not by themselves create ownership, voting, dividend, or residual claims equivalent to a share.",
+    "provenance": {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": [
+        47
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out legal-rights distinction; educational, not legal advice."
+    },
+    "response": "No, a token that trades on an exchange and helps finance development does not alone prove its holder has legal shareholder rights. Legal rights depend on the token's structure, such as whether it is equity or utility. If it is equity, holders may have voting rights and dividends. If it is utility, it may only grant access to services. Missing information includes the token's legal classification and governing documents.",
+    "generated_tokens": 81,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dp01-retry-test-correlation",
+    "question": "Countries with stronger institutions show more exchange activity in a cross-sectional chart. Can that chart alone prove institutions caused the activity?",
+    "reference": "No. It shows an association under the chart's data and definitions. Confounding, reverse causality, selection, and measurement choices remain possible, so causal inference requires a stronger design.",
+    "provenance": {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": [
+        53
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out correlation-versus-causation check; written after run 003 and never used for fitting."
+    },
+    "response": "No, the chart alone cannot prove causation. Correlation does not imply causation; other factors may influence both institutions and exchange activity. Essential arithmetic: correlation coefficient (r) = 0.65, but missing data on confounding variables. Without controlled experiments or longitudinal data, causation remains unproven.",
+    "generated_tokens": 66,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  }
+]

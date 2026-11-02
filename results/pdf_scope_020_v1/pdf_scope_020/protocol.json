@@ -1,0 +1,7 @@
+{
+  "training_executed": false,
+  "cases": 50,
+  "generations": 100,
+  "comparison": "All50 exposed development questions; source-identity and strict single-citation prompt clarified. Same base/adapter017, thinking, seed217 sampling and2048 cap as019. Prompt change only; not fitting, not independent acceptance, not learned improvement.",
+  "adapter_sha256": "98a59cc00ae482e751915af12fee3d6d8fa942755319d91c37567e1e1fb6fd42"
+}

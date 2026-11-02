@@ -1,0 +1,23 @@
+{
+  "created": "2026-09-28",
+  "cases": 100,
+  "concept_groups": 25,
+  "conditions": [
+    "supported",
+    "irrelevant",
+    "missing",
+    "unidentified"
+  ],
+  "models": [
+    "base",
+    "adapter009"
+  ],
+  "responses": 200,
+  "training_executed": false,
+  "independent_final_assessment": false,
+  "limitations": "25 application families with four correlated conditions each. Evidence and concepts overlap training. Missing/unidentified requests route deterministically; supplied relevant/irrelevant passages do not assess retrieval. No numerical tool-selection, chart vision, all-library coverage or market prediction assessed.",
+  "decision": "Read all outputs. Score25 supported and25 irrelevant model-invoked cases separately per model; report50 routed cases separately. Require correct supported conclusions/citations and no confident answers from irrelevant evidence. Any severe unsupported claim blocks promotion. Compare base versus adapter before further fitting. This grouped stress assessment cannot substitute for100 independent application questions.",
+  "code_sha256": "5e7343133ce18a86361f3750dbe186e28ec039dd79f445e7f93496906f2d4478",
+  "cases_sha256": "9201763abbea7d38fcba63eff9cef670ca0b8d6df8219079c926cf77ea2c25c5",
+  "rubric_sha256": "f8d93e8d46b05fef92fb982f3a133f54e758583eb929ea3d5efa97a681f3b8a9"
+}

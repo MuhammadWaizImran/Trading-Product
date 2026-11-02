@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "frozen_packets_match": true,
+  "conditions": {
+    "base": {
+      "count": 16,
+      "truncated": 0,
+      "unrecognized_citations": [],
+      "sha256": "71ae9e79a62cd40cbe8371c8a7b88979da9254b78db5e17eb4a02e00a55affdd"
+    },
+    "adapter007": {
+      "count": 16,
+      "truncated": 0,
+      "unrecognized_citations": [],
+      "sha256": "2978904fdf7f299edb97d1e71259090c5d86664330f96e6a83cb245fed20ff2d"
+    }
+  },
+  "quality_gate": "FAIL: sell-limit direction and unidentified-source attribution",
+  "production_approved": false,
+  "review_report": "research/PDF_ADAPTER_005_RESULTS.md"
+}

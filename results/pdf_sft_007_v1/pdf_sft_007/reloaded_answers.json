@@ -1,0 +1,511 @@
+[
+  {
+    "id": "dp07-test-price-coverage",
+    "question": "An address has $900 in directly held tokens and a separate $600 protocol deposit. A tool displays only direct tokens. Is $900 necessarily the complete portfolio?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp07-balance-coverage\", \"source\": \"DP07\", \"pages\": [5, 22, 25], \"question\": \"Two tools report different values for the same wallet. Must one be fraudulent?\", \"answer\": \"No. First compare their chain coverage, protocol positions, token prices and observation times. A simple address balance can omit assets deposited in smart contracts, while a portfolio tool may include them. Different coverage can explain different totals; neither number should be assumed complete.\"}, {\"id\": \"dp07-transfer-type\", \"source\": \"DP07\", \"pages\": [6, 7], \"question\": \"Why separate fungible-token transfers from NFT activity when researching an address?\", \"answer\": \"They describe different asset types. Units of the same fungible token are interchangeable, whereas NFT identifiers distinguish individual items. A fungible-token transfer list is therefore not a complete account of an address's NFT activity or its whole portfolio.\"}, {\"id\": \"dp07-entity-view\", \"source\": \"DP07\", \"pages\": [20, 25], \"question\": \"Why distinguish an entity-level portfolio from one address's balance?\", \"answer\": \"An entity may control multiple addresses, while a single address shows only its own recorded activity. Aggregation can provide a broader view, but depends on attribution quality and coverage. Preserve the address-to-entity mapping and its uncertainty instead of treating every label as certain.\"}, {\"id\": \"dp03-ledger-consensus\", \"source\": \"DP03\", \"pages\": [48, 49], \"question\": \"What does consensus in a distributed ledger establish, and what does it not establish?\", \"answer\": \"Consensus establishes agreement under protocol rules about the ledger state or ordering of accepted transactions. It does not prove that an off-chain statement is true, that every participant is honest, or that the recorded asset has stable value. Those claims require separate evidence and assumptions.\"}]",
+    "reference": "No. Under the stated nonoverlapping values, the described assets total $1,500. The $900 display omits the $600 protocol position; additional liabilities or unobserved assets would require separate information.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        5,
+        22,
+        25
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "No, $900 is not necessarily the complete portfolio. The tool displaying only direct tokens omits protocol deposits like the $600 in smart contracts [dp07-balance-coverage]. Different coverage can explain varying totals; neither number should be assumed complete. The protocol deposit represents assets held in external smart contracts, which are not reflected in direct token balances. Thus, the full portfolio includes both direct tokens and protocol deposits.",
+    "generated_tokens": 89,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp07-balance-coverage",
+      "dp07-transfer-type",
+      "dp07-entity-view",
+      "dp03-ledger-consensus"
+    ]
+  },
+  {
+    "id": "dp07-test-holders",
+    "question": "An exchange address holds a token for 400 customers, and another person uses five addresses. Can address counts alone recover the number of investors?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp03-addresses-not-users\", \"source\": \"DP03\", \"pages\": [59, 60], \"question\": \"Why can the number of blockchain addresses overstate or understate the number of active users?\", \"answer\": \"One user can control many addresses, while an exchange or custodian can use addresses for many customers. Some addresses are inactive or have trivial balances, and activity thresholds vary. Address counts are therefore protocol observations, not unique-person counts.\"}, {\"id\": \"corr-address-entity-two-way\", \"source\": \"DP07\", \"pages\": [11, 12, 26], \"question\": \"Why is adding customers and addresses together an invalid way to count crypto investors?\", \"answer\": \"Customers are people or accounts, while blockchain addresses are identifiers, so they are different units and should not be added. One person can control several addresses, and one custodial address can represent many customers. Investor counts require separate attribution and customer data.\"}, {\"id\": \"dp07-holder-count\", \"source\": \"DP07\", \"pages\": [11], \"question\": \"Does a token with 10,000 holder addresses necessarily have 10,000 independent investors?\", \"answer\": \"No. The count is of addresses, not verified people. One entity can control several addresses, and a custodial address can represent many users. Holder counts can also be manipulated, so an increase alone does not prove organic adoption.\"}, {\"id\": \"dp07-exchange-holder\", \"source\": \"DP07\", \"pages\": [12], \"question\": \"Why should a labeled exchange address be treated differently from an individual whale?\", \"answer\": \"An exchange address can custody assets for many customers and support operational transfers. Its balance is not necessarily one investor's conviction. Keep entity type and attribution confidence explicit when interpreting concentration or wallet activity.\"}]",
+    "reference": "No. One custodial address can represent many people and one person can control several addresses. Investor counts require attribution and customer information that address counts alone do not provide.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "Address counts alone cannot recover the number of investors. One person can control multiple addresses, and exchanges can use addresses to represent many customers [dp03-addresses-not-users]. Adding addresses and customers together is invalid because they are different units [corr-address-entity-two-way]. A token with 10,000 holder addresses does not necessarily have 10,000 independent investors, as one entity can control several addresses [dp07-holder-count]. Thus, address counts overstate or understate investor numbers without additional attribution data.",
+    "generated_tokens": 111,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp03-addresses-not-users",
+      "corr-address-entity-two-way",
+      "dp07-holder-count",
+      "dp07-exchange-holder"
+    ]
+  },
+  {
+    "id": "dp07-test-counterparty",
+    "question": "An investigator observes that a fund sent tokens to a service's address. Does that single observation prove the service owns the fund's remaining wallets?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp07-seed-price\", \"source\": \"DP07\", \"pages\": [19], \"question\": \"Why can copying a venture fund's visible token holding misrepresent its economics?\", \"answer\": \"The fund may have acquired tokens earlier at a private-round price unavailable to later buyers. Its entry terms, vesting and other positions may differ or be unknown. A current holding therefore does not demonstrate that buying at the current price offers the same exposure or potential return.\"}, {\"id\": \"dp04-network-effects\", \"source\": \"DP04\", \"pages\": [16, 28, 30, 46, 47], \"question\": \"Why do network effects matter for a payment currency?\", \"answer\": \"A payment method becomes more useful as more users, merchants, wallets, and service providers support it. Existing systems can therefore remain dominant even when a new design has technical advantages. Subsidies or partnerships may accelerate adoption but do not prove durable value.\"}, {\"id\": \"dp01-hot-cold\", \"source\": \"DP01\", \"pages\": [46], \"question\": \"Does moving keys to cold storage remove every cryptocurrency risk?\", \"answer\": \"No. Keeping keys offline can reduce exposure to online compromise, but it does not remove backup loss, user error, market risk, protocol risk, or risks that arise when assets are later sent to a service. Security claims must name the threat being reduced.\"}, {\"id\": \"dp07-hindsight\", \"source\": \"DP07\", \"pages\": [15, 16], \"question\": \"What research bias arises when selecting wallets only after finding a token that rose sharply?\", \"answer\": \"The selection uses a successful outcome already known to the researcher. That can overrepresent lucky or surviving winners and hide comparable failures. Freeze selection rules using information available at the observation time, then evaluate subsequent outcomes separately.\"}]",
+    "reference": "No. The transfer establishes an observed counterparty interaction, not ownership of other wallets. Attribution requires independent evidence, and the transfer's purpose may also be unknown.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        20,
+        26
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "The observation that a fund sent tokens to a service's address does not prove the service owns the fund's remaining wallets. This action could reflect various intentions, such as a strategic investment, partnership, or liquidity provision. Ownership of remaining wallets cannot be inferred solely from this transaction, as it may involve third-party custodians or other arrangements. The evidence does not establish a direct link between the transaction and wallet ownership [dp01-hot-cold].",
+    "generated_tokens": 91,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp07-seed-price",
+      "dp04-network-effects",
+      "dp01-hot-cold",
+      "dp07-hindsight"
+    ]
+  },
+  {
+    "id": "dp07-test-prices",
+    "question": "A fund acquired 200 tokens for $0.50 each; the public price is now $5. Does buying the same number now reproduce its acquisition cost?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp07-seed-price\", \"source\": \"DP07\", \"pages\": [19], \"question\": \"Why can copying a venture fund's visible token holding misrepresent its economics?\", \"answer\": \"The fund may have acquired tokens earlier at a private-round price unavailable to later buyers. Its entry terms, vesting and other positions may differ or be unknown. A current holding therefore does not demonstrate that buying at the current price offers the same exposure or potential return.\"}, {\"id\": \"dp07-copying\", \"source\": \"DP07\", \"pages\": [8, 19], \"question\": \"A tracked large wallet adds a token. Is that sufficient reason for our research agent to copy the position?\", \"answer\": \"No. Treat the activity as a research lead. Check what the transaction actually did, acquisition conditions, timing, wallet attribution and missing exposures. The wallet may have different objectives or a much lower entry cost; its activity is not proof of a suitable or profitable trade.\"}, {\"id\": \"risk-sizing\", \"source\": \"DP06\", \"pages\": [6], \"question\": \"In the PDF's USD 10,000 account example, what notional corresponds to 1% risk with a 4% stop distance?\", \"answer\": \"The risk budget is USD 100. Before costs, position notional is 100 / 0.04 = USD 2,500. A 4% loss on that notional is USD 100. This gives currency notional, not a number of coins; coin quantity additionally requires entry price.\"}, {\"id\": \"corr-reward-ev\", \"source\": \"DP06\", \"pages\": [5, 8], \"question\": \"With fixed outcomes of plus 4R on a win and minus 1R on a loss, what is expected value and the cost-free break-even win rate?\", \"answer\": \"If p is the win probability, expected value is p(4R) minus (1-p)(1R). Setting that to zero gives p = 1/5, or 20%, before costs. The payoff ratio does not reveal the actual win probability.\"}]",
+    "reference": "No. The fund's stated cost was $100, whereas 200 tokens at $5 cost $1,000 before costs. Matching token quantity does not reproduce the fund's entry price or other investment terms.",
+    "provenance": {
+      "source_id": "DP07",
+      "file": "682410368-Introduction-to-on-Chain-Analysis-v3.pdf",
+      "sha256": "bca01e73c746ad628917fc4c2025fdced3351bb04def824a60bff53af828941c",
+      "pdf_pages": [
+        19
+      ],
+      "permission": "User attested permission for model training; independently unverified.",
+      "adaptation": "Reviewed paraphrase and explicit methodological qualifications. Historical tool/UI claims omitted. Test numbers are constructed applications, not source observations."
+    },
+    "response": "No, buying the same number of tokens now does not reproduce the fund's acquisition cost. The fund may have acquired tokens at a private-round price, which is not available to later buyers [dp07-seed-price]. Additionally, the current price does not account for the fund's specific acquisition conditions, timing, or other factors that influenced its cost [dp07-copying]. The current price of $5 does not reflect the original $0.50 entry price, and the same number of tokens purchased now would have a different notional value based on the current price [risk-sizing].",
+    "generated_tokens": 121,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp07-seed-price",
+      "dp07-copying",
+      "risk-sizing",
+      "corr-reward-ev"
+    ]
+  },
+  {
+    "id": "test-depth-impact",
+    "question": "Two venues show the same best ask. Does that imply the same cost for a large buy?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"market-order\", \"source\": \"DP17\", \"pages\": [36, 37], \"question\": \"Why might a large market buy execute above the initially displayed best ask?\", \"answer\": \"If there is not enough sell quantity at the best ask, the order can consume liquidity at successively higher ask prices. Its average execution price can therefore exceed the initial quote. The result depends on order size and available liquidity.\"}, {\"id\": \"relative-spread\", \"source\": \"DP19\", \"pages\": [9, 10], \"question\": \"How does the liquidity paper normalize the quoted spread?\", \"answer\": \"Best bid is the highest resting buy price and best ask is the lowest resting sell price. Midpoint is (ask + bid) / 2. Relative spread is (ask - bid) / midpoint. Multiply by 100 for percent or 10,000 for basis points; the unscaled ratio is dimensionless.\"}, {\"id\": \"dp07-copying\", \"source\": \"DP07\", \"pages\": [8, 19], \"question\": \"A tracked large wallet adds a token. Is that sufficient reason for our research agent to copy the position?\", \"answer\": \"No. Treat the activity as a research lead. Check what the transaction actually did, acquisition conditions, timing, wallet attribution and missing exposures. The wallet may have different objectives or a much lower entry cost; its activity is not proof of a suitable or profitable trade.\"}, {\"id\": \"dp07-balance-coverage\", \"source\": \"DP07\", \"pages\": [5, 22, 25], \"question\": \"Two tools report different values for the same wallet. Must one be fraudulent?\", \"answer\": \"No. First compare their chain coverage, protocol positions, token prices and observation times. A simple address balance can omit assets deposited in smart contracts, while a portfolio tool may include them. Different coverage can explain different totals; neither number should be assumed complete.\"}]",
+    "reference": "No. Quantities available at the best ask and higher levels can differ. The larger order's average execution price can therefore differ even when the initial best ask is identical.",
+    "provenance": {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": [
+        35,
+        36,
+        37
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out application of depth and slippage; not a measured market result."
+    },
+    "response": "If two venues show the same best ask, it does not necessarily imply the same cost for a large buy. The execution price for a large market buy can exceed the initially displayed best ask if there is insufficient liquidity at that price, leading to the order consuming liquidity at successively higher ask prices [market-order]. Therefore, the cost for a large buy depends on order size and available liquidity, not just the displayed best ask.",
+    "generated_tokens": 86,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "market-order",
+      "relative-spread",
+      "dp07-copying",
+      "dp07-balance-coverage"
+    ]
+  },
+  {
+    "id": "test-imbalance-sign",
+    "question": "Using the paper's convention, what does NOBI = -0.2 indicate?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"corr-nobi-exact\", \"source\": \"DP19\", \"pages\": [13], \"question\": \"The paper defines normalized order-book imbalance as (ask depth minus bid depth) divided by their sum. What does a negative value such as -0.2 mean?\", \"answer\": \"Bid-side depth exceeds ask-side depth at the specified levels because the numerator is ask depth minus bid depth. The value is an imbalance measure under this paper's convention, not a regression coefficient, significance result, or guaranteed price forecast.\"}, {\"id\": \"book-absolute\", \"source\": \"DP19\", \"pages\": [13], \"question\": \"What information is lost when taking absolute normalized order-book imbalance?\", \"answer\": \"The absolute value keeps the magnitude of the imbalance but removes which side is larger. Under this paper's convention, +0.4 and -0.4 both become 0.4 even though one is ask-heavy and the other bid-heavy.\"}, {\"id\": \"book-imbalance\", \"source\": \"DP19\", \"pages\": [13], \"question\": \"What sign convention does this paper use for normalized order-book imbalance?\", \"answer\": \"It defines NOBI as (ask depth - bid depth) / (ask depth + bid depth). Positive values mean more ask-side depth; negative values mean more bid-side depth. State this convention because another implementation may reverse the numerator. A zero denominator makes the ratio undefined.\"}, {\"id\": \"risk-sizing\", \"source\": \"DP06\", \"pages\": [6], \"question\": \"In the PDF's USD 10,000 account example, what notional corresponds to 1% risk with a 4% stop distance?\", \"answer\": \"The risk budget is USD 100. Before costs, position notional is 100 / 0.04 = USD 2,500. A 4% loss on that notional is USD 100. This gives currency notional, not a number of coins; coin quantity additionally requires entry price.\"}]",
+    "reference": "Bid-side depth exceeds ask-side depth at the specified levels because the numerator is ask depth minus bid depth. The number alone is not a guaranteed price forecast.",
+    "provenance": {
+      "source_id": "DP19",
+      "file": "Order_Book_Liquidity_on_Crypto_Exchanges (1).pdf",
+      "sha256": "7190740df68bbb7c0cc97537df07ec9f8164bafb94a5f83d0c0cd43d795785ed",
+      "pdf_pages": [
+        13
+      ],
+      "permission": "CC BY 4.0; copyright 2025 Martin Angerer, Marius Gramlich and Michael Hanke; https://doi.org/10.3390/jrfm18030124; https://creativecommons.org/licenses/by/4.0/; paraphrased and clarified; no endorsement",
+      "adaptation": "Held-out application of source equation."
+    },
+    "response": "Under the paper's convention, NOBI = -0.2 indicates that bid-side depth exceeds ask-side depth at the specified levels. The negative value reflects the imbalance measure, where a negative sign means more bid-side depth, as defined by the formula: NOBI = (ask depth - bid depth) / (ask depth + bid depth) [book-imbalance].",
+    "generated_tokens": 76,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "corr-nobi-exact",
+      "book-absolute",
+      "book-imbalance",
+      "risk-sizing"
+    ]
+  },
+  {
+    "id": "test-reward-probability",
+    "question": "A setup offers 4R potential reward for 1R risk. Does that tell us its actual success probability?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"corr-reward-ev\", \"source\": \"DP06\", \"pages\": [5, 8], \"question\": \"With fixed outcomes of plus 4R on a win and minus 1R on a loss, what is expected value and the cost-free break-even win rate?\", \"answer\": \"If p is the win probability, expected value is p(4R) minus (1-p)(1R). Setting that to zero gives p = 1/5, or 20%, before costs. The payoff ratio does not reveal the actual win probability.\"}, {\"id\": \"risk-invalidation\", \"source\": \"DP06\", \"pages\": [7], \"question\": \"Should a stop be moved closer merely to make the reward-to-risk ratio look better?\", \"answer\": \"No. The stop should reflect the predefined invalidation logic. Moving it solely to produce a preferred ratio changes the setup and its likelihood of being stopped. Reassess the trade instead of treating an attractive ratio as proof of quality.\"}, {\"id\": \"dp07-seed-price\", \"source\": \"DP07\", \"pages\": [19], \"question\": \"Why can copying a venture fund's visible token holding misrepresent its economics?\", \"answer\": \"The fund may have acquired tokens earlier at a private-round price unavailable to later buyers. Its entry terms, vesting and other positions may differ or be unknown. A current holding therefore does not demonstrate that buying at the current price offers the same exposure or potential return.\"}, {\"id\": \"risk-multiple\", \"source\": \"DP06\", \"pages\": [5], \"question\": \"For a long trade, how is the planned reward-to-risk multiple calculated?\", \"answer\": \"Before costs, divide target minus entry by entry minus stop, provided stop is below entry and target is above entry. A target 4% above entry and a stop 2% below entry give a planned 2R payoff. This is a payoff ratio, not a win probability.\"}]",
+    "reference": "No. It describes the planned payoff. With fixed +4R wins and -1R losses, the cost-free break-even probability is 20%, but the actual success probability needs evidence from outcomes.",
+    "provenance": {
+      "source_id": "DP06",
+      "file": "593280526-Risk-Management.pdf",
+      "sha256": "8a8ce394328e1ad7e7c1acfbac6338ebdb92b006075243d323f5a2f128a05e2d",
+      "pdf_pages": [
+        5,
+        8
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out distinction between payoff and probability."
+    },
+    "response": "The 4R reward-to-1R risk ratio does not indicate the actual success probability. The expected value calculation shows that a 20% win rate is break-even, but this ratio alone does not reveal the true win probability [corr-reward-ev]. The ratio reflects planned payoffs, not the likelihood of success, and should not be interpreted as proof of a trade's quality [risk-invalidation].",
+    "generated_tokens": 84,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "corr-reward-ev",
+      "risk-invalidation",
+      "dp07-seed-price",
+      "risk-multiple"
+    ]
+  },
+  {
+    "id": "test-overbought",
+    "question": "RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp07-honeypot\", \"source\": \"DP07\", \"pages\": [29], \"question\": \"What is the token honeypot risk described in the guide?\", \"answer\": \"A malicious contract may permit buying while restricting other users from selling, sometimes through privileges activated later. A rising displayed price does not establish that a holder can exit. Inspect relevant contract permissions and sell restrictions rather than treating a price chart as evidence of exit liquidity.\"}, {\"id\": \"ta-line\", \"source\": \"DP05\", \"pages\": [13, 14], \"question\": \"How do upward and downward trendlines differ?\", \"answer\": \"An upward trendline commonly connects rising pullback lows, while a downward trendline connects falling pullback highs. The chosen points and timeframe influence the line. These are analytical constructions, not guarantees that price will respect them.\"}, {\"id\": \"rsi-extreme\", \"source\": \"DP17\", \"pages\": [54], \"question\": \"Does RSI above 70 prove a cryptocurrency must fall immediately?\", \"answer\": \"No. Above 70 is a conventional overbought interpretation, but RSI can remain extreme while the trend continues. Likewise, below 30 does not guarantee an immediate rebound. Treat the reading as one piece of evidence, not a certain reversal signal.\"}, {\"id\": \"risk-sizing\", \"source\": \"DP06\", \"pages\": [6], \"question\": \"In the PDF's USD 10,000 account example, what notional corresponds to 1% risk with a 4% stop distance?\", \"answer\": \"The risk budget is USD 100. Before costs, position notional is 100 / 0.04 = USD 2,500. A 4% loss on that notional is USD 100. This gives currency notional, not a number of coins; coin quantity additionally requires entry price.\"}]",
+    "reference": "No. RSI can remain extreme during a continuing trend. An overbought reading does not impose an immediate reversal.",
+    "provenance": {
+      "source_id": "DP17",
+      "file": "cryptocurrency-trading-ebook-binance-academy-8299.pdf",
+      "sha256": "35cd5a84f24650a3756b6ea1c32c533c779406d65c60d76351a76e952cc22fff",
+      "pdf_pages": [
+        54
+      ],
+      "permission": "User attested permission for model training in conversation; independently unverified.",
+      "adaptation": "Held-out application of the source caution."
+    },
+    "response": "An RSI of 82 indicates overbought conditions, but it does not logically contradict a rising price. The RSI is one analytical tool and should not be treated as a definitive signal [rsi-extreme]. A rising price can persist even with high RSI values if the trend remains strong. Therefore, the indicator does not inherently create a contradiction with the price movement.",
+    "generated_tokens": 78,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp07-honeypot",
+      "ta-line",
+      "rsi-extreme",
+      "risk-sizing"
+    ]
+  },
+  {
+    "id": "dp01-retry-test-layer-capacity",
+    "question": "A report gives a Bitcoin throughput number without stating transaction size, batching, protocol version, or whether it means the base layer. Is that enough for a current capacity comparison?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp01-capacity-date\", \"source\": \"DP01\", \"pages\": [44, 62], \"question\": \"Should the report's transactions-per-second statement be treated as a timeless limit for every Bitcoin payment method?\", \"answer\": \"No. It describes the base-layer configuration and assumptions discussed in a 2018 report. Protocol changes, batching, transaction sizes, and higher-layer payment systems affect what a later comparison measures. State the layer, date, and calculation before using a capacity figure.\"}, {\"id\": \"dp01-pow-consensus\", \"source\": \"DP01\", \"pages\": [38, 39], \"question\": \"What role does proof of work play in the report's explanation of Bitcoin consensus?\", \"answer\": \"Participants expend computation to compete for the right to propose a block, and other nodes can cheaply verify whether the proposal follows the protocol. The mechanism helps a distributed network order accepted transactions without one central record keeper. Its security assumptions and costs still matter.\"}, {\"id\": \"dp04-renminbi-timeline\", \"source\": \"DP04\", \"pages\": [51, 64], \"question\": \"Why must the report's statement about future renminbi inclusion in the SDR basket be treated carefully?\", \"answer\": \"The body discusses inclusion as prospective, while its endnote cites the IMF's November 2015 approval. That internal timing mismatch means the statement should be preserved as a dated editorial inconsistency, not repeated as current or cleanly contemporaneous evidence.\"}, {\"id\": \"dp03-remove-all-trust\", \"source\": \"DP03\", \"pages\": [46, 50, 51, 52], \"question\": \"Does Bitcoin eliminate every form of trust from a payment system?\", \"answer\": \"No. It can reduce reliance on one transaction-clearing intermediary by replacing that role with protocol, cryptographic, network, and economic assumptions. Users may still rely on software, key custody, exchanges, miners or validators, governance, and external information. The relevant question is which trust is shifted or reduced.\"}]",
+    "reference": "No. Capacity depends on the layer, protocol configuration, transaction composition, batching, and measurement date. A current comparison must define those assumptions and verify the figure with current sources.",
+    "provenance": {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": [
+        44,
+        62
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out application of the source's dated capacity discussion; written after run 003 and never used for fitting."
+    },
+    "response": "No, a Bitcoin throughput number without specifying transaction size, batching, protocol version, or layer is insufficient for a current capacity comparison. The report's transactions-per-second statement is context-dependent and based on a 2018 configuration [dp01-capacity-date]. Protocol changes, batching, transaction sizes, and higher-layer systems affect capacity measurements over time. To make a valid comparison, one must specify the layer, date, and calculation method.",
+    "generated_tokens": 91,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp01-capacity-date",
+      "dp01-pow-consensus",
+      "dp04-renminbi-timeline",
+      "dp03-remove-all-trust"
+    ]
+  },
+  {
+    "id": "dp01-retry-test-cold-storage",
+    "question": "Keys are kept offline, but the only backup is destroyed. Did cold storage eliminate the risk of permanent loss?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp01-hot-cold\", \"source\": \"DP01\", \"pages\": [46], \"question\": \"Does moving keys to cold storage remove every cryptocurrency risk?\", \"answer\": \"No. Keeping keys offline can reduce exposure to online compromise, but it does not remove backup loss, user error, market risk, protocol risk, or risks that arise when assets are later sent to a service. Security claims must name the threat being reduced.\"}, {\"id\": \"risk-budget\", \"source\": \"DP06\", \"pages\": [4], \"question\": \"Does risking 1% of an account mean buying an asset with only 1% of the account?\", \"answer\": \"No. Risk-at-stop refers to the planned loss if the stop executes as assumed. Position notional is the amount exposed to price movement. For a USD 10,000 account, a 1% loss budget is USD 100, but the notional depends on stop distance and costs.\"}, {\"id\": \"dp07-scanner\", \"source\": \"DP07\", \"pages\": [29, 30], \"question\": \"Does a token scanner reporting no obvious honeypot eliminate rug-pull risk?\", \"answer\": \"No. Automated checks can miss malicious logic or changes in privileged behavior, and other loss mechanisms remain. For example, insiders may sell a concentrated holding. Record what the scanner checked and when; do not convert its result into a guarantee of safety.\"}, {\"id\": \"dp03-survey-snapshot\", \"source\": \"DP03\", \"pages\": [80, 81, 82, 83, 84, 85], \"question\": \"Can the report's eight-country survey establish permanent global attitudes toward cryptocurrency?\", \"answer\": \"No. It is a 2019-era cross-country survey with 1,000 respondents in each sampled country. It can describe responses under its questionnaire and sampling method, but attitudes can change, the selected countries are not the world, and wording or survey mode can affect results.\"}]",
+    "reference": "No. Offline storage can reduce online compromise, but it does not prevent loss of the key or backup, user error, physical damage, or market and protocol risks. The security claim must identify the threat it reduces.",
+    "provenance": {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": [
+        46
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out threat-model application; written after run 003 and never used for fitting."
+    },
+    "response": "Cold storage reduces some risks but does not eliminate all risks of permanent loss. The evidence shows that cold storage only reduces exposure to online compromise, not backup loss, user error, or other risks [dp01-hot-cold]. Since the only backup is destroyed, there is still a risk of permanent loss due to factors like user error or hardware failure. The evidence does not establish whether this specific scenario eliminates all risks.",
+    "generated_tokens": 85,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp01-hot-cold",
+      "risk-budget",
+      "dp07-scanner",
+      "dp03-survey-snapshot"
+    ]
+  },
+  {
+    "id": "dp01-retry-test-token-rights",
+    "question": "A project token trades on an exchange and helped finance development. Does that alone prove its holder has the legal rights of a shareholder?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp01-token-share\", \"source\": \"DP01\", \"pages\": [47], \"question\": \"Why should a token issued to fund a project not automatically be described as equivalent to a company share?\", \"answer\": \"Rights come from the token's contract, governing documents, and applicable law. A traditional share commonly carries legally defined ownership or voting rights that a token may lack. Similar fundraising or trading behavior does not establish identical legal claims.\"}, {\"id\": \"dp03-governance-not-inherent\", \"source\": \"DP03\", \"pages\": [56, 57, 58, 67, 68], \"question\": \"Is distributed-ledger governance inherently democratic?\", \"answer\": \"No. Participation rules, token or hash-power concentration, delegation, software maintainers, upgrade procedures, and off-chain institutions determine who has influence. A public protocol may broaden access, but that property alone does not prove equal voice or democratic outcomes.\"}, {\"id\": \"dp03-payment-system-vs-money\", \"source\": \"DP03\", \"pages\": [37, 52], \"question\": \"Why should a payment instrument or settlement technology not automatically be classified as a new form of money?\", \"answer\": \"A payment instrument can transfer an existing monetary claim, while a settlement technology records or finalizes transfers. Whether the underlying asset is money depends on its issuer, redemption rights, acceptability, unit-of-account role, and other institutional features. Technical novelty alone does not settle that classification.\"}, {\"id\": \"dp07-governance\", \"source\": \"DP07\", \"pages\": [24, 25], \"question\": \"How can governance-token holdings inform fundamental research without proving control?\", \"answer\": \"They can help investigate potential voting influence. Actual influence also depends on the governance rules and the relevant voting-power calculation. A token balance or displayed DAO membership alone does not establish that the holder controls all decisions.\"}]",
+    "reference": "No. Legal and contractual rights depend on the token documents and applicable law. Trading and fundraising similarities do not by themselves create ownership, voting, dividend, or residual claims equivalent to a share.",
+    "provenance": {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": [
+        47
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out legal-rights distinction; educational, not legal advice."
+    },
+    "response": "No, a token that trades on an exchange and helps finance development does not alone prove its holder has the legal rights of a shareholder. Legal rights depend on the token's contract, governance rules, and applicable law, which may not confer ownership or voting rights like traditional shares [dp01-token-share]. Trading behavior and fundraising roles do not inherently establish equivalent legal claims.",
+    "generated_tokens": 75,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp01-token-share",
+      "dp03-governance-not-inherent",
+      "dp03-payment-system-vs-money",
+      "dp07-governance"
+    ]
+  },
+  {
+    "id": "dp01-retry-test-correlation",
+    "question": "Countries with stronger institutions show more exchange activity in a cross-sectional chart. Can that chart alone prove institutions caused the activity?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp03-survey-snapshot\", \"source\": \"DP03\", \"pages\": [80, 81, 82, 83, 84, 85], \"question\": \"Can the report's eight-country survey establish permanent global attitudes toward cryptocurrency?\", \"answer\": \"No. It is a 2019-era cross-country survey with 1,000 respondents in each sampled country. It can describe responses under its questionnaire and sampling method, but attitudes can change, the selected countries are not the world, and wording or survey mode can affect results.\"}, {\"id\": \"dp03-governance-not-inherent\", \"source\": \"DP03\", \"pages\": [56, 57, 58, 67, 68], \"question\": \"Is distributed-ledger governance inherently democratic?\", \"answer\": \"No. Participation rules, token or hash-power concentration, delegation, software maintainers, upgrade procedures, and off-chain institutions determine who has influence. A public protocol may broaden access, but that property alone does not prove equal voice or democratic outcomes.\"}, {\"id\": \"dp01-correlation\", \"source\": \"DP01\", \"pages\": [53], \"question\": \"The report plots institutional indicators against growth in exchange activity. Does a correlation identify the cause of adoption?\", \"answer\": \"No. A cross-country correlation can describe association, but other factors, measurement choices, reverse causality, and selection can explain it. The report labels its broader evidence anecdotal, so the plot should generate hypotheses rather than a causal trading rule.\"}, {\"id\": \"dp04-reserve-chart-date\", \"source\": \"DP04\", \"pages\": [51, 52], \"question\": \"Can Figure 5 be used as today's composition of global foreign-exchange reserves?\", \"answer\": \"No. The chart ends in 2014 and reflects the source's currency categories and aggregation. It is historical context; current reserve shares require a recent IMF or other authoritative dataset with matching definitions.\"}]",
+    "reference": "No. It shows an association under the chart's data and definitions. Confounding, reverse causality, selection, and measurement choices remain possible, so causal inference requires a stronger design.",
+    "provenance": {
+      "source_id": "DP01",
+      "file": "01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf",
+      "sha256": "367b7e37b7ed564e2197a38051dfff57f1407c02e1eb0e07fe4d4ae04d7d1abe",
+      "pdf_pages": [
+        53
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out correlation-versus-causation check; written after run 003 and never used for fitting."
+    },
+    "response": "No, a cross-sectional chart showing a correlation between institutional strength and exchange activity does not alone prove causation. Correlation does not imply causation, and other factors could explain the association [dp01-correlation]. The chart may suggest a hypothesis, but it does not establish that institutions caused the exchange activity. To prove causation, further analysis, such as controlled experiments or longitudinal studies, would be required.",
+    "generated_tokens": 84,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp03-survey-snapshot",
+      "dp03-governance-not-inherent",
+      "dp01-correlation",
+      "dp04-reserve-chart-date"
+    ]
+  },
+  {
+    "id": "dp03-retry-test-permission-properties",
+    "question": "A ledger publishes its source code but allows only approved institutions to validate transactions. Does open-source code alone make validation permissionless?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp03-permission-models\", \"source\": \"DP03\", \"pages\": [46, 47, 48, 49], \"question\": \"What is the practical difference between a permissionless and a permissioned distributed ledger?\", \"answer\": \"A permissionless system generally lets participants join validation under public protocol rules, while a permissioned system restricts validation or access to approved parties. Openness of source code, read access, transaction submission, and validation authority are separate properties and should be stated explicitly.\"}, {\"id\": \"dp04-miner-incentives\", \"source\": \"DP04\", \"pages\": [48, 49], \"question\": \"Why does a permissionless blockchain need an incentive or other defense against abuse?\", \"answer\": \"Open participation creates costs for validation, data propagation, and Sybil resistance. Bitcoin uses block subsidies, fees, and proof of work; other networks can use different mechanisms. Removing a native asset is possible in some designs, but the replacement security and governance assumptions must be specified.\"}, {\"id\": \"dp03-governance-not-inherent\", \"source\": \"DP03\", \"pages\": [56, 57, 58, 67, 68], \"question\": \"Is distributed-ledger governance inherently democratic?\", \"answer\": \"No. Participation rules, token or hash-power concentration, delegation, software maintainers, upgrade procedures, and off-chain institutions determine who has influence. A public protocol may broaden access, but that property alone does not prove equal voice or democratic outcomes.\"}, {\"id\": \"dp01-cbdc-difference\", \"source\": \"DP01\", \"pages\": [61], \"question\": \"Why would a central-bank digital currency differ fundamentally from early permissionless cryptocurrency designs?\", \"answer\": \"A central bank would issue or administer the money under public authority and manage supply to meet policy goals. The report's example anticipates selected operators and a permissioned register rather than open anonymous validation. The design space is broader than one architecture, and the discussion is dated 2018.\"}]",
+    "reference": "No. Source-code access and validator admission are separate properties. Validation remains permissioned if only approved institutions can perform it, even when anyone can inspect or copy the code.",
+    "provenance": {
+      "source_id": "DP03",
+      "file": "03.-Crypto-currencies-and-the-Future-oF-Money-Author-IE-University.pdf",
+      "sha256": "d552d0c55596004465bcd8ba7a4a343add807ca331af842ea6f1bd17c7c30883",
+      "pdf_pages": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out property-separation test; written after run 005 and never used for fitting."
+    },
+    "response": "Open-source code alone does not make validation permissionless. The evidence states that openness of source code, read access, transaction submission, and validation authority are separate properties [dp03-permission-models]. A ledger publishing its source code but restricting validation to approved institutions is permissioned, as validation authority is controlled. Thus, open-source code does not inherently imply permissionless validation.",
+    "generated_tokens": 77,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp03-permission-models",
+      "dp04-miner-incentives",
+      "dp03-governance-not-inherent",
+      "dp01-cbdc-difference"
+    ]
+  },
+  {
+    "id": "dp03-retry-test-trust-model",
+    "question": "A payment protocol has no central clearing bank. Does that fact alone prove users rely on nobody and nothing?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp03-remove-all-trust\", \"source\": \"DP03\", \"pages\": [46, 50, 51, 52], \"question\": \"Does Bitcoin eliminate every form of trust from a payment system?\", \"answer\": \"No. It can reduce reliance on one transaction-clearing intermediary by replacing that role with protocol, cryptographic, network, and economic assumptions. Users may still rely on software, key custody, exchanges, miners or validators, governance, and external information. The relevant question is which trust is shifted or reduced.\"}, {\"id\": \"dp03-governance-not-inherent\", \"source\": \"DP03\", \"pages\": [56, 57, 58, 67, 68], \"question\": \"Is distributed-ledger governance inherently democratic?\", \"answer\": \"No. Participation rules, token or hash-power concentration, delegation, software maintainers, upgrade procedures, and off-chain institutions determine who has influence. A public protocol may broaden access, but that property alone does not prove equal voice or democratic outcomes.\"}, {\"id\": \"dp03-cash-tradeoffs\", \"source\": \"DP03\", \"pages\": [41, 42, 43, 44], \"question\": \"Does evidence that cash can facilitate tax evasion or carry contaminants prove that eliminating cash has only benefits?\", \"answer\": \"No. Those are arguments for limiting some uses of cash, but cash also provides privacy, accessibility, resilience, and a liquid asset outside commercial-bank liabilities. A policy assessment must consider distributional effects, alternatives, enforcement evidence, and the costs of exclusion or surveillance.\"}, {\"id\": \"dp04-network-effects\", \"source\": \"DP04\", \"pages\": [16, 28, 30, 46, 47], \"question\": \"Why do network effects matter for a payment currency?\", \"answer\": \"A payment method becomes more useful as more users, merchants, wallets, and service providers support it. Existing systems can therefore remain dominant even when a new design has technical advantages. Subsidies or partnerships may accelerate adoption but do not prove durable value.\"}]",
+    "reference": "No. Reliance may shift to protocol rules, cryptography, software, network incentives, governance, key custody, and service providers. The analysis must identify which intermediary was removed and which dependencies remain.",
+    "provenance": {
+      "source_id": "DP03",
+      "file": "03.-Crypto-currencies-and-the-Future-oF-Money-Author-IE-University.pdf",
+      "sha256": "d552d0c55596004465bcd8ba7a4a343add807ca331af842ea6f1bd17c7c30883",
+      "pdf_pages": [
+        46,
+        50,
+        51,
+        52
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out trust-model test; written after run 005 and never used for fitting."
+    },
+    "response": "No, a payment protocol lacking a central clearing bank does not alone prove users rely on nobody and nothing. While it reduces reliance on one intermediary, users may still depend on software, key custody, exchanges, miners, or governance structures [dp03-remove-all-trust]. Trust can be shifted but not entirely eliminated. The absence of a central clearing bank does not guarantee the elimination of all forms of trust or dependency.",
+    "generated_tokens": 85,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp03-remove-all-trust",
+      "dp03-governance-not-inherent",
+      "dp03-cash-tradeoffs",
+      "dp04-network-effects"
+    ]
+  },
+  {
+    "id": "dp03-retry-test-dated-usage",
+    "question": "The report lists coin prices, address counts, and merchant acceptance around 2018?2019. May those numbers be used as current market facts without verification?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp03-historical-market-numbers\", \"source\": \"DP03\", \"pages\": [59, 60, 61, 62], \"question\": \"May the coin counts, prices, market capitalizations, and merchant-acceptance figures in this report be quoted as current?\", \"answer\": \"No. They describe observations or third-party estimates available around 2018–2019, often with differing measurement windows. Any present-day statement requires a current source, timestamp, definition, and methodology; the report's numbers remain historical evidence only.\"}, {\"id\": \"dp01-mining-location\", \"source\": \"DP01\", \"pages\": [56, 57, 58, 59], \"question\": \"Which location factors does the report associate with cryptocurrency mining, and why must its examples be dated?\", \"answer\": \"It discusses electricity prices, climate and policy or tax conditions as factors affecting mining location. Mining can relocate when economics or regulation changes. Named facilities, revenues, market shares, and country conditions in the report describe 2018-era evidence and require current verification.\"}, {\"id\": \"dp04-report-claims-dated\", \"source\": \"DP04\", \"pages\": [28, 29, 30, 31, 32, 49, 50, 57, 58, 59, 60, 61], \"question\": \"How should product recommendations and adoption forecasts in a 2015 payments report be used for current crypto research?\", \"answer\": \"Treat them as dated hypotheses or historical context. Verify whether products, rules, fees, and institutions still exist, and test forecasts against later observations. Do not convert author expectations into present facts or return labels.\"}, {\"id\": \"dp03-pow-pos-tradeoffs\", \"source\": \"DP03\", \"pages\": [57, 58], \"question\": \"How should proof of work and proof of stake be compared without relying on the report's dated examples?\", \"answer\": \"Compare their security assumptions, resource costs, concentration risks, incentives, finality, participation requirements, and implementation details. Proof of work ties block production to computational work; proof of stake ties it to staked value and protocol rules. Network names and consensus mechanisms in a 2019 report must be verified before being described as current.\"}]",
+    "reference": "No. They are historical observations with particular sources, dates, definitions, and measurement windows. Current use requires new authoritative data and must preserve the old figures only as dated evidence.",
+    "provenance": {
+      "source_id": "DP03",
+      "file": "03.-Crypto-currencies-and-the-Future-oF-Money-Author-IE-University.pdf",
+      "sha256": "d552d0c55596004465bcd8ba7a4a343add807ca331af842ea6f1bd17c7c30883",
+      "pdf_pages": [
+        59,
+        60,
+        61
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out temporal-validity test; written after run 005 and never used for fitting."
+    },
+    "response": "The numbers in the report are historical and cannot be used as current market facts without verification. The report describes observations or third-party estimates available around 2018–2019, often with differing measurement windows [dp03-historical-market-numbers]. Therefore, any present-day statement requires a current source, timestamp, definition, and methodology. The report's numbers remain historical evidence only.",
+    "generated_tokens": 82,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp03-historical-market-numbers",
+      "dp01-mining-location",
+      "dp04-report-claims-dated",
+      "dp03-pow-pos-tradeoffs"
+    ]
+  },
+  {
+    "id": "dp03-retry-test-cbdc-architecture",
+    "question": "If a project is called a retail CBDC, does that label tell us it must use a public blockchain and anonymous token accounts?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp03-cbdc-survey-date\", \"source\": \"DP03\", \"pages\": [73, 74], \"question\": \"What can the report's central-bank CBDC charts tell us today?\", \"answer\": \"They document responses to a Bank for International Settlements survey reported for 2017–2018, including research, experiments, and then-stated issuance likelihood. They do not establish current plans or deployments. A current claim must use a newer central-bank or BIS source.\"}, {\"id\": \"dp03-retail-wholesale-cbdc\", \"source\": \"DP03\", \"pages\": [71, 72, 73, 74], \"question\": \"What is the difference between retail and wholesale CBDC?\", \"answer\": \"Retail CBDC is designed for access by the general public or a broad set of firms, while wholesale CBDC is designed mainly for eligible financial institutions and settlement between them. Either category can have different technical and access designs, so the label does not determine whether it is token-based, account-based, centralized, or distributed.\"}, {\"id\": \"dp03-money-taxonomy\", \"source\": \"DP03\", \"pages\": [39, 40], \"question\": \"What dimensions does the report's digital-money taxonomy use to distinguish monetary forms?\", \"answer\": \"The figure distinguishes whether the instrument is a claim or an object, whether redemption is at fixed or variable value, whether any backstop is public or private, and whether the technology is centralized or decentralized. The examples are a 2019-era taxonomy, so a current instrument should be classified from its actual design rather than its label.\"}, {\"id\": \"dp01-token-share\", \"source\": \"DP01\", \"pages\": [47], \"question\": \"Why should a token issued to fund a project not automatically be described as equivalent to a company share?\", \"answer\": \"Rights come from the token's contract, governing documents, and applicable law. A traditional share commonly carries legally defined ownership or voting rights that a token may lack. Similar fundraising or trading behavior does not establish identical legal claims.\"}]",
+    "reference": "No. Retail describes the intended user group, not the required ledger, access, identity, or account architecture. Those properties must be specified separately by the issuing central bank and system design.",
+    "provenance": {
+      "source_id": "DP03",
+      "file": "03.-Crypto-currencies-and-the-Future-oF-Money-Author-IE-University.pdf",
+      "sha256": "d552d0c55596004465bcd8ba7a4a343add807ca331af842ea6f1bd17c7c30883",
+      "pdf_pages": [
+        71,
+        72,
+        73,
+        74
+      ],
+      "permission": "User attested permission for private model training; independently unverified.",
+      "adaptation": "Fresh held-out CBDC design-space test; written after run 005 and never used for fitting."
+    },
+    "response": "The label \"retail CBDC\" does not necessarily imply the use of a public blockchain or anonymous token accounts. According to the report, the distinction between retail and wholesale CBDC lies in access and user base, not in technical design [dp03-retail-wholesale-cbdc]. The report also notes that the technology can be centralized or decentralized, and the label alone does not determine these features [dp03-money-taxonomy]. Therefore, the label \"retail CBDC\" does not mandate the use of a public blockchain or anonymous token accounts.",
+    "generated_tokens": 114,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp03-cbdc-survey-date",
+      "dp03-retail-wholesale-cbdc",
+      "dp03-money-taxonomy",
+      "dp01-token-share"
+    ]
+  },
+  {
+    "id": "dp04-test-chart-current",
+    "question": "A reserve-composition chart ends in 2014. Can it answer which currency has the second-largest reserve share in 2026?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp04-reserve-chart-date\", \"source\": \"DP04\", \"pages\": [51, 52], \"question\": \"Can Figure 5 be used as today's composition of global foreign-exchange reserves?\", \"answer\": \"No. The chart ends in 2014 and reflects the source's currency categories and aggregation. It is historical context; current reserve shares require a recent IMF or other authoritative dataset with matching definitions.\"}, {\"id\": \"dp03-conjoint-interpretation\", \"source\": \"DP03\", \"pages\": [93, 94, 95], \"question\": \"How should a coefficient in the report's conjoint chart be interpreted?\", \"answer\": \"It is an estimated preference effect for an attribute level relative to the omitted baseline within that survey design. Its sign and magnitude are not a coin-return forecast, universal utility score, or causal effect of launching a real currency. Interpretation must retain the country, sample, uncertainty, coding, and baseline.\"}, {\"id\": \"dp04-network-effects\", \"source\": \"DP04\", \"pages\": [16, 28, 30, 46, 47], \"question\": \"Why do network effects matter for a payment currency?\", \"answer\": \"A payment method becomes more useful as more users, merchants, wallets, and service providers support it. Existing systems can therefore remain dominant even when a new design has technical advantages. Subsidies or partnerships may accelerate adoption but do not prove durable value.\"}, {\"id\": \"dp01-capacity-date\", \"source\": \"DP01\", \"pages\": [44, 62], \"question\": \"Should the report's transactions-per-second statement be treated as a timeless limit for every Bitcoin payment method?\", \"answer\": \"No. It describes the base-layer configuration and assumptions discussed in a 2018 report. Protocol changes, batching, transaction sizes, and higher-layer payment systems affect what a later comparison measures. State the layer, date, and calculation before using a capacity figure.\"}]",
+    "reference": "No. It only describes the historical period and categories shown. Answering a 2026 question requires a current authoritative dataset with a stated date and compatible definitions.",
+    "provenance": {
+      "source_id": "DP04",
+      "file": "06.-The-Future-of-Exchanging-Value-Cryptocurrencies-and-the-trust-economy-Author-Nicholas-Gruen.pdf",
+      "sha256": "474696eac91761b2f96c5ca3c4d899e3ca768c72ca836631800312c8471607dc",
+      "pdf_pages": [
+        51
+      ],
+      "permission": "User attested private model-training permission; independently unverified.",
+      "adaptation": "Constructed temporal-validity test."
+    },
+    "response": "The reserve-composition chart ending in 2014 cannot answer which currency has the second-largest reserve share in 2026. The chart provides historical data up to 2014 and does not reflect current or future reserve compositions. To determine the second-largest reserve currency in 2026, one would need a recent and authoritative dataset, such as from the IMF, with matching definitions and currency categories [dp04-reserve-chart-date].",
+    "generated_tokens": 96,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp04-reserve-chart-date",
+      "dp03-conjoint-interpretation",
+      "dp04-network-effects",
+      "dp01-capacity-date"
+    ]
+  },
+  {
+    "id": "dp04-test-signing",
+    "question": "Who normally creates the digital signature authorizing a Bitcoin spend: the miner or the spender controlling the relevant key?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp03-remove-all-trust\", \"source\": \"DP03\", \"pages\": [46, 50, 51, 52], \"question\": \"Does Bitcoin eliminate every form of trust from a payment system?\", \"answer\": \"No. It can reduce reliance on one transaction-clearing intermediary by replacing that role with protocol, cryptographic, network, and economic assumptions. Users may still rely on software, key custody, exchanges, miners or validators, governance, and external information. The relevant question is which trust is shifted or reduced.\"}, {\"id\": \"dp04-miner-incentives\", \"source\": \"DP04\", \"pages\": [48, 49], \"question\": \"Why does a permissionless blockchain need an incentive or other defense against abuse?\", \"answer\": \"Open participation creates costs for validation, data propagation, and Sybil resistance. Bitcoin uses block subsidies, fees, and proof of work; other networks can use different mechanisms. Removing a native asset is possible in some designs, but the replacement security and governance assumptions must be specified.\"}, {\"id\": \"dp04-mining-not-signing\", \"source\": \"DP04\", \"pages\": [48], \"question\": \"Is Bitcoin mining correctly described as miners signing all transactions?\", \"answer\": \"No. Users authorize spends with digital signatures. Miners select valid transactions, construct candidate blocks, and search for proof of work; network nodes independently verify block and transaction rules. These roles should not be conflated.\"}, {\"id\": \"dp03-governance-not-inherent\", \"source\": \"DP03\", \"pages\": [56, 57, 58, 67, 68], \"question\": \"Is distributed-ledger governance inherently democratic?\", \"answer\": \"No. Participation rules, token or hash-power concentration, delegation, software maintainers, upgrade procedures, and off-chain institutions determine who has influence. A public protocol may broaden access, but that property alone does not prove equal voice or democratic outcomes.\"}]",
+    "reference": "The spender controlling the required private key creates the transaction signature. Miners may include the valid transaction in a proof-of-work block, and nodes verify it; mining is not the act of signing every user's spend.",
+    "provenance": {
+      "source_id": "DP04",
+      "file": "06.-The-Future-of-Exchanging-Value-Cryptocurrencies-and-the-trust-economy-Author-Nicholas-Gruen.pdf",
+      "sha256": "474696eac91761b2f96c5ca3c4d899e3ca768c72ca836631800312c8471607dc",
+      "pdf_pages": [
+        48
+      ],
+      "permission": "User attested private model-training permission; independently unverified.",
+      "adaptation": "Constructed role-separation test."
+    },
+    "response": "The digital signature authorizing a Bitcoin spend is created by the spender controlling the relevant private key, not the miner. Users authorize spends with digital signatures, while miners select valid transactions, construct blocks, and search for proof of work [dp04-mining-not-signing]. The role of miners is to validate and relay transactions, not to sign them. Thus, the spender, not the miner, is responsible for creating the digital signature that authorizes a Bitcoin spend.",
+    "generated_tokens": 95,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp03-remove-all-trust",
+      "dp04-miner-incentives",
+      "dp04-mining-not-signing",
+      "dp03-governance-not-inherent"
+    ]
+  },
+  {
+    "id": "dp04-test-adoption",
+    "question": "A payment app is faster in a laboratory demonstration. Does that prove nationwide adoption?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp04-disruption-definition\", \"source\": \"DP04\", \"pages\": [18, 19, 20, 21], \"question\": \"Does calling a payment product disruptive prove that it will replace incumbents?\", \"answer\": \"No. Disruption is a claim about how market structures may change, not proof of adoption or survival. Evidence would need to track users, costs, regulation, incumbent responses, and outcomes over time.\"}, {\"id\": \"dp04-network-effects\", \"source\": \"DP04\", \"pages\": [16, 28, 30, 46, 47], \"question\": \"Why do network effects matter for a payment currency?\", \"answer\": \"A payment method becomes more useful as more users, merchants, wallets, and service providers support it. Existing systems can therefore remain dominant even when a new design has technical advantages. Subsidies or partnerships may accelerate adoption but do not prove durable value.\"}, {\"id\": \"dp04-volatility-adoption-loop\", \"source\": \"DP04\", \"pages\": [46, 47, 49, 50], \"question\": \"How can price volatility impede a cryptocurrency's use as a payment medium?\", \"answer\": \"Merchants and users face uncertain purchasing power, conversion costs, and accounting risk, which can reduce willingness to price or hold balances in the asset. Low use can in turn limit liquidity. This is a possible adoption feedback loop, not proof that every volatile asset must fail.\"}, {\"id\": \"dp03-cbdc-bank-run-risk\", \"source\": \"DP03\", \"pages\": [76, 77, 78], \"question\": \"How could a broadly accessible CBDC affect bank funding during stress?\", \"answer\": \"If people can rapidly move commercial-bank deposits into a perceived safer central-bank liability, outflows could become faster or larger. That could weaken deposit funding and alter bank balance sheets. The outcome depends on design choices such as access, remuneration, limits, intermediaries, and the surrounding financial system.\"}]",
+    "reference": "No. Adoption also depends on merchant coverage, interoperability, regulation, user trust, fees, security, incentives, accessibility, and incumbent alternatives. A technical demonstration does not measure those system-level conditions.",
+    "provenance": {
+      "source_id": "DP04",
+      "file": "06.-The-Future-of-Exchanging-Value-Cryptocurrencies-and-the-trust-economy-Author-Nicholas-Gruen.pdf",
+      "sha256": "474696eac91761b2f96c5ca3c4d899e3ca768c72ca836631800312c8471607dc",
+      "pdf_pages": [
+        16,
+        28,
+        30,
+        31,
+        32,
+        46,
+        47
+      ],
+      "permission": "User attested private model-training permission; independently unverified.",
+      "adaptation": "Constructed adoption-evidence test."
+    },
+    "response": "A laboratory demonstration of a faster payment app does not prove nationwide adoption. The evidence shows that technical advantages alone do not guarantee market success [dp04-disruption-definition]. Network effects, regulatory acceptance, user behavior, and incumbent responses are critical factors that influence adoption [dp04-network-effects]. Without tracking real-world usage, costs, and market dynamics over time, a lab test cannot confirm nationwide adoption.",
+    "generated_tokens": 82,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp04-disruption-definition",
+      "dp04-network-effects",
+      "dp04-volatility-adoption-loop",
+      "dp03-cbdc-bank-run-risk"
+    ]
+  },
+  {
+    "id": "dp04-test-trust",
+    "question": "A transaction settles without a commercial bank. Does that prove the exchange contains no trust or governance assumptions?\n\nSupplied evidence (reviewed PDF adaptations):\n[{\"id\": \"dp03-remove-all-trust\", \"source\": \"DP03\", \"pages\": [46, 50, 51, 52], \"question\": \"Does Bitcoin eliminate every form of trust from a payment system?\", \"answer\": \"No. It can reduce reliance on one transaction-clearing intermediary by replacing that role with protocol, cryptographic, network, and economic assumptions. Users may still rely on software, key custody, exchanges, miners or validators, governance, and external information. The relevant question is which trust is shifted or reduced.\"}, {\"id\": \"dp03-cash-tradeoffs\", \"source\": \"DP03\", \"pages\": [41, 42, 43, 44], \"question\": \"Does evidence that cash can facilitate tax evasion or carry contaminants prove that eliminating cash has only benefits?\", \"answer\": \"No. Those are arguments for limiting some uses of cash, but cash also provides privacy, accessibility, resilience, and a liquid asset outside commercial-bank liabilities. A policy assessment must consider distributional effects, alternatives, enforcement evidence, and the costs of exclusion or surveillance.\"}, {\"id\": \"dp03-security-not-value\", \"source\": \"DP03\", \"pages\": [31, 33, 34, 50, 58], \"question\": \"If a blockchain validates transactions correctly, does that ensure the token or stablecoin keeps its market value?\", \"answer\": \"No. Transaction validity is different from reserve quality, redemption enforceability, issuer solvency, oracle accuracy, liquidity, and market demand. Consensus can protect ledger rules under stated assumptions without guaranteeing a financial asset's value.\"}, {\"id\": \"dp04-trust-not-removed\", \"source\": \"DP04\", \"pages\": [16, 17, 46, 49, 52], \"question\": \"Does moving value transfer to a blockchain eliminate trust?\", \"answer\": \"No. It changes where trust is placed: protocol rules, cryptography, incentives, software, governance, custody, interfaces, and the asset's community or issuer can all matter. Evaluate which counterparty or institution is reduced and which assumptions remain.\"}]",
+    "reference": "No. It may remove that bank from settlement, but users still rely on protocol rules, software, cryptography, incentives, governance, custody, and the asset's acceptance. The trust model changed; it did not disappear.",
+    "provenance": {
+      "source_id": "DP04",
+      "file": "06.-The-Future-of-Exchanging-Value-Cryptocurrencies-and-the-trust-economy-Author-Nicholas-Gruen.pdf",
+      "sha256": "474696eac91761b2f96c5ca3c4d899e3ca768c72ca836631800312c8471607dc",
+      "pdf_pages": [
+        16,
+        17,
+        46,
+        49,
+        52
+      ],
+      "permission": "User attested private model-training permission; independently unverified.",
+      "adaptation": "Constructed trust-shift test."
+    },
+    "response": "A transaction settling without a commercial bank does not prove the exchange contains no trust or governance assumptions. The evidence shows that while a blockchain can reduce reliance on traditional intermediaries, it introduces other forms of trust, such as in software, cryptography, governance, and the community or issuer of the asset [dp03-remove-all-trust]. Trust is simply shifted, not eliminated. Therefore, the presence or absence of trust depends on which assumptions are considered.",
+    "generated_tokens": 91,
+    "hit_token_limit": false,
+    "evidence_ids": [
+      "dp03-remove-all-trust",
+      "dp03-cash-tradeoffs",
+      "dp03-security-not-value",
+      "dp04-trust-not-removed"
+    ]
+  }
+]

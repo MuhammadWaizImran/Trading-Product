@@ -1,0 +1,12 @@
+{
+  "adapter010_conditional_evidence": {
+    "responses": 12,
+    "truncations": 0,
+    "sha256": "da855d3d35d97afd59d58648c9b8030084ea478469215e2b6372ef9d6df9077e"
+  },
+  "base_conditional_evidence": {
+    "responses": 12,
+    "truncations": 0,
+    "sha256": "cfcd49f5b38a0fb0814629c65f345e519fa36bb73cd19addae326f5c792268aa"
+  }
+}

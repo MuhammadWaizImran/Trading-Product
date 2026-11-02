@@ -1,0 +1,85 @@
+[
+  {
+    "id": "r009-unknown-normalization",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-unknown-average",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-unknown-survey",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-known-chart",
+    "response": "The historical series in the dp04-reserve-chart-date passage ends in 2014. The chart reflects historical context and does not include current data. To determine the most recent year, one would need a dataset from a source like the IMF with updated definitions and data. The provided evidence does not include current data, so the ending year of the historical series is 2014 [dp04-reserve-chart-date].",
+    "generated_tokens": 90,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp04-reserve-chart-date"
+    ]
+  },
+  {
+    "id": "r009-ownership-evidence",
+    "response": "No, a single transfer from Wallet X to Wallet Y does not prove that Y owns all other addresses belonging to X. Transfers only show a relationship, which could arise from payments, services, or custody, not necessarily shared ownership [dp07-links]. Common ownership requires additional evidence beyond observed transfers. The transfer alone indicates a relationship but does not confirm ownership of all addresses [dp07-links].",
+    "generated_tokens": 82,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp07-links",
+      "dp07-seed-price"
+    ]
+  },
+  {
+    "id": "r009-signature-title",
+    "response": "No, validity alone does not prove lawful ownership. A valid signature, created with a stolen key, demonstrates mathematical correctness but does not establish legal ownership or identity [dp16-signature-roles]. The verification process only confirms the signature's authenticity under the cryptographic scheme, not the signer's legal rights or identity. Legal ownership requires additional evidence beyond cryptographic validity.",
+    "generated_tokens": 73,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-signature-roles"
+    ]
+  },
+  {
+    "id": "r009-sell-direction",
+    "response": "A sell limit order at 240 permits execution at 235 only if the price drops to 235 or lower, but this is not guaranteed. The price rule allows execution at or below the limit price for a sell order, but it does not guarantee any execution. The order may remain unfilled or only partially filled, as stated in the evidence [limit-order].",
+    "generated_tokens": 80,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "r009-missing-study",
+    "response": "The missing evidence includes a reproducible strategy definition, a complete sampling procedure, failure cases, transaction costs, and out-of-sample results. The tutorial's 8/8 winners lack timestamped examples evaluated without hindsight, as noted in [dp05-pattern-evidence]. Without these elements, 8/8 cannot be treated as a general success rate.",
+    "generated_tokens": 72,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-pattern-evidence"
+    ]
+  }
+]

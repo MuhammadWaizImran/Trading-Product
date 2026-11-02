@@ -1,0 +1,1323 @@
+{
+  "artifact_checks": "PASS",
+  "semantic_review": "pending; citation existence is not support",
+  "production_approved": false,
+  "batch": "011",
+  "gpu": "Tesla T4",
+  "counts": {
+    "train": 72,
+    "validation": 42,
+    "test": 50
+  },
+  "adapter_sha256": "d34fbd108a76d57cf64aa7452381754ac4f47bc66f01ce88b75058d752235592",
+  "adapter_bytes": 15354512,
+  "adapted_reload_equal": true,
+  "cases": [
+    {
+      "id": "dp07-test-price-coverage",
+      "question": "An address has $900 in directly held tokens and a separate $600 protocol deposit. A tool displays only direct tokens. Is $900 necessarily the complete portfolio?",
+      "evidence_ids": [
+        "dp07-balance-coverage",
+        "dp07-entity-view",
+        "dp07-transfer-type",
+        "dp16-draft-scope"
+      ],
+      "baseline": {
+        "response": "No. The tool only displays direct tokens, omitting protocol deposits like the $600 mentioned [dp07-balance-coverage]. Therefore, the $900 shown is not necessarily the complete portfolio.",
+        "citation_ids": [
+          "dp07-balance-coverage"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The tool only displays direct tokens, omitting protocol deposits like the $600 mentioned [dp07-balance-coverage]. Therefore, $900 is not necessarily the complete portfolio.",
+        "citation_ids": [
+          "dp07-balance-coverage"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp07-test-holders",
+      "question": "An exchange address holds a token for 400 customers, and another person uses five addresses. Can address counts alone recover the number of investors?",
+      "evidence_ids": [
+        "corr-address-entity-two-way",
+        "dp03-addresses-not-users",
+        "dp07-exchange-holder",
+        "dp07-holder-count"
+      ],
+      "baseline": {
+        "response": "No. Address counts alone cannot recover the number of investors because one person can control multiple addresses, and an exchange address can represent many customers [dp03-addresses-not-users]. Additionally, investor counts require separate attribution and customer data, which are not provided by address counts [corr-address-entity-two-way].",
+        "citation_ids": [
+          "dp03-addresses-not-users",
+          "corr-address-entity-two-way"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. Address counts alone cannot recover the number of investors because one person can control multiple addresses, and an exchange address can represent many customers [dp03-addresses-not-users]. Investor counts require separate attribution and customer data, not just address counts [corr-address-entity-two-way]. Address counts are protocol observations, not unique-person counts [dp07-holder-count].",
+        "citation_ids": [
+          "dp03-addresses-not-users",
+          "corr-address-entity-two-way",
+          "dp07-holder-count"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp07-test-counterparty",
+      "question": "An investigator observes that a fund sent tokens to a service's address. Does that single observation prove the service owns the fund's remaining wallets?",
+      "evidence_ids": [
+        "dp01-hot-cold",
+        "dp04-network-effects",
+        "dp07-hindsight",
+        "dp07-seed-price"
+      ],
+      "baseline": {
+        "response": "No. The observation that a fund sent tokens to a service's address does not prove the service owns the fund's remaining wallets. The evidence does not establish a direct link between the fund's actions and ownership of the remaining wallets [dp01-hot-cold].",
+        "citation_ids": [
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The observation that a fund sent tokens to a service's address does not prove the service owns the fund's remaining wallets. The evidence does not establish a direct link between the fund's actions and ownership of the remaining wallets [dp01-hot-cold].",
+        "citation_ids": [
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp07-test-prices",
+      "question": "A fund acquired 200 tokens for $0.50 each; the public price is now $5. Does buying the same number now reproduce its acquisition cost?",
+      "evidence_ids": [
+        "dp07-copying",
+        "dp07-seed-price",
+        "dp10-dollar-stop-units",
+        "dp10-percent-not-coins"
+      ],
+      "baseline": {
+        "response": "No. Buying the same number of tokens now does not reproduce its acquisition cost, as the fund may have acquired tokens earlier at a private-round price unavailable to later buyers [dp07-seed-price]. The current price does not reflect the original acquisition cost, and the entry price is still required to determine total notional [dp10-dollar-stop-units].",
+        "citation_ids": [
+          "dp07-seed-price",
+          "dp10-dollar-stop-units"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. Buying the same number of tokens now does not reproduce its acquisition cost, as the fund may have acquired tokens earlier at a private-round price unavailable to later buyers [dp07-seed-price]. The current price does not reflect the original acquisition cost, and the entry price is still required to determine total notional [dp10-dollar-stop-units].",
+        "citation_ids": [
+          "dp07-seed-price",
+          "dp10-dollar-stop-units"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "test-depth-impact",
+      "question": "Two venues show the same best ask. Does that imply the same cost for a large buy?",
+      "evidence_ids": [
+        "dp07-copying",
+        "dp17-spread-depth",
+        "market-order",
+        "relative-spread"
+      ],
+      "baseline": {
+        "response": "No. The best ask being the same between two venues does not necessarily imply the same cost for a large buy, as the execution price can exceed the initial quote if there is not enough liquidity at the best ask [market-order]. Additionally, the available quantities and deeper price levels must be considered for large orders [dp17-spread-depth].",
+        "citation_ids": [
+          "market-order",
+          "dp17-spread-depth"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The best ask being the same between two venues does not necessarily imply the same cost for a large buy, as the execution price can exceed the initial quote if there is not enough liquidity at the best ask [market-order]. Additionally, the available quantities and deeper price levels must be considered for the intended size [dp17-spread-depth].",
+        "citation_ids": [
+          "market-order",
+          "dp17-spread-depth"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "test-imbalance-sign",
+      "question": "Using the paper's convention, what does NOBI = -0.2 indicate?",
+      "evidence_ids": [
+        "book-absolute",
+        "book-imbalance",
+        "corr-nobi-exact",
+        "paper-data-rights"
+      ],
+      "baseline": {
+        "response": "NOBI = -0.2 indicates more bid-side depth than ask-side depth under the paper's convention, as negative values mean more bid-side depth according to the definition of NOBI as (ask depth - bid depth) / (ask depth + bid depth) [book-imbalance].",
+        "citation_ids": [
+          "book-imbalance"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, NOBI = -0.2 indicates more bid-side depth than ask-side depth under the paper's convention. This is because negative values mean more bid-side depth according to the definition of NOBI as (ask depth - bid depth) / (ask depth + bid depth) [book-imbalance].",
+        "citation_ids": [
+          "book-imbalance"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "test-reward-probability",
+      "question": "A setup offers 4R potential reward for 1R risk. Does that tell us its actual success probability?",
+      "evidence_ids": [
+        "corr-reward-ev",
+        "dp07-seed-price",
+        "risk-invalidation",
+        "risk-multiple"
+      ],
+      "baseline": {
+        "response": "No, the 4R potential reward for 1R risk does not tell us the actual success probability. The payoff ratio does not reveal the actual win probability [corr-reward-ev]. The expected value calculation shows that a 20% win probability would make the setup neutral, but this does not mean the actual success probability is 20% [corr-reward-ev].",
+        "citation_ids": [
+          "corr-reward-ev",
+          "corr-reward-ev"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The payoff ratio does not reveal the actual win probability [corr-reward-ev]. The expected value calculation shows that a 4R reward for 1R risk does not directly indicate the success probability [corr-reward-ev]. The payoff ratio is a planned outcome, not a guarantee of win probability [risk-multiple].",
+        "citation_ids": [
+          "corr-reward-ev",
+          "corr-reward-ev",
+          "risk-multiple"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "test-overbought",
+      "question": "RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?",
+      "evidence_ids": [
+        "dp07-honeypot",
+        "risk-sizing",
+        "rsi-extreme",
+        "ta-line"
+      ],
+      "baseline": {
+        "response": "Yes, it is not logically inconsistent with the indicator. The RSI being above 70 is considered overbought, but the evidence states that RSI can remain extreme while the trend continues [rsi-extreme]. Therefore, a rising price with high RSI is possible.",
+        "citation_ids": [
+          "rsi-extreme"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, it is not logically inconsistent with the indicator. The RSI being above 70 is considered overbought, but the evidence states that RSI can remain extreme while the trend continues [rsi-extreme]. Therefore, a rising price with high RSI is possible.",
+        "citation_ids": [
+          "rsi-extreme"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp01-retry-test-layer-capacity",
+      "question": "A report gives a Bitcoin throughput number without stating transaction size, batching, protocol version, or whether it means the base layer. Is that enough for a current capacity comparison?",
+      "evidence_ids": [
+        "dp01-capacity-date",
+        "dp01-pow-consensus",
+        "dp04-renminbi-timeline",
+        "dp10-dollar-stop-units"
+      ],
+      "baseline": {
+        "response": "No. The report's Bitcoin throughput number lacks critical details such as transaction size, batching, protocol version, and whether it refers to the base layer, making it insufficient for a current capacity comparison [dp01-capacity-date]. These factors significantly influence the measurement and interpretation of capacity figures. Without this information, the figure cannot be reliably used for comparative analysis.",
+        "citation_ids": [
+          "dp01-capacity-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The report's Bitcoin throughput number lacks critical details such as transaction size, batching, protocol version, and whether it refers to the base layer, making it insufficient for a current capacity comparison [dp01-capacity-date]. These factors significantly influence the measurement and interpretation of capacity figures. Without this information, the figure cannot be reliably used for comparative analysis.",
+        "citation_ids": [
+          "dp01-capacity-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp01-retry-test-cold-storage",
+      "question": "Keys are kept offline, but the only backup is destroyed. Did cold storage eliminate the risk of permanent loss?",
+      "evidence_ids": [
+        "dp01-hot-cold",
+        "dp10-backup-versus-original",
+        "dp10-cold-not-immune",
+        "risk-budget"
+      ],
+      "baseline": {
+        "response": "No. Cold storage does not eliminate the risk of permanent loss, as losing the only backup destroys the recovery path, and if all usable keys and recovery methods are gone, access may be unrecoverable [dp10-backup-versus-original]. The evidence shows that cold storage reduces some risks but does not remove all potential threats like backup loss or user error [dp01-hot-cold].",
+        "citation_ids": [
+          "dp10-backup-versus-original",
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. Cold storage does not eliminate the risk of permanent loss, as losing the only backup destroys the recovery path, and if all usable keys and recovery methods are gone, access may be unrecoverable [dp10-backup-versus-original]. The evidence shows that cold storage reduces some risks but does not remove all potential threats like backup loss or user error [dp01-hot-cold].",
+        "citation_ids": [
+          "dp10-backup-versus-original",
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp01-retry-test-token-rights",
+      "question": "A project token trades on an exchange and helped finance development. Does that alone prove its holder has the legal rights of a shareholder?",
+      "evidence_ids": [
+        "dp01-token-share",
+        "dp03-governance-not-inherent",
+        "dp03-payment-system-vs-money",
+        "dp07-governance"
+      ],
+      "baseline": {
+        "response": "No. The fact that a project token trades on an exchange and helps finance development does not alone prove its holder has the legal rights of a shareholder. Legal rights depend on the token's contract, governance rules, and applicable law, which are not addressed by trading behavior or fundraising [dp01-token-share].",
+        "citation_ids": [
+          "dp01-token-share"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The fact that a project token trades on an exchange and helps finance development does not alone prove its holder has the legal rights of a shareholder. Legal rights depend on the token's contract, governance rules, and applicable law, which are not addressed by trading behavior or fundraising [dp01-token-share].",
+        "citation_ids": [
+          "dp01-token-share"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp01-retry-test-correlation",
+      "question": "Countries with stronger institutions show more exchange activity in a cross-sectional chart. Can that chart alone prove institutions caused the activity?",
+      "evidence_ids": [
+        "dp01-correlation",
+        "dp03-governance-not-inherent",
+        "dp03-survey-snapshot",
+        "dp04-reserve-chart-date"
+      ],
+      "baseline": {
+        "response": "No. The chart alone cannot prove causation; it only shows an association [dp01-correlation]. Other factors could explain the correlation [dp01-correlation]. The chart describes a correlation, not a causal relationship [dp01-correlation].",
+        "citation_ids": [
+          "dp01-correlation",
+          "dp01-correlation",
+          "dp01-correlation"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The chart alone cannot prove causation; it only shows an association [dp01-correlation]. Other factors could explain the correlation [dp01-correlation]. The chart describes a correlation, not a causal relationship [dp01-correlation].",
+        "citation_ids": [
+          "dp01-correlation",
+          "dp01-correlation",
+          "dp01-correlation"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp03-retry-test-permission-properties",
+      "question": "A ledger publishes its source code but allows only approved institutions to validate transactions. Does open-source code alone make validation permissionless?",
+      "evidence_ids": [
+        "dp01-cbdc-difference",
+        "dp03-governance-not-inherent",
+        "dp03-permission-models",
+        "dp04-miner-incentives"
+      ],
+      "baseline": {
+        "response": "No. Open-source code alone does not make validation permissionless. The evidence states that openness of source code is a separate property from validation permissions, and validation authority can still be restricted to approved parties [dp03-permission-models].",
+        "citation_ids": [
+          "dp03-permission-models"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. Open-source code alone does not make validation permissionless. The evidence states that openness of source code is a separate property from validation permissions, and validation authority can still be restricted to approved parties [dp03-permission-models].",
+        "citation_ids": [
+          "dp03-permission-models"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp03-retry-test-trust-model",
+      "question": "A payment protocol has no central clearing bank. Does that fact alone prove users rely on nobody and nothing?",
+      "evidence_ids": [
+        "dp03-cash-tradeoffs",
+        "dp03-governance-not-inherent",
+        "dp03-remove-all-trust",
+        "dp04-network-effects"
+      ],
+      "baseline": {
+        "response": "No. The absence of a central clearing bank does not necessarily mean users rely on nobody and nothing. Users may still rely on software, key custody, exchanges, miners, or validators [dp03-remove-all-trust]. The relevant question is which trust is shifted or reduced, not whether there is a central intermediary [dp03-remove-all-trust].",
+        "citation_ids": [
+          "dp03-remove-all-trust",
+          "dp03-remove-all-trust"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The absence of a central clearing bank does not necessarily mean users rely on nobody and nothing. Users may still rely on software, key custody, exchanges, miners, or validators [dp03-remove-all-trust]. The relevant question is which trust is shifted or reduced, not whether there is a central clearing bank [dp03-remove-all-trust].",
+        "citation_ids": [
+          "dp03-remove-all-trust",
+          "dp03-remove-all-trust"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp03-retry-test-dated-usage",
+      "question": "The report lists coin prices, address counts, and merchant acceptance around 2018?2019. May those numbers be used as current market facts without verification?",
+      "evidence_ids": [
+        "dp01-mining-location",
+        "dp03-historical-market-numbers",
+        "dp04-protocol-values-dated",
+        "dp04-report-claims-dated"
+      ],
+      "baseline": {
+        "response": "No. The report's numbers are historical evidence only and require current verification for present-day use [dp03-historical-market-numbers]. The data describes observations or third-party estimates available around 2018\u20132019, and any present-day statement needs a current source, timestamp, definition, and methodology [dp04-report-claims-dated].",
+        "citation_ids": [
+          "dp03-historical-market-numbers",
+          "dp04-report-claims-dated"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The report's numbers are historical evidence only and require current verification for present-day use [dp03-historical-market-numbers]. The data describes observations or third-party estimates available around 2018\u20132019, and any present-day statement needs a current source, timestamp, definition, and methodology [dp04-report-claims-dated].",
+        "citation_ids": [
+          "dp03-historical-market-numbers",
+          "dp04-report-claims-dated"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp03-retry-test-cbdc-architecture",
+      "question": "If a project is called a retail CBDC, does that label tell us it must use a public blockchain and anonymous token accounts?",
+      "evidence_ids": [
+        "dp01-token-share",
+        "dp03-cbdc-survey-date",
+        "dp03-retail-wholesale-cbdc",
+        "dp03-security-not-value"
+      ],
+      "baseline": {
+        "response": "No. The label \"retail CBDC\" does not necessarily imply the use of a public blockchain or anonymous token accounts. The design of a retail CBDC can vary, and the label alone does not determine its technical features such as blockchain type or account anonymity [dp03-retail-wholesale-cbdc].",
+        "citation_ids": [
+          "dp03-retail-wholesale-cbdc"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The label \"retail CBDC\" does not necessarily imply the use of a public blockchain or anonymous token accounts. The design of a retail CBDC can vary, and the label alone does not determine its technical features such as blockchain type or account anonymity [dp03-retail-wholesale-cbdc].",
+        "citation_ids": [
+          "dp03-retail-wholesale-cbdc"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp04-test-chart-current",
+      "question": "A reserve-composition chart ends in 2014. Can it answer which currency has the second-largest reserve share in 2026?",
+      "evidence_ids": [
+        "dp03-conjoint-interpretation",
+        "dp04-network-effects",
+        "dp04-reserve-chart-date",
+        "dp17-ta-fundamental-scope"
+      ],
+      "baseline": {
+        "response": "No, the reserve-composition chart ending in 2014 cannot answer which currency has the second-largest reserve share in 2026. The chart only reflects historical data up to 2014 and does not provide information about reserve shares beyond that date [dp04-reserve-chart-date]. To determine the reserve share in 2026, a recent IMF or other authoritative dataset would be required [dp04-reserve-chart-date].",
+        "citation_ids": [
+          "dp04-reserve-chart-date",
+          "dp04-reserve-chart-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No, the reserve-composition chart ending in 2014 cannot answer which currency has the second-largest reserve share in 2026. The chart only reflects historical data up to 2014 and does not provide information about future reserve shares [dp04-reserve-chart-date]. To determine the second-largest reserve share in 2026, a recent IMF or other authoritative dataset with matching definitions would be required [dp04-reserve-chart-date].",
+        "citation_ids": [
+          "dp04-reserve-chart-date",
+          "dp04-reserve-chart-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp04-test-signing",
+      "question": "Who normally creates the digital signature authorizing a Bitcoin spend: the miner or the spender controlling the relevant key?",
+      "evidence_ids": [
+        "dp03-remove-all-trust",
+        "dp04-miner-incentives",
+        "dp16-signature-binding",
+        "dp16-signature-roles"
+      ],
+      "baseline": {
+        "response": "No. The digital signature authorizing a Bitcoin spend is created by the spender controlling the relevant key, not the miner. The signing key, which is used to create the signature, must remain secret and is controlled by the spender [dp16-signature-roles]. Miners do not create or verify these signatures; their role is to validate transactions and add them to the blockchain [dp04-miner-incentives].",
+        "citation_ids": [
+          "dp16-signature-roles",
+          "dp04-miner-incentives"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The digital signature authorizing a Bitcoin spend is created by the spender controlling the relevant key, not the miner. The signing key, which is used to create the signature, must remain secret and is controlled by the spender [dp16-signature-roles]. Miners do not create or verify these signatures; their role is to validate transactions and add them to the blockchain [dp04-miner-incentives].",
+        "citation_ids": [
+          "dp16-signature-roles",
+          "dp04-miner-incentives"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp04-test-adoption",
+      "question": "A payment app is faster in a laboratory demonstration. Does that prove nationwide adoption?",
+      "evidence_ids": [
+        "dp03-cbdc-bank-run-risk",
+        "dp04-disruption-definition",
+        "dp04-network-effects",
+        "dp04-volatility-adoption-loop"
+      ],
+      "baseline": {
+        "response": "No. A faster payment app in a laboratory does not prove nationwide adoption. Disruption is a claim about potential market changes, not proof of adoption or survival [dp04-disruption-definition]. Adoption depends on factors like user base, merchant support, and regulatory environment, which are not demonstrated by laboratory performance [dp04-network-effects].",
+        "citation_ids": [
+          "dp04-disruption-definition",
+          "dp04-network-effects"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. A faster payment app in a laboratory does not prove nationwide adoption. Disruption is a claim about potential market changes, not proof of adoption or survival [dp04-disruption-definition]. Adoption depends on factors like user base, merchant support, and regulatory environment, which are not demonstrated by laboratory performance [dp04-network-effects].",
+        "citation_ids": [
+          "dp04-disruption-definition",
+          "dp04-network-effects"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp04-test-trust",
+      "question": "A transaction settles without a commercial bank. Does that prove the exchange contains no trust or governance assumptions?",
+      "evidence_ids": [
+        "dp03-cash-tradeoffs",
+        "dp03-remove-all-trust",
+        "dp03-security-not-value",
+        "dp04-trust-not-removed"
+      ],
+      "baseline": {
+        "response": "No. The exchange may still involve trust in software, governance, or other entities, as the text explains that trust is shifted rather than removed [dp03-remove-all-trust]. The absence of a commercial bank does not necessarily eliminate all trust assumptions, as trust can be placed in alternative mechanisms like protocol rules or governance [dp04-trust-not-removed].",
+        "citation_ids": [
+          "dp03-remove-all-trust",
+          "dp04-trust-not-removed"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The exchange may still involve trust in software, governance, or other entities, as the text explains that trust is shifted rather than removed [dp03-remove-all-trust]. The absence of a commercial bank does not necessarily eliminate all trust assumptions, as trust can be placed in alternative mechanisms like protocol rules or governance [dp04-trust-not-removed].",
+        "citation_ids": [
+          "dp03-remove-all-trust",
+          "dp04-trust-not-removed"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp05-expanded-test-sma",
+      "question": "The last three completed closes are 12, 15 and 18. What is their three-period SMA, and may tomorrow's unknown close be included?",
+      "evidence_ids": [
+        "dp01-pseudonymous",
+        "dp05-doji",
+        "dp05-sma-definition",
+        "dp17-macd-components"
+      ],
+      "baseline": {
+        "response": "The three-period SMA is calculated by summing the last three closes (12, 15, and 18) and dividing by 3, resulting in $ \\frac{12 + 15 + 18}{3} = 15 $. Tomorrow's unknown close may not be included as the SMA is based on completed closes only, according to the definition in [dp05-sma-definition]. Yes, the three-period SMA is 15, and tomorrow's close is not included.",
+        "citation_ids": [
+          "dp05-sma-definition"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The three-period SMA is calculated by summing the last three completed closes (12, 15, and 18) and dividing by 3, resulting in $ \\frac{12 + 15 + 18}{3} = 15 $. Tomorrow's unknown close may not be included because the SMA is based on completed closes only, and future data is excluded as per the definition [dp05-sma-definition].",
+        "citation_ids": [
+          "dp05-sma-definition"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp05-expanded-test-triangle",
+      "question": "A consolidation has nearly flat highs and rising lows. What triangle geometry does that resemble, and is the next breakout direction certain?",
+      "evidence_ids": [
+        "dp05-triangles",
+        "dp05-wedge",
+        "dp17-bollinger-squeeze",
+        "ta-line"
+      ],
+      "baseline": {
+        "response": "The described consolidation with nearly flat highs and rising lows resembles an ascending triangle [dp05-triangles]. The next breakout direction is not certain, as the text explicitly states that these patterns describe consolidation geometry, not certain breakout direction [dp05-triangles].",
+        "citation_ids": [
+          "dp05-triangles",
+          "dp05-triangles"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The described consolidation with nearly flat highs and rising lows resembles an ascending triangle [dp05-triangles]. The next breakout direction is not certain, as the text explicitly states that these patterns describe consolidation geometry, not certain breakout direction [dp05-triangles].",
+        "citation_ids": [
+          "dp05-triangles",
+          "dp05-triangles"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp05-expanded-test-doji",
+      "question": "A candle opens at 100 and closes at 100. Can this alone justify a 90% reversal probability?",
+      "evidence_ids": [
+        "dp05-hammer-context",
+        "dp05-rsi-definition",
+        "dp05-sma-definition",
+        "dp10-correct-quantity"
+      ],
+      "baseline": {
+        "response": "No. The evidence does not support a 90% reversal probability based on a candle opening and closing at the same price. The text explains that reversal probabilities depend on additional context and specifications, such as price series, bar interval, and pattern details, which are not provided here [dp05-rsi-definition].",
+        "citation_ids": [
+          "dp05-rsi-definition"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The evidence does not support a 90% reversal probability based solely on a candle opening and closing at 100. The definition of RSI and other technical indicators require more detailed parameters and context, and no tool output or explicit reversal probability is provided [dp05-rsi-definition].",
+        "citation_ids": [
+          "dp05-rsi-definition"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp05-expanded-test-sample",
+      "question": "A tutorial displays five successful chart patterns and no failures. Is five out of five a valid general estimate of the strategy's success rate?",
+      "evidence_ids": [
+        "dp05-pattern-evidence",
+        "dp05-reversal-continuation",
+        "dp05-role-reversal",
+        "dp07-hindsight"
+      ],
+      "baseline": {
+        "response": "No. The evidence shows that a strategy's success rate cannot be accurately estimated from only successful examples, as it lacks failures, transaction costs, and out-of-sample results [dp05-pattern-evidence]. Evaluating success requires considering both successful and failed outcomes, as well as avoiding hindsight bias [dp07-hindsight]. The absence of failed examples and proper evaluation methods makes five out of five an unreliable estimate [dp05-pattern-evidence].",
+        "citation_ids": [
+          "dp05-pattern-evidence",
+          "dp07-hindsight",
+          "dp05-pattern-evidence"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The evidence shows that a strategy's success rate cannot be accurately estimated from only successful examples, as it lacks failures, transaction costs, and out-of-sample results [dp05-pattern-evidence]. Evaluating success requires considering both successful and failed outcomes, as well as avoiding hindsight bias [dp07-hindsight]. The absence of failures and proper evaluation methods makes five out of five an unreliable estimate [dp05-pattern-evidence].",
+        "citation_ids": [
+          "dp05-pattern-evidence",
+          "dp07-hindsight",
+          "dp05-pattern-evidence"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp10-test-payoff",
+      "question": "With fixed +3R wins and -1R losses, what is cost-free break-even and can actual win probability be inferred from that ratio?",
+      "evidence_ids": [
+        "corr-reward-ev",
+        "dp10-payoff-not-profit",
+        "dp10-percent-not-coins",
+        "risk-breakeven"
+      ],
+      "baseline": {
+        "response": "Yes, with fixed +3R wins and -1R losses, the cost-free break-even is 25% [risk-breakeven]. However, the actual win probability cannot be inferred from that ratio, as the payoff ratio does not reveal the actual win probability [corr-reward-ev].",
+        "citation_ids": [
+          "risk-breakeven",
+          "corr-reward-ev"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, with fixed +3R wins and -1R losses, the cost-free break-even is 25% [risk-breakeven]. However, the actual win probability cannot be inferred from that ratio, as the payoff ratio does not reveal the actual win probability [corr-reward-ev].",
+        "citation_ids": [
+          "risk-breakeven",
+          "corr-reward-ev"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp10-test-stop",
+      "question": "A long enters at 70 and later exits exactly at 70 after a trailing stop triggers. Is this a positive gross price return?",
+      "evidence_ids": [
+        "dp07-seed-price",
+        "dp10-trailing-breakeven",
+        "dp17-sar-qualification",
+        "risk-multiple"
+      ],
+      "baseline": {
+        "response": "No. The exit at the same price as entry results in break-even before costs, implying no positive gross price return [dp10-trailing-breakeven]. The trailing stop trigger does not guarantee execution at that level or a profit after costs [dp17-sar-qualification]. The exact exit price does not confirm a positive return due to the possibility of costs reducing the outcome.",
+        "citation_ids": [
+          "dp10-trailing-breakeven",
+          "dp17-sar-qualification"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, the gross price return is zero because the exit price equals the entry price, resulting in no gain before costs [dp10-trailing-breakeven]. The implied stop level is equal to the entry, and an exact exit there is break-even before costs [dp10-trailing-breakeven]. The gross price return does not account for costs, so it remains zero.",
+        "citation_ids": [
+          "dp10-trailing-breakeven",
+          "dp10-trailing-breakeven"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp10-test-leverage",
+      "question": "In a simplified financed purchase, equity is USD 250 and borrowing is USD 750. What is total exposure divided by equity?",
+      "evidence_ids": [
+        "dp10-correct-quantity",
+        "dp10-dollar-stop-units",
+        "dp10-leverage-definition",
+        "dp10-percent-not-coins"
+      ],
+      "baseline": {
+        "response": "Yes, the total exposure divided by equity is 10. In a simplified financed purchase, own capital plus borrowed funds equals total exposure, and borrowing nine times equity gives ten times total exposure [dp10-leverage-definition].",
+        "citation_ids": [
+          "dp10-leverage-definition"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, the total exposure divided by equity is 10. In a simplified financed purchase, own capital plus borrowed funds equals total exposure, so borrowing nine times equity gives ten times total exposure [dp10-leverage-definition].",
+        "citation_ids": [
+          "dp10-leverage-definition"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp10-test-wallet-scope",
+      "question": "An offline key remains available, but one backup was damaged. Does that evidence establish both permanent inaccessibility and zero future risk?",
+      "evidence_ids": [
+        "dp01-evidence-scope",
+        "dp01-hot-cold",
+        "dp05-reversal-continuation",
+        "dp10-backup-versus-original"
+      ],
+      "baseline": {
+        "response": "No. The evidence does not establish both permanent inaccessibility and zero future risk. The damaged backup does not necessarily mean the key is permanently inaccessible, as the original key may still be available [dp10-backup-versus-original]. Additionally, there may still be future risks such as user error or market risk even if the key is currently accessible [dp01-hot-cold].",
+        "citation_ids": [
+          "dp10-backup-versus-original",
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The evidence does not establish both permanent inaccessibility and zero future risk. The damaged backup does not necessarily mean the key is permanently inaccessible, as the original key may still be available [dp10-backup-versus-original]. Additionally, there may still be future risks such as user error or market risk even if the key is currently accessible [dp01-hot-cold].",
+        "citation_ids": [
+          "dp10-backup-versus-original",
+          "dp01-hot-cold"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp17-expanded-test-spread",
+      "question": "A synchronized book has highest bid 99 and lowest ask 101. What is the quoted spread, and does it reveal depth?",
+      "evidence_ids": [
+        "book-imbalance",
+        "dp17-spread-definition",
+        "dp17-spread-depth",
+        "relative-spread"
+      ],
+      "baseline": {
+        "response": "The quoted spread is $101 - 99 = 2$. This is the lowest available ask minus the highest available bid, as defined in the evidence [dp17-spread-definition]. The spread alone does not reveal depth, as depth involves available quantities and deeper price levels, which are not provided in the given information [dp17-spread-depth].",
+        "citation_ids": [
+          "dp17-spread-definition",
+          "dp17-spread-depth"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "The quoted spread is $101 - 99 = 2$. This is the lowest available ask minus the highest available bid, as defined in the evidence [dp17-spread-definition]. The spread alone does not reveal depth, as depth involves available quantities and deeper price levels, which are not provided in the given information [dp17-spread-depth].",
+        "citation_ids": [
+          "dp17-spread-definition",
+          "dp17-spread-depth"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp17-expanded-test-vwap",
+      "question": "Two included trades execute 2 units at price 10 and 1 unit at price 16. What is their trade-volume VWAP?",
+      "evidence_ids": [
+        "book-vwap",
+        "dp10-correct-quantity",
+        "dp10-dollar-stop-units",
+        "dp17-vwap-convention"
+      ],
+      "baseline": {
+        "response": "Yes, the trade-volume VWAP can be calculated. The trade-volume VWAP is the sum of price times volume for each trade divided by the total volume. In this case, it is (10*2 + 16*1) / (2+1) = 36 / 3 = 12. This calculation is supported by the definition of a trade-level VWAP in [dp17-vwap-convention].",
+        "citation_ids": [
+          "dp17-vwap-convention"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, the trade-volume VWAP can be calculated. The trade-volume VWAP is calculated by summing the price times volume for each trade and dividing by the total volume. In this case, the calculation would be (10*2 + 16*1) / (2+1) = 36 / 3 = 12. The evidence supports this calculation [dp17-vwap-convention].",
+        "citation_ids": [
+          "dp17-vwap-convention"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp17-expanded-test-stochscale",
+      "question": "Two charts display StochRSI as 0.85 and 85. Must they disagree?",
+      "evidence_ids": [
+        "dp03-cbdc-survey-date",
+        "dp04-historical-payment-data",
+        "dp05-double-triple",
+        "dp17-stochrsi"
+      ],
+      "baseline": {
+        "response": "No, the charts displaying StochRSI as 0.85 and 85 do not necessarily disagree. The evidence indicates that StochRSI can be displayed on different scales, such as 0 to 1 or 0 to 100 [dp17-stochrsi]. This explains the discrepancy in values between the two charts.",
+        "citation_ids": [
+          "dp17-stochrsi"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No, the charts displaying StochRSI as 0.85 and 85 do not necessarily disagree. The evidence indicates that StochRSI can be displayed on different scales, such as 0 to 1 or 0 to 100 [dp17-stochrsi]. This explains the discrepancy in values between the two charts.",
+        "citation_ids": [
+          "dp17-stochrsi"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp17-expanded-test-overfit",
+      "question": "After testing 200 indicator variants, one wins on the same historical period used to choose it. Is that period an untouched final test?",
+      "evidence_ids": [
+        "dp04-payment-context",
+        "dp04-report-claims-dated",
+        "dp17-leading-label",
+        "dp17-selection-bias"
+      ],
+      "baseline": {
+        "response": "No. The period used to select the winning indicator is not an untouched final test because testing many variants can select noise, and the same historical period used for selection should be treated as development data, not genuine unseen observations [dp17-selection-bias]. The evaluation should be done on genuinely unseen observations to avoid selection bias [dp17-selection-bias].",
+        "citation_ids": [
+          "dp17-selection-bias",
+          "dp17-selection-bias"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The period used to select the winning indicator is not an untouched final test because testing many variants can select noise, and the same historical period used for selection should be treated as development data, not genuine unseen observations [dp17-selection-bias]. The evaluation should be done on genuinely unseen observations to avoid selection bias [dp17-selection-bias].",
+        "citation_ids": [
+          "dp17-selection-bias",
+          "dp17-selection-bias"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp16-test-message-change",
+      "question": "A signature verifies for message A. Does that alone prove it verifies for a different message B?",
+      "evidence_ids": [
+        "dp03-governance-not-inherent",
+        "dp05-hammer-context",
+        "dp16-signature-binding",
+        "dp16-signature-roles"
+      ],
+      "baseline": {
+        "response": "No. A signature verifying for message A does not inherently prove it verifies for a different message B. A signature scheme binds verification to the specific message and public key [dp16-signature-binding]. Verification for one message does not authorize or imply verification for another message [dp16-signature-binding].",
+        "citation_ids": [
+          "dp16-signature-binding",
+          "dp16-signature-binding"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. A signature verifying for message A does not inherently prove it verifies for a different message B. A signature scheme binds verification to the specific message and public key [dp16-signature-binding]. Verification for one message does not authorize or imply verification for another message [dp16-signature-binding].",
+        "citation_ids": [
+          "dp16-signature-binding",
+          "dp16-signature-binding"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp16-test-availability",
+      "question": "A storage system prevents outsiders from signing but also leaves its owner unable to access any keys. Has it met all three custody goals?",
+      "evidence_ids": [
+        "dp01-hot-cold",
+        "dp10-backup-versus-original",
+        "dp10-cold-not-immune",
+        "dp16-key-management-goals"
+      ],
+      "baseline": {
+        "response": "No. The storage system described does not meet all three custody goals. It prevents outsiders from signing, which supports security, but leaves the owner unable to access any keys, which undermines availability. The evidence does not confirm whether convenience is addressed [dp16-key-management-goals].",
+        "citation_ids": [
+          "dp16-key-management-goals"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The storage system described does not meet all three custody goals. It prevents outsiders from signing, which supports security, but leaves the owner unable to access any keys, which undermines availability. The evidence does not confirm whether convenience is addressed [dp16-key-management-goals].",
+        "citation_ids": [
+          "dp16-key-management-goals"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp16-test-offline-receipt",
+      "question": "A valid receiving address is known and its signing device is powered off. Must the sender wait for that device before broadcasting a payment?",
+      "evidence_ids": [
+        "dp04-payment-context",
+        "dp16-public-private-separation",
+        "dp16-receive-offline",
+        "dp16-signature-roles"
+      ],
+      "baseline": {
+        "response": "No. The sender does not need to wait for the receiving device to be powered on before broadcasting a payment. According to the evidence, a sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline].",
+        "citation_ids": [
+          "dp16-receive-offline"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The sender does not need to wait for the receiving device to be powered on before broadcasting a payment. According to the evidence, a sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline].",
+        "citation_ids": [
+          "dp16-receive-offline"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "dp16-test-example-secret",
+      "question": "Is a phrase printed as a textbook wallet example suitable as a secret just because it looks random?",
+      "evidence_ids": [
+        "dp04-protocol-values-dated",
+        "dp07-copying",
+        "dp16-guessable-passphrases",
+        "dp17-fees-conditional"
+      ],
+      "baseline": {
+        "response": "No. A phrase printed as a textbook wallet example is not necessarily suitable as a secret just because it looks random. The evidence states that textbook sample phrases should not be treated as personal wallet setup recommendations [dp16-guessable-passphrases]. Memorability does not ensure unpredictability, and guessing such phrases may lead to unauthorized access [dp16-guessable-passphrases].",
+        "citation_ids": [
+          "dp16-guessable-passphrases",
+          "dp16-guessable-passphrases"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. A phrase printed as a textbook wallet example is not necessarily suitable as a secret just because it looks random. The evidence states that textbook sample phrases should not be treated as personal wallet setup recommendations [dp16-guessable-passphrases]. Memorability does not ensure unpredictability, and guessing such phrases may lead to unauthorized access [dp16-guessable-passphrases].",
+        "citation_ids": [
+          "dp16-guessable-passphrases",
+          "dp16-guessable-passphrases"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r009-unknown-normalization",
+      "question": "An unnamed report uses a relative-spread measure. Is its denominator definitely the midpoint?",
+      "evidence_ids": [
+        "relative-spread"
+      ],
+      "baseline": {
+        "response": "Yes, the denominator in the relative-spread measure is definitely the midpoint. The formula provided explicitly states that relative spread is calculated as (ask - bid) divided by midpoint [relative-spread].",
+        "citation_ids": [
+          "relative-spread"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, the denominator is definitely the midpoint. The report defines relative spread as (ask - bid) divided by midpoint, where midpoint is (ask + bid) / 2 [relative-spread].",
+        "citation_ids": [
+          "relative-spread"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r009-unknown-average",
+      "question": "I have not identified the article. Does its VWAP definitely average resting order-book levels?",
+      "evidence_ids": [
+        "book-vwap"
+      ],
+      "baseline": {
+        "response": "No. The evidence does not confirm that the VWAP definitely averages resting order-book levels. It explains that VWAP is calculated by summing price times quantity over selected levels and dividing by total quantity, which summarizes resting orders [book-vwap]. However, it also states that VWAP is not automatically the execution price for a particular order size. Therefore, the evidence suggests a relationship but does not definitively confirm the averaging of resting order-book levels.",
+        "citation_ids": [
+          "book-vwap"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The evidence does not confirm that the VWAP definitely averages resting order-book levels. It explains that VWAP is calculated by summing price times quantity over selected levels and dividing by total quantity, which summarizes resting orders [book-vwap]. However, it also states that VWAP is not automatically the execution price for a particular order size. Therefore, the evidence supports that VWAP relates to resting order-book levels but does not definitively confirm it as an average of those levels.",
+        "citation_ids": [
+          "book-vwap"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r009-unknown-survey",
+      "question": "Someone mentioned a survey without its title. Can you establish that it sampled exactly 1000 people per country?",
+      "evidence_ids": [
+        "dp03-conjoint-design"
+      ],
+      "baseline": {
+        "response": "No. The evidence does not confirm that the survey sampled exactly 1000 people per country. It only mentions that \"each of 1,000 respondents per sampled country\" participated in the experiment [dp03-conjoint-design]. This could mean 1,000 respondents in total, not necessarily 1,000 per country. The exact sampling method is not clearly specified.",
+        "citation_ids": [
+          "dp03-conjoint-design"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, the survey sampled exactly 1000 people per country. The evidence states that \"each of 1,000 respondents per sampled country\" participated in the study [dp03-conjoint-design].",
+        "citation_ids": [
+          "dp03-conjoint-design"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r009-known-chart",
+      "question": "For the supplied dp04-reserve-chart-date passage, what year ends the historical series?",
+      "evidence_ids": [
+        "dp04-reserve-chart-date"
+      ],
+      "baseline": {
+        "response": "Yes, the historical series ends in 2014 according to the evidence [dp04-reserve-chart-date]. The chart explicitly states it ends in 2014. No further details about the end year are provided in the supplied evidence.",
+        "citation_ids": [
+          "dp04-reserve-chart-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, the historical series ends in 2014 according to the evidence [dp04-reserve-chart-date]. The chart explicitly states it ends in 2014. No further details about the end year are provided in the supplied evidence.",
+        "citation_ids": [
+          "dp04-reserve-chart-date"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r009-ownership-evidence",
+      "question": "Wallet X pays wallet Y for a service. Is that transfer alone proof that Y owns all other addresses belonging to X?",
+      "evidence_ids": [
+        "dp07-links",
+        "dp07-seed-price"
+      ],
+      "baseline": {
+        "response": "No. The transfer from Wallet X to Wallet Y for a service does not alone prove that Y owns all other addresses belonging to X. The evidence indicates that transfers show a relationship but do not confirm ownership of all associated addresses [dp07-links].",
+        "citation_ids": [
+          "dp07-links"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The transfer from Wallet X to Wallet Y does not alone prove that Y owns all other addresses belonging to X. The evidence indicates that transfers show a relationship but do not confirm ownership of all associated addresses [dp07-links]. Additional evidence is required to attribute common ownership [dp07-links].",
+        "citation_ids": [
+          "dp07-links",
+          "dp07-links"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r009-signature-title",
+      "question": "A person produces a valid signature using a stolen key. Does validity alone prove lawful ownership?",
+      "evidence_ids": [
+        "dp16-signature-roles"
+      ],
+      "baseline": {
+        "response": "No. Validity alone does not prove lawful ownership. The text explains that verification of a signature only confirms the authenticity of the signature under the scheme, not the legal identity of the signer [dp16-signature-roles]. Legal ownership and identity are not established by cryptographic validity.",
+        "citation_ids": [
+          "dp16-signature-roles"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. Validity alone does not prove lawful ownership. The text explains that verification of a signature only confirms the authenticity of the signature under the scheme, not the legal identity of the signer [dp16-signature-roles]. Legal ownership and identity are not established by cryptographic validity.",
+        "citation_ids": [
+          "dp16-signature-roles"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r009-sell-direction",
+      "question": "A sell limit is 240. Does the price rule permit an execution at 235, and does it guarantee any execution?",
+      "evidence_ids": [
+        "limit-order"
+      ],
+      "baseline": {
+        "response": "No. A sell limit of 240 means the order will only execute at 240 or higher, so an execution at 235 is not permitted [limit-order]. The price rule does not guarantee any execution, as the order may remain unfilled or only partly filled [limit-order].",
+        "citation_ids": [
+          "limit-order",
+          "limit-order"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. A sell limit of 240 means the order will only execute at 240 or higher, so an execution at 235 is not permitted [limit-order]. The price rule does not guarantee any execution, as the order may remain unfilled or only partly filled [limit-order].",
+        "citation_ids": [
+          "limit-order",
+          "limit-order"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r009-missing-study",
+      "question": "A tutorial shows eight winners only. Which missing evidence prevents treating 8/8 as a general strategy success rate?",
+      "evidence_ids": [
+        "dp05-pattern-evidence"
+      ],
+      "baseline": {
+        "response": "No. The evidence shows that a strategy needs reproducible rules and timestamped examples evaluated without hindsight, but it does not explicitly state that the eight winners are the only examples or that there is a lack of failures or out-of-sample results. The missing evidence is the absence of failures, transaction costs, or out-of-sample results, which are necessary to treat 8/8 as a general strategy success rate [dp05-pattern-evidence].",
+        "citation_ids": [
+          "dp05-pattern-evidence"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, the missing evidence is the absence of a complete sampling procedure, failures, transaction costs, and out-of-sample results. The evidence also mentions that statements about a pattern working well are claims to test, not measured labels [dp05-pattern-evidence]. Therefore, without this comprehensive evaluation, treating 8/8 as a general strategy success rate is uncertain.",
+        "citation_ids": [
+          "dp05-pattern-evidence"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r010-probe-2-supported",
+      "question": "A recipient keeps its signing hardware in storage. May a sender broadcast to the recipient's verified existing address without turning that hardware on?",
+      "evidence_ids": [
+        "dp16-receive-offline"
+      ],
+      "baseline": {
+        "response": "Yes, a sender can broadcast to the recipient's verified existing address without turning the signing hardware on. The evidence states that a sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline]. This implies that the signing hardware does not need to be on for the broadcast to occur.",
+        "citation_ids": [
+          "dp16-receive-offline"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "Yes, a sender can broadcast to the recipient's verified existing address without turning the signing hardware on. The evidence states that a sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline]. This implies that the signing hardware does not need to be on for the broadcast to occur.",
+        "citation_ids": [
+          "dp16-receive-offline"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r010-probe-2-irrelevant",
+      "question": "A recipient keeps its signing hardware in storage. May a sender broadcast to the recipient's verified existing address without turning that hardware on?",
+      "evidence_ids": [
+        "dp07-exchange-holder"
+      ],
+      "baseline": {
+        "response": "No. The evidence does not support the idea that a sender can broadcast to the recipient's verified existing address without turning on the signing hardware. The provided text discusses the operational aspects of exchange addresses and custody of assets but does not address the requirement of signing hardware for broadcasting transactions [dp07-exchange-holder].",
+        "citation_ids": [
+          "dp07-exchange-holder"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The evidence does not support the idea that a sender can broadcast to the recipient's verified existing address without turning on the signing hardware. The provided text discusses the operational aspects of exchange addresses and custody of assets but does not address the requirement of signing hardware for broadcasting transactions [dp07-exchange-holder].",
+        "citation_ids": [
+          "dp07-exchange-holder"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r010-probe-4-supported",
+      "question": "A dashboard omits its VWAP anchor and included observations. Is its calculation fully specified?",
+      "evidence_ids": [
+        "dp17-vwap-convention"
+      ],
+      "baseline": {
+        "response": "No. The evidence indicates that a VWAP calculation requires specifying the interval or reset anchor, included trades or bar-price approximation, price units, and volume units [dp17-vwap-convention]. Since the dashboard omits its VWAP anchor and included observations, these essential components are missing, making the calculation not fully specified.",
+        "citation_ids": [
+          "dp17-vwap-convention"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The dashboard omits its VWAP anchor and included observations, which are essential components for fully specifying the calculation [dp17-vwap-convention]. Without these, the calculation details are incomplete.",
+        "citation_ids": [
+          "dp17-vwap-convention"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r010-probe-4-irrelevant",
+      "question": "A dashboard omits its VWAP anchor and included observations. Is its calculation fully specified?",
+      "evidence_ids": [
+        "dp07-exchange-holder"
+      ],
+      "baseline": {
+        "response": "No. The evidence does not address the calculation specification of a dashboard's VWAP anchor or observations. The provided text discusses exchange addresses and asset custody, not financial calculations or dashboard specifications [dp07-exchange-holder].",
+        "citation_ids": [
+          "dp07-exchange-holder"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The evidence does not address the calculation specification of a dashboard's VWAP anchor or observations. The provided text discusses exchange addresses and asset custody, not financial calculations or dashboard specifications [dp07-exchange-holder].",
+        "citation_ids": [
+          "dp07-exchange-holder"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r010-probe-6-supported",
+      "question": "An analyst treats ADX as a direct label for upward versus downward movement. Is that the distinction measured by ADX?",
+      "evidence_ids": [
+        "dp05-adx-direction"
+      ],
+      "baseline": {
+        "response": "No. The ADX measures trend strength, not the direction of the trend [dp05-adx-direction]. Directional indicators like +DI and -DI are needed to determine upward or downward movement. ADX does not directly label upward versus downward movement.",
+        "citation_ids": [
+          "dp05-adx-direction"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The ADX measures trend strength, not the direction of the trend [dp05-adx-direction]. Directional indicators like +DI and -DI are needed to determine upward or downward movement. ADX does not directly label upward versus downward movement.",
+        "citation_ids": [
+          "dp05-adx-direction"
+        ],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    },
+    {
+      "id": "r010-probe-6-irrelevant",
+      "question": "An analyst treats ADX as a direct label for upward versus downward movement. Is that the distinction measured by ADX?",
+      "evidence_ids": [
+        "dp07-exchange-holder"
+      ],
+      "baseline": {
+        "response": "No. The evidence does not support the conclusion. The provided text discusses exchange addresses and asset custody, which is unrelated to the ADX indicator or its interpretation. There is no relevant evidence supplied to confirm or deny the distinction measured by ADX.",
+        "citation_ids": [],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      },
+      "adapted": {
+        "response": "No. The evidence does not support the conclusion. The provided text discusses exchange addresses and asset custody, which is unrelated to the ADX indicator or its interpretation. There is no relevant evidence supplied to confirm or deny the distinction measured by ADX.",
+        "citation_ids": [],
+        "unrecognized_citations": [],
+        "hit_token_limit": false
+      }
+    }
+  ]
+}

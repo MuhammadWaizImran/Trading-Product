@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "file": "pdf_sft_014/ATTRIBUTION.txt",
+      "bytes": 5315
+    },
+    {
+      "file": "pdf_sft_014/adapted_answers.json",
+      "bytes": 131501
+    },
+    {
+      "file": "pdf_sft_014/adapter/ATTRIBUTION.txt",
+      "bytes": 5315
+    },
+    {
+      "file": "pdf_sft_014/adapter/README.md",
+      "bytes": 5180
+    },
+    {
+      "file": "pdf_sft_014/adapter/adapter_config.json",
+      "bytes": 924
+    },
+    {
+      "file": "pdf_sft_014/adapter/adapter_model.safetensors",
+      "bytes": 87360584
+    },
+    {
+      "file": "pdf_sft_014/adapter/added_tokens.json",
+      "bytes": 707
+    },
+    {
+      "file": "pdf_sft_014/adapter/chat_template.jinja",
+      "bytes": 4168
+    },
+    {
+      "file": "pdf_sft_014/adapter/merges.txt",
+      "bytes": 1671853
+    },
+    {
+      "file": "pdf_sft_014/adapter/special_tokens_map.json",
+      "bytes": 496
+    },
+    {
+      "file": "pdf_sft_014/adapter/tokenizer.json",
+      "bytes": 11422654
+    },
+    {
+      "file": "pdf_sft_014/adapter/tokenizer_config.json",
+      "bytes": 5401
+    },
+    {
+      "file": "pdf_sft_014/adapter/training_args.bin",
+      "bytes": 5841
+    },
+    {
+      "file": "pdf_sft_014/adapter/vocab.json",
+      "bytes": 2776833
+    },
+    {
+      "file": "pdf_sft_014/adapter_capacity.json",
+      "bytes": 85
+    },
+    {
+      "file": "pdf_sft_014/baseline_answers.json",
+      "bytes": 128369
+    },
+    {
+      "file": "pdf_sft_014/dataset_manifest.json",
+      "bytes": 3017
+    },
+    {
+      "file": "pdf_sft_014/reloaded_answers.json",
+      "bytes": 131501
+    },
+    {
+      "file": "pdf_sft_014/result.json",
+      "bytes": 10503
+    },
+    {
+      "file": "pdf_sft_014/runtime.json",
+      "bytes": 389
+    },
+    {
+      "file": "pdf_sft_014/status.json",
+      "bytes": 105
+    }
+  ],
+  "optimizer_checkpoints_included": false
+}

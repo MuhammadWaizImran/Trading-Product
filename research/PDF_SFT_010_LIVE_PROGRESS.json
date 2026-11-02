@@ -1,0 +1,20 @@
+{
+  "observed_utc": "2026-09-29T07:22:52.619723+00:00",
+  "source": "Authenticated Kaggle Logs tab",
+  "url": "https://www.kaggle.com/code/waizimran/crypto-qwen3-pdf-sft-010",
+  "cloud_status": "running",
+  "allocated_accelerator": "GPU T4 x2",
+  "trainer_devices_used": 1,
+  "baseline_evaluation_completed": true,
+  "training_started_elapsed_seconds": 958.3,
+  "last_logged_training_elapsed_seconds": 1309.8,
+  "last_logged_epoch": 0.12,
+  "last_logged_loss": 0.6734,
+  "interpretation": "Approximately12 percent of the single training epoch, not overall model readiness. Last batch loss is not a quality score.",
+  "rough_fitting_remaining_minutes": [
+    45,
+    50
+  ],
+  "post_training_evaluation_pending": true,
+  "production_approved": false
+}

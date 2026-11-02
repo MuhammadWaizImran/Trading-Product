@@ -1,0 +1,802 @@
+=== PDF PAGE 1 ===
+  Introduction to
+On-Chain Analysis
+
+           By Patrick Scott aka Dynamo DeFi
+
+=== PDF PAGE 2 ===
+                                                                            2
+
+Table of Contents
+
+
+Why Learn On-Chain Analysis?                              3
+Introduction to Etherscan                                   4
+  Addresses on Etherscan                                 4
+   Transactions on Etherscan                                8
+  Tokens on Etherscan                                   10
+Whale Wallets                                           14
+  How to Find Whale Wallets                              14
+  How to Track Whale Wallets                              22
+Finding and Assessing New DEX Listings                     28
+   Finding New DEX Listings with DEXScreener                28
+   Avoiding Scams and Assessing the Safety of New DEX Listings 30
+Taking Things to the Next Level                             32
+
+=== PDF PAGE 3 ===
+                                                                            3
+
+Why Learn On-Chain Analysis?
+
+Imagine this scenario: you hear about a coin being shilled on social media. You go to their
+Telegram chat, are greeted by a chorus of “up only” and “smart money is buying”. You ape in.
+But it doesn’t go “up only”. It starts to drop, first slowly, then quickly. Insiders are cashing out.
+There was no “smart money”.
+
+Now imagine this alternative scenario: you hear about this same coin. Using a blockchain
+explorer, you check the largest holders and see that the supply is heavily concentrated among
+insiders. Instead of buying this coin, you review a list of “smart money” wallets you’ve created
+and see that several of them are accumulating a new DEX listing. You buy that instead.
+
+This is the power of on-chain analysis.
+
+If I had to pick one skill that separates the pros from the amateurs in crypto, it would be on-chain
+analysis.
+
+This guide will focus on making you proficient in on-chain analysis, by teaching you 5 things:
+    1. How to use Etherscan to find information on addresses, transactions, and tokens
+    2. How to find whale wallets
+    3. How to track whale wallets
+    4. How to find and quickly evaluate new DEX listings
+    5. How to use a large variety of on-chain analysis tools
+
+=== PDF PAGE 4 ===
+                                                                            4
+
+Introduction to Etherscan
+
+Etherscan is the foundational tool for on-chain analysis. It’s the Ethereum blockchain explorer,
+which can be used to find information about anything that’s on-chain on Ethereum: Addresses,
+Transactions, Tokens, and more.
+
+You can find a list of other blockchain explorers for other chains on my free Crypto Tool List.
+This guide will focus on Etherscan, but in most cases, other blockchain explorers will look and
+work nearly identical to Etherscan.
+
+Addresses on Etherscan
+
+Etherscan allows you to look up Ethereum Addresses to view their:
+   ●  Holdings
+   ●  Transaction history
+   ●  Analytics
+
+Later on in this guide we’ll go through some more advanced tools for analyzing wallets, but
+Etherscan is where everything begins.
+
+For this example, we’ll use the wallet: 0x9026a229b535ecf0162dfe48fdeb3c75f7b2a7ae. This
+wallet is the most followed address in DeBank’s “Web 3 Social Ranking” and has a total portfolio
+of over $57 million (more about using DeBank to find whale wallets in the “How to Find Whale
+Wallets” section below).
+
+The address page on Etherscan looks like this:
+
+=== PDF PAGE 5 ===
+                                                                            5
+
+
+Note the Overview, which contains the wallet’s total ETH balance and value and total value of
+that wallet’s tokens.
+
+This wallet has 2,816 ETH, valued at $4.874 million and $2.481 Million of other tokens. These
+numbers don’t include tokens locked in smart contracts, which is why this is substantially
+different from the $57 million I mentioned above.
+
+At the bottom of the address page, there are 6 tabs:
+
+Transactions - ETH transfers to and from this wallet
+
+Use this tab to see ETH transactions made by this wallet. Note that this tab does NOT show you
+ERC-20 or NFT transfers. In other words, if this wallet transferred USDC to another wallet, it
+won’t show up here.
+
+In this example, we can see that 11 hrs 36 mins ago, this wallet transferred 10,000 ETH to a
+BendDAO smart contract. You could select this transaction’s hash to investigate further.
+
+
+
+
+
+Internal Transactions - ETH smart contract interactions from this wallet
+
+Internal transactions occur within smart contracts. Depending on the wallet and what you’re
+looking for, this tab can be as important to check as the main Transactions tab.
+
+In this example, you can see a Paraswap contract sending 2.2 ETH to the wallet 12 hrs 4 mins
+ago.
+
+=== PDF PAGE 6 ===
+                                                                            6
+
+
+
+
+
+Token Transfers (ERC-20) - Transactions involving ERC-20 tokens (as opposed to ETH itself
+or NFTs)
+
+This tab includes all transactions of any kind that involve an ERC-20 token. What exactly is an
+ERC-20 token? For the most part, an ERC-20 is any fungible token on ETH. Examples are
+USDC, UNI, and LDO. Fungible means that each of those tokens is equivalent to every other
+one of those tokens (1 USDC = 1 USDC). This is in contrast to NFTs, where in a 10,000 piece
+collection, each of the NFTs is unique.
+
+In this example, we can see that this address sent 12,500 USDC to an Aave smart contract 12
+hrs 45 min ago.
+
+=== PDF PAGE 7 ===
+                                                                            7
+
+
+
+NFT Transfers - Transactions involving NFTs, as opposed to ETH or ERC-20s
+
+Use this tab to see activity from this wallet related to NFTs. Note that with NFTs in particular,
+there are better interfaces for seeing a wallet’s activity. But, as with everything, Etherscan is the
+place to start understanding how all on-chain activity fits together.
+
+
+
+
+
+Analytics - Stats for this address, such as ETH balance and transaction volume over time
+
+In truth, I don’t use this page a ton, but it does have its uses. One use is that certain whale
+wallets rarely become active or only become active during bull markets–a sudden rise in
+transactions can be a sign that the whale knows something that you ought to be paying
+attention to.
+
+=== PDF PAGE 8 ===
+                                                                            8
+
+
+       https://debank.com/whales
+
+Comments - Comments from other users about this wallet. Usually empty, unless to warn
+people about a scammer wallet or smart contract.
+
+
+
+
+
+And what can you do with all of this information?
+
+Broadly speaking, when looking at whale wallets, look for these signals:
+   ●  Accumulating a token
+   ●  Selling a currently held token
+   ●  Using a new DeFi protocol
+   ●  Converting stables to tokens or tokens to stables
+
+Never blindly copy whale wallets. Instead, use them as a starting point to form a hypothesis.
+Then, do your own research to investigate that hypothesis.
+
+Transactions on Etherscan
+
+Once you’ve looked at an address on Etherscan, you’ll likely want to dive deeper into that
+address’s specific transactions.
+
+Looking at the address above’s transactions, we see one from a day ago involving 10,110 ETH.
+
+=== PDF PAGE 9 ===
+                                                                            9
+
+
+
+
+
+Select that transaction to view its details.
+
+
+
+
+
+This is where you can see all of the details for that transaction. There’s a lot to unpack here, so
+let's highlight a few key fields to understand what we’re looking at:
+   ●  From: The address sending this transaction
+   ●  To: The address receiving this transaction. Note that addresses with an icon of a paper
+       with the corner folded, like we see here, are smart contracts.
+   ●  ERC-20 Tokens Transferred: Oftentimes, transactions involve more than just ETH.
+      They involve transferring ERC-20 tokens, like USDC, UNI, or even WETH.
+
+In this particular transaction, we see a few things going on:
+
+=== PDF PAGE 10 ===
+                                                                           10
+
+
+    1.  Address czsamsunsb.eth transfers 10,110 ETH to a smart contract with address
+     0xEFF…
+    2.  This address automatically converts the ETH to Wrapped Ether (ETH wrapped as an
+      ERC-20 for use in DeFi applications).
+    3.  This WETH is deposited into Aave.
+    4. The sender (czsamsunsb.eth) receives Aave interest bearing WETH (aWETH) to
+       represent their position.
+
+Transactions on Etherscan can range from simple transfers to DEX swaps to other interactions
+with DeFi protocols (like this example). Another way to think about Transactions are the actions
+taken by Addresses you track.
+
+Tokens on Etherscan
+
+Etherscan also provides a wealth of information about specific ERC-20 tokens. Etherscan’s
+token pages can tell you:
+   ●  Basic tokenomics
+   ●  Largest holders
+   ●  Recent transactions
+   ●  The token contract
+
+If you frequent Crypto circles on Twitter, Telegram and Discord, you probably hear people talk
+about the number of holders of their favorite token increasing. You might even hear claims about
+“whales accumulating,” or, more commonly, “whales selling.” You can find all of this information
+and more on Etherscan’s token pages
+
+To demonstrate, I searched RNDR on Etherscan to find the page for Render Token, a
+decentralized GPU network. At a glance, Etherscan’s token page for RNDR looks like this:
+
+=== PDF PAGE 11 ===
+                                                                                11
+
+
+
+The Overview and Market sections include basic information about the token’s tokenomics and
+stats:
+   ●  Max Total Supply - Total supply of the token, including locked tokens.
+   ●  Holders - Number of addresses that hold this token. More generally means that a
+      community is larger and less centralized (though this can be faked).
+   ●  Total Transfers - Number of transfers of this token. More generally means more
+      economic activity related to this token is going on. On old projects this can be highly
+       stagnant.
+   ●  Price - Current price of this token.
+   ●  Fully Diluted Market Cap - The market cap of this token based on total supply.
+   ●  Circulating Supply Market Cap - The market cap of this token based on circulating
+       supply
+Scrolling down on this page, we can see other useful information about RNDR:
+
+Transfers
+
+Here, we see a list of all recent transactions for this token, big and small. To filter to only large
+transactions, use the ‘Advanced Filter’ option.
+
+
+
+
+
+Holders
+
+=== PDF PAGE 12 ===
+                                                                           12
+
+
+
+
+
+The Holders section shows the largest holders of that token. This is a simple way to start finding
+whale wallets (more methods below). Here for example we can see several wallets that hold
+over 1% of the RNDR supply.
+
+A few notes about special types of addresses here:
+
+First, addresses that feature the icon of a piece of paper with the corner folded are smart
+contracts, such as a liquidity pool.
+
+Second, some of these are pre-labeled exchange wallets (Binance 8 and Kucoin 6 for
+example)–when looking for whale wallets, be careful that you don’t accidentally look at an
+exchange wallet.
+
+
+
+Contract
+
+The Contract tab shows the Contract Source Code for the token if the contract is verified.
+
+=== PDF PAGE 13 ===
+                                                                           13
+
+
+
+
+
+Unless you’re a developer looking to fork this token or to assess the token yourself, this section
+likely won’t be very useful to you. However, if a contract is not verified, that’s definitely a major
+red flag.
+
+=== PDF PAGE 14 ===
+                                                                           14
+
+Whale Wallets
+
+Now that we’ve covered the basics of Etherscan, onto the good stuff.
+
+Whale wallets are what most people associate with on-chain analysis and I’m sure this is why
+most of you downloaded this guide.
+
+I’ve divided this whale wallets section into two subsections:
+    1. How to Find Whale Wallets
+    2. How to Track Whale Wallets
+
+Both sections will heavily involve walkthroughs of various tools. We’ll cover DeBank, Watchers
+Pro by Scope Protocol, Arkham Intel, Bubblemaps, and Zapper.
+
+How to Find Whale Wallets
+
+First let’s talk about how to find whale and smart money wallets. It’s important to note that these
+aren’t necessarily the same thing. Whales could include funds profiting from arbitrage–in that
+case, positions they have don’t necessarily reflect a long-term investment. Smart money could
+include traders in low 7 figures who ran up an account from next-to-nothing through a series of
+intelligent trades. Both are helpful to track. But they’re not the same.
+
+
+Largest Token Holders
+
+Looking at the largest holders of a token can be an effective strategy to find whale wallets.
+These wallets will include protocol founders, early investors, and other well-connected or
+intelligent entities.
+
+You can search for a token’s largest holders using Etherscan, as demonstrated above, but I find
+that Watchers Pro has a more intuitive interface for this. To access this page go to Watchers Pro
+and select Whale Watch on the left-side menu.
+
+=== PDF PAGE 15 ===
+                                                                           15
+
+
+
+
+
+One of the crypto success stories of 2023 has been Render Network (RNDR), which has
+performed well on the back of its alignment with the AI narrative.
+
+=== PDF PAGE 16 ===
+                                                                           16
+
+
+Our goal then, is to find whales who invested in RNDR with size *before* it took off. Searching
+RNDR, we can see the top addresses, with exchanges and contracts clearly labeled:
+
+
+
+
+
+If you want to track Whales for this token, any of these addresses are a good place to start. If
+you’re looking for smart money, look at these addresses’ transaction history to confirm when
+they bought the token in question. Going down the list of top wallets for RNDR, I found one
+(0x2c…) that had over $3 Million worth and accumulated it prior to 2023. Diving into their
+transaction history, we can see that they acquired RNDR as far back as January 2022 and
+continued acquiring it throughout 2022.
+
+
+
+
+
+We’ll start tracking this wallet. See how to do this below.
+
+DeBank Lists
+
+Another great place to start building your smart money list is through DeBank’s pre-made lists.
+These lists are expansive (featuring thousands of addresses), but offer a great starting point.
+
+The first pre-made list on DeBank is their Web3 Social Ranking. This list consists of the most
+followed addresses on DeBank.
+
+To access DeBank’s Web3 Social Ranking:
+    1. Go to DeBank.com
+    2.  Select ‘More’ on the menu
+    3.  Select ‘Web3 Social Ranking’
+
+=== PDF PAGE 17 ===
+                                                                           17
+
+
+
+
+
+You’ll be brought to this page. Note the large number of followers on some of these addresses.
+While I’d wager that the majority of these followers are from the bull market and no longer
+active, the large follower count means that these addresses won’t have as much alpha as
+under-the-radar addresses will.
+
+
+
+
+
+The next address list on DeBank is their list of Whales. This extremely broad list includes 20,000
+addresses with over $1 Million of net worth. In other words, you’ll have to do heavy curation
+yourself to make this usable.
+
+To access DeBank’s Whales list:
+
+=== PDF PAGE 18 ===
+                                                                           18
+
+
+    4. Go to DeBank.com
+    5.  Select ‘More’ on the menu
+    6.  Select Whales
+
+
+
+
+
+On this page you’ll see thousands of addresses, ranking from $1 Million to $4.4 Billion in net
+worth. This will include everything from protocol treasuries to exchanges, so not all of these are
+worth tracking; however, if you want a comprehensive list of whales across all EVM chains, this
+is your place.
+
+
+
+
+
+In general, when going through either of these DeBank lists, I would look for wallets that fit 3
+criteria:
+    1. An individual (not a fund, exchange, treasury, etc)
+    2. Have a similar investing strategy to me (for example, I rarely trade NFTs, so I am not
+       interested in wallets that focus on NFTs, even if they’re good at it)
+    3.  Wallet net worth has been increasing recently
+
+=== PDF PAGE 19 ===
+                                                                           19
+
+
+VC Wallets
+
+Tracking VC and investment fund wallets is another good way to source ideas for potential
+investments.
+
+Be warned that sometimes these funds get into the seed round of coins at DRASTICALLY lower
+prices than what is available to the public. For this reason, as with other whales, be sure to
+research when they added a token to their portfolio before you ape in.
+
+A great place to start finding VC wallets is on Watcher Pro’s VC Watch dashboard.
+
+
+
+
+
+Although you need a premium account to see the specific addresses (I have no affiliation with
+them by the way), you can see the names of the VCs and their holdings for free. Many of these
+VCs have dozens or even hundreds of wallets, so, in truth, knowing their specific addresses
+isn’t that important.
+
+Once you see a VC that looks interesting on this list, change to the ‘VC Dashboard’ tab in
+Watcher Pro’s VC Watch tool and search for the name of the VC you’d like to investigate further.
+This will bring up a dashboard similar to this with the VC’s detailed positions.
+
+=== PDF PAGE 20 ===
+                                                                           20
+
+
+
+
+
+For further information, you can take the name of a VC you find on this list and bring it over to
+Arkham to see if they have an entity for it. Here we see Arkham’s entity for Jump Trading:
+
+
+
+
+
+This Arkham dashboard, in addition to showing you a fund’s holdings by token and chain, is
+especially useful for seeing their exchange usage and top counterparties. In 2022, we saw
+several industry-wide catastrophes (Terra, 3AC, FTX, etc). Looking at which exchanges funds
+use and who their counterparties are gives you insight into whether second order consequences
+from another collapse will affect them.
+
+Arkham is also useful because it already consolidates multiple addresses into named entities (in
+this case Jump Trading). Rather than track down Jump Trading’s individual addresses yourself,
+you can search for them here and see a consolidated view of their on-chain holdings in one
+place.
+
+=== PDF PAGE 21 ===
+                                                                           21
+
+
+Finding Whale Wallets from Other Resources
+
+While being able to find whale wallets yourself is great, luckily many people have already done
+this for you. Here are a few good resources to find additional wallets:
+
+Thor Hartvigsen’s Wallet Tracker
+
+My friend Thor Hartvigsen compiled this detailed list of wallets to track. He included funds,
+largest token holders, protocol treasuries, and other notable wallets.
+
+Nansen
+
+Nansen identifies and tags tons of smart money wallets. In fact, they have hundreds of millions
+of address labels. And while Nansen is quite pricey, they frequently post samples of alpha
+publicly on their Twitter.
+
+
+Dune
+
+There are many good custom tools on Dune for finding whales. Defi Mochi’s Sh*tcoin Whale
+Watcher is one of them.
+
+
+
+
+
+Other Influencers
+
+There are also a number of other solid on-chain analysts who publicly post their work.
+OnChainWizard and LookOnChain are two solid analysts to follow.
+
+How to Track Whale Wallets
+
+Now that you know some strategies to search for and identify whale wallets, you’ll need a way
+to track them.
+
+In this section, I’ll go through 3 separate tools for tracking wallets: DeBank, Zapper, and
+Arkham. Each has their own strengths and weaknesses. You’ll likely find that you prefer one of
+the three; however, I still use each of them from time to time.
+
+=== PDF PAGE 22 ===
+                                                                           22
+
+
+For demonstration purposes, we’ll use a whale wallet called analytico.eth
+(0xa0f75491720835b36edc92d06ddc468d201e9b73) that has over $50M in funds.
+
+Tracking Wallets on DeBank
+
+The first site for tracking wallets and my personal favorite is DeBank. DeBank shines by
+supporting the most comprehensive variety of chains and dapps of any portfolio tracker I’ve
+seen. If you’re analyzing a wallet that’s a power-user of cross-chain DeFi, this is the tracker for
+you.
+
+To get started, go to debank.com and type the wallet address or name into the top search bar.
+
+
+
+
+This will bring you to a page like this where you can see all of this wallet’s holdings across
+different chains and applications. Note the wide variety of chains tracked here.
+
+For this particular address, we can see that this whale is heavily farming on Convex.
+Interestingly, it also has a significant position earning yield on Maple–real world assets anyone?
+
+While DeBank excels at tracking tokens and DeFi deposits across different chains, it tends to be
+less good at tracking NFT portfolios than other solutions.
+
+=== PDF PAGE 23 ===
+                                                                           23
+
+
+
+If you’ve decided that this wallet fits your investing style, you may want to start following them.
+To follow on DeBank, click the orange “Follow” button. This wallet will now appear in the
+‘Following’ section of your DeBank profile.
+
+
+
+
+
+Tracking Wallets on Zapper
+
+Another great site for tracking wallets is zapper.xyz. While Zapper isn’t quite as comprehensive
+in its support for chains and dapps as DeBank, it excels in its UI for exploring an address’s NFTs
+and DAO memberships.
+
+To search for an address on Zapper, type the name or address into the search bar.
+
+
+
+
+
+You’ll then be brought to the profile page for that address. Our example analytico.eth looks like
+this:
+
+=== PDF PAGE 24 ===
+                                                                           24
+
+
+
+Moving to the NFT tab on this address, we can see that analytico.eth currently holds 47 NFTs,
+the most valuable of which are Urbit IDs. Filter these by network, status or collection. This is
+where Zapper really excels. For wallets with a large proportion of their net worth in NFTs, I tend
+to use Zapper for tracking.
+
+
+
+
+
+Going back to the Overview tab and scrolling down, we can see that Zapper shows a
+breakdown of a wallet’s DAO Memberships. This is another unique feature that sets Zapper
+apart.
+
+=== PDF PAGE 25 ===
+                                                                           25
+
+
+This DAO membership section shows both the raw amount of governance tokens held by the
+wallet as well as what % of that DAO’s voting power this wallet controls. When analyzing
+Ethereum whales, this can show you which DAOs they have influence in.
+
+Tracking Wallets on Arkham
+
+If you’re looking to dive a bit deeper into the analytics of a wallet or you’re looking for
+information on an entity that contains multiple addresses, Arkham is a great resource to use.
+Searching for our example wallet (analytico.eth), Arkham’s dashboard looks like this:
+
+
+
+
+
+Note that Arkham often struggles to track usage in DeFi applications, which is why they severely
+understate analytico.eth’s net worth. That being said, Arkham really shines in 2 areas:
+    1.  Tracking specific entities, such as Binance US, for whom Arkham tracks a collection of
+        wallets.
+    2.  Assessing the profitability of wallets that actively trade or flip coins.
+
+For example, Arkham is effective for tracking the profitability of this wallet
+(0x160A8D28D63961297e51E4f1a0401bf4D27f5162), which made a few highly profitable DEX
+trades in early 2023.
+
+=== PDF PAGE 26 ===
+                                                                           26
+
+
+
+
+
+In this case, Arkham is highly effective, because you can see precisely when this wallet turned
+profitable and ran up a large balance with a few key trades. You can also see how they have
+faired since then. In this case, it appears that, while they’re still profitable overall, they haven’t
+been able to replicate their success.
+
+Diving Deeper with Bubblemaps
+
+If you want to go a bit deeper into finding
+and tracking whale wallets, Bubblemaps is
+an incredible tool for visualizing the
+connections between different wallets.
+
+Bubblemaps analyzes wallets’ transaction
+history to identify wallets that likely belong
+to the same entity. Whales often will
+distribute their funds to multiple wallets to
+disguise the size of their position or
+because too many people start following
+their original wallet. With Bubblemaps, you
+can easily find groups of related wallets.
+
+Here is a Bubblemaps chart for LDO. As
+you can see, there are several clusters,
+where no individual wallet is huge, but the
+cumulative cluster is.
+
+=== PDF PAGE 27 ===
+                                                                           27
+
+Finding and Assessing New DEX Listings
+
+The final use of on-chain analysis that we’ll cover in this guide is how to find and quickly assess
+new DEX listings. Have you ever heard of people brag about getting in on tokens at absurdly
+low market caps, like under $100K? Most of the time they’re lying, but when they’re not, they
+bought it as a new DEX listing.
+
+You only need a few tools to do this:
+   ●  DEXScreener - to view and chart new DEX listings
+   ●  De.Fi - to check if a new DEX listing is a honeypot scam
+
+This guide won’t show you how to do a full analysis of new projects, but it will show you how to
+find new DEX listings and check whether they’re honeypots or have other red flags in their
+contract code.
+
+Finding New DEX Listings with DEXScreener
+
+To find new listings, we’ll use DEXScreener. This shows listings across a wide variety of chains
+and DEXes, though you can of course filter. To start, go to https://dexscreener.com/ and select
+New Pairs on the left-hand menu.
+
+You’ll be brought to a page like this:
+
+
+
+
+
+Most of these tokens won’t be investable. They have no utility, launched with unreasonable
+valuations, or are outright scams. But it only takes one big win to make it all worthwhile.
+
+=== PDF PAGE 28 ===
+                                                                           28
+
+
+If we select the highest volume-traded pair on this list, we can see that this token, FUMO, has
+done extremely well since it was created less than 24 hours ago. In fact, that’s an
+understatement, it’s gone up nearly 18,000%!
+
+
+
+
+
+If you we scroll down on the right, we can see a link to ‘Trade on Uniswap’, as well as contract
+addresses for this token’s liquidity pair (labeled ‘Pair’) and for the token itself (labeled ‘FUMO’).
+We’ll need this for assessing its safety later.
+
+
+
+
+
+Please note that this is just an example. In general, I’d avoid buying tokens that are up 18,000%
+in 24 hours.
+
+=== PDF PAGE 29 ===
+                                                                           29
+
+Avoiding Scams and Assessing the Safety of New DEX Listings
+
+Once you’ve found a promising new DEX listing, the first thing you’ll want to do is to check if it’s
+a honeypot. What is that exactly? Sometimes, malicious token deployers include code in the
+token’s contract that allows them to prevent people (besides them) from selling. In some cases,
+they disable selling from the start; other times, they allow it at the start, but eventually turn it off.
+
+Honeypot tokens often appear to be doing phenomenal. In fact they can look too good to be
+real. And they are. Their prices will push higher and higher, until suddenly, in a split-second,
+they go to 0.
+
+Let’s look at how to avoid these tokens.
+
+To assess new DEX listings we’ll use the Scanner tool on the De.Fi app.
+
+
+
+
+
+For example, if we look at a token that rugged within the past 24 hours called JOK on BNB
+Chain, we can see that, had you run its contract address through the De.Fi scanner, you would
+have seen that it could be a “Potential Honeypot.”
+
+=== PDF PAGE 30 ===
+                                                                           30
+
+
+
+
+
+While this method won’t prevent you from buying rug-pulls where the team straight-up sells their
+stake or where a clever dev writes a honeypot contract that avoids detection, it will prevent you
+from falling prey to easily avoidable scams.
+
+=== PDF PAGE 31 ===
+                                                                           31
+
+Taking Things to the Next Level
+
+Maybe some of you have internalized this guide and want to know how you can advance your
+skills from here. The way I like to view on-chain analysis, as with skills in any field, is as a skill
+tree. There are different sub-specialties within on-chain analysis that you can build your
+expertise in.
+
+Broadly speaking, I’d divide on-chain analysis into a few sub-specialties:
+   ●  Finding and tracking whale wallets
+   ●  On-chain detective work (uncovering rugpulls and hackers)
+   ●  Finding and sniping new DEX listings
+   ●  On-chain analytics (not covered in this guide, but covered extensively on my Twitter and
+       newsletter)
+   ●  Exchange, miner, and smart money flows (this has to do with aggregate patterns of
+      whether smart money and miners are selling, accumulating, send to exchanges, etc)
+
+There are of course more things you can do related to on-chain analysis. The more technical
+among you may want to learn how to read and write Solidity. Or to create Dune dashboards or
+perform custom analysis of on-chain data with Alchemy.
+
+The goal of this guide is to give you the tools and foundation to get started. To take your skills to
+the next level, my best recommendation is that “practice makes perfect.” If you want to learn to
+find and track whale wallets, apply the methods in this guide to find a few. Start watching them
+and track how their new investments do over time. Doing well? Congrats, you now have your
+own smart money list. Over time, hone it, test new methods for finding whales, and work on
+building a more efficient system for tracking new purchases.
+
+In time, you may create your own methods and tools for on-chain analysis. In such a new field,
+you might even coin new terms and methods. The beauty of being in a still-developing industry
+is that you, as an individual, can develop your own edge.

@@ -1,0 +1,22 @@
+{
+  "adapter009_concise_tools": {
+    "responses": 100,
+    "model_invoked": 50,
+    "truncated": 0,
+    "routes": {
+      "ready": 50,
+      "needs_evidence": 25,
+      "needs_source": 25
+    }
+  },
+  "base_concise_tools": {
+    "responses": 100,
+    "model_invoked": 50,
+    "truncated": 0,
+    "routes": {
+      "ready": 50,
+      "needs_evidence": 25,
+      "needs_source": 25
+    }
+  }
+}

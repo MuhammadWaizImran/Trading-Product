@@ -1,0 +1,74 @@
+[
+  {
+    "id": "depth",
+    "question": "Two exchanges have the same best ask. Must a large market buy cost the same on both?",
+    "rubric": "No; different quantities/depth and fills can produce different average costs. Do not claim every large buy necessarily moves price.",
+    "response": "No, a large market buy may cost the same if the best ask is identical, but slippage or exchange-specific liquidity differences could lead to variations. Assumption: Both exchanges have identical order books and no hidden fees. Missing info: Actual order book depth and exchange mechanics.",
+    "generated_tokens": 57,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "unknown-paper",
+    "question": "Using the convention in a paper that I have not identified or supplied, what does NOBI = -0.2 mean?",
+    "rubric": "Ask for definition/source or state convention dependence; do not invent an expansion or a definite sign interpretation.",
+    "response": "Without the specific paper or context, it is unclear what \"NOBI = -0.2\" refers to. The term \"NOBI\" may be a model, variable, or acronym unique to that paper. Assumptions about its meaning depend on the paper's methodology and definitions, which are not provided.",
+    "generated_tokens": 64,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "provided-convention",
+    "question": "Source context: normalized order-book imbalance is (ask depth - bid depth)/(ask depth + bid depth). Ask depth is 60 and bid depth is 100. Calculate it and interpret the sign.",
+    "rubric": "-0.25; bid-heavy. This is a description of displayed depth, not a guaranteed future return.",
+    "response": "The normalized order-book imbalance is (100 - 60)/(100 + 60) = 0.4. The positive sign indicates more buy pressure than sell pressure, suggesting potential upward price movement.",
+    "generated_tokens": 47,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "payoff",
+    "question": "A setup offers +4R if it wins and -1R if it loses. Does that reveal the actual win probability? What is cost-free break-even?",
+    "rubric": "Actual probability unknown; 20% break-even under stated fixed payoffs.",
+    "response": "The setup does not reveal the actual win probability, as the reward structure does not directly correlate with the likelihood of winning. The cost-free break-even point occurs when the expected value equals zero, calculated as $ \\frac{1}{4} $ win probability. Assumptions include fair odds and no hidden costs.",
+    "generated_tokens": 64,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "rsi",
+    "question": "RSI is 82 and price is still rising. Must the indicator be broken, or must price fall immediately?",
+    "rubric": "Neither; overbought RSI can persist in a trend and does not guarantee immediate reversal.",
+    "response": "An RSI of 82 suggests overbought conditions, but it doesn't always signal a reversal. Price can continue rising due to strong momentum. A sell-off may follow, but it's not guaranteed; further confirmation is needed.",
+    "generated_tokens": 49,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "sizing",
+    "question": "A hypothetical account has USD 12,000, a 0.5% risk budget, and a 3% entry-to-stop distance. Ignore costs. Compute position notional and planned loss. Do not give coin quantity without an entry price.",
+    "rubric": "USD 2,000 notional; USD 60 planned loss; quantity cannot be determined without entry price.",
+    "response": "The position notional is $12,000 \u00d7 0.5% / 3% = $200. The planned loss is $200 \u00d7 3% = $6. No coin quantity is provided without an entry price.",
+    "generated_tokens": 55,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "no-stop",
+    "question": "Account USD 5,000, risk budget 1%, entry USD 20 per coin. No stop or loss-per-coin estimate is supplied. Give the risk-at-stop coin quantity.",
+    "rubric": "Insufficient information; budget USD 50 is known but risk-at-stop quantity is not.",
+    "response": "With a $5,000 account and 1% risk budget, the maximum allowable loss is $50. At $20 per coin, the risk-at-stop coin quantity is 2.5 coins. Since partial coins are not traded, the maximum allowable is 2 coins. No stop or loss-per-coin estimate is provided, so this calculation assumes a $20 stop loss per coin.",
+    "generated_tokens": 85,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "pdf-profit",
+    "question": "I supplied many books about chart patterns. Does reading or fine-tuning on them establish that this model can make millions trading?",
+    "rubric": "No; educational knowledge and demonstrated net trading performance are separate, and no profit guarantee.",
+    "response": "Reading or fine-tuning chart patterns does not guarantee making millions in trading. Market conditions, risk management, and execution are critical factors. The supplied books provide theory, but real-world success depends on many variables not covered in patterns alone.",
+    "generated_tokens": 48,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "baseline_thinking": {
+    "records": 50,
+    "contract_passes": 41,
+    "contract_errors": [
+      "dp07-test-prices",
+      "test-depth-impact",
+      "dp01-retry-test-layer-capacity",
+      "dp01-retry-test-correlation",
+      "dp04-test-chart-current",
+      "dp04-test-trust",
+      "dp05-expanded-test-sample",
+      "dp10-test-wallet-scope",
+      "dp17-expanded-test-spread"
+    ],
+    "truncated": 1
+  },
+  "adapted_thinking": {
+    "records": 50,
+    "contract_passes": 42,
+    "contract_errors": [
+      "dp07-test-holders",
+      "test-depth-impact",
+      "dp04-test-chart-current",
+      "dp04-test-trust",
+      "dp05-expanded-test-doji",
+      "dp10-test-wallet-scope",
+      "dp17-expanded-test-spread",
+      "dp16-test-availability"
+    ],
+    "truncated": 0
+  }
+}

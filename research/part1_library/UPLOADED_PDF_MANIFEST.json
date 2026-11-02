@@ -1,0 +1,12 @@
+{
+  "reviewed_on": "2026-09-20",
+  "purpose": "Private Part 1 critical review; no training or retrieval-corpus ingestion",
+  "total_pages": 251,
+  "files": [
+    {"file": "705667332-Binary-Options-Trading-Bible.pdf", "pages": 119, "sha256": "DC5CBD39345EAB1EEE8344C02FC6BF2C692F534FD999F3A010A3EC69B151A96A", "decision": "Exclude from core corpus", "rights": "Page 3 reserves reproduction and retrieval rights; no affirmative training license verified"},
+    {"file": "837468574-Waqar-Zaka-Priate-Group-Lectures.pdf", "pages": 44, "sha256": "A2F6CA36C74AEE1BC63FE05948E722BA1D7012D070D5A7286EAF47DE5D5227EC", "decision": "Selected independently corrected concepts only", "rights": "Compilation provenance and downstream permissions unresolved"},
+    {"file": "860990854-E-Book-Binary-sun-7-2023.pdf", "pages": 70, "sha256": "A0299D14D49317E1BA177EC835BB5D6CFDDEED325329B79F11FCD60D70398590", "decision": "Hypothesis and invalid-example reference only", "rights": "No affirmative reuse license verified"},
+    {"file": "874145645-Chart-Pattern-Urdu.pdf", "pages": 18, "sha256": "43534FDF87BFA6FB2B8DDEECA83ADD9D101934C028D2AA5E9E1A63C420634559", "decision": "Corrected visual glossary companion", "rights": "No affirmative reuse license verified; software producer license does not license document content"}
+  ],
+  "review_limits": "Text read across text-bearing PDFs; rendered overviews inspected across all files; individual substantive Urdu pages and selected critical pages examined at larger resolution. Tiny embedded screenshot labels are not all reliably legible. No empirical strategy validation or instructor-authenticity verification claimed."
+}

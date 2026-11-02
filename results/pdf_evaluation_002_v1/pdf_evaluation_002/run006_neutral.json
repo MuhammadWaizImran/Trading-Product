@@ -1,0 +1,110 @@
+[
+  {
+    "id": "depth",
+    "question": "Two exchanges have the same best ask. Must a large market buy cost the same on both?",
+    "rubric": "No; different quantities/depth and fills can produce different average costs. Do not claim every large buy necessarily moves price.",
+    "response": "No. The cost of a large market buy depends on the size of the order and the depth of the order book. If the best ask is the same, but one exchange has a deeper order book, the cost may differ. The cost is determined by the price and the size of the order, not just the best ask. If the order is large enough to move the price, the cost will vary.",
+    "generated_tokens": 83,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "unknown-paper",
+    "question": "Using the convention in a paper that I have not identified or supplied, what does NOBI = -0.2 mean?",
+    "rubric": "Ask for definition/source or state convention dependence; do not invent an expansion or a definite sign interpretation.",
+    "response": "The meaning of NOBI = -0.2 depends on the specific context and definitions provided in the paper. Without the paper's definitions, it is not possible to determine the exact meaning of NOBI = -0.2. Please provide the paper's definitions or context for a precise explanation.",
+    "generated_tokens": 60,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "provided-convention",
+    "question": "Source context: normalized order-book imbalance is (ask depth - bid depth)/(ask depth + bid depth). Ask depth is 60 and bid depth is 100. Calculate it and interpret the sign.",
+    "rubric": "-0.25; bid-heavy. This is a description of displayed depth, not a guaranteed future return.",
+    "response": "The normalized order-book imbalance is (100 - 60)/(100 + 60) = 0.25. The positive sign indicates more buy pressure than sell pressure.",
+    "generated_tokens": 42,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "payoff",
+    "question": "A setup offers +4R if it wins and -1R if it loses. Does that reveal the actual win probability? What is cost-free break-even?",
+    "rubric": "Actual probability unknown; 20% break-even under stated fixed payoffs.",
+    "response": "The setup does not reveal the actual win probability. The cost-free break-even is 1/5.",
+    "generated_tokens": 22,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "rsi",
+    "question": "RSI is 82 and price is still rising. Must the indicator be broken, or must price fall immediately?",
+    "rubric": "Neither; overbought RSI can persist in a trend and does not guarantee immediate reversal.",
+    "response": "RSI is 82 and price is still rising. Must the indicator be broken, or must price fall immediately?",
+    "generated_tokens": 25,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "sizing",
+    "question": "A hypothetical account has USD 12,000, a 0.5% risk budget, and a 3% entry-to-stop distance. Ignore costs. Compute position notional and planned loss. Do not give coin quantity without an entry price.",
+    "rubric": "USD 2,000 notional; USD 60 planned loss; quantity cannot be determined without entry price.",
+    "response": "Position notional is USD 12,000. Planned loss is USD 60. Entry-to-stop distance is 3%, so stop price is 97% of entry price. Risk budget is 0.5%, so planned loss is 0.5% of USD 12,000.",
+    "generated_tokens": 69,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "no-stop",
+    "question": "Account USD 5,000, risk budget 1%, entry USD 20 per coin. No stop or loss-per-coin estimate is supplied. Give the risk-at-stop coin quantity.",
+    "rubric": "Insufficient information; budget USD 50 is known but risk-at-stop quantity is not.",
+    "response": "The risk-at-stop coin quantity is 25. The risk budget is 1% of USD 5,000, which is USD 50. At USD 20 per coin, the risk-at-stop coin quantity is USD 50 divided by USD 20, which is 2.5. Since the stop or loss-per-coin estimate is not supplied, the calculation is based on the risk budget and entry price.",
+    "generated_tokens": 93,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "pdf-profit",
+    "question": "I supplied many books about chart patterns. Does reading or fine-tuning on them establish that this model can make millions trading?",
+    "rubric": "No; educational knowledge and demonstrated net trading performance are separate, and no profit guarantee.",
+    "response": "No. The books only describe chart patterns, not how to use them. The model's effectiveness depends on factors not mentioned, like market conditions, execution, and risk management. Without evidence of profitable trades or a tested strategy, the claim is not supported. The question lacks specific data to calculate potential profits.",
+    "generated_tokens": 62,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "correlation-no-number",
+    "question": "A chart associates institutional quality with exchange activity. No coefficient or significance result is supplied. Does it establish causation?",
+    "rubric": "Reject causation; mention confounding or reverse causality; no invented coefficient or p-value.",
+    "response": "No, it does not establish causation. A chart showing an association between institutional quality and exchange activity does not provide statistical evidence of causation. Causation requires controlled experiments or rigorous statistical methods to isolate variables. Without coefficients, significance results, or experimental design details, the chart only indicates a correlation.",
+    "generated_tokens": 62,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "backup-versus-key",
+    "question": "An offline signing device still works and contains the key. Its only backup is destroyed. Are the funds already permanently inaccessible?",
+    "rubric": "No; the working key remains accessible. Backup loss increases future loss risk; do not conflate backup destruction with destruction of all keys.",
+    "response": "Yes, the funds are permanently inaccessible. The key is stored on the device, which is still functional. The only backup is destroyed, so the key cannot be recovered. Without the key, the funds cannot be accessed.",
+    "generated_tokens": 45,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "permission-properties",
+    "question": "A ledger publishes source code but only approved institutions validate. Is validation permissionless?",
+    "rubric": "No; distinguish source access from admission. No invented arithmetic.",
+    "response": "No. Validation is restricted to approved institutions. The ledger publishes source code, but validation requires permission. The question of permissionless validation is not addressed in the provided information.",
+    "generated_tokens": 35,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "trust-dependencies",
+    "question": "A protocol removes the central clearing bank. Name two different dependencies that can still remain.",
+    "rubric": "At least two distinct dependencies such as software, cryptography, governance, incentives, custody; no invented arithmetic.",
+    "response": "1. The protocol may still depend on the central bank for regulatory compliance.  \n2. The protocol may still rely on the central bank for interbank communication.  \nThe question lacks specific protocol details, so these are general dependencies.",
+    "generated_tokens": 47,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  }
+]

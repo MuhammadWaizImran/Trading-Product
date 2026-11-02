@@ -1,0 +1,34 @@
+[{"stream_name":"stdout","time":7.21517108,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.348412786,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 71.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.385789584,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 27.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.423554731,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 19.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":8.984972782,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 31.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":9.031140702,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 20.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":82.686398254,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":157.098847029,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [00:46\u003c03:04, 46.01s/it]\rFetching 5 files:  40%|████      | 2/5 [01:00\u003c01:22, 27.65s/it]\rFetching 5 files:  60%|██████    | 3/5 [01:12\u003c00:40, 20.14s/it]\rFetching 5 files: 100%|██████████| 5/5 [01:12\u003c00:00, 14.40s/it]\n"}
+,{"stream_name":"stderr","time":195.919013443,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  20%|██        | 1/5 [00:08\u003c00:33,  8.47s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:18\u003c00:28,  9.34s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:27\u003c00:18,  9.20s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:33\u003c00:08,  8.02s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:38\u003c00:00,  6.87s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:38\u003c00:00,  7.70s/it]\n"}
+,{"stream_name":"stderr","time":196.187548846,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":203.548041723,"data":"base depth tokens 57 ended True\n"}
+,{"stream_name":"stdout","time":210.754014812,"data":"base unknown-paper tokens 69 ended True\n"}
+,{"stream_name":"stdout","time":215.919452404,"data":"base provided-convention tokens 47 ended True\n"}
+,{"stream_name":"stdout","time":222.708958353,"data":"base payoff tokens 64 ended True\n"}
+,{"stream_name":"stdout","time":228.054760714,"data":"base rsi tokens 49 ended True\n"}
+,{"stream_name":"stdout","time":234.065924321,"data":"base sizing tokens 55 ended True\n"}
+,{"stream_name":"stdout","time":242.853595238,"data":"base no-stop tokens 83 ended True\n"}
+,{"stream_name":"stdout","time":248.220226818,"data":"base pdf-profit tokens 48 ended True\n"}
+,{"stream_name":"stdout","time":256.066933014,"data":"adapted depth tokens 57 ended True\n"}
+,{"stream_name":"stdout","time":264.014398809,"data":"adapted unknown-paper tokens 64 ended True\n"}
+,{"stream_name":"stdout","time":270.089671811,"data":"adapted provided-convention tokens 47 ended True\n"}
+,{"stream_name":"stdout","time":278.019158032,"data":"adapted payoff tokens 64 ended True\n"}
+,{"stream_name":"stdout","time":284.327504421,"data":"adapted rsi tokens 49 ended True\n"}
+,{"stream_name":"stdout","time":291.347244995,"data":"adapted sizing tokens 55 ended True\n"}
+,{"stream_name":"stdout","time":301.769102749,"data":"adapted no-stop tokens 85 ended True\n"}
+,{"stream_name":"stdout","time":307.923580317,"data":"adapted pdf-profit tokens 48 ended True\n"}
+,{"stream_name":"stdout","time":307.923850107,"data":"DIAGNOSTIC_COMPLETE\n"}
+,{"stream_name":"stderr","time":316.788785247,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":316.788836699,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":317.249049676,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":317.249114777,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":317.992018986,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":319.34514709,"data":"[NbConvertApp] Writing 298793 bytes to __results__.html\n"}
+]

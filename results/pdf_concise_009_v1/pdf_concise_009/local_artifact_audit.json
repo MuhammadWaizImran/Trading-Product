@@ -1,0 +1,26 @@
+{
+  "adapter009_concise_tools.json": {
+    "records": 13,
+    "truncated": 0,
+    "routed": 3,
+    "sha256": "69e50827ec26d92b23c46474084256abfd30e99ef85123be468e037ad22baf63"
+  },
+  "adapter009_original_tools.json": {
+    "records": 13,
+    "truncated": 0,
+    "routed": 3,
+    "sha256": "761c6de0347e97f25f9b52257213605d8d8ee90a6b5aac87988c040f315ba69a"
+  },
+  "base_concise_tools.json": {
+    "records": 13,
+    "truncated": 0,
+    "routed": 3,
+    "sha256": "80efc800cd683856eaaa1ffec91202d9d8f43a6b77c431e98460519c602c5023"
+  },
+  "base_original_tools.json": {
+    "records": 13,
+    "truncated": 0,
+    "routed": 3,
+    "sha256": "4f536851fa1c7ddcdaaa0896b0671212f8a9668e9c283f1f1d48717a156ac04e"
+  }
+}

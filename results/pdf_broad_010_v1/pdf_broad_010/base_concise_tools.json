@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "b010-01-supported",
+    "response": "The real body is bounded by the open at 18 and the close at 16. The evidence [ta-candle] states that the body spans open to close, but does not establish the next direction. The candle does not by itself establish the next move.",
+    "generated_tokens": 56,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "ta-candle"
+    ]
+  },
+  {
+    "id": "b010-01-irrelevant",
+    "response": "The real body of the candle is bounded by 18 and 15. The candle does not establish the next direction as the evidence provided is irrelevant to candlestick chart analysis. [dp16-receive-offline]",
+    "generated_tokens": 47,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-01-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-01-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-02-supported",
+    "response": "No. ADX measures trend strength, not direction, so it can rise during a declining trend [dp05-adx-direction]. The evidence shows ADX can increase in both uptrends and downtrends. A rising ADX with falling closes indicates a strong downtrend, not a malfunction.",
+    "generated_tokens": 60,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-adx-direction"
+    ]
+  },
+  {
+    "id": "b010-02-irrelevant",
+    "response": "No. The evidence does not address ADX or market indicators. The provided evidence is irrelevant to the question.",
+    "generated_tokens": 23,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-02-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-02-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-03-supported",
+    "response": "No. The range alone does not identify which boundary will break first [ta-range]. The evidence shows that a range does not guarantee a particular breakout direction. The calculator comparisons are not provided in the evidence.",
+    "generated_tokens": 42,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "ta-range"
+    ]
+  },
+  {
+    "id": "b010-03-irrelevant",
+    "response": "No. The range alone does not identify which boundary will break first. The evidence provided is irrelevant to the question. The exact supporting evidence ID is not applicable.",
+    "generated_tokens": 33,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-03-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-03-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-04-supported",
+    "response": "No, their conventional names are not necessarily identical. [dp05-upper-wick-context] states that an inverted hammer is discussed after a decline, while a shooting star is discussed after an advance. The shape alone is not sufficient to determine the name.",
+    "generated_tokens": 52,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-upper-wick-context"
+    ]
+  },
+  {
+    "id": "b010-04-irrelevant",
+    "response": "No. The conventional names of the two candles may differ based on their placement relative to price movements. The evidence provided is irrelevant to the question. No supporting evidence was found.",
+    "generated_tokens": 36,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-04-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-04-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-05-supported",
+    "response": "No. The fact that bands become narrower for eight bars does not guarantee a bullish breakout. [dp17-bollinger-squeeze] states that narrower bands indicate reduced dispersion but do not establish the direction of the next move. A breakout direction must be evaluated separately.",
+    "generated_tokens": 55,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp17-bollinger-squeeze"
+    ]
+  },
+  {
+    "id": "b010-05-irrelevant",
+    "response": "No. The evidence does not support the conclusion about breakout patterns. The provided evidence is unrelated to financial market analysis. The question and answer about offline signing devices are irrelevant to identifying bullish breakouts.",
+    "generated_tokens": 40,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-05-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-05-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-06-supported",
+    "response": "No. The planned stop losses may not be equal because the notional exposure depends on stop distance and costs [risk-budget]. The evidence shows that risk-at-stop is based on planned loss if the stop executes, but different stop distances can lead to different notional exposures.",
+    "generated_tokens": 55,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "risk-budget"
+    ]
+  },
+  {
+    "id": "b010-06-irrelevant",
+    "response": "No. The planned stop losses may not be equal as different stop distances can result in different loss exposures despite the same position size. [dp16-receive-offline] is irrelevant.",
+    "generated_tokens": 39,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-06-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-06-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-07-supported",
+    "response": "No. The underlying trade has not become more reliable. [risk-invalidation] The evidence shows moving a stop solely for a better ratio alters the setup and does not improve reliability. The calculator comparisons are not provided.",
+    "generated_tokens": 44,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "risk-invalidation"
+    ]
+  },
+  {
+    "id": "b010-07-irrelevant",
+    "response": "No. The evidence does not support or refute the reliability of the trade after moving a stop inside the setup invalidation to display 5R. [dp16-receive-offline] is irrelevant to the question. The provided evidence does not address trade reliability or stop order mechanics.",
+    "generated_tokens": 58,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-07-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-07-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-08-supported",
+    "response": "No, it cannot be presented as achievable net performance. The simulation omits spread and fees, which are critical costs that reduce real returns [paper-costs]. A simulation must include these costs to reflect achievable net performance.",
+    "generated_tokens": 45,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "paper-costs"
+    ]
+  },
+  {
+    "id": "b010-08-irrelevant",
+    "response": "No. The evidence does not support the claim about achievable net performance. The provided evidence is irrelevant to the question. The simulation's performance cannot be verified from the given information.",
+    "generated_tokens": 36,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-08-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-08-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-09-supported",
+    "response": "No. The evidence shows that high trading volume does not guarantee continuation or reveal trader intent [dp05-relative-volume]. The absolute volume also matters for execution capacity. A price constraint never guarantees execution, whether satisfied or not.",
+    "generated_tokens": 46,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-relative-volume"
+    ]
+  },
+  {
+    "id": "b010-09-irrelevant",
+    "response": "No. The evidence does not support this conclusion. The retrieved evidence is irrelevant to the question about token volume and investor arrivals. The question lacks direct evidence linking token volume to the number of real investors.",
+    "generated_tokens": 41,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-09-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-09-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-10-supported",
+    "response": "No. The evidence shows that a limit order can act as a taker if it is immediately executable [dp17-maker-taker]. A buy limit that crosses the available ask is considered a taker because it consumes existing liquidity. The maker/taker classification depends on execution behavior and venue rules.",
+    "generated_tokens": 61,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp17-maker-taker"
+    ]
+  },
+  {
+    "id": "b010-10-irrelevant",
+    "response": "No. The evidence does not establish whether a buy limit order receives a maker fee. The provided evidence is irrelevant to the question. The question lacks direct supporting evidence from the given set.",
+    "generated_tokens": 38,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-10-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-10-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-11-supported",
+    "response": "No. The simulator cannot guarantee an immediate fill exactly at the trigger during an exchange outage. [dp17-stop-no-guarantee] The evidence states that stop-market orders do not guarantee a timely fill under extreme market conditions like outages.",
+    "generated_tokens": 50,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp17-stop-no-guarantee"
+    ]
+  },
+  {
+    "id": "b010-11-irrelevant",
+    "response": "No. The simulator cannot guarantee an immediate fill exactly at the trigger during an exchange outage. [dp16-receive-offline] does not address this scenario. The evidence is insufficient to determine the simulator's behavior in this specific case.",
+    "generated_tokens": 49,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-11-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-11-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-12-supported",
+    "response": "No. The evidence shows that a tight spread does not guarantee cheap execution for a large order [dp17-spread-depth]. The average execution price depends on available quantities and deeper price levels, which are not captured by the best bid and ask alone. The calculator comparisons confirm that execution price varies with order size and market depth.",
+    "generated_tokens": 67,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp17-spread-depth"
+    ]
+  },
+  {
+    "id": "b010-12-irrelevant",
+    "response": "No. The evidence does not address execution price or quantity in trading venues. The provided evidence is irrelevant to the question. The question lacks information on price impact or order types.",
+    "generated_tokens": 36,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-12-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-12-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-13-supported",
+    "response": "No, large buy orders shown in a snapshot may no longer be present when a later trade arrives. The displayed book is a snapshot and can change as orders are matched, changed, or canceled [book-definition]. Calculator comparisons show that price constraints do not guarantee execution regardless of order presence.",
+    "generated_tokens": 58,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "book-definition"
+    ]
+  },
+  {
+    "id": "b010-13-irrelevant",
+    "response": "No. The presence of large buy orders in a snapshot does not guarantee they are still there when a later trade arrives. [dp16-receive-offline] does not support this claim and is irrelevant to order persistence. Evidence is insufficient to determine order persistence.",
+    "generated_tokens": 54,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-13-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-13-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-14-supported",
+    "response": "No, taking absolute values removes the distinction between the heavier sides. [book-absolute]",
+    "generated_tokens": 19,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "book-absolute"
+    ]
+  },
+  {
+    "id": "b010-14-irrelevant",
+    "response": "No. Taking absolute values removes the sign, making it impossible to distinguish their heavier sides. The evidence does not provide information about signed imbalances or their absolute values. [dp16-receive-offline] is irrelevant to this question.",
+    "generated_tokens": 49,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-14-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-14-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-15-supported",
+    "response": "No, equal naming does not guarantee equal values. [dp17-vwap-convention] specifies that the reset interval and calculation method must be defined, as different reset times will produce different values even if both are labeled VWAP. Calculator comparisons show that reset intervals directly affect the resulting VWAP value.",
+    "generated_tokens": 62,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp17-vwap-convention"
+    ]
+  },
+  {
+    "id": "b010-15-irrelevant",
+    "response": "No. Equal naming does not guarantee equal values. The evidence does not address dashboard functionality or VWAP calculations [dp16-receive-offline]. Calculator comparisons are not provided.",
+    "generated_tokens": 37,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-15-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-15-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-16-supported",
+    "response": "No, the period label alone is not sufficient to guarantee reproducible values. [dp05-rsi-definition] states that RSI requires specifying the price series, bar interval, lookback, gain/loss averaging method, initialization, and zero-loss handling. Different initialization methods can lead to different results despite the same period label.",
+    "generated_tokens": 67,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-rsi-definition"
+    ]
+  },
+  {
+    "id": "b010-16-irrelevant",
+    "response": "No. The period label alone is not sufficient to guarantee reproducible values. The evidence does not address the impact of different smoothing initializations on RSI14 calculations. The question remains unanswered by the provided evidence.",
+    "generated_tokens": 44,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-16-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-16-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-17-supported",
+    "response": "No. The evidence shows RSI above 70 does not guarantee an immediate reversal [rsi-extreme]. A rising market can sustain extreme RSI levels without a reversal. No direct evidence links RSI at 78 to a mechanical reversal requirement.",
+    "generated_tokens": 53,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "rsi-extreme"
+    ]
+  },
+  {
+    "id": "b010-17-irrelevant",
+    "response": "No. The evidence does not establish a mechanical requirement for reversal based on RSI levels. The provided evidence is irrelevant to the question. No supporting evidence was found in the retrieved data.",
+    "generated_tokens": 38,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-17-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-17-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-18-supported",
+    "response": "The balance of an exchange wallet does not demonstrate one wealthy investor buying. [dp07-exchange-holder] explains that an exchange address can custody assets for many customers and support operational transfers, so its balance is not necessarily one investor's conviction. Calculator comparisons show that exchange wallets often reflect aggregated user activity rather than individual transactions.",
+    "generated_tokens": 66,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp07-exchange-holder"
+    ]
+  },
+  {
+    "id": "b010-18-irrelevant",
+    "response": "No. The balance does not demonstrate one wealthy investor buying. The evidence [dp16-receive-offline] shows that a receiving address can be paid without the receiving device being online, but it does not provide data on the source or distribution of funds. The evidence does not establish the origin or concentration of funds.",
+    "generated_tokens": 65,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-18-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-18-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-19-supported",
+    "response": "No, the receipt token is not automatically recorded as a separate speculative purchase. The receipt token represents the depositor's position in the lending protocol and is connected to the underlying deposit, not an unrelated speculative purchase [dp07-receipt]. The precise redemption and accounting rules depend on the protocol.",
+    "generated_tokens": 60,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp07-receipt"
+    ]
+  },
+  {
+    "id": "b010-19-irrelevant",
+    "response": "No. The evidence does not establish a connection between lending deposits, receipt tokens, and speculative purchases. The provided evidence [dp16-receive-offline] is irrelevant to the question. There is no verified calculator comparison addressing this specific financial mechanism.",
+    "generated_tokens": 51,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-19-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-19-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-20-supported",
+    "response": "No, one contract call emitting four transfers does not establish four independent investment decisions. [dp07-transaction-actions] states that transfer events describe parts of operations within a single transaction and counting them as independent decisions can misrepresent the transaction. The evidence does not confirm or deny the independence of each transfer.",
+    "generated_tokens": 62,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp07-transaction-actions"
+    ]
+  },
+  {
+    "id": "b010-20-irrelevant",
+    "response": "No. The evidence does not establish four independent investment decisions. The provided evidence [dp16-receive-offline] is irrelevant to the question. The evidence does not mention investment decisions or contract calls.",
+    "generated_tokens": 42,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-20-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-20-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-21-supported",
+    "response": "No. The slogan \"fully backed\" does not establish safe redemption at par. [dp03-stablecoin-backing] states that asset backing requires evidence about reserves, custody, and redemption terms, and a claim of backing alone does not prove sufficient or accessible reserves.",
+    "generated_tokens": 56,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp03-stablecoin-backing"
+    ]
+  },
+  {
+    "id": "b010-21-irrelevant",
+    "response": "No. The slogan \"fully backed\" does not establish safe redemption at par. The evidence provided does not include any reserve or redemption proof. [dp16-receive-offline] is irrelevant to the question.",
+    "generated_tokens": 44,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-21-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-21-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-22-supported",
+    "response": "No. Public reading does not make validation permissionless. The evidence [dp03-permission-models] states that validation authority is a separate property from read access. Permissionless validation requires participants to join validation under public protocol rules, which is not guaranteed by public readability.",
+    "generated_tokens": 56,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp03-permission-models"
+    ]
+  },
+  {
+    "id": "b010-22-irrelevant",
+    "response": "No. Public reading does not make validation permissionless. The evidence shows that validation requires verification steps not available through mere public readability [dp16-receive-offline]. The exact comparison is not provided in the retrieved evidence.",
+    "generated_tokens": 46,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-22-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-22-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-23-supported",
+    "response": "No. A signature on message A does not verify message B. [dp16-signature-binding]",
+    "generated_tokens": 22,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-signature-binding"
+    ]
+  },
+  {
+    "id": "b010-23-irrelevant",
+    "response": "No. The verification of message A does not establish approval of message B. [dp16-receive-offline] does not address message alteration or reuse of verification. The evidence is insufficient to determine if verification of one message can be reused for another.",
+    "generated_tokens": 52,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-23-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-23-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-24-supported",
+    "response": "No. The evidence [dp16-receive-offline] states that a sender can broadcast a payment to a known valid address without the receiving device being online. The calculator comparisons are not applicable here. The exact supporting evidence ID is [dp16-receive-offline].",
+    "generated_tokens": 57,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-24-irrelevant",
+    "response": "No. The evidence does not establish a connection between a signing device's power state and the ability to broadcast to a known valid receiving address. [dp05-adx-direction] is irrelevant to this question. The exact supporting evidence is missing.",
+    "generated_tokens": 50,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-adx-direction"
+    ]
+  },
+  {
+    "id": "b010-24-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-24-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-25-supported",
+    "response": "No. The evidence shows that agreement among indicators does not automatically prove independent confirmation [dp17-selection-bias]. The calculator comparisons highlight that correlated indicators can repeat the same information. Trying many combinations risks selecting noise rather than a genuine edge.",
+    "generated_tokens": 49,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp17-selection-bias"
+    ]
+  },
+  {
+    "id": "b010-25-irrelevant",
+    "response": "No. The evidence does not support the claim about indicator agreement proving independent confirmation. The retrieved evidence [dp16-receive-offline] is irrelevant to the question about indicator combinations and confirmation. The question lacks evidence on indicator performance or validation methods.",
+    "generated_tokens": 51,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-25-missing",
+    "response": "No reviewed evidence is available for this request and source selection. Please provide the relevant passage.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_evidence",
+    "evidence_ids": []
+  },
+  {
+    "id": "b010-25-unidentified",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  }
+]

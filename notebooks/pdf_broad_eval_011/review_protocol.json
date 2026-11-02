@@ -1,0 +1,13 @@
+{
+  "purpose": "Evaluate trained010 under explicit scope gate and its training-time conditional prompt against identically prompted base.",
+  "cases": 100,
+  "model_invocations_per_model": 50,
+  "deterministic_routes_per_model": 50,
+  "independence": "Exposed development regression: reuses broad010 cases which informed SFT010. Not final acceptance.",
+  "decision_rule": "No promotion on these cases alone. Review all generated responses for supported conclusions, citation entailment, polarity and abstention. Report routes separately. Require zero severe fabrication or contradiction; compare with base before more fitting.",
+  "training_executed": false,
+  "production_approved": false,
+  "prompt_sha256": "7e3921916ade9897c8be17843c2bf627f075be2319614341d215ea27bf56e945",
+  "code_sha256": "ddaed6759b111787334418b8ed6f7251f247075f7996bafbedde3f6a97a1e6c7",
+  "rubric": "research/PDF_BROAD_010_RUBRICS.json; remains outside cloud inference"
+}

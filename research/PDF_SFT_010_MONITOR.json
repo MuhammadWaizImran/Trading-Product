@@ -1,0 +1,15 @@
+{
+  "stage": "downloaded_review_required",
+  "utc": "2026-09-29T08:27:37.759302+00:00",
+  "pid": 1660,
+  "job": "waizimran/crypto-qwen3-pdf-sft-010",
+  "local_model_execution": false,
+  "automatic_successor_training": false,
+  "destination": "C:\\Users\\DELL\\Downloads\\Billioniare\\results\\pdf_sft_010_v1",
+  "cloud_status": {
+    "stage": "completed_training_human_evaluation_pending",
+    "utc": "2026-09-29T08:25:07.176307+00:00"
+  },
+  "artifact_audit_exit_code": 0,
+  "semantic_review": "Required; automated audit cannot establish answer quality."
+}

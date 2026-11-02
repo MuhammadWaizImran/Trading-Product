@@ -1,0 +1,10 @@
+data/
+__pycache__/
+.venv/
+*.joblib
+integrations/.venv-tradingagents/
+integrations/TradingAgents/
+integrations/runtime/
+.env
+.env.*
+!.env.example

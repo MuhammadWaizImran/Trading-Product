@@ -1,0 +1,13 @@
+Private PDF-derived educational examples. Answers are adaptations, not verbatim source text.
+Crypto for Beginners: Technical Analysis Course — Crypto Wealth Academy.
+Risk Management — Elisa Crypto.
+Cryptocurrency Trading ebook — Binance Academy.
+Order Book Liquidity on Crypto Exchanges — Martin Angerer, Marius Gramlich and Michael Hanke, 2025.
+https://doi.org/10.3390/jrfm18030124 ; CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Questions and answers paraphrase selected concepts and add qualifications listed per example.
+No author endorsement is implied. Underlying CryptoTick data are not included.
+
+Additional source: Patrick Scott (Dynamo DeFi), Introduction to On-Chain Analysis v3, DP07. User-attested training permission. Paraphrased with corrections and qualifications; no endorsement.
+
+Additional source DP01: 01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf. User-attested private training permission. Paraphrased/qualified; no endorsement.
+World Bank. 2018. Cryptocurrencies and Blockchain. Europe and Central Asia Economic Update (May), Washington, DC: World Bank. CC BY 3.0 IGO, https://creativecommons.org/licenses/by/3.0/igo/. This is an adaptation of an original work by The World Bank. Views and opinions expressed in the adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The World Bank. No third-party chart images reproduced.

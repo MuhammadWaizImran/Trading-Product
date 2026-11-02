@@ -1,0 +1,515 @@
+{
+  "artifact_checks": "PASS",
+  "semantic_review": "pending; citation existence is not support",
+  "production_approved": false,
+  "batch": "014",
+  "gpu": "Tesla T4",
+  "counts": {
+    "train": 108,
+    "validation": 6,
+    "test": 50
+  },
+  "adapter_sha256": "c60113540197f6d5149f74d951450217c4a7cabc172ddffaf106cbaf61be0cb8",
+  "adapter_bytes": 87360584,
+  "adapted_reload_equal": true
+}
+
+CASE dp07-test-price-coverage An address has $900 in directly held tokens and a separate $600 protocol deposit. A tool displays only direct tokens. Is $900 necessarily the complete portfolio?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, $900 is not necessarily the complete portfolio.",
+  "evidence_id": "dp07-balance-coverage"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, because the tool may not include protocol deposits.", "evidence_id": "dp07-balance-coverage"}
+
+CASE dp07-test-holders An exchange address holds a token for 400 customers, and another person uses five addresses. Can address counts alone recover the number of investors?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, address counts alone cannot recover the number of investors.",
+  "evidence_id": "corr-address-entity-two-way"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, address counts alone cannot recover the number of investors.", "evidence_id": "corr-address-entity-two-way"}
+
+CASE dp07-test-counterparty An investigator observes that a fund sent tokens to a service's address. Does that single observation prove the service owns the fund's remaining wallets?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The observation that a fund sent tokens to a service's address does not necessarily prove that the service owns the fund's remaining wallets. The evidence does not provide a direct link between the fund's actions and ownership of the wallets, nor does it establish a causal relationship or ownership claim.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The observation that a fund sent tokens to a service's address does not prove the service owns the fund's remaining wallets. The evidence does not directly address the ownership of the fund's remaining wallets, and the question's premise is not supported by the provided evidence.", "evidence_id": null}
+
+CASE dp07-test-prices A fund acquired 200 tokens for $0.50 each; the public price is now $5. Does buying the same number now reproduce its acquisition cost?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, buying the same number of tokens now does not reproduce its acquisition cost.",
+  "evidence_id": "dp07-seed-price"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, buying the same number now does not reproduce its acquisition cost.", "evidence_id": "dp07-seed-price"}
+
+CASE test-depth-impact Two venues show the same best ask. Does that imply the same cost for a large buy?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The evidence does not provide sufficient information to determine if the same best ask implies the same cost for a large buy.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No. A large buy may consume liquidity at successively higher ask prices, which can increase the average execution price beyond the initial quote.", "evidence_id": "market-order"}
+
+CASE test-imbalance-sign Using the paper's convention, what does NOBI = -0.2 indicate?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "NOBI = -0.2 indicates more bid-side depth than ask-side depth under the paper's convention.",
+  "evidence_id": "book-imbalance"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "NOBI = -0.2 indicates more bid-side depth than ask-side depth under this paper's convention.", "evidence_id": "book-imbalance"}
+
+CASE test-reward-probability A setup offers 4R potential reward for 1R risk. Does that tell us its actual success probability?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the 4R potential reward for 1R risk does not tell us the actual success probability.",
+  "evidence_id": "corr-reward-ev"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the payoff ratio does not reveal the actual win probability.", "evidence_id": "corr-reward-ev"}
+
+CASE test-overbought RSI is 82 while a coin keeps rising. Is that logically inconsistent with the indicator?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, it is not logically inconsistent with the indicator.",
+  "evidence_id": "rsi-extreme"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "Yes, it is logically inconsistent with the indicator. RSI above 70 is considered overbought, but it can remain extreme while the trend continues. This means that the RSI reading is not a certain reversal signal, but rather one piece of evidence. The RSI reading is not a guarantee of a reversal, but it can be used as one piece of evidence to support the idea that the trend may continue. Therefore, the RSI reading is not logically inconsistent with the indicator. The RSI reading is not a guarantee of a reversal, but it can be used as one piece of evidence to support the idea that the trend may continue. Therefore, the RSI reading is not logically inconsistent with the indicator.", "evidence_id": "rsi-extreme"}
+
+CASE dp01-retry-test-layer-capacity A report gives a Bitcoin throughput number without stating transaction size, batching, protocol version, or whether it means the base layer. Is that enough for a current capacity comparison?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The report's Bitcoin throughput number is not sufficient for a current capacity comparison because it lacks critical details such as transaction size, batching, protocol version, and whether it refers to the base layer. These factors are essential for accurate and meaningful comparisons.",
+  "evidence_id": "dp01-capacity-date"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the report's Bitcoin throughput number is not enough for a current capacity comparison because it lacks details about transaction size, batching, protocol version, and whether it refers to the base layer. These factors are crucial for accurate comparisons.", "evidence_id": "dp01-capacity-date"}
+
+CASE dp01-retry-test-cold-storage Keys are kept offline, but the only backup is destroyed. Did cold storage eliminate the risk of permanent loss?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, cold storage did not eliminate the risk of permanent loss.",
+  "evidence_id": "dp01-hot-cold"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, cold storage does not eliminate the risk of permanent loss. The only backup is destroyed, which removes a recovery path. If every usable key and recovery method is gone, access may be unrecoverable under the wallet's actual design.", "evidence_id": "dp10-backup-versus-original"}
+
+CASE dp01-retry-test-token-rights A project token trades on an exchange and helped finance development. Does that alone prove its holder has the legal rights of a shareholder?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the fact that a project token trades on an exchange and helped finance development does not alone prove its holder has the legal rights of a shareholder.",
+  "evidence_id": "dp01-token-share"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, because the token's contract, governance rules, and applicable law define the holder's rights, not the token's trading or fundraising behavior.", "evidence_id": "dp01-token-share"}
+
+CASE dp01-retry-test-correlation Countries with stronger institutions show more exchange activity in a cross-sectional chart. Can that chart alone prove institutions caused the activity?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The chart alone cannot prove that institutions caused the exchange activity, as other factors could explain the correlation.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the chart alone cannot prove institutions caused the activity.", "evidence_id": "dp01-correlation"}
+
+CASE dp03-retry-test-permission-properties A ledger publishes its source code but allows only approved institutions to validate transactions. Does open-source code alone make validation permissionless?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, open-source code alone does not make validation permissionless.",
+  "evidence_id": "dp03-permission-models"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, open-source code alone does not make validation permissionless.", "evidence_id": "dp03-permission-models"}
+
+CASE dp03-retry-test-trust-model A payment protocol has no central clearing bank. Does that fact alone prove users rely on nobody and nothing?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the fact that a payment protocol has no central clearing bank does not alone prove users rely on nobody and nothing.",
+  "evidence_id": "dp03-remove-all-trust"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, because users may still rely on software, key custody, exchanges, miners or validators, governance, and external information.", "evidence_id": "dp03-remove-all-trust"}
+
+CASE dp03-retry-test-dated-usage The report lists coin prices, address counts, and merchant acceptance around 2018?2019. May those numbers be used as current market facts without verification?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The numbers from the report cannot be used as current market facts without verification because they are historical evidence only and require current sources and methodology.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the report's numbers are historical evidence only and require current verification.", "evidence_id": "dp03-historical-market-numbers"}
+
+CASE dp03-retry-test-cbdc-architecture If a project is called a retail CBDC, does that label tell us it must use a public blockchain and anonymous token accounts?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the label 'retail CBDC' does not necessarily indicate that it must use a public blockchain and anonymous token accounts. The label primarily refers to the accessibility of the CBDC, not its technical design or features such as blockchain type or account anonymity.",
+  "evidence_id": "dp03-retail-wholesale-cbdc"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the label 'retail CBDC' does not tell us it must use a public blockchain and anonymous token accounts. The label only indicates the target audience, not the technical design. The text says, 'Either category can have different technical and access designs, so the label does not determine whether it is token-based, account-based, centralized, or distributed.'", "evidence_id": "dp03-retail-wholesale-cbdc"}
+
+CASE dp04-test-chart-current A reserve-composition chart ends in 2014. Can it answer which currency has the second-largest reserve share in 2026?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The reserve-composition chart ending in 2014 cannot answer which currency has the second-largest reserve share in 2026, as it does not provide data beyond 2014 and requires a recent dataset for current reserve shares.",
+  "evidence_id": "dp04-reserve-chart-date"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The chart ends in 2014, so it cannot answer the question about 2026.", "evidence_id": null}
+
+CASE dp04-test-signing Who normally creates the digital signature authorizing a Bitcoin spend: the miner or the spender controlling the relevant key?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "The spender controlling the relevant key normally creates the digital signature authorizing a Bitcoin spend.",
+  "evidence_id": "dp16-signature-roles"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "The spender controlling the relevant key creates the digital signature authorizing a Bitcoin spend.", "evidence_id": "dp16-signature-roles"}
+
+CASE dp04-test-adoption A payment app is faster in a laboratory demonstration. Does that prove nationwide adoption?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The evidence does not support that a faster payment app in a laboratory demonstration proves nationwide adoption. The passage explains that technical advantages in a controlled environment do not necessarily translate to widespread adoption, as factors like user base, merchant support, and regulatory environment play crucial roles.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The evidence does not identify a document that directly addresses the question. The passage discusses disruption, network effects, volatility, and bank runs, but none of these directly address the question of whether a faster payment app in a laboratory demonstration proves nationwide adoption. The passage does not provide evidence about the relationship between laboratory demonstrations and nationwide adoption.", "evidence_id": null}
+
+CASE dp04-test-trust A transaction settles without a commercial bank. Does that prove the exchange contains no trust or governance assumptions?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the exchange may still contain trust or governance assumptions.",
+  "evidence_id": "dp03-remove-all-trust"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the exchange may still contain trust or governance assumptions.", "evidence_id": "dp03-remove-all-trust"}
+
+CASE dp05-expanded-test-sma The last three completed closes are 12, 15 and 18. What is their three-period SMA, and may tomorrow's unknown close be included?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "The three-period SMA is (12 + 15 + 18) / 3 = 15. Tomorrow's unknown close may not be included as it is a future close and the definition specifies not to include future closes.",
+  "evidence_id": "dp05-sma-definition"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "The three-period SMA is 15. Tomorrow's unknown close may not be included.", "evidence_id": "dp05-sma-definition"}
+
+CASE dp05-expanded-test-triangle A consolidation has nearly flat highs and rising lows. What triangle geometry does that resemble, and is the next breakout direction certain?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "The consolidation resembles an ascending triangle, and the next breakout direction is not certain.",
+  "evidence_id": "dp05-triangles"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "The consolidation resembles an ascending triangle, and the next breakout direction is not certain.", "evidence_id": "dp05-triangles"}
+
+CASE dp05-expanded-test-doji A candle opens at 100 and closes at 100. Can this alone justify a 90% reversal probability?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The evidence does not provide a basis for determining a 90% reversal probability based on a candle opening and closing at the same price.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The candle's open and close prices are equal, but this alone does not establish a reversal probability. The evidence does not specify how to calculate reversal probability, nor does it define the conditions under which a reversal is justified. The candle's open and close prices are not sufficient to determine reversal probability.", "evidence_id": null}
+
+CASE dp05-expanded-test-sample A tutorial displays five successful chart patterns and no failures. Is five out of five a valid general estimate of the strategy's success rate?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, five out of five is not a valid general estimate of the strategy's success rate because the evidence indicates that the strategy's outcomes must be evaluated without hindsight and failures must be recorded to provide a complete assessment.",
+  "evidence_id": "dp05-pattern-evidence"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, five out of five is not a valid general estimate of the strategy's success rate. The evidence shows that the tutorial's five successful chart patterns are not a complete sampling procedure, and the strategy needs reproducible rules and timestamped examples evaluated without hindsight. The evidence also states that the selection uses a successful outcome already known to the researcher, which can overrepresent lucky or surviving winners and hide comparable failures. The evidence further explains that the strategy needs to define the pattern using information available at the observation time and evaluate subsequent outcomes separately, without labeling it successful using future prices.", "evidence_id": "dp05-pattern-evidence"}
+
+CASE dp10-test-payoff With fixed +3R wins and -1R losses, what is cost-free break-even and can actual win probability be inferred from that ratio?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "With fixed +3R wins and -1R losses, the cost-free break-even is 25%. However, the actual win probability cannot be inferred from that ratio.",
+  "evidence_id": "risk-breakeven"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "With fixed +3R wins and -1R losses, the cost-free break-even is 1 / (1 + 3) = 25%. The payoff ratio does not reveal the actual win probability.", "evidence_id": "risk-breakeven"}
+
+CASE dp10-test-stop A long enters at 70 and later exits exactly at 70 after a trailing stop triggers. Is this a positive gross price return?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, this is not a positive gross price return.",
+  "evidence_id": "dp10-trailing-breakeven"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, because the exit at the same price as the entry results in break-even before costs, and the trailing stop does not guarantee execution there or preserve profit after costs.", "evidence_id": "dp10-trailing-breakeven"}
+
+CASE dp10-test-leverage In a simplified financed purchase, equity is USD 250 and borrowing is USD 750. What is total exposure divided by equity?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "Total exposure divided by equity is 10.",
+  "evidence_id": "dp10-leverage-definition"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "10", "evidence_id": "dp10-leverage-definition"}
+
+CASE dp10-test-wallet-scope An offline key remains available, but one backup was damaged. Does that evidence establish both permanent inaccessibility and zero future risk?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The evidence does not establish both permanent inaccessibility and zero future risk. The loss of one backup does not necessarily mean permanent inaccessibility, as the original key may still be available. Additionally, the risk of future events, such as further damage or loss, is not eliminated.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the evidence does not establish both permanent inaccessibility and zero future risk. The evidence states that losing a backup removes a recovery path, but does not itself destroy a still-usable original key. If every usable key and recovery method is gone, access may be unrecoverable under the wallet's actual design. State which items remain available instead of treating every lost backup as immediate loss of funds.", "evidence_id": "dp10-backup-versus-original"}
+
+CASE dp17-expanded-test-spread A synchronized book has highest bid 99 and lowest ask 101. What is the quoted spread, and does it reveal depth?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "The quoted spread is 2 (101 - 99). The spread does not directly reveal depth, as depth refers to the available quantities at different price levels, which is not captured by the spread alone.",
+  "evidence_id": "dp17-spread-definition"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "The quoted spread is 2. It does not reveal depth.", "evidence_id": "dp17-spread-definition"}
+
+CASE dp17-expanded-test-vwap Two included trades execute 2 units at price 10 and 1 unit at price 16. What is their trade-volume VWAP?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The evidence does not provide the necessary information to calculate the trade-volume VWAP for the given trades.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The evidence does not provide the necessary information to calculate the trade-volume VWAP.", "evidence_id": null}
+
+CASE dp17-expanded-test-stochscale Two charts display StochRSI as 0.85 and 85. Must they disagree?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The evidence does not provide enough information to determine whether the two charts displaying StochRSI as 0.85 and 85 must disagree.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= True
+{"status": "insufficient", "answer": "The evidence does not identify the charts or their scale. The question requires a comparison of two charts, but the evidence does not specify the charts or their scale. The evidence only describes the StochRSI calculation and its scale conventions. The question is about whether two charts must disagree, but the evidence does not identify the charts or their scale. The evidence does not specify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts or their scale. The evidence does not identify the charts
+
+CASE dp17-expanded-test-overfit After testing 200 indicator variants, one wins on the same historical period used to choose it. Is that period an untouched final test?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the period is not an untouched final test.",
+  "evidence_id": "dp17-selection-bias"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the period is not an untouched final test.", "evidence_id": "dp17-selection-bias"}
+
+CASE dp16-test-message-change A signature verifies for message A. Does that alone prove it verifies for a different message B?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, a signature that verifies for message A does not alone prove it verifies for a different message B.",
+  "evidence_id": "dp16-signature-binding"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, a signature for message A does not prove it verifies for message B. A signature scheme binds verification to the signed message and public key. A valid signature for one message is not a general authorization for another message.", "evidence_id": "dp16-signature-binding"}
+
+CASE dp16-test-availability A storage system prevents outsiders from signing but also leaves its owner unable to access any keys. Has it met all three custody goals?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the storage system has not met all three custody goals because it prevents outsiders from signing but leaves its owner unable to access any keys, which compromises availability and potentially security.",
+  "evidence_id": "dp16-key-management-goals"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the storage system has not met all three custody goals. The system prevents outsiders from signing, which satisfies the security goal, but it leaves its owner unable to access any keys, which violates the availability goal. The convenience goal is not addressed in the passage.", "evidence_id": "dp16-key-management-goals"}
+
+CASE dp16-test-offline-receipt A valid receiving address is known and its signing device is powered off. Must the sender wait for that device before broadcasting a payment?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the sender does not need to wait for the receiving device to be powered on before broadcasting a payment.",
+  "evidence_id": "dp16-receive-offline"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the sender does not need to wait for the device to be powered on before broadcasting a payment. The sender can broadcast the payment to the known valid address through the network without the receiving signing device being online.", "evidence_id": "dp16-receive-offline"}
+
+CASE dp16-test-example-secret Is a phrase printed as a textbook wallet example suitable as a secret just because it looks random?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, a phrase printed as a textbook wallet example is not suitable as a secret just because it looks random.",
+  "evidence_id": "dp16-guessable-passphrases"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, a phrase printed as a textbook wallet example is not suitable as a secret just because it looks random. The phrase may be guessable, and it is not a personal wallet setup recommendation.", "evidence_id": "dp16-guessable-passphrases"}
+
+CASE r009-unknown-normalization An unnamed report uses a relative-spread measure. Is its denominator definitely the midpoint?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "Yes, the denominator in the relative-spread measure is definitely the midpoint.",
+  "evidence_id": "relative-spread"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "Yes, the denominator is the midpoint.", "evidence_id": "relative-spread"}
+
+CASE r009-unknown-average I have not identified the article. Does its VWAP definitely average resting order-book levels?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The evidence does not confirm that the VWAP definitely averages resting order-book levels.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The article does not identify the article. The passage does not specify whether the VWAP averages resting order-book levels.", "evidence_id": null}
+
+CASE r009-unknown-survey Someone mentioned a survey without its title. Can you establish that it sampled exactly 1000 people per country?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "Yes, the survey sampled exactly 1000 people per country.",
+  "evidence_id": "dp03-conjoint-design"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "Yes, the survey sampled exactly 1000 people per country.", "evidence_id": "dp03-conjoint-design"}
+
+CASE r009-known-chart For the supplied dp04-reserve-chart-date passage, what year ends the historical series?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "2014",
+  "evidence_id": "dp04-reserve-chart-date"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "2014", "evidence_id": "dp04-reserve-chart-date"}
+
+CASE r009-ownership-evidence Wallet X pays wallet Y for a service. Is that transfer alone proof that Y owns all other addresses belonging to X?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The transfer alone is not sufficient proof that Y owns all other addresses belonging to X.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The transfer alone does not prove that Y owns all other addresses belonging to X. The transfer shows a relationship, but common ownership requires additional evidence.", "evidence_id": "dp07-links"}
+
+CASE r009-signature-title A person produces a valid signature using a stolen key. Does validity alone prove lawful ownership?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, validity alone does not prove lawful ownership.",
+  "evidence_id": "dp16-signature-roles"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, validity alone does not prove lawful ownership.", "evidence_id": "dp16-signature-roles"}
+
+CASE r009-sell-direction A sell limit is 240. Does the price rule permit an execution at 235, and does it guarantee any execution?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the price rule does not permit an execution at 235, and it does not guarantee any execution.",
+  "evidence_id": "limit-order"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the price rule does not permit an execution at 235, and it does not guarantee any execution. A sell limit constrains execution to the limit price or higher. This controls price but does not guarantee execution. The order may remain unfilled or only partly filled.", "evidence_id": "limit-order"}
+
+CASE r009-missing-study A tutorial shows eight winners only. Which missing evidence prevents treating 8/8 as a general strategy success rate?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "The missing evidence is a complete sampling procedure, failures, transaction costs, and out-of-sample results, which are necessary to evaluate the general strategy success rate beyond the eight winners shown.",
+  "evidence_id": "dp05-pattern-evidence"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "The missing evidence is a reproducible sampling procedure, failures, transaction costs, or out-of-sample results. The passage states that a strategy needs these to be evaluated without hindsight.", "evidence_id": "dp05-pattern-evidence"}
+
+CASE r010-probe-2-supported A recipient keeps its signing hardware in storage. May a sender broadcast to the recipient's verified existing address without turning that hardware on?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "Yes, a sender can broadcast to the recipient's verified existing address without turning that hardware on.",
+  "evidence_id": "dp16-receive-offline"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "Yes, a sender can broadcast to the recipient's verified existing address without turning that hardware on.", "evidence_id": "dp16-receive-offline"}
+
+CASE r010-probe-2-irrelevant A recipient keeps its signing hardware in storage. May a sender broadcast to the recipient's verified existing address without turning that hardware on?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The evidence does not provide sufficient information to determine whether a sender can broadcast to the recipient's verified existing address without turning on the signing hardware.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The evidence does not address the question.", "evidence_id": null}
+
+CASE r010-probe-4-supported A dashboard omits its VWAP anchor and included observations. Is its calculation fully specified?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, the calculation is not fully specified because the dashboard omits the VWAP anchor and included observations, which are essential components for a complete specification.",
+  "evidence_id": "dp17-vwap-convention"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, the dashboard's calculation is not fully specified. The VWAP calculation requires the interval or reset anchor, included trades or bar-price approximation, price units, and volume units. The dashboard omits these details, making the calculation incomplete.", "evidence_id": "dp17-vwap-convention"}
+
+CASE r010-probe-4-irrelevant A dashboard omits its VWAP anchor and included observations. Is its calculation fully specified?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The calculation is not fully specified.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The dashboard's calculation is not fully specified. The evidence does not address the dashboard's calculation or its omission of the VWAP anchor and observations.", "evidence_id": null}
+
+CASE r010-probe-6-supported An analyst treats ADX as a direct label for upward versus downward movement. Is that the distinction measured by ADX?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "supported",
+  "answer": "No, ADX does not measure the distinction between upward and downward movement directly. ADX measures trend strength, while directional indicators such as +DI and -DI provide information about the direction of the trend.",
+  "evidence_id": "dp05-adx-direction"
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "supported", "answer": "No, ADX does not measure the distinction between upward and downward movement. ADX measures trend strength, not direction. Directional indicators such as +DI and -DI provide separate information about direction.", "evidence_id": "dp05-adx-direction"}
+
+CASE r010-probe-6-irrelevant An analyst treats ADX as a direct label for upward versus downward movement. Is that the distinction measured by ADX?
+baseline unrecognized_citations= [] limit= False
+{
+  "status": "insufficient",
+  "answer": "The provided evidence does not address the question about ADX and its distinction between upward and downward movement.",
+  "evidence_id": null
+}
+adapted unrecognized_citations= [] limit= False
+{"status": "insufficient", "answer": "The question is unrelated to the evidence.", "evidence_id": null}

@@ -1,0 +1,35 @@
+# Smaller-coin review — 2026-09-24
+
+User objective: research beyond BTC/ETH/SOL for a 10-to-100 USD month. This requires 900% net return, or 7.9775% compounded net daily over 30 days. No evidence found establishes a dependable path or a coin with that expected return. No orders or model training performed.
+
+Screen: public Binance USDT futures rolling tickers, retain >=50 million USDT turnover and inspect gainers. This is a momentum-biased shortlist, not a valuation screen or an exhaustive small-cap universe. Non-crypto contracts seen in the broad ticker response (including equity and commodity underlyings) were excluded from further consideration. Selected NOM, LSK, NIL and ZRO for deeper checks; other screened names were not fully reviewed. A low unit price does not establish a small market cap or undervaluation.
+
+Retained snapshot `public_snapshot.json`, indicator summary `summary.json`, retrieved 06:31:06 UTC / 11:31 Pakistan time. Twelve series, 250 candles each, three intervals per asset (1h/4h/1d); interval continuity and OHLC bounds checked. Latest closed 1h bar ends 05:59:59 UTC. Same deterministic formulas as `scripts/public_market_review.py`; no fitting/backtest. Indicators exclude forming candles.
+
+| Coin | Price USDT | 24h change | Futures turnover USDT | 1h RSI | 4h RSI | Snapshot spread, basis points |
+|---|---:|---:|---:|---:|---:|---:|
+| NOM | .002726 | +56.039% | 94.85m | 77.00 | 84.58 | 7.32 |
+| LSK | .399410 | +27.144% | 185.84m | 67.69 | 50.94 | .25 |
+| NIL | .125790 | +12.705% | 463.36m | 73.86 | 83.17 | 4.76 |
+| ZRO | 1.527900 | +6.348% | 157.34m | 55.61 | 76.91 | .65 |
+
+These are futures prices/turnover, not spot volume or available executable depth. A snapshot spread is not a guarantee of future liquidity. No depth-based slippage simulation was completed. Smaller relative to BTC/ETH is not a claim that all four meet a fixed small-cap definition.
+
+## Project findings and contrary evidence
+
+- **NOM (Nomina, not similarly named NOM projects):** [Binance completed OMNI migration](https://www.binance.com/en/support/announcement/detail/5838bf69f36b4838b5c5fdebc0969b95); [official rebrand](https://www.nomina.io/blog/omni-is-rebranding) specifies the new token and launch supply, not today's circulating supply. [Latest Ethereum consolidation update](https://www.nomina.io/blog/consolidating-on-ethereum-the-next-chapter-for-nom) must supersede older network assumptions. No verified new catalyst explains the day's rally in this review. High RSI and strong expansion mean late-entry/reversal risk, not a certain short signal. Deprioritize chasing.
+- **LSK:** [Official new-Lisk announcement](https://lisk.com/blog/posts/introducing-the-new-lisk/) says Lisk Chain closes October 31, 2026, with a business pivot and a loyalty-token role. That is a material change to any old L2 investment thesis, not merely a bullish price catalyst. The futures daily history has a very large recent range (20-day high 2.3705 versus low .09937); anomaly/cross-venue review remains necessary before trusting long-period volatility for sizing. Deprioritize for this novice-sized experiment. Do not treat governance proposals as executed burns without onchain confirmation.
+- **NIL:** [Official encrypted-markets roadmap](https://nillion.com/news/the-road-to-encrypted-markets/) provides product context; roadmap plans do not prove realized adoption or cash flow. [Official updates index](https://nillion.com/news/) records migration and changes in 2026, so 2024/2025 utility descriptions alone are insufficient. Current unlocks and revenue have not been independently reconciled. The price is roughly 15.9% below its intraday .1495 high despite a positive rolling return; daily RSI approximately 89.57. Deprioritize chasing the expansion.
+- **ZRO:** [Official token discussion](https://layerzero.network/blog/the-zro-token) describes interoperability, buybacks and continuing vesting. Buyback activity is a potentially constructive demand mechanism; it does not remove supply overhang. Its unlocked/sales numbers are dated and issuer-reported, not September 24 onchain verification. [DeFiLlama unlock tracker](https://defillama.com/unlocks/layerzero) and [CoinGecko](https://www.coingecko.com/en/coins/layerzero) supply independent reference points, but retrieved supplies/prices differ in date/definition. Do not merge unlocked supply with circulating supply or assert an exact future unlock from inconsistent cached displays. CoinGecko's retrieved market cap around $548m indicates a materially smaller asset than BTC, not a microcap with demonstrated 10x potential.
+
+## Watchlist decision
+
+Additional catalyst check: Nillion's official encrypted-markets roadmap explicitly schedules Dusk on Ethereum mainnet for **September 28, 2026**. This is a concrete issuer-announced near-term event worth watching, not verified completed deployment or evidence that it caused the rally. NIL therefore merits an event watchlist despite failing the current chase-entry screen. Delay, execution failure and sell-the-news reactions are competing scenarios. Verify the announcement remains in force and the deployment actually occurs; do not assume the event generates a positive return.
+
+**ZRO is the first candidate for further paper observation among these four; none is approved for an immediate real-money trade or a 10x monthly thesis.** Rationale: tighter observed spread and less extended 1h RSI than NOM/NIL, while LSK has a material thesis transition. This is a comparative research judgment, not a validated edge. ZRO's 4h/daily RSI near 77/79 still indicates substantial recent extension.
+
+ZRO 1h EMA20=1.5023, EMA50=1.4155, ATR14=.06314; latest hour's volume only .47 times its prior 20-bar mean. Recent closed-bar support roughly 1.4945–1.495 and broader range low 1.3718; nearby resistance 1.5685–1.5883 and 1.627. These are observed reference levels, not automatic entries/stops. Watch for a closed-bar reclaim and retest of resistance or a held support test, then recalculate reward/risk, spread and costs. No trigger is active and no probability of success has been established.
+
+Sizing constraint: at 1.50 entry and .07 stop distance, risking .10 USDT implies 1.4286 ZRO before costs; rounding down to .1 quantity steps gives 1.4 ZRO / 2.10 USDT notional, below the returned 5 USDT minimum. Meeting the minimum requires 3.4 ZRO / 5.10 USDT and .238 USDT price risk before costs (2.38% of a 10 USDT account). Increasing leverage does not reduce this price risk at the same quantity. This illustration is not an entry recommendation.
+
+The latest funding-rate fields were +.005% for NOM/NIL/ZRO and -.064399% for LSK; do not annualize or infer price direction without checking settlement intervals and history. User-specific commission rates, liquidation parameters, fresh unlock/event verification and depth remain outstanding. No precise TP/SL is promoted until a new price trigger supplies a coherent setup. No automatic monitoring is running. Recompute all market data before any subsequent assessment.

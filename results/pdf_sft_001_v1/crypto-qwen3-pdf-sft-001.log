@@ -1,0 +1,42 @@
+[{"stream_name":"stderr","time":7.61724568,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.6172911800000005,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.617311992,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.617316253,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.244350905,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.244379052,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.244388751,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.244391505,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.382779999,"data":"cloud_preflight\n"}
+,{"stream_name":"stdout","time":14.736600149000001,"data":"installing_dependencies\n"}
+,{"stream_name":"stdout","time":17.211948581,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":17.413920575,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.375297694,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 67.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.415657776,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 32.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.453426936,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 27.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.577540225,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 67.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.577577618,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 32.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":18.577586682,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 27.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.388961771,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 26.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.430115655,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 34.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.591231538,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 26.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":19.591286673,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 34.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":65.756474209,"data":"loading_model\n"}
+,{"stream_name":"stderr","time":67.830582256,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":67.830656358,"data":"\n"}
+,{"stream_name":"stderr","time":67.83067221,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stdout","time":186.054303379,"data":"baseline_evaluation\n"}
+,{"stream_name":"stderr","time":186.056849044,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":186.056882076,"data":"\n"}
+,{"stream_name":"stderr","time":186.056889123,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":296.801565805,"data":"training_pdf_examples\n"}
+,{"stream_name":"stdout","time":383.019059354,"data":"adapter_evaluation\n"}
+,{"stream_name":"stdout","time":593.49423627,"data":"completed_training_human_evaluation_pending\n"}
+,{"stream_name":"stderr","time":599.532066686,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":599.532128683,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":599.712211666,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":599.712252027,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":600.333456142,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":600.665880354,"data":"[NbConvertApp] Writing 223284 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":603.069830264,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":603.99891792,"data":"[NbConvertApp] Writing 502919 bytes to __results__.html\n"}
+]

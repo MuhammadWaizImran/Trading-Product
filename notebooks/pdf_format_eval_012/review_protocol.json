@@ -1,0 +1,15 @@
+{
+  "purpose": "Test whether embedded evidence questions and leading yes/no anchors contribute to polarity and source errors.",
+  "cases": 12,
+  "generations": 24,
+  "models": [
+    "base",
+    "adapter010"
+  ],
+  "manipulation": "Combined representation ablation: remove evidence question, rename answer to text, remove initial Yes./No. only. No new facts or answer targets supplied.",
+  "limits": "Six selected failure scenarios, two correlated variants each. Exposed development diagnostic, not independent acceptance. Cannot isolate which of the three formatting changes caused an effect.",
+  "decision": "Read all outputs. Compare correctness, contradiction, unsupported details and evidence relevance. If failures remain, do not repeat identical fine-tuning. No promotion from this diagnostic alone.",
+  "training_executed": false,
+  "production_approved": false,
+  "code_sha256": "7d0ca9f1cbb3f8c5f12534b7eec68a9486f6c352cca9c016d25e8ce8844004d8"
+}

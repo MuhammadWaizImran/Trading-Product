@@ -1,0 +1,140 @@
+[
+  {
+    "id": "r009-unknown-normalization",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-unknown-average",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-unknown-survey",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-known-chart",
+    "response": "The historical series in the dp04-reserve-chart-date passage ends in 2014. The chart reflects historical context and does not include current data. To understand today's composition of global foreign-exchange reserves, a recent IMF or other authoritative dataset with matching definitions would be required. The chart's end year is 2014, as stated in the provided evidence.",
+    "generated_tokens": 79,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp04-reserve-chart-date"
+    ]
+  },
+  {
+    "id": "r009-ownership-evidence",
+    "response": "No, a single transfer from Wallet X to Wallet Y does not prove that Y owns all other addresses belonging to X. Transfers only show a relationship, which could arise from payments, services, or custody, not necessarily shared ownership [dp07-links]. Common ownership requires additional evidence beyond observed links [dp07-links].",
+    "generated_tokens": 67,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp07-links",
+      "dp07-seed-price"
+    ]
+  },
+  {
+    "id": "r009-signature-title",
+    "response": "No, validity alone does not prove lawful ownership. A valid signature, while mathematically correct, does not establish legal identity or ownership. The signing key's secrecy is required for authorization, but verification only confirms the signature's authenticity, not the signer's legal status. Legal ownership requires additional proof, such as registration or documentation, beyond cryptographic validity [dp16-signature-roles].",
+    "generated_tokens": 79,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-signature-roles"
+    ]
+  },
+  {
+    "id": "r009-sell-direction",
+    "response": "A sell limit order at 240 means the trader is willing to sell only at 240 or higher. A hypothetical fill at 235 violates this constraint because 235 is below the limit price of 240. The price rule does not permit execution at 235. Furthermore, a limit order does not guarantee execution; it may remain unfilled or only partially filled depending on market conditions [limit-order].",
+    "generated_tokens": 93,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "r009-missing-study",
+    "response": "The missing evidence includes a reproducible strategy definition, a complete sampling procedure, failure cases, transaction costs, and out-of-sample results. The tutorial's 8/8 winners lack these elements, making it impossible to generalize the success rate. Without timestamped examples evaluated without hindsight, the 8/8 record cannot be treated as a valid strategy success rate. [dp05-pattern-evidence]",
+    "generated_tokens": 81,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-pattern-evidence"
+    ]
+  },
+  {
+    "id": "t008-sell-240-245",
+    "response": "A sell limit at 240 means the order will only execute at 240 or higher. A fill at 245 satisfies the gross price constraint because 245 is greater than or equal to 240. However, execution is not guaranteed. The order may still remain unfilled or only partially filled, as limit orders do not ensure execution [limit-order].",
+    "generated_tokens": 81,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "t008-buy-240-235",
+    "response": "A buy limit order with a limit price of 240 allows execution at 235, satisfying the gross price constraint since 235 \u2264 240 [limit-order]. However, execution is not guaranteed. The order may remain unfilled or only partially filled, as limit orders do not ensure execution despite meeting the price constraint [limit-order].",
+    "generated_tokens": 75,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "t008-buy-240-245",
+    "response": "A buy limit order with a limit price of 240 constrains execution to **fill <= limit**, meaning the fill price must be **at or below** 240. A hypothetical fill at 245 **does not satisfy** the gross price constraint because 245 > 240. Execution is **not guaranteed** with limit orders, as they may remain unfilled or only partially filled depending on market conditions [limit-order].",
+    "generated_tokens": 95,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "t008-sell-0.1001-0.1000",
+    "response": "A sell limit at 0.1001 means the trader is willing to sell only at or above 0.1001. A fill at 0.1000 is below the limit price, so it does **not** satisfy the gross price constraint. Execution is **not guaranteed** because the fill price is lower than the limit, violating the constraint. The order may remain unfilled or only partially filled, as per the nature of limit orders [limit-order].",
+    "generated_tokens": 101,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "t008-buy-240-240",
+    "response": "A buy limit at 240 means the order will only execute at 240 or lower. A fill at 240 satisfies the gross price constraint because it meets the limit price [limit-order]. However, execution is not guaranteed. The order may still remain unfilled or only partially filled due to market conditions, liquidity, or venue rules, as noted in the evidence [limit-order]. The result only confirms the price constraint is satisfied, not the certainty of execution.",
+    "generated_tokens": 99,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  }
+]

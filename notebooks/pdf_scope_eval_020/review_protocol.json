@@ -1,0 +1,8 @@
+{
+  "cases": 50,
+  "generations": 100,
+  "training_executed": false,
+  "independent_acceptance": false,
+  "source_sha256": "ac6297f26e04be5f5138d31b226a7fa45fd1633c9bf48087349fbe6c423044cf",
+  "intervention": "System prompt only; same50 exposed cases; compare within run and019; check false abstention regressions and attribution."
+}

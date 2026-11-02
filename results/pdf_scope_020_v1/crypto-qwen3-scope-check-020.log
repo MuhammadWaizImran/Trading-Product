@@ -1,0 +1,23 @@
+[{"stream_name":"stdout","time":1.073667482,"data":"cloud_preflight\n"}
+,{"stream_name":"stdout","time":10.361706053,"data":"installing_dependencies\n"}
+,{"stream_name":"stderr","time":33.353317748,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":33.353342208,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.353347834,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":33.353352492,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":72.099847969,"data":"loading_model\n"}
+,{"stream_name":"stderr","time":74.516433522,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":146.554620343,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [00:56\u003c03:46, 56.61s/it]\rFetching 5 files:  40%|████      | 2/5 [01:09\u003c01:33, 31.11s/it]\rFetching 5 files: 100%|██████████| 5/5 [01:09\u003c00:00, 13.97s/it]\n"}
+,{"stream_name":"stderr","time":157.15958819,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:212: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i \u003e= 0) instead.\n"}
+,{"stream_name":"stderr","time":157.159630988,"data":"  torch._check_is_size(blocksize)\n"}
+,{"stream_name":"stderr","time":194.806397281,"data":"\rLoading checkpoint shards:  20%|██        | 1/5 [00:08\u003c00:32,  8.15s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:15\u003c00:22,  7.58s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:25\u003c00:17,  8.89s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:37\u003c00:09,  9.92s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:42\u003c00:00,  8.07s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:42\u003c00:00,  8.41s/it]\n"}
+,{"stream_name":"stdout","time":195.023855957,"data":"baseline_evaluation\n"}
+,{"stream_name":"stderr","time":200.61953941,"data":"/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py:464: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i \u003e= 0) instead.\n"}
+,{"stream_name":"stderr","time":200.619577385,"data":"  torch._check_is_size(blocksize)\n"}
+,{"stream_name":"stdout","time":6005.164101715,"data":"completed_diagnostic_human_review_pending\n"}
+,{"stream_name":"stderr","time":6013.651667469,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6013.651698815,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6013.987371063,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6013.987398065,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6014.833784231,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6015.677045345,"data":"[NbConvertApp] Writing 609837 bytes to __results__.html\n"}
+]

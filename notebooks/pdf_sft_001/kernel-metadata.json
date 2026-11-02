@@ -1,0 +1,13 @@
+{
+  "id": "waizimran/crypto-qwen3-pdf-sft-001",
+  "title": "Crypto Qwen3 PDF SFT 001",
+  "code_file": "pdf_sft_001.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

@@ -1,0 +1,38 @@
+{
+  "batch": "007",
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "created_utc": "2026-09-23T06:43:33.516717+00:00",
+  "parent_adapter": null,
+  "method": "Fresh rank-8 QLoRA from fixed base; PDF evidence-conditioned SFT, not continuation of failed adapters.",
+  "epochs": 1,
+  "learning_rate": 2e-05,
+  "seed": 217,
+  "counts": {
+    "train": 136,
+    "validation": 20,
+    "test": 20
+  },
+  "splits": {
+    "train": "29a8f60715310d163ebb9a3ba65a78b29a0c5ee62003874ec7652d65454ae59e",
+    "validation": "d632e490d5ae08e35c4eb186f64068a1c0597d2359be3225c39dc9ed79e91429",
+    "test": "f5500b26dd6ec7cb994e11c470e0379a7d8021877daba0c565eff2b526d40a8e"
+  },
+  "training_sources": {
+    "DP05": 5,
+    "DP06": 6,
+    "DP17": 7,
+    "DP19": 10,
+    "DP07": 27,
+    "DP01": 27,
+    "DP03": 27,
+    "DP04": 27
+  },
+  "scope": "Selected adaptations from eight PDFs, not entire documents/library; eight empty-evidence and four source-identity variants.",
+  "previous_training_data_sha256": "ce64f99563ac29d430d973fb6ef601a1ab1574d9a5ed3140bd2a453e742851b2",
+  "new_reviewed_examples_sha256": "4676c25c7cd8d562c1f723e02c89c86559a1d4ccccaa8d920a45060e9aeb02c8",
+  "evaluation": "Development only: exposed prior checks plus staged DP04 checks. Concept overlap acknowledged. Evaluation evidence retrieved from TRAIN corpus only; no evaluation references supplied in prompts.",
+  "validation_loss_limit": "Reference answers omit citations and may not be fully supported by retrieved context. Loss is diagnostic, not a promotion metric.",
+  "decision_rule": "No promotion without manual support/citation/abstention review. Require improvement against the fixed base with identical evidence, no new severe errors, no truncation; then independent assessment. No automatic retries.",
+  "local_training_executed": false
+}

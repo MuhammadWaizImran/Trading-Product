@@ -1,0 +1,1620 @@
+=== PDF PAGE 1 ===
+ Crypto
+Technical
+ Analysis
+  By :
+
+=== PDF PAGE 2 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+    CONTENTS
+
+          Introduction                                                                              3
+
+        CHAPTER - 1                                                                              5
+
+         Types of Charts                                                                            5
+
+               1.1 : Line Charts:                                                                         6
+
+               1.2 : Bar Charts:                                                                          7
+
+               1.3 : Candlestick Chart:                                                                    7
+
+        CHAPTER - 2                                                                              9
+
+          Trends                                                                                   9
+
+               2.1 : Market Trend and Range-Bound Consolidation:                                          10
+
+               2.2 : Trendline & Channels:                                                               12
+
+               2.3 Role Reversal:                                                                      14
+
+               2.4 : Channels                                                                         14
+
+        CHAPTER - 3                                                                            16
+
+        Volume                                                                                16
+
+         CHAPTER- 4                                                                             19
+
+            Classical Chart patterns                                                                   19
+
+               4.1 : Head and Shoulder & Inverse Head & Shoulder:                                          20
+
+               4.2 Double Tops and Bottoms:                                                            21
+
+               4.3 : Triple Tops and Bottoms:                                                            22
+
+               4.4 Triangles:                                                                          23
+
+               4.5 : Flag and Pennant:                                                                  24
+
+               4.6 Wedge:                                                                           25
+
+        CHAPTER – 5                                                                            26
+
+          Candlestick Reversal Patterns                                                              26
+
+               5.1 : Hammer:                                                                         27
+
+               5.2 : Shooting Star:                                                                     28
+
+               5.3 : Inverted-Hammer:                                                                  30
+
+               5.4 : Hanging Man:                                                                     30
+
+               5.5 : Bullish Engulfing Pattern:                                                            31
+
+               5.6 : Bearish Engulfing Pattern:                                                            32
+
+
+        1 | P a g e
+
+=== PDF PAGE 3 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+               5.7 : Piercing Pattern:                                                                   32
+
+               5.8 : Dark Cloud Cover:                                                                  33
+
+              5.9: Doji:                                                                             33
+
+        CHAPTER - 6                                                                            35
+
+           Indicators                                                                              35
+
+              6.1: Simple Moving Average:                                                             36
+
+              6.2: RSI:                                                                              37
+
+                  6.2.1 : Calculation:                                                                    38
+
+                  6.2.2 : Usage:                                                                        38
+
+              6.3: ADX:                                                                             38
+
+          Conclusion                                                                              40
+
+         About Us                                                                               42
+
+          Crypto Wealth Academy : Discord for Crypto Signals                                            43
+
+
+
+
+
+        2 | P a g e
+
+=== PDF PAGE 4 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+   Introduction
+
+
+
+
+
+        3 | P a g e
+
+=== PDF PAGE 5 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Introduction:
+
+        Market analysis is broadly categorized into two main methods, the first one is fundamental
+
+          analysis and the second one is technical analysis. In fundamental analysis an analyst needs to
+         look at the financial statements of a company, its business model, overall macroeconomic
+
+          scenarios, management capabilities and many more things for coming to a specific fair value of
+        a company. On the contrary the discipline of technical analysis is not at all concerned with this
+
+         detailed study of fundamental factors. On the contrary, a technical analyst only looks at price of
+
+        a stock derived as a result of supply-demand interaction. For a technical analysts’ price is supreme
+        and he or she sees price as manifestation of every fundamental reality. Hence, they look only at
+
+       two main aspects in the market. Price -over -time and volume.
+
+        The entire discipline of technical analysis is based on these two data points, price over time and
+
+        volume. All patterns, indicators, concepts are derived from these two basic data points. Technical
+          analysis is a very interesting subject. This is not a definitive science, rather a probabilistic
+
+           discipline. In simple terms, it is more of an art than science. There are well known chart patterns
+         or indicators in the market. But nothing works 100% of time. We still follow them because they
+
+        work more number of times than they fail. Hence emerged the concept of probability, the
+
+       number of times anything works among the number of times that occur. This ratio is different in
+          different stocks in different phases. That is why it is called an art. With experience, a chartist is
+
+         able to form an opinion of his or her own so that he has some extra edge on the market
+        assessment than someone having just bookish knowledge of technical analysis. This book on
+
+          technical analysis is your stepping stone towards the journey to become a seasoned technical
+          analyst. We request you to go through the concept slowly one at a time and keep observing
+
+         charts on regular basis. Look at old charts and also look at contemporary live charts. Once you
+          find a pattern or some indicator try to predict the future move and note down your prediction.
+
+        Then as time flows try to match the price action with your prediction. Then analyze why it worked
+
+         or not worked. Make notes and progress with the e-book and the notes. This a long journey and
+      we wish you best of luck.
+
+
+
+        4 | P a g e
+
+=== PDF PAGE 6 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+      CHAPTER - 1
+
+      Types of Charts
+
+
+
+
+
+        5 | P a g e
+
+=== PDF PAGE 7 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Chapter 1: Types of Charts
+
+
+
+          Charts are two-dimensional representation of price over time. There are many types of charts available. But
+
+         most popular and widely used among them are Line Charts, Bar Charts and the Candlestick Charts. The X axis,
+
+               i.e. the time axis is crucial. The unit can be month, week, day, hour, 5 min or few seconds. The shorter the time
+
+           period, more detailed the chart becomes. The beauty of time in technical analysis is that the same concepts
+
+          apply to charts irrespective of time-frame of observation. However, the success rate of individual patterns or
+
+           indicators-based decisions may vary across time frames. Generally higher the time frame of chart, relatively
+
+          higher is the probability of any concept in market.
+
+       1.1 : Line Charts:
+
+            In line chart each and every price point is represented as a dot. The X axis represents the time scale and the Y
+
+            axis represents the price. Each dot or point represents the closing price at the end of a unit of time. These
+
+           points are then joined to form a line. This is the simplest form of chart. But this is quite good if we want to plot
+
+          3-4 similarly priced stocks in a single chart and compare. Moreover, the line chart gives the clearest idea about
+
+           price direction of a stock.
+
+
+
+
+
+                                                       Figure 1.1: Line Chart
+
+
+
+
+
+        6 | P a g e
+
+=== PDF PAGE 8 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+       1.2 : Bar Charts:
+
+        A bar chart is comprised of a series of bars. Every bar has four important price points - open close high and low.
+
+         The bars are represented in green or blue color when close is higher than open and red color when close is
+
+          lower than open. The bar charts are more detailed than the line chart and are good for demonstrating or
+
+           spotting the classical price patterns. We will discuss about the classical chart patterns in appropriate time.
+
+
+
+
+
+                                                        Figure 1.2: Bar Chart
+
+
+
+         1.3 : Candlestick Chart:
+
+         The concept of candlestick charts came from Japan. That is why they are often referred to as Japanese
+
+           candlestick charts. These charts are the most versatile and popular form of chart representation. Price
+
+          behavior during each time unit is represented in the form of a candle. If the closing price of a stock is higher
+
+          than open price during a particular time period, then the candle is green, if the close price is below the open
+
+           price then the candle is red. Each candle has a body and two wicks. The distance between open to close is
+
+          represented by the body of a candle and the upper and lower wicks represent the highs and lows of a candle.
+
+
+
+
+
+        7 | P a g e
+
+=== PDF PAGE 9 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                                    Figure 1. 3(a): Candlestick Chart Diagrammatic Representation
+
+           Candlestick chart is special not only because it adds a special visual clarity about the price action, but also
+
+         because often a single candle stick or two or three consecutive candlesticks together form a pattern that
+
+           indicate reversal of a prior move or give conviction on continuation of the ongoing move. These are called
+
+           candlestick patterns. We will discuss about them in due course of time.
+
+
+
+
+
+                                         Figure: 1.3(b): Candlestick Chart Pattern Example
+
+           After getting introduced to the concept of charting we will discuss about the concept of trend.
+
+
+
+
+
+        8 | P a g e
+
+=== PDF PAGE 10 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      CHAPTER - 2
+
+     Trends
+
+
+
+
+
+        9 | P a g e
+
+=== PDF PAGE 11 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Chapter 2: Trends
+
+
+         2.1 : Market Trend and Range-Bound Consolidation:
+
+
+
+          Often market movements happen in the form of trends. A price trend is a continuous or a directional price
+
+        movement in upward or downward direction. We call them up -trend and down -trend respectively. Now if
+
+       we look at price action in market through charts, we will find that no price movement happens in a straight
+
+             line.
+
+         Suppose we are looking at a broader uptrend represented as primary move, we may find intermediate
+
+           corrections represented as secondary trend and minor counter moves among the secondary moves
+
+          represented as minor trend. This is how the market behaves generally in both the up and the down trends.
+
+
+
+
+
+                                                      Figure: 2.1(a): Market Trends
+
+          Often an up- trend is represented in the form of a sequence of higher highs and higher lows. Similarly a
+
+         downtrend is represented as a sequence of lower lows and lower highs. A trend is said to reverse when the
+
+         sequence is broken.
+
+
+
+
+
+        10 | P a g e
+
+=== PDF PAGE 12 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                                                      Figure: 2.1(b): Trend Reversal
+
+
+
+      We should remember a simple point that market is not trending all the time. Often the market consolidates
+
+          within a small range and goes nowhere. Then suddenly it can break on the upside or downside.
+
+
+
+
+
+                                              Figure 2.1(c): Market Consolidation
+
+
+
+
+
+        11 | P a g e
+
+=== PDF PAGE 13 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+         2.2 : Trendline & Channels:
+
+          Trendline and Channels are one of the most simple and useful tools in the market. During an uptrend, a
+
+           trendline is formed by joining lowest points of periodic pull-backs, defined as secondary moves in the
+
+          previous section. The up-trend line has positive slope. To be precise we need two lows to join to form a
+
+           trendline during an up-move. This line is then extended in the upward direction; the third move towards the
+
+           trend-line is used to validate the trend line. If the trend line is not broken in the pull back, then it is called
+
+           trend-line validation. It is often observed that price pulls back towards the trend line and moves higher. In an
+
+          uptrending market it is often easier to make money if one buys near the trend line and sells higher. The more
+
+        number of time the trend-line is validated, more important it becomes. An upward trend line is said to be the
+
+          area of support. The selling pressure meets the buying pressure here and eventually overtime when buying
+
+          pressure is higher than selling pressure price sees an upward bounce.
+
+
+
+
+
+                                                       Figure 2.2(a): Uptrend
+
+       Now when one buys he or she is looking for the prices to move higher. But this may or may not happen.
+
+         Hence the investor should maintain a stop loss point below which he-or she should cut his position, i.e. book
+
+            loss.
+
+       When a trend line is broken, either the market may reverse the trend, continue the uptrend with little less
+
+           force or just go sideways.
+
+
+
+
+
+        12 | P a g e
+
+=== PDF PAGE 14 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                                                   Figure 2.2(b): Uptrend Reversal
+
+            Similarly, during a down-trend: a trendline is formed by joining pull-back highs. They slope downwards. Just
+
+             like an up-trend line a down-trend line is formed by joining two points and then extended in downward
+
+           direction. Pull backs towards the trend-lines are low risk points for short selling with a stop loss little above the
+
+          trend line. More number of times the line is validated, more it grows in importance.
+
+
+
+
+
+                                                            Figure: 2.2(c): Downtrend
+
+           Similar to an uptrend-line, when a down trending trend line is broken the trend may continue with less pace,
+
+          or reverse or may go side-ways. A downward trend line is said to be area of resistance. The selling pressure
+
+
+        13 | P a g e
+
+=== PDF PAGE 15 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+         meets the buying pressure here and eventually overtime when selling pressure is higher than buying pressure
+
+           price sees a decline.
+
+
+         2.3 Role Reversal:
+
+        Once a trendline support or resistance is broken, its role is reversed. If the price falls below a support line, that
+
+            line will become resistance. If the price rises above a resistance line, it will often become support. As the price
+
+        moves past a line of support or resistance, it is considered that supply and demand have shifted, causing the
+
+         breached line to reverse its role. For a true reversal to occur, however, it is important that the prices make a
+
+          strong move through either the support or resistance line.
+
+
+
+
+
+                                                      Figure 2.3: Role Reversal
+
+
+
+         2.4 : Channels
+
+         The concept of channel is much similar to trend lines. When in an uptrend or in a down trend or in a
+
+           consolidation, we see rhythmic movement in form of parallelogram, we can draw channels. The channel
+
+          boundaries are good points for reversal trades with small stop losses.
+
+
+
+
+
+        14 | P a g e
+
+=== PDF PAGE 16 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                                                     Figure 2.4: Channels
+
+        Once price is out of the channel, the trend or range of the stock is broken.
+
+
+
+
+
+        15 | P a g e
+
+=== PDF PAGE 17 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+      CHAPTER - 3
+
+    Volume
+
+
+
+
+
+        16 | P a g e
+
+=== PDF PAGE 18 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Chapter 3: Volume:
+
+
+
+            In this section we introduce the second aspect of charting. This is called volume. Traded volume is the number
+
+           of quantity of stocks which change hand. The volume is shown as a sub graph in the price-time chart, below
+
+          the price window. Higher the volume in any particular move, the greater is the conviction in that move to
+
+          continue greater distance in that direction. However, if volume is on the lower side during a move, the stock is
+
+           generally bound to lose momentum.
+
+           Generally, during range bound phases, the volume is low.
+
+
+
+
+
+                                                         Figure 3: Volume
+
+        An important point regarding volume is that traded volume in absolute term has no significance.
+
+       When we talk about higher or lower volume, it is relative to average volume over certain time periods.
+
+          Trend              Volume                   Interpretation
+
+
+         Up                   High                   Uptrend may go greater distance
+
+
+         Up                Low                      Lack of conviction/ participation in uptrend. Likely to
+
+                                                                  retrace.
+
+
+
+
+
+        17 | P a g e
+
+=== PDF PAGE 19 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+        Down                High                Down move may cover greater distance
+
+
+        Down              Low                       Less conviction in the down move, may reverse
+
+
+
+          Apart from traded volume, one important concept regarding volume is delivery %. In the market a person can
+
+              first buy shares and sell by the end of the day. He or she can do the reverse too. This is called intra-day
+
+           trading. However, if an investor is having a positive view he may buy the share and carry forward it for a
+
+        number of days. This is called taking delivery of a share. Hence if there is a price rise of a stock with high % of
+
+           delivery volume, then this signifies a positive conviction in the stock. Similarly, if a lot of people are long term
+
+          negative about a stock, they may sell the stock and give delivery. Markets are driven by buyers and sellers.
+
+          People who have positive view on a security are called bulls and people who have negative view are called
+
+           bears. The price of a security in a market is determined by supply-demand dynamics of any stock. If the
+
+          supply is high and a lot of people look to sell the stock, than there are available buyers, the price is likely to
+
+           decline. Hence a fall in price with high delivery % is known as negative for a stock.
+
+
+
+
+
+        18 | P a g e
+
+=== PDF PAGE 20 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+       CHAPTER- 4
+
+   Classical Chart
+
+     patterns
+
+
+
+
+
+        19 | P a g e
+
+=== PDF PAGE 21 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Chapter 4: Classical Chart Patterns:
+
+
+
+         As we have discussed in the previous section, that market can be either in trending phase or in a range-bound
+
+          phase. No trend generally lasts forever in the market. After prolonged or medium or shorter duration up and
+
+         downtrend, the market often reverses and a move starts in the opposite direction of the prior move. Often we
+
+           find that well defined geometrical patterns are formed in the chart which provides good indication of price
+
+            reversals. These patterns are called reversal classical chart patterns. When they are formed as a bullish reversal
+
+          pattern they are said to be part of accumulation. On the other hand if they are formed at the top of a price
+
+        move just before bearish reversal, then they are part of distribution.
+
+         However, a geometrically shaped consolidation does not necessarily mean price reversal. Often price resumes
+
+          the erstwhile trend post the consolidation move. These are called continuation classical chart pattern. We will
+
+           discuss about few of the classical chart patterns in the following section.
+
+
+         4.1 : Head and Shoulder & Inverse Head & Shoulder:
+
+        Head and Shoulder pattern is a bearish reversal pattern. This pattern appears after an uptrend. This pattern is
+
+         formed with three consecutive tops with middle one being higher than the other two. The middle top is called
+
+          the head and the two side peaks are called the shoulders. On joining the intermediate troughs, we get the
+
+           neck-line. On ultimate break below the neckline, usually a short trade is taken with a stop-loss above the top
+
+           of the nearest shoulder. The target is usually considered as the distance between the neckline and head,
+
+          projected from the point of break. If the volume in the down leg of the right shoulder is on the higher side and
+
+          break happens with high volume, the conviction is on the higher side for the reversal.
+
+
+
+
+
+        20 | P a g e
+
+=== PDF PAGE 22 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+                                               Figure 4.1: Head and Shoulder Pattern
+
+        An Inverse Head and Shoulder is just mirror image of the Head and Shoulder pattern. This should appear
+
+           after a sustained down trend, the rule of stop loss and target are similar. This often acts as a very effective
+
+            bullish reversal pattern.
+
+
+         4.2 Double Tops and Bottoms:
+
+         These chart patterns are well-known patterns that signal a trend reversal – these are considered to be one of
+
+          the most reliable patterns and are commonly used. These patterns are formed after a sustained trend and
+
+            signal to chartists that the trend is about to reverse. These patterns are created when price movement tests
+
+          support or resistance levels twice and is unable to break through. These patterns are often used to signal
+
+          intermediate and long-term trend reversals.
+
+
+
+
+
+                                                Figure 4.2: Double Tops and Bottoms
+
+
+
+
+        21 | P a g e
+
+=== PDF PAGE 23 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+         4.3 : Triple Tops and Bottoms:
+
+         These are another set of reversal chart patterns in chart analysis. These are not as prevalent in charts as Head
+
+         and Shoulders and Double Tops and Bottoms, but they act in a similar fashion. These two chart patterns are
+
+         formed when the price movement tests a level of support or resistance three times and is unable to break
+
+          through. They signal a reversal of the prior trend. A trade entry is initiated at the break of a neckline with a
+
+          small stop-loss and the target is measured as the distance between peaks/troughs and the neckline.
+
+
+
+
+
+                                                 Figure 4.3: Triple Tops and Bottoms
+
+
+
+
+
+        22 | P a g e
+
+=== PDF PAGE 24 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+         4.4 Triangles:
+
+           Triangles are one of the most well-known chart patterns used in technical analysis. The three most common
+
+          types of triangles, which vary in construction and implications, are Symmetrical Triangle, Ascending Triangle
+
+         and Descending Triangle. These chart patterns are considered to last anywhere from a couple of weeks (ideally
+
+        more than 12 weeks) to several months. These are areas of consolidations after a trending move and are
+
+           generally continuation patterns, i.e. the erstwhile trends resumes after the breakout. However, in certain cases
+
+          they act as reversal patterns. They can appear both in up-trend and down-trend.
+
+
+
+
+
+                                             Figure 4.4: Three Kinds of Triangle Patterns
+
+
+
+
+        23 | P a g e
+
+=== PDF PAGE 25 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+         4.5 : Flag and Pennant:
+
+         These two short-term chart patterns are continuation patterns that are formed when there is a sharp price
+
+        movement followed by a generally sideways price movement. The patterns are generally thought to last from
+
+         one to three weeks (Can last from 1 to 12 week but ideally they should last between 1 and 4 weeks). They can
+
+         appear both in up-trend and down-trend.
+
+
+
+
+
+                                                   Figure 4.5: Flags and Pennants
+
+
+
+
+
+        24 | P a g e
+
+=== PDF PAGE 26 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+         4.6 Wedge:
+
+         The Wedge chart pattern can be either a continuation or reversal pattern. It is similar to a Symmetrical Triangle
+
+          except that the Wedge Pattern slants in an upward or downward direction, while the symmetrical triangle
+
+           generally shows a sideways movement. The other difference is that Wedges tend to form over longer periods,
+
+           usually between three and six months. The fact that Wedges are classified as both continuation and reversal
+
+           patterns, can make reading signals confusing. However, at the most basic level, a falling wedge in an uptrend
+
+               is bullish and a rising wedge in a downtrend is considered bearish.
+
+
+
+
+
+                                               Figure4.6: Wedges
+
+
+
+
+
+        25 | P a g e
+
+=== PDF PAGE 27 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+      CHAPTER – 5
+
+    Candlestick
+
+     Reversal
+     Patterns
+
+
+
+
+
+        26 | P a g e
+
+=== PDF PAGE 28 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Chapter 5: Candlestick Reversal Patterns
+
+
+
+       When we had discussed about the candlestick charts, we had said that they have an edge over many other
+
+          types of charts representation due to recognizable chart patterns which are easy to define and which work
+
+           beautifully in the market.
+
+            In this section we will discuss about few chart popular candlestick patterns. Candlestick patterns provide
+
+          entry and stop-loss criteria, but there are no target setup as available in classical chart patterns.
+
+         5.1 : Hammer:
+
+        Hammer is a single candlestick bullish reversal pattern. This occurs after a prolonged down trend. Ideally there
+
+          should be a gap down opening and bears should be able to push the price lower as a continuation of a down-
+
+         move. At this point, bulls should overpower bears and push price higher and make close near to the opening
+
+            price. The candle formed in this process should be having a small body, a big lower shadow and a negligibly
+
+          small upper shadow. Ideally the lower shadow should be at least twice the length of the body. The color of the
+
+         body can be either green or red, but if the body color is green, then the hammer is considered a little more
+
+            bullish, as the bulls were strong enough to close the price higher than the open price. The next day or in next
+
+         two three days, ideally there should be a gap up opening or price should move above the high of the hammer
+
+           candle. This is called confirmation or validation of the pattern. A hammer like candle, without validation has
+
+         no real significance. If price moves above the high of the hammer a buy trade can be taken with a stop loss
+
+         below the low of the candle.
+
+
+
+
+
+                                                       Figure 5.1(a): Hammer
+
+
+
+
+
+        27 | P a g e
+
+=== PDF PAGE 29 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                                                  Figure 5.1(b): Hammer Example
+
+
+
+         5.2 : Shooting Star:
+
+        A shooting star is just like a mirror image of a hammer candle. First there should be a sustained up trend and
+
+          then there has to be a gap up opening. The bulls should push price higher in the initial part of the day. Then,
+
+            later in the day bears should take in the control of the stock and push prices down. Eventually the closing price
+
+          should be very close to the opening price, resulting in a candle with a small green or red body, a big upper
+
+        shadow and a small or negligible lower shadow. The upper shadow of the candle should be at least twice the
+
+          length of the body. Now a confirmation of the shooting star pattern comes if price moves below the low of the
+
+          candle within next 2-3 candles. On confirmation, a short trade should be taken with stop loss above the high
+
+           of the high of the candle. A shooting star pattern with a red body is considered slightly more bearish than one
+
+          with a green body. It is often observed that shooting star candlestick pattern acts as bearish reversal pattern
+
+         and triggers a down move after an uptrend.
+
+
+
+
+
+        28 | P a g e
+
+=== PDF PAGE 30 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                                                     Figure 5.2(a): Shooting Star
+
+
+
+
+                                                                 Stop Loss
+
+
+                                                                                  Confirmation
+
+
+
+
+
+                                                Figure 5.2(b) Shooting Star Example:
+
+
+
+
+
+        29 | P a g e
+
+=== PDF PAGE 31 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+         5.3 : Inverted-Hammer:
+
+        An inverted hammer is a single candlestick bullish reversal pattern. The pattern appears after a sustained
+
+          down-trend. At the beginning of the day there should be a gap-down opening. However, bulls should push the
+
+           price higher during the course of the day. Eventually the bears should push the price lower during the course
+
+           of the day and close near the open price. The resulting candle should have a small body, red or green, the upper
+
+          wick should be at least twice the body of the candle and the lower shadow should be quite small or negligible
+
+            in size. If the body is green it is relatively bullish than if it is red. This looks like an inverted hammer as the name
+
+           suggests. The philosophy is that bears were not able to push the price below the opening price during the
+
+          course of the day. This pattern, however, is considered to be little less bullish than the hammer itself, because
+
+            in hammer bulls are able to force a higher close by the end of the day. The confirmation of the pattern comes
+
+         once the price moves above the high of the candle. On confirmation a buy trade can be initiated with a stop
+
+            loss below the low of the candle. Inverted hammer occurs little less frequently in market as compared to
+
+        hammer pattern.
+
+
+
+
+
+                                                    Figure 5.3: Inverted Hammer
+
+         5.4 : Hanging Man:
+
+         Hanging Man is a single candlestick bearish reversal pattern. This appears after a sustained up-move. The
+
+          candle looks like a hammer; only difference is that it appears at the end of an up-trend. The candle should have
+
+         a small body at the top (red/green) and a lower shadow at least twice the length of the body. There should be
+
+          very small or no upper shadow. A red colored body of hanging man pattern is more bearish than a hanging
+
+       man pattern with green body. The confirmation of the pattern happens when price moves below the low of
+
+          the candle. On confirmation a trader may take short trade with stop-loss above the high of the candle. The
+
+          hanging man pattern is bearish counterpart of Bullish inverted hammer. However this appears much less
+
+           frequently than shooting star which is another bearish reversal pattern.
+
+
+        30 | P a g e
+
+=== PDF PAGE 32 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                                                  Figure 5.4: Hanging Man Pattern
+
+
+         5.5 : Bullish Engulfing Pattern:
+
+            Bullish candlestick pattern is a two-candlestick bullish reversal pattern. First there should be a downtrend. Then
+
+       we should have a red candle followed by a green candle. The body of the green candle should engulf the body
+
+           of the first red candle. The idea is in the second candle that constitutes the pattern, the day started below the
+
+          previous day’s close on a bearish note. However, as the day progresses, the bulls take-over the charge and
+
+           eventually succeed to close above previous day’s high. In such a scenario, if the highest point of these two
+
+           candlesticks is breached on the upside within next 2-3 candles, the bearish engulfing pattern is said to be
+
+          confirmed. A buy trade can be initiated upon confirmation with stop-loss below the low of the two candlestick
+
+           patterns.
+
+
+
+
+
+                                                Figure 5.5: Bullish Engulfing Pattern
+
+
+
+        31 | P a g e
+
+=== PDF PAGE 33 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+         5.6 : Bearish Engulfing Pattern:
+
+          Bearish Engulfing pattern is just mirror image of bullish engulfing pattern with bearish implication. First, we
+
+          should be having an up-trend. Then we should have a green candle as continuation. The next day should see
+
+         a gap up above the close of previous day. The 2nd day candle should eventually close red with its body totally
+
+           engulfing the body of the first candle. The confirmation comes when within next 2-3 candles the price moves
+
+         below the low of the two candles forming the Bearish Engulfing pattern. On confirmation a trader may take a
+
+          short trade with stop loss above the top of the two candlestick patterns. Larger the 2nd candle, more bearish
+
+               is the pattern.
+
+
+
+
+
+                                                Figure 5.6: Bearish Engulfing Pattern
+
+
+
+
+         5.7 : Piercing Pattern:
+
+         The piercing pattern is just similar to the bullish engulfing pattern; only thing is that the 2nd candle in the two
+
+           candlestick pattern does not close engulfing the body of the first candle. Instead it closes crossing the halfway
+
+         mark of the body of the first candle. A confirmation comes when price crosses the high of the two candlestick
+
+          patterns within next 2-3 candles. On confirmation one may take a buy trade with stop loss below the low of
+
+          the candle.
+
+
+
+
+
+        32 | P a g e
+
+=== PDF PAGE 34 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                                                     Figure 5.7: Piercing Pattern
+
+         5.8 : Dark Cloud Cover:
+
+         The Dark cloud cover is a two candlestick bearish reversal pattern and much similar to the bearish engulfing
+
+           pattern. In this pattern, the second candle, unlike the bearish engulfing pattern falls short of engulfing the
+
+              first candle, instead it crosses 50% the body of the first candle. The confirmation comes when a candle
+
+          breaches the bottom of the pattern. On confirmation a short trade can be taken with stop loss above the high
+
+           of the candle.
+
+
+
+
+
+                                                    Figure 5.8: Dark Cloud Cover
+
+         5.9 : Doji:
+
+         The Doji is a single candlestick pattern. The Doji assumes significance, when it appears after a trending move,
+
+         be it up or down. The Doji symbolizes indecision and after a Doji the incumbent trend can reverse, go
+
+
+        33 | P a g e
+
+=== PDF PAGE 35 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+          sideways or continue uptrend. However, appearance of a Doji is a signal of caution that the probability is high
+
+           that the erstwhile trend may be coming to an end. Doji is a candle which has open and close almost at similar
+
+            level. There can be upper shadows and lower shadows of various proportions.
+
+
+
+
+
+                                                          Figure 5.9: Doji
+
+
+
+
+
+        34 | P a g e
+
+=== PDF PAGE 36 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      CHAPTER - 6
+
+    Indicators
+
+
+
+
+
+        35 | P a g e
+
+=== PDF PAGE 37 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Chapter 6: Indicators
+
+           Indicators are tools to aid decision making in the market. There are various types of indicators which
+
+         measures or indicate the trend, the momentum, the volatility and various other aspects in the market. There
+
+          are thousands of indicators which are derived out of the price and volume data over time. Here we introduce
+
+         you with four very useful indicators.
+
+         6.1 : Simple Moving Average:
+
+          Simple Moving Average or SMA is a moving average which is calculated by adding the closing price of security
+
+           prices for the last n-periods and dividing it by the total number of time periods.
+
+
+
+          For example, suppose we want to calculate the 9 periods SMA of a security price.
+
+
+
+             First, we will add the last 9 Days Closing Price of the security and then it will be divided by the 9 periods.
+
+
+           Calculation for 9 periods SMA:
+
+
+         (P9+P8+P7+P6…. +P1)/9
+
+
+         Where,
+
+
+          P=Price
+
+
+         P9= Closing Price 9 days ago
+
+
+
+       SMA is a Technical indicator which is represented by a line and it is directly plotted on the security price. As
+
+          per the choice of the trader, the periods can be changed in the SMA indicator.
+
+
+          For shorter-term SMA, we can use 5,8,13 etc. For Medium term 20, 34, 50 and for longer term 100,200 can
+
+         be used.
+
+
+
+
+
+        36 | P a g e
+
+=== PDF PAGE 38 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+                If a medium term moving average is having a positive slope, the trend is considered to be positive in medium
+
+         term and vice versa.
+
+           Price breaching a particular moving average from down to up is considered a bullish sign. Similarly, price
+
+          breaching a particular moving average from upside and closing below is considered bearish.
+
+                If we find a shorter term moving average crossing a medium term moving average from below, often this is
+
+           called bullish crossover. On the other hand if a shorter term moving average crosses a medium term moving
+
+          average from upside to below that is called a bearish crossover and often considered a signal of bearishness.
+
+
+
+
+
+                                                 Figure 6.1: Simple Moving Average
+
+         6.2 : RSI:
+
+            Relative Strength Index (RSI) is a momentum oscillator, developed by J. Welles Wilder, which measures the
+
+         speed and velocity of price movement of trading instruments (stocks, commodity futures, bonds, forex etc.)
+
+          over a specified period of time.
+
+
+
+         The objective of RSI indicator is to measure the change in price momentum. It is a leading indicator and is
+
+          widely used by Technical Analysts over the globe. RSI can be used to spot a general trend. It is considered
+
+         overbought when it goes above 70 and oversold when it goes below 30. 30-70 region of RSI is considered to
+
+         be normal zone.
+
+
+
+
+
+        37 | P a g e
+
+=== PDF PAGE 39 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+          6.2.1 : Calculation:
+
+         The formula for calculating Relative Strength Index is as follows
+
+
+
+          RSI = 100 – 100 / (1 + RS)
+
+         RS = Average Gain over specified period/ Average loss over the same period
+
+
+
+         The default setting for Relative Strength Index is 14, but you may change this value to decrease or increase
+
+            sensitivity based on your requirement.
+
+
+
+          6.2.2 : Usage:
+
+         There are many kinds of usage of RSI. However most popularly, if we find that, RSI breaching the 70 level and
+
+           at the same time we spot a bearish reversal pattern, then there is opportunity to take short trade with stop
+
+            loss. Similarly if RSI breaches 30 from below and we observe a bullish reversal pattern, there is opportunity to
+
+          take long trade with stop loss.
+
+
+
+
+
+                                                           Figure 6.2: RSI
+
+         6.3 : ADX:
+
+            In 1987 J. Welles Wilder developed the Average Directional Index (ADX) as an indicator of trend strength.
+
+
+
+        38 | P a g e
+
+=== PDF PAGE 40 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+        ADX quantifies the velocity of price regardless of its north/south/eastward movement.
+
+          Hence, two other lines i.e. Positive Directional Indicator (+DI) and Negative Directional Indicator (-DI) are
+
+         used on the charting system which act as complements to ADX.
+
+       When ADX is above 20 or 25, generally Market is considered to be in a trending phase. The trend can be up or
+
+         down.
+
+        On the other hand, +DI crosses -Di line from below, the market generally moves up and when the -DI line
+
+           crosses the + DI line from below, market generally moves in the downward direction.
+
+
+
+
+
+                                                       Figure 6.3: ADX
+
+
+
+
+
+        39 | P a g e
+
+=== PDF PAGE 41 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+    Conclusion
+
+
+
+
+
+        40 | P a g e
+
+=== PDF PAGE 42 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Conclusion
+
+
+
+            Ideally traders combine indicators and price patterns to form their trading strategies. Very rarely professional
+
+           traders just rely on a single indicator or a price pattern. We are about to end our short journey of introducing
+
+         you with the concept of basic charting. Hope this gives you enough clarity and generates great interest in your
+
+         mind to apply those concepts in live charts. Technical analysis is a discipline in which a practitioner improves
+
+         and learns with time and practice. We wish you all the best in your journey.
+
+
+
+
+
+        41 | P a g e
+
+=== PDF PAGE 43 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+    About Us
+
+
+
+
+
+        42 | P a g e
+
+=== PDF PAGE 44 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+      Crypto Wealth Academy : Discord For Crypto Signals
+
+
+
+         Crypto Wealth Academy is a young and vibrant company established with the vision of taking
+
+         online financial education to a whole new level in both the United States and the world.
+
+      Contact Us:
+
+           https://cryptowealthacademia.com
+
+            contact@cwapanel.center
+
+
+
+
+
+        43 | P a g e
+
+=== PDF PAGE 45 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+                  Who We Are
+
+
+       Our journey begin just like yours, we were young and broke and wanted to make more money, we had
+       enough of watching everyone winning in life, driving nice cars, and having dinner outside every night.
+
+        While we struggled with paying rent and hustling trying businesses online like drop shipping and such kept
+       on failing.
+
+              It wasn't until we stumbled upon cryptocurrencies and the world of trading them that things started to shift.
+
+               I watched a YouTube video back in 2016 saying that I should buy bitcoin, I was skeptical at first as you
+        probably were too.
+
+               I remember telling my girlfriend at the time, I will buy just 1$ see if I can withdraw it back in a week then I'll
+       buy more.
+
+        Sure thing I got it back and I even made profits, just like everyone who first gets into crypto we all get them
+       noobs profits as if the market is luring us in! crazy right.
+
+       The next thing I know, I throw in 500$ at the time (I was struggling), and my friend went in and throw 500$ as
+          well, this was our first-ever investment in crypto.
+
+       The 2017 bull market had started, but we didn't know shit about it back then, all I knew is that my 500$ is
+       now worth 2000$ I was astonished I withdraw it send it right back to my bank account, and paid my bills.
+
+        But something kept bothering me, I've been striving to make money online all these years following all the
+       methods I can find online, and this Bitcoin thing just beat them all in terms of percentage returns just like that.
+
+               I have to learn more about this, I told myself. this could be the ticket to my financial freedom, and I know you
+         think this way as well right now! right?
+
+           Little did I know, I went and purchased a few crypto trading courses I wanted to learn what these charts
+       mean, I kept watching these videos every night before I sleep for over a year, meanwhile I was still trying to
+       make some hits in the market.
+
+               I kept watching Youtube videos of guys telling me to buy this coin or that coin, I blindly followed them, and I
+       ended up making an extra 5000$ just from doing what one guy told me in one video I watched.
+
+               I felt invincible, I didn't know that the crypto market will lure you in just enough before it takes everything from
+        you:
+
+                I had to learn that the hard way, one day I went for a vacation while I was still actively trading, me and my
+          friend were always chatting about what coin to buy next, and dreaming dreamer about the fancy cars the hot
+       women, and the dinners outside every night.
+
+       By this time we both had over 10k in our portfolio from that 500$, we didn't want to cash out suffering
+        auto ren and remove some stress out of our lives, that 10k was going to keep me warm and fed for a while,
+         but "scared money doesn't make money" they said.
+
+
+
+        44 | P a g e
+
+=== PDF PAGE 46 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+       So I decided that the charts of Litecoin looks bullish and I told my friend let's put everything we got into it, this
+           is our moon shot, time to buy that Mercedes you dreamed about, this was at 2017the bull market top and
+         the final blow to our portfolio, that 10k went down the drain the market took everything.
+
+              It was a depressing time, I couldn't believe that this was the end, crypto gave me hope that one day I will
+        beat poverty for good and live the life of my dreams, and now all of that is gone.
+
+       Weeks pass by, I kept looking at the charts every day even if I had no money to trade with, I found my self
+        myself doing technical analysis just for fun, I kept learning, it became an addiction, I was doing it screenshot
+        every day even if there was no financial gain for me, a passion was born.
+
+               I had a rich friend who was trading but with not much big success, one time he sent me a screen shot of him
+       down 7000$ on one trade I helped him out to finally make profaprofit it on that trade and flip it around, he
+      made 20k profit at the end from that trade.
+
+        This started a new journey for me, I told him that I could give him signals and trade ideas for a 10% share of
+         his profits, and he accepted, and this was the start of my growth, the responsibility of trading for someone
+         else gave me the extra focus I needed to skyrocket my trading skills.
+
+        few few months later I made my friend over 50 000$ in profits, and gave myself 5000$ to start again.
+
+       6 months later I had enough money to live from trading alone and this was the start of my professional
+         trading career.
+
+       2019 mini bull market got me well in the 6 figures portfolio and my life has become what I have been
+        dreaming about.
+
+       By now meI and my friend from the beginning of the journey are having fun sharing signals of profit with our
+         family and friends making everyone profits and traveling the world, having dinners outside, and not worrying
+        about bills.
+
+      Came the 2021 bull market we saw lota a and lot of sufferingas this was the year that brought the most
+       amount of new people to the space, and you are probably one of them, many lost their life savings and are
+            left with nothing, the crypto market was at it brutal state ever, we had to do something about it.
+
+     We started a WhatsApp group to help as many as possible, and we saw that we could help even more so we
+        launched "Crypto Wealth Academy" a discord group with all the resources you need to succeed in your
+         crypto journey, you have training material, and most of all you have me and my friend to give you daily our
+         trades so you can profit.
+
+       By joining "Crypto Wealth Academy" you get to use the knowledge I've acquired throughout these years so
+       you don't have to go through the troubles I went through.
+
+                  DISCOUNT CODE 50% OFF : CWA50
+                     https://cryptowealthacademia.com/
+
+
+
+
+
+        45 | P a g e
+
+=== PDF PAGE 47 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+              What will you find inside the discord?
+
+
+
+
+
+                              Testimonials
+
+
+
+
+
+        46 | P a g e
+
+=== PDF PAGE 48 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+        47 | P a g e
+
+=== PDF PAGE 49 ===
+TECHNICAL ANALYSIS by Crypto Wealth Academy
+
+
+
+
+
+                 DISCOUNT CODE 50% OFF : CWA50
+                   https://cryptowealthacademia.com/
+
+
+
+
+
+        48 | P a g e

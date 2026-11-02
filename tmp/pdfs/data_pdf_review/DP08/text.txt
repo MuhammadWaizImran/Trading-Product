@@ -1,0 +1,3465 @@
+=== PDF PAGE 1 ===
+
+
+=== PDF PAGE 2 ===
+
+
+=== PDF PAGE 3 ===
+              COPYRIGHT ACT
+
+
+
+
+Under the copyright disclaimer under section 107 of the copyright act
+1976, there is an allowance for 'fair use' of copyrighted material for
+such purposes as education and research, scholarship, criticism, news
+reporting, comment, and teaching. All rights reserved. No part of this
+book may be reproduced, stored in a retrieval system, or transmitted
+in any form or by any means, electronic, mechanical, photocopying,
+recording, scanning, or otherwise, without the prior written
+permission of the publisher.
+
+No person shall be entitled to copyright or any similar right in any
+work, whether published or unpublished, otherwise than under and in
+accordance with the provisions of this Act or of any other law for the
+time being in force, but nothing in this section shall be construed as
+abrogating any right or jurisdiction and under section 107 1976
+
+Legal actions would be taken.
+
+=== PDF PAGE 4 ===
+            Binary Options Trading Bible
+
+Basic to Advanced Binary Options Trading and 30+ Sure Shot Pattern
+
+
+ THE ONLY BINARY OPTION BOOK YOU WILL EVER NEED
+
+
+           ABOUT BINARY OPTIONS
+
+Binary options trading is a financial trading method where you have
+to predict the future price movement of an asset, such as stocks,
+commodities, currencies, or indices, within a Fixed time frame. The
+term "binary" refers to the two possible outcomes of each trade: you
+can either win a fixed amount of money if your prediction is correct
+or lose your initial investment if your prediction is wrong. Here's a
+detailed breakdown of how binary options trading works:
+
+
+Important Elements of Trading Binary Options:
+
+
+   1) Underlying Asset: This is the financial instrument on which the binary
+      option is based. It could be a stock (e.g., Microsoft), a commodity (e.g.,
+       gold), a currency pair (e.g., EUR/USD), or an index (e.g., S&P 500).
+   2) Call Option: If you think the price of the asset will rise within a specified
+      time frame, you buy a call option. If your prediction is correct when the
+      option expires, you earn a profit.
+   3) Put Option: If you anticipate that the price of the asset will fall within a
+      specified time frame, you purchase a put option. If your prediction is
+      correct upon expiration, you make a profit.
+   4) Expiry Time: This is the duration for which the binary option contract
+      remains active. Expiry times can range from seconds to minutes, hours, or
+     even months, depending on the broker and the type of binary option.
+
+=== PDF PAGE 5 ===
+Here are the steps to follow when trading binary options:
+
+
+
+
+       1. Choose an Asset: Select the asset you want to trade. You might
+        choose commodities like oil or gold, stocks like Google or Microsoft,
+         currencies like USD/JPY, or indices like NASDAQ.
+
+       2. Predict the Price Movement: Decide whether the price of the chosen
+          asset will go up or down within the selected time frame.
+
+
+       3. Investment Amount: Determine the amount of money you wish to
+          invest in this trade. This amount is at risk and may be lost if your
+          prediction is inaccurate.
+
+       4. Select Call or Put Option: If you believe the price will go up, choose
+         a call option. If you think it will go down, select a put option.
+
+
+     5. Set Expiry Time: Choose the duration of the trade. Binary options
+        can have short expiration times, such as 60 seconds, or longer ones,
+          like several hours or days.
+
+
+       6. Monitor the Trade: Once the trade is active, monitor the price
+       movement of the asset. If it moves in the direction you predicted and
+          stays within the predetermined range, you win the trade.
+
+
+       7. Outcome: When the trade expires, you either receive a fixed payout
+            (if your prediction is correct) or lose your investment (if your
+          prediction is wrong).
+
+=== PDF PAGE 6 ===
+Risks and Considerations:
+
+
+High Risk: Binary options trading can be highly speculative and involves a
+significant risk of losing the invested capital. The outcome is binary, meaning
+you either win a fixed amount or lose your entire investment.
+
+
+Broker Dependence: The trading experience and potential payouts can vary
+significantly between different brokers. It's crucial to choose a reputable and
+regulated broker.
+
+
+Market Volatility: Sudden market movements can cause losses, especially if
+the trade's expiry time is very short.
+
+
+Lack of Ownership: When you trade binary options, you don't own the
+underlying asset; you are merely predicting its price movement.
+
+
+Education and strategy: Successful binary options trading often requires a
+deep understanding of the markets and a well-thought-out trading strategy.
+Without proper knowledge, it's almost like gambling.
+
+
+
+
+
+IMPORTANT NOTE - It's important to thoroughly research and understand
+binary options trading and consider seeking advice from a financial advisor
+before engaging in this type of trading, especially if you are new to financial
+markets.
+
+=== PDF PAGE 7 ===
+             ABOUT THE BOOK
+
+
+
+
+The purpose of this book is to teach you and educate you on how to make
+money in binary options trading. This book is designed for traders seeking a
+deep understanding of binary options, specifically focusing on candlestick
+patterns and the psychology behind successful trading. With over 30 proven
+Sure Shot patterns, and some amazing indicators-based strategies, this book
+equips readers with the knowledge and skills necessary to navigate the binary
+options market with confidence and precision.
+
+In this book, I will teach you what I have learned in the last five years. Each
+topic will be briefly explained followed by an example for your better
+understanding
+
+Mastering Binary Options Trading" empowers readers with a deep
+understanding of candlestick patterns, candlestick psychology, and proven
+strategies essential for successful binary options trading. By combining
+theoretical knowledge with practical insights, this book serves as a
+comprehensive guide for traders looking to enhance their skills and achieve
+consistent profitability in the dynamic world of binary options. Whether you are
+a beginner or an experienced trader, this book equips you with the tools and
+confidence needed to navigate the binary options market with precision and
+expertise
+
+=== PDF PAGE 8 ===
+                  CHAPTER – 1
+
+     UNDERSTANDING DIFFERENT TYPES OF CANDLESTICK
+
+
+Candlestick patterns are crucial in technical analysis as they provide insights
+into the market sentiment, helping traders make informed decisions. Here are 10
+Main Important types of candlestick patterns, along with explanations for each.
+
+But first, let us understand what a Candlestick Pattern is.
+
+A candlestick pattern is a graphical representation of price movements in a
+specific time frame, commonly used in technical analysis of financial markets,
+including stocks, forex, commodities, and cryptocurrencies. Each candlestick
+displays four key price points: the opening price, closing price, highest price
+(high), and lowest price (low) within the given time period.
+
+=== PDF PAGE 9 ===
+In this text, I will be discussing the 10 main types of candlestick patterns.
+
+Big Green Candle & Big Red Candle: A candle with a healthy body having
+small wicks is known as a Big Green/Red candle. These candles represent a
+strong direction of the trend.
+
+
+
+
+
+Doji Candle: A Doji is a candlestick pattern with the opening and closing
+prices at or near the same level, indicating market indecision.
+
+There are several types of Doji:
+
+Standard Doji: The opening and closing prices are virtually equal. This
+suggests that the market is currently undecided on which direction to take. This
+usually means that both buyers and sellers are evenly matched, resulting in a
+stalemate.
+
+Long-Legged Doji: The high and low prices are also quite far from the opening
+and closing prices, indicating significant market indecision.
+
+Dragonfly Doji: A Doji with a long lower shadow, suggesting that buyers
+controlled the price action during the session.
+
+Gravestone Doji: A Doji with a long upper shadow, indicating that sellers
+dominated the session.
+
+=== PDF PAGE 10 ===
+ Standard Doji   Long-Legged Doji    Dragonfly Doji  Gravestone Doji
+
+
+Marubozu Candle: A Marubozu candle is a single candlestick pattern that has
+a very long body and little to no wicks (or shadows) on either end. It signifies a
+strong and decisive price movement in a specific direction during the given time
+period. Marubozu candles come in two forms: bullish (green) and bearish (red),
+indicating bullish and bearish market sentiment, respectively.
+
+Bullish Marubozu: A bullish Marubozu has a long body with no upper or
+lower wick. The opening price is equal to the low price, and the closing price is
+equal to the high price, indicating that buyers were in control throughout the
+entire trading session. A bullish Marubozu suggests strong buying pressure and
+indicates that buyers dominated the market from the opening bell to the closing
+bell. It often signifies the start of a bullish trend or a continuation of an existing
+uptrend.
+
+
+
+
+
+                            Bullish Marubozu
+
+Bearish Marubozu: A bearish Marubozu also has a long body with no upper or
+lower wick. The opening price is equal to the high price, and the closing price is
+equal to the low price, indicating that sellers were in control throughout the
+entire trading session. A bearish Marubozu suggests strong selling pressure and
+indicates that sellers dominated the market from the opening bell to the closing
+bell. It often signifies the start of a bearish trend or a continuation of an existing
+downtrend
+
+=== PDF PAGE 11 ===
+                          Bearish Marubozu
+
+Spinning Top: A Spinning Top candlestick is a pattern characterized by a small
+body and long upper and lower wicks (or shadows) that are roughly equal in
+length. This formation suggests a period of market indecision where neither
+buyers nor sellers were able to gain control, resulting in a small price change
+from the opening to the closing price. Spinning Tops represents a tug-of-war
+between bulls and bears during the trading period.
+
+Spinning Tops can appear in both uptrends and downtrends and are considered
+neutral patterns. In an uptrend, a Spinning Top may indicate a potential
+weakening of the bullish momentum, while in a downtrend, it could signal a
+potential weakening of bearish momentum. However, Spinning Tops are most
+meaningful when they occur after a sustained price movement, indicating a
+potential reversal or consolidation in the trend.
+
+
+
+
+
+                           Spinning Top
+
+
+Hammer Candle: A Hammer candlestick has a small real body near the top
+end of the candle and a long lower shadow, which is at least twice the length of
+the body. There is little to no upper shadow.
+
+Traders often consider a Hammer pattern as a bullish signal, especially if it
+appears after a long downtrend. It suggests that buyers are stepping in, possibly
+indicating the end of the downtrend and a potential reversal to an uptrend.
+
+=== PDF PAGE 12 ===
+                    Hammer Candle
+
+Hanging Man: A Hanging Man candlestick has a small real body near the Top
+end of the candle and a long lower shadow, at least twice the length of the body.
+There is little to no upper shadow.
+
+Traders view a Hanging Man pattern as a bullish signal, especially if it appears
+after a long downtrend. It suggests that buyers are becoming active, possibly
+indicating the end of the downtrend and a potential reversal to an uptrend.
+
+
+
+
+
+                      Hanging Man Candle
+
+
+Inverted Hammer: An inverted Hammer candlestick has a small real body
+near the bottom end of the candle and a long upper shadow, at least twice the
+length of the body. There is little to no lower shadow.
+
+Traders view an Inverted Hammer pattern as a Bearish signal, especially if it
+appears after a long uptrend. It suggests that sellers are becoming active,
+possibly indicating the end of the uptrend and a potential reversal to a
+downtrend.
+
+=== PDF PAGE 13 ===
+                       Inverted Hammer Candle
+
+
+
+
+
+Shaved Head / Headless Candle: A Headless candlestick has a small real body
+near the top end of the candle and a Lower shadow, the same as the length of
+the body. There is no upper shadow.
+
+Traders view a Headless Candle pattern as a bullish signal, especially if it
+appears in an uptrend. It suggests that buyers are still active, possibly indicating
+the continuation of the uptrend.
+
+
+
+
+
+                          Headless Candle
+
+
+Shaved Bottom / Tailless Candle: A Tailless candlestick has a small real body
+near the Bottom end of the candle and an upper shadow, the same as the length
+of the body. There is no Lower shadow.
+
+Traders view a Tailless Candle pattern as a Bearish signal, especially if it
+appears in a downtrend. It suggests that sellers are still active, possibly
+indicating the continuation of the downtrend.
+
+
+
+
+
+                                Tailless Candle
+
+=== PDF PAGE 14 ===
+                   CHAPTER – 2
+
+       UNDERSTANDING CANDLESTICK PSYCHOLOGY
+
+
+
+
+Candlestick psychology refers to the reading of candlestick patterns in the
+context of market sentiment and trader behaviour. Each candlestick pattern
+conveys specific information about how the price moved during a particular
+time period, and this information is often analysed to understand the underlying
+psychology of market participants.
+
+
+Here's how candlestick psychology works:
+
+Bullish Candlesticks: These candlesticks (like bullish Marubozu or Hammer)
+indicate that buyers were in control during the session. They suggest buyers are
+strong and confident in the market.
+
+Here are examples of the bullish candlestick from Most to Least bullish.
+
+
+
+
+
+Most Bullish   2nd Most Bullish Normal Bullish    Neutral    Least bullish
+
+=== PDF PAGE 15 ===
+Bearish Candlesticks: These candlesticks (like bearish Marubozu or Inverted
+hammer) indicate that sellers were in control during the session. They suggest
+sellers are strong and confident in the market.
+
+Here are examples of the bearish candlestick from Most to Least bearish.
+
+
+
+
+
+Most Bearish   2nd Most Bearish  Normal Bearish  Neutral     least Bearish
+
+
+Understanding Market Sentiment:
+
+
+Analysing Price Rejection: Long upper shadows on bearish candles or long
+lower shadows on bullish candles suggest that the price moved significantly in
+one direction during the session but was rejected, indicating potential reversals
+or strong support/resistance levels.
+
+Identifying Indecision: Candlestick patterns like Doji or Spinning Top
+represent market indecision. They show that neither buyers nor sellers had
+control, suggesting a potential shift in market sentiment.
+
+Detecting Market Exhaustion: Certain patterns, especially those with long
+wicks like Shooting Star (bearish) and Hammer (bullish), indicate that the
+market made a strong move in one direction but then reversed, signaling
+potential exhaustion of the trend.
+
+=== PDF PAGE 16 ===
+Confirmation and Context: Candlestick patterns are most powerful when they
+occur in specific contexts, such as at key support or resistance levels, after a
+prolonged trend, or with confirmation from other technical indicators.
+Understanding these contexts enhances the interpretation of candlestick
+patterns.
+
+Emotional Aspects of Trading: Candlestick patterns also reflect the emotions
+of traders. For example, a strong bullish candle after a period of consolidation
+can indicate breakout enthusiasm. Conversely, a bearish candle after a
+prolonged uptrend might signal fear among traders and profit-taking activities.
+
+
+Candlestick psychology is not just about recognizing patterns but also about
+understanding the underlying emotions and intentions of market participants.
+Traders who understand candlestick psychology can make more informed
+decisions by reading sentiment and anticipating potential price movements.
+However, it's essential to use candlestick patterns alongside other technical
+analysis tools and indicators for a comprehensive understanding of the market
+dynamics.
+
+=== PDF PAGE 17 ===
+                   CHAPTER – 3
+
+        UNDERSTANDING SUPPORT AND RESISTANCE
+
+
+Support and resistance are fundamental concepts in the technical analysis
+traders and investors use to make informed decisions about buying and selling
+assets. They are crucial levels on a price chart and play a significant role in
+understanding market dynamics. Let's learn each concept in detail:
+
+
+Support:
+
+Definition: Support is a price level at which a financial asset (like stocks,
+currencies, or commodities) tends to stop falling and may even bounce back
+upward. It represents a level where buying interest is significantly strong
+enough to prevent the price from falling.
+
+
+
+
+
+        SUPPORT
+
+In order to place a Horizontal Line at support we have to find a point where the
+price is rejected at least 3 times and then place a Horizontal line there.
+
+=== PDF PAGE 18 ===
+Characteristics:
+
+Bounce Back: When the price approaches a support level, it often bounces back,
+showing that buyers are willing to purchase the asset at that price.
+
+Demand Zone: Support levels are considered areas of high demand, indicating a
+higher number of buyers compared to sellers.
+
+Psychological Significance: Some support levels are psychological, like round
+numbers (e.g., $50, $100), where traders tend to place buy orders.
+
+
+
+
+
+Resistance:
+
+Definition: Resistance is a price level at which an asset tends to stop rising and
+may even reverse its direction. It represents a level where selling interest is
+strong enough to prevent the price from moving higher.
+
+In order to place a Horizontal Line at resistance we have to find a point where
+the price is rejected at least 3 times and then place a Horizontal line there and
+then we can place a trade on the fourth touch.
+
+
+
+
+RESISTANCE
+
+=== PDF PAGE 19 ===
+Characteristics:
+
+Pull Back: When the price approaches a resistance level, it often pull back,
+showing that sellers are willing to purchase the asset at that price.
+
+Supply Zone: Resistance levels are considered areas of high supply, indicating a
+higher number of sellers compared to buyers.
+
+Psychological Significance: Some resistance levels are psychological, like
+round numbers (e.g., $50, $100), where traders tend to place sell orders.
+
+
+
+
+
+RESISTANCE LEVEL
+
+=== PDF PAGE 20 ===
+SUPPORT LEVE
+
+                   CHAPTER – 4
+
+       UNDERSTANDING THE CONCEPT OF TREND LINE
+
+
+WHAT IS A TREND LINE?
+
+A trend line is a straight line drawn on a price chart to visually represent the
+direction and strength of a trend in a financial asset, such as stocks, currencies,
+or commodities. Trend lines are a fundamental tool in technical analysis and are
+used by traders and investors to identify trends and potential reversal points.
+
+Trend lines are used to identify and confirm the direction of a trend—whether
+it's an uptrend, downtrend, or a sideways (also known as a horizontal) trend.
+
+
+How to Draw Trend Line –
+
+Uptrend: In an uptrend, connect the lows of the price candles or bars with a
+straight line. This line represents the support level, indicating where buyers are
+consistently stepping in to prevent the price from falling further.
+
+
+               HH
+
+     HH
+                       HL
+
+            HL
+
+=== PDF PAGE 21 ===
+                    LINE
+To Draw a Trend line we need a minimum of 2 Touches so that you can Trade        TREND
+on 3rd touch after 3rd touch market doesn’t Respect the level.
+
+
+
+             HH
+
+   HH
+
+
+                                                  Here                                    Trade
+            HL    3
+  1  HL  2
+
+
+
+Trend line Breaks: When the price breaks above an uptrend line or below a
+downtrend line, it might indicate a potential trend reversal or a significant
+change in market sentiment. Traders often pay close attention to these breaks as
+they can signal entry or exit points.
+
+=== PDF PAGE 22 ===
+Usual Representation of an Uptrend
+
+
+
+
+
+                                                 Here                                    Trade
+
+
+
+
+
+HH – Higher High
+
+HL – Higher Low
+
+=== PDF PAGE 23 ===
+Downtrend: In a downtrend, connect the highs of the price candles or bars with
+a straight line. This line represents the resistance level, indicating where sellers
+are consistently stepping in to prevent the price from rising further
+
+To Draw a Trend line we need a minimum of 2 Touches so that you can Trade
+on 3rd touch after 3rd touch market doesn’t Respect the level.
+
+
+
+         LH 1
+   LL                   LH
+
+                          LH   2              LL
+                                                           Here                                            Trade     3                     LL
+
+
+
+LH – Lower High
+
+LL – Lower Low
+
+=== PDF PAGE 24 ===
+                   CHAPTER – 5
+
+       UNDERSTANDING DIFFERENT TYPES OF MARKET
+
+
+In this Chapter, we will learn to identify the different types of market
+
+
+The Trading Market is categorized in three types
+
+
+     Trending Market
+     Ranging Market
+     Stack Market
+
+
+   Characteristics of a Trending Market in Binary Options Trading:
+
+   Consistent Price Movement: In a trending market, the price of the asset
+   shows a consistent movement in one direction over a period of time.
+
+   Higher Highs and Higher Lows (Uptrend): In an uptrend, the price forms
+   higher highs and higher lows, indicating a bullish trend. Traders look for
+   opportunities to place "Call" options, predicting that the price will continue
+   to rise.
+
+  Lower Highs and Lower Lows (Downtrend): In a downtrend, the price
+   forms lower highs and lower lows, indicating a bearish trend. Traders look
+   for opportunities to place "Put" options, predicting that the price will
+   continue to fall.
+
+  Smooth Price Movements: Trends often have smooth and steady price
+   movements, allowing traders to establish a clear direction for their binary
+   options trades.
+
+   Volatility Patterns: Trends usually have lower volatility compared to
+   ranging or sideways markets. This stability in price movement makes it
+   easier for traders to make predictions.
+
+=== PDF PAGE 25 ===
+Example of a Trending Market
+                   HH
+              HH
+
+                         HL      HH                    HL
+
+            HL
+
+
+
+
+
+Ranging Market
+
+A ranging market, also known as a sideways or flat market, refers to a situation
+in financial trading where the price of an asset moves within a horizontal range,
+showing no clear or sustained upward or downward trend. In a ranging market,
+the price fluctuates between a defined upper and lower boundary without
+making significant progress in either direction.
+
+Resistance
+
+
+
+                                  Support
+
+=== PDF PAGE 26 ===
+Characteristics of a Ranging Market:
+
+
+Horizontal Price Movement:
+
+Prices move sideways within a specific price range, creating a pattern
+resembling a flat line on a price chart.
+
+Support and Resistance Levels:
+
+The price repeatedly bounces off a support level (lower boundary) and a
+resistance level (upper boundary) without breaking through convincingly in
+either direction.
+
+Lack of Clear Trend:
+
+There is no dominant trend direction. Instead, the price oscillates between the
+support and resistance levels, making it challenging to identify a prevailing
+trend.
+
+Low Volatility:
+
+Ranging markets often experience lower volatility, with smaller price
+movements compared to trending markets.
+
+Indecision and Market Balance:
+
+Ranging markets indicate indecision among traders. Buyers and sellers are in
+equilibrium, with neither group able to establish control over the market.
+
+
+Example of a Ranging Market
+
+=== PDF PAGE 27 ===
+Stack Market
+
+Due to equal buyers' and sellers' pressure, market stack within a small range.
+This causes stack area formation. This whole stack area becomes strong support
+and resistance in the future. Refer to the below example of a stack area for
+better understanding.
+
+
+
+
+
+                         AREA                STACK   Resistance
+
+                                      Support
+
+
+
+
+
+Trading in a Stack Market is very Risky so I advise you to not to trade in stack
+market avoid trading or trade only with the help of sure shot signals
+
+=== PDF PAGE 28 ===
+                   CHAPTER – 5
+
+      UNDERSTANDING MONEY MANAGEMENT AND RISK
+                 MANAGEMENT
+
+
+Money management and risk management are important aspects of successful
+binary options trading. These strategies help traders protect their capital,
+manage losses, and preserve profits. Here's a detailed explanation of money
+management and risk management in binary options trading:
+
+
+Money Management & Risk Management
+
+
+   1) Capital Invested - The Very First Step in Money Management is to
+      understand your capital invested.
+      For example, if your capital is $100 your Target will be 10% of your
+      overall balance in this case it will be $10 dollars
+
+   2) Risk per Trade – Only risk 2% of your total capital per Trade
+      For example, if your capital is $100 you will only take a trade of $2
+
+   3) Minimizing the Risk - Avoid putting all your capital into a single trade.
+
+   4) Daily Target – Only Target 10% of your total balance is your target is
+      achieved stop trading for the day. And if you had a bad day you are only
+      allowed to lose a maximum of 20% of your capital amount once reached
+      stop trading for the day and start fresh the next morning.
+
+   5) Avoid Emotional Trading - Emotions can cloud judgment. Stick to your
+      trading plan, and don't deviate from your risk management rules, even if
+     you experience consecutive losses.
+
+   6) Educate Yourself - Continuous education about trading strategies,
+      market analysis, and risk management techniques is vital. The more you
+     know, the better you can manage risks and make informed decisions.
+
+=== PDF PAGE 29 ===
+                   CHAPTER – 6
+
+           MASTERING 30+ SURE SHOT PATTERNS
+
+
+
+
+Before Understanding the Sure shot Patterns we need to understand one thing
+which is very important no Strategies or no sure shot patterns have 100%
+accuracy in the market. And sure shot patterns are nothing but the patterns that
+are repeatedly created by the system and also by the buyers' and sellers'
+sentiments.
+
+If properly used with all the conditions these sure shot patterns can give you up
+to 90% of accuracy.
+
+IMPORTANT NOTE – Before using any of the sure shot patterns in the real
+market. It is very important for us to do backtesting in order to check which
+Sure shot pattern is working on that particular today Especially in OTC
+currency pair or in any OTC market.
+
+Every sure shot has its own pattern requirement, logic, precaution, and trading
+rules which you can’t ignore if you really want to become a successful trader.
+So if you're passionate about becoming a successful binary trader, you have to
+follow each and every rule strictly to increase your winning ratio. Till now
+whatever knowledge you have gained from this book, you have to combine all
+along to start with sure shot strategies. If you are not a self-disciplined person
+and refuse to follow Money Management and Risk Management binary options
+trading is not for you and this book won't help you if you don’t follow the
+conditions properly.
+
+=== PDF PAGE 30 ===
+   ALL 30 SURESHOT PATTERNS AND THE TYPE OF MARKET IT
+
+                  WORKS ON.
+
+SURE SHOT PATTERN    TYPE OF MARKET       TRADE TYPE
+
+      Sure Shot 1            Trending + Ranging            Continuation
+      Sure Shot 2            Trending + Ranging            Continuation
+      Sure Shot 3                 Trending                 Continuation
+      Sure Shot 4                 Trending                 Continuation
+      Sure Shot 5                 Trending                 Continuation
+      Sure Shot 6                 Trending                 Continuation
+      Sure Shot 7                 Trending                 Continuation
+      Sure Shot 8            Trending + Ranging           Reversal Trade
+      Sure Shot 9            Trending + Ranging           Reversal Trade
+     Sure Shot 10        Trending +Ranging +Stack         Continuation
+     Sure Shot 11        Trending +Ranging +Stack         Continuation
+     Sure Shot 12            Ranging + Stack              Continuation
+     Sure Shot 13                Ranging                Reversal Trade
+     Sure Shot 14            Ranging + Stack             Reversal Trade
+     Sure Shot 15        Trending +Ranging +Stack        Reversal Trade
+     Sure Shot 16        Trending +Ranging +Stack        Reversal Trade
+     Sure Shot 17            Ranging + Stack              Continuation
+     Sure Shot 18            Ranging + Stack              Continuation
+     Sure Shot 19           Trending + Ranging           Reversal Trade
+     Sure Shot 20                Trending                 Continuation
+     Sure Shot 21                Trending                 Continuation
+     Sure Shot 22                Trending                 Continuation
+     Sure Shot 23                Trending                 Continuation
+     Sure Shot 24                Trending                 Continuation
+     Sure Shot 25            Ranging + Stack             Reversal Trade
+     Sure Shot 26            Ranging + Stack             Reversal Trade
+     Sure Shot 27            Ranging + Stack             Reversal Trade
+     Sure Shot 28            Ranging + Stack             Reversal Trade
+     Sure Shot 29            Ranging + Stack             Reversal Trade
+     Sure Shot 30            Ranging + Stack             Reversal Trade
+
+=== PDF PAGE 31 ===
+               SURE SHOT PATTERNS - 1
+
+
+
+Requirements –
+
+
+   1. The market should be Trending or in a good Ranging Motion.
+   2. Then look for 1 Green candle and 2 back-to-back Red candles for the up-
+       direction trade or 1 Red candle and 2 back-to-back Green for the down
+       trade.
+   3. Then place a horizontal line between of 2 back two back candles
+   4. Wait for the market to come and break the horizontal line and then place
+      the trade in the same direction.
+   5. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Always follow the Trend never trade against the trend.
+   3. Only if above all conditions are satisfied then place the trade
+
+
+MTG – 1 STEP
+
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade.
+
+If the MTG is lost look for a new opportunity.
+
+=== PDF PAGE 32 ===
+             SURE SHOT PATTERN 1
+
+
+FOR UP DIRECTION TRADE BUY SETUP
+
+
+                                             Candle                              Trade
+
+
+
+
+
+                     line
+      Horizontalbetween two                                with
+   In   to back red                  Breakoutand body is
+    Back                     Wick
+       Candles                       Accepted
+
+LIVE EXAMPLE ON CHART
+
+
+
+
+
+                                       candle                       Trade
+
+
+
+
+
+                                                          candle                                       Breakout
+
+=== PDF PAGE 33 ===
+FOR DOWN DIRECTION TRADE SELL SETUP
+
+
+                line                                      with  Horizontalbetween two                       Breakoutand body is In         green                            WickBack-to-back                                    Accepted    Candles
+
+
+
+
+
+                                             Candle                              Trade
+LIVE EXAMPLE ON CHART
+
+
+
+
+
+                                               Candle                                Breakout
+
+
+
+
+
+                                        Candle                          Trade
+
+=== PDF PAGE 34 ===
+               SURE SHOT PATTERNS – 2
+
+                MAGIC V PATTERN
+
+Requirements –
+
+
+   1. The market should be Trending or in a good Ranging Motion.
+   2. Then look for 1 Green candle and 2 back-to-back Red candles or 1 Red
+      candle and 2 back-to-back Green.
+   3. Then place a horizontal line on top of the candles.
+   4. Wait for the market to come and break the horizontal line and then wait
+       for one candle whatever colour candle appears place the trade in the same
+       direction.
+   5. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Always follow the Trend never trade against the trend.
+   3. Only if above all conditions are satisfied then place the trade
+
+
+
+MTG – 1 STEP
+
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade.
+
+If the MTG is lost look for a new opportunity.
+
+=== PDF PAGE 35 ===
+             SURE SHOT PATTERN 2
+
+                MAGIC V PATTERN
+
+
+TRADE SETUP FOR UP AND DOWN
+
+
+                                       Trade
+
+                                this candle is green
+                 Ifnext candle green. If it is
+             Then  then next candle red
+             Red
+              lineHorizontal
+
+
+
+
+
+                                                        Trade
+
+
+                                                candle                               Breakout
+
+=== PDF PAGE 36 ===
+LIVE EXAMPLE ON CHART
+
+
+
+
+                                                                            for a candle. The
+                                         Wait  is red then place
+                                               candle direction Trade
+                                   Down
+
+
+
+
+
+                                                                           candle                                                   Trade
+
+
+                                                      candle                                   Breakout
+
+
+
+
+
+MTG – 1 STEP
+
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade.
+
+If the MTG is lost look for a new opportunity.
+
+=== PDF PAGE 37 ===
+               SURE SHOT PATTERNS – 3
+
+            MAGIC V PATTERN ADVANCED
+
+
+Requirements –
+
+
+   1. The market should be Trending in a Motion.
+   2. Then look for 1 Green candle and 2 back-to-back Red candles or 1 Red
+      candle and 2 back-to-back Green.
+   3. Then place a horizontal line on top of the candles.
+   4. Wait for the market to come and break the horizontal line then place the
+      trade in the same direction.
+   5. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Always follow the Trend never trade against the trend.
+   3. You have to check whether SS2 or SS3 is working in the market on that
+       particular day if SS3 is working then use SS3 if SS2 is working use SS2
+   4. Only if above all conditions are satisfied then place the trade
+
+
+IMPORTANT NOTE – Either SS2 or SS3 will work so back text properly
+to identify.
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade.
+
+If the MTG is lost look for a new opportunity.
+
+=== PDF PAGE 38 ===
+             SURE SHOT PATTERN 3
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+                                   Candle                       Trade
+
+
+
+
+
+                                                       candle                                     Breakout
+
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+                                                                          candle                                                   Trade
+                                                           candle                                        Breakout
+
+=== PDF PAGE 39 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                                 candle                                Breakout
+
+
+
+
+
+                                                        Candle                                       Trade
+
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                                                      candle                                                 Breakout
+
+
+
+
+
+                                 Candle                     Trade
+
+=== PDF PAGE 40 ===
+               SURE SHOT PATTERNS – 4
+
+
+
+Requirements –
+
+
+   1. The market should be Trending in Motion.
+   2. Then look for a bullish engulfing pattern once it is formed immediately a
+      green tailless candle should appear.
+   3.  Then place a trade in the up direction. The same goes with the down-
+       direction trade one tailless candle should appear after bearish engulfing.
+   4. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+
+
+
+                 Engulfing                     Engulfing        Bullish                 Bearish
+
+=== PDF PAGE 41 ===
+Bullish Engulfing – When a green candle completely covers the previous red
+candle it is a called bullish engulfing candle
+
+
+Bearish Engulfing – When a red candle completely covers the previous green
+candle it is a called bearish engulfing candle
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Always follow the Trend never trade against the trend.
+   3. Only if above all conditions are satisfied then place the trade
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade.
+
+If the MTG is lost look for a new opportunity.
+
+=== PDF PAGE 42 ===
+            SURE SHOT PATTERNS – 4
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                           Trade candle
+
+
+                                          candle                                  Tailless
+
+
+
+                       Engulfing             Bullish
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                           candle                           Trade
+
+
+
+                                        candle                                Tailless
+                                 candle                     Engulfing
+
+=== PDF PAGE 43 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+                                               Engulfing                              Bearish
+
+
+                                                  candle                                          Tailless
+
+
+
+
+
+                                                      candleLIVE EXAMPLE ON THE CHART            Trade
+
+
+
+
+
+                                                candle                                        Tailless
+       Bearish
+      Engulfing
+                                                 candle                                Trade
+
+=== PDF PAGE 44 ===
+               SURE SHOT PATTERNS – 5
+
+
+Requirements –
+
+
+   1. The market should be Trending in Motion either uptrend or downtrend
+   2. Then wait back to back 4 green candles ( minimum 4 same color candles)
+      or Minimum 4 red candles
+   3. After that wait for 1 opposite color candle
+   4. Then place a horizontal line at the top of the opposite colour candle
+   5. Then wait for the next candle to appear
+   6.  If that candle doesn’t break the horizontal line then place the trend
+   7. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Always follow the Trend never trade against the trend.
+   3. Only if above all conditions are satisfied then place the trade
+
+
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade.
+
+If the MTG is lost look for a new opportunity.
+
+
+Note – For better understanding check the illustration.
+
+=== PDF PAGE 45 ===
+            SURE SHOT PATTERNS – 5
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                          1 or 2 opposite
+                         candle
+
+
+
+
+
+                                                             candle                                         Trade
+
+
+
+
+
+                                                 this candle doesn’t
+                           If   the horizontal line
+                           break place up trade in
+                          then     candle
+                              next
+                     4 same
+         Minimumcandle it can
+           colorbe more than 4
+          also
+Important Note – If 3 red candle appears pattern is not valid
+
+If after 2 red candle green candles break the horizontal line pattern is invalid
+
+Make sure if all condition are satisfied enter in trade if stochastic is supporting
+your direction
+
+=== PDF PAGE 46 ===
+LIVE EXAMPLE ON THE CHART
+
+                                               Trade candle
+
+
+
+
+
+                                                      This candle                              1 or 2 opposite
+                                 have notthe                             candle                                    Broken
+                                             horizontal
+
+
+
+
+                            4 same
+              Minimumcandle it can
+                 colorbe more than 4
+                also
+
+
+
+
+
+Important Note – Make sure to check the stochastic indicator green line should
+be above red line.
+
+=== PDF PAGE 47 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                    4 same
+        Minimumcandle it can                                                 this candle doesn’t          colorbe more than 4     If   the horizontal line         also                           break place up trade in
+                          then     candle
+                              next
+
+
+
+
+
+                                                      candle                                    Trade
+                    1 or 2 opposite
+                    candle
+
+=== PDF PAGE 48 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                                       4 same color
+                                   Minimumit can also be more
+                                        candle       4
+                                          than
+
+                                                                                     not broken
+                                                     Have   level
+                                                    The
+
+
+            1 or 2 opposite     Trade                            candle                                         Candle
+
+
+
+
+Important Note – The Main logic behind this pattern is market tries to fulfil the
+level at which we have placed the horizontal line.
+
+Make sure to check the stochastic indicator red line should be above green line
+for a down direction trade.
+
+=== PDF PAGE 49 ===
+               SURE SHOT PATTERNS – 6
+
+
+Requirements –
+
+
+   1. The market should be Trending in Motion either uptrend or downtrend
+   2. Then wait back to back 4 green candles ( minimum 4 same color candles)
+      or Minimum 4 red candles
+   3. After that wait for 1 opposite color candle
+   4. Then place a horizontal line at the top of the opposite colour candle
+   5.  If that candle breaks the level ( horizontal line) with the body then place
+     The trade in the same direction
+   6. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Always follow the Trend never trade against the trend.
+   3. Only if above all conditions are satisfied then place the trade
+
+
+
+
+NON MTG PATTERN
+
+  The market will give you a sure-shot trade if lose then don’t take the MTG
+   trade.
+
+=== PDF PAGE 50 ===
+            SURE SHOT PATTERNS – 6
+
+
+
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+            the                                         Trade    Place  line at                                          Candle  horizontaltop
+    the
+
+
+
+
+
+                                                candle
+                               Breakoutwith the
+                          Only is valid.
+                         body
+
+
+
+                                4
+                 Minimumcolor candles
+              Same
+
+
+
+
+
+Important Note – Make sure the breakout only through the body is valid.
+
+=== PDF PAGE 51 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                                 Candle
+                         the horizontal    Trade
+               Placeat the top of the
+               lineTwo candles which
+                     Ever is the highest
+
+
+
+
+
+                                   Breakout candle
+                        Only with the body is
+                                 valid.
+
+
+
+
+
+Important Note – Make sure the breakout only through the body is valid.
+
+=== PDF PAGE 52 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+                        4
+           Minimumcolor candles
+        Same
+
+                            Breakoutwithcandlethe
+                        Only is valid.
+                      body
+
+
+
+
+
+                   the horizontal line at
+          Placebottom of the candles
+         the      which
+                Ever is the lowest point               Trade
+                                           Candle
+
+NON MTG PATTERN
+
+  The market will give you a sure-shot trade if lose then don’t take the MTG
+   trade.
+
+  Make sure the breakout only through the body is valid.
+
+=== PDF PAGE 53 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                      Breakoutwithcandlethe body is
+                                 Only
+                                            valid.
+
+
+
+
+
+                         the horizontal line at
+               Place  bottom of the
+               theTwo candles which
+                      Ever is the lowest point
+                                                         Candle                                        Trade
+
+
+
+Important Note – Make sure the breakout only through the body is valid.
+
+=== PDF PAGE 54 ===
+               SURE SHOT PATTERNS – 7
+
+
+Requirements –
+
+
+   1. The market should be Trending in Motion either uptrend or downtrend
+   2.  First, for up trade look for Green red Green candles then a minimum of 4
+      green candles
+   3. Wait for 1 red candle to appear then place a trade in the UP direction
+   4. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red.
+   5. For the down direction look for Red Green Red then a minimum of 4 red
+      candles then wait for 1 green candle to appear then place the trade in the
+     down direction.
+   6. Also, use a Stochastic Oscillator at the default value for down-direction
+      trade red line should be above green.
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Always follow the Trend never trade against the trend.
+   3. Only if above all conditions are satisfied then place the trade
+
+
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade.
+
+If the MTG is lost look for a new opportunity.
+
+=== PDF PAGE 55 ===
+            SURE SHOT PATTERN – 7
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+                                       opposite candle              1
+
+
+
+
+
+                                                        Candle                                       Trade
+
+
+
+
+
+                       Minimum3-4 Green candle
+
+
+
+
+              red Green    Green
+
+Important Note – Always check the stochastic indicator before placing trade
+for up direction market green line should be above red.
+
+=== PDF PAGE 56 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                 opposite candle           1
+
+
+
+
+
+                                                Candle                                 Trade
+
+
+
+
+
+                                     Green candle                     Minimum3-4
+
+
+
+
+
+                        Red Green              Green
+
+
+Important Note – Always check the stochastic indicator before placing trade
+for up direction market green line should be above red.
+
+=== PDF PAGE 57 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                    Green Red   Red
+
+
+
+
+
+                                                          candle                 Trade
+
+
+
+
+
+                   3-4 Red candle      Minimum
+
+
+                               opposite candle           1
+
+
+
+Important Note – Always check the stochastic indicator before placing trade
+for down direction market red line should be above green.
+
+=== PDF PAGE 58 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+            Green Red     Red
+
+
+
+
+
+                                     opposite candle             1
+
+
+
+
+
+                        3-4 Red candle        Minimum
+
+
+
+
+                                                      Candle                                     Trade
+
+
+
+
+Important Note – Always check the stochastic indicator before placing trade
+for down direction market red line should be above green.
+
+=== PDF PAGE 59 ===
+               SURE SHOT PATTERN – 8
+
+
+
+
+Requirements –
+
+
+   1. The market should be Trending or in a Ranging Motion
+   2. Then wait back to back 4 same color candle
+   3. After that market will start the color pattern Green Red Green Red
+   4. Wait until the color pattern breaks then take a trade in another direction
+   5. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Always follow the Trend never trade against the trend.
+   3. Only if above all conditions are satisfied then place the trade
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade.
+
+If the MTG is lost look for a new opportunity.
+
+=== PDF PAGE 60 ===
+            SURE SHOT PATTERN – 8
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                                         Candle                                        Trade
+
+
+
+
+                                Pattern                   Color
+
+
+
+
+
+                    3-4 Green candle
+                                             candle have broken      Minimum                              This    color pattern
+                          The
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade. If the MTG is lost look for a new opportunity.
+
+2) If the green candle would have broken the colour pattern then we would have
+taken trade for red in down direction.
+
+=== PDF PAGE 61 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                             candle have broken
+                              This    color pattern
+                          The
+
+
+
+
+
+                                                     Candle                                     Trade                                         Pattern                          Color
+
+
+
+
+                         3-4 Green candle         Minimum
+
+
+
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade. If the MTG is lost look for a new opportunity
+
+2) If the green candle have broken the color pattern then we would have taken
+trade for red in the down direction
+
+=== PDF PAGE 62 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                                   Trade Candle
+                                      candle have broken
+                         This    color pattern
+                     The
+
+
+
+
+
+             3-4
+ Minimumcandle
+  Red
+
+                                Pattern                   Color
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade. If the MTG is lost look for a new opportunity
+
+2) If the red candle had broken the color pattern then we would have traded for
+the green candle in the up direction
+
+=== PDF PAGE 63 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                        candle have broken
+                           This    color pattern
+                       The
+
+
+                                       Pattern                        Color
+
+
+
+
+             3-4 Green candle Minimum
+
+
+
+                                             Candle                               Trade
+
+
+MTG – 1 STEP
+
+If the trade is lost only take 1 Step MTG if the stochastic oscillator is supporting
+your direction of the trade. If the MTG is lost look for a new opportunity
+
+=== PDF PAGE 64 ===
+               SURE SHOT PATTERN – 9
+
+
+
+
+It is an advanced pattern of Sure shot – 8
+
+
+Requirements –
+
+
+     1. Wait for the Sure shot pattern 8 to be informed perfectly
+     2. Once it is formed if you have taken up-direction on SS8 if the market
+       forms a green candle after that then take a trade-in down direction
+     3. The same goes if you have taken a down-direction trade on SS8 if the
+       market forms a red candle after that then take a trade in an up-direction.
+     4. For better understanding check the illustration.
+
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. The market will only give you trade on SS9 if your SS8 is sure shot trade
+   3. Only if above all conditions are satisfied then place the trade.
+
+
+
+
+MTG – 1 STEP
+
+If the trade is lost only take MTG if the stochastic oscillator is supporting your
+direction of the trade. If the MTG is lost look for a new opportunity
+
+=== PDF PAGE 65 ===
+            SURE SHOT PATTERN – 9
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+                                          by the same color                             Followed
+                                    candle
+
+
+
+
+
+                                                             candle                                         Trade
+
+
+
+                                        Trade Candle                        Ss8
+
+
+
+
+
+Important Note – Only if market gives you SS8 sure shot without MTG then
+you can go for SS9
+
+In Sure shot 9 you can use 1- Step MTG
+
+=== PDF PAGE 66 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                                        candle                                     Trade
+
+
+
+
+
+                      Trade Candle           Ss8
+
+
+
+                            by the same color                 Followed
+                        candle
+
+=== PDF PAGE 67 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                                   win                          MTG                           Followed by the same color candle
+
+
+
+
+
+                           Trade Candle               Ss8                                                    candle lost                                  Trade
+
+
+
+
+Important Note – Only if the market gives you an SS8 sure shot without MTG
+you can go for SS9
+
+In Sure shot 9 you can use 1-Step MTG
+
+=== PDF PAGE 68 ===
+               SURE SHOT PATTERN – 10
+
+
+Trade on GAP UP AND GAP DOWN SITUATION
+
+
+Requirements –
+
+
+     1.   It doesn’t matter if the Market is in Tending, Ranging, or Stack
+       Motion. This Pattern works in all types of markets.
+     2. For up-direction wait for a candle to form a Gap up.
+     3. Once Gap Up is formed take the trade in the UP direction only if the
+       market gives a gap up.
+     4. Check the stochastic indicator green line should be above the red.
+     5. In this, we will get 2 trades. After Up- the direction trade places a down
+        direction trade because the market will create one red candle in order to
+           fill up the gap.
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP
+
+Only Take MTG on the second Trade don’t take MTG on the first Trade.
+
+Always check stochastic indicator is supporting your direction or not.
+
+=== PDF PAGE 69 ===
+ FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+          Trade in same direction     1st
+
+      up situation Gap
+
+
+
+
+
+                                          Trade in the Opposite                           2nd
+                                          direction
+
+ FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+    down situationGap
+
+
+
+
+
+          Trade in same direction              Trade in the Opposite     1st                      2nd
+                                            direction
+
+=== PDF PAGE 70 ===
+            SURE SHOT PATTERN – 10
+
+LIVE EXAMPLE ON THE CHART
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+                                                  Trade in the                                 2nd
+                                      Opposite
+     up situation                                              directionGap
+
+
+
+
+
+                               Trade in same direction                      1st
+
+
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+                                                 Trade in the                                 2nd
+       down  Gap                                Opposite
+   Situation                                  direction
+
+
+
+
+
+                   Trade in same direction             1st
+
+=== PDF PAGE 71 ===
+               SURE SHOT PATTERN – 11
+
+
+Trade on GAP UP AND GAP DOWN SITUATION – Part 2
+
+Requirements –
+
+
+     1.   It doesn’t matter if the Market is in Tending, Ranging, or Stack
+       Motion. This Pattern works in all types of markets.
+     2. For up-direction trade wait for a candle to form a Gap down after a
+       green candle.
+     3. For down-direction trade wait for a candle to form a Gap up after a red
+        candle.
+     4. In this, we will get 1 trade. If there is a gap down after a green candle
+        the other candle will be green because the market will create an up in
+        order to fill the gap as the same goes with down direction trade.
+     5. Check whether the stochastic indicator is supporting your direction or
+         not.
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP
+
+Only Take MTG on the second Trade don’t take MTG on the first Trade.
+
+Always check stochastic indicator is supporting your direction or not.
+
+=== PDF PAGE 72 ===
+            SURE SHOT PATTERN – 11
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                             candle for up                             Trade
+
+
+
+
+
+                              down opening                   Gap
+If a gap down is formed after a green candle then place a trade for green candle.
+Because market will go up in order to fulfil the gap.
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+                                      up opening                       Gap
+
+
+
+
+                                             candle for down                             Trade
+
+If a gap up candle is formed after a red candle then place a trade for red candle.
+Because market will go down in order to fulfil the gap.
+
+=== PDF PAGE 73 ===
+LIVE EXAMPLE ON THE CHART
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+        candle for up Trade
+
+                                      down opening                         Gap
+
+
+
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                          up opening                          Gap
+
+
+
+
+
+       candle
+Tradedown
+ for
+
+=== PDF PAGE 74 ===
+               SURE SHOT PATTERN – 12
+
+
+Requirements –
+
+
+     1. The Market is in Ranging or Stack Motion. But This Pattern works in
+          all types of markets.
+     2.  First, look for a Green and red candle to form
+     3.  If a doji candle appears after that so whichever colour doji is formed
+        Place the trade in the same direction
+     4. Also, check whether the Stochastic indicator is supporting your
+        direction
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP
+
+1 Step MTG can be used always check stochastic indicator is supporting your
+direction or not.
+
+
+
+
+
+Important Note – Make sure to check stochastic indicator whether it is
+supporting your direction or not.
+
+=== PDF PAGE 75 ===
+            SURE SHOT PATTERN – 12
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                              Trade candle in         Red
+                                                        direction  Greenappear                      Green color Doji    up candle
+
+
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+         Red
+  Greenappear
+                    Red color Doji        Trade candle in candle
+                          down direction
+
+=== PDF PAGE 76 ===
+LIVE EXAMPLE ON THE CHART
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                               Trade candle in
+                                                          direction
+                 Red candle                         up         Green
+             appear       Green color Doji
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+                                 candle in
+                    Trade direction
+                down
+
+
+
+
+
+               Red candle       Green
+                          Red color Doji           appear
+
+=== PDF PAGE 77 ===
+               SURE SHOT PATTERN – 13
+
+
+Requirements –
+
+
+     1. The Market should be good in Ranging Motion. First, look for a Green
+       and red candle to form.
+     2. Then wait for 3 back to back green candle or 3 back to back red candle
+     3. After that wait for a Doji to appear then take a trade
+     4.  If a red Doji appears after 3 green candles then take a trade in down-
+        direction
+     5.  If a green Doji appears after 3 red candles then take a trade in up-
+        direction
+     6. Also, check stochastic indicator is supporting your direction
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+
+
+MTG – 1 STEP
+
+1 Step MTG can be used always check stochastic indicator is supporting your
+direction or not.
+
+=== PDF PAGE 78 ===
+            SURE SHOT PATTERN – 13
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+                                            candle                            Trade
+
+
+
+
+
+             3   Minimum
+     Candle
+                                                      Doji                             Green
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                               Trade candle                                        Doji                   Red
+
+
+
+                           3             Minimum
+                 Candle
+
+=== PDF PAGE 79 ===
+LIVE EXAMPLE ON THE CHART
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                              Doji                      Red
+                                  Trade                          3            Minimum
+                Candle
+
+
+
+
+
+                                       Red line should
+                       be above green
+
+=== PDF PAGE 80 ===
+               SURE SHOT PATTERN – 14
+
+
+Requirements –
+
+
+     1. The Market should be good in Ranging Motion. First, wait for a Green
+       and red candle to form.
+     2. Then wait for 1 green candle to form
+     3.  If the last green candle breaks the lower low of the previous red candle
+     4. Then place the trade in the down direction
+     5. Also, check stochastic indicator is supporting your direction
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+    Important Note – Wick should break the body of the red candle
+    downwards
+
+
+MTG – 1 STEP
+
+1 Step MTG can be used always check stochastic indicator is supporting your
+direction or not.
+
+=== PDF PAGE 81 ===
+    FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+                                                   Trade Candle
+
+
+
+
+
+                               green candle Wick should break the
+                     This   wick of the previous Red candle
+                   body
+
+    LIVE EXAMPLE ON THE CHART
+
+
+
+
+                                                           Candle
+                    Trade Candle                                          Trade
+
+
+
+
+
+     green candle Wick should break the
+This   wick of the previous Red candle
+ body
+   MTG – 1 STEP can be used but make sure to check stochastic.
+
+=== PDF PAGE 82 ===
+               SURE SHOT PATTERN – 15
+
+
+Requirements –
+
+
+     1. Look for a hammer candle
+     2.  If the market makes an inverted hammer candle after a Hammer candle
+     3. Then we can place a trade in the down direction
+     4. Check whether the stochastic is supporting your direction or not
+
+
+                                Inverted
+                       Hammer
+
+
+
+
+    Hammer                                              Candle                               Trade
+
+
+MTG – 1 STEP can be used but make sure to check stochastic.
+
+=== PDF PAGE 83 ===
+               SURE SHOT PATTERN – 16
+
+
+
+  Requirements –
+
+
+     1. Look for one inverted hammer candle
+     2.  If the market makes a hammer candle after an inverted Hammer candle
+     3. Then we can place a trade in the up direction
+     4. Check whether the stochastic is supporting your direction or not
+
+
+
+
+
+                                             Candle                              Trade
+
+    Inverted
+   Hammer                      Hammer
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic.
+
+=== PDF PAGE 84 ===
+               SURE SHOT PATTERN – 17
+
+
+  Requirements –
+
+
+     1. Look for one headless red candle.
+     2.  If a green tailless candle is formed after a red headless candle
+     3. Then place the trade in UP – DIRECTION
+     4. Check stochastic indicator is supporting your direction or not
+
+
+
+
+
+                                                  Candle                                  Trade
+
+
+
+                  red
+                                      green      Headless                               Tailless        candle                           candle
+
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic.
+
+=== PDF PAGE 85 ===
+LIVE EXAMPLE ON CHART
+
+
+
+
+
+                                                  Candle                                   Trade
+
+
+                             green              red                      Tailless   Headless                    candle      candle
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic.
+
+=== PDF PAGE 86 ===
+               SURE SHOT PATTERN – 18
+
+
+
+  Requirements –
+
+
+     1. Look for one Tailless green candle.
+     2.  If a red tailless candle is formed after a green tailless candle
+     3. Then place the trade in DOWN– DIRECTION
+     4. Check stochastic indicator is supporting your direction or not
+
+
+
+
+                                               red                                        Tailless
+                                 candle
+
+
+
+
+
+                                               candle                green                               Trade         Tailless
+         candle
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 87 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                 red                         Tailless
+                      candle
+
+
+
+
+
+                    green             Tailless
+             candle
+                                     candle                       Trade
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 88 ===
+               SURE SHOT PATTERN – 19
+
+
+
+
+
+Requirements –
+
+
+   1. The market should be Trending in Motion either uptrend or downtrend
+   2. Then wait back to back 4 green candles ( minimum 4 same color candles)
+      or Minimum 4 red candles
+   3. Check if a doji candle is formed either in an uptrend or downtrend
+   4. Then place a horizontal line at the doji candle
+   5. Now wait for the market to reverse and break that horizontal line
+   6. Once the line is break then place the trade in same direction
+   7. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 89 ===
+            SURE SHOT PATTERN – 19
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                    candle                      Trade
+
+
+
+
+
+              line
+Horizontaldoji
+                 candle  At
+                                                  candle         Doji                                 Breakout
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 90 ===
+LIVE EXAMPLE ON THE CHART
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                                       Trade candle
+
+                        line at
+                                                    candle        Horizontal                                  Breakout            doji
+
+
+
+
+
+         candle   Doji
+
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 91 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+                                                   candle                                 Breakout
+
+
+
+
+
+                       candle              Doji
+
+
+                                                   candle                                 Trade
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 92 ===
+LIVE EXAMPLE ON THE CHART
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                                 candle                               Breakout
+
+
+                                                              candle              candle                                          Trade       Doji
+
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 93 ===
+              SURE SHOT PATTERNS – 20
+
+
+Requirements –
+
+
+   1. The market should be Trending in Motion either uptrend or downtrend
+   2. Then wait back to back 4 green candles ( minimum 4 same color candles)
+      or Minimum 4 red candles
+   3. Check if a doji candle is formed either in an uptrend or downtrend
+   4.  If the same color candle is formed then take the trade in the same
+       direction
+   5. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. The last candle shouldn’t be a hammer, an abnormal candle, or a big
+      candle
+   3. Only if above all conditions are satisfied then place the trade.
+
+
+
+
+MTG – NO MTG SETUP
+
+=== PDF PAGE 94 ===
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                                Candle                                 Trade
+
+
+                                           Doji same
+                          After  candle
+                            color
+
+                             candle                  Doji
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. The last candle shouldn’t be a hammer, an abnormal candle, or a big
+      candle
+   3. Only if above all conditions are satisfied then place the trade.
+
+
+
+
+MTG – NO MTG SETUP
+
+=== PDF PAGE 95 ===
+LIVE EXAMPLE ON THE CHART
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                              candle                  Trade
+                Same color green candle
+
+              candle       Doji
+
+
+
+
+
+MTG – NO MTG SETUP
+
+=== PDF PAGE 96 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                  candle         Doji
+
+
+
+
+
+                         Doji same
+                                                 candle             After  candlePrecaution –                        Trade              color
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. The last candle shouldn’t be a hammer, an abnormal candle, or a big
+      candle
+   3. Only if above all conditions are satisfied then place the trade.
+
+
+
+
+MTG – NO MTG SETUP
+
+=== PDF PAGE 97 ===
+LIVE EXAMPLE ON THE CHART
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                   candle         Trade
+
+
+
+
+
+      candleDoji
+
+                   color
+      Same after
+        candle
+           doji
+
+
+Precaution –
+
+    1. Make sure to back-test on the currency pair before using the sure shot
+       pattern on the real account to check whether this Sure shot pattern is
+      working on that particular day or not.
+    2. The last candle shouldn’t be a hammer, an abnormal candle, or a big
+      candle
+    3. Only if above all conditions are satisfied then place the trade.
+
+
+
+
+MTG – NO MTG SETUP
+
+=== PDF PAGE 98 ===
+              SURE SHOT PATTERNS – 21
+
+
+
+Requirements –
+
+
+   1. The market should be in trending motion
+   2. Then wait for back to back 5 same color. ( minimum 5)
+   3. Wait for one opposite color candle to form
+   4. Once it is formed mark the High and Low of that candle with the
+      horizontal line
+   5. Now wait for the market to reverse and break the horizontal line
+   6. Once you get a successful breakout then place the trade in the same
+       direction.
+   7. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. The last candle shouldn’t be a hammer, an abnormal candle, or a big
+      candle
+   3. Only if above all conditions are satisfied then place the trade.
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 99 ===
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                          candle                           Trade
+
+
+
+
+                                         line                     Horizontal
+
+
+
+
+
+                                                              candle
+           5                                          Breakout Minimumcolor
+ Same
+   Candle
+
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 100 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                                candle                               Trade
+
+                                                      line at
+                               Horizontalof opposite
+                5                      Top     Minimumcolor                              Candle     Same
+       Candle
+
+
+
+
+
+                                                     candle                                    Breakout
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 101 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                        candle                        Breakout
+
+                                                       candle                                    Trade
+                        5
+           Minimumcolor
+          Same
+              Candle
+
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 102 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                             candle                            Breakout
+
+
+                                                   candle                                  Trade
+
+                          5
+             Minimumcolor
+            Same
+                Candle
+
+
+
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 103 ===
+              SURE SHOT PATTERNS – 22
+
+
+
+
+
+Rising Three Method
+
+
+Requirements –
+
+
+   1. The market should be in trending motion
+   2. Then wait for 3 back to back green candle
+   3. After that wait for 3 back to back red candle
+   4. Wait for 1 green candle to engulf all three red candle
+   5. Once you get a successful breakout then place the trade in the same
+       direction.
+   6. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 104 ===
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                     candle                       Trade
+
+                            candle               Breakout
+
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 105 ===
+              SURE SHOT PATTERNS – 23
+
+
+
+
+Falling Three Method
+
+
+Requirements –
+
+
+   1. The market should be in trending motion
+   2. Then wait for 3 back to back red candle
+   3. After that wait for 3 back to back green candle
+   4. Wait for 1 red candle to engulf all three red candle
+   5. Once you get a successful breakout then place the trade in the same
+       direction.
+   6. Also, use a Stochastic Oscillator at the default value for up-direction trade
+      green line should be above red, and for down-direction red line should be
+     above green.
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 106 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                                       candle                                    Trade
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade.
+
+
+MTG – 1 STEP can be used but make sure to check stochastic indicator is
+supporting your direction or not.
+
+=== PDF PAGE 107 ===
+              SURE SHOT PATTERNS – 24
+
+Requirements –
+
+
+   1. The market should be in trending motion
+   2. 4 candle setup
+   3. The candle size should keep on increasing
+   4. Then place a trade in the opposite direction
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade
+   3. Avoid Hammer and Doji candle
+
+
+MTG – 1 STEP can be used but make sure there should be an SNR level
+nearby.
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                                     candle1                          Trade 2  3
+  4
+
+=== PDF PAGE 108 ===
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+      4
+
+
+
+
+
+                                             Trade candle       3
+1   2
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade
+   3. Avoid Hammer and Doji candle
+
+
+MTG – 1 STEP can be used but make sure there should be an SNR level
+nearby.
+
+=== PDF PAGE 109 ===
+              SURE SHOT PATTERNS – 25
+
+
+Brazilian Pattern
+
+WORKS BEST ON LIVE MARKET
+
+Requirements –
+
+
+   1. The market should be in ranging motion.
+   2. 1 Green 2 red 1 green 1 red
+   3. Then place the trade in up - the direction
+   4. Check stochastic indicator is supporting your direction.
+
+
+Works best in live Market
+
+MTG – 2 STEP
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                                 candle                                Trade
+
+=== PDF PAGE 110 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                           candle                           Trade
+
+
+
+                            Stochastic
+                         support
+
+
+
+
+
+Precaution –
+
+   1. Make sure to back-test on the currency pair before using the sure shot
+      pattern on the real account to check whether this Sure shot pattern is
+     working on that particular day or not.
+   2. Only if above all conditions are satisfied then place the trade
+
+=== PDF PAGE 111 ===
+              SURE SHOT PATTERNS – 26
+
+
+Brazilian Pattern
+
+WORKS BEST ON LIVE MARKET
+
+Requirements –
+
+
+   1. The market should be in ranging motion.
+   2. 1 red 2 green 1 red 1 green
+   3. Then place the trade-in down-direction
+   4. Check stochastic indicator is supporting your direction.
+
+
+Works best in live Market
+
+MTG – 2 STEP
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+=== PDF PAGE 112 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                          candle                          Trade
+
+
+
+
+
+Works best in live Market
+
+MTG – 2 STEP
+
+
+Important Note – Always check stochastic indicator should support your
+direction.
+
+=== PDF PAGE 113 ===
+              SURE SHOT PATTERNS – 27
+
+
+
+
+Brazilian Pattern
+
+WORKS BEST ON LIVE MARKET
+
+Requirements –
+
+
+   1. The market should be in ranging motion.
+   2. 1 green 1 red 2 green
+   3. Then place the trade-in down-direction
+   4. Check stochastic indicator is supporting your direction.
+
+
+
+
+Works best in live Market
+
+MTG – 1 STEP
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+                                            candle                            Trade
+
+=== PDF PAGE 114 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                    candle                      Trade
+
+
+
+
+
+Works best in live Market
+
+MTG – 1 STEP
+
+
+Important Note – Always check stochastic indicator should support your
+direction.
+
+=== PDF PAGE 115 ===
+              SURE SHOT PATTERNS – 28
+
+
+Brazilian Pattern
+
+WORKS BEST ON LIVE MARKET
+
+Requirements –
+
+
+   1. The market should be in ranging motion.
+   2. 1 red 1 green 2 red
+   3. Then place the trade-in up-direction
+   4. Check stochastic indicator is supporting your direction.
+
+
+Works best in live Market
+
+MTG – 1 STEP
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+
+
+
+
+                                            candle                            Trade
+
+=== PDF PAGE 116 ===
+LIVE EXAMPLE ON THE CHART
+
+
+
+
+
+                                    candle                      Trade
+
+
+
+
+Important Note – Always check stochastic indicator should support your
+direction.
+
+=== PDF PAGE 117 ===
+             SURE SHOT PATTERNS – 29-30
+
+Color Pattern
+
+Requirements –
+
+
+   1. The market should be in Ranging Motion or Stack
+   2. Then wait for the market to make a green-red color pattern
+   3. Then check the overall trend then place the trade
+   4. In the overall trend following the color pattern
+
+
+FOR DOWN-DIRECTION TRADE SELL SETUP
+
+
+
+
+
+FOR UP-DIRECTION TRADE BUY SETUP
+
+=== PDF PAGE 118 ===
+                   CHAPTER – 7
+
+          MASTERING TOP 2 SURE SHOT STRATEGY
+
+              WHICH WORK EVERY TIME
+
+STRATEGY – 1
+
+Requirements –
+
+   1. The market should be in trending motion
+   2. Then apply Moving Average EMA 5
+   3. Apply Parabolic at default 0.02
+   4. Also apply stochastic indicator at 80 , 20
+
+
+5 EMA – will indicate how strong buyers and sellers in the market
+
+Stochastic Indicator will give you the direction of the Market
+
+
+
+
+
+Once a strong candle breaks the EMA 5 line and parabolic is supporting the
+same direction and even stochastic indicator is supporting the same direction
+
+You can place a trade in same direction until opposite colour candle crosses
+EMA 5.
+
+=== PDF PAGE 119 ===
+                    2 SURE SHOT STRATEGY
+
+
+Requirements –
+
+   1. The market should be in trending motion
+   2. Then apply Moving Average EMA 5
+   3. Apply Parabolic at default 0.02
+   4. Donchain channel at period 17
+   5. Also apply stochastic indicator at 80 , 20
+
+
+5 EMA – will indicate how strong buyers and sellers in the market
+
+Stochastic Indicator will give you the direction of the Market
+
+For up direction – Make sure market is in uptrend and in upper channel of
+donchain channel then wait for a tailless candle to appear
+
+Check if parabolic and stochastic is supporting the same direction then place a
+trade
+
+
+   1- Step MTG can be used if condition is perfect
+
+
+
+
+
+                                 candle                        Tailless                                       Trade candle

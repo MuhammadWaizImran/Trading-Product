@@ -1,0 +1,17 @@
+{
+  "conditions": {
+    "base": {
+      "count": 16,
+      "truncated": 0,
+      "unrecognized_citations": []
+    },
+    "adapter008": {
+      "count": 16,
+      "truncated": 0,
+      "unrecognized_citations": []
+    }
+  },
+  "frozen_packets_match": true,
+  "decision": "not promoted; sell limit improved, unknown source attribution persists",
+  "report": "research/PDF_ADAPTER_006_RESULTS.md"
+}

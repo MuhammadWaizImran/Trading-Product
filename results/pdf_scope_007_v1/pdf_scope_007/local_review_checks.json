@@ -1,0 +1,28 @@
+{
+  "conditions": {
+    "base_unguarded": {
+      "count": 8,
+      "truncated": 0,
+      "model_calls": 8
+    },
+    "base_scoped": {
+      "count": 8,
+      "truncated": 0,
+      "model_calls": 5
+    },
+    "adapter009_unguarded": {
+      "count": 8,
+      "truncated": 0,
+      "model_calls": 8
+    },
+    "adapter009_scoped": {
+      "count": 8,
+      "truncated": 0,
+      "model_calls": 5
+    }
+  },
+  "source_gate_check": "PASS for declared metadata",
+  "combined_answer_quality": "FAIL: sell-limit direction",
+  "production_approved": false,
+  "report": "research/PDF_SOURCE_SCOPE_007_RESULTS.md"
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "b010-04-supported-qa",
+    "response": "No. The conventional names of the candles depend on their context within the price movement, not just their shape. An inverted hammer is conventionally discussed after a decline, while a shooting star is discussed after an advance [dp05-upper-wick-context]. The same shape can have different names based on the prior context.",
+    "generated_tokens": 65,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-upper-wick-context"
+    ]
+  },
+  {
+    "id": "b010-04-supported-declarative",
+    "response": "No. The conventional names of the candles depend on their context within the price action, not just their shape. An inverted hammer is conventionally discussed after a decline, while a shooting star is discussed after an advance [dp05-upper-wick-context]. The same shape can have different names based on prior context and observation rules.",
+    "generated_tokens": 67,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-upper-wick-context"
+    ]
+  },
+  {
+    "id": "b010-06-supported-qa",
+    "response": "No. The planned stop losses may not be equal because the notional, which depends on stop distance, affects the risk-at-stop [risk-budget]. Different stop distances can lead to different amounts exposed to price movement, even if the initial exposure is the same.",
+    "generated_tokens": 53,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "risk-budget"
+    ]
+  },
+  {
+    "id": "b010-06-supported-declarative",
+    "response": "No, their planned stop losses must not necessarily be equal. The planned stop loss depends on the stop distance and the position notional, which can vary even if the exposure amount is the same [risk-budget].",
+    "generated_tokens": 43,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "risk-budget"
+    ]
+  },
+  {
+    "id": "b010-10-supported-qa",
+    "response": "Yes, the limit order must receive a maker fee because it is a limit order. The evidence states that an immediately executable limit order can consume existing liquidity and act as a taker, which implies it would be subject to a taker fee, not a maker fee [dp17-maker-taker].",
+    "generated_tokens": 62,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp17-maker-taker"
+    ]
+  },
+  {
+    "id": "b010-10-supported-declarative",
+    "response": "Yes, the buy limit order must receive a maker fee because it is a limit order. The evidence states that an immediately executable limit order can consume existing liquidity and act as a taker, implying that it is subject to maker/taker fees based on venue rules [dp17-maker-taker].",
+    "generated_tokens": 61,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp17-maker-taker"
+    ]
+  },
+  {
+    "id": "b010-16-irrelevant-qa",
+    "response": "No. The period label alone is not sufficient to guarantee reproducible values because the initialization of smoothing differs between the two implementations, and this difference is not captured by the period label [dp16-receive-offline].",
+    "generated_tokens": 45,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-16-irrelevant-declarative",
+    "response": "No. The period label alone is not sufficient to guarantee reproducible values because the initialization of smoothing in the RSI14 implementation can differ between the two implementations, which affects the resulting values despite the same period label [dp16-receive-offline].",
+    "generated_tokens": 53,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-22-irrelevant-qa",
+    "response": "No. Public reading does not necessarily imply permissionless validation. The evidence does not directly address the relationship between public readability and validation permissions [dp16-receive-offline].",
+    "generated_tokens": 36,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-22-irrelevant-declarative",
+    "response": "No. Public reading does not imply validation is permissionless. The evidence indicates that while a payment can be broadcast publicly, validation still requires specific authorization and verification steps [dp16-receive-offline].",
+    "generated_tokens": 42,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-24-supported-qa",
+    "response": "Yes, a sender can still broadcast to its already known valid receiving address even if the signing device is powered off. The evidence states that a sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline].",
+    "generated_tokens": 58,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  },
+  {
+    "id": "b010-24-supported-declarative",
+    "response": "Yes, a sender can still broadcast to its already known valid receiving address even if the signing device is powered off. The evidence states that a sender can broadcast a payment to a known valid address through the network without the receiving signing device being online [dp16-receive-offline].",
+    "generated_tokens": 58,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "conditional_evidence",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-receive-offline"
+    ]
+  }
+]

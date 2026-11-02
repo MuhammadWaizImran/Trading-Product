@@ -1,0 +1,62 @@
+{
+  "status": "Post-test execution sensitivity only; not used for model selection or original gate",
+  "convention": "Independent 50% starting sleeves; carry consecutive positions; costs only on transitions and liquidation",
+  "costs": {
+    "30bps_round_trip": {
+      "model": {
+        "net_return": 0.004121782968435683,
+        "max_drawdown": 0.12213468611986744,
+        "daily_sharpe": 0.06735063768631269,
+        "days": 730
+      },
+      "trend": {
+        "net_return": 0.871702002487972,
+        "max_drawdown": 0.38723053337406754,
+        "daily_sharpe": 1.031707619590536,
+        "days": 730
+      },
+      "buy_hold": {
+        "net_return": 0.6928384982880116,
+        "max_drawdown": 0.4240640348634367,
+        "daily_sharpe": 0.7602339950370534,
+        "days": 730
+      },
+      "model_vs_trend": {
+        "mean_daily_excess": -0.0010277188593214933,
+        "ci95": [
+          -0.0023735146740323848,
+          0.00018300234455845746
+        ],
+        "method": "paired circular 14-day blocks; 2000 replicates; both assets grouped by date"
+      }
+    },
+    "60bps_round_trip": {
+      "model": {
+        "net_return": -0.05584770686409579,
+        "max_drawdown": 0.13575680926199785,
+        "daily_sharpe": -0.27651513590144966,
+        "days": 730
+      },
+      "trend": {
+        "net_return": 0.8305461234042193,
+        "max_drawdown": 0.39043202412389266,
+        "daily_sharpe": 1.0015583505789787,
+        "days": 730
+      },
+      "buy_hold": {
+        "net_return": 0.6877675663718248,
+        "max_drawdown": 0.4240640348634366,
+        "daily_sharpe": 0.7574275779072607,
+        "days": 730
+      },
+      "model_vs_trend": {
+        "mean_daily_excess": -0.0010817860022918437,
+        "ci95": [
+          -0.0024238466079503068,
+          0.0001260842577573463
+        ],
+        "method": "paired circular 14-day blocks; 2000 replicates; both assets grouped by date"
+      }
+    }
+  }
+}

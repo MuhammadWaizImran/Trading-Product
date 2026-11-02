@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seed": 217,
+  "gpu": "Tesla T4",
+  "cuda": "12.8",
+  "packages": {
+    "torch": "2.10.0+cu128",
+    "transformers": "4.56.2",
+    "peft": "0.17.1",
+    "accelerate": "1.10.1",
+    "bitsandbytes": "0.47.0"
+  },
+  "payload_sha256": "cf6725de65a15ce346db0b4fe0ba3115f9bc1ac3d57c66cbc81cc6724c98a100"
+}

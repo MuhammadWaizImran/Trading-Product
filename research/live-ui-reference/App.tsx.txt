@@ -1,0 +1,156 @@
+import { createHotContext as __vite__createHotContext } from "/@vite/client";import.meta.hot = __vite__createHotContext("/src/App.tsx");"use strict";
+import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=b71fba13"; const Fragment = __vite__cjsImport0_react_jsxDevRuntime["Fragment"]; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+var _s = $RefreshSig$();
+import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=b71fba13"; const useState = __vite__cjsImport1_react["useState"]; const useCallback = __vite__cjsImport1_react["useCallback"];
+import { Route, Switch } from "/node_modules/.vite/deps/wouter.js?v=b71fba13";
+import Home from "/src/pages/home.tsx";
+import NotFound from "/src/pages/not-found.tsx";
+import AuthPage from "/src/pages/auth.tsx";
+import JarvisPage from "/src/pages/jarvis.tsx";
+import GuestLimitNotif from "/src/components/GuestLimitNotif.tsx";
+import { IntroScreen } from "/src/components/IntroScreen.tsx";
+import { AuthProvider, useAuth } from "/src/context/AuthContext.tsx";
+import CompanyDashboard from "/src/pages/company/index.tsx";
+import EmployeesPage from "/src/pages/company/employees.tsx";
+import ATSPage from "/src/pages/company/ats.tsx";
+import EmailPage from "/src/pages/company/email.tsx";
+import JobsPage from "/src/pages/company/jobs.tsx";
+import InterviewsPage from "/src/pages/company/interviews.tsx";
+import AttendancePage from "/src/pages/company/attendance.tsx";
+import CallsPage from "/src/pages/company/calls.tsx";
+function AppInner() {
+  _s();
+  const { authState, showAuthModal } = useAuth();
+  const [introDone, setIntroDone] = useState(false);
+  const handleIntroDone = useCallback(() => setIntroDone(true), []);
+  if (!introDone) {
+    return /* @__PURE__ */ jsxDEV(IntroScreen, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:25:11", "data-component-name": "IntroScreen", onDone: handleIntroDone }, void 0, false, {
+      fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+      lineNumber: 25,
+      columnNumber: 12
+    }, this);
+  }
+  if (authState.status === "unauthenticated" || showAuthModal) {
+    return /* @__PURE__ */ jsxDEV(AuthPage, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:29:11", "data-component-name": "AuthPage" }, void 0, false, {
+      fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+      lineNumber: 29,
+      columnNumber: 12
+    }, this);
+  }
+  return /* @__PURE__ */ jsxDEV(Fragment, { children: [
+    /* @__PURE__ */ jsxDEV(Switch, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:34:6", "data-component-name": "Switch", children: [
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:35:8", "data-component-name": "Route", path: "/", component: Home }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 35,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:36:8", "data-component-name": "Route", path: "/jarvis", component: JarvisPage }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 36,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:37:8", "data-component-name": "Route", path: "/company", component: CompanyDashboard }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 37,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:38:8", "data-component-name": "Route", path: "/company/employees", component: EmployeesPage }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 38,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:39:8", "data-component-name": "Route", path: "/company/ats", component: ATSPage }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 39,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:40:8", "data-component-name": "Route", path: "/company/email", component: EmailPage }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 40,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:41:8", "data-component-name": "Route", path: "/company/jobs", component: JobsPage }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 41,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:42:8", "data-component-name": "Route", path: "/company/interviews", component: InterviewsPage }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 42,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:43:8", "data-component-name": "Route", path: "/company/attendance", component: AttendancePage }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 43,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:44:8", "data-component-name": "Route", path: "/company/calls", component: CallsPage }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 44,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ jsxDEV(Route, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:45:8", "data-component-name": "Route", component: NotFound }, void 0, false, {
+        fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+        lineNumber: 45,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, true, {
+      fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+      lineNumber: 34,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ jsxDEV(GuestLimitNotif, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:47:6", "data-component-name": "GuestLimitNotif" }, void 0, false, {
+      fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+      lineNumber: 47,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, true, {
+    fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+    lineNumber: 33,
+    columnNumber: 5
+  }, this);
+}
+_s(AppInner, "JKquqGhuhDAjk22M9vnuZNskjvk=", false, function() {
+  return [useAuth];
+});
+_c = AppInner;
+export default function App() {
+  return /* @__PURE__ */ jsxDEV(AuthProvider, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:54:4", "data-component-name": "AuthProvider", children: /* @__PURE__ */ jsxDEV(AppInner, { "data-replit-metadata": "artifacts/quantumania/src/App.tsx:55:6", "data-component-name": "AppInner" }, void 0, false, {
+    fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+    lineNumber: 55,
+    columnNumber: 7
+  }, this) }, void 0, false, {
+    fileName: "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx",
+    lineNumber: 54,
+    columnNumber: 5
+  }, this);
+}
+_c2 = App;
+var _c, _c2;
+$RefreshReg$(_c, "AppInner");
+$RefreshReg$(_c2, "App");
+import * as RefreshRuntime from "/@react-refresh";
+const inWebWorker = typeof WorkerGlobalScope !== "undefined" && self instanceof WorkerGlobalScope;
+if (import.meta.hot && !inWebWorker) {
+  if (!window.$RefreshReg$) {
+    throw new Error(
+      "@vitejs/plugin-react can't detect preamble. Something is wrong."
+    );
+  }
+  RefreshRuntime.__hmr_import(import.meta.url).then((currentExports) => {
+    RefreshRuntime.registerExportsForReactRefresh("/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx", currentExports);
+    import.meta.hot.accept((nextExports) => {
+      if (!nextExports) return;
+      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate("/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx", currentExports, nextExports);
+      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);
+    });
+  });
+}
+function $RefreshReg$(type, id) {
+  return RefreshRuntime.register(type, "/home/runner/workspace/replitproject-main/artifacts/quantumania/src/App.tsx " + id);
+}
+function $RefreshSig$() {
+  return RefreshRuntime.createSignatureFunctionForTransform();
+}
+
+//# sourceMappingURL=data:application/json;base64,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d0JRLE1BQU07QUFDNUIsU0FDRSx1QkFBQyxnQkFBVyx5R0FDVixpQ0FBQyxZQUFPLHVHQUFSO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FBUyxLQURYO0FBQUE7QUFBQTtBQUFBO0FBQUEsU0FFQTtBQUVKO0FBQUFDLE1BTndCRDtBQUFHLElBQUFFLElBQUFEO0FBQUEsYUFBQUMsSUFBQTtBQUFBLGFBQUFELEtBQUEiLCJuYW1lcyI6WyJ1c2VTdGF0ZSIsInVzZUNhbGxiYWNrIiwiUm91dGUiLCJTd2l0Y2giLCJIb21lIiwiTm90Rm91bmQiLCJBdXRoUGFnZSIsIkphcnZpc1BhZ2UiLCJHdWVzdExpbWl0Tm90aWYiLCJJbnRyb1NjcmVlbiIsIkF1dGhQcm92aWRlciIsInVzZUF1dGgiLCJDb21wYW55RGFzaGJvYXJkIiwiRW1wbG95ZWVzUGFnZSIsIkFUU1BhZ2UiLCJFbWFpbFBhZ2UiLCJKb2JzUGFnZSIsIkludGVydmlld3NQYWdlIiwiQXR0ZW5kYW5jZVBhZ2UiLCJDYWxsc1BhZ2UiLCJBcHBJbm5lciIsIl9zIiwiYXV0aFN0YXRlIiwic2hvd0F1dGhNb2RhbCIsImludHJvRG9uZSIsInNldEludHJvRG9uZSIsImhhbmRsZUludHJvRG9uZSIsInN0YXR1cyIsIkFwcCIsIl9jMiIsIl9jIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VzIjpbIkFwcC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlU3RhdGUsIHVzZUNhbGxiYWNrIH0gZnJvbSBcInJlYWN0XCJcbmltcG9ydCB7IFJvdXRlLCBTd2l0Y2ggfSBmcm9tIFwid291dGVyXCJcbmltcG9ydCBIb21lIGZyb20gXCJAL3BhZ2VzL2hvbWVcIlxuaW1wb3J0IE5vdEZvdW5kIGZyb20gXCJAL3BhZ2VzL25vdC1mb3VuZFwiXG5pbXBvcnQgQXV0aFBhZ2UgZnJvbSBcIkAvcGFnZXMvYXV0aFwiXG5pbXBvcnQgSmFydmlzUGFnZSBmcm9tIFwiQC9wYWdlcy9qYXJ2aXNcIlxuaW1wb3J0IEd1ZXN0TGltaXROb3RpZiBmcm9tIFwiQC9jb21wb25lbnRzL0d1ZXN0TGltaXROb3RpZlwiXG5pbXBvcnQgeyBJbnRyb1NjcmVlbiB9IGZyb20gXCJAL2NvbXBvbmVudHMvSW50cm9TY3JlZW5cIlxuaW1wb3J0IHsgQXV0aFByb3ZpZGVyLCB1c2VBdXRoIH0gZnJvbSBcIkAvY29udGV4dC9BdXRoQ29udGV4dFwiXG5pbXBvcnQgQ29tcGFueURhc2hib2FyZCBmcm9tIFwiQC9wYWdlcy9jb21wYW55L2luZGV4XCJcbmltcG9ydCBFbXBsb3llZXNQYWdlIGZyb20gXCJAL3BhZ2VzL2NvbXBhbnkvZW1wbG95ZWVzXCJcbmltcG9ydCBBVFNQYWdlIGZyb20gXCJAL3BhZ2VzL2NvbXBhbnkvYXRzXCJcbmltcG9ydCBFbWFpbFBhZ2UgZnJvbSBcIkAvcGFnZXMvY29tcGFueS9lbWFpbFwiXG5pbXBvcnQgSm9ic1BhZ2UgZnJvbSBcIkAvcGFnZXMvY29tcGFueS9qb2JzXCJcbmltcG9ydCBJbnRlcnZpZXdzUGFnZSBmcm9tIFwiQC9wYWdlcy9jb21wYW55L2ludGVydmlld3NcIlxuaW1wb3J0IEF0dGVuZGFuY2VQYWdlIGZyb20gXCJAL3BhZ2VzL2NvbXBhbnkvYXR0ZW5kYW5jZVwiXG5pbXBvcnQgQ2FsbHNQYWdlIGZyb20gXCJAL3BhZ2VzL2NvbXBhbnkvY2FsbHNcIlxuXG5mdW5jdGlvbiBBcHBJbm5lcigpIHtcbiAgY29uc3QgeyBhdXRoU3RhdGUsIHNob3dBdXRoTW9kYWwgfSA9IHVzZUF1dGgoKVxuICBjb25zdCBbaW50cm9Eb25lLCBzZXRJbnRyb0RvbmVdID0gdXNlU3RhdGUoZmFsc2UpXG4gIGNvbnN0IGhhbmRsZUludHJvRG9uZSA9IHVzZUNhbGxiYWNrKCgpID0+IHNldEludHJvRG9uZSh0cnVlKSwgW10pXG5cbiAgaWYgKCFpbnRyb0RvbmUpIHtcbiAgICByZXR1cm4gPEludHJvU2NyZWVuIG9uRG9uZT17aGFuZGxlSW50cm9Eb25lfSAvPlxuICB9XG5cbiAgaWYgKGF1dGhTdGF0ZS5zdGF0dXMgPT09IFwidW5hdXRoZW50aWNhdGVkXCIgfHwgc2hvd0F1dGhNb2RhbCkge1xuICAgIHJldHVybiA8QXV0aFBhZ2UgLz5cbiAgfVxuXG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxTd2l0Y2g+XG4gICAgICAgIDxSb3V0ZSBwYXRoPVwiL1wiIGNvbXBvbmVudD17SG9tZX0gLz5cbiAgICAgICAgPFJvdXRlIHBhdGg9XCIvamFydmlzXCIgY29tcG9uZW50PXtKYXJ2aXNQYWdlfSAvPlxuICAgICAgICA8Um91dGUgcGF0aD1cIi9jb21wYW55XCIgY29tcG9uZW50PXtDb21wYW55RGFzaGJvYXJkfSAvPlxuICAgICAgICA8Um91dGUgcGF0aD1cIi9jb21wYW55L2VtcGxveWVlc1wiIGNvbXBvbmVudD17RW1wbG95ZWVzUGFnZX0gLz5cbiAgICAgICAgPFJvdXRlIHBhdGg9XCIvY29tcGFueS9hdHNcIiBjb21wb25lbnQ9e0FUU1BhZ2V9IC8+XG4gICAgICAgIDxSb3V0ZSBwYXRoPVwiL2NvbXBhbnkvZW1haWxcIiBjb21wb25lbnQ9e0VtYWlsUGFnZX0gLz5cbiAgICAgICAgPFJvdXRlIHBhdGg9XCIvY29tcGFueS9qb2JzXCIgY29tcG9uZW50PXtKb2JzUGFnZX0gLz5cbiAgICAgICAgPFJvdXRlIHBhdGg9XCIvY29tcGFueS9pbnRlcnZpZXdzXCIgY29tcG9uZW50PXtJbnRlcnZpZXdzUGFnZX0gLz5cbiAgICAgICAgPFJvdXRlIHBhdGg9XCIvY29tcGFueS9hdHRlbmRhbmNlXCIgY29tcG9uZW50PXtBdHRlbmRhbmNlUGFnZX0gLz5cbiAgICAgICAgPFJvdXRlIHBhdGg9XCIvY29tcGFueS9jYWxsc1wiIGNvbXBvbmVudD17Q2FsbHNQYWdlfSAvPlxuICAgICAgICA8Um91dGUgY29tcG9uZW50PXtOb3RGb3VuZH0gLz5cbiAgICAgIDwvU3dpdGNoPlxuICAgICAgPEd1ZXN0TGltaXROb3RpZiAvPlxuICAgIDwvPlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFwcCgpIHtcbiAgcmV0dXJuIChcbiAgICA8QXV0aFByb3ZpZGVyPlxuICAgICAgPEFwcElubmVyIC8+XG4gICAgPC9BdXRoUHJvdmlkZXI+XG4gIClcbn1cbiJdLCJmaWxlIjoiL2hvbWUvcnVubmVyL3dvcmtzcGFjZS9yZXBsaXRwcm9qZWN0LW1haW4vYXJ0aWZhY3RzL3F1YW50dW1hbmlhL3NyYy9BcHAudHN4In0=

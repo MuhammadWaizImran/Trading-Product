@@ -1,0 +1,130 @@
+[
+  {
+    "id": "candles",
+    "question": "Which four prices are encoded by one candlestick, and does its shape alone guarantee the next move?",
+    "response": "One candlestick encodes the open, high, low, and close prices for a specific time interval. The body of the candle represents the open to close price range, while the wicks show the high and low prices [ta-candle]. However, the shape of a candlestick alone does not guarantee the next price move, as it only describes price behavior and does not predict future movements [ta-candle].",
+    "generated_tokens": 84,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "trend",
+    "question": "What sequence of swing highs and lows characterizes an uptrend?",
+    "response": "An uptrend is characterized by a sequence of higher swing highs and higher swing lows on a specified timeframe. This pattern indicates price is rising, with pullbacks occurring within the trend. The identification of swing highs and lows depends on predefined rules and the chosen timeframe [ta-uptrend].",
+    "generated_tokens": 58,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "stop-fill",
+    "question": "Does a stop trigger price guarantee the eventual execution price?",
+    "response": "A stop trigger price does not guarantee the eventual execution price. The stop price is a trigger that activates an order under the venue's rules, but the activated order can be a market or limit order. The trigger is not a promise that execution will occur at that same price [stop-order].",
+    "generated_tokens": 59,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "rsi",
+    "question": "Can an RSI reading above 70, by itself, prove an immediate price reversal?",
+    "response": "An RSI reading above 70 does not by itself prove an immediate price reversal. It is a conventional overbought interpretation, but RSI can remain extreme while the trend continues [rsi-extreme]. Therefore, treat the reading as one piece of evidence, not a certain reversal signal.",
+    "generated_tokens": 61,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "wallet-owners",
+    "question": "Why can holder addresses differ from the number of independent token owners?",
+    "response": "Holder addresses can differ from the number of independent token owners because one user can control multiple addresses, and custodial or exchange addresses can represent many users [dp03-addresses-not-users]. Additionally, some addresses may be inactive or have minimal balances, and activity thresholds vary [dp03-addresses-not-users]. Therefore, address counts are protocol observations, not unique-person counts.",
+    "generated_tokens": 77,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "verified-contract",
+    "question": "Is verified contract source code proof that a token has no security or economic risks?",
+    "response": "Verified contract source code does not prove a token has no security or economic risks. Source-code verification makes the deployed contract inspectable but does not guarantee it is free of vulnerabilities or harmful privileges. It is distinct from a security audit, and even an audit cannot guarantee safety [dp07-contract-verification]. Economic risks, such as market volatility, governance issues, and operational risks, remain regardless of code transparency.",
+    "generated_tokens": 84,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "receipt-token",
+    "question": "Why does a depositor receive a receipt token in the guide's lending example?",
+    "response": "A depositor receives a receipt token in the lending example to represent their position in the lending protocol. The receipt token is tied to the underlying deposit, not to unrelated speculative purchases. It serves as a claim on the deposited assets and is used for redemption and accounting according to the protocol's rules [dp07-receipt].",
+    "generated_tokens": 66,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "oracle",
+    "question": "Why can a weather-triggered smart contract still depend on trusted external information?",
+    "response": "A weather-triggered smart contract depends on trusted external information because the blockchain cannot directly observe environmental conditions like rainfall. The contract relies on an oracle or data feed to provide accurate measurements, which are then used to enforce the contract's rules [dp01-oracle]. While the blockchain can automate the execution of the contract based on this input, it cannot verify the accuracy of the external data on its own. Thus, the contract's outcome depends on the reliability of the external information source.",
+    "generated_tokens": 98,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "reserves",
+    "question": "Does correct blockchain consensus prove a stablecoin has adequate redeemable reserves?",
+    "response": "No, correct blockchain consensus does not prove a stablecoin has adequate redeemable reserves. Consensus ensures agreement on the ledger state but does not verify the truth of off-chain claims, such as reserve adequacy [dp03-ledger-consensus]. Reserve quality, redemption enforceability, and asset value require separate evidence and assumptions [dp03-security-not-value].",
+    "generated_tokens": 74,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "dated-report",
+    "question": "May historical coin market capitalizations in the report be presented as today's figures?",
+    "response": "No, historical coin market capitalizations in the report cannot be presented as today's figures. The report's numbers describe observations or third-party estimates available around 2018\u20132019, often with differing measurement windows [dp03-historical-market-numbers]. Any present-day statement requires a current source, timestamp, definition, and methodology; the report's numbers remain historical evidence only.",
+    "generated_tokens": 82,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "data-license",
+    "question": "Does the liquidity paper's open-access license also grant free access to its underlying order-book dataset?",
+    "response": "The liquidity paper's open-access license does not grant free access to its underlying order-book dataset. The data-availability statement specifies that the dataset is proprietary and confidential, and it can be purchased from CryptoTick. The article's CC BY 4.0 license applies only to the article itself, not to the separate dataset [paper-data-rights].",
+    "generated_tokens": 70,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "limit-order",
+    "question": "What is the execution trade-off of a limit order?",
+    "response": "The execution trade-off of a limit order is that it controls the maximum price you're willing to pay (for a buy) or receive (for a sell), but it does not guarantee execution. The order may remain unfilled or only partially filled if the specified price is not met [limit-order]. This provides price control but introduces uncertainty about whether the order will be executed at all.",
+    "generated_tokens": 78,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "unknown-definition",
+    "question": "A paper I have not supplied defines NOBI. What exactly does its negative sign mean?",
+    "response": "The negative sign in NOBI indicates more bid-side depth than ask-side depth, as defined in the paper. NOBI is calculated as (ask depth - bid depth) / (ask depth + bid depth). A negative value means the bid depth exceeds the ask depth at the specified levels. This convention is used to measure imbalance, with positive values indicating more ask-side depth. The sign reflects the relative depth on either side of the order book, not a forecast or a universal metric. [book-imbalance]",
+    "generated_tokens": 104,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "current-unlock",
+    "question": "Which coin has the largest token unlock tomorrow, and what is its exact USD value?",
+    "response": "The provided evidence does not include information about token unlocks or their USD values. To determine which coin has the largest token unlock tomorrow and its exact USD value, you would need data on blockchain schedules, token distributions, and current market prices. Without this specific information, it is not possible to provide an accurate answer.",
+    "generated_tokens": 63,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "missing-chart",
+    "question": "Inspect my chart and identify the exact candlestick pattern. I have not attached a chart or OHLC values.",
+    "response": "I cannot inspect or analyze a chart or identify candlestick patterns without the specific OHLC (open, high, low, close) data or visual representation of the chart. Please provide the chart or the relevant price data so I can assist you.",
+    "generated_tokens": 50,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "guaranteed-profit",
+    "question": "Which coin is guaranteed to double next week according to these PDFs?",
+    "response": "None of the provided evidence guarantees that any specific coin will double in value next week. The documents discuss price volatility, market demand, and technical analysis but do not make any claims about future price movements or specific coins. Predicting price changes is inherently uncertain and not supported by the evidence provided.",
+    "generated_tokens": 59,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  }
+]

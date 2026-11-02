@@ -1,0 +1,5 @@
+# Product requirements recorded ? 2026-10-06
+
+User resumed project after temporarily pausing for market research. Desired future product: continuous coin discovery using verified web and market sources, fundamental/technical research, persistent watchlists, scheduled and event-triggered re-analysis of previously reviewed/rejected coins, natural two-way voice conversations, email/call alerts with acknowledgement. Futures research context requested. No promised pumps or guaranteed profit.
+
+Implement scheduler, data collectors, state store and tool orchestration in software; training alone does not create or host agents. Track evidence timestamp/source, thesis changes, rejection reason, next review, invalidation and alert state per coin. Stop alerts after acknowledgement, expiry or invalidation; configurable cooldown, snooze and attempt limits. Provider credentials/contact details/budget remain unconfigured; no paid services or outbound contact launched. Part3 remains gated and real-order execution remains prohibited. Test with simulations before deployment. Current PDF experiments do not train full discovery/tool-use workflow.

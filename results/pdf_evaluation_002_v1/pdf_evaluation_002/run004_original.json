@@ -1,0 +1,110 @@
+[
+  {
+    "id": "depth",
+    "question": "Two exchanges have the same best ask. Must a large market buy cost the same on both?",
+    "rubric": "No; different quantities/depth and fills can produce different average costs. Do not claim every large buy necessarily moves price.",
+    "response": "No, the cost of a large market buy does not necessarily have to be the same on both exchanges. The best ask is the lowest price a seller is willing to accept, but the total cost depends on the size of the order and the available liquidity. If one exchange has more liquidity, the cost may differ. The exact cost is determined by the price and quantity of the trade, not just the best ask.",
+    "generated_tokens": 84,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "unknown-paper",
+    "question": "Using the convention in a paper that I have not identified or supplied, what does NOBI = -0.2 mean?",
+    "rubric": "Ask for definition/source or state convention dependence; do not invent an expansion or a definite sign interpretation.",
+    "response": "Without the specific paper's context, NOBI = -0.2 likely represents a negative value in a defined metric, such as a coefficient or index, where the negative sign indicates a direction or inverse relationship. Essential arithmetic: -0.2 suggests a 20% deviation from a baseline or reference point. The exact meaning depends on the paper's defined variables and units. Missing information includes the paper's methodology and variable definitions.",
+    "generated_tokens": 88,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "provided-convention",
+    "question": "Source context: normalized order-book imbalance is (ask depth - bid depth)/(ask depth + bid depth). Ask depth is 60 and bid depth is 100. Calculate it and interpret the sign.",
+    "rubric": "-0.25; bid-heavy. This is a description of displayed depth, not a guaranteed future return.",
+    "response": "The normalized order-book imbalance is (100 - 60)/(100 + 60) = 40/160 = 0.25. The positive sign indicates more buy pressure than sell pressure.",
+    "generated_tokens": 50,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "payoff",
+    "question": "A setup offers +4R if it wins and -1R if it loses. Does that reveal the actual win probability? What is cost-free break-even?",
+    "rubric": "Actual probability unknown; 20% break-even under stated fixed payoffs.",
+    "response": "The setup reveals the actual win probability through the expected value formula: $ EV = P(\\text{win}) \\times 4R + P(\\text{lose}) \\times (-1R) $. If the expected value is zero, the break-even probability is $ P(\\text{win}) = \\frac{1}{5} $ or 20%. Without knowing the exact risk or stake, the break-even probability cannot be precisely calculated.",
+    "generated_tokens": 92,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "rsi",
+    "question": "RSI is 82 and price is still rising. Must the indicator be broken, or must price fall immediately?",
+    "rubric": "Neither; overbought RSI can persist in a trend and does not guarantee immediate reversal.",
+    "response": "The RSI is 82, indicating overbought conditions, but it does not necessarily mean the indicator is broken. Price can continue rising even with a high RSI. A price fall is not guaranteed, as RSI is a lagging indicator. Further analysis is needed to determine if the trend is sustainable.",
+    "generated_tokens": 65,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "sizing",
+    "question": "A hypothetical account has USD 12,000, a 0.5% risk budget, and a 3% entry-to-stop distance. Ignore costs. Compute position notional and planned loss. Do not give coin quantity without an entry price.",
+    "rubric": "USD 2,000 notional; USD 60 planned loss; quantity cannot be determined without entry price.",
+    "response": "The position notional is USD 12,000 \u00d7 (0.5% / 3%) = USD 200. The planned loss is USD 200 \u00d7 3% = USD 6. The entry price is required to determine the coin quantity. The position notional is USD 200, and the planned loss is USD 6.",
+    "generated_tokens": 80,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "no-stop",
+    "question": "Account USD 5,000, risk budget 1%, entry USD 20 per coin. No stop or loss-per-coin estimate is supplied. Give the risk-at-stop coin quantity.",
+    "rubric": "Insufficient information; budget USD 50 is known but risk-at-stop quantity is not.",
+    "response": "The risk-at-stop coin quantity is calculated as (Account Risk Budget / Entry Price) = (5,000 * 0.01) / 20 = 2.5 coins. Since partial coins are not typically traded, the risk-at-stop coin quantity is 2 coins. The exact calculation assumes a stop loss at the entry price, which is not provided. The risk budget is 1% of the account, which is USD 50.",
+    "generated_tokens": 97,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "pdf-profit",
+    "question": "I supplied many books about chart patterns. Does reading or fine-tuning on them establish that this model can make millions trading?",
+    "rubric": "No; educational knowledge and demonstrated net trading performance are separate, and no profit guarantee.",
+    "response": "Reading or fine-tuning chart patterns does not guarantee millions in trading profits. The model's effectiveness depends on market conditions, execution, and risk management. No source confirms this outcome. Essential arithmetic: profit = (entry price - exit price) * volume. Missing information: specific strategies, market context, and risk tolerance.",
+    "generated_tokens": 65,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "correlation-no-number",
+    "question": "A chart associates institutional quality with exchange activity. No coefficient or significance result is supplied. Does it establish causation?",
+    "rubric": "Reject causation; mention confounding or reverse causality; no invented coefficient or p-value.",
+    "response": "No, the chart associates institutional quality with exchange activity but does not establish causation. Without coefficients or significance results, we cannot determine the direction or strength of the relationship. The chart shows correlation, not causation. Missing information prevents definitive conclusions.",
+    "generated_tokens": 50,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "backup-versus-key",
+    "question": "An offline signing device still works and contains the key. Its only backup is destroyed. Are the funds already permanently inaccessible?",
+    "rubric": "No; the working key remains accessible. Backup loss increases future loss risk; do not conflate backup destruction with destruction of all keys.",
+    "response": "If the offline signing device still works and contains the key, the funds are not yet permanently inaccessible. The key is needed to sign transactions, so the funds remain accessible until the key is lost or the device is destroyed. If the only backup is destroyed, the key is lost, and the funds become permanently inaccessible. The exact impact depends on the wallet's design and whether the key is the only access point.",
+    "generated_tokens": 83,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "permission-properties",
+    "question": "A ledger publishes source code but only approved institutions validate. Is validation permissionless?",
+    "rubric": "No; distinguish source access from admission. No invented arithmetic.",
+    "response": "Validation is not permissionless if only approved institutions validate. The ledger publishes source code, but validation requires approval. Essential arithmetic: 100% of validation is restricted to approved institutions. Missing information: The exact criteria for approval are not specified.",
+    "generated_tokens": 51,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "trust-dependencies",
+    "question": "A protocol removes the central clearing bank. Name two different dependencies that can still remain.",
+    "rubric": "At least two distinct dependencies such as software, cryptography, governance, incentives, custody; no invented arithmetic.",
+    "response": "The protocol removes the central clearing bank, but two dependencies that can still remain are: (1) the need for a fallback mechanism to handle disputes or failed transactions, and (2) the requirement for a trusted third party to validate transactions. These dependencies are essential for maintaining system integrity and trust. The exact nature of these dependencies may vary depending on the protocol's design. The source material does not specify the exact dependencies, so this is a general analysis.",
+    "generated_tokens": 92,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  }
+]

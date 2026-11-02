@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "run_id": 352135817,
+  "url": "https://www.kaggle.com/code/waizimran/crypto-qwen3-pdf-sft-008",
+  "observed_status": "complete",
+  "observed_stage": "completed_training_human_evaluation_pending",
+  "private": true,
+  "gpu_allocation": "T4 x2; trainer uses GPU0",
+  "completed_training": true,
+  "observed_epoch_fraction": 1.0,
+  "observed_log_seconds": 1580.0,
+  "optimizer_steps": 53,
+  "observed_train_runtime_seconds": 2152.4063,
+  "local_review": "research/PDF_SFT_008_RESULTS.md",
+  "production_approved": false
+}

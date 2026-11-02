@@ -1,0 +1,22 @@
+{
+  "baseline_non_thinking": {
+    "records": 8,
+    "truncated": 0,
+    "total_tokens": 399
+  },
+  "baseline_thinking": {
+    "records": 8,
+    "truncated": 0,
+    "total_tokens": 3896
+  },
+  "adapted_non_thinking": {
+    "records": 8,
+    "truncated": 0,
+    "total_tokens": 419
+  },
+  "adapted_thinking": {
+    "records": 8,
+    "truncated": 0,
+    "total_tokens": 3446
+  }
+}

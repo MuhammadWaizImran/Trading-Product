@@ -1,0 +1,238 @@
+ok so our limit is reset lets get back to work 
+
+
+
+
+
+
+
+Monday 12:12 PM
+
+
+
+
+
+
+14 previous messages
+
+
+
+The private Qwen3-8B pilot job is now running on Kaggle.
+- 160 original training examples, plus 50 validation/test examples.
+- A small fine-tuning run with before-and-after evaluation.
+- No training on your laptop.
+Kaggle confirms the session is running, but training logs haven’t appeared yet, so actual model updates are not yet confirmed. This is an initial training pilot—not a fully trained crypto expert.
+
+  Edited 2 files+10-1Review changesUndoReview
+
+research/PHASE2_QWEN_PILOT.mdresearch/PHASE2_QWEN_PILOT.md+8-1
+research/part1_library/PART1_STATUS.mdresearch/part1_library/PART1_STATUS.md+2-0
+
+
+
+
+
+Monday 12:15 PM
+
+
+
+
+
+
+
+
+did you train the model on the data which i have provided you right ??
+
+
+
+
+
+
+
+Monday 12:17 PM
+
+
+
+
+
+
+No—the pilot uses 160 original synthetic examples I created, not your uploaded PDFs or playlists. They cover risk calculations, trading costs and handling missing information.
+I should have made that distinction clearer before submitting it. You expected training on your supplied material, and this pilot does not fulfill that request.
+Your documents’ review and training-use permissions are still incomplete. We need to turn the suitable, verified material into checked training examples before using it. Also, the last confirmed status was a running Kaggle session—not completed training.
+
+
+Monday 12:17 PM
+
+
+
+
+
+
+
+
+so i want you to train this model on the pdf which i have provided and if you want anything any permission feel free to ask plz because the pdfs i have provided is the complete knowledge about crypto trading from beginners to advanced so plz them to train the model plz 
+
+
+
+
+
+
+
+Monday 12:19 PM
+
+
+
+
+
+
+Worked for 10m 31s
+
+
+
+For the PDFs in “Data PDF,” do you own the content or have permission from the authors/publishers to use it for model training? If only some have permission, name those files; if you downloaded them for reading, please say that. I’ll check open licenses myself.I’ll check open licenses myself and i have the permissions to use it for model training
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please sign in to Kaggle as waizimran in Chrome, then tell me when you’re signed in. The API-created job received CPU-only compute and no working internet; I need the signed-in notebook settings to check GPU availability and connectivity. No password or API key needs to be sent here.i am signed in what i have to do now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your permission is recorded, and I’ve prepared the first PDF-derived training batch: 32 checked examples from four of your PDFs. This is an initial subset, not the entire collection.
+Training is blocked by Kaggle phone verification. Kaggle currently disables GPU access and internet for your account.
+I’ve opened the verification dialog in Chrome. Please complete the phone number, CAPTCHA and SMS-code steps yourself, then tell me “verified.” Don’t send the code here.
+No model training has completed yet.
+
+  Edited 9 files+392-1Review changesUndoReview
+
+AGENTS.mdAGENTS.md+2-0
+notebooks/qwen_cloud_check/check.pynotebooks/qwen_cloud_check/check.py+39-0
+notebooks/qwen_cloud_check/kernel-metadata.jsonnotebooks/qwen_cloud_check/kernel-metadata.json+13-0
+Show 6 more files
+
+
+
+
+Monday 12:30 PM
+
+
+
+
+
+
+
+
+i think now you proceed i have completed the verification 
+
+
+
+
+
+
+
+Monday 12:35 PM
+
+
+
+
+
+
+I’ll check whether verification has unlocked Kaggle’s GPU and internet settings, then try the PDF-based training run.
+
+
+
+
+Used Chrome integration, ran commands
+
+
+Verification worked. The new PDF-based job has passed its GPU and internet checks and is installing the training libraries on Kaggle.
+This first batch uses material from four of your PDFs: the technical-analysis course, risk-management guide, Binance Academy ebook and order-book liquidity paper. It is still a small batch, not training on the entire collection.
+
+
+
+
+Used Chrome integration, edited a file
+
+
+
+You've hit your usage limit. Upgrade your plan or add credits to continue, or try again at Sep 26, 2026, 9:56 PM.
+
+
+
+
+
+
+  Edited PDF_TRAINING_PLAN.md+4-0Review changesUndoReview
+
+
+
+
+
+
+
+
+Yesterday 5:42 PM
+continue your working plz 
+
+
+
+
+
+
+
+Monday 5:42 PM
+
+
+
+
+
+
+34 previous messages
+
+
+
+The first PDF-based training run and evaluation are complete.
+- Qwen3-8B trained on Kaggle, using 24 checked examples from four of your PDFs.
+- The trained adapter was saved and successfully reloaded.
+- Evaluation found no clear improvement over the original model. Both made important calculation errors.
+- Your full PDF collection has not yet been used for training.
+Next, we need to expand the reviewed dataset and prepare stronger independent tests before another training run. This pilot does not establish trading expertise or profitability.
+[Read the saved results](C:/Users/DELL/Downloads/Billioniare/research/PDF_SFT_001_RESULTS.md).
+
+  Edited 5 files+197-5Review changesUndoReview
+
+notebooks/pdf_sft_eval/evaluate.pynotebooks/pdf_sft_eval/evaluate.py+92-0
+notebooks/pdf_sft_eval/kernel-metadata.jsonnotebooks/pdf_sft_eval/kernel-metadata.json+13-0
+research/PDF_SFT_001_RESULTS.mdresearch/PDF_SFT_001_RESULTS.md+61-1
+Show 2 more files
+
+
+
+
+Monday 6:02 PM

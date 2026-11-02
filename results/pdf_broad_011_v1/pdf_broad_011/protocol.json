@@ -1,0 +1,1697 @@
+{
+  "cases": [
+    {
+      "id": "b010-01-supported",
+      "question": "A candle opens at 18, closes at 16, reaches 21 and falls to 15. Which prices bound its real body, and does it establish the next direction?",
+      "retrieved": [
+        {
+          "id": "ta-candle",
+          "source": "DP05",
+          "pages": [
+            8
+          ],
+          "question": "What price information does a candlestick contain?",
+          "answer": "A candle summarizes the open, high, low and close for one interval. Its body spans open to close; its wicks extend to the high and low. Color conventions vary. A candle describes price behavior and does not by itself establish the next move."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "ta-candle",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-01-irrelevant",
+      "question": "A candle opens at 18, closes at 16, reaches 21 and falls to 15. Which prices bound its real body, and does it establish the next direction?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "ta-candle",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-01-missing",
+      "question": "A candle opens at 18, closes at 16, reaches 21 and falls to 15. Which prices bound its real body, and does it establish the next direction?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "ta-candle",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-01-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A candle opens at 18, closes at 16, reaches 21 and falls to 15. Which prices bound its real body, and does it establish the next direction?",
+      "retrieved": [
+        {
+          "id": "ta-candle",
+          "source": "DP05",
+          "pages": [
+            8
+          ],
+          "question": "What price information does a candlestick contain?",
+          "answer": "A candle summarizes the open, high, low and close for one interval. Its body spans open to close; its wicks extend to the high and low. Color conventions vary. A candle describes price behavior and does not by itself establish the next move."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "ta-candle",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-02-supported",
+      "question": "ADX increases while successive closes fall. Is this necessarily an indicator malfunction?",
+      "retrieved": [
+        {
+          "id": "dp05-adx-direction",
+          "source": "DP05",
+          "pages": [
+            39,
+            40
+          ],
+          "question": "Does a rising ADX necessarily mean price is rising?",
+          "answer": "No. ADX describes trend strength rather than its upward or downward direction. A strong declining trend can have a high or rising ADX. Directional indicators such as +DI and -DI provide separate information; neither their crossing nor an ADX threshold guarantees a profitable forecast."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-adx-direction",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-02-irrelevant",
+      "question": "ADX increases while successive closes fall. Is this necessarily an indicator malfunction?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-adx-direction",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-02-missing",
+      "question": "ADX increases while successive closes fall. Is this necessarily an indicator malfunction?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-adx-direction",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-02-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? ADX increases while successive closes fall. Is this necessarily an indicator malfunction?",
+      "retrieved": [
+        {
+          "id": "dp05-adx-direction",
+          "source": "DP05",
+          "pages": [
+            39,
+            40
+          ],
+          "question": "Does a rising ADX necessarily mean price is rising?",
+          "answer": "No. ADX describes trend strength rather than its upward or downward direction. A strong declining trend can have a high or rising ADX. Directional indicators such as +DI and -DI provide separate information; neither their crossing nor an ADX threshold guarantees a profitable forecast."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp05-adx-direction",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-03-supported",
+      "question": "A coin has traded sideways for twelve bars. Does the range alone identify which boundary will break first?",
+      "retrieved": [
+        {
+          "id": "ta-range",
+          "source": "DP05",
+          "pages": [
+            12
+          ],
+          "question": "Does a cryptocurrency market always have a directional trend?",
+          "answer": "No. Price can consolidate within a range. A later breakout can occur in either direction, so recognizing a range is not sufficient evidence for a particular breakout direction."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "ta-range",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-03-irrelevant",
+      "question": "A coin has traded sideways for twelve bars. Does the range alone identify which boundary will break first?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "ta-range",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-03-missing",
+      "question": "A coin has traded sideways for twelve bars. Does the range alone identify which boundary will break first?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "ta-range",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-03-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A coin has traded sideways for twelve bars. Does the range alone identify which boundary will break first?",
+      "retrieved": [
+        {
+          "id": "ta-range",
+          "source": "DP05",
+          "pages": [
+            12
+          ],
+          "question": "Does a cryptocurrency market always have a directional trend?",
+          "answer": "No. Price can consolidate within a range. A later breakout can occur in either direction, so recognizing a range is not sufficient evidence for a particular breakout direction."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "ta-range",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-04-supported",
+      "question": "Two identical long-upper-wick candles appear, one after an advance and another after a decline. Must their conventional names be identical?",
+      "retrieved": [
+        {
+          "id": "dp05-upper-wick-context",
+          "source": "DP05",
+          "pages": [
+            29,
+            30,
+            31
+          ],
+          "question": "How do an inverted hammer and a shooting star differ when their candle shapes look similar?",
+          "answer": "Both can have a small body near the low and a long upper wick. An inverted hammer is conventionally discussed after a decline, while a shooting star is discussed after an advance. Prior context and a defined observation rule matter; the shape alone is not a directional forecast."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-upper-wick-context",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-04-irrelevant",
+      "question": "Two identical long-upper-wick candles appear, one after an advance and another after a decline. Must their conventional names be identical?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-upper-wick-context",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-04-missing",
+      "question": "Two identical long-upper-wick candles appear, one after an advance and another after a decline. Must their conventional names be identical?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-upper-wick-context",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-04-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? Two identical long-upper-wick candles appear, one after an advance and another after a decline. Must their conventional names be identical?",
+      "retrieved": [
+        {
+          "id": "dp05-upper-wick-context",
+          "source": "DP05",
+          "pages": [
+            29,
+            30,
+            31
+          ],
+          "question": "How do an inverted hammer and a shooting star differ when their candle shapes look similar?",
+          "answer": "Both can have a small body near the low and a long upper wick. An inverted hammer is conventionally discussed after a decline, while a shooting star is discussed after an advance. Prior context and a defined observation rule matter; the shape alone is not a directional forecast."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp05-upper-wick-context",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-05-supported",
+      "question": "Bands become narrower for eight bars. Can the team label the next breakout bullish from that fact alone?",
+      "retrieved": [
+        {
+          "id": "dp17-bollinger-squeeze",
+          "source": "DP17",
+          "pages": [
+            60,
+            61,
+            62
+          ],
+          "question": "What does a Bollinger Band squeeze establish about the next direction?",
+          "answer": "Narrower bands describe reduced recent dispersion under the chosen calculation. They do not establish whether the next move will be upward or downward, or when it will occur. A later expansion and any trading rule must be evaluated separately rather than inferred as certain from a squeeze."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-bollinger-squeeze",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-05-irrelevant",
+      "question": "Bands become narrower for eight bars. Can the team label the next breakout bullish from that fact alone?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-bollinger-squeeze",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-05-missing",
+      "question": "Bands become narrower for eight bars. Can the team label the next breakout bullish from that fact alone?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-bollinger-squeeze",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-05-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? Bands become narrower for eight bars. Can the team label the next breakout bullish from that fact alone?",
+      "retrieved": [
+        {
+          "id": "dp17-bollinger-squeeze",
+          "source": "DP17",
+          "pages": [
+            60,
+            61,
+            62
+          ],
+          "question": "What does a Bollinger Band squeeze establish about the next direction?",
+          "answer": "Narrower bands describe reduced recent dispersion under the chosen calculation. They do not establish whether the next move will be upward or downward, or when it will occur. A later expansion and any trading rule must be evaluated separately rather than inferred as certain from a squeeze."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp17-bollinger-squeeze",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-06-supported",
+      "question": "Two positions each expose 600 dollars but have different stop distances. Must their planned stop losses be equal?",
+      "retrieved": [
+        {
+          "id": "risk-budget",
+          "source": "DP06",
+          "pages": [
+            4
+          ],
+          "question": "Does risking 1% of an account mean buying an asset with only 1% of the account?",
+          "answer": "No. Risk-at-stop refers to the planned loss if the stop executes as assumed. Position notional is the amount exposed to price movement. For a USD 10,000 account, a 1% loss budget is USD 100, but the notional depends on stop distance and costs."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "risk-budget",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-06-irrelevant",
+      "question": "Two positions each expose 600 dollars but have different stop distances. Must their planned stop losses be equal?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "risk-budget",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-06-missing",
+      "question": "Two positions each expose 600 dollars but have different stop distances. Must their planned stop losses be equal?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "risk-budget",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-06-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? Two positions each expose 600 dollars but have different stop distances. Must their planned stop losses be equal?",
+      "retrieved": [
+        {
+          "id": "risk-budget",
+          "source": "DP06",
+          "pages": [
+            4
+          ],
+          "question": "Does risking 1% of an account mean buying an asset with only 1% of the account?",
+          "answer": "No. Risk-at-stop refers to the planned loss if the stop executes as assumed. Position notional is the amount exposed to price movement. For a USD 10,000 account, a 1% loss budget is USD 100, but the notional depends on stop distance and costs."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "risk-budget",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-07-supported",
+      "question": "An analyst moves a stop inside the setup invalidation solely to display 5R. Has the underlying trade become more reliable?",
+      "retrieved": [
+        {
+          "id": "risk-invalidation",
+          "source": "DP06",
+          "pages": [
+            7
+          ],
+          "question": "Should a stop be moved closer merely to make the reward-to-risk ratio look better?",
+          "answer": "No. The stop should reflect the predefined invalidation logic. Moving it solely to produce a preferred ratio changes the setup and its likelihood of being stopped. Reassess the trade instead of treating an attractive ratio as proof of quality."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "risk-invalidation",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-07-irrelevant",
+      "question": "An analyst moves a stop inside the setup invalidation solely to display 5R. Has the underlying trade become more reliable?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "risk-invalidation",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-07-missing",
+      "question": "An analyst moves a stop inside the setup invalidation solely to display 5R. Has the underlying trade become more reliable?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "risk-invalidation",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-07-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? An analyst moves a stop inside the setup invalidation solely to display 5R. Has the underlying trade become more reliable?",
+      "retrieved": [
+        {
+          "id": "risk-invalidation",
+          "source": "DP06",
+          "pages": [
+            7
+          ],
+          "question": "Should a stop be moved closer merely to make the reward-to-risk ratio look better?",
+          "answer": "No. The stop should reflect the predefined invalidation logic. Moving it solely to produce a preferred ratio changes the setup and its likelihood of being stopped. Reassess the trade instead of treating an attractive ratio as proof of quality."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "risk-invalidation",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-08-supported",
+      "question": "A simulation earns 0.3 percent per round trip and omits spread and fees. Can this be presented as achievable net performance?",
+      "retrieved": [
+        {
+          "id": "paper-costs",
+          "source": "DP17",
+          "pages": [
+            32
+          ],
+          "question": "Why can a paper-trading result be misleading when costs are ignored?",
+          "answer": "The simulated profit can omit fees and execution costs that would reduce real returns. A useful simulation states its venue-specific cost assumptions and execution model rather than interpreting frictionless results as achievable returns."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "paper-costs",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-08-irrelevant",
+      "question": "A simulation earns 0.3 percent per round trip and omits spread and fees. Can this be presented as achievable net performance?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "paper-costs",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-08-missing",
+      "question": "A simulation earns 0.3 percent per round trip and omits spread and fees. Can this be presented as achievable net performance?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "paper-costs",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-08-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A simulation earns 0.3 percent per round trip and omits spread and fees. Can this be presented as achievable net performance?",
+      "retrieved": [
+        {
+          "id": "paper-costs",
+          "source": "DP17",
+          "pages": [
+            32
+          ],
+          "question": "Why can a paper-trading result be misleading when costs are ignored?",
+          "answer": "The simulated profit can omit fees and execution costs that would reduce real returns. A useful simulation states its venue-specific cost assumptions and execution model rather than interpreting frictionless results as achievable returns."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "paper-costs",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-09-supported",
+      "question": "An exchange reports twice its usual token volume. Does this prove twice as many real investors arrived?",
+      "retrieved": [
+        {
+          "id": "dp05-relative-volume",
+          "source": "DP05",
+          "pages": [
+            18,
+            19
+          ],
+          "question": "How should high trading volume be interpreted when comparing chart moves?",
+          "answer": "State the venue, asset, units, interval and reference window used for the comparison. Volume above a defined historical baseline describes increased reported activity, but does not guarantee continuation or reveal trader intent. Absolute volume also matters for execution capacity, so it is not meaningless merely because relative volume is useful."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-relative-volume",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-09-irrelevant",
+      "question": "An exchange reports twice its usual token volume. Does this prove twice as many real investors arrived?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-relative-volume",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-09-missing",
+      "question": "An exchange reports twice its usual token volume. Does this prove twice as many real investors arrived?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-relative-volume",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-09-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? An exchange reports twice its usual token volume. Does this prove twice as many real investors arrived?",
+      "retrieved": [
+        {
+          "id": "dp05-relative-volume",
+          "source": "DP05",
+          "pages": [
+            18,
+            19
+          ],
+          "question": "How should high trading volume be interpreted when comparing chart moves?",
+          "answer": "State the venue, asset, units, interval and reference window used for the comparison. Volume above a defined historical baseline describes increased reported activity, but does not guarantee continuation or reveal trader intent. Absolute volume also matters for execution capacity, so it is not meaningless merely because relative volume is useful."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp05-relative-volume",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-10-supported",
+      "question": "A buy limit immediately crosses the available ask. Must it receive a maker fee because it is a limit order?",
+      "retrieved": [
+        {
+          "id": "dp17-maker-taker",
+          "source": "DP17",
+          "pages": [
+            39,
+            40
+          ],
+          "question": "Does placing a limit order necessarily make the trader a liquidity maker?",
+          "answer": "No. An order adds liquidity when it rests in the book; an immediately executable limit order can consume existing liquidity and act as a taker. The limit constrains price, while maker/taker classification depends on execution behavior and venue rules."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-maker-taker",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-10-irrelevant",
+      "question": "A buy limit immediately crosses the available ask. Must it receive a maker fee because it is a limit order?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-maker-taker",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-10-missing",
+      "question": "A buy limit immediately crosses the available ask. Must it receive a maker fee because it is a limit order?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-maker-taker",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-10-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A buy limit immediately crosses the available ask. Must it receive a maker fee because it is a limit order?",
+      "retrieved": [
+        {
+          "id": "dp17-maker-taker",
+          "source": "DP17",
+          "pages": [
+            39,
+            40
+          ],
+          "question": "Does placing a limit order necessarily make the trader a liquidity maker?",
+          "answer": "No. An order adds liquidity when it rests in the book; an immediately executable limit order can consume existing liquidity and act as a taker. The limit constrains price, while maker/taker classification depends on execution behavior and venue rules."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp17-maker-taker",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-11-supported",
+      "question": "A stop is triggered during an exchange outage. Can the simulator book an immediate fill exactly at its trigger as guaranteed?",
+      "retrieved": [
+        {
+          "id": "dp17-stop-no-guarantee",
+          "source": "DP17",
+          "pages": [
+            39
+          ],
+          "question": "Does the book's stop-market discussion guarantee an exit under every extreme market condition?",
+          "answer": "No. A stop trigger and submitted market order do not guarantee a timely fill or maximum loss during outages, unavailable liquidity, venue restrictions or severe gaps. Stop-market and stop-limit orders have different execution risks, but neither is an unconditional insurance contract."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-stop-no-guarantee",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-11-irrelevant",
+      "question": "A stop is triggered during an exchange outage. Can the simulator book an immediate fill exactly at its trigger as guaranteed?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-stop-no-guarantee",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-11-missing",
+      "question": "A stop is triggered during an exchange outage. Can the simulator book an immediate fill exactly at its trigger as guaranteed?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-stop-no-guarantee",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-11-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A stop is triggered during an exchange outage. Can the simulator book an immediate fill exactly at its trigger as guaranteed?",
+      "retrieved": [
+        {
+          "id": "dp17-stop-no-guarantee",
+          "source": "DP17",
+          "pages": [
+            39
+          ],
+          "question": "Does the book's stop-market discussion guarantee an exit under every extreme market condition?",
+          "answer": "No. A stop trigger and submitted market order do not guarantee a timely fill or maximum loss during outages, unavailable liquidity, venue restrictions or severe gaps. Stop-market and stop-limit orders have different execution risks, but neither is an unconditional insurance contract."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp17-stop-no-guarantee",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-12-supported",
+      "question": "Two venues show the same best bid and ask, but one has little quantity available. Must a large purchase have the same average execution price?",
+      "retrieved": [
+        {
+          "id": "dp17-spread-depth",
+          "source": "DP17",
+          "pages": [
+            40,
+            41
+          ],
+          "question": "Can a tight quoted spread alone establish cheap execution for a large order?",
+          "answer": "No. The spread describes the best quotes, while execution depends on available quantities, deeper price levels, fees and book changes. A large order can consume multiple levels. Quote quality and depth must be considered for the intended size."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-spread-depth",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-12-irrelevant",
+      "question": "Two venues show the same best bid and ask, but one has little quantity available. Must a large purchase have the same average execution price?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-spread-depth",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-12-missing",
+      "question": "Two venues show the same best bid and ask, but one has little quantity available. Must a large purchase have the same average execution price?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-spread-depth",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-12-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? Two venues show the same best bid and ask, but one has little quantity available. Must a large purchase have the same average execution price?",
+      "retrieved": [
+        {
+          "id": "dp17-spread-depth",
+          "source": "DP17",
+          "pages": [
+            40,
+            41
+          ],
+          "question": "Can a tight quoted spread alone establish cheap execution for a large order?",
+          "answer": "No. The spread describes the best quotes, while execution depends on available quantities, deeper price levels, fees and book changes. A large order can consume multiple levels. Quote quality and depth must be considered for the intended size."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp17-spread-depth",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-13-supported",
+      "question": "A snapshot shows large buy orders. Must those orders still be there when our later trade arrives?",
+      "retrieved": [
+        {
+          "id": "book-definition",
+          "source": "DP17",
+          "pages": [
+            35
+          ],
+          "question": "What does a limit order book represent?",
+          "answer": "It represents currently resting buy and sell orders organized by price. Orders can be matched, changed or canceled, so the displayed book is a snapshot rather than a permanent commitment of liquidity."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "book-definition",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-13-irrelevant",
+      "question": "A snapshot shows large buy orders. Must those orders still be there when our later trade arrives?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "book-definition",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-13-missing",
+      "question": "A snapshot shows large buy orders. Must those orders still be there when our later trade arrives?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "book-definition",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-13-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A snapshot shows large buy orders. Must those orders still be there when our later trade arrives?",
+      "retrieved": [
+        {
+          "id": "book-definition",
+          "source": "DP17",
+          "pages": [
+            35
+          ],
+          "question": "What does a limit order book represent?",
+          "answer": "It represents currently resting buy and sell orders organized by price. Orders can be matched, changed or canceled, so the displayed book is a snapshot rather than a permanent commitment of liquidity."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "book-definition",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-14-supported",
+      "question": "Two books have signed imbalances +0.6 and -0.6. After taking absolute values can we still distinguish their heavier sides?",
+      "retrieved": [
+        {
+          "id": "book-absolute",
+          "source": "DP19",
+          "pages": [
+            13
+          ],
+          "question": "What information is lost when taking absolute normalized order-book imbalance?",
+          "answer": "The absolute value keeps the magnitude of the imbalance but removes which side is larger. Under this paper's convention, +0.4 and -0.4 both become 0.4 even though one is ask-heavy and the other bid-heavy."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "book-absolute",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-14-irrelevant",
+      "question": "Two books have signed imbalances +0.6 and -0.6. After taking absolute values can we still distinguish their heavier sides?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "book-absolute",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-14-missing",
+      "question": "Two books have signed imbalances +0.6 and -0.6. After taking absolute values can we still distinguish their heavier sides?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "book-absolute",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-14-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? Two books have signed imbalances +0.6 and -0.6. After taking absolute values can we still distinguish their heavier sides?",
+      "retrieved": [
+        {
+          "id": "book-absolute",
+          "source": "DP19",
+          "pages": [
+            13
+          ],
+          "question": "What information is lost when taking absolute normalized order-book imbalance?",
+          "answer": "The absolute value keeps the magnitude of the imbalance but removes which side is larger. Under this paper's convention, +0.4 and -0.4 both become 0.4 even though one is ask-heavy and the other bid-heavy."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "book-absolute",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-15-supported",
+      "question": "Two dashboards both label a line VWAP but reset at different times. Is equal naming enough to expect equal values?",
+      "retrieved": [
+        {
+          "id": "dp17-vwap-convention",
+          "source": "DP17",
+          "pages": [
+            62,
+            63
+          ],
+          "question": "What must be specified when using trade-volume VWAP?",
+          "answer": "State the interval or reset anchor, included trades or bar-price approximation, price units and volume units. A trade-level VWAP divides summed price-times-volume by total included volume when the denominator is positive. This differs from an order-book average of resting quotes, and trading above it does not prove a profitable forecast."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-vwap-convention",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-15-irrelevant",
+      "question": "Two dashboards both label a line VWAP but reset at different times. Is equal naming enough to expect equal values?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-vwap-convention",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-15-missing",
+      "question": "Two dashboards both label a line VWAP but reset at different times. Is equal naming enough to expect equal values?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-vwap-convention",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-15-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? Two dashboards both label a line VWAP but reset at different times. Is equal naming enough to expect equal values?",
+      "retrieved": [
+        {
+          "id": "dp17-vwap-convention",
+          "source": "DP17",
+          "pages": [
+            62,
+            63
+          ],
+          "question": "What must be specified when using trade-volume VWAP?",
+          "answer": "State the interval or reset anchor, included trades or bar-price approximation, price units and volume units. A trade-level VWAP divides summed price-times-volume by total included volume when the denominator is positive. This differs from an order-book average of resting quotes, and trading above it does not prove a profitable forecast."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp17-vwap-convention",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-16-supported",
+      "question": "Two implementations both use RSI14 but initialize smoothing differently. Is the period label enough to guarantee reproducible values?",
+      "retrieved": [
+        {
+          "id": "dp05-rsi-definition",
+          "source": "DP05",
+          "pages": [
+            38,
+            39
+          ],
+          "question": "What inputs must be specified to reproduce an RSI value?",
+          "answer": "Specify the price series, bar interval, lookback, gain/loss averaging method, initialization and zero-loss handling. RSI is commonly written as 100 minus 100 divided by one plus the average-gain to average-loss ratio. Naming a 14-period setting alone does not fully specify implementation or establish a reversal probability."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-rsi-definition",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-16-irrelevant",
+      "question": "Two implementations both use RSI14 but initialize smoothing differently. Is the period label enough to guarantee reproducible values?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-rsi-definition",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-16-missing",
+      "question": "Two implementations both use RSI14 but initialize smoothing differently. Is the period label enough to guarantee reproducible values?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp05-rsi-definition",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-16-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? Two implementations both use RSI14 but initialize smoothing differently. Is the period label enough to guarantee reproducible values?",
+      "retrieved": [
+        {
+          "id": "dp05-rsi-definition",
+          "source": "DP05",
+          "pages": [
+            38,
+            39
+          ],
+          "question": "What inputs must be specified to reproduce an RSI value?",
+          "answer": "Specify the price series, bar interval, lookback, gain/loss averaging method, initialization and zero-loss handling. RSI is commonly written as 100 minus 100 divided by one plus the average-gain to average-loss ratio. Naming a 14-period setting alone does not fully specify implementation or establish a reversal probability."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp05-rsi-definition",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-17-supported",
+      "question": "RSI remains at 78 during a rising market. Is an immediate reversal mechanically required?",
+      "retrieved": [
+        {
+          "id": "rsi-extreme",
+          "source": "DP17",
+          "pages": [
+            54
+          ],
+          "question": "Does RSI above 70 prove a cryptocurrency must fall immediately?",
+          "answer": "No. Above 70 is a conventional overbought interpretation, but RSI can remain extreme while the trend continues. Likewise, below 30 does not guarantee an immediate rebound. Treat the reading as one piece of evidence, not a certain reversal signal."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "rsi-extreme",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-17-irrelevant",
+      "question": "RSI remains at 78 during a rising market. Is an immediate reversal mechanically required?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "rsi-extreme",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-17-missing",
+      "question": "RSI remains at 78 during a rising market. Is an immediate reversal mechanically required?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "rsi-extreme",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-17-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? RSI remains at 78 during a rising market. Is an immediate reversal mechanically required?",
+      "retrieved": [
+        {
+          "id": "rsi-extreme",
+          "source": "DP17",
+          "pages": [
+            54
+          ],
+          "question": "Does RSI above 70 prove a cryptocurrency must fall immediately?",
+          "answer": "No. Above 70 is a conventional overbought interpretation, but RSI can remain extreme while the trend continues. Likewise, below 30 does not guarantee an immediate rebound. Treat the reading as one piece of evidence, not a certain reversal signal."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "rsi-extreme",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-18-supported",
+      "question": "An exchange wallet receives tokens from thousands of users. Does its balance demonstrate one wealthy investor buying?",
+      "retrieved": [
+        {
+          "id": "dp07-exchange-holder",
+          "source": "DP07",
+          "pages": [
+            12
+          ],
+          "question": "Why should a labeled exchange address be treated differently from an individual whale?",
+          "answer": "An exchange address can custody assets for many customers and support operational transfers. Its balance is not necessarily one investor's conviction. Keep entity type and attribution confidence explicit when interpreting concentration or wallet activity."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-exchange-holder",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-18-irrelevant",
+      "question": "An exchange wallet receives tokens from thousands of users. Does its balance demonstrate one wealthy investor buying?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-exchange-holder",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-18-missing",
+      "question": "An exchange wallet receives tokens from thousands of users. Does its balance demonstrate one wealthy investor buying?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-exchange-holder",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-18-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? An exchange wallet receives tokens from thousands of users. Does its balance demonstrate one wealthy investor buying?",
+      "retrieved": [
+        {
+          "id": "dp07-exchange-holder",
+          "source": "DP07",
+          "pages": [
+            12
+          ],
+          "question": "Why should a labeled exchange address be treated differently from an individual whale?",
+          "answer": "An exchange address can custody assets for many customers and support operational transfers. Its balance is not necessarily one investor's conviction. Keep entity type and attribution confidence explicit when interpreting concentration or wallet activity."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp07-exchange-holder",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-19-supported",
+      "question": "A lending deposit produces a receipt token. Should the receipt automatically be recorded as a separate speculative purchase?",
+      "retrieved": [
+        {
+          "id": "dp07-receipt",
+          "source": "DP07",
+          "pages": [
+            10
+          ],
+          "question": "In the guide's lending example, why does the depositor receive a receipt token?",
+          "answer": "The receipt token represents the depositor's position in the lending protocol. Its appearance is connected to the underlying deposit, rather than automatically showing an unrelated speculative purchase. The precise redemption and accounting rules depend on the protocol."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-receipt",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-19-irrelevant",
+      "question": "A lending deposit produces a receipt token. Should the receipt automatically be recorded as a separate speculative purchase?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-receipt",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-19-missing",
+      "question": "A lending deposit produces a receipt token. Should the receipt automatically be recorded as a separate speculative purchase?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-receipt",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-19-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A lending deposit produces a receipt token. Should the receipt automatically be recorded as a separate speculative purchase?",
+      "retrieved": [
+        {
+          "id": "dp07-receipt",
+          "source": "DP07",
+          "pages": [
+            10
+          ],
+          "question": "In the guide's lending example, why does the depositor receive a receipt token?",
+          "answer": "The receipt token represents the depositor's position in the lending protocol. Its appearance is connected to the underlying deposit, rather than automatically showing an unrelated speculative purchase. The precise redemption and accounting rules depend on the protocol."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp07-receipt",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-20-supported",
+      "question": "One contract call emits four transfers. Does this establish four independent investment decisions?",
+      "retrieved": [
+        {
+          "id": "dp07-transaction-actions",
+          "source": "DP07",
+          "pages": [
+            9,
+            10
+          ],
+          "question": "Why can one blockchain transaction produce several token transfers?",
+          "answer": "A transaction can call a contract that performs multiple operations, such as wrapping an asset, depositing it into a lending protocol and issuing a receipt token. Transfer events describe parts of those operations. Counting each event as an independent investment decision can misrepresent the transaction."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-transaction-actions",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-20-irrelevant",
+      "question": "One contract call emits four transfers. Does this establish four independent investment decisions?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-transaction-actions",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-20-missing",
+      "question": "One contract call emits four transfers. Does this establish four independent investment decisions?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp07-transaction-actions",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-20-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? One contract call emits four transfers. Does this establish four independent investment decisions?",
+      "retrieved": [
+        {
+          "id": "dp07-transaction-actions",
+          "source": "DP07",
+          "pages": [
+            9,
+            10
+          ],
+          "question": "Why can one blockchain transaction produce several token transfers?",
+          "answer": "A transaction can call a contract that performs multiple operations, such as wrapping an asset, depositing it into a lending protocol and issuing a receipt token. Transfer events describe parts of those operations. Counting each event as an independent investment decision can misrepresent the transaction."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp07-transaction-actions",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-21-supported",
+      "question": "A token webpage says fully backed but supplies no reserve or redemption evidence. Does the slogan establish safe redemption at par?",
+      "retrieved": [
+        {
+          "id": "dp03-stablecoin-backing",
+          "source": "DP03",
+          "pages": [
+            33,
+            34
+          ],
+          "question": "Why does asset backing for a stablecoin still require due diligence?",
+          "answer": "Users need evidence about the reserve assets, custody, liabilities, redemption terms, legal priority, audits or attestations, and liquidity under stress. A claim of backing does not by itself prove that reserves are sufficient, unencumbered, or accessible at par."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp03-stablecoin-backing",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-21-irrelevant",
+      "question": "A token webpage says fully backed but supplies no reserve or redemption evidence. Does the slogan establish safe redemption at par?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp03-stablecoin-backing",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-21-missing",
+      "question": "A token webpage says fully backed but supplies no reserve or redemption evidence. Does the slogan establish safe redemption at par?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp03-stablecoin-backing",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-21-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A token webpage says fully backed but supplies no reserve or redemption evidence. Does the slogan establish safe redemption at par?",
+      "retrieved": [
+        {
+          "id": "dp03-stablecoin-backing",
+          "source": "DP03",
+          "pages": [
+            33,
+            34
+          ],
+          "question": "Why does asset backing for a stablecoin still require due diligence?",
+          "answer": "Users need evidence about the reserve assets, custody, liabilities, redemption terms, legal priority, audits or attestations, and liquidity under stress. A claim of backing does not by itself prove that reserves are sufficient, unencumbered, or accessible at par."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp03-stablecoin-backing",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-22-supported",
+      "question": "A ledger is publicly readable but only approved entities validate. Does public reading make validation permissionless?",
+      "retrieved": [
+        {
+          "id": "dp03-permission-models",
+          "source": "DP03",
+          "pages": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "question": "What is the practical difference between a permissionless and a permissioned distributed ledger?",
+          "answer": "A permissionless system generally lets participants join validation under public protocol rules, while a permissioned system restricts validation or access to approved parties. Openness of source code, read access, transaction submission, and validation authority are separate properties and should be stated explicitly."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp03-permission-models",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-22-irrelevant",
+      "question": "A ledger is publicly readable but only approved entities validate. Does public reading make validation permissionless?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp03-permission-models",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-22-missing",
+      "question": "A ledger is publicly readable but only approved entities validate. Does public reading make validation permissionless?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp03-permission-models",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-22-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A ledger is publicly readable but only approved entities validate. Does public reading make validation permissionless?",
+      "retrieved": [
+        {
+          "id": "dp03-permission-models",
+          "source": "DP03",
+          "pages": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "question": "What is the practical difference between a permissionless and a permissioned distributed ledger?",
+          "answer": "A permissionless system generally lets participants join validation under public protocol rules, while a permissioned system restricts validation or access to approved parties. Openness of source code, read access, transaction submission, and validation authority are separate properties and should be stated explicitly."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp03-permission-models",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-23-supported",
+      "question": "A signature verifies message A. Can the app reuse that verification as approval of an altered message B?",
+      "retrieved": [
+        {
+          "id": "dp16-signature-binding",
+          "source": "DP16",
+          "pages": [
+            38,
+            39,
+            40
+          ],
+          "question": "Why is a valid signature on one message not permission to alter the message and reuse that signature?",
+          "answer": "A signature scheme binds verification to the signed message and public key. A valid signature for one message is not a general authorization for another message. Implementations and the exact signed fields matter; a research system should not infer approval of content outside that scope."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp16-signature-binding",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-23-irrelevant",
+      "question": "A signature verifies message A. Can the app reuse that verification as approval of an altered message B?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp16-signature-binding",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-23-missing",
+      "question": "A signature verifies message A. Can the app reuse that verification as approval of an altered message B?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp16-signature-binding",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-23-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A signature verifies message A. Can the app reuse that verification as approval of an altered message B?",
+      "retrieved": [
+        {
+          "id": "dp16-signature-binding",
+          "source": "DP16",
+          "pages": [
+            38,
+            39,
+            40
+          ],
+          "question": "Why is a valid signature on one message not permission to alter the message and reuse that signature?",
+          "answer": "A signature scheme binds verification to the signed message and public key. A valid signature for one message is not a general authorization for another message. Implementations and the exact signed fields matter; a research system should not infer approval of content outside that scope."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp16-signature-binding",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-24-supported",
+      "question": "A signing device is powered off. Can a sender still broadcast to its already known valid receiving address?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp16-receive-offline",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-24-irrelevant",
+      "question": "A signing device is powered off. Can a sender still broadcast to its already known valid receiving address?",
+      "retrieved": [
+        {
+          "id": "dp05-adx-direction",
+          "source": "DP05",
+          "pages": [
+            39,
+            40
+          ],
+          "question": "Does a rising ADX necessarily mean price is rising?",
+          "answer": "No. ADX describes trend strength rather than its upward or downward direction. A strong declining trend can have a high or rising ADX. Directional indicators such as +DI and -DI provide separate information; neither their crossing nor an ADX threshold guarantees a profitable forecast."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp16-receive-offline",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-24-missing",
+      "question": "A signing device is powered off. Can a sender still broadcast to its already known valid receiving address?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp16-receive-offline",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-24-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? A signing device is powered off. Can a sender still broadcast to its already known valid receiving address?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp16-receive-offline",
+      "condition": "unidentified"
+    },
+    {
+      "id": "b010-25-supported",
+      "question": "Researchers try 300 indicator combinations and report the best historical result. Does agreement among its indicators prove independent confirmation?",
+      "retrieved": [
+        {
+          "id": "dp17-selection-bias",
+          "source": "DP17",
+          "pages": [
+            60,
+            66
+          ],
+          "question": "Is choosing the best of many indicators on the same historical sample sufficient evidence of a trading edge?",
+          "answer": "No. Trying many alternatives can select noise, and correlated indicators can repeat the same underlying information. Record the search, choose using development data and evaluate a frozen rule on genuinely unseen observations with costs. Several agreeing indicators are not automatically independent evidence."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-selection-bias",
+      "condition": "supported"
+    },
+    {
+      "id": "b010-25-irrelevant",
+      "question": "Researchers try 300 indicator combinations and report the best historical result. Does agreement among its indicators prove independent confirmation?",
+      "retrieved": [
+        {
+          "id": "dp16-receive-offline",
+          "source": "DP16",
+          "pages": [
+            105
+          ],
+          "question": "Must an offline signing device connect to the internet before a sender can pay a known valid receiving address?",
+          "answer": "No. A sender can broadcast a payment to a known valid address through the network without the receiving signing device being online. Observing confirmation and later authorizing spending are different steps. This does not remove the need to verify the intended address or retain the required signing material."
+        }
+      ],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-selection-bias",
+      "condition": "irrelevant"
+    },
+    {
+      "id": "b010-25-missing",
+      "question": "Researchers try 300 indicator combinations and report the best historical result. Does agreement among its indicators prove independent confirmation?",
+      "retrieved": [],
+      "scope": "general",
+      "source_id": null,
+      "category": "dp17-selection-bias",
+      "condition": "missing"
+    },
+    {
+      "id": "b010-25-unidentified",
+      "question": "In a report I have not identified or supplied, what conclusion does its author give about this case? Researchers try 300 indicator combinations and report the best historical result. Does agreement among its indicators prove independent confirmation?",
+      "retrieved": [
+        {
+          "id": "dp17-selection-bias",
+          "source": "DP17",
+          "pages": [
+            60,
+            66
+          ],
+          "question": "Is choosing the best of many indicators on the same historical sample sufficient evidence of a trading edge?",
+          "answer": "No. Trying many alternatives can select noise, and correlated indicators can repeat the same underlying information. Record the search, choose using development data and evaluate a frozen rule on genuinely unseen observations with costs. Several agreeing indicators are not automatically independent evidence."
+        }
+      ],
+      "scope": "source_specific",
+      "source_id": null,
+      "category": "dp17-selection-bias",
+      "condition": "unidentified"
+    }
+  ],
+  "system": "Answer the question using only the supplied evidence and any explicitly supplied verified tool output. First check whether the evidence supports the requested conclusion. If it does not, state what relevant evidence is missing; do not answer from memory or cite an unrelated passage. When supported, answer directly in at most three short sentences and cite the supporting evidence ID in square brackets. Make Yes or No agree with the question and explanation. Do not invent tool calls, calculator results, measurements or source details. Mention tools only when an actual tool result is supplied and relevant. Preserve uncertainty and distinguish possibility from certainty.",
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "training_executed": false,
+  "independent_test": false,
+  "scope_origin": "Explicit caller scope and calculator arguments; no automatic intent parsing or tool selection; system gains are not learned gains."
+}

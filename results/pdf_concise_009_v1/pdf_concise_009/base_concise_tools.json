@@ -1,0 +1,153 @@
+[
+  {
+    "id": "r009-unknown-normalization",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-unknown-average",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-unknown-survey",
+    "response": "Please identify or select the document you mean. Retrieved passages alone do not establish the identity of an unnamed source.",
+    "generated_tokens": 0,
+    "hit_token_limit": false,
+    "model_invoked": false,
+    "prompt_condition": "concise_tools",
+    "route_status": "needs_source",
+    "evidence_ids": []
+  },
+  {
+    "id": "r009-known-chart",
+    "response": "The historical series ends in 2014. [dp04-reserve-chart-date] The chart ends in 2014 as stated in the evidence. No further years are mentioned in the provided passage.",
+    "generated_tokens": 46,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp04-reserve-chart-date"
+    ]
+  },
+  {
+    "id": "r009-ownership-evidence",
+    "response": "No. The transfer from Wallet X to Wallet Y does not alone prove that Y owns all other addresses belonging to X. [dp07-links] states that transfers show relationships but do not prove common ownership. The evidence does not establish ownership of all addresses.",
+    "generated_tokens": 53,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp07-links",
+      "dp07-seed-price"
+    ]
+  },
+  {
+    "id": "r009-signature-title",
+    "response": "No. Validity alone does not prove lawful ownership [dp16-signature-roles]. The evidence shows that verification of a signature does not establish the signer's legal identity. A valid signature only confirms the message was signed with the corresponding signing key, not the legal ownership or intent of the signer.",
+    "generated_tokens": 62,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp16-signature-roles"
+    ]
+  },
+  {
+    "id": "r009-sell-direction",
+    "response": "A sell limit of 240 does not permit an execution at 235, and it does not guarantee any execution. The price constraint is not satisfied as the hypothetical fill price (235) is lower than the limit price (240) [limit-order]. The calculator explicitly states execution is not guaranteed.",
+    "generated_tokens": 68,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "r009-missing-study",
+    "response": "The direct answer is that the missing evidence prevents treating 8/8 as a general strategy success rate. The evidence [dp05-pattern-evidence] shows that textbook pattern illustrations do not provide a complete sampling procedure, failures, transaction costs, or out-of-sample results. Without these elements, the 8/8 win rate cannot be generalized.",
+    "generated_tokens": 71,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "dp05-pattern-evidence"
+    ]
+  },
+  {
+    "id": "t008-sell-240-245",
+    "response": "A hypothetical fill at 245 satisfies the gross price constraint for a sell limit of 240, as the fill price is higher than the limit price [limit-order]. Execution is not guaranteed.",
+    "generated_tokens": 43,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "t008-buy-240-235",
+    "response": "A hypothetical fill at 235 satisfies the gross price constraint for a buy limit of 240 [limit-order]. Execution is not guaranteed. The calculator explicitly states execution is not guaranteed.",
+    "generated_tokens": 41,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "t008-buy-240-245",
+    "response": "A hypothetical fill at 245 does not satisfy the gross price constraint for a buy limit of 240. Execution is not guaranteed. [limit-order]",
+    "generated_tokens": 35,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "t008-sell-0.1001-0.1000",
+    "response": "A hypothetical fill at 0.1000 does not satisfy the gross price constraint for a sell limit at 0.1001. Execution is not guaranteed. [limit-order]",
+    "generated_tokens": 41,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "t008-buy-240-240",
+    "response": "A hypothetical fill at 240 satisfies the gross price constraint as it meets the fill <= limit condition [limit-order]. Execution is not guaranteed, as the calculator explicitly states execution is not guaranteed. The result is based solely on gross price comparison without considering other factors.",
+    "generated_tokens": 55,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "prompt_condition": "concise_tools",
+    "route_status": "ready",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "training_executed": false,
+  "cases": 8,
+  "generations": 32,
+  "comparison": "Eight exposed development questions; base/adapter017 crossed with thinking off/on. Same sampling settings and2048 output token cap in all conditions. Single-seed diagnostic, no final acceptance. Compare within job, not greedy historical outputs.",
+  "adapter_sha256": "98a59cc00ae482e751915af12fee3d6d8fa942755319d91c37567e1e1fb6fd42"
+}

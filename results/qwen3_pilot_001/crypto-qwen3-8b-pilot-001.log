@@ -1,0 +1,22 @@
+[{"stream_name":"stderr","time":36.581566437,"data":"WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('\u003cpip._vendor.urllib3.connection.HTTPSConnection object at 0x7c6584a34890\u003e: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/transformers/\n"}
+,{"stream_name":"stderr","time":69.093431934,"data":"WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('\u003cpip._vendor.urllib3.connection.HTTPSConnection object at 0x7c6584596bd0\u003e: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/transformers/\n"}
+,{"stream_name":"stderr","time":102.106113175,"data":"WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('\u003cpip._vendor.urllib3.connection.HTTPSConnection object at 0x7c6584589d60\u003e: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/transformers/\n"}
+,{"stream_name":"stderr","time":136.121865411,"data":"WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('\u003cpip._vendor.urllib3.connection.HTTPSConnection object at 0x7c6584544f80\u003e: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/transformers/\n"}
+,{"stream_name":"stderr","time":172.137497233,"data":"WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('\u003cpip._vendor.urllib3.connection.HTTPSConnection object at 0x7c6584547470\u003e: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/transformers/\n"}
+,{"stream_name":"stderr","time":204.156301068,"data":"ERROR: Could not find a version that satisfies the requirement transformers==4.56.2 (from versions: none)\n"}
+,{"stream_name":"stderr","time":204.156714433,"data":"ERROR: No matching distribution found for transformers==4.56.2\n"}
+,{"stream_name":"stderr","time":204.291560982,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":204.291624798,"data":"  File \"/kaggle/src/script.py\", line 258, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":204.291770751,"data":"    main()\n"}
+,{"stream_name":"stderr","time":204.291809632,"data":"  File \"/kaggle/src/script.py\", line 129, in main\n"}
+,{"stream_name":"stderr","time":204.291954995,"data":"    subprocess.run([sys.executable, '-m', 'pip', 'install', '--quiet',\n"}
+,{"stream_name":"stderr","time":204.291976126,"data":"  File \"/usr/lib/python3.12/subprocess.py\", line 571, in run\n"}
+,{"stream_name":"stderr","time":204.294763707,"data":"    raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stderr","time":204.294819365,"data":"subprocess.CalledProcessError: Command '['/usr/bin/python3', '-m', 'pip', 'install', '--quiet', 'transformers==4.56.2', 'peft==0.17.1', 'accelerate==1.10.1', 'bitsandbytes==0.47.0']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stderr","time":207.137037692,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":207.137080721,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":207.517046426,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":207.517078664,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":208.452742215,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":210.25267091,"data":"[NbConvertApp] Writing 340357 bytes to __results__.html\n"}
+]

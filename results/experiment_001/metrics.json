@@ -1,0 +1,260 @@
+{
+  "experiment": "001",
+  "executed_at": "2026-09-20T10:03:25.998740+00:00",
+  "execution_environment": "local CPU; not cloud",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.10",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "sklearn": "1.7.2"
+  },
+  "features": [
+    "r1",
+    "r3",
+    "r7",
+    "r14",
+    "r30",
+    "vol7",
+    "vol30",
+    "gap20",
+    "gap60",
+    "range",
+    "body",
+    "volume_ratio",
+    "drawdown30",
+    "asset_eth"
+  ],
+  "selected_model": "logistic",
+  "validation": [
+    {
+      "year": 2022,
+      "model": "logistic",
+      "brier": 0.2530097086687703,
+      "log_loss": 0.6992513155510621,
+      "accuracy": 0.4876373626373626,
+      "n": 728
+    },
+    {
+      "year": 2022,
+      "model": "histogram",
+      "brier": 0.25589971217614155,
+      "log_loss": 0.705549988205851,
+      "accuracy": 0.5082417582417582,
+      "n": 728
+    },
+    {
+      "year": 2023,
+      "model": "logistic",
+      "brier": 0.24993058334433738,
+      "log_loss": 0.69300824108049,
+      "accuracy": 0.5,
+      "n": 728
+    },
+    {
+      "year": 2023,
+      "model": "histogram",
+      "brier": 0.25046877297164494,
+      "log_loss": 0.6942043006358091,
+      "accuracy": 0.5192307692307693,
+      "n": 728
+    }
+  ],
+  "test_prediction": {
+    "brier": 0.24976004787646802,
+    "log_loss": 0.6926587517270923,
+    "accuracy": 0.4876712328767123,
+    "n": 1460
+  },
+  "prevalence_baseline": {
+    "brier": 0.2498540776340703,
+    "log_loss": 0.6928553105849801,
+    "accuracy": 0.5123287671232877,
+    "n": 1460
+  },
+  "training_rows": 4258,
+  "test_rows": 1460,
+  "first_entry": "2024-01-01 00:00:00",
+  "last_exit": "2025-12-31 00:00:00",
+  "active_asset_days": 43,
+  "exposure": 0.02945205479452055,
+  "costs": {
+    "30bps_round_trip": {
+      "model": {
+        "net_return": 0.007303687460892938,
+        "max_drawdown": 0.1198704206950505,
+        "daily_sharpe": 0.08489926271129915,
+        "days": 730
+      },
+      "trend": {
+        "net_return": -0.4047529403282377,
+        "max_drawdown": 0.5632146463737375,
+        "daily_sharpe": -0.5259902355531791,
+        "days": 730
+      },
+      "cash": {
+        "net_return": 0.0,
+        "max_drawdown": -0.0,
+        "daily_sharpe": 0.0,
+        "days": 730
+      },
+      "buy_hold": {
+        "net_return": 0.6928384982879934,
+        "max_drawdown": 0.42406403486343824,
+        "daily_sharpe": 0.760233995037036,
+        "days": 730
+      },
+      "model_vs_trend": {
+        "mean_daily_excess": 0.0005488747257468777,
+        "ci95": [
+          -0.0007235743174322869,
+          0.0017708453146137813
+        ],
+        "method": "paired circular 14-day blocks; 2000 replicates; both assets grouped by date"
+      }
+    },
+    "60bps_round_trip": {
+      "model": {
+        "net_return": -0.05560241520757625,
+        "max_drawdown": 0.13319059081524365,
+        "daily_sharpe": -0.2685099315274627,
+        "days": 730
+      },
+      "trend": {
+        "net_return": -0.8181339767451092,
+        "max_drawdown": 0.8353134445761017,
+        "daily_sharpe": -2.1439235521881366,
+        "days": 730
+      },
+      "cash": {
+        "net_return": 0.0,
+        "max_drawdown": -0.0,
+        "daily_sharpe": 0.0,
+        "days": 730
+      },
+      "buy_hold": {
+        "net_return": 0.6877675663718155,
+        "max_drawdown": 0.42406403486343835,
+        "daily_sharpe": 0.757427577907245,
+        "days": 730
+      },
+      "model_vs_trend": {
+        "mean_daily_excess": 0.002081921731142878,
+        "ci95": [
+          0.0007860315875296722,
+          0.0034124478874170555
+        ],
+        "method": "paired circular 14-day blocks; 2000 replicates; both assets grouped by date"
+      }
+    }
+  },
+  "by_asset": {
+    "BTCUSDT": {
+      "net_return": -0.010779042241510717,
+      "max_drawdown": 0.13114431318870035,
+      "daily_sharpe": -0.02695045906572859,
+      "days": 730,
+      "active_asset_days": 13
+    },
+    "ETHUSDT": {
+      "net_return": 0.012926773748231701,
+      "max_drawdown": 0.14613036651528555,
+      "daily_sharpe": 0.11510022028789937,
+      "days": 730,
+      "active_asset_days": 30
+    }
+  },
+  "by_year": {
+    "2024": {
+      "model": {
+        "net_return": -0.07000814251122156,
+        "max_drawdown": 0.1198704206950505,
+        "daily_sharpe": -0.8525984746604985,
+        "days": 366
+      },
+      "trend": {
+        "net_return": -0.27181157058279526,
+        "max_drawdown": 0.523074175375254,
+        "daily_sharpe": -0.5146269186755649,
+        "days": 366
+      },
+      "cash": {
+        "net_return": 0.0,
+        "max_drawdown": -0.0,
+        "daily_sharpe": 0.0,
+        "days": 366
+      },
+      "buy_hold": {
+        "net_return": 0.8351455514338515,
+        "max_drawdown": 0.3541565733704609,
+        "daily_sharpe": 1.3706703491967114,
+        "days": 366
+      }
+    },
+    "2025": {
+      "model": {
+        "net_return": 0.08313172782058165,
+        "max_drawdown": 0.06197303978378632,
+        "daily_sharpe": 0.8466679454342697,
+        "days": 364
+      },
+      "trend": {
+        "net_return": -0.1825645181589054,
+        "max_drawdown": 0.27729971606351644,
+        "daily_sharpe": -0.5711332976096103,
+        "days": 364
+      },
+      "cash": {
+        "net_return": 0.0,
+        "max_drawdown": -0.0,
+        "daily_sharpe": 0.0,
+        "days": 364
+      },
+      "buy_hold": {
+        "net_return": -0.07754537673301998,
+        "max_drawdown": 0.3924590613150054,
+        "daily_sharpe": 0.0923076584912889,
+        "days": 364
+      }
+    }
+  },
+  "by_regime": {
+    "bear_trend": {
+      "n": 669,
+      "active_asset_days": 12,
+      "mean_net_return": 0.00012267785517112726,
+      "prediction": {
+        "brier": 0.25009949928637,
+        "log_loss": 0.693338607681302,
+        "accuracy": 0.4828101644245142,
+        "n": 669
+      }
+    },
+    "bull_trend": {
+      "n": 791,
+      "active_asset_days": 31,
+      "mean_net_return": -6.461256349538239e-05,
+      "prediction": {
+        "brier": 0.24947295180412368,
+        "log_loss": 0.6920837534548215,
+        "accuracy": 0.4917825537294564,
+        "n": 791
+      }
+    }
+  },
+  "gates": {
+    "brier_improves": true,
+    "positive_net": true,
+    "positive_stress": false,
+    "excess_ci_positive": false,
+    "sufficient_trades": false,
+    "both_years_nonnegative": false,
+    "drawdown_limit": true
+  },
+  "numerical_gate": "FAIL",
+  "part3_gate": "NOT_READY: discovery, liquidity and explanation evaluation remain unproven",
+  "wall_seconds": 3.7492992999905255,
+  "code_sha256": "c008c03d5b6d3b0fa52a2cec40186a50e922d0fbe63e558b7466d6ca3a8e385e",
+  "protocol_sha256": "21673ceccab41ae52c61146fa6e05af32f8b7b8334d80acc5183bc8f863c25dd",
+  "candles_sha256": "15c694a68708d03834b8da1a05f1bfbacc342368698e9382939e8d331ba74144"
+}

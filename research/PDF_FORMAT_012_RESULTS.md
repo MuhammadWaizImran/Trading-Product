@@ -1,0 +1,11 @@
+# Evidence-format012 review (2026-09-29)
+
+All24 responses read. Both files contain12 unique expected IDs, all model-invoked, no truncation; hashes in results/pdf_format_012_v1/pdf_format_012/local_structural_audit.json. This is six selected failure scenarios in two formats, not independent acceptance.
+
+Declarative evidence corrects adapter010's candle naming (04) and affirmative offline receiving (24). Base was already correct on both. Both models still fail maker/taker reasoning (10), change fixed notional in the risk scenario (06), attach offline-wallet evidence to RSI reasoning (16), and infer validation permission from unrelated wallet material (22). For the adapter, the permission answer becomes more elaborate and falsely equates signing material with validator authorization. Thus formatting alone is insufficient and adapter superiority is not established.
+
+The intervention removed evidence questions, removed initial Yes./No., and renamed answer to text together. It cannot identify which individual change caused the two repairs. All questions are exposed development material. No training was performed in012.
+
+Next: a bounded corrective SFT011, distinct from broad evaluation011. Start fresh from the pinned base, not adapter010. Use48 previously manually reviewed relevance/polarity examples plus24 newly reviewed applications for maker/taker, fixed notional, upper-wick naming, RSI conventions, permission properties and signature binding. Use declarative evidence. The older230 mixed-evidence records are omitted from this experiment rather than presumed clean. This deliberately reduces training breadth to72 examples across six PDF sources; regression evaluation still spans ten sources. It does not replace completed adapters or claim full-library coverage.
+
+Same rank8 QLoRA, one epoch LR2e-5, seed217 and pinned Qwen3-8B. Same prompt/format for base and adapted evaluation.42 validation and50 development tests are exposed and retained for regression checks, not final acceptance. Curriculum and input format both change, so causal attribution remains limited. Require no severe errors and a demonstrated advantage before selecting the adapter; lower loss alone is insufficient. Full-library review and independent acceptance remain unfinished.

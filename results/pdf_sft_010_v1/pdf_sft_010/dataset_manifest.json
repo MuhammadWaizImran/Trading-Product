@@ -1,0 +1,47 @@
+{
+  "batch": "010",
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "created_utc": "2026-09-29T06:33:18.231707+00:00",
+  "parent_adapter": null,
+  "method": "Fresh rank8 QLoRA, 1 epoch, LR2e-5. 48 reviewed relevance/polarity contrast examples plus230 replay examples. Conditional tool instructions applied identically to base and adapter.",
+  "epochs": 1,
+  "learning_rate": 2e-05,
+  "seed": 217,
+  "counts": {
+    "train": 278,
+    "validation": 42,
+    "test": 50
+  },
+  "splits": {
+    "train": "4bf000880ca1076968634f9902c40459d3356031d2c34824ca9c56bdddeda44a",
+    "validation": "318a5b79371c06438c8404c7e8f325d7f1d3669f152056d2141d0816c28e4935",
+    "test": "119329eaff5f76ccba516e0edc76f212c32378b296a8f04d6e878f6bc48f67af"
+  },
+  "training_sources": {
+    "DP05": 47,
+    "DP06": 12,
+    "DP17": 35,
+    "DP19": 16,
+    "DP07": 38,
+    "DP01": 27,
+    "DP03": 34,
+    "DP04": 30,
+    "DP10": 20,
+    "DP16": 19
+  },
+  "scope": "278 records from selected reviewed material in ten PDFs; no new PDF/page coverage.",
+  "previous_training_data_sha256": "56e57b5dbf4b17b0d5c4ddb0eb9ce206239d4ecafc09b98378ef8f72829e2473",
+  "added_modules": {
+    "pdf_training_dp05_expanded.json": "1a2bf49d1e275b42b2b708d637db0699e05b892208dcb2d9d58295157858c613",
+    "pdf_training_dp10_corrected.json": "37149cba457a9d44de43ad656b6b3864c37885dfe2a2547b50571ffa4e2f5e5d",
+    "pdf_training_dp17_expanded.json": "287d3f126856215e22f0455ee5331dc9e16890aca6bfe3361ddd14b1d8148268",
+    "pdf_training_dp16_foundations.json": "b4d1d3a08a4ee9bc4c7907999199dd8855decaa59c28381f6232c501cd385a13"
+  },
+  "evaluation": "Carried-forward exposed development cases plus12 fresh concept-overlapping development probes (6 validation,6 test). Broad010 failures informed curriculum; broad010 is now exposed development evidence. No independent acceptance claim.",
+  "validation_loss_limit": "References may exceed retrieved support and lack citations. Loss cannot promote model.",
+  "decision_rule": "Compare identically prompted base/adapted/reloaded outputs. Require all6 new test probes correct, relevant citations, no invented tools or contradictory polarity, and no severe regression on old cases. No promotion without independent acceptance. If base also passes, do not claim adapter advantage.",
+  "local_training_executed": false,
+  "system_prompt_sha256": "7e3921916ade9897c8be17843c2bf627f075be2319614341d215ea27bf56e945",
+  "automatic_successor_training": false
+}

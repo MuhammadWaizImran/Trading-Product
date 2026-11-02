@@ -1,0 +1,91 @@
+[
+  {
+    "id": "r009-unknown-normalization",
+    "response": "The denominator in the relative-spread measure is definitely the midpoint. According to the liquidity paper (DP19), the relative spread is calculated as (ask - bid) divided by the midpoint, where the midpoint is the average of the best bid and best ask prices. This is explicitly stated in the answer to the question about normalizing the quoted spread [relative-spread].",
+    "generated_tokens": 76,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "bypassed",
+    "evidence_ids": [
+      "relative-spread"
+    ]
+  },
+  {
+    "id": "r009-unknown-average",
+    "response": "The VWAP (Volume Weighted Average Price) in the context of the order-book is calculated by summing the price times quantity for selected levels on one side of the book and dividing by the total quantity, as described in [book-vwap]. This method averages resting order-book levels, but it does not necessarily reflect the execution price for a specific order size. The VWAP here is a summary of resting orders, not an automatic execution price. Therefore, while it averages resting order-book levels, it is not definitively the same as the average of all resting order-book levels. The evidence supports that it is a specific calculation over selected levels, not an overall average.",
+    "generated_tokens": 136,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "bypassed",
+    "evidence_ids": [
+      "book-vwap"
+    ]
+  },
+  {
+    "id": "r009-unknown-survey",
+    "response": "The survey in question is referenced in [dp03-conjoint-design], which mentions that \"each of 1,000 respondents per sampled country\" participated in the experiment. This confirms that the survey sampled exactly 1,000 people per country. No further evidence is needed to establish this fact.",
+    "generated_tokens": 65,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "bypassed",
+    "evidence_ids": [
+      "dp03-conjoint-design"
+    ]
+  },
+  {
+    "id": "r009-known-chart",
+    "response": "The historical series in the dp04-reserve-chart-date passage ends in 2014. The chart reflects historical context and does not include current data. To determine the most recent year, one would need a dataset from a source like the IMF with updated definitions and data. The provided evidence does not include current data, so the ending year of the historical series is 2014 [dp04-reserve-chart-date].",
+    "generated_tokens": 90,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "bypassed",
+    "evidence_ids": [
+      "dp04-reserve-chart-date"
+    ]
+  },
+  {
+    "id": "r009-ownership-evidence",
+    "response": "No, a single transfer from Wallet X to Wallet Y does not prove that Y owns all other addresses belonging to X. Transfers only show a relationship, which could arise from payments, services, or custody, not necessarily shared ownership [dp07-links]. Common ownership requires additional evidence beyond observed transfers. The transfer alone indicates a relationship but does not confirm ownership of all addresses [dp07-links].",
+    "generated_tokens": 82,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "bypassed",
+    "evidence_ids": [
+      "dp07-links",
+      "dp07-seed-price"
+    ]
+  },
+  {
+    "id": "r009-signature-title",
+    "response": "No, validity alone does not prove lawful ownership. A valid signature, created with a stolen key, demonstrates mathematical correctness but does not establish legal ownership or identity [dp16-signature-roles]. The verification process only confirms the signature's authenticity under the cryptographic scheme, not the signer's legal rights or identity. Legal ownership requires additional evidence beyond cryptographic validity.",
+    "generated_tokens": 73,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "bypassed",
+    "evidence_ids": [
+      "dp16-signature-roles"
+    ]
+  },
+  {
+    "id": "r009-sell-direction",
+    "response": "A sell limit order at 240 permits execution at 235 only if the price drops to 235 or lower, but this is not guaranteed. The price rule allows execution at or below the limit price for a sell order, but it does not guarantee any execution. The order may remain unfilled or only partially filled, as stated in the evidence [limit-order].",
+    "generated_tokens": 80,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "bypassed",
+    "evidence_ids": [
+      "limit-order"
+    ]
+  },
+  {
+    "id": "r009-missing-study",
+    "response": "The missing evidence includes a reproducible strategy definition, a complete sampling procedure, failure cases, transaction costs, and out-of-sample results. The tutorial's 8/8 winners lack timestamped examples evaluated without hindsight, as noted in [dp05-pattern-evidence]. Without these elements, 8/8 cannot be treated as a general success rate.",
+    "generated_tokens": 72,
+    "hit_token_limit": false,
+    "model_invoked": true,
+    "route_status": "bypassed",
+    "evidence_ids": [
+      "dp05-pattern-evidence"
+    ]
+  }
+]

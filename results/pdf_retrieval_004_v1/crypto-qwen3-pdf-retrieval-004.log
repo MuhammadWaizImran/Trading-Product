@@ -1,0 +1,49 @@
+[{"stream_name":"stdout","time":4.303431958,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 2.3 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.317022234,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 93.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.35304412,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 28.4 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.385252003,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 25.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.918088224,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 33.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.950916256,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 32.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":39.320676967,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":229.473312119,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [02:35\u003c10:23, 155.98s/it]\rFetching 5 files:  60%|██████    | 3/5 [02:50\u003c01:31, 45.85s/it] \rFetching 5 files: 100%|██████████| 5/5 [02:50\u003c00:00, 34.12s/it]\n"}
+,{"stream_name":"stderr","time":264.528238683,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  20%|██        | 1/5 [00:06\u003c00:27,  6.78s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:13\u003c00:20,  6.98s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:20\u003c00:13,  6.78s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:29\u003c00:07,  7.85s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:34\u003c00:00,  6.76s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:34\u003c00:00,  6.95s/it]\n"}
+,{"stream_name":"stderr","time":264.768472062,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":275.604144662,"data":"closed candles 103\n"}
+,{"stream_name":"stdout","time":287.440782804,"data":"closed trend 121\n"}
+,{"stream_name":"stdout","time":297.606267507,"data":"closed stop-fill 102\n"}
+,{"stream_name":"stdout","time":309.084955409,"data":"closed rsi 117\n"}
+,{"stream_name":"stdout","time":318.624526975,"data":"closed wallet-owners 96\n"}
+,{"stream_name":"stdout","time":327.732529706,"data":"closed verified-contract 91\n"}
+,{"stream_name":"stdout","time":337.190925209,"data":"closed receipt-token 95\n"}
+,{"stream_name":"stdout","time":346.452890441,"data":"closed oracle 94\n"}
+,{"stream_name":"stdout","time":354.909180294,"data":"closed reserves 85\n"}
+,{"stream_name":"stdout","time":364.670354855,"data":"closed dated-report 98\n"}
+,{"stream_name":"stdout","time":373.944891068,"data":"closed data-license 92\n"}
+,{"stream_name":"stdout","time":386.234521998,"data":"closed limit-order 126\n"}
+,{"stream_name":"stdout","time":395.458695186,"data":"closed unknown-definition 92\n"}
+,{"stream_name":"stdout","time":405.454851848,"data":"closed current-unlock 101\n"}
+,{"stream_name":"stdout","time":411.283264939,"data":"closed missing-chart 54\n"}
+,{"stream_name":"stdout","time":419.197850169,"data":"closed guaranteed-profit 78\n"}
+,{"stream_name":"stdout","time":433.478345898,"data":"retrieved candles 84\n"}
+,{"stream_name":"stdout","time":443.085656695,"data":"retrieved trend 59\n"}
+,{"stream_name":"stdout","time":456.352378405,"data":"retrieved stop-fill 73\n"}
+,{"stream_name":"stdout","time":468.534537318,"data":"retrieved rsi 61\n"}
+,{"stream_name":"stdout","time":482.294228195,"data":"retrieved wallet-owners 77\n"}
+,{"stream_name":"stdout","time":496.852028691,"data":"retrieved verified-contract 85\n"}
+,{"stream_name":"stdout","time":509.554592728,"data":"retrieved receipt-token 66\n"}
+,{"stream_name":"stdout","time":525.301341129,"data":"retrieved oracle 98\n"}
+,{"stream_name":"stdout","time":541.134008462,"data":"retrieved reserves 94\n"}
+,{"stream_name":"stdout","time":555.808933116,"data":"retrieved dated-report 82\n"}
+,{"stream_name":"stdout","time":568.427157139,"data":"retrieved data-license 70\n"}
+,{"stream_name":"stdout","time":581.753938496,"data":"retrieved limit-order 78\n"}
+,{"stream_name":"stdout","time":598.055270661,"data":"retrieved unknown-definition 104\n"}
+,{"stream_name":"stdout","time":612.474117345,"data":"retrieved current-unlock 79\n"}
+,{"stream_name":"stdout","time":625.850059821,"data":"retrieved missing-chart 73\n"}
+,{"stream_name":"stdout","time":638.025778041,"data":"retrieved guaranteed-profit 61\n"}
+,{"stream_name":"stderr","time":644.079225793,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":644.079260548,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":644.352838997,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":644.352892962,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":645.00797149,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":645.998119988,"data":"[NbConvertApp] Writing 349154 bytes to __results__.html\n"}
+]

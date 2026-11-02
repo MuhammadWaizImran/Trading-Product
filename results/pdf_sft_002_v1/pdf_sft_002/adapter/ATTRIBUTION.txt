@@ -1,0 +1,10 @@
+Private PDF-derived educational examples. Answers are adaptations, not verbatim source text.
+Crypto for Beginners: Technical Analysis Course — Crypto Wealth Academy.
+Risk Management — Elisa Crypto.
+Cryptocurrency Trading ebook — Binance Academy.
+Order Book Liquidity on Crypto Exchanges — Martin Angerer, Marius Gramlich and Michael Hanke, 2025.
+https://doi.org/10.3390/jrfm18030124 ; CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Questions and answers paraphrase selected concepts and add qualifications listed per example.
+No author endorsement is implied. Underlying CryptoTick data are not included.
+
+Additional source: Patrick Scott (Dynamo DeFi), Introduction to On-Chain Analysis v3, DP07. User-attested training permission. Paraphrased with corrections and qualifications; no endorsement.

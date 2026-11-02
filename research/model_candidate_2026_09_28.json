@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-28",
+  "status": "development_candidate_not_approved",
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "adapter": null,
+  "comparison_adapter": "run009 retained; advantage not established",
+  "system_prompt": "Explain only what the supplied evidence and verified calculator establish. Answer in at most three short sentences. State the direct answer first. Include the exact supporting evidence ID in square brackets. Preserve calculator comparisons exactly. A price constraint never guarantees execution, whether satisfied or not. Do not add legal procedures, registration requirements, market facts or other details absent from the evidence. If evidence is insufficient, say precisely what is missing. Do not repeat the question or offer general background.",
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 384,
+    "enable_thinking": false
+  },
+  "component_sha256": {
+    "workbench/source_scope.py": "a3925df07c4ae6d4394b17094b543b7eea2e8a854d339208bbba2b4b878e9ea0",
+    "scripts/research_math.py": "b91e0d4b3c070ea59c475f2b7b8c842578566fbbe2fae19c8c8ebb0ba35845b3",
+    "notebooks/pdf_concise_eval_009/evaluate.py": "5623e514808801fa4e3fbd902c4d1fb54486adf6ec94126b61dff6cbadab77d8"
+  },
+  "scope": "explicit caller-supplied source and calculator arguments; no autonomous retrieval or tool selection validated",
+  "assessment_dataset": "not_yet_constructed",
+  "production_approved": false
+}

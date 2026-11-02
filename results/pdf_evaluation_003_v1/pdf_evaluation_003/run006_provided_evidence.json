@@ -1,0 +1,106 @@
+[
+  {
+    "id": "depth",
+    "question": "Two exchanges have the same best ask. Must a large market buy cost the same on both?",
+    "rubric": "No; different quantities/depth and fills can produce different average costs. Do not claim every large buy necessarily moves price.",
+    "evidence": {
+      "source": "DP17 PDF pages 35-37; reviewed educational summary",
+      "text": "Equal best ask prices do not imply equal quantities at each ask level. Total execution cost depends on quantities and prices consumed across levels."
+    },
+    "response": "No, equal best ask prices do not guarantee equal execution costs. The total cost depends on the quantities available at each price level. If one exchange has more shares at the best ask, the cost will differ. The provided evidence shows that quantities at each ask level affect total cost.",
+    "generated_tokens": 57,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "unknown-paper",
+    "question": "Using the convention in a paper that I have not identified or supplied, what does NOBI = -0.2 mean?",
+    "rubric": "Ask for definition/source or state convention dependence; do not invent an expansion or a definite sign interpretation.",
+    "evidence": {
+      "source": "Question scope",
+      "text": "No paper or definition was supplied. There is no evidence permitting a source-specific interpretation."
+    },
+    "response": "The provided evidence does not permit a source-specific interpretation. No paper or definition was supplied. The meaning of \"NOBI = -0.2\" cannot be determined from the given information. A specific source or definition is required to interpret this notation.",
+    "generated_tokens": 51,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "provided-convention",
+    "question": "Source context: normalized order-book imbalance is (ask depth - bid depth)/(ask depth + bid depth). Ask depth is 60 and bid depth is 100. Calculate it and interpret the sign.",
+    "rubric": "-0.25; bid-heavy. This is a description of displayed depth, not a guaranteed future return.",
+    "evidence": {
+      "source": "Deterministic research_math.py on the question inputs; not a measured market outcome",
+      "text": "{\"value\": \"-0.25\", \"convention\": \"ask_minus_bid\", \"larger_displayed_side\": \"bid\", \"predictive_claim\": null}"
+    },
+    "response": "The normalized order-book imbalance is -0.25. This indicates a larger bid depth than ask depth. The negative sign suggests more buying pressure. The calculation uses the provided ask and bid depths.",
+    "generated_tokens": 41,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "payoff",
+    "question": "A setup offers +4R if it wins and -1R if it loses. Does that reveal the actual win probability? What is cost-free break-even?",
+    "rubric": "Actual probability unknown; 20% break-even under stated fixed payoffs.",
+    "evidence": {
+      "source": "Deterministic research_math.py on the question inputs; not a measured market outcome",
+      "text": "{\"breakeven_probability\": \"0.2\", \"feasible\": true, \"expected_r\": null, \"actual_probability_known\": false}"
+    },
+    "response": "The setup does not reveal the actual win probability, as it is not known. The cost-free break-even probability is 20%. The expected value is not calculated. The actual win probability is unknown.",
+    "generated_tokens": 42,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "sizing",
+    "question": "A hypothetical account has USD 12,000, a 0.5% risk budget, and a 3% entry-to-stop distance. Ignore costs. Compute position notional and planned loss. Do not give coin quantity without an entry price.",
+    "rubric": "USD 2,000 notional; USD 60 planned loss; quantity cannot be determined without entry price.",
+    "evidence": {
+      "source": "Deterministic research_math.py on the question inputs; not a measured market outcome",
+      "text": "{\"status\": \"calculated\", \"risk_budget\": \"60.000\", \"notional\": \"2000.0\", \"quantity\": null, \"exceeds_account\": false, \"assumptions\": \"Linear spot; exact stop execution; no costs. Not an order.\"}"
+    },
+    "response": "Position notional is USD 2000.0. Planned loss is USD 60.000. The quantity is not provided. The risk budget is 0.5% of the account.",
+    "generated_tokens": 45,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "no-stop",
+    "question": "Account USD 5,000, risk budget 1%, entry USD 20 per coin. No stop or loss-per-coin estimate is supplied. Give the risk-at-stop coin quantity.",
+    "rubric": "Insufficient information; budget USD 50 is known but risk-at-stop quantity is not.",
+    "evidence": {
+      "source": "Deterministic research_math.py on the question inputs; not a measured market outcome",
+      "text": "{\"status\": \"insufficient_information\", \"risk_budget\": \"50.00\", \"missing\": \"entry-to-stop fractional loss\", \"notional\": null, \"quantity\": null}"
+    },
+    "response": "The risk budget is 1% of USD 5,000, which is USD 50. The entry price is USD 20 per coin, but the stop price or fractional loss is missing. Without the stop price, we cannot calculate the risk-at-stop coin quantity. The missing information is the entry-to-stop fractional loss.",
+    "generated_tokens": 71,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "backup-versus-key",
+    "question": "An offline signing device still works and contains the key. Its only backup is destroyed. Are the funds already permanently inaccessible?",
+    "rubric": "No; the working key remains accessible. Backup loss increases future loss risk; do not conflate backup destruction with destruction of all keys.",
+    "evidence": {
+      "source": "Explicit premise of the question; logical check",
+      "text": "The original device is functional and contains the signing key. Only its backup was destroyed. The original signing key has not been stated to be lost."
+    },
+    "response": "The funds are not yet permanently inaccessible. The original device is functional and contains the signing key. The backup's destruction does not affect the original key's availability. The funds can still be accessed using the original device.",
+    "generated_tokens": 44,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  },
+  {
+    "id": "permission-properties",
+    "question": "A ledger publishes source code but only approved institutions validate. Is validation permissionless?",
+    "rubric": "No; distinguish source access from admission. No invented arithmetic.",
+    "evidence": {
+      "source": "DP03 PDF pages 46-49; reviewed adaptation",
+      "text": "A permissionless system generally lets participants join validation under public protocol rules, while a permissioned system restricts validation or access to approved parties. Openness of source code, read access, transaction submission, and validation authority are separate properties and should be stated explicitly."
+    },
+    "response": "Validation is permissioned if only approved institutions validate, even if source code is published. The evidence states that validation authority is a separate property from source code openness. Permissionless systems allow public participation in validation, while permissioned systems restrict it. The question requires identifying whether validation is permissionless, which depends on whether only approved institutions validate.",
+    "generated_tokens": 68,
+    "ended_with_eos": true,
+    "hit_token_limit": false
+  }
+]

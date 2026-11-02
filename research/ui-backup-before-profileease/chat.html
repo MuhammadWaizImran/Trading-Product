@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>AI Assistant · Crypto Research</title><link rel="stylesheet" href="/chat.css"></head>
+<body>
+<div class="app-shell">
+ <aside class="rail" aria-label="Main navigation">
+  <a class="logo" href="/" aria-label="Assistant home">◐</a>
+  <div class="rail-top"><button class="rail-button active" id="new-chat" title="New conversation" aria-label="New conversation">▦</button><button class="rail-button" id="history-button" title="Conversations" aria-label="Conversations">☰</button><a class="rail-button" href="/workbench" title="Research workbench" aria-label="Research workbench">▤</a><span class="rail-divider"></span><button class="rail-button" id="status-button" title="Model status" aria-label="Model status">♧</button><a class="rail-button" href="/workbench#reports" title="Evaluation workbench" aria-label="Evaluation workbench">◎</a></div>
+  <div class="rail-bottom"><button class="rail-button" id="profile-button" aria-label="Workspace information" title="Private workspace">♙</button><button class="rail-button" id="settings-button" aria-label="Settings" title="Settings">⚙</button></div>
+ </aside>
+ <div class="workspace">
+  <header class="topbar"><div class="breadcrumb"><button id="back-button" aria-label="Back to welcome" title="Back">←</button><span class="forward">→</span><span>Home</span><span class="slash">/</span><strong>AI Assistant</strong></div><div class="top-actions"><label class="search"><span>⌕</span><input id="history-search" aria-label="Search conversations" placeholder="Search Anything..."></label><button id="notification-button" aria-label="Notifications" title="Notifications">♧</button><button class="avatar" id="avatar-button" aria-label="Your workspace">W</button></div></header>
+  <nav class="mode-tabs" aria-label="Assistant views"><button class="selected" id="chat-tab">Chat Mode</button><button id="overview-tab">Overview</button></nav>
+  <button class="agent-status" id="agent-status"><span class="status-dot"></span> Research mode <span class="info-circle">i</span></button>
+  <main class="main-content">
+   <section class="welcome" id="welcome"><div class="orb" aria-hidden="true"><svg class="orb-sculpture" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <radialGradient id="orb-body" cx="32%" cy="24%" r="82%"><stop stop-color="#ffb5a5"/><stop offset=".2" stop-color="#db233f"/><stop offset=".48" stop-color="#6c0015"/><stop offset=".8" stop-color="#23020c"/><stop offset="1" stop-color="#e84f61"/></radialGradient>
+ <linearGradient id="orb-chrome" x1="0" y1="0" x2=".18" y2="1"><stop stop-color="#5c0011"/><stop offset=".12" stop-color="#ff4559"/><stop offset=".22" stop-color="#ffc5b4"/><stop offset=".28" stop-color="#fff8ed"/><stop offset=".35" stop-color="#ff9ba8"/><stop offset=".48" stop-color="#ef425b"/><stop offset=".66" stop-color="#94031f"/><stop offset=".87" stop-color="#35000c"/><stop offset=".96" stop-color="#f04a50"/><stop offset="1" stop-color="#ffa197"/></linearGradient>
+ <linearGradient id="orb-lower" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#ffceba"/><stop offset=".08" stop-color="#ff5861"/><stop offset=".24" stop-color="#970c23"/><stop offset=".45" stop-color="#ed3e43"/><stop offset=".61" stop-color="#ffb6a0"/><stop offset=".68" stop-color="#790719"/><stop offset=".9" stop-color="#2d020e"/><stop offset="1" stop-color="#e75f64"/></linearGradient>
+ <radialGradient id="orb-shade" cx="42%" cy="35%" r="64%"><stop offset=".5" stop-color="#000" stop-opacity="0"/><stop offset=".86" stop-color="#19000a" stop-opacity=".12"/><stop offset="1" stop-color="#180008" stop-opacity=".85"/></radialGradient>
+ <clipPath id="orb-clip"><circle cx="120" cy="120" r="112"/></clipPath>
+</defs>
+<g clip-path="url(#orb-clip)">
+ <circle cx="120" cy="120" r="112" fill="url(#orb-body)"/>
+ <path d="M18 84C31 28 87 2 132 11C184 14 222 54 232 115C224 151 213 125 195 94C174 57 148 35 112 39C67 42 39 89 30 82C22 78 30 60 39 50C19 66 14 82 18 84Z" fill="url(#orb-chrome)" stroke="#ff6572" stroke-width="1.1"/>
+ <path d="M9 121C33 171 49 63 105 64C160 61 179 159 216 139C230 133 234 105 230 90C245 141 223 174 198 159C165 144 142 93 106 89C59 81 27 164 13 142Z" fill="url(#orb-chrome)" stroke="#ff7180" stroke-width=".8"/>
+ <path d="M5 139C20 104 44 102 79 102C130 101 150 149 194 148C210 149 221 144 232 134C218 164 190 178 151 173C100 169 51 132 31 140C11 151 12 174 26 185C10 174 6 156 5 139Z" fill="url(#orb-lower)" stroke="#f87b7c" stroke-width="1"/>
+ <path d="M13 153C45 190 79 157 121 159C160 162 200 178 225 148C204 204 163 206 114 198C69 191 48 222 24 183Z" fill="url(#orb-chrome)" stroke="#f87980" stroke-width=".9"/>
+ <path d="M29 180C65 218 89 179 141 185C181 189 207 176 221 164C200 219 155 241 106 230C63 224 39 207 29 180Z" fill="url(#orb-lower)" stroke="#df5564" stroke-width="1.1"/>
+ <path d="M35 73C74 12 164 2 206 68M24 125C64 52 100 65 126 83M24 154C77 196 152 153 199 166" fill="none" stroke="#ffe1ce" stroke-width="1.5" opacity=".8"/>
+ <circle cx="120" cy="120" r="112" fill="url(#orb-shade)"/>
+ <circle cx="120" cy="120" r="111.2" fill="none" stroke="#ff7684" stroke-opacity=".65" stroke-width="1.2"/>
+</g></svg></div><p class="greeting">Good morning, Waiz</p><h1>WHAT’S ON YOUR MIND?</h1><p class="subtitle">Explore crypto. Understand the market. Research with confidence.</p></section>
+   <section id="conversation" class="conversation" aria-label="Conversation" aria-live="polite" hidden></section>
+   <form class="composer" id="chat-form"><label class="sr-only" for="message">Ask a crypto research question</label><textarea id="message" maxlength="500" placeholder="Ask Anything..." rows="2" required></textarea><div class="composer-toolbar"><div class="compose-options"><button type="button" id="source-button" title="Choose a PDF source" aria-label="Choose a PDF source">＋</button><select id="scope" aria-label="Research scope"><option value="general">▧ &nbsp; General</option><option value="source_specific">▧ &nbsp; Source</option></select><button type="button" id="mode-info" class="deep-think">☾ &nbsp; Evidence Search <span>⌄</span></button></div><div class="send-options"><span class="local-label">Private</span><button class="send" id="send" aria-label="Send message" title="Send message">➤</button></div></div><div class="source-picker" id="source-picker" hidden><label for="source">PDF source</label><select id="source"><option value="">Choose a document</option></select></div></form>
+   <div class="suggestions" id="suggestions"><button class="suggestion" data-prompt="How does position sizing help manage risk?"><span class="card-heading"><span class="card-icon blue">☷</span>Plan My Risk</span><span class="card-footer">Understand position sizing <span>→</span></span></button><button class="suggestion" data-prompt="What does RSI tell us about momentum?"><span class="card-heading"><span class="card-icon purple">◎</span>Explore an Indicator</span><span class="card-footer">Learn the signals <span>→</span></span></button><button class="suggestion" data-prompt="How do liquidity and order book depth affect execution?"><span class="card-heading"><span class="card-icon coral">▤</span>Read the Market</span><span class="card-footer">Explore market structure <span>→</span></span></button></div>
+   <section class="recent" id="recent"><h2><span>◷</span> Recent Conversations</h2><div id="history-list"></div><button class="see-more" id="see-more">See More <span>↓</span></button></section>
+   <p class="workspace-note">Reviewed knowledge search · Model evaluation in progress</p>
+  </main>
+ </div>
+</div>
+<dialog id="details"><div class="dialog-heading"><h2 id="dialog-title">Workspace</h2><button id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-body"></div></dialog><div id="toast" role="status" hidden></div>
+<script src="/chat.js"></script></body></html>

@@ -1,0 +1,41 @@
+[{"stream_name":"stdout","time":3.559125893,"data":"     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.1/40.1 kB 1.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.508833559,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 103.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.537587357,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 504.9/504.9 kB 25.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":4.563322073,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 374.9/374.9 kB 20.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.146596802,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.3/61.3 MB 31.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":5.174442509,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 566.4/566.4 kB 26.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stderr","time":37.184848274,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":121.929204083,"data":"\rFetching 5 files:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rFetching 5 files:  20%|██        | 1/5 [01:05\u003c04:21, 65.28s/it]\rFetching 5 files: 100%|██████████| 5/5 [01:05\u003c00:00, 13.06s/it]\n"}
+,{"stream_name":"stderr","time":166.97635637,"data":"\rLoading checkpoint shards:   0%|          | 0/5 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  20%|██        | 1/5 [00:05\u003c00:23,  5.76s/it]\rLoading checkpoint shards:  40%|████      | 2/5 [00:12\u003c00:19,  6.42s/it]\rLoading checkpoint shards:  60%|██████    | 3/5 [00:19\u003c00:13,  6.53s/it]\rLoading checkpoint shards:  80%|████████  | 4/5 [00:26\u003c00:06,  6.75s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:27\u003c00:00,  4.76s/it]\rLoading checkpoint shards: 100%|██████████| 5/5 [00:27\u003c00:00,  5.53s/it]\n"}
+,{"stream_name":"stderr","time":167.600067511,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":176.025030631,"data":"base conditional_evidence b010-04-supported-qa ready 65\n"}
+,{"stream_name":"stdout","time":183.983813977,"data":"base conditional_evidence b010-04-supported-declarative ready 67\n"}
+,{"stream_name":"stdout","time":190.580039032,"data":"base conditional_evidence b010-06-supported-qa ready 53\n"}
+,{"stream_name":"stdout","time":195.974776735,"data":"base conditional_evidence b010-06-supported-declarative ready 43\n"}
+,{"stream_name":"stdout","time":203.47388158,"data":"base conditional_evidence b010-10-supported-qa ready 62\n"}
+,{"stream_name":"stdout","time":210.593360149,"data":"base conditional_evidence b010-10-supported-declarative ready 61\n"}
+,{"stream_name":"stdout","time":216.476780141,"data":"base conditional_evidence b010-16-irrelevant-qa ready 45\n"}
+,{"stream_name":"stdout","time":222.831149707,"data":"base conditional_evidence b010-16-irrelevant-declarative ready 53\n"}
+,{"stream_name":"stdout","time":227.928988573,"data":"base conditional_evidence b010-22-irrelevant-qa ready 36\n"}
+,{"stream_name":"stdout","time":233.332454165,"data":"base conditional_evidence b010-22-irrelevant-declarative ready 42\n"}
+,{"stream_name":"stdout","time":240.472959346,"data":"base conditional_evidence b010-24-supported-qa ready 58\n"}
+,{"stream_name":"stdout","time":247.353146902,"data":"base conditional_evidence b010-24-supported-declarative ready 58\n"}
+,{"stream_name":"stdout","time":259.438952942,"data":"adapter010 conditional_evidence b010-04-supported-qa ready 92\n"}
+,{"stream_name":"stdout","time":268.559252903,"data":"adapter010 conditional_evidence b010-04-supported-declarative ready 67\n"}
+,{"stream_name":"stdout","time":274.184114119,"data":"adapter010 conditional_evidence b010-06-supported-qa ready 34\n"}
+,{"stream_name":"stdout","time":280.000122378,"data":"adapter010 conditional_evidence b010-06-supported-declarative ready 39\n"}
+,{"stream_name":"stdout","time":288.18573821,"data":"adapter010 conditional_evidence b010-10-supported-qa ready 58\n"}
+,{"stream_name":"stdout","time":296.540217158,"data":"adapter010 conditional_evidence b010-10-supported-declarative ready 62\n"}
+,{"stream_name":"stdout","time":305.442702507,"data":"adapter010 conditional_evidence b010-16-irrelevant-qa ready 64\n"}
+,{"stream_name":"stdout","time":314.042410913,"data":"adapter010 conditional_evidence b010-16-irrelevant-declarative ready 64\n"}
+,{"stream_name":"stdout","time":323.180109839,"data":"adapter010 conditional_evidence b010-22-irrelevant-qa ready 66\n"}
+,{"stream_name":"stdout","time":332.019004088,"data":"adapter010 conditional_evidence b010-22-irrelevant-declarative ready 67\n"}
+,{"stream_name":"stdout","time":337.477300725,"data":"adapter010 conditional_evidence b010-24-supported-qa ready 33\n"}
+,{"stream_name":"stdout","time":345.233955105,"data":"adapter010 conditional_evidence b010-24-supported-declarative ready 57\n"}
+,{"stream_name":"stderr","time":350.918424126,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":350.918457267,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":351.159239819,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":351.15926714,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":351.821474142,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":352.774488875,"data":"[NbConvertApp] Writing 334672 bytes to __results__.html\n"}
+]

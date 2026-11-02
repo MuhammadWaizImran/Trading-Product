@@ -1,0 +1,175 @@
+{
+  "before_validation": {
+    "eval_loss": 3.792656183242798,
+    "eval_model_preparation_time": 0.0024,
+    "eval_runtime": 12.8198,
+    "eval_samples_per_second": 0.936,
+    "eval_steps_per_second": 0.936
+  },
+  "after_validation": {
+    "eval_loss": 3.4165871143341064,
+    "eval_model_preparation_time": 0.0024,
+    "eval_runtime": 12.9176,
+    "eval_samples_per_second": 0.929,
+    "eval_steps_per_second": 0.929,
+    "epoch": 1.0
+  },
+  "train_metrics": {
+    "train_runtime": 227.232,
+    "train_samples_per_second": 0.317,
+    "train_steps_per_second": 0.079,
+    "total_flos": 385729872998400.0,
+    "train_loss": 3.2127983040279813,
+    "epoch": 1.0
+  },
+  "training_log": [
+    {
+      "loss": 3.5728,
+      "grad_norm": 1.9627373218536377,
+      "learning_rate": 0.0,
+      "epoch": 0.05555555555555555,
+      "step": 1
+    },
+    {
+      "loss": 3.1416,
+      "grad_norm": 2.0866787433624268,
+      "learning_rate": 2.5e-05,
+      "epoch": 0.1111111111111111,
+      "step": 2
+    },
+    {
+      "loss": 3.5099,
+      "grad_norm": 1.9762800931930542,
+      "learning_rate": 5e-05,
+      "epoch": 0.16666666666666666,
+      "step": 3
+    },
+    {
+      "loss": 3.4975,
+      "grad_norm": 1.7777773141860962,
+      "learning_rate": 4.6875e-05,
+      "epoch": 0.2222222222222222,
+      "step": 4
+    },
+    {
+      "loss": 3.5007,
+      "grad_norm": 1.6851576566696167,
+      "learning_rate": 4.375e-05,
+      "epoch": 0.2777777777777778,
+      "step": 5
+    },
+    {
+      "loss": 3.151,
+      "grad_norm": 1.3161849975585938,
+      "learning_rate": 4.0625000000000005e-05,
+      "epoch": 0.3333333333333333,
+      "step": 6
+    },
+    {
+      "loss": 3.7177,
+      "grad_norm": 1.6350518465042114,
+      "learning_rate": 3.7500000000000003e-05,
+      "epoch": 0.3888888888888889,
+      "step": 7
+    },
+    {
+      "loss": 3.141,
+      "grad_norm": 1.4769481420516968,
+      "learning_rate": 3.4375e-05,
+      "epoch": 0.4444444444444444,
+      "step": 8
+    },
+    {
+      "loss": 3.4595,
+      "grad_norm": 1.136711597442627,
+      "learning_rate": 3.125e-05,
+      "epoch": 0.5,
+      "step": 9
+    },
+    {
+      "loss": 3.0645,
+      "grad_norm": 1.4070101976394653,
+      "learning_rate": 2.8125000000000003e-05,
+      "epoch": 0.5555555555555556,
+      "step": 10
+    },
+    {
+      "loss": 3.2514,
+      "grad_norm": 1.087733507156372,
+      "learning_rate": 2.5e-05,
+      "epoch": 0.6111111111111112,
+      "step": 11
+    },
+    {
+      "loss": 3.3063,
+      "grad_norm": 1.2030552625656128,
+      "learning_rate": 2.1875e-05,
+      "epoch": 0.6666666666666666,
+      "step": 12
+    },
+    {
+      "loss": 3.3527,
+      "grad_norm": 1.0845023393630981,
+      "learning_rate": 1.8750000000000002e-05,
+      "epoch": 0.7222222222222222,
+      "step": 13
+    },
+    {
+      "loss": 3.0482,
+      "grad_norm": 1.1136486530303955,
+      "learning_rate": 1.5625e-05,
+      "epoch": 0.7777777777777778,
+      "step": 14
+    },
+    {
+      "loss": 2.2879,
+      "grad_norm": 1.0960655212402344,
+      "learning_rate": 1.25e-05,
+      "epoch": 0.8333333333333334,
+      "step": 15
+    },
+    {
+      "loss": 3.1067,
+      "grad_norm": 1.1410120725631714,
+      "learning_rate": 9.375000000000001e-06,
+      "epoch": 0.8888888888888888,
+      "step": 16
+    },
+    {
+      "loss": 2.5721,
+      "grad_norm": 1.2076128721237183,
+      "learning_rate": 6.25e-06,
+      "epoch": 0.9444444444444444,
+      "step": 17
+    },
+    {
+      "loss": 3.1487,
+      "grad_norm": 1.1770751476287842,
+      "learning_rate": 3.125e-06,
+      "epoch": 1.0,
+      "step": 18
+    },
+    {
+      "train_runtime": 227.232,
+      "train_samples_per_second": 0.317,
+      "train_steps_per_second": 0.079,
+      "total_flos": 385729872998400.0,
+      "train_loss": 3.2127983040279813,
+      "epoch": 1.0,
+      "step": 18
+    },
+    {
+      "eval_loss": 3.4165871143341064,
+      "eval_model_preparation_time": 0.0024,
+      "eval_runtime": 12.9176,
+      "eval_samples_per_second": 0.929,
+      "eval_steps_per_second": 0.929,
+      "epoch": 1.0,
+      "step": 18
+    }
+  ],
+  "factuality_review": "pending human review of baseline/adapted/reloaded responses",
+  "production_approved": false,
+  "profitability_evaluated": false,
+  "coverage": "Only the PDF-derived examples recorded in dataset_manifest.json"
+}

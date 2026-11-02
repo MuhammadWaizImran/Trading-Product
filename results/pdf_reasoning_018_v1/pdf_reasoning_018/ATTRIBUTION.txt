@@ -1,0 +1,51 @@
+Private PDF-derived educational examples. Answers are adaptations, not verbatim source text.
+Crypto for Beginners: Technical Analysis Course — Crypto Wealth Academy.
+Risk Management — Elisa Crypto.
+Cryptocurrency Trading ebook — Binance Academy.
+Order Book Liquidity on Crypto Exchanges — Martin Angerer, Marius Gramlich and Michael Hanke, 2025.
+https://doi.org/10.3390/jrfm18030124 ; CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Questions and answers paraphrase selected concepts and add qualifications listed per example.
+No author endorsement is implied. Underlying CryptoTick data are not included.
+
+Additional source: Patrick Scott (Dynamo DeFi), Introduction to On-Chain Analysis v3, DP07. User-attested training permission. Paraphrased with corrections and qualifications; no endorsement.
+
+Additional source DP01: 01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf. User-attested private training permission. Paraphrased/qualified; no endorsement.
+World Bank. 2018. Cryptocurrencies and Blockchain. Europe and Central Asia Economic Update (May), Washington, DC: World Bank. CC BY 3.0 IGO, https://creativecommons.org/licenses/by/3.0/igo/. This is an adaptation of an original work by The World Bank. Views and opinions expressed in the adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The World Bank. No third-party chart images reproduced.
+
+Additional source DP01: 01.-Cryptocurrencies-and-Blockchain-Author-World-Bank-Group (1).pdf. User-attested private training permission. Paraphrased/qualified; no endorsement.
+
+Additional source DP03: 03.-Crypto-currencies-and-the-Future-oF-Money-Author-IE-University.pdf. User-attested private training permission. Paraphrased/qualified; no endorsement.
+
+Additional source DP06: 593280526-Risk-Management.pdf. User-attested private training permission. Paraphrased/qualified; no endorsement.
+
+Additional source DP07: 682410368-Introduction-to-on-Chain-Analysis-v3.pdf. User-attested private training permission. Paraphrased/qualified; no endorsement.
+
+Additional source DP19: Order_Book_Liquidity_on_Crypto_Exchanges (1).pdf. User-attested private training permission. Paraphrased/qualified; no endorsement.
+World Bank. 2018. Cryptocurrencies and Blockchain. Europe and Central Asia Economic Update (May), Washington, DC: World Bank. CC BY 3.0 IGO, https://creativecommons.org/licenses/by/3.0/igo/. This is an adaptation of an original work by The World Bank. Views and opinions expressed in the adaptation are the sole responsibility of the author or authors of the adaptation and are not endorsed by The World Bank. No third-party chart images reproduced.
+Center for the Governance of Change, IE University. 2019. Cryptocurrencies and the Future of Money. Research directed by Mike Seiferling with Thamin Ahmed, Abeer Yehia ElBahrawy, Keith Chan and Tales Padilha; © 2020 CGC. CC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/. This private noncommercial adaptation corrects or qualifies identified source errors; no author endorsement is implied. No chart images reproduced.
+
+DP04: Peter Evans-Greenwood, Ian Harper, Robert Hillard and Peter Williams. 2015. The Future of Exchanging Value: Cryptocurrencies and the Trust Economy. Deloitte. Foreword: Nicholas Gruen. User-attested private training permission; no independently identified open license. Adaptations correct/qualify source claims; no endorsement or chart reproduction.
+
+DP05: 585511457-Crypto-for-Beginners-Technical-Analysis-Course.pdf. Selected reviewed adaptations only. User-attested private-training permission; no redistribution authorized. Source corrections are adaptations, not author quotations.
+
+DP10: 820809429-Mastering-Crypto-Day-Trading-From-Blockchain-Basics-to-Profits.pdf. Selected reviewed adaptations only. User-attested private-training permission; no redistribution authorized. Source corrections are adaptations, not author quotations.
+
+DP17: cryptocurrency-trading-ebook-binance-academy-8299.pdf. Selected reviewed adaptations only. User-attested private-training permission; no redistribution authorized. Source corrections are adaptations, not author quotations.
+
+DP16: bitcoin-and-cryptocurrency-technologies-arvind-narayanan-joseph-bonneau-edward-felten-andrew-miller-steven-goldfeder-8297.pdf. Selected reviewed adaptations only. User-attested private-training permission; no redistribution authorized. Source corrections are adaptations, not author quotations.
+
+Run009: source-attribution contrasts use previously reviewed page-traceable adaptations. No additional PDF or redistribution rights claimed.
+
+Run010: user-attested private training permission; reviewed adaptations and original grounding exercises. No redistribution rights asserted.
+
+SFT011:72 reviewed correction examples; user-attested private training permission. No added document coverage or redistribution rights.
+
+SFT012: same72 reviewed examples serialized into an explicit evidence-status response contract. Private training only.
+
+Run013 adds original applications of reviewed passages, including DP10 p143 corrected leverage definition. User-attested private training permission only.
+
+Run014: identical reviewed examples and private permission basis; adapter coverage experiment only.
+
+Run015: identical reviewed examples and private permission basis; learning-rate experiment only.
+
+Run017: mixed-evidence augmentation from existing training passages only; private permission unchanged.
